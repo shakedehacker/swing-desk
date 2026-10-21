@@ -347,7 +347,7 @@ h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)
 .chip{display:inline-block;margin:6px 6px 0 0;padding:2px 9px;border:1px solid var(--line);border-radius:999px;font-size:12px;color:var(--mut);text-transform:none;letter-spacing:0}
 .dh .chip,h2 .chip{margin:0}
 details{margin-top:6px}summary{cursor:pointer;min-height:44px;display:flex;align-items:center;color:var(--mut);font-size:14px}
-.hero summary{color:var(--acc)}summary::before{content:"\25B8";margin-right:8px;transition:transform .15s}details[open]>summary::before{transform:rotate(90deg)}summary::-webkit-details-marker{display:none}summary{list-style:none}
+.hero summary{color:var(--acc)}summary::before{content:"\\25B8";margin-right:8px;transition:transform .15s}details[open]>summary::before{transform:rotate(90deg)}summary::-webkit-details-marker{display:none}summary{list-style:none}
 .links{list-style:none;padding:0;margin:0}.links li{padding:8px 0;border-top:1px solid var(--line);font-size:14px}
 .skips{list-style:none;padding:0;margin:8px 0 0;background:var(--panel);border:1px solid var(--line);border-radius:14px}
 .skips li{display:grid;grid-template-columns:64px 1fr;gap:10px;padding:12px 16px;border-top:1px solid var(--line);font-size:14px}.skips li:first-child{border-top:0}

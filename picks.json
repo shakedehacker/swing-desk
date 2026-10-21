@@ -538,43 +538,43 @@
  "macro": [
   [
    "S&P fut",
-   7776.5,
-   0.27400792
+   7778.25,
+   0.29657328
   ],
   [
    "Nasdaq fut",
-   29915.25,
-   0.80875474
+   29920.5,
+   0.8264463
   ],
   [
    "VIX",
-   17.04,
-   -1.5606853
+   17.11,
+   -1.1547278
   ],
   [
    "US 10Y",
-   5.148,
-   0.6060633
+   5.144,
+   0.52724916
   ],
   [
    "Brent",
-   110.38,
-   1.4615281
+   110.26,
+   1.3512282
   ],
   [
    "Gold",
-   4127.9,
-   -0.35485432
+   4128.8,
+   -0.3331312
   ],
   [
    "Bitcoin",
-   84268.64,
-   2.1424332
+   84281.11,
+   2.1575468
   ],
   [
    "Dollar",
-   101.826,
-   0.122909315
+   101.809,
+   0.10619533
   ]
  ],
  "sectors": [
@@ -736,10 +736,16 @@
    "Wed, 21 Oct 2026 16:00:00 GMT"
   ],
   [
-   "Wall Street ticks higher after SpaceX helps lift AI stocks - Pittsburgh Post-Gazette",
-   "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLWRtWnBlX1BvdHRxSmx6TlM1QXJhdlZzeXg4MFpUczVsamsybnYxSTNDODc2NjBHa0pEZTl2RXVyNmI0TVh1LUNPZVNlQkY3WUJrTGNTYkI2TmZ6VHU2d1MtUXd2Rk5oODNwa0N2c0JHWHJJQWQ0c0FnMm1vM1FsTWtRbnh5Z2w2WUw5UkxRWmdnRnFlNEh3LUJiRmdOeUJpRTZQUWd4M29RU2w1WEsw?oc=5",
-   "Pittsburgh Post-Gazette",
-   "Wed, 21 Oct 2026 18:20:39 GMT"
+   "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
+   "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelc2MWNXdDZ4ZkJJRHVnWXJZVGVOS21Tb0lLM3Y0Sk9ibmVCVHhlaldIVUwwTnItSWI5X0pIZUNzdEY1QzNNRlBtdEtJTjQyR3N5a2hIbUVtMG1yWWtzWElHS2dVLWpqeHhId1dyMUp0cUI0NHNrbmZBUlhIUkItVmlMWG9MQnFVN0NRcllWVE00Z0tNcGJkMFBNeEtVSndJY184?oc=5",
+   "FocusEconomics",
+   "Wed, 21 Oct 2026 13:49:04 GMT"
+  ],
+  [
+   "Russell U.S. Style Indices Forced Into Rethink by Concentrated U.S. Stock Market - ETF Trends",
+   "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVzNnbFdhMTk3UlN6V2ZsbVFhdU9oR0I2MXIzd1pSSFQtcW94b1VpVDdDVjk2UE5kQlQwVnRudFhrZ2RSM2xzZVptR2x4M1VLa1ZmSHRUcEZ6YV9ZMHV4MUJOX0trcTdremswQ3dWQmotTHBvc2lBZENabXhqUzVldWxkZHQxT0IzSXJCMHRxWGFhNmVQRmctNlVoaGRsaHFpa0JLUk9VSVo4WHk2YUgtSk5nOGx3Rk5PcmdhMNIBwgFBVV95cUxQTVFxYi03WnNwS0o4TnF5MzJCdGh4dUNZdkJqcGg3dFIzOHdVVU1QWUtJQzBzVjRuSlR2eW9XY2FwVmFvOHZWZHFfdjJGWHlUSlZzLWllM3F5N2NmWVk1Z2RBUkh2Q256WHlaVTJpajUxcV8takhFdE5rRUp3UG5YdElPV1BwR2JZTThWVjFNVkJ2M1l0NWstd2xGakZiUGNlbDhpVXRWWndVZmdPX2ZOeTEteFpaVjVEZ2RCVnVQT0JyQQ?oc=5",
+   "ETF Trends",
+   "Wed, 21 Oct 2026 15:36:37 GMT"
   ],
   [
    "Gains in Sports Team Values Lag Stock Market Since 2022 - Sportico.com",
@@ -748,16 +754,10 @@
    "Wed, 21 Oct 2026 11:58:44 GMT"
   ],
   [
-   "Russell U.S. Style Indices Forced Into Rethink by Concentrated U.S. Stock Market - ETF Database",
-   "https://news.google.com/rss/articles/CBMimAFBVV95cUxORThJdGpNVE1QWkVSb3JWY2psMUxJN0tsbmVwWEltZVBlQUp4eUFjVnRuOGZYV1VpTWVqb1M2NVNPZmFxaTlzTHJUVmltTVlnUTFDb3hHaDduTGc1ajh4NVBMY2dlUmxaN0dTRXVlZWNYeHhwU2NlQ2t2SjV3UHZveE10M3luaGFKY1prRmRldWNMMnFYZnhOYw?oc=5",
-   "ETF Database",
-   "Wed, 21 Oct 2026 15:55:27 GMT"
-  ],
-  [
-   "Musk's SpaceX helps launch stock market gains - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSlVqZGkwZHAzbi1NaV8xMTdXLUcxelRJU1NsSTh6cW1DdXpBbmkyWXNaOUJRS2VrbVFEU3MxZUp3al9KczBOSUpVRGNVa1hQLXhLd0VIUmhsQ0RVUThUX1NralJNVWhsRWpDUHlrZEFsOG9pSkM4cV9pZWdTc0hGZ25LWDlZN3FEZ0x2bUxxZWlfRXRJbzlzWlRjcjZVNlh0OTFR?oc=5",
+   "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the Smartest Move Investors Can Make - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMingFBVV95cUxPYjJOS3VQS00zTHNGVG5fSjljX1ByRjZMQVozMEt3WVNwdWhfU00wTjZEUHpIZThFNFZUWG5QNTJoOTBVN3NRMWhnTHNZd1dJa1lRenJMVExzZEpVYmRSQzIwU0V2dkRlR1M3VGdUTTJvNC1ZQnZUWVBqbHhDMHVfMzB3dzMzSVdka19qS3BJbElEdEREME54eHM2TVBQZw?oc=5",
    "Yahoo Finance",
-   "Wed, 21 Oct 2026 15:47:00 GMT"
+   "Wed, 21 Oct 2026 07:20:00 GMT"
   ],
   [
    "5 Things to Know Before the Stock Market Opens on Wednesday - Investopedia",
@@ -766,41 +766,5 @@
    "Wed, 21 Oct 2026 12:23:06 GMT"
   ]
  ],
- "cal": [
-  [
-   "2026-10-22 08:30:00-04:00",
-   "Unemployment Claims",
-   "Medium",
-   "200K",
-   "199K"
-  ],
-  [
-   "2026-10-23 09:45:00-04:00",
-   "Flash Manufacturing PMI",
-   "Medium",
-   "55.4",
-   "57.0"
-  ],
-  [
-   "2026-10-23 09:45:00-04:00",
-   "Flash Services PMI",
-   "Medium",
-   "57.9",
-   "58.7"
-  ],
-  [
-   "2026-10-23 10:00:00-04:00",
-   "Revised UoM Consumer Sentiment",
-   "Medium",
-   "46.3",
-   "46.3"
-  ],
-  [
-   "2026-10-23 10:00:00-04:00",
-   "Revised UoM Inflation Expectations",
-   "Medium",
-   "",
-   "4.7%"
-  ]
- ]
+ "cal": []
 }
