@@ -322,8 +322,8 @@ if __name__ == "__main__":
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     r = build()
     open(OUT, "w").write(render(r))
-    if True:  # picks.json: committed by the workflow, read by the Claude research routine (its sandbox can't reach Yahoo)
-        json.dump(dict(asof=r["asof"], picks=[{k: v for k, v in p.items() if k not in ("ai",)} for p in r["picks"]],
-                       macro=r["macro"], sectors=r["sectors"], news=r["news"], cal=[(str(w), *x) for w, *x in r["cal"]]),
-                  open(os.path.join(desk.HERE, "picks.json"), "w"), indent=1, default=str)
+    # picks.json: committed by the workflow, read by the Claude research routine (its sandbox can't reach Yahoo)
+    json.dump(dict(asof=r["asof"], picks=[{k: v for k, v in p.items() if k != "ai"} for p in r["picks"]],
+                   macro=r["macro"], sectors=r["sectors"], news=r["news"], cal=[(str(w), *x) for w, *x in r["cal"]]),
+              open(os.path.join(desk.HERE, "picks.json"), "w"), indent=1, default=str)
     print(OUT, f"{sum(p['kind'] == 'SIGNAL' for p in r['picks'])} signals, {len(r['picks'])} rows, {len(r['news'])} headlines")
