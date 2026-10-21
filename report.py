@@ -5,10 +5,10 @@ Picks come only from rules that backtested with an edge; confidence is that buck
 backtest win rate, recomputed every run on 2y of data. Slots the edge can't fill become a
 labelled watchlist, never fake picks.
 """
-import os, json, time, html, re, datetime as dt, urllib.request, xml.etree.ElementTree as ET
+import os, sys, json, time, html, re, datetime as dt, urllib.request, xml.etree.ElementTree as ET
 from collections import defaultdict
 from zoneinfo import ZoneInfo
-import desk
+import desk, ai
 from desk import ema, atr, pct, quotes, trading_days_until
 
 OUT = os.path.join(desk.HERE, "site", "index.html")
@@ -153,10 +153,59 @@ def build():
         trig = b["c"][-5] * 0.90  # price where it becomes a 10% 5-day dip tomorrow (approx)
         picks.append(dict(t=t, kind="WATCH", rule="watch", c=c, buy=trig, tgt=b["_e5"][-1], stop=trig - 2 * a, days=None,
                           conf=None, s=None, ed=None, name=z.get("shortName", ""), drop=d5))
-    for p in picks:
-        p["news"] = feed(f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={p['t']}&region=US&lang=en-US", 2)
-    return dict(picks=picks, n_dip=n_dip, n_sig=len(today), table=table, asof=max(b["d"][-1] for b in data.values()),
-                news=headlines(), cal=econ_calendar(), earn=earnings_week(set(uni)), macro=macro(), sectors=sectors())
+    for p in picks: p["news"] = ticker_news(p["t"])
+    r = dict(picks=picks, n_dip=n_dip, n_sig=len(today), table=table, asof=max(b["d"][-1] for b in data.values()),
+             news=headlines(), cal=econ_calendar(), earn=earnings_week(set(uni)), macro=macro(), sectors=sectors())
+    apply_ai(r)
+    r["track"] = track(r)
+    return r
+
+def ticker_news(t):
+    seen, out = set(), []
+    for h in feed(f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={t}&region=US&lang=en-US", 6) + \
+             feed(f"https://news.google.com/rss/search?q={t}+stock+when:7d&hl=en-US&gl=US&ceid=US:en", 6):
+        k = re.sub(r"\W", "", h[0].lower())[:50]
+        if k not in seen: seen.add(k); out.append(h)
+    return out[:10]
+
+AI_FILE = os.path.join(desk.HERE, "ai.json")
+def apply_ai(r):
+    """Claude's research (ai.json from the daily routine) if it covers today's data, else free Groq checks."""
+    cl = json.load(open(AI_FILE)) if os.path.exists(AI_FILE) else {}
+    if cl.get("asof") != r["asof"]: cl = {}
+    r["ai_source"] = cl.get("model", "Claude") + " research" if cl else ("Groq quick check" if os.environ.get("GROQ_API_KEY") else None)
+    r["note"] = cl.get("note") or ai.desk_note(r["macro"], r["sectors"], r["news"], r["cal"], r["picks"])
+    for p in r["picks"]:
+        p["ai"] = (cl.get("picks") or {}).get(p["t"]) if cl else ai.check_pick(p, [h for h, *_ in p["news"]])
+        v = (p["ai"] or {}).get("verdict")
+        if p["conf"] is not None and v == "CAUTION": p["conf"] = max(1.0, p["conf"] - 1)
+        if p["conf"] is not None and v == "VETO": p["conf"] = 0.0
+    r["picks"].sort(key=lambda p: (p["kind"] != "SIGNAL", (p["ai"] or {}).get("verdict") == "VETO"))
+
+HIST = os.path.join(desk.HERE, "history.json")
+def track(r):
+    """Log today's signals, then score every logged pick against real prices (limit fill, target/stop/day-6 exit)."""
+    hist = json.load(open(HIST)) if os.path.exists(HIST) else []
+    have = {(h["asof"], h["t"]) for h in hist}
+    for p in r["picks"]:
+        if p["kind"] == "SIGNAL" and (r["asof"], p["t"]) not in have:
+            hist.append(dict(asof=r["asof"], t=p["t"], buy=round(p["buy"], 2), tgt=round(p["tgt"], 2), stop=round(p["stop"], 2),
+                             conf=round(p["conf"], 1), verdict=(p["ai"] or {}).get("verdict")))
+    json.dump(hist, open(HIST, "w"), indent=1)
+    rows = []
+    for h in hist:
+        b = desk.bars(h["t"])
+        i = b["d"].index(h["asof"]) if b and h["asof"] in b["d"] else None
+        if i is None or i + 1 >= len(b["d"]): rows.append(dict(h, status="pending", ret=None)); continue
+        if b["l"][i + 1] > h["buy"]: rows.append(dict(h, status="not filled: stayed above limit", ret=None)); continue
+        en, res = min(b["o"][i + 1], h["buy"]), None  # day limit order: fills at the open or when price dips to the limit
+        for j in range(i + 1, min(i + 7, len(b["d"]))):
+            if b["l"][j] <= h["stop"]: res = ("stop", pct(h["stop"], en)); break  # ponytail: stop assumed first when both hit
+            if b["h"][j] >= h["tgt"]: res = ("target", pct(h["tgt"], en)); break
+        if not res:
+            res = ("time exit", pct(b["c"][i + 6], en)) if i + 6 < len(b["d"]) else ("open", pct(b["c"][-1], en))
+        rows.append(dict(h, status=res[0], ret=res[1]))
+    return rows
 
 def macro():
     m = {"ES=F": "S&P fut", "NQ=F": "Nasdaq fut", "^VIX": "VIX", "^TNX": "US 10Y", "BZ=F": "Brent", "GC=F": "Gold",
@@ -173,6 +222,7 @@ def sectors():
 # ---------- html ----------
 E = html.escape
 def sign(x): return "up" if x > 0 else "dn" if x < 0 else ""
+def fmt_ret(x): return "" if x is None else f"{x:+.1f}%"
 
 def render(r):
     il = dt.datetime.now(ZoneInfo("Asia/Jerusalem"))
@@ -195,7 +245,14 @@ def render(r):
             plan = (f'<div class="lv"><span>Becomes a signal near</span><b>{p["buy"]:.2f}</b></div>'
                     f'<div class="lv mut"><span>Re-check tomorrow\'s report</span></div>')
             tag = "Watchlist"
-        news = "".join(f'<a href="{E(u)}" target="_blank" rel="noopener">{E(h)}</a>' for h, u, _, _ in p["news"])
+        news = "".join(f'<a href="{E(u)}" target="_blank" rel="noopener">{E(h)}</a>' for h, u, _, _ in p["news"][:2])
+        a = p.get("ai")
+        if a:
+            src = "".join(f' <a href="{E(x.get("url", ""))}" target="_blank" rel="noopener">[{k + 1}]</a>' for k, x in enumerate(a.get("sources", [])[:4]))
+            extra = f'<div class="mut">{E(a["catalysts"])}</div>' if a.get("catalysts") else ""
+            flags = "".join(f'<span class="flag">{E(f)}</span>' for f in a.get("flags", []))
+            news = (f'<div class="ai {a["verdict"].lower()}"><b>AI {E(a["verdict"])}</b> <i>{E(a.get("cause", ""))}</i> '
+                    f'{E(a.get("why", ""))}{src}{extra}<div>{flags}</div></div>') + news
         rows.append(f'''<article class="pick {p["kind"].lower()}">
   <div class="top"><span class="rank">{i}</span><div><h3>{E(p["t"])}</h3><div class="mut">{E(p["name"])}</div></div>
   <span class="tag">{tag}</span></div>
@@ -206,6 +263,16 @@ def render(r):
     sec_html = "".join(f'<tr><td>{E(n)}</td><td class="{sign(a)}">{a:+.1f}%</td><td class="{sign(b)}">{b:+.1f}%</td></tr>' for a, n, b in r["sectors"])
     news_html = "".join(f'<li><a href="{E(u)}" target="_blank" rel="noopener">{E(h)}</a><span>{E(s)}</span></li>' for h, u, s, _ in r["news"])
     cal_html = "".join(f'<tr><td>{w.astimezone(il.tzinfo):%a %H:%M}</td><td>{E(t)}</td><td class="{"dn" if imp == "High" else ""}">{imp}</td><td>{E(f)}</td><td>{E(pv)}</td></tr>' for w, t, imp, f, pv in r["cal"])
+    note = r.get("note")
+    note_html = (f'<h2>Desk note · {E(note.get("mood", ""))}</h2><div class="rules note"><ul>'
+                 + "".join(f"<li>{E(b)}</li>" for b in note["bullets"]) + f'</ul><div class="mut">AI: {E(r["ai_source"] or "")}. Built only from data on this page; not a forecast.</div></div>') if note else ""
+    done = [t for t in r["track"] if t["ret"] is not None and t["status"] != "open"]
+    summ = (f'{len(done)} closed · {sum(t["ret"] > 0 for t in done) / len(done) * 100:.0f}% win · {sum(t["ret"] for t in done) / len(done):+.2f}% avg per trade'
+            if done else "No closed trades yet: the log started 2026-10-21.")
+    track_html = (f'<p class="mut">{summ} · backtest expectation about 65% win, +1.2% avg. Fill = day limit order at the buy limit.</p><table>'
+                  + "".join(f'<tr><td>{t["asof"]}</td><td><b>{E(t["t"])}</b></td><td>{t["conf"]}</td><td>{E(t.get("verdict") or "")}</td>'
+                            f'<td>{E(t["status"])}</td><td class="{sign(t["ret"] or 0)}">{fmt_ret(t["ret"])}</td></tr>'
+                            for t in reversed(r["track"][-20:])) + "</table>")
     earn_html = "".join(f'<tr><td>{d:%a %d %b}</td><td>{E(", ".join(n) or "-")}</td></tr>' for d, n in r["earn"])
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Swing Desk</title><meta name="robots" content="noindex">
@@ -232,18 +299,22 @@ h1{{margin:0;font-size:22px;letter-spacing:.04em}}h1 b{{color:var(--acc)}}h2{{fo
 .cols{{display:grid;grid-template-columns:1.4fr 1fr;gap:20px}}ul{{list-style:none;padding:0;margin:0}}
 li{{padding:7px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px}}li span{{color:var(--mut);font-size:12px;flex:none;max-width:30%;text-align:right}}
 table{{width:100%;border-collapse:collapse;font-size:13px}}td{{padding:6px 4px;border-bottom:1px solid var(--line)}}
+.ai{{margin-top:10px;padding:8px 10px;border-radius:8px;background:var(--bg);font-size:13px;border-left:3px solid var(--mut)}}
+.ai.confirm{{border-color:var(--up)}}.ai.caution{{border-color:var(--acc)}}.ai.veto{{border-color:var(--dn)}}.ai a{{color:var(--acc)}}.ai i{{color:var(--mut)}}
+.flag{{display:inline-block;margin:4px 4px 0 0;padding:1px 7px;border:1px solid var(--line);border-radius:10px;font-size:11px;color:var(--mut)}}
+.note ul{{margin:0 0 6px}}.note li{{border:0;padding:3px 0;display:list-item;list-style:disc inside;color:var(--txt)}}
 .rules{{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:13px;color:var(--mut)}}
 @media (max-width:720px){{.grid,.cols{{grid-template-columns:1fr}}.lv span{{min-width:120px}}}}
 </style></head><body><main>
 <header><h1>SWING <b>DESK</b></h1><div class="mut">Updated {il:%a %d %b %Y, %H:%M} Israel · data as of {r["asof"]} close · US open 16:30</div></header>
 <div class="strip">{macro_html}</div>
-<h2>Today's top {TOP}</h2><p class="mut">{head}. Entries are LIMIT orders at the US open: if it opens above the buy limit, skip. Attach the bracket (take profit + stop) GTC. Exit by day 6 regardless.</p>
+{note_html}<h2>Today's top {TOP}</h2><p class="mut">{head}. Entries are LIMIT orders at the US open: if it opens above the buy limit, skip. Attach the bracket (take profit + stop) GTC. Exit by day 6 regardless.</p>
 {"".join(rows) or '<p class="mut">No setups today.</p>'}
 <div class="cols"><section><h2>Headlines</h2><ul>{news_html}</ul></section>
 <section><h2>Sector flows · 5d / 20d</h2><table>{sec_html}</table>
 <h2>US economic calendar</h2><table>{cal_html or '<tr><td class="mut">nothing major</td></tr>'}</table>
 <h2>Earnings next 5 days</h2><table>{earn_html}</table></section></div>
-<h2>Rules</h2><div class="rules">Confidence = this exact setup's win rate in a 2-year backtest of S&amp;P 500+400 stocks, recomputed daily (survivorship bias, no costs: real results are lower).
+<h2>Track record · live picks</h2>{track_html}<h2>Rules</h2><div class="rules">Confidence = this exact setup's win rate in a 2-year backtest of S&amp;P 500+400 stocks, recomputed daily (survivorship bias, no costs: real results are lower).
 Correlated picks are one bet: risk at most 1-2% of the account across all of them. Never hold through earnings (filtered out here). Not financial advice.</div>
 </main></body></html>'''
 
@@ -251,4 +322,8 @@ if __name__ == "__main__":
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     r = build()
     open(OUT, "w").write(render(r))
+    if "--json" in sys.argv:  # input for the Claude research routine
+        json.dump(dict(asof=r["asof"], picks=[{k: v for k, v in p.items() if k not in ("ai",)} for p in r["picks"]],
+                       macro=r["macro"], sectors=r["sectors"], news=r["news"], cal=[(str(w), *x) for w, *x in r["cal"]]),
+                  open(os.path.join(desk.HERE, "picks.json"), "w"), indent=1, default=str)
     print(OUT, f"{sum(p['kind'] == 'SIGNAL' for p in r['picks'])} signals, {len(r['picks'])} rows, {len(r['news'])} headlines")
