@@ -1,0 +1,30 @@
+name: daily-report
+on:
+  schedule:
+    # 9:00 Israel = 06:00 UTC (summer) / 07:00 UTC (winter). GitHub cron can lag, so run early twice.
+    - cron: "0 5 * * 1-5"
+    - cron: "45 5 * * 1-5"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency: { group: pages, cancel-in-progress: true }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.deploy.outputs.page_url }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python report.py
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+      - id: deploy
+        uses: actions/deploy-pages@v4
+      # Scheduled workflows stop after 60 days without repo activity; a dated commit keeps them alive.
+      - run: |
+          date -u +%F > last_run.txt
+          git config user.name desk-bot && git config user.email desk-bot@users.noreply.github.com
+          git add last_run.txt && git commit -m "report $(date -u +%F)" && git push || true
