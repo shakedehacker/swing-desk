@@ -1,0 +1,1037 @@
+{
+ "asof": "2026-10-21",
+ "picks": [
+  {
+   "t": "HPE",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 57.625,
+   "buy": 52.767000961303715,
+   "tgt": 58.18174899024106,
+   "stop": 45.155572564261306,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Hewlett Packard Enterprise Comp",
+   "drop": -8.691175023458786,
+   "news": [
+    [
+     "Supermicro stock jumps as server maker lifts revenue forecast",
+     "https://finance.yahoo.com/markets/article/supermicro-stock-jumps-as-server-maker-lifts-revenue-forecast-122408188.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 12:24:08 +0000"
+    ],
+    [
+     "Super Micro Surges 12% as Preliminary Revenue Tops Guidance Range; Dell Jumps 7%, Hewlett Packard Enterprise Climbs 5%",
+     "https://247wallst.com/investing/2026/10/21/super-micro-surges-12-as-preliminary-revenue-tops-guidance-range-dell-jumps-7-hewlett-packard-enterprise-climbs-5/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 13:08:47 +0000"
+    ],
+    [
+     "HPE Teams With NVIDIA to Advance Secure Agentic AI Across Enterprises and Industrial Environments",
+     "https://finance.yahoo.com/technology/ai/articles/hpe-teams-nvidia-advance-secure-113000816.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 11:30:00 +0000"
+    ],
+    [
+     "HPE Spaceborne Computer to Power High Performance Computing and AI on the Moon",
+     "https://finance.yahoo.com/technology/ai/articles/hpe-spaceborne-computer-power-high-140000728.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 14:00:00 +0000"
+    ],
+    [
+     "HPE Has a 12x Forward PE and 400% Growth. So Why Won\u2019t Wall Street Touch It?",
+     "https://247wallst.com/investing/2026/10/20/hpe-has-a-12x-forward-pe-and-400-growth-so-why-wont-wall-street-touch-it/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 11:31:21 +0000"
+    ],
+    [
+     "NVIDIA Introduces DSX POD AI Factories to Accelerate Europe\u2019s Infrastructure Deployment",
+     "https://finance.yahoo.com/technology/ai/articles/nvidia-introduces-dsx-pod-ai-093400382.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 09:34:00 +0000"
+    ],
+    [
+     "Why Hewlett Packard Enterprise (HPE) Stock Is Trading Lower Today - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUllLNGJydnlyOTY3VEFqZFQ5ZEJJSXNIazBjQ2sxMU4zOFNpN2p0SlktV0ktSVRiZzdDSFN6OXNwcGZfTFROVnlNaTdJeVhlV3dzSlFCNERFWk9hTnVQT3B4MVktQmxWT1pQekc1N09SWUJBX01EdHUxOXJRUElLZk5qWjZucXlBMHBvbDViVm83bHRvLWFsVnZYZTFnT1Z2?oc=5",
+     "Yahoo Finance",
+     "Wed, 14 Oct 2026 18:12:07 GMT"
+    ],
+    [
+     "HPE Stock\u2019s Worst Week Ever Exposes Wall Street\u2019s Newest Fear - Barron's",
+     "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnWExPUlBUcG9IRmcyY0g2Z1BuS3Vfd3RBaDlhMkk0LWVXSnNyRkZaQXNLYk9keldDdlYtcnpaWFZiWjRiOFU5a1dfTmwySTNiSEhLZ19SWHNZcFMxbV9scjU2T2tBV2M3Y3dIYkwzOElRQXFlUUV3?oc=5",
+     "Barron's",
+     "Fri, 16 Oct 2026 17:55:00 GMT"
+    ],
+    [
+     "Why Hewlett Packard Enterprise Stock Plunged 20% This Week - The Motley Fool",
+     "https://news.google.com/rss/articles/CBMiswFBVV95cUxObjUtaFdITGpGS1h0QVZmdHVZNmRaR3hEOWRUU2FGWmNfYkRmRXlTZTA0eWtmY01VRDk1SVF0MnJ0clppQnNwbWdLYXRGYjdnajFSOTcxNUJqaTVSQ1I0d0pQRlY1Zk5KVkVOaE5hUENPbGs1cldPWmkxdml1VkhHLWFqZFZoSDdObkl1UmNKb096dmJLZnBNMkNZYnh2cWNjOXpwWFdHb1hpVWxQcFFlQ3NHQQ?oc=5",
+     "The Motley Fool",
+     "Fri, 16 Oct 2026 15:13:00 GMT"
+    ],
+    [
+     "HPE Stock Alert: Barclays Just Delivered A Stark Warning After 145% Rally - Barchart.com",
+     "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVjlhWjEyc081ci1yNUNGUVp6WDVDc0Fkd1lzcV8zNWFzaG1PMjNCbkljYl8zeDlEaHh2Wm1uYXFBdTFXa3lBLXlic01xd2dCU0JCdVJnM1l4ZzBqWkhfR0dyYnc3QnR3NHVCa1lxd0NtVzljWTM1d0RrQ2tpWjE5NkFMNHpBXzIzcGFOLWtZMk9xeWJ1blZ0c1pWRm5WMXprS2gtam40aFd2WE12U1NNc0g0Qkhodw?oc=5",
+     "Barchart.com",
+     "Sun, 18 Oct 2026 15:15:02 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "FORM",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 110.7699966430664,
+   "buy": 102.00599670410156,
+   "tgt": 112.03151535303435,
+   "stop": 85.87728663853237,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "FormFactor, Inc.",
+   "drop": -7.468049878688743,
+   "news": [
+    [
+     "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know",
+     "https://finance.yahoo.com/markets/stocks/articles/formfactor-teradyne-applied-materials-amd-173627052.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 15 Oct 2026 17:36:27 +0000"
+    ],
+    [
+     "FormFactor stock rises on $300M Teradyne investment deal",
+     "https://finance.yahoo.com/markets/stocks/articles/formfactor-stock-rises-300m-teradyne-204847201.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 12 Oct 2026 20:48:47 +0000"
+    ],
+    [
+     "FormFactor and Teradyne Announce Strategic Collaboration to Accelerate Next-Generation Semiconductor Testing",
+     "https://finance.yahoo.com/technology/articles/formfactor-teradyne-announce-strategic-collaboration-200100887.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 12 Oct 2026 20:01:00 +0000"
+    ],
+    [
+     "FormFactor (FORM) Is Back In The Spotlight, What Is Behind The Attention?",
+     "https://finance.yahoo.com/markets/stocks/articles/formfactor-form-back-spotlight-behind-001614660.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sun, 11 Oct 2026 00:16:14 +0000"
+    ],
+    [
+     "Does FormFactor\u2019s S&P 400 Upgrade Reframe Its Mid-Cap Investment Narrative for FORM Holders?",
+     "https://finance.yahoo.com/markets/stocks/articles/does-formfactor-p-400-upgrade-231057950.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 10 Oct 2026 23:10:57 +0000"
+    ],
+    [
+     "FormFactor (FORM) Stock Could Be 33% Undervalued After AI Testing News",
+     "https://finance.yahoo.com/markets/stocks/articles/formfactor-form-stock-could-33-221133899.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 10 Oct 2026 22:11:33 +0000"
+    ],
+    [
+     "FormFactor, Inc. (FORM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6eXNRN0RreXp5aUJONzROSV9SZ3RIX29QY3JZMldQTmlmdWRCY3lXMDRQTGJIcTRFaXAxQVc4bGVTRHVMYVN1ZUpSWExmanBrTVE?oc=5",
+     "Yahoo! Finance Canada",
+     "Wed, 21 Oct 2026 07:48:02 GMT"
+    ],
+    [
+     "FormFactor, Inc. (FORM) stock price, news, quote and history - Yahoo Finance UK",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aX0MydWZHVGpINTVJT3NLcExXQnlOc0tfMmpqNG55TkgwdWczQ0VNdEJBeGE0SmF5V3VPZ1hWQllFeDl1RXNueVZqUTV6QndNRXc?oc=5",
+     "Yahoo Finance UK",
+     "Wed, 21 Oct 2026 07:48:30 GMT"
+    ],
+    [
+     "Musk says SpaceX-Tesla merger is 'a good idea' as companies form deal committees - Reuters",
+     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5",
+     "Reuters",
+     "Tue, 20 Oct 2026 20:08:00 GMT"
+    ],
+    [
+     "FormFactor (NasdaqGS:FORM) Stock Forecast & Analyst Predictions - Simply Wall Street",
+     "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX0lORFhwZ0pkR1Q0akx5UUxwYm5zWWpsVV9OeHJJWVY1YXRuVHJkeTlMRC1BS2U3b0FwcU8waWlmM1B6SkFSdkxCT0hCSEEyalY5UVQyZ1o1U3JDNFp3akNlaGw3c2JhVW1ZUldyOXpkWHVMY0ZGcnVBSUFEMzB1cEhR?oc=5",
+     "Simply Wall Street",
+     "Thu, 15 Oct 2026 07:00:00 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "P",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 131.4949951171875,
+   "buy": 120.05999450683593,
+   "tgt": 131.45707521436628,
+   "stop": 104.21512843540737,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Everpure, Inc.",
+   "drop": -7.0641105293189455,
+   "news": [
+    [
+     "Everpure (P) Stock May Trade At A Premium On Recurring Revenue",
+     "https://finance.yahoo.com/markets/stocks/articles/everpure-p-stock-may-trade-071146400.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 07:11:46 +0000"
+    ],
+    [
+     "Everpure Stock Surges 147% in Six Months: Is It Still a Buy?",
+     "https://finance.yahoo.com/markets/stocks/articles/everpure-stock-surges-147-six-165600176.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 09 Oct 2026 16:56:00 +0000"
+    ],
+    [
+     "Top Storage Stock to Buy With $500 Right Now",
+     "https://www.fool.com/investing/2026/10/09/top-storage-stock-to-buy-with-500-right-now/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 09 Oct 2026 09:50:00 +0000"
+    ],
+    [
+     "What Are Everpure Investors Betting On?",
+     "https://www.trefis.com/articles/617930/what-are-everpure-investors-betting-on/2026-10-08?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 09 Oct 2026 01:47:31 +0000"
+    ],
+    [
+     "Everpure Stock Rides 10-Day Winning Streak. What\u2019s Driving the Rally.",
+     "https://finance.yahoo.com/m/f319d95e-4e1d-312f-aefc-a835bc8322d4/everpure-stock-rides-10-day.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 07 Oct 2026 19:00:00 +0000"
+    ],
+    [
+     "Jim Cramer Believes Everpure (P) Could Have More Room to Run",
+     "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-believes-everpure-p-084416942.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 07 Oct 2026 08:44:16 +0000"
+    ],
+    [
+     "Everpure, Inc. (P) stock price, news, quote and history - Yahoo Finance UK",
+     "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBYWVlKRVZoRTVxbmd4RmZudHZnR3lhY3UtRVNYV2hkaU5zYjR0NzJuLWZwMlhlMUdDcG5qU1I1RkpCMXNsLWlqSWJtV203UQ?oc=5",
+     "Yahoo Finance UK",
+     "Tue, 20 Oct 2026 23:35:00 GMT"
+    ],
+    [
+     "Everpure (P) Stock Forecast and Price Target 2026 $P - MarketBeat",
+     "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kZ3lITFhlRjlnb3VUZDhfNW5wNWp4ZWJGVmJpV1RnMndqU0p6V2htZ0Q0Ylp2RDBDbmZYNlFsTFZyaXdYVzhqWllsbmxhNEI2c25XY2RjMmVtWjh0SFNn?oc=5",
+     "MarketBeat",
+     "Mon, 19 Oct 2026 07:00:00 GMT"
+    ],
+    [
+     "A family trust sold 100,000 Everpure (P) shares under a prearranged trading plan. - Stock Titan",
+     "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWFVURjU2alVUV0tUVVJJaTg4NVdBNF9UMEROWjBnNmNuLUsxTVptalhSWTYtR2padWJCQ0J5cFRJSUFKTkRZOXphYmhjZzhPdy1qRWlzcXAzTnpBakotUThIUUhhNzNETVJJUmdUSHhlMWxsSWV3ZlFOMS1GTjJzNzA0bXJBM0tQYmxmT3d3YVFGZldWd1lpeUVfYnBSZmVBYTdrZV93?oc=5",
+     "Stock Titan",
+     "Fri, 16 Oct 2026 20:41:58 GMT"
+    ],
+    [
+     "2 dividend stocks with P/Es below 9 and yields above 6.5% for an ISA? - The Twelfth Magpie",
+     "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWnFGNm9la213NklUTFg1dHZROVBqUHU2Sml3bm9SVEpXNlQ4LUdtdDVPOG9vWUNRUkZSZzZqZTNWVUxGLUFXRW5aVlVaRDd6RUFvbU13YlFMTXdsVlhDRXU4ZUpXUTRRTHd5OUVpNTBBM21OSUpzSDJqbHhwYnNZV0M0OE50bUwwM2hVRjBQTHRUX0dMTUxjNVFTaFBCbmROS3JwT1Q2ZTRzX0VTTEE?oc=5",
+     "The Twelfth Magpie",
+     "Sat, 17 Oct 2026 10:24:49 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "PANW",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 349.32000732421875,
+   "buy": 333.2429901123047,
+   "tgt": 353.51688265814494,
+   "stop": 297.27798505510606,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Palo Alto Networks, Inc.",
+   "drop": -6.857935322818342,
+   "news": [
+    [
+     "Palo Alto Networks (PANW) Stock Dips While Market Gains: Key Facts",
+     "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-stock-204504448.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 20:45:04 +0000"
+    ],
+    [
+     "Palo Alto Networks (PANW) Pays a Large Part of Its Wage Bill in Stock. What Does That Do to Profit?",
+     "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-pays-144939208.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 14:49:39 +0000"
+    ],
+    [
+     "Is AI Security Expansion Altering The Investment Case For Palo Alto Networks Stock?",
+     "https://finance.yahoo.com/technology/ai/articles/ai-security-expansion-altering-investment-232352876.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 19 Oct 2026 23:23:52 +0000"
+    ],
+    [
+     "Palo Alto CEO wants AI labs out of the \u2018fear-mongering business\u2019",
+     "https://www.thestreet.com/technology/palo-alto-networks-panw-ai-cybersecurity-strategy?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 19 Oct 2026 16:17:00 +0000"
+    ],
+    [
+     "Network Detection and Response (NDR) Market Surges to $7.29 billion at a CAGR 10.9% by 2031 | Report by MarketsandMarkets\u2122",
+     "https://finance.yahoo.com/technology/articles/network-detection-response-ndr-market-143000843.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 19 Oct 2026 14:30:00 +0000"
+    ],
+    [
+     "Will AI Agent Growth Boost CrowdStrike's Endpoint Demand?",
+     "https://finance.yahoo.com/technology/ai/articles/ai-agent-growth-boost-crowdstrikes-110500857.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 11:05:00 +0000"
+    ],
+    [
+     "Sell-Off In Cybersecurity Stocks Intensifies Amid Palo Alto Vulnerability - Investor's Business Daily",
+     "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN0RwdUhaYW1SUUMzcE82Wm1kUTVtcVlpUXdCZjNaTm1kcV9ua0pBUDFoVnJZZUd4ZmxTLUxuMWgtRVZRcnJJS2tPRGUyX3NkTjZLamg4Q3JtWm1IMTFfbUg2OWdFdnFieGZzQVFWNy1yUktQLTNGb0k1dDhaMU5RUWItaERwYXAxTVhkZ2FqMy1fMnFXbjd1THJNQlZCc2hyYU9r?oc=5",
+     "Investor's Business Daily",
+     "Fri, 16 Oct 2026 16:43:00 GMT"
+    ],
+    [
+     "Why is Palo Alto Networks stock sliding today? - Investing.com",
+     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdHRuM2lWY3NkeTJIRVVRbC12WVhmczd0VXdqVEdnNS1rMlluLUpodWJFZUlUZ3BTN296ZVlXSUVBbDZ1X3I1c0pWQVRlakNTcm91M1NMcHFXaTNlRTVuUVgydGFxUmlyekNLNXdZS3R4aG9sQUMxM213TTJUdE9KMGpGa29oQWR1WTU3RXJYX2lBR1pwbG53Tlg5dEdlOHlCOWdscmhpT3dBalk?oc=5",
+     "Investing.com",
+     "Fri, 16 Oct 2026 14:27:56 GMT"
+    ],
+    [
+     "Palo Alto Networks (NasdaqGS:PANW) Stock Forecast & Analyst Predictions - Simply Wall Street",
+     "https://news.google.com/rss/articles/CBMihAFBVV95cUxQamxpMGplLWNyUHk1TmZYUFhJOG16ZVFDRjVqTXVrUWNjWmhMTDNGY3FMSUVBaThLNjdmV0x3eWkyTG5tWUxsdjdXeUlrVmdBT3NrMEN2LXFfSmVwZ2JNRFJJU3FydXlWUm51cjVkaU1SRnZGdC1JRnFiN2NDV3hVYnczNXc?oc=5",
+     "Simply Wall Street",
+     "Fri, 16 Oct 2026 07:00:00 GMT"
+    ],
+    [
+     "Palo Alto Networks (NASDAQ:PANW) Stock Price Down 1.9% - Here's Why - MarketBeat",
+     "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZk5yc1RNQ2RpT2UyWWtOUEhKTWlKZjdFck5nc2ZhdThUQmhpQjNISkxKci0tTXNGcTE2N1JCSUJIVHZ4RXotck9XU05TbDFtMUE2c3FEeDJJd1ZRWTN2bTlYSGIyMUxuMEh0SDBvaVBMZmMtOFlvdWlrUll0NGdQNjBkb1pfSXRwd05JdzNYREFrNDM1RWJ4dF9KLVdERk5rQ0pnR213TUFGbndMYlhkc1plamJvY2pRZXEtNA?oc=5",
+     "MarketBeat",
+     "Tue, 20 Oct 2026 21:27:13 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "MTSI",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 271.4200134277344,
+   "buy": 244.25101318359376,
+   "tgt": 272.6114592897423,
+   "stop": 204.31886247907366,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "MACOM Technology Solutions Hold",
+   "drop": -6.834165400818604,
+   "news": [
+    [
+     "Is MACOM Technology Solutions Holdings (MTSI) Trading At A Premium To Cash Flow?",
+     "https://finance.yahoo.com/markets/stocks/articles/macom-technology-solutions-holdings-mtsi-051611326.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 05:16:11 +0000"
+    ],
+    [
+     "MACOM (MTSI) Shares Skyrocket, What You Need To Know",
+     "https://finance.yahoo.com/markets/stocks/articles/macom-mtsi-shares-skyrocket-know-232834698.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 06 Oct 2026 23:28:34 +0000"
+    ],
+    [
+     "Why Are MACOM (MTSI) Shares Soaring Today",
+     "https://finance.yahoo.com/markets/stocks/articles/why-macom-mtsi-shares-soaring-232507346.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 01 Oct 2026 23:25:07 +0000"
+    ],
+    [
+     "This Little-Known AI Chip Stock Doubled. Its New Chips Now Double Optical Speed",
+     "https://finance.yahoo.com/technology/ai/articles/little-known-ai-chip-stock-042916921.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 23 Sep 2026 04:29:16 +0000"
+    ],
+    [
+     "2 Cash-Heavy Stocks with Promising Prospects and 1 Facing Headwinds",
+     "https://finance.yahoo.com/markets/stocks/articles/2-cash-heavy-stocks-promising-090150923.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 09:01:50 +0000"
+    ],
+    [
+     "Lam Research, Lattice Semiconductor, Amkor, Entegris, and MACOM Stocks Trade Down, What You Need To Know",
+     "https://finance.yahoo.com/markets/stocks/articles/lam-research-lattice-semiconductor-amkor-174427674.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 15 Oct 2026 17:44:27 +0000"
+    ],
+    [
+     "MACOM Technology Solutions Holdings, Inc. (MTSI) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5uM243UDZOTDVSLTExTVZIQ2hwUU5aMTl2SUVsR1RMOWFxdXVGbmpNSXlPbXVHejJRempFZmVPTEVVZjNLWTVkRHlicTV2MllxUFE?oc=5",
+     "Yahoo! Finance Canada",
+     "Tue, 20 Oct 2026 07:23:45 GMT"
+    ],
+    [
+     "MACOM Technology Solutions Holdings Inc (MTSI) Shares Fall 6.8% -- GF Value Says Still Overvalued - GuruFocus",
+     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMVhTa3RMVmoyOHZsdENmbmhxaV9YQUgxZEg4WjZVZG9OWkZpTW5IWEhYZGJtcGdOdE82TFRsM0VobHhVVm9HMlZBR1A5ZXpLZ1k1eUtoMDRlZU9hT3lQNlhydm1SWC13ZWJCZ1VFbHoya3VqWmlzTngxNy1kVUc2dGdKSDU1MEdNWnJiRjNBTlZ3Y25ZSTNUcGxiZnQyVXYzQWVGb1VXejRwODhzWUpybmNlalBLdy1IVEp3dm1LdUVjNHJ4RjZPcw?oc=5",
+     "GuruFocus",
+     "Thu, 15 Oct 2026 23:02:19 GMT"
+    ],
+    [
+     "MACOM Technology Solutions Hold (MTSI) Stock Forecasts - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdXBKT1ZfZFNEeVpiSFEtYUd3ZWh5TVNzQURWNndiRVdkclVQRlI3ZWcwME5pNG16TTU0MWtMaTlRZXRqcHhPaHV6T0dlRnBpc1dod2d2bXZ6SmNJRWliWmJmc2cyMXBYMV9leFNocXNwenpFWDdlZnotbFFKTExEQzRSWDM1NHdjT01sZVktQQ?oc=5",
+     "Yahoo Finance",
+     "Thu, 15 Oct 2026 01:43:11 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "ANET",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 182.64500427246094,
+   "buy": 167.02200164794922,
+   "tgt": 184.93736012773684,
+   "stop": 149.92499498639788,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Arista Networks, Inc.",
+   "drop": -6.537198862032579,
+   "news": [
+    [
+     "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
+     "https://www.fool.com/coverage/better-buy/2026/10/21/arista-networks-vs-datadog-which-technology-stock-is-a-better-buy-in-2026/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 14:40:44 +0000"
+    ],
+    [
+     "Arista Networks Vs. Cisco Systems: Modern AI Data Center Networking vs. Legacy Enterprise Switch Leader",
+     "https://247wallst.com/investing/2026/10/21/arista-networks-vs-cisco-systems-modern-ai-data-center-networking-vs-legacy-enterprise-switch-leader/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 11:15:57 +0000"
+    ],
+    [
+     "Arista Networks vs. Axon Enterprise: Which Tech Stock Is a Better Buy in 2026?",
+     "https://www.fool.com/coverage/better-buy/2026/10/20/arista-networks-vs-axon-enterprise-which-tech-stock-is-a-better-buy-in-2026/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 03:16:01 +0000"
+    ],
+    [
+     "Is Open AI Rack Launch Altering The Investment Case For Arista Networks Stock?",
+     "https://finance.yahoo.com/technology/ai/articles/open-ai-rack-launch-altering-101028015.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 10:10:28 +0000"
+    ],
+    [
+     "Arista Networks Stock Fell 18% From Its Record in One Week. Here\u2019s What the Selloff Missed and Where the Stock Could Go by 2030",
+     "https://www.tikr.com/blog/arista-networks-stock-fell-18-from-its-record-in-one-week-heres-what-the-selloff-missed-and-where-the-stock-could-go-by-2030?ref=yahoofinance&.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 03:43:36 +0000"
+    ],
+    [
+     "Arista Networks Is Outgrowing The Market Fourfold: What To Watch Next",
+     "https://www.trefis.com/articles/619151/arista-networks-is-outgrowing-the-market-fourfold-what-to-watch-next/2026-10-19?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 19 Oct 2026 20:17:21 +0000"
+    ],
+    [
+     "ANET Stock Quote Price and Forecast - CNN",
+     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BbWlkeUcySkdqVVBlWGZMWU1TenVYc0lmT2ExN0IzUkVxamxKZUg3MFB4a2hNZV9GQ0RsbmpLeFZqaFZRVWY0dUVvNndVYWJh?oc=5",
+     "CNN",
+     "Mon, 19 Oct 2026 20:15:24 GMT"
+    ],
+    [
+     "Arista Networks (ANET) Stock Looks Fairly Valued On Its 7x Run - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxOLUtSVkRWVS1VU0VVQkxqN3RrY0h6clJwR0NSUG41UG1lYWFld2NvU09FelZqcUdPdEJNQVRaUTFWelFSQUxEYVlNZGRjeWdiSFFSS3JLZjJIMmNfMU9vTVI5ODFEWENDd3g5clVFWGhzQmJvc2hOcnVpUmF0bkxjLWtvcnBRLWxTLWVMUDBJaEpnV2RmNFcyUHQxaktGdw?oc=5",
+     "Yahoo Finance",
+     "Thu, 15 Oct 2026 20:21:47 GMT"
+    ],
+    [
+     "Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation - ChartMill",
+     "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSGFaSzZGOGxFN01DSWRWai1xQlNEbzBFbnZDLXJZaFB3SUZnbU5OT1NPcU1vczlfdzZhdkpYWlFkY0c4d3F2OXJPMHBKVWpwcEtlRmhOMExBcEExZ3JtZThHcW9acURtT3UyUDZnNDhiTF9Rd0MwdXJJeUR4NFVWbllRUTNOUUpRaW5hYzFVX1c4d0Rpd28zVzh2Z21JSUdkdTAyLUJoQVRJTDZ6cXpvR1l1dzliWjFJeU5sY1NSald5M0p0ZXNxWm83TndKMU9VSVVLZA?oc=5",
+     "ChartMill",
+     "Thu, 15 Oct 2026 08:11:14 GMT"
+    ],
+    [
+     "Arista Networks (ANET) Institutional Ownership 2026 - MarketBeat",
+     "https://news.google.com/rss/articles/CBMid0FVX3lxTE15UGVtYk1YLWQxbTZLb1hPckI4S0lqUUNVYjBRQkN4Q0NZSUhld1pUa0Z6NTl6SF9lbTMtcFJCcjRmUHBsU3h3VzBnUlV6SHZSZzdiUmhGYlR4VWtTM1NDc0dSdHlGZElnSGhMNU5PN1p5Wk5tb2ZF?oc=5",
+     "MarketBeat",
+     "Fri, 16 Oct 2026 07:00:00 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "CTVA",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 12.5600004196167,
+   "buy": 11.592000102996826,
+   "tgt": 12.808201126024429,
+   "stop": 10.113428483690534,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Corteva, Inc.",
+   "drop": -6.26865091661627,
+   "news": [
+    [
+     "What You Need To Know Ahead of Corteva's Earnings Release",
+     "https://www.barchart.com/story/news/8123617/what-you-need-to-know-ahead-of-corteva-s-earnings-release?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 17 Oct 2026 04:03:08 +0000"
+    ],
+    [
+     "Corteva Faces Challenging Environment Post-Vylor Spin-Off With Both Upside, Downside, UBS Says",
+     "https://finance.yahoo.com/markets/stocks/articles/corteva-faces-challenging-environment-post-154533321.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 12 Oct 2026 15:45:33 +0000"
+    ],
+    [
+     "Corteva (CTVA) Stock May Be Near Fair Value Despite Growth Upgrade",
+     "https://finance.yahoo.com/markets/stocks/articles/corteva-ctva-stock-may-near-162209891.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 09 Oct 2026 16:22:09 +0000"
+    ],
+    [
+     "Corteva (CTVA) Completes Seed Business Spin Off",
+     "https://finance.yahoo.com/markets/stocks/articles/corteva-ctva-completes-seed-business-111608128.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 09 Oct 2026 11:16:08 +0000"
+    ],
+    [
+     "Jim Cramer Sees One Stock to Own After Corteva\u2019s (CTVA) Breakup",
+     "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-sees-one-stock-034443008.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 08 Oct 2026 03:44:43 +0000"
+    ],
+    [
+     "Why Agricultural Stocks Are Falling But This One Is Back In A Buy Zone",
+     "https://finance.yahoo.com/m/0b5637f7-d6e6-3837-8106-553674ac2e3a/why-agricultural-stocks-are.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 07 Oct 2026 18:27:16 +0000"
+    ],
+    [
+     "Corteva, Inc. (CTVA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DU0lacWh3RTFxNWh0UGZvdXlIalFRMnpQR0hDZDBRc2dMS3M0YlFjWVRwWU1kQ2RNcl9qZGk3eThlQWcxXzR4dnU4MXZNTzRmaUE?oc=5",
+     "Yahoo! Finance Canada",
+     "Sat, 17 Oct 2026 20:08:01 GMT"
+    ],
+    [
+     "Corteva (NYSE:CTVA) - Stock Analysis - Simply Wall Street",
+     "https://news.google.com/rss/articles/CBMia0FVX3lxTFBHV3ZHZ09mcmJGRmZkTlhua2N4RkZoMkN3UkhMSm81QnZ2NlNrWmF2UHV0dFlXZjRWOU9ZTGM5T05pTjFNTDhlTWhGbk10WGRRdV92ZFUxa1dmY3c0eXRJdms5WHJJdkFQNFRV?oc=5",
+     "Simply Wall Street",
+     "Mon, 19 Oct 2026 07:00:00 GMT"
+    ],
+    [
+     "146,644 Corteva, Inc. $CTVA Shares Bought by ZWJ Investment Counsel Inc. - MarketBeat",
+     "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcEgtT0x4SHlOa2JHN2F0bGJfVHV0UGE5ZUxCOWZzdkFUYWR6T3RyajI2dHY2UkhISHFmNk5mNjlGTER0ajZwMzVBSlBNRXpjc3laZTNKYnV5ajliaFR6TlFHS0xwMnEyQ3NQOVNrY2pfNVU1MVoxdUxoZ1dMcmdfQm51M1RHTi1nNXJBOWZwandLQnM3aG5taGlZY3M4SHZYYzhqLXlmUnJrRHBQcnROa0xiUXJ4X3BuWUdYWFlQSnRQRU1FdGdv?oc=5",
+     "MarketBeat",
+     "Thu, 15 Oct 2026 11:33:39 GMT"
+    ],
+    [
+     "FMC Stock Crashes 33% On Massive Earnings Downgrade \u2013 Citi expects \u2018Modest Negative Reaction\u2019 For Peer Corteva - TradingView",
+     "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRXBHdDF1VTlZVjhQQ01QaUc5clVmUm9RSzI3eVBnS0JaXzBQblk4WGc5VVZUSHkzVXVLRHR5QjVWYXdRSEFJcEtua0xPY2FHeVVFZmZhTTMydkJIYnFDT2FFazI2akg3SDJha3FYaTFvemc3R0JJSnNUb2JGVFJUY0U5VVZ0T3Y5UUlUZEhiV0FfdVlOek5oWmk3YTNycTJnc3F6QnQzTWs0SVE2V1loSnAwYWRGTkR1UGxkNmdQRmw5MHVaMzdnTUVVYlNfVWNhRkVBWTZ1TXMwRUpwbnYyUlhmanBUa2NIRTNHMHNtcmVHbzE0bE1DRw?oc=5",
+     "TradingView",
+     "Thu, 15 Oct 2026 16:10:16 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "INTC",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 91.98999786376953,
+   "buy": 85.83300247192383,
+   "tgt": 93.40883447722962,
+   "stop": 74.9938584463937,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Intel Corporation",
+   "drop": -6.247456900959003,
+   "news": [
+    [
+     "AMD, QCOM Targets Raised While INTC, COHR Face Cuts \u2014 Susquehanna Sees \u2018Modest Upside\u2019 For Chip Earnings",
+     "https://stocktwits.com/news-articles/markets/equity/amd-qcom-targets-raised-while-intc-cohr-face-cuts-susquehanna-sees-modest-upside-for-chip-earnings/cZxM53zRBvK?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 14:30:29 +0000"
+    ],
+    [
+     "Intel Stock Rises After Musk Signals Terafab Breakthrough",
+     "https://finance.yahoo.com/m/86456a7f-49bd-36ec-ac00-96590df2d6cc/intel-stock-rises-after-musk.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 13:39:00 +0000"
+    ],
+    [
+     "Apple vs. Intel: Which Tech Stock Is a Better Buy in 2026?",
+     "https://www.fool.com/coverage/better-buy/2026/10/21/apple-vs-intel-which-technology-stock-is-a-better-buy-in-2026/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 13:20:02 +0000"
+    ],
+    [
+     "Intel Stock Still Trades at 84 Times Earnings After a 35% Drop. I'm Not Buying Yet.",
+     "https://www.fool.com/investing/2026/10/21/intel-stock-still-trades-at-84-times-earnings-after-a-35-drop-i-m-not-buying-yet/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 13:01:01 +0000"
+    ],
+    [
+     "Elon Musk May Have Ended the October AI Crash as NVIDIA, Intel, and SanDisk Rally after One SpaceX Quote",
+     "https://247wallst.com/investing/2026/10/21/elon-musk-may-have-ended-the-october-ai-crash-as-nvidia-intel-and-sandisk-rally-after-one-spacex-quote/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 15:04:25 +0000"
+    ],
+    [
+     "Anthropic Lost More Money Than All Other Major Companies Combined",
+     "https://finance.yahoo.com/m/6e835289-d3a4-38be-b3bc-1206328edd87/anthropic-lost-more-money.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 11:24:57 +0000"
+    ],
+    [
+     "Why Intel stock just got a big upgrade - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY2ZkTGZwT05CX1hiV1RtQXA3Tlk0bXF2dlk1X2s0Zmh1THBEem1LOHJobDRwZ3F1TEl1NFJ2aVZGVTV5UmIxS1ZGN3ZmQUFRSVktSHdpQ3FvODFQcGJNR1pZaTRtRlptX2RsMWwxN3RxT202RzJRdWJ3Z1Z6aVN3QUxGeVZ2ME5LLTFpVkNXQ3JJZHpxZlgyalNCZlgydE5Ucl9Uaw?oc=5",
+     "Yahoo Finance",
+     "Mon, 19 Oct 2026 11:47:10 GMT"
+    ],
+    [
+     "Intel Stock Is Upgraded. Why Losing $78 Billion in Market Value Is a Good Thing. - Barron's",
+     "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kNmNfd3Y3WTZoTFc1eGxrdFRaNHJFU0dXcUY2VUxkWTdzOHA5TlU2OTVMcVRTcHlheU1ibzdjbUNla1ZSVjFFaDZUZGw5eDZqYldzTF9MQVBwY19DU3h0aFhJLUM3UjVrYThDRGQwYTMtLTNyc3Y3dHBUd0syajg?oc=5",
+     "Barron's",
+     "Mon, 19 Oct 2026 17:54:00 GMT"
+    ],
+    [
+     "Why is Intel stock sliding today? - Investing.com",
+     "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2pfSHVsaFZWWS1NTkMxUXZfcXlHQWtVT0tITnVzajFGYUMydkVENjRieFZydjQwOGhfQXRPcEhEdkgxUGlaTEVUeDN0OFRBelh2dENwQ3Z4YW5wT1FVUGlfQU1nVy1Jei13Wm0tSHU5SThkcllQTDJOdkJLMW9HQzFxb0dvaVZ5WEgtR0UwWXYwN1k3WVhvN2V3?oc=5",
+     "Investing.com",
+     "Thu, 15 Oct 2026 14:21:49 GMT"
+    ],
+    [
+     "Intel (INTC) Stock Dropped, So What Is Driving Attention Now? - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxOT0RqbDZsNlctVDJhVTAzOU8zLUQ5dHNqTHVMdWZ3LUEwMV9oUk83aTQwZlAyUW83dk1Rc2x1VGNPUi1BbzR6OGJCY1lEWFdRZDBSdFAzaDhBcUxiR2F2aEhzMFdjZktUN1RLR3BKRzlOTTdUT2hnMkdwOGdQNFBJcHI4eUM1OUtuZTBlZmFId3lpTnJNTDlVRE8xRjFyQQ?oc=5",
+     "Yahoo Finance",
+     "Thu, 15 Oct 2026 19:18:08 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "DAR",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 58.540000915527344,
+   "buy": 54.78299903869629,
+   "tgt": 59.745273135315145,
+   "stop": 50.42157064165388,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Darling Ingredients Inc.",
+   "drop": -6.155819312017707,
+   "news": [
+    [
+     "Darling Ingredients Introduces Nextida\u00ae NxCogni\u2122, the First Targeted Collagen Peptide Designed to Support Clarity and Cognitive Resilience",
+     "https://finance.yahoo.com/healthcare/articles/darling-ingredients-introduces-nextida-nxcogni-203500217.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 20:35:00 +0000"
+    ],
+    [
+     "Can Darling Ingredients' Portfolio Reset Drive Long-Term Growth?",
+     "https://finance.yahoo.com/markets/stocks/articles/darling-ingredients-portfolio-reset-drive-152000307.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 06 Oct 2026 15:20:00 +0000"
+    ],
+    [
+     "Darling Ingredients Inc. to Release Third Quarter 2026 Financial Results",
+     "https://finance.yahoo.com/markets/stocks/articles/darling-ingredients-inc-release-third-203500595.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 01 Oct 2026 20:35:00 +0000"
+    ],
+    [
+     "Can Darling Ingredients Turn Collagen Into a Bigger Earnings Engine?",
+     "https://finance.yahoo.com/markets/stocks/articles/darling-ingredients-turn-collagen-bigger-153300632.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 16 Sep 2026 15:33:00 +0000"
+    ],
+    [
+     "1 Profitable Stock to Target This Week and 2 We Turn Down",
+     "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-target-week-122739697.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 16 Oct 2026 12:27:39 +0000"
+    ],
+    [
+     "2 of Wall Street\u2019s Favorite Stocks Worth Your Attention and 1 We Ignore",
+     "https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-120827482.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 15 Oct 2026 12:08:27 +0000"
+    ],
+    [
+     "Darling Ingredients Inc. (DAR) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kTHpWc1k5WkZNNTNuMldiY3BzLXQzNUlqS0JNQkFMbXlhUzJtb05TZUNmSnBkUS1lc2Uwd2hFaVNZeUdiTDdZdVJKdlUwMVMx?oc=5",
+     "Yahoo! Finance Canada",
+     "Sat, 17 Oct 2026 00:23:36 GMT"
+    ],
+    [
+     "Darling Ingredients (NYSE:DAR) Stock Forecast & Analyst Predictions - Simply Wall Street",
+     "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTHpmSWZldElRTFYyV3RaY09rUnNFcWRZT3Y5Z2xlZnc4bG8zWlNadDU3TDRHaTdOM2tVUlR2aF9QRFF5VkxxeldjaUxKcFp6STVDYktEMWNKUVJxVG01Wl81TE85WTlrdFRYSkl2dlRoYkxkbU5iVkFGT0haRHNMNlpnZGpfcmZLbFZsSVdXV3Fyd2c?oc=5",
+     "Simply Wall Street",
+     "Thu, 15 Oct 2026 07:00:00 GMT"
+    ],
+    [
+     "A collagen ingredient concentrates targeted compounds at over 100 times standard levels - Stock Titan",
+     "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUR3TlY5UE1sbmJwTEJqTTZCN1BobHlDX2dLYjBlRi1iT0RUUkdKRFIyUTF2aUhYOHBBWnJHUGItR0FNV05LRFZmOEtKbGVkYjdDc3E5blZRMWpjVnBGV0NQdnNFTHJMclVWX2cxTTlUVDRQck5BR0ZhQnpFNm5YMl96cklwRTFaa2d6RUZVZUMteXFEMkpGSFB1UzRlRXp2RlVqSDV4UE9rNDgyb1dDSkt2ck4?oc=5",
+     "Stock Titan",
+     "Tue, 20 Oct 2026 20:35:00 GMT"
+    ],
+    [
+     "Darling Ingredients Inc. $DAR Stock: Assenagon Asset Management S.A. Lowers Position - MarketBeat",
+     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcE1qMGFnVXdsY0FJNk4yUDNmMDcxVEJ1NlhCWng5WkkxcGdGN1YtRzF2Y004TWlNSDI1R1JLajFQZDN2SkJPSnhROXQtQ01MY1VWVG1TU2ZBRjlpTkZoVVNUMlJ2by1mb2ktRVl4MHc0bG91WHdYMjRqMDE2SGNEY2VMMmNIYXZzMlJkLXowOUkyMzhxTzV1Vko1Tk5waWNsSngyZWZYTV9RMjNCR2J1Q0JiQXdFdVYyaE1ETHlnMGZQOG80RmNrNHVocy1rWjk4dVZXaUJ6aw?oc=5",
+     "MarketBeat",
+     "Sat, 17 Oct 2026 07:18:15 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "FTNT",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 172.78500366210938,
+   "buy": 163.71900329589843,
+   "tgt": 174.48848739319322,
+   "stop": 150.66900896344865,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Fortinet, Inc.",
+   "drop": -6.120618963793523,
+   "news": [
+    [
+     "Fortinet stock falls as Arete delivers rare double downgrade to sell",
+     "https://finance.yahoo.com/markets/stocks/articles/fortinet-stock-falls-arete-delivers-123936188.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 12:39:36 +0000"
+    ],
+    [
+     "Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Applied Digital, Chipotle Mexican Grill, Cirrus Logic, Costco, Digital Realty Trust, Intuitive Surgical, Netflix, Robinhood Markets, Zscaler, and More",
+     "https://247wallst.com/investing/2026/10/21/here-are-wednesdays-top-wall-street-analyst-research-calls-applied-digital-chipotle-mexican-grill-cirrus-logic-costco-digital-realty-trust-intuitive-surgical-netflix-robinhood-markets/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 12:02:22 +0000"
+    ],
+    [
+     "CBTS and Fortinet Launch Fully Managed Secure Networking Service for Growing Mid-Market Organizations",
+     "https://finance.yahoo.com/technology/articles/cbts-fortinet-launch-fully-managed-130000301.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 13:00:00 +0000"
+    ],
+    [
+     "Can Fortinet's SASE Momentum Propel the Stock to New Highs?",
+     "https://finance.yahoo.com/markets/stocks/articles/fortinets-sase-momentum-propel-stock-124700696.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 12:47:00 +0000"
+    ],
+    [
+     "3 Reasons Why Growth Investors Shouldn't Overlook Fortinet (FTNT)",
+     "https://finance.yahoo.com/markets/stocks/articles/3-reasons-why-growth-investors-154503794.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 16 Oct 2026 15:45:03 +0000"
+    ],
+    [
+     "Fortinet (FTNT) Stock Dips While Market Gains: Key Facts",
+     "https://finance.yahoo.com/markets/stocks/articles/fortinet-ftnt-stock-dips-while-205003539.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 15 Oct 2026 20:50:03 +0000"
+    ],
+    [
+     "Fortinet, Inc. (FTNT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5meXZOOWlPQWFoTVYwa0NWcWxxNVBlaG9UWkFMV0pkTDltSEFWdGYtcFFfZHU3UHVTTU9wUEtLOGdpeHJ2UGNhQnRqOFdwYzNwX0E?oc=5",
+     "Yahoo! Finance Canada",
+     "Tue, 20 Oct 2026 13:40:43 GMT"
+    ],
+    [
+     "Fortinet, Inc. (FTNT) stock price, news, quote and history - Yahoo Finance Singapore",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KWXAydXRHdFBraHhFWm9ZR0NCQ0pBd25FeVdqSWh2RHd4aEs0b1hueXdGVHA3Y0I0S2ZURHBtdEdrdGhMclJKQ0c5THljZUJERlE?oc=5",
+     "Yahoo Finance Singapore",
+     "Sat, 17 Oct 2026 16:53:04 GMT"
+    ],
+    [
+     "A restaurant chain replaced a network built from several vendors with one managed system at 100+ locations. - Stock Titan",
+     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaHFzUVYtd2JrYjczSzBtU2FFYm9fdVFKbW5YWGFSSVMyRXZvZlAyV1dzZ2dHckVBaFhsVGtMejNuSGlLOVo4U3U0UlloWEZ6dl9TZDlsM0FHZnctWGNRa0hUbHozb2p5cVJlZjBQYy05bkZwQzdPMGU1Y0dEUVVabW50NlhIQm14Qld2ZkZCQUhBZEZ0T1B2VGtpWFJwV0dXeDZtZ2d1TG1ETU5VVnJGWC01Ylo1eUcxdUtOSUo2bEQ?oc=5",
+     "Stock Titan",
+     "Tue, 20 Oct 2026 13:00:00 GMT"
+    ],
+    [
+     "Fortinet (FTNT) Stock Looks Expensive On Its 215% Three Year Run - Simply Wall Street",
+     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb2tCZmk0a3dSd0U5ZFFCdmU3Q0x4aVVqXzVDTU9FWHE3X3ZKOTk4bGZhYkFsUy1hWmdyRFRCQ01tN20tamx6Nmg5dEFsOFBoYVVCWW1vYU03UDRydVJia09LVmlmcXg3WEZ0QUkzYTY5Zm0xbEMtelhkRGZ5NTZDQUxNZEF5N0V5Zy1QeG1qNWMzU2xjT0NRVjVLYWRfa3NUQ1QweGZCcHRIcXFMclBQOU55YTdDR1NxMFFDaThRdlZKbTdqVUHSAcsBQVVfeXFMT3RsY1RYemRpY2NSRm1FVkhQMUdPdDAyNzVKdzZQcHZtVmZRWElnR2g3RGJ1Sk0zNG4wbTdYaWJKVndlTVFWT080emE5cGdXQ1BuTllYYU9QSUx3WWJMRF8wWHVaaXJubE9hdjluamNVV3JhLU5LRlVQYXBKdldzOXNWWW5UZ1ZLSFdLVy0xb0gyc3ljaGxHdGVuN2NpOC1pSjdic05USTc4TUhaMkRnX0NkN1VOSE8wQ05BN095NXU4UHBOeFl3eHFrYTg?oc=5",
+     "Simply Wall Street",
+     "Thu, 15 Oct 2026 23:47:20 GMT"
+    ]
+   ]
+  }
+ ],
+ "macro": [
+  [
+   "S&P fut",
+   7776.0,
+   0.2675607
+  ],
+  [
+   "Nasdaq fut",
+   29929.0,
+   0.85508966
+  ],
+  [
+   "VIX",
+   16.74,
+   -3.294796
+  ],
+  [
+   "US 10Y",
+   5.1169996,
+   0.0
+  ],
+  [
+   "Brent",
+   109.27,
+   0.4412131
+  ],
+  [
+   "Gold",
+   4145.3,
+   0.06516939
+  ],
+  [
+   "Bitcoin",
+   84411.39,
+   2.298954
+  ],
+  [
+   "Dollar",
+   101.8,
+   0.097350724
+  ]
+ ],
+ "sectors": [
+  [
+   3.5739915787906362,
+   "Discretionary",
+   4.36963309335503
+  ],
+  [
+   2.677914659233549,
+   "Financials",
+   2.6402614641303
+  ],
+  [
+   2.6575469260773588,
+   "Materials",
+   1.412098083547031
+  ],
+  [
+   2.581047402326342,
+   "Health",
+   5.716820925367805
+  ],
+  [
+   1.3858687032558326,
+   "Real estate",
+   0.5377592574104639
+  ],
+  [
+   1.3130431267362574,
+   "Staples",
+   5.77459919763168
+  ],
+  [
+   1.072920355713336,
+   "Software",
+   0.6521756161018466
+  ],
+  [
+   0.7986102611130308,
+   "Energy",
+   9.299500590859132
+  ],
+  [
+   0.5153407149978584,
+   "Utilities",
+   5.496858800732118
+  ],
+  [
+   0.4849214858356099,
+   "Industrials",
+   -1.3227512752884585
+  ],
+  [
+   -1.40838716604621,
+   "Tech",
+   -3.8865544085121773
+  ],
+  [
+   -1.4618324770286906,
+   "Comms",
+   -2.9850752338569486
+  ],
+  [
+   -1.9832157100089676,
+   "Semis",
+   -7.959627750583264
+  ]
+ ],
+ "news": [
+  [
+   "SpaceX stock jumps 8% after earnings beat and Musk hints at Tesla tie-up",
+   "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 14:21:39 GMT"
+  ],
+  [
+   "Nvidia announces plug and play Vera Rubin racks that can be shipped on a truck",
+   "https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 12:43:49 GMT"
+  ],
+  [
+   "United Airlines set to open its biggest airport lounge in $2.6 billion overhaul at Houston hub",
+   "https://www.cnbc.com/2026/10/21/united-airlines-biggest-airport-lounge-houston.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 13:44:35 GMT"
+  ],
+  [
+   "Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
+   "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 13:30:57 GMT"
+  ],
+  [
+   "Witkoff calls Putin a 'humanitarian' at Russia peace talks without Ukraine",
+   "https://www.cnbc.com/2026/10/21/witkoff-russia-putin-ukraine-zelenskyy.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 14:30:17 GMT"
+  ],
+  [
+   "The political ad wars are still being fought over the airwaves even as digital gains share",
+   "https://www.cnbc.com/2026/10/21/why-broadcast-tv-still-dominates-political-ad-spending.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 14:40:02 GMT"
+  ],
+  [
+   "OpenAI's most powerful AI models disabled their own safety monitoring \u2014 and one lied about it",
+   "https://www.cnbc.com/2026/10/21/openai-ai-models-safety-monitoring.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 07:49:48 GMT"
+  ],
+  [
+   "Tokenized stock trading takes off overseas as Goldman, other U.S. companies object",
+   "https://www.cnbc.com/2026/10/21/tokenized-stocks-us-companies-object.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 12:33:34 GMT"
+  ],
+  [
+   "My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?",
+   "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Wed, 21 Oct 2026 15:15:00 GMT"
+  ],
+  [
+   "Moderna is about to release the trial results for its cancer vaccine. A lot is riding on this data.",
+   "https://www.marketwatch.com/story/moderna-is-about-to-release-the-trial-results-for-its-cancer-vaccine-a-lot-is-riding-on-this-data-ccbf8c9c?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Wed, 21 Oct 2026 15:00:00 GMT"
+  ],
+  [
+   "Money-saving habits to cope with higher prices \u2014 from our readers",
+   "https://www.marketwatch.com/story/money-saving-hacks-to-cope-with-higher-prices-from-our-readers-a092767e?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Wed, 21 Oct 2026 14:49:00 GMT"
+  ],
+  [
+   "Colleges raced to build massive computer-science departments. Now the boom is turning to bust.",
+   "https://www.marketwatch.com/story/colleges-raced-to-build-massive-computer-science-departments-now-the-boom-is-turning-to-bust-692cfe37?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Wed, 21 Oct 2026 14:46:00 GMT"
+  ],
+  [
+   "I receive 10 calls a day promising me $15,000 loans at 8% interest. Are these legitimate offers?",
+   "https://www.marketwatch.com/story/im-naturally-skeptical-i-receive-10-calls-a-day-offering-me-15-000-loans-at-8-interest-is-this-a-scam-825c3431?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Wed, 21 Oct 2026 14:45:00 GMT"
+  ],
+  [
+   "Time for a Micron mindset shift? Here\u2019s how to navigate the new AI landscape.",
+   "https://www.marketwatch.com/story/time-for-a-micron-mindset-shift-heres-how-to-navigate-the-new-ai-landscape-09395ac8?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Wed, 21 Oct 2026 14:33:00 GMT"
+  ],
+  [
+   "Going low-risk in your portfolio is riskier than you think - The Washington Post",
+   "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNnZWTzNHN1kzdk5qV2xCa3FoeUdyNnhEam9lUjh1dXl1THpCQmlnOWIxTTBNR1FDQlc2UHNZbmNIREx6aEFJcUpHb0pPZzVmMGttb3ZQUVdSbTFCRzdJRGZpWHN0Nzk1THJmWHBRTzI0djdob3c2WGpxMW40U3VqZmxWcnVvOWc?oc=5",
+   "The Washington Post",
+   "Wed, 21 Oct 2026 15:02:40 GMT"
+  ],
+  [
+   "Gains in Sports Team Values Lag Stock Market Since 2022 - Sportico.com",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM2Z6Mms0VjhvcmJXZ3dJSHRCYVQ1NHcxT1REXzZuM3BzanFvRjdqTVQ0emdYQVlWY3RGX2VBQWh5OEtxUUJGX0c1VXpROUJGSFpOQUhVVWNMVFBJLWdYOXFLQ1k2d3BhWUJLaFFnR2VSaVgybmc1T3RTczVXTEN5M01QVzItem5QNkhmMExTWk10dTlF?oc=5",
+   "Sportico.com",
+   "Wed, 21 Oct 2026 11:58:44 GMT"
+  ],
+  [
+   "U.S. stocks open higher following strong profits reports from companies including SpaceX - Pittsburgh Post-Gazette",
+   "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLWRtWnBlX1BvdHRxSmx6TlM1QXJhdlZzeXg4MFpUczVsamsybnYxSTNDODc2NjBHa0pEZTl2RXVyNmI0TVh1LUNPZVNlQkY3WUJrTGNTYkI2TmZ6VHU2d1MtUXd2Rk5oODNwa0N2c0JHWHJJQWQ0c0FnMm1vM1FsTWtRbnh5Z2w2WUw5UkxRWmdnRnFlNEh3LUJiRmdOeUJpRTZQUWd4M29RU2w1WEsw?oc=5",
+   "Pittsburgh Post-Gazette",
+   "Wed, 21 Oct 2026 13:49:10 GMT"
+  ],
+  [
+   "COMMENTARY: Morning Bid: Musk mulls megacap - Reuters",
+   "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUdtM2JDNFZXOEVHTmFfNHVoREZ6OGRoSVg5VHRfVVVYdmhYRkZ2ZV80SnM1RUJZLXVOc1F1VU1MVkUyQWZNTTRsMld3ajFYOVppUURMMDdwTk41aXA4dHpYVU1DUDBqM1dvOXBSUzRYdERtSWE4VFo1VnhUaDd3a193Znk4Z1pVaG1Pb3FiUzd3RFYxTzNr?oc=5",
+   "Reuters",
+   "Wed, 21 Oct 2026 13:20:39 GMT"
+  ],
+  [
+   "5 Things to Know Before the Stock Market Opens on Wednesday - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdTNHYVRYOGVvMU5tTlQwMUpFd0Y3R2JIQUVmSXotSXdfdzV0UXE3Sm9oYWtZaExORXBzTDNrSHozalJBQUNVUENZdGRMcko1cGtaRGpYY3diMng3MHEwVEhEaE5ZWjVPcFdYS2NFa29abVY0dlR2cFhGRnZYT2NlVTVOSHdHUVZBOWJTQTZQQ3V5ZEJWQ1E?oc=5",
+   "Yahoo Finance",
+   "Wed, 21 Oct 2026 12:23:06 GMT"
+  ],
+  [
+   "Dow Jones Futures Rise As SpaceX, Supermicro Revive AI Stocks; Tesla, Meta On Deck - Investor's Business Daily",
+   "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMGM3eElCcmNqVzZCZFFsSU1yemxZN3RGeGx1cnh3OHNkWGZwc1J5b0U5NVEzYXFqSlQzWGNteDR4ODlGbkplZ1lYeTVVbm5tUU9nRGlDVVdBcWdGMEZFYVZTSGxWQy1YY0hnV04tSVZkSUZkOWpicjlEVzRmT3VQT3dWN2NkaDdqX3BwbHc2cVRJQTFJVnFUUkJINDR0VGYxSFlCU3M1Yy1jSHI3ajZzTmRtUm4?oc=5",
+   "Investor's Business Daily",
+   "Wed, 21 Oct 2026 12:18:00 GMT"
+  ]
+ ],
+ "cal": [
+  [
+   "2026-10-22 08:30:00-04:00",
+   "Unemployment Claims",
+   "Medium",
+   "200K",
+   "199K"
+  ],
+  [
+   "2026-10-23 09:45:00-04:00",
+   "Flash Manufacturing PMI",
+   "Medium",
+   "55.4",
+   "57.0"
+  ],
+  [
+   "2026-10-23 09:45:00-04:00",
+   "Flash Services PMI",
+   "Medium",
+   "57.8",
+   "58.7"
+  ],
+  [
+   "2026-10-23 10:00:00-04:00",
+   "Revised UoM Consumer Sentiment",
+   "Medium",
+   "46.3",
+   "46.3"
+  ],
+  [
+   "2026-10-23 10:00:00-04:00",
+   "Revised UoM Inflation Expectations",
+   "Medium",
+   "",
+   "4.7%"
+  ]
+ ]
+}
