@@ -538,43 +538,43 @@
  "macro": [
   [
    "S&P fut",
-   7808.75,
-   0.6898553
+   7776.5,
+   0.27400792
   ],
   [
    "Nasdaq fut",
-   30072.25,
-   1.3378152
+   29915.25,
+   0.80875474
   ],
   [
    "VIX",
-   16.68,
-   -3.63951
+   17.04,
+   -1.5606853
   ],
   [
    "US 10Y",
-   5.1150002,
-   -0.03907325
+   5.148,
+   0.6060633
   ],
   [
    "Brent",
-   108.75,
-   -0.03676893
+   110.38,
+   1.4615281
   ],
   [
    "Gold",
-   4154.3,
-   0.28242424
+   4127.9,
+   -0.35485432
   ],
   [
    "Bitcoin",
-   84407.73,
-   2.384113
+   84268.64,
+   2.1424332
   ],
   [
    "Dollar",
-   101.696,
-   -0.0049137203
+   101.826,
+   0.122909315
   ]
  ],
  "sectors": [
@@ -658,6 +658,12 @@
    "Wed, 21 Oct 2026 18:52:44 GMT"
   ],
   [
+   "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
+   "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 16:01:25 GMT"
+  ],
+  [
    "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
    "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
    "CNBC",
@@ -680,12 +686,6 @@
    "https://www.cnbc.com/2026/10/21/netflix-theatrical-strategy.html",
    "CNBC",
    "Wed, 21 Oct 2026 18:32:12 GMT"
-  ],
-  [
-   "New Mexico AG lawsuit accuses Epstein's attorney and accountant of facilitating sex trafficking",
-   "https://www.cnbc.com/2026/10/21/epstein-new-mexico-lawsuit-sex-trafficking.html",
-   "CNBC",
-   "Wed, 21 Oct 2026 18:43:56 GMT"
   ],
   [
    "Mortgage rates drop for the first time in 2 months, but demand still falls further",
@@ -736,10 +736,10 @@
    "Wed, 21 Oct 2026 16:00:00 GMT"
   ],
   [
-   "Russell U.S. Style Indices Forced Into Rethink by Concentrated U.S. Stock Market - ETF Trends",
-   "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVzNnbFdhMTk3UlN6V2ZsbVFhdU9oR0I2MXIzd1pSSFQtcW94b1VpVDdDVjk2UE5kQlQwVnRudFhrZ2RSM2xzZVptR2x4M1VLa1ZmSHRUcEZ6YV9ZMHV4MUJOX0trcTdremswQ3dWQmotTHBvc2lBZENabXhqUzVldWxkZHQxT0IzSXJCMHRxWGFhNmVQRmctNlVoaGRsaHFpa0JLUk9VSVo4WHk2YUgtSk5nOGx3Rk5PcmdhMNIBwgFBVV95cUxQTVFxYi03WnNwS0o4TnF5MzJCdGh4dUNZdkJqcGg3dFIzOHdVVU1QWUtJQzBzVjRuSlR2eW9XY2FwVmFvOHZWZHFfdjJGWHlUSlZzLWllM3F5N2NmWVk1Z2RBUkh2Q256WHlaVTJpajUxcV8takhFdE5rRUp3UG5YdElPV1BwR2JZTThWVjFNVkJ2M1l0NWstd2xGakZiUGNlbDhpVXRWWndVZmdPX2ZOeTEteFpaVjVEZ2RCVnVQT0JyQQ?oc=5",
-   "ETF Trends",
-   "Wed, 21 Oct 2026 15:36:37 GMT"
+   "Wall Street ticks higher after SpaceX helps lift AI stocks - Pittsburgh Post-Gazette",
+   "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLWRtWnBlX1BvdHRxSmx6TlM1QXJhdlZzeXg4MFpUczVsamsybnYxSTNDODc2NjBHa0pEZTl2RXVyNmI0TVh1LUNPZVNlQkY3WUJrTGNTYkI2TmZ6VHU2d1MtUXd2Rk5oODNwa0N2c0JHWHJJQWQ0c0FnMm1vM1FsTWtRbnh5Z2w2WUw5UkxRWmdnRnFlNEh3LUJiRmdOeUJpRTZQUWd4M29RU2w1WEsw?oc=5",
+   "Pittsburgh Post-Gazette",
+   "Wed, 21 Oct 2026 18:20:39 GMT"
   ],
   [
    "Gains in Sports Team Values Lag Stock Market Since 2022 - Sportico.com",
@@ -748,22 +748,22 @@
    "Wed, 21 Oct 2026 11:58:44 GMT"
   ],
   [
-   "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the Smartest Move Investors Can Make - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMingFBVV95cUxPYjJOS3VQS00zTHNGVG5fSjljX1ByRjZMQVozMEt3WVNwdWhfU00wTjZEUHpIZThFNFZUWG5QNTJoOTBVN3NRMWhnTHNZd1dJa1lRenJMVExzZEpVYmRSQzIwU0V2dkRlR1M3VGdUTTJvNC1ZQnZUWVBqbHhDMHVfMzB3dzMzSVdka19qS3BJbElEdEREME54eHM2TVBQZw?oc=5",
+   "Russell U.S. Style Indices Forced Into Rethink by Concentrated U.S. Stock Market - ETF Database",
+   "https://news.google.com/rss/articles/CBMimAFBVV95cUxORThJdGpNVE1QWkVSb3JWY2psMUxJN0tsbmVwWEltZVBlQUp4eUFjVnRuOGZYV1VpTWVqb1M2NVNPZmFxaTlzTHJUVmltTVlnUTFDb3hHaDduTGc1ajh4NVBMY2dlUmxaN0dTRXVlZWNYeHhwU2NlQ2t2SjV3UHZveE10M3luaGFKY1prRmRldWNMMnFYZnhOYw?oc=5",
+   "ETF Database",
+   "Wed, 21 Oct 2026 15:55:27 GMT"
+  ],
+  [
+   "Musk's SpaceX helps launch stock market gains - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSlVqZGkwZHAzbi1NaV8xMTdXLUcxelRJU1NsSTh6cW1DdXpBbmkyWXNaOUJRS2VrbVFEU3MxZUp3al9KczBOSUpVRGNVa1hQLXhLd0VIUmhsQ0RVUThUX1NralJNVWhsRWpDUHlrZEFsOG9pSkM4cV9pZWdTc0hGZ25LWDlZN3FEZ0x2bUxxZWlfRXRJbzlzWlRjcjZVNlh0OTFR?oc=5",
    "Yahoo Finance",
-   "Wed, 21 Oct 2026 07:20:00 GMT"
+   "Wed, 21 Oct 2026 15:47:00 GMT"
   ],
   [
    "5 Things to Know Before the Stock Market Opens on Wednesday - Investopedia",
    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX1o5Q3V0X2lET0hZQVkxSkhSMTM5Q3ZZT3VGS3F6bVdPOUVqUldGNGtYYjVuRnJNVnY1VXpzdHpwNlNObDFrQndaSUY3eS1qZmVQM2plVE1yVkpXZHFJV1h6WkM1bEQ4dTF5V1U1alZUbmVPV2h5aFBkUkVVOWthLTlmWmgwZEE0ZEQza0Q3WHk4NDNhYXBlVlM5cmZBbU92djNpbTRNM0pXcFpSMnctNXZrcw?oc=5",
    "Investopedia",
    "Wed, 21 Oct 2026 12:23:06 GMT"
-  ],
-  [
-   "Our top 10 things to watch in the stock market Wednesday - CNBC",
-   "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQREhuNmNxTnBmMzhVUllISy1MZFNVbU12QzhRS0pSYjdmWXRlRThrSEJ1X0lvS3h0VmdTSlBNaVZENlBGelJwaE9XcC1vaGpTVXh3MnpqY1JXdTJxcU5KQ0tTTGFiMjNHRWxlN3lVTEZLRDRROHVRcVlYWjZ0ZXNYekhIVUxvWjNGQVo5ZU9VR182YXNfaDQ2eFQySExUeVM2ZDZUSlRCd2htVUU?oc=5",
-   "CNBC",
-   "Wed, 21 Oct 2026 13:08:24 GMT"
   ]
  ],
  "cal": [

@@ -1,72 +1,71 @@
 {
  "asof": "2026-10-21",
  "model": "Claude",
- "generated_utc": "2026-10-21T18:54:48Z",
+ "generated_utc": "2026-10-21T19:12:25Z",
  "note": {
   "mood": "mixed",
   "bullets": [
-   "US futures up (Nasdaq +0.7%, S&P +0.3%) after strong tech earnings restored AI-trade confidence; Asia mixed, Europe higher.",
-   "Brent near $110 on Strait of Hormuz supply fears, keeping inflation and yield pressure on risk assets.",
-   "US 10Y yield ~5.10%; French-German spread near 15-yr high (~159bps) signals European sovereign stress.",
-   "Heavy earnings day: Meta, Tesla, IBM, Philip Morris report; weekly EIA crude inventories also due."
+   "Futures green: Nasdaq +0.6%, S&P +0.2%; Asia (Kospi +2.6%) and Europe (Stoxx 600 +0.5%) bounce on AI-earnings relief after last week's chip selloff.",
+   "Brent crude surged past $110 on Strait of Hormuz shipping attacks; 10-yr Treasury yield eased to ~5.09-5.11% from last week's 5.27% spike.",
+   "Tesla and Meta report Q3 results after today's close; Netflix fell 6.4% Tuesday on a mixed beat, showing the market is punishing any softness.",
+   "Last week's rout was macro-driven: hot wholesale inflation plus rising yields hit debt-funded AI infrastructure names; Supermicro's upbeat guidance today lifted server stocks."
   ]
  },
  "picks": {
   "P": {
    "verdict": "CAUTION",
-   "cause": "company",
-   "why": "Pure Storage rebranded to Everpure; ~8-20% slide reflects investor skepticism on turnaround execution, not a miss. Two insiders (director, CVO) sold ~$23M combined Oct 14, same week as the drop.",
-   "catalysts": "No confirmed earnings date or catalyst found in next 7 trading days",
-   "flags": ["insider selling", "unproven rebrand narrative", "no earnings miss found"],
+   "cause": "unclear",
+   "why": "Drop followed heavy insider selling ($297M sold in 12mo, no buying, incl. CEO and a director on Oct 14) and a stretched ~215x forward P/E; no guidance cut, fraud, lawsuit or sector-wide trigger found.",
+   "catalysts": "none found",
+   "flags": ["heavy insider selling, no buying", "no sector confirmation for the drop", "~70% above GF fair value"],
    "sources": [
-    {"title": "Pure Storage Rebrands as Everpure This Week and Stock Falls 8%. Here's What Analysts Say", "url": "https://www.tikr.com/blog/pure-storage-rebrands-as-everpure-this-week-and-stock-falls-8-heres-what-analysts-say"},
-    {"title": "Everpure director Scott Dietzen sells $8.5m in company stock", "url": "https://www.investing.com/news/insider-trading-news/everpure-director-scott-dietzen-sells-85m-in-company-stock-93CH-4955252"},
-    {"title": "Everpure CVO John Colgrove sells $14.5m in company stock", "url": "https://www.investing.com/news/insider-trading-news/everpure-cvo-john-colgrove-sells-145m-in-company-stock-93CH-4955262"}
+    {"title": "A Look at Everpure Inc (P) After 9.9% Decline -- GF Value $82.79 vs Price $141.49", "url": "https://www.gurufocus.com/news/9124156/a-look-at-everpure-inc-p-after-99-decline-gf-value-8279-vs-price-14149"},
+    {"title": "Everpure director Scott Dietzen sells $8.5m in company stock", "url": "https://www.investing.com/news/insider-trading-news/everpure-director-scott-dietzen-sells-85m-in-company-stock-93CH-4955252"}
    ]
   },
   "HPE": {
-   "verdict": "CAUTION",
-   "cause": "mixed",
-   "why": "Barclays cut HPE to Equal Weight (PT $77) on Oct 14, saying AI hardware adoption is slower than priced and recent growth came from price hikes not demand. Dell/Oracle fell same week, so partly sector-wide.",
-   "catalysts": "FQ4 earnings Dec 3, 2026 - outside the 7-trading-day window",
-   "flags": ["analyst downgrade on fundamentals", "valuation premium vs peers", "AI-adoption-pace doubt"],
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Oct 14 Barclays downgrade (Overweight to Equal Weight) hit HPE, Dell and NetApp together on doubts enterprise AI-hardware adoption is as fast as priced in; no HPE-specific earnings miss, guidance cut or scandal.",
+   "catalysts": "none found; next earnings Dec 3 (outside window)",
+   "flags": ["sector-wide AI-capex skepticism, not isolated", "stock already stabilizing/rallying on Oct 21"],
    "sources": [
     {"title": "Why Hewlett Packard Enterprise Stock Plunged 20% This Week", "url": "https://www.fool.com/coverage/market-movers/2026/10/16/why-hewlett-packard-enterprise-stock-plunged-20-this-week/"},
-    {"title": "Barclays downgrades HPE after 186% rally, cuts price target to $77", "url": "https://www.investing.com/news/stock-market-news/barclays-downgrades-hpe-after-186-rally-cuts-price-target-to-77-4948850"}
-   ]
-  },
-  "PANW": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "Actively-exploited PAN-OS zero-day (CVE-2026-0322, CVSS 8.6) added to CISA's KEV list with an Oct 17 federal remediation deadline. Phillip Securities also downgraded to Neutral (Oct 12) on valuation. Broader cybersecurity sector also sold off.",
-   "catalysts": "No confirmed earnings date found in next 7 trading days",
-   "flags": ["actively exploited product vulnerability", "CISA KEV listing", "analyst downgrade"],
-   "sources": [
-    {"title": "Palo Alto Networks drops on zero-day security flaw concerns", "url": "https://www.streetinsider.com/Investing/Palo+Alto+Networks+drops+on+zero-day+security+flaw+concerns/27196703.html"},
-    {"title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation", "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"},
-    {"title": "Why is Palo Alto Networks stock sliding today?", "url": "https://www.investing.com/news/stock-market-news/why-is-palo-alto-networks-stock-sliding-today-93CH-4954447"}
+    {"title": "HPE, DELL, NTAP Stocks Downgraded, Barclays Sees No 'Meaningful AI Inflection'", "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-dell-ntap-stocks-downgraded-102255493.html"}
    ]
   },
   "MTSI": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "Drop tracks a broad semiconductor selloff (chip peers CRUS, SITM, MRVL also down) on AI-capex-durability and China-competition worries, not a new MACOM-specific announcement; no news since June per sources checked.",
-   "catalysts": "No confirmed earnings date found in next 7 trading days",
-   "flags": ["sector-wide chip selloff", "pre-earnings caution cited", "no company-specific news found"],
+   "why": "Fell alongside Lam Research, Lattice, Amkor and Entegris on hot Sept wholesale inflation (+1.3%) and the 10-yr yield topping 5.27%, raising AI-capex funding costs sector-wide; no MACOM-specific negative news found.",
+   "catalysts": "none found; earnings Nov 5 (outside window, headlines cite pre-earnings caution)",
+   "flags": ["broad semi-equipment sector selloff", "pre-earnings caution ahead of Nov 5 report"],
    "sources": [
-    {"title": "MACOM Slides as Chip Selloff and Pre-Earnings Caution Weigh on Shares", "url": "https://www.quiverquant.com/news/MACOM+Slides+as+Chip+Selloff+and+Pre-Earnings+Caution+Weigh+on+Shares"},
-    {"title": "MACOM Technology Solutions Holdings Inc (MTSI) Shares Fall 6.8% -- GF Value Says Still Overvalued", "url": "https://www.gurufocus.com/news/9126736/macom-technology-solutions-holdings-inc-mtsi-shares-fall-68-gf-value-says-still-overvalued"}
+    {"title": "Lam Research, Lattice Semiconductor, Amkor, Entegris, and MACOM Stocks Trade Down, What You Need To Know", "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-lattice-semiconductor-amkor-174427674.html"},
+    {"title": "MACOM Technology Solutions (MTSI) Q4 2026 Earnings Date, Time & Estimates", "url": "https://www.marketbeat.com/earnings/reports/2026-11-5-macom-technology-solutions-holdings-inc-stock/"}
    ]
   },
   "ANET": {
    "verdict": "CONFIRM",
    "cause": "macro",
-   "why": "Fell 18% from its record in a week on AI-debt-financing fears and hot inflation/oil data hitting the whole AI hardware chain; no guidance cut or miss of its own. Rebounded with peers as yields/oil eased.",
-   "catalysts": "Earnings expected Nov 3, 2026 - outside the 7-trading-day window",
-   "flags": ["sector/macro AI-debt selloff", "no company-specific damage found"],
+   "why": "18% pullback from its Oct 9 record reflects market-wide doubts that debt-funded AI infra firms can service borrowing, plus hot inflation and oil; Arista reported no miss, cut no guidance, holds $13.3B cash and zero debt.",
+   "catalysts": "none found; earnings Nov 3 (outside window)",
+   "flags": ["chip index fell 8 straight sessions sector-wide", "already rebounding (+3.4% Oct 19)"],
    "sources": [
-    {"title": "Arista Networks Stock Fell 18% From Its Record in One Week.", "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-fell-18-034336396.html"},
-    {"title": "Arista Networks (NYSE:ANET) Stock Falls 5.1% - Should You Sell?", "url": "https://www.marketbeat.com/instant-alerts/price-arista-networks-nyse-anet-stock-falls-51-should-you-sell-2026-10-15/"}
+    {"title": "Arista Networks Stock Fell 18% From Its Record in One Week. Here's What the Selloff Missed and Where the Stock Could Go by 2030", "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-fell-18-034336396.html"},
+    {"title": "Arista Networks Is Outgrowing The Market Fourfold: What To Watch Next", "url": "https://www.trefis.com/stock/anet/articles/619151/arista-networks-is-outgrowing-the-market-fourfold-what-to-watch-next/2026-10-19"}
+   ]
+  },
+  "PANW": {
+   "verdict": "VETO",
+   "cause": "company",
+   "why": "Actively-exploited critical PAN-OS vulnerability (CVE-2026-0310, CVSS 9.2) plus a second GlobalProtect flaw exploited by ransomware (CVE-2026-0257) days later; CISA set an Oct 17 federal remediation deadline. Company-specific security damage, not just sector drift.",
+   "catalysts": "ongoing patch/remediation into next week; no confirmed earnings date in window",
+   "flags": ["two exploited CVEs within days of each other", "Phillip Securities cut to Neutral on valuation Oct 12"],
+   "sources": [
+    {"title": "Why Palo Alto Networks (PANW) Shares Are Trading Lower Today", "url": "https://finance.yahoo.com/markets/stocks/articles/why-palo-alto-networks-panw-053105774.html"},
+    {"title": "Palo Alto Networks drops on zero-day security flaw concerns", "url": "https://www.streetinsider.com/Investing/Palo+Alto+Networks+drops+on+zero-day+security+flaw+concerns/27196703.html"},
+    {"title": "Ransomware groups exploit PAN-OS flaw: Palo Alto Networks stock costs EUR 303.33", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/ransomware-groups-exploit-pan-os-flaw-palo-alto-networks-stock-costs-eur-303-33/70382456"}
    ]
   }
  }
