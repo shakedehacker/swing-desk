@@ -4,3 +4,4 @@ site/
 charts.png
 positions.json
 __pycache__/
+logs/

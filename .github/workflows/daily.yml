@@ -1,13 +1,7 @@
 name: daily-report
 on:
-  schedule:
-    # 9:00 Israel = 06:00 UTC (summer) / 07:00 UTC (winter). GitHub cron can lag, so run early twice.
-    - cron: "0 4 * * 1-5"    # picks.json for the 04:30 Claude research run
-    - cron: "0 5 * * 1-5"
-    - cron: "45 5 * * 1-5"
+  # Backup only: the Mac (daily.sh via launchd) is the daily runner and deploys to Vercel.
   workflow_dispatch:
-  push:
-    paths: [ai.json]   # Claude's morning research landed: rebuild with it
 permissions:
   contents: write
   pages: write
