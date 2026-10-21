@@ -134,8 +134,7 @@ def build():
     picks = []
     for t, r in today:
         b, z = data[t], q.get(t, {})
-        ets = z.get("earningsTimestamp")
-        ed = trading_days_until(ets) if ets and ets > time.time() else None
+        ed = edays(z)
         if ed is not None and ed <= 7: continue  # never hold a swing through earnings
         s = table.get(bucket(r, n_dip, ibs(b, last[t])))
         if not s or s["n"] < 30 or s["avg"] < 0.3: continue  # bucket without a real edge
@@ -152,13 +151,23 @@ def build():
         c, a = b["c"][-1], atr(b)
         trig = b["c"][-5] * 0.90  # price where it becomes a 10% 5-day dip tomorrow (approx)
         picks.append(dict(t=t, kind="WATCH", rule="watch", c=c, buy=trig, tgt=b["_e5"][-1], stop=trig - 2 * a, days=None,
-                          conf=None, s=None, ed=None, name=z.get("shortName", ""), drop=d5))
+                          conf=None, s=None, ed=edays(z), name=z.get("shortName", ""), drop=d5))
     for p in picks: p["news"] = ticker_news(p["t"])
     r = dict(picks=picks, n_dip=n_dip, n_sig=len(today), table=table, asof=max(b["d"][-1] for b in data.values()),
              news=headlines(), cal=econ_calendar(), earn=earnings_week(set(uni)), macro=macro(), sectors=sectors())
     apply_ai(r)
     r["track"] = track(r)
     return r
+
+def edays(z):
+    ets = z.get("earningsTimestamp")
+    return trading_days_until(ets) if ets and ets > time.time() else None
+
+def earnings_veto(p):
+    """Known-in-advance earnings inside the hold window: veto in Python, no AI research spent on it."""
+    if p["ed"] is not None and p["ed"] <= 6:
+        return dict(verdict="VETO", cause="company", why=f"Earnings in {p['ed']} trading days, inside the hold window.",
+                    catalysts="earnings", flags=["earnings gap risk"], sources=[])
 
 def ticker_news(t):
     seen, out = set(), []
@@ -176,7 +185,7 @@ def apply_ai(r):
     r["ai_source"] = cl.get("model", "Claude") + " research" if cl else ("Groq quick check" if os.environ.get("GROQ_API_KEY") else None)
     r["note"] = cl.get("note") or ai.desk_note(r["macro"], r["sectors"], r["news"], r["cal"], r["picks"])
     for p in r["picks"]:
-        p["ai"] = (cl.get("picks") or {}).get(p["t"]) if cl else ai.check_pick(p, [h for h, *_ in p["news"]])
+        p["ai"] = earnings_veto(p) or ((cl.get("picks") or {}).get(p["t"]) if cl else ai.check_pick(p, [h for h, *_ in p["news"]]))
         v = (p["ai"] or {}).get("verdict")
         if p["conf"] is not None and v == "CAUTION": p["conf"] = max(1.0, p["conf"] - 1)
         if p["conf"] is not None and v == "VETO": p["conf"] = 0.0

@@ -5,16 +5,16 @@
    "t": "P",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 130.97000122070312,
+   "c": 130.13999938964844,
    "buy": 120.05999450683593,
-   "tgt": 131.28207724887147,
+   "tgt": 131.00540997185325,
    "stop": 104.21512843540737,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Everpure, Inc.",
-   "drop": -7.435157158834937,
+   "drop": -8.021772325158327,
    "news": [
     [
      "Everpure (P) Stock May Trade At A Premium On Recurring Revenue",
@@ -82,16 +82,16 @@
    "t": "HPE",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 58.58000183105469,
+   "c": 58.13999938964844,
    "buy": 52.767000961303715,
-   "tgt": 58.50008293392595,
+   "tgt": 58.3534154534572,
    "stop": 45.155572564261306,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Hewlett Packard Enterprise Comp",
-   "drop": -7.177941269982879,
+   "drop": -7.875140504891586,
    "news": [
     [
      "Supermicro stock jumps as server maker lifts revenue forecast",
@@ -136,16 +136,16 @@
      "Fri, 16 Oct 2026 17:55:00 GMT"
     ],
     [
+     "HPE Stock Falls After Barclays Downgrade Questions AI Growth - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHhWa3NfWFkzX1pkQ182aWc1NTFkdGVsazZMT0xTUUdpaTNKeTZmcjBYOXlzSEQ1cDlZblU0U0gzYmdTb0ZySm1rWFFMQnQzMTctV2ZFOUNKdU5NdEYzMVhlSW1wUDg2N0NEYVllODVpdkYyeWUzSXNhU3hFRzR6Z2wySzRudzhXN19KbXF1YnNmMWdidnZ4bTJ0M0l0d2p2?oc=5",
+     "Yahoo Finance",
+     "Wed, 14 Oct 2026 19:28:56 GMT"
+    ],
+    [
      "Why Hewlett Packard Enterprise Stock Plunged 20% This Week - The Motley Fool",
      "https://news.google.com/rss/articles/CBMiswFBVV95cUxObjUtaFdITGpGS1h0QVZmdHVZNmRaR3hEOWRUU2FGWmNfYkRmRXlTZTA0eWtmY01VRDk1SVF0MnJ0clppQnNwbWdLYXRGYjdnajFSOTcxNUJqaTVSQ1I0d0pQRlY1Zk5KVkVOaE5hUENPbGs1cldPWmkxdml1VkhHLWFqZFZoSDdObkl1UmNKb096dmJLZnBNMkNZYnh2cWNjOXpwWFdHb1hpVWxQcFFlQ3NHQQ?oc=5",
      "The Motley Fool",
      "Fri, 16 Oct 2026 15:13:00 GMT"
-    ],
-    [
-     "HPE (HPE) Stock May Be 28% Undervalued Following Strong Q2 Earnings - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOU80VVlWWGFBb0QwRUhzMUtEdEkyaVhrNElCbU5IWFE0UVhYWnpsbXpBclgxalBWR0ViamJGRWtpamdxQnFoMEpGcGpGSEdIa1JJazRhQTNGWkY0SDJmMkFaaklmWVRlWW5FR0xKOUotSEVhcElGNmNRZXhSQ29xQXAwZWJ6TlgzNTltc2tB?oc=5",
-     "Yahoo Finance",
-     "Mon, 19 Oct 2026 22:14:42 GMT"
     ],
     [
      "HPE Stock Alert: Barclays Just Delivered A Stark Warning After 145% Rally - Barchart.com",
@@ -156,96 +156,19 @@
    ]
   },
   {
-   "t": "PANW",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 351.6050109863281,
-   "buy": 333.2429901123047,
-   "tgt": 354.2785505455147,
-   "stop": 297.15584062848774,
-   "days": null,
-   "conf": null,
-   "s": null,
-   "ed": null,
-   "name": "Palo Alto Networks, Inc.",
-   "drop": -6.248666015531712,
-   "news": [
-    [
-     "Palo Alto Networks (PANW) Stock Dips While Market Gains: Key Facts",
-     "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-stock-204504448.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 20:45:04 +0000"
-    ],
-    [
-     "Palo Alto Networks (PANW) Pays a Large Part of Its Wage Bill in Stock. What Does That Do to Profit?",
-     "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-pays-144939208.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 14:49:39 +0000"
-    ],
-    [
-     "Is AI Security Expansion Altering The Investment Case For Palo Alto Networks Stock?",
-     "https://finance.yahoo.com/technology/ai/articles/ai-security-expansion-altering-investment-232352876.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 19 Oct 2026 23:23:52 +0000"
-    ],
-    [
-     "Palo Alto CEO wants AI labs out of the \u2018fear-mongering business\u2019",
-     "https://www.thestreet.com/technology/palo-alto-networks-panw-ai-cybersecurity-strategy?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 19 Oct 2026 16:17:00 +0000"
-    ],
-    [
-     "Network Detection and Response (NDR) Market Surges to $7.29 billion at a CAGR 10.9% by 2031 | Report by MarketsandMarkets\u2122",
-     "https://finance.yahoo.com/technology/articles/network-detection-response-ndr-market-143000843.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 19 Oct 2026 14:30:00 +0000"
-    ],
-    [
-     "CrowdStrike Gains 3.6% on Expanded NVIDIA AI Agent Security Deal: \u201cSetting the Standard\u201d",
-     "https://www.tikr.com/blog/crowdstrike-gains-3-6-on-expanded-nvidia-ai-agent-security-deal-setting-the-standard?ref=yahoofinance&.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 15:19:10 +0000"
-    ],
-    [
-     "Sell-Off In Cybersecurity Stocks Intensifies Amid Palo Alto Vulnerability - Investor's Business Daily",
-     "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN0RwdUhaYW1SUUMzcE82Wm1kUTVtcVlpUXdCZjNaTm1kcV9ua0pBUDFoVnJZZUd4ZmxTLUxuMWgtRVZRcnJJS2tPRGUyX3NkTjZLamg4Q3JtWm1IMTFfbUg2OWdFdnFieGZzQVFWNy1yUktQLTNGb0k1dDhaMU5RUWItaERwYXAxTVhkZ2FqMy1fMnFXbjd1THJNQlZCc2hyYU9r?oc=5",
-     "Investor's Business Daily",
-     "Fri, 16 Oct 2026 16:43:00 GMT"
-    ],
-    [
-     "Why is Palo Alto Networks stock sliding today? - Investing.com",
-     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdHRuM2lWY3NkeTJIRVVRbC12WVhmczd0VXdqVEdnNS1rMlluLUpodWJFZUlUZ3BTN296ZVlXSUVBbDZ1X3I1c0pWQVRlakNTcm91M1NMcHFXaTNlRTVuUVgydGFxUmlyekNLNXdZS3R4aG9sQUMxM213TTJUdE9KMGpGa29oQWR1WTU3RXJYX2lBR1pwbG53Tlg5dEdlOHlCOWdscmhpT3dBalk?oc=5",
-     "Investing.com",
-     "Fri, 16 Oct 2026 14:27:56 GMT"
-    ],
-    [
-     "Palo Alto Networks (NasdaqGS:PANW) Stock Forecast & Analyst Predictions - Simply Wall Street",
-     "https://news.google.com/rss/articles/CBMihAFBVV95cUxQamxpMGplLWNyUHk1TmZYUFhJOG16ZVFDRjVqTXVrUWNjWmhMTDNGY3FMSUVBaThLNjdmV0x3eWkyTG5tWUxsdjdXeUlrVmdBT3NrMEN2LXFfSmVwZ2JNRFJJU3FydXlWUm51cjVkaU1SRnZGdC1JRnFiN2NDV3hVYnczNXc?oc=5",
-     "Simply Wall Street",
-     "Fri, 16 Oct 2026 07:00:00 GMT"
-    ],
-    [
-     "Palo Alto Networks (NASDAQ:PANW) Stock Price Down 1.9% - Here's Why - MarketBeat",
-     "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZk5yc1RNQ2RpT2UyWWtOUEhKTWlKZjdFck5nc2ZhdThUQmhpQjNISkxKci0tTXNGcTE2N1JCSUJIVHZ4RXotck9XU05TbDFtMUE2c3FEeDJJd1ZRWTN2bTlYSGIyMUxuMEh0SDBvaVBMZmMtOFlvdWlrUll0NGdQNjBkb1pfSXRwd05JdzNYREFrNDM1RWJ4dF9KLVdERk5rQ0pnR213TUFGbndMYlhkc1plamJvY2pRZXEtNA?oc=5",
-     "MarketBeat",
-     "Tue, 20 Oct 2026 21:27:13 GMT"
-    ]
-   ]
-  },
-  {
    "t": "MTSI",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 273.81500244140625,
+   "c": 271.9024963378906,
    "buy": 244.25101318359376,
-   "tgt": 273.40978896096624,
+   "tgt": 272.77228692646105,
    "stop": 204.30743582589287,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "MACOM Technology Solutions Hold",
-   "drop": -6.012077348074396,
+   "drop": -6.66855151539848,
    "news": [
     [
      "Is MACOM Technology Solutions Holdings (MTSI) Trading At A Premium To Cash Flow?",
@@ -304,19 +227,96 @@
    ]
   },
   {
+   "t": "ANET",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 183.33999633789062,
+   "buy": 167.02200164794922,
+   "tgt": 185.16902414954674,
+   "stop": 149.92499498639788,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": 9,
+   "name": "Arista Networks, Inc.",
+   "drop": -6.1815586655625925,
+   "news": [
+    [
+     "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
+     "https://www.fool.com/coverage/better-buy/2026/10/21/arista-networks-vs-datadog-which-technology-stock-is-a-better-buy-in-2026/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 14:40:44 +0000"
+    ],
+    [
+     "Arista Networks Vs. Cisco Systems: Modern AI Data Center Networking vs. Legacy Enterprise Switch Leader",
+     "https://247wallst.com/investing/2026/10/21/arista-networks-vs-cisco-systems-modern-ai-data-center-networking-vs-legacy-enterprise-switch-leader/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 11:15:57 +0000"
+    ],
+    [
+     "Arista Networks vs. Axon Enterprise: Which Tech Stock Is a Better Buy in 2026?",
+     "https://www.fool.com/coverage/better-buy/2026/10/20/arista-networks-vs-axon-enterprise-which-tech-stock-is-a-better-buy-in-2026/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 03:16:01 +0000"
+    ],
+    [
+     "Is Open AI Rack Launch Altering The Investment Case For Arista Networks Stock?",
+     "https://finance.yahoo.com/technology/ai/articles/open-ai-rack-launch-altering-101028015.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 10:10:28 +0000"
+    ],
+    [
+     "Arista Networks Stock Fell 18% From Its Record in One Week. Here\u2019s What the Selloff Missed and Where the Stock Could Go by 2030",
+     "https://www.tikr.com/blog/arista-networks-stock-fell-18-from-its-record-in-one-week-heres-what-the-selloff-missed-and-where-the-stock-could-go-by-2030?ref=yahoofinance&.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 03:43:36 +0000"
+    ],
+    [
+     "Arista Networks Is Outgrowing The Market Fourfold: What To Watch Next",
+     "https://www.trefis.com/articles/619151/arista-networks-is-outgrowing-the-market-fourfold-what-to-watch-next/2026-10-19?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 19 Oct 2026 20:17:21 +0000"
+    ],
+    [
+     "ANET Stock Quote Price and Forecast - CNN",
+     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BbWlkeUcySkdqVVBlWGZMWU1TenVYc0lmT2ExN0IzUkVxamxKZUg3MFB4a2hNZV9GQ0RsbmpLeFZqaFZRVWY0dUVvNndVYWJh?oc=5",
+     "CNN",
+     "Mon, 19 Oct 2026 20:15:24 GMT"
+    ],
+    [
+     "Arista Networks (ANET) Stock Looks Fairly Valued On Its 7x Run - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxOLUtSVkRWVS1VU0VVQkxqN3RrY0h6clJwR0NSUG41UG1lYWFld2NvU09FelZqcUdPdEJNQVRaUTFWelFSQUxEYVlNZGRjeWdiSFFSS3JLZjJIMmNfMU9vTVI5ODFEWENDd3g5clVFWGhzQmJvc2hOcnVpUmF0bkxjLWtvcnBRLWxTLWVMUDBJaEpnV2RmNFcyUHQxaktGdw?oc=5",
+     "Yahoo Finance",
+     "Thu, 15 Oct 2026 20:21:47 GMT"
+    ],
+    [
+     "Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation - ChartMill",
+     "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSGFaSzZGOGxFN01DSWRWai1xQlNEbzBFbnZDLXJZaFB3SUZnbU5OT1NPcU1vczlfdzZhdkpYWlFkY0c4d3F2OXJPMHBKVWpwcEtlRmhOMExBcEExZ3JtZThHcW9acURtT3UyUDZnNDhiTF9Rd0MwdXJJeUR4NFVWbllRUTNOUUpRaW5hYzFVX1c4d0Rpd28zVzh2Z21JSUdkdTAyLUJoQVRJTDZ6cXpvR1l1dzliWjFJeU5sY1NSald5M0p0ZXNxWm83TndKMU9VSVVLZA?oc=5",
+     "ChartMill",
+     "Thu, 15 Oct 2026 08:11:14 GMT"
+    ],
+    [
+     "Arista Networks (ANET) Institutional Ownership 2026 - MarketBeat",
+     "https://news.google.com/rss/articles/CBMid0FVX3lxTE15UGVtYk1YLWQxbTZLb1hPckI4S0lqUUNVYjBRQkN4Q0NZSUhld1pUa0Z6NTl6SF9lbTMtcFJCcjRmUHBsU3h3VzBnUlV6SHZSZzdiUmhGYlR4VWtTM1NDc0dSdHlGZElnSGhMNU5PN1p5Wk5tb2ZF?oc=5",
+     "MarketBeat",
+     "Fri, 16 Oct 2026 07:00:00 GMT"
+    ]
+   ]
+  },
+  {
    "t": "PBF",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 81.80999755859375,
+   "c": 82.52999877929688,
    "buy": 78.29099807739259,
-   "tgt": 83.37771131602103,
+   "tgt": 83.61771172292208,
    "stop": 68.4724239894322,
    "days": null,
    "conf": null,
    "s": null,
-   "ed": null,
+   "ed": 6,
    "name": "PBF Energy Inc.",
-   "drop": -8.60239570312783,
+   "drop": -7.798014959613475,
    "news": [
     [
      "Are You Looking for a Top Momentum Pick? Why PBF Energy (PBF) is a Great Choice",
@@ -381,156 +381,156 @@
    ]
   },
   {
-   "t": "VLO",
+   "t": "PANW",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 431.4100036621094,
-   "buy": 399.6539978027344,
-   "tgt": 436.2006927911249,
-   "stop": 365.3718627929688,
+   "c": 348.57000732421875,
+   "buy": 333.2429901123047,
+   "tgt": 353.26688265814494,
+   "stop": 297.15584062848774,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
-   "name": "Valero Energy Corporation",
-   "drop": -6.170341292032944,
+   "name": "Palo Alto Networks, Inc.",
+   "drop": -7.057913987204001,
    "news": [
     [
-     "Valero Energy's Q3 Earnings Approach: Higher Refining Margins Fuel Optimism",
-     "https://finance.yahoo.com/energy/articles/valero-energys-q3-earnings-approach-210700405.html?.tsrc=rss",
+     "Palo Alto Networks (PANW) Stock Dips While Market Gains: Key Facts",
+     "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-stock-204504448.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 21:07:00 +0000"
+     "Tue, 20 Oct 2026 20:45:04 +0000"
     ],
     [
-     "Insights Into Valero Energy (VLO) Q3: Wall Street Projections for Key Metrics",
-     "https://finance.yahoo.com/energy/articles/insights-valero-energy-vlo-q3-121505887.html?.tsrc=rss",
+     "Palo Alto Networks (PANW) Pays a Large Part of Its Wage Bill in Stock. What Does That Do to Profit?",
+     "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-pays-144939208.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 12:15:05 +0000"
+     "Tue, 20 Oct 2026 14:49:39 +0000"
     ],
     [
-     "Dow, S&P 500, Nasdaq Edge Higher Amid Tech Rebound As Q3 Earnings Season Forges Ahead: DJT, AMZN, CBRS, CRWV Stocks In Focus",
-     "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-edge-higher-amid-tech-rebound-as-q3-earnings-season-forges-ahead-djt-amzn-cbrs-crwv-stocks-in-focus/cZxq0LsRBuB?.tsrc=rss",
+     "Is AI Security Expansion Altering The Investment Case For Palo Alto Networks Stock?",
+     "https://finance.yahoo.com/technology/ai/articles/ai-security-expansion-altering-investment-232352876.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 03:31:56 +0000"
+     "Mon, 19 Oct 2026 23:23:52 +0000"
     ],
     [
-     "Best Growth Stocks to Buy for October 19th",
-     "https://finance.yahoo.com/markets/stocks/articles/best-growth-stocks-buy-october-105500236.html?.tsrc=rss",
+     "Palo Alto CEO wants AI labs out of the \u2018fear-mongering business\u2019",
+     "https://www.thestreet.com/technology/palo-alto-networks-panw-ai-cybersecurity-strategy?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 19 Oct 2026 10:55:00 +0000"
+     "Mon, 19 Oct 2026 16:17:00 +0000"
     ],
     [
-     "Valero Energy Gears Up to Report Q3 Earnings: What's in the Cards?",
-     "https://finance.yahoo.com/energy/articles/valero-energy-gears-report-q3-152600003.html?.tsrc=rss",
+     "Network Detection and Response (NDR) Market Surges to $7.29 billion at a CAGR 10.9% by 2031 | Report by MarketsandMarkets\u2122",
+     "https://finance.yahoo.com/technology/articles/network-detection-response-ndr-market-143000843.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 16 Oct 2026 15:26:00 +0000"
+     "Mon, 19 Oct 2026 14:30:00 +0000"
     ],
     [
-     "Valero Energy (VLO) Stock Sinks As Market Gains: Here's Why",
-     "https://finance.yahoo.com/markets/stocks/articles/valero-energy-vlo-stock-sinks-210007047.html?.tsrc=rss",
+     "CrowdStrike Gains 3.6% on Expanded NVIDIA AI Agent Security Deal: \u201cSetting the Standard\u201d",
+     "https://www.tikr.com/blog/crowdstrike-gains-3-6-on-expanded-nvidia-ai-agent-security-deal-setting-the-standard?ref=yahoofinance&.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 15 Oct 2026 21:00:07 +0000"
+     "Wed, 21 Oct 2026 15:19:10 +0000"
     ],
     [
-     "Why Valero Energy (VLO) Stock Is Down Today - Quiver Quantitative",
-     "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeldWNHJmbzVRMWNMTUh2TDF2QjhJZlNPWG9kZmtpQjVHRC1uRXVkTktpN080RWV0d2hpWFh3UnpJelRBU0NTVjRaRjMxWnc5NDRIaUljYWxOSy1JRzFla0lQdGF4TF9lcDZKUU9tNUV2c0t0NHNRdEJGdC1JWkdiRTNka0U1Y0k?oc=5",
-     "Quiver Quantitative",
-     "Thu, 15 Oct 2026 18:32:00 GMT"
+     "Sell-Off In Cybersecurity Stocks Intensifies Amid Palo Alto Vulnerability - Investor's Business Daily",
+     "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN0RwdUhaYW1SUUMzcE82Wm1kUTVtcVlpUXdCZjNaTm1kcV9ua0pBUDFoVnJZZUd4ZmxTLUxuMWgtRVZRcnJJS2tPRGUyX3NkTjZLamg4Q3JtWm1IMTFfbUg2OWdFdnFieGZzQVFWNy1yUktQLTNGb0k1dDhaMU5RUWItaERwYXAxTVhkZ2FqMy1fMnFXbjd1THJNQlZCc2hyYU9r?oc=5",
+     "Investor's Business Daily",
+     "Fri, 16 Oct 2026 16:43:00 GMT"
     ],
     [
-     "Valero Energy (VLO) Stock Sinks As Market Gains: Here's Why - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNDFiVXo2SmpCUE1RQVVxc0lpY0ZvT3JhM2Z4SkxuT0hYSDlsQkIwWHJWTHI1eDlIS3RGQ01vRFVQT0d5UW13aU1RWkQ3NU8xck5aaHozWmJldlNPOGs2VDVBVDcwenozNy0wLUtCNXYzeTVpdFNQZ2pZUWhaS0puSkJnVDlNN0FPV1ZoZzZOaVVmR3VDQUxtTXp3?oc=5",
-     "Yahoo Finance",
-     "Thu, 15 Oct 2026 21:00:07 GMT"
+     "Why is Palo Alto Networks stock sliding today? - Investing.com",
+     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdHRuM2lWY3NkeTJIRVVRbC12WVhmczd0VXdqVEdnNS1rMlluLUpodWJFZUlUZ3BTN296ZVlXSUVBbDZ1X3I1c0pWQVRlakNTcm91M1NMcHFXaTNlRTVuUVgydGFxUmlyekNLNXdZS3R4aG9sQUMxM213TTJUdE9KMGpGa29oQWR1WTU3RXJYX2lBR1pwbG53Tlg5dEdlOHlCOWdscmhpT3dBalk?oc=5",
+     "Investing.com",
+     "Fri, 16 Oct 2026 14:27:56 GMT"
     ],
     [
-     "Valero Energy Corporation $VLO Stock: Pinnacle Associates Ltd. Cuts Position - MarketBeat",
-     "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYmVLT0stXzRtN1RjZVJtT0VmMUVFSUVheGZXbDdiVkFVTVlFMGJTUVFVRWxlb2xBaGlzMWdqSlNfdS1Db0ZQMXZpUktaSllZaXFSTkFLX3lkQWpwc0h3aG5JUzJiUTFxSnlud3ZIaG83Sm1MeU5JdkVxT1phVmR1XzN1VnMzZG9fQVU3aHFXRDBORFRqNFJOREhfbGlfZ2JIVlFhZDNsekxvMlBqcTNBLU13eG1kTGR6dTJWeVN3QWFJbnJ4U2JvckZDOHB2WXM?oc=5",
+     "Palo Alto Networks (NasdaqGS:PANW) Stock Forecast & Analyst Predictions - Simply Wall Street",
+     "https://news.google.com/rss/articles/CBMihAFBVV95cUxQamxpMGplLWNyUHk1TmZYUFhJOG16ZVFDRjVqTXVrUWNjWmhMTDNGY3FMSUVBaThLNjdmV0x3eWkyTG5tWUxsdjdXeUlrVmdBT3NrMEN2LXFfSmVwZ2JNRFJJU3FydXlWUm51cjVkaU1SRnZGdC1JRnFiN2NDV3hVYnczNXc?oc=5",
+     "Simply Wall Street",
+     "Fri, 16 Oct 2026 07:00:00 GMT"
+    ],
+    [
+     "Palo Alto Networks (NASDAQ:PANW) Stock Price Down 1.9% - Here's Why - MarketBeat",
+     "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZk5yc1RNQ2RpT2UyWWtOUEhKTWlKZjdFck5nc2ZhdThUQmhpQjNISkxKci0tTXNGcTE2N1JCSUJIVHZ4RXotck9XU05TbDFtMUE2c3FEeDJJd1ZRWTN2bTlYSGIyMUxuMEh0SDBvaVBMZmMtOFlvdWlrUll0NGdQNjBkb1pfSXRwd05JdzNYREFrNDM1RWJ4dF9KLVdERk5rQ0pnR213TUFGbndMYlhkc1plamJvY2pRZXEtNA?oc=5",
      "MarketBeat",
-     "Wed, 21 Oct 2026 08:48:53 GMT"
-    ],
-    [
-     "How Will Valero Energy Stock React To Its Upcoming Earnings? - Trefis",
-     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVGRIY05ZUi05OFlJQVVvbFpqbWdKdnhOamQ5V1FfSl9FVVNFdGI1aHdzLWdlM056ZUhabnFHRTlNdVdrcnZpWVh4UXRuY0RaUm14Mi1udjVpOXAtNHl4bHNRWWl5a1FOTTNjcXUxcy1MSjJBN0FyMEFhQ2ljbHVpSVVmek12alBGVUoxNGpZWURWYm5NWnpuQVFyUWptc3phb1Z2ZGw5MEZEN1Rwc2NXZEZDUXk0WWNMZERr?oc=5",
-     "Trefis",
-     "Wed, 21 Oct 2026 05:22:01 GMT"
+     "Tue, 20 Oct 2026 21:27:13 GMT"
     ]
    ]
   },
   {
-   "t": "DAR",
+   "t": "FORM",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 58.540000915527344,
-   "buy": 54.78299903869629,
-   "tgt": 59.745273135315145,
-   "stop": 50.392999104091096,
+   "c": 111.7750015258789,
+   "buy": 102.00599670410156,
+   "tgt": 112.36651698063852,
+   "stop": 85.85885838099888,
    "days": null,
    "conf": null,
    "s": null,
-   "ed": null,
-   "name": "Darling Ingredients Inc.",
-   "drop": -6.155819312017707,
+   "ed": 5,
+   "name": "FormFactor, Inc.",
+   "drop": -6.628516931985329,
    "news": [
     [
-     "Darling Ingredients Introduces Nextida\u00ae NxCogni\u2122, the First Targeted Collagen Peptide Designed to Support Clarity and Cognitive Resilience",
-     "https://finance.yahoo.com/healthcare/articles/darling-ingredients-introduces-nextida-nxcogni-203500217.html?.tsrc=rss",
+     "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know",
+     "https://finance.yahoo.com/markets/stocks/articles/formfactor-teradyne-applied-materials-amd-173627052.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 20:35:00 +0000"
+     "Thu, 15 Oct 2026 17:36:27 +0000"
     ],
     [
-     "Can Darling Ingredients' Portfolio Reset Drive Long-Term Growth?",
-     "https://finance.yahoo.com/markets/stocks/articles/darling-ingredients-portfolio-reset-drive-152000307.html?.tsrc=rss",
+     "FormFactor stock rises on $300M Teradyne investment deal",
+     "https://finance.yahoo.com/markets/stocks/articles/formfactor-stock-rises-300m-teradyne-204847201.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 06 Oct 2026 15:20:00 +0000"
+     "Mon, 12 Oct 2026 20:48:47 +0000"
     ],
     [
-     "Darling Ingredients Inc. to Release Third Quarter 2026 Financial Results",
-     "https://finance.yahoo.com/markets/stocks/articles/darling-ingredients-inc-release-third-203500595.html?.tsrc=rss",
+     "FormFactor and Teradyne Announce Strategic Collaboration to Accelerate Next-Generation Semiconductor Testing",
+     "https://finance.yahoo.com/technology/articles/formfactor-teradyne-announce-strategic-collaboration-200100887.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 01 Oct 2026 20:35:00 +0000"
+     "Mon, 12 Oct 2026 20:01:00 +0000"
     ],
     [
-     "Can Darling Ingredients Turn Collagen Into a Bigger Earnings Engine?",
-     "https://finance.yahoo.com/markets/stocks/articles/darling-ingredients-turn-collagen-bigger-153300632.html?.tsrc=rss",
+     "FormFactor (FORM) Is Back In The Spotlight, What Is Behind The Attention?",
+     "https://finance.yahoo.com/markets/stocks/articles/formfactor-form-back-spotlight-behind-001614660.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 16 Sep 2026 15:33:00 +0000"
+     "Sun, 11 Oct 2026 00:16:14 +0000"
     ],
     [
-     "1 Profitable Stock to Target This Week and 2 We Turn Down",
-     "https://finance.yahoo.com/markets/stocks/articles/1-profitable-stock-target-week-122739697.html?.tsrc=rss",
+     "Does FormFactor\u2019s S&P 400 Upgrade Reframe Its Mid-Cap Investment Narrative for FORM Holders?",
+     "https://finance.yahoo.com/markets/stocks/articles/does-formfactor-p-400-upgrade-231057950.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 16 Oct 2026 12:27:39 +0000"
+     "Sat, 10 Oct 2026 23:10:57 +0000"
     ],
     [
-     "2 of Wall Street\u2019s Favorite Stocks Worth Your Attention and 1 We Ignore",
-     "https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-120827482.html?.tsrc=rss",
+     "FormFactor (FORM) Stock Could Be 33% Undervalued After AI Testing News",
+     "https://finance.yahoo.com/markets/stocks/articles/formfactor-form-stock-could-33-221133899.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 15 Oct 2026 12:08:27 +0000"
+     "Sat, 10 Oct 2026 22:11:33 +0000"
     ],
     [
-     "Darling Ingredients Inc. (DAR) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kTHpWc1k5WkZNNTNuMldiY3BzLXQzNUlqS0JNQkFMbXlhUzJtb05TZUNmSnBkUS1lc2Uwd2hFaVNZeUdiTDdZdVJKdlUwMVMx?oc=5",
+     "FormFactor, Inc. (FORM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6eXNRN0RreXp5aUJONzROSV9SZ3RIX29QY3JZMldQTmlmdWRCY3lXMDRQTGJIcTRFaXAxQVc4bGVTRHVMYVN1ZUpSWExmanBrTVE?oc=5",
      "Yahoo! Finance Canada",
-     "Sat, 17 Oct 2026 00:23:36 GMT"
+     "Wed, 21 Oct 2026 07:48:02 GMT"
     ],
     [
-     "Darling Ingredients (NYSE:DAR) Stock Forecast & Analyst Predictions - Simply Wall Street",
-     "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTHpmSWZldElRTFYyV3RaY09rUnNFcWRZT3Y5Z2xlZnc4bG8zWlNadDU3TDRHaTdOM2tVUlR2aF9QRFF5VkxxeldjaUxKcFp6STVDYktEMWNKUVJxVG01Wl81TE85WTlrdFRYSkl2dlRoYkxkbU5iVkFGT0haRHNMNlpnZGpfcmZLbFZsSVdXV3Fyd2c?oc=5",
-     "Simply Wall Street",
-     "Thu, 15 Oct 2026 07:00:00 GMT"
+     "FormFactor, Inc. (FORM) stock price, news, quote and history - Yahoo Finance UK",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aX0MydWZHVGpINTVJT3NLcExXQnlOc0tfMmpqNG55TkgwdWczQ0VNdEJBeGE0SmF5V3VPZ1hWQllFeDl1RXNueVZqUTV6QndNRXc?oc=5",
+     "Yahoo Finance UK",
+     "Wed, 21 Oct 2026 07:48:30 GMT"
     ],
     [
-     "A collagen ingredient concentrates targeted compounds at over 100 times standard levels - Stock Titan",
-     "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUR3TlY5UE1sbmJwTEJqTTZCN1BobHlDX2dLYjBlRi1iT0RUUkdKRFIyUTF2aUhYOHBBWnJHUGItR0FNV05LRFZmOEtKbGVkYjdDc3E5blZRMWpjVnBGV0NQdnNFTHJMclVWX2cxTTlUVDRQck5BR0ZhQnpFNm5YMl96cklwRTFaa2d6RUZVZUMteXFEMkpGSFB1UzRlRXp2RlVqSDV4UE9rNDgyb1dDSkt2ck4?oc=5",
-     "Stock Titan",
-     "Tue, 20 Oct 2026 20:35:00 GMT"
+     "Musk says SpaceX-Tesla merger is 'a good idea' as companies form deal committees - Reuters",
+     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5",
+     "Reuters",
+     "Tue, 20 Oct 2026 20:08:00 GMT"
     ],
     [
-     "Darling Ingredients Inc. $DAR Stock: Assenagon Asset Management S.A. Lowers Position - MarketBeat",
-     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcE1qMGFnVXdsY0FJNk4yUDNmMDcxVEJ1NlhCWng5WkkxcGdGN1YtRzF2Y004TWlNSDI1R1JLajFQZDN2SkJPSnhROXQtQ01MY1VWVG1TU2ZBRjlpTkZoVVNUMlJ2by1mb2ktRVl4MHc0bG91WHdYMjRqMDE2SGNEY2VMMmNIYXZzMlJkLXowOUkyMzhxTzV1Vko1Tk5waWNsSngyZWZYTV9RMjNCR2J1Q0JiQXdFdVYyaE1ETHlnMGZQOG80RmNrNHVocy1rWjk4dVZXaUJ6aw?oc=5",
+     "FormFactor, Inc. $FORM Stock Sold by Assenagon Asset Management S.A. - MarketBeat",
+     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVHBwX0RZV3ZNMXNqS2hKWFc0SzhUdlhsQnRESmdoTUhIeWhIczFKMEU4WmRJOGRVLUY1Sl9aTjZvUDBtbUVzSjMxdlVscXlzbmMtSjBlQ3h3b1pPV2pkdkRYdFJJQ3ZTeVd5SEMtS2xISlVFUTBPZC1fUm9OU0cxQ29FS2tmNGdmaFk4Slp0UlpuYzc4eWUtWXBtZWVEcXdhVGc4bmt4RHF6MmhVcUwxWGt4YjFHellUd0JSa0VJVk5CUQ?oc=5",
      "MarketBeat",
-     "Sat, 17 Oct 2026 07:18:15 GMT"
+     "Wed, 21 Oct 2026 07:50:38 GMT"
     ]
    ]
   }
@@ -538,110 +538,110 @@
  "macro": [
   [
    "S&P fut",
-   7810.75,
-   0.71564424
+   7808.75,
+   0.6898553
   ],
   [
    "Nasdaq fut",
-   30080.0,
-   1.3639312
+   30072.25,
+   1.3378152
   ],
   [
    "VIX",
-   16.6,
-   -4.1016703
+   16.68,
+   -3.63951
   ],
   [
    "US 10Y",
-   5.109,
-   -0.15633029
+   5.1150002,
+   -0.03907325
   ],
   [
    "Brent",
-   108.68,
-   -0.1011128
+   108.75,
+   -0.03676893
   ],
   [
    "Gold",
-   4157.3,
-   0.35484254
+   4154.3,
+   0.28242424
   ],
   [
    "Bitcoin",
-   84770.86,
-   2.8245828
+   84407.73,
+   2.384113
   ],
   [
    "Dollar",
-   101.673,
-   -0.027531294
+   101.696,
+   -0.0049137203
   ]
  ],
  "sectors": [
   [
-   4.0717497000245295,
+   3.8430526117572805,
    "Discretionary",
-   4.871214925729417
+   4.640761017097228
   ],
   [
-   3.3219278975341604,
+   3.221265044899302,
    "Materials",
-   2.0684187366280637
+   1.968977133059191
   ],
   [
-   2.778795628995079,
-   "Financials",
-   2.7411054396574874
-  ],
-  [
-   2.721890335483712,
+   2.8828461692906204,
    "Health",
-   5.861969249743981
+   6.027845300830914
   ],
   [
-   1.7474052658266404,
+   2.742111003911174,
+   "Financials",
+   2.7044342672557065
+  ],
+  [
+   1.7233071189750593,
    "Real estate",
-   0.8962715072476035
+   0.872374945352905
   ],
   [
-   1.5420306634327252,
-   "Software",
-   1.1193331189198297
-  ],
-  [
-   1.3014208440099928,
+   1.2084603126083726,
    "Staples",
-   5.762465100587599
+   5.66541083544323
   ],
   [
-   1.042659505910759,
+   1.1333034866793268,
+   "Software",
+   0.7123073851340367
+  ],
+  [
+   1.0186942105113062,
    "Utilities",
-   6.050311394457553
+   6.0251583843111245
   ],
   [
-   0.9698338368593795,
-   "Industrials",
-   -0.8465622514616022
-  ],
-  [
-   0.6432133752102054,
+   0.9906932212776054,
    "Energy",
-   9.13099824763679
+   9.507782942804432
   ],
   [
-   -0.8480755639814652,
+   0.7423404831200964,
+   "Industrials",
+   -1.0699631151754208
+  ],
+  [
+   -1.08176108692134,
    "Tech",
-   -3.3403266196430748
+   -3.5681382980302323
   ],
   [
-   -1.2076366898310709,
-   "Semis",
-   -7.231338384194608
-  ],
-  [
-   -1.2678205948077559,
+   -1.3490369524444712,
    "Comms",
-   -2.794062465601299
+   -2.8740233480083033
+  ],
+  [
+   -1.4520950641434438,
+   "Semis",
+   -7.460891311626194
   ]
  ],
  "news": [
@@ -655,7 +655,7 @@
    "Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case",
    "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
    "CNBC",
-   "Wed, 21 Oct 2026 17:45:23 GMT"
+   "Wed, 21 Oct 2026 18:52:44 GMT"
   ],
   [
    "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
@@ -676,16 +676,16 @@
    "Wed, 21 Oct 2026 17:51:21 GMT"
   ],
   [
+   "Netflix has dipped its toe into theatrical. Is it ready to jump in?",
+   "https://www.cnbc.com/2026/10/21/netflix-theatrical-strategy.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 18:32:12 GMT"
+  ],
+  [
    "New Mexico AG lawsuit accuses Epstein's attorney and accountant of facilitating sex trafficking",
    "https://www.cnbc.com/2026/10/21/epstein-new-mexico-lawsuit-sex-trafficking.html",
    "CNBC",
-   "Wed, 21 Oct 2026 18:24:45 GMT"
-  ],
-  [
-   "Intel hits construction milestone at Ohio chip fab that\u2019s at least 5 years behind schedule",
-   "https://www.cnbc.com/2026/10/21/intel-hits-construction-milestone-at-delayed-ohio-chip-fab-.html",
-   "CNBC",
-   "Wed, 21 Oct 2026 16:55:51 GMT"
+   "Wed, 21 Oct 2026 18:43:56 GMT"
   ],
   [
    "Mortgage rates drop for the first time in 2 months, but demand still falls further",
@@ -742,28 +742,28 @@
    "Wed, 21 Oct 2026 15:36:37 GMT"
   ],
   [
-   "Wall Street gains ground after SpaceX helps lift AI stocks - LancasterOnline",
-   "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdXN5b1dIQXhLcVc5eml1QTM0ZkdQTGJNT0pnV25HUjZLR1JIM0RUeDFFS1ljN1ltOEFxNkVZLVZ2dU5yU0N1c2xYNDJERlg1clFHRnJPOWdSMGRpbzlDLTlCeTFsbmtOUnJIV3BXTUEydDBhcEdoQWQzOHhIb2NFcWhaNFFFdWVxY1BOcFplWmhhSTFnNU15ZmFobGViUjhBb25kdXBKUFVGajBoZE9TUEhDamcwbjJ1aUg5eDZnV0VGVVI0amhBV09qdVdrWW0xSFdzR2ZjYUNyVXE4SGV0YkNFUnVSR0JpTDEwNnlOMA?oc=5",
-   "LancasterOnline",
-   "Wed, 21 Oct 2026 18:11:13 GMT"
-  ],
-  [
    "Gains in Sports Team Values Lag Stock Market Since 2022 - Sportico.com",
    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM2Z6Mms0VjhvcmJXZ3dJSHRCYVQ1NHcxT1REXzZuM3BzanFvRjdqTVQ0emdYQVlWY3RGX2VBQWh5OEtxUUJGX0c1VXpROUJGSFpOQUhVVWNMVFBJLWdYOXFLQ1k2d3BhWUJLaFFnR2VSaVgybmc1T3RTczVXTEN5M01QVzItem5QNkhmMExTWk10dTlF?oc=5",
    "Sportico.com",
    "Wed, 21 Oct 2026 11:58:44 GMT"
   ],
   [
-   "Musk's SpaceX helps launch stock market gains - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSlVqZGkwZHAzbi1NaV8xMTdXLUcxelRJU1NsSTh6cW1DdXpBbmkyWXNaOUJRS2VrbVFEU3MxZUp3al9KczBOSUpVRGNVa1hQLXhLd0VIUmhsQ0RVUThUX1NralJNVWhsRWpDUHlrZEFsOG9pSkM4cV9pZWdTc0hGZ25LWDlZN3FEZ0x2bUxxZWlfRXRJbzlzWlRjcjZVNlh0OTFR?oc=5",
+   "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the Smartest Move Investors Can Make - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMingFBVV95cUxPYjJOS3VQS00zTHNGVG5fSjljX1ByRjZMQVozMEt3WVNwdWhfU00wTjZEUHpIZThFNFZUWG5QNTJoOTBVN3NRMWhnTHNZd1dJa1lRenJMVExzZEpVYmRSQzIwU0V2dkRlR1M3VGdUTTJvNC1ZQnZUWVBqbHhDMHVfMzB3dzMzSVdka19qS3BJbElEdEREME54eHM2TVBQZw?oc=5",
    "Yahoo Finance",
-   "Wed, 21 Oct 2026 15:47:00 GMT"
+   "Wed, 21 Oct 2026 07:20:00 GMT"
   ],
   [
    "5 Things to Know Before the Stock Market Opens on Wednesday - Investopedia",
    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX1o5Q3V0X2lET0hZQVkxSkhSMTM5Q3ZZT3VGS3F6bVdPOUVqUldGNGtYYjVuRnJNVnY1VXpzdHpwNlNObDFrQndaSUY3eS1qZmVQM2plVE1yVkpXZHFJV1h6WkM1bEQ4dTF5V1U1alZUbmVPV2h5aFBkUkVVOWthLTlmWmgwZEE0ZEQza0Q3WHk4NDNhYXBlVlM5cmZBbU92djNpbTRNM0pXcFpSMnctNXZrcw?oc=5",
    "Investopedia",
    "Wed, 21 Oct 2026 12:23:06 GMT"
+  ],
+  [
+   "Our top 10 things to watch in the stock market Wednesday - CNBC",
+   "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQREhuNmNxTnBmMzhVUllISy1MZFNVbU12QzhRS0pSYjdmWXRlRThrSEJ1X0lvS3h0VmdTSlBNaVZENlBGelJwaE9XcC1vaGpTVXh3MnpqY1JXdTJxcU5KQ0tTTGFiMjNHRWxlN3lVTEZLRDRROHVRcVlYWjZ0ZXNYekhIVUxvWjNGQVo5ZU9VR182YXNfaDQ2eFQySExUeVM2ZDZUSlRCd2htVUU?oc=5",
+   "CNBC",
+   "Wed, 21 Oct 2026 13:08:24 GMT"
   ]
  ],
  "cal": [

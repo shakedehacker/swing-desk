@@ -12,8 +12,14 @@ echo "== start $(date)"
 git pull -q --rebase || true
 python3 report.py || { osascript -e 'display notification "Market data step failed, see logs" with title "Swing Desk"'; exit 1; }
 
-claude -p "$(cat research.md)" --model opus --permission-mode acceptEdits \
-  --allowedTools "WebSearch WebFetch Read Write Edit Agent Bash(python3:*)" \
+# Lean run: no MCP servers, skills, user hooks or default system prompt (53K -> 9K tokens of context per turn).
+# Measured 2026-10-21: ~240K tokens total vs ~7.2M for the first Opus+subagents version, same findings.
+claude -p "$(cat research.md)" --model sonnet --output-format json --permission-mode acceptEdits \
+  --strict-mcp-config --mcp-config '{"mcpServers":{}}' --disable-slash-commands --setting-sources project \
+  --tools "WebSearch,WebFetch,Read,Write,Bash" --allowedTools "WebSearch WebFetch Read Write Bash(python3:*)" \
+  --system-prompt "You are a precise financial research assistant. Use tools efficiently. Never invent facts." \
+  --max-turns 40 > logs/research.json \
+  && python3 -c "import json;d=json.load(open('logs/research.json'));u=d['usage'];print('research turns',d.get('num_turns'),'tokens',sum(u.get(k,0) for k in ('input_tokens','cache_creation_input_tokens','cache_read_input_tokens','output_tokens')))" \
   || echo "research failed: publishing without AI"
 
 python3 report.py
