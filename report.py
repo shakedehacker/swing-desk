@@ -7,6 +7,7 @@ labelled watchlist, never fake picks.
 """
 import os, json, time, html, re, datetime as dt, urllib.request, xml.etree.ElementTree as ET
 from collections import defaultdict
+from zoneinfo import ZoneInfo
 import desk
 from desk import ema, atr, pct, quotes, trading_days_until
 
@@ -174,7 +175,7 @@ E = html.escape
 def sign(x): return "up" if x > 0 else "dn" if x < 0 else ""
 
 def render(r):
-    il = dt.datetime.now(dt.timezone(dt.timedelta(hours=2 if time.localtime().tm_isdst == 0 else 3)))
+    il = dt.datetime.now(ZoneInfo("Asia/Jerusalem"))
     sig = [p for p in r["picks"] if p["kind"] == "SIGNAL"]
     head = (f"{len(sig)} tradeable signal{'s' if len(sig) != 1 else ''} from {r['n_sig']} raw "
             + ("· CLUSTER DAY: strongest historical edge" if r["n_dip"] >= 10 else
