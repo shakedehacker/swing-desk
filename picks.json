@@ -5,16 +5,46 @@
    "t": "P",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 130.13999938964844,
+   "c": 130.92999267578125,
    "buy": 120.05999450683593,
-   "tgt": 131.00540997185325,
+   "tgt": 131.26874106723085,
    "stop": 104.21512843540737,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Everpure, Inc.",
-   "drop": -8.021772325158327,
+   "drop": -7.463433746133408,
+   "rvol": 0.5248426176345313,
+   "dd": {
+    "short": 0.0345,
+    "dtc": 1.15,
+    "ratings": [
+     18,
+     1,
+     1
+    ],
+    "moves": [
+     {
+      "firm": "Guggenheim",
+      "action": "main",
+      "to": "Buy",
+      "pt": 215.0,
+      "prior": 150.0,
+      "date": "2026-10-12"
+     },
+     {
+      "firm": "Needham",
+      "action": "main",
+      "to": "Buy",
+      "pt": 185.0,
+      "prior": 150.0,
+      "date": "2026-10-08"
+     }
+    ],
+    "iv": 0.754335952758789,
+    "imove": 9.503739695212968
+   },
    "news": [
     [
      "Everpure (P) Stock May Trade At A Premium On Recurring Revenue",
@@ -71,87 +101,125 @@
      "Mon, 19 Oct 2026 07:00:00 GMT"
     ],
     [
-     "A family trust sold 100,000 Everpure (P) shares under a prearranged trading plan. - Stock Titan",
-     "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWFVURjU2alVUV0tUVVJJaTg4NVdBNF9UMEROWjBnNmNuLUsxTVptalhSWTYtR2padWJCQ0J5cFRJSUFKTkRZOXphYmhjZzhPdy1qRWlzcXAzTnpBakotUThIUUhhNzNETVJJUmdUSHhlMWxsSWV3ZlFOMS1GTjJzNzA0bXJBM0tQYmxmT3d3YVFGZldWd1lpeUVfYnBSZmVBYTdrZV93?oc=5",
-     "Stock Titan",
-     "Fri, 16 Oct 2026 20:41:58 GMT"
+     "Everpure (P) stock trades up, here is why - TradingView",
+     "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHBvWC0ydWc3RF8wUzRmVURJNGs1UXkzT2tzTG1qVmxHNktwR05yeGxtWHlZOGM2TG1XZ1Y2SFVkQ0hBRGpoXzNwMnFLNEU5LUdUQzFlWFc2dlNYS09XMXBNSUtmazlqOEJ6U1ZDVXJUUHJONlhlcW1YalhXbkhLdFVwXzZVVTdDX2NtVHdaYkRfelljV2Npa29uNGNGSjMx?oc=5",
+     "TradingView",
+     "Wed, 21 Oct 2026 19:40:49 GMT"
     ]
    ]
   },
   {
-   "t": "HPE",
+   "t": "PANW",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 58.13999938964844,
-   "buy": 52.767000961303715,
-   "tgt": 58.3534154534572,
-   "stop": 45.155572564261306,
+   "c": 347.25,
+   "buy": 333.2429901123047,
+   "tgt": 352.8268802167387,
+   "stop": 297.15584062848774,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
-   "name": "Hewlett Packard Enterprise Comp",
-   "drop": -7.875140504891586,
+   "name": "Palo Alto Networks, Inc.",
+   "drop": -7.409878389439406,
+   "rvol": 0.9953647265531547,
+   "dd": {
+    "short": 0.026600001,
+    "dtc": 3.1,
+    "ratings": [
+     42,
+     12,
+     1
+    ],
+    "moves": [
+     {
+      "firm": "Citigroup",
+      "action": "main",
+      "to": "Buy",
+      "pt": 440.0,
+      "prior": 410.0,
+      "date": "2026-10-15"
+     },
+     {
+      "firm": "Wells Fargo",
+      "action": "main",
+      "to": "Overweight",
+      "pt": 525.0,
+      "prior": 475.0,
+      "date": "2026-10-13"
+     },
+     {
+      "firm": "Amerx",
+      "action": "init",
+      "to": "Hold",
+      "pt": 0.0,
+      "prior": 0.0,
+      "date": "2026-10-08"
+     }
+    ],
+    "iv": 0.5553938504028321,
+    "imove": 6.997304799335733
+   },
    "news": [
     [
-     "Supermicro stock jumps as server maker lifts revenue forecast",
-     "https://finance.yahoo.com/markets/article/supermicro-stock-jumps-as-server-maker-lifts-revenue-forecast-122408188.html?.tsrc=rss",
+     "Palo Alto Networks (PANW) Stock Dips While Market Gains: Key Facts",
+     "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-stock-204504448.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 12:24:08 +0000"
+     "Tue, 20 Oct 2026 20:45:04 +0000"
     ],
     [
-     "Super Micro Surges 12% as Preliminary Revenue Tops Guidance Range; Dell Jumps 7%, Hewlett Packard Enterprise Climbs 5%",
-     "https://247wallst.com/investing/2026/10/21/super-micro-surges-12-as-preliminary-revenue-tops-guidance-range-dell-jumps-7-hewlett-packard-enterprise-climbs-5/?.tsrc=rss",
+     "Palo Alto Networks (PANW) Pays a Large Part of Its Wage Bill in Stock. What Does That Do to Profit?",
+     "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-pays-144939208.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 13:08:47 +0000"
+     "Tue, 20 Oct 2026 14:49:39 +0000"
     ],
     [
-     "HPE Teams With NVIDIA to Advance Secure Agentic AI Across Enterprises and Industrial Environments",
-     "https://finance.yahoo.com/technology/ai/articles/hpe-teams-nvidia-advance-secure-113000816.html?.tsrc=rss",
+     "Is AI Security Expansion Altering The Investment Case For Palo Alto Networks Stock?",
+     "https://finance.yahoo.com/technology/ai/articles/ai-security-expansion-altering-investment-232352876.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 11:30:00 +0000"
+     "Mon, 19 Oct 2026 23:23:52 +0000"
     ],
     [
-     "HPE Spaceborne Computer to Power High Performance Computing and AI on the Moon",
-     "https://finance.yahoo.com/technology/ai/articles/hpe-spaceborne-computer-power-high-140000728.html?.tsrc=rss",
+     "Palo Alto CEO wants AI labs out of the \u2018fear-mongering business\u2019",
+     "https://www.thestreet.com/technology/palo-alto-networks-panw-ai-cybersecurity-strategy?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 14:00:00 +0000"
+     "Mon, 19 Oct 2026 16:17:00 +0000"
     ],
     [
-     "HPE Has a 12x Forward PE and 400% Growth. So Why Won\u2019t Wall Street Touch It?",
-     "https://247wallst.com/investing/2026/10/20/hpe-has-a-12x-forward-pe-and-400-growth-so-why-wont-wall-street-touch-it/?.tsrc=rss",
+     "Network Detection and Response (NDR) Market Surges to $7.29 billion at a CAGR 10.9% by 2031 | Report by MarketsandMarkets\u2122",
+     "https://finance.yahoo.com/technology/articles/network-detection-response-ndr-market-143000843.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 11:31:21 +0000"
+     "Mon, 19 Oct 2026 14:30:00 +0000"
     ],
     [
-     "NVIDIA Introduces DSX POD AI Factories to Accelerate Europe\u2019s Infrastructure Deployment",
-     "https://finance.yahoo.com/technology/ai/articles/nvidia-introduces-dsx-pod-ai-093400382.html?.tsrc=rss",
+     "CrowdStrike Gains 3.6% on Expanded NVIDIA AI Agent Security Deal: \u201cSetting the Standard\u201d",
+     "https://www.tikr.com/blog/crowdstrike-gains-3-6-on-expanded-nvidia-ai-agent-security-deal-setting-the-standard?ref=yahoofinance&.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 09:34:00 +0000"
+     "Wed, 21 Oct 2026 15:19:10 +0000"
     ],
     [
-     "HPE Stock\u2019s Worst Week Ever Exposes Wall Street\u2019s Newest Fear - Barron's",
-     "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnWExPUlBUcG9IRmcyY0g2Z1BuS3Vfd3RBaDlhMkk0LWVXSnNyRkZaQXNLYk9keldDdlYtcnpaWFZiWjRiOFU5a1dfTmwySTNiSEhLZ19SWHNZcFMxbV9scjU2T2tBV2M3Y3dIYkwzOElRQXFlUUV3?oc=5",
-     "Barron's",
-     "Fri, 16 Oct 2026 17:55:00 GMT"
+     "PANW Stock Quote Price and Forecast - CNN",
+     "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzclk0NWZYRDUtNy10Y3JqeU1CTUZCQ3VkQlJJUTVRajlaNWE0cE53WlMwRFV5bzNta1lfS2xJTVdLVjA0M3E2cVJxbzU2R2Vq?oc=5",
+     "CNN",
+     "Mon, 19 Oct 2026 20:19:14 GMT"
     ],
     [
-     "HPE Stock Falls After Barclays Downgrade Questions AI Growth - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHhWa3NfWFkzX1pkQ182aWc1NTFkdGVsazZMT0xTUUdpaTNKeTZmcjBYOXlzSEQ1cDlZblU0U0gzYmdTb0ZySm1rWFFMQnQzMTctV2ZFOUNKdU5NdEYzMVhlSW1wUDg2N0NEYVllODVpdkYyeWUzSXNhU3hFRzR6Z2wySzRudzhXN19KbXF1YnNmMWdidnZ4bTJ0M0l0d2p2?oc=5",
-     "Yahoo Finance",
-     "Wed, 14 Oct 2026 19:28:56 GMT"
+     "Sell-Off In Cybersecurity Stocks Intensifies Amid Palo Alto Vulnerability - Investor's Business Daily",
+     "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN0RwdUhaYW1SUUMzcE82Wm1kUTVtcVlpUXdCZjNaTm1kcV9ua0pBUDFoVnJZZUd4ZmxTLUxuMWgtRVZRcnJJS2tPRGUyX3NkTjZLamg4Q3JtWm1IMTFfbUg2OWdFdnFieGZzQVFWNy1yUktQLTNGb0k1dDhaMU5RUWItaERwYXAxTVhkZ2FqMy1fMnFXbjd1THJNQlZCc2hyYU9r?oc=5",
+     "Investor's Business Daily",
+     "Fri, 16 Oct 2026 16:43:00 GMT"
     ],
     [
-     "Why Hewlett Packard Enterprise Stock Plunged 20% This Week - The Motley Fool",
-     "https://news.google.com/rss/articles/CBMiswFBVV95cUxObjUtaFdITGpGS1h0QVZmdHVZNmRaR3hEOWRUU2FGWmNfYkRmRXlTZTA0eWtmY01VRDk1SVF0MnJ0clppQnNwbWdLYXRGYjdnajFSOTcxNUJqaTVSQ1I0d0pQRlY1Zk5KVkVOaE5hUENPbGs1cldPWmkxdml1VkhHLWFqZFZoSDdObkl1UmNKb096dmJLZnBNMkNZYnh2cWNjOXpwWFdHb1hpVWxQcFFlQ3NHQQ?oc=5",
-     "The Motley Fool",
-     "Fri, 16 Oct 2026 15:13:00 GMT"
+     "Why is Palo Alto Networks stock sliding today? - Investing.com",
+     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdHRuM2lWY3NkeTJIRVVRbC12WVhmczd0VXdqVEdnNS1rMlluLUpodWJFZUlUZ3BTN296ZVlXSUVBbDZ1X3I1c0pWQVRlakNTcm91M1NMcHFXaTNlRTVuUVgydGFxUmlyekNLNXdZS3R4aG9sQUMxM213TTJUdE9KMGpGa29oQWR1WTU3RXJYX2lBR1pwbG53Tlg5dEdlOHlCOWdscmhpT3dBalk?oc=5",
+     "Investing.com",
+     "Fri, 16 Oct 2026 14:27:56 GMT"
     ],
     [
-     "HPE Stock Alert: Barclays Just Delivered A Stark Warning After 145% Rally - Barchart.com",
-     "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVjlhWjEyc081ci1yNUNGUVp6WDVDc0Fkd1lzcV8zNWFzaG1PMjNCbkljYl8zeDlEaHh2Wm1uYXFBdTFXa3lBLXlic01xd2dCU0JCdVJnM1l4ZzBqWkhfR0dyYnc3QnR3NHVCa1lxd0NtVzljWTM1d0RrQ2tpWjE5NkFMNHpBXzIzcGFOLWtZMk9xeWJ1blZ0c1pWRm5WMXprS2gtam40aFd2WE12U1NNc0g0Qkhodw?oc=5",
-     "Barchart.com",
-     "Sun, 18 Oct 2026 15:15:02 GMT"
+     "Palo Alto Networks (NasdaqGS:PANW) Stock Forecast & Analyst Predictions - Simply Wall Street",
+     "https://news.google.com/rss/articles/CBMihAFBVV95cUxQamxpMGplLWNyUHk1TmZYUFhJOG16ZVFDRjVqTXVrUWNjWmhMTDNGY3FMSUVBaThLNjdmV0x3eWkyTG5tWUxsdjdXeUlrVmdBT3NrMEN2LXFfSmVwZ2JNRFJJU3FydXlWUm51cjVkaU1SRnZGdC1JRnFiN2NDV3hVYnczNXc?oc=5",
+     "Simply Wall Street",
+     "Fri, 16 Oct 2026 07:00:00 GMT"
     ]
    ]
   },
@@ -159,16 +227,29 @@
    "t": "MTSI",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 271.9024963378906,
+   "c": 273.04998779296875,
    "buy": 244.25101318359376,
-   "tgt": 272.77228692646105,
-   "stop": 204.30743582589287,
+   "tgt": 273.15478407815374,
+   "stop": 204.2838631766183,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "MACOM Technology Solutions Hold",
-   "drop": -6.66855151539848,
+   "drop": -6.274671205108662,
+   "rvol": 0.7879982220641835,
+   "dd": {
+    "short": 0.05,
+    "dtc": 2.65,
+    "ratings": [
+     13,
+     3,
+     0
+    ],
+    "moves": [],
+    "iv": 0.7098570274353029,
+    "imove": 8.943357909549361
+   },
    "news": [
     [
      "Is MACOM Technology Solutions Holdings (MTSI) Trading At A Premium To Cash Flow?",
@@ -220,86 +301,9 @@
     ],
     [
      "MACOM Technology Solutions Hold (MTSI) Stock Forecasts - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdXBKT1ZfZFNEeVpiSFEtYUd3ZWh5TVNzQURWNndiRVdkclVQRlI3ZWcwME5pNG16TTU0MWtMaTlRZXRqcHhPaHV6T0dlRnBpc1dod2d2bXZ6SmNJRWliWmJmc2cyMXBYMV9leFNocXNwenpFWDdlZnotbFFKTExEQzRSWDM1NHdjT01sZVktQQ?oc=5",
+     "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNUtkUmMxZ0lLLUQ3c2ZiNHlmR3dQQ09BQUQwUEpxemtWbVdJRU9WOGE5YkRCQVJ6d1JBZ1JCR25Uc092bEFWbWQzdE5hNEdxUFVaMmZVbVpCMWk1RVpocWFFam1PQjRKV2VUeFNEd191cUZEanhsaXJiM09nYVZ3SjdncDVqaTVYRjdzRmZMZw?oc=5",
      "Yahoo Finance",
-     "Thu, 15 Oct 2026 01:43:11 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "ANET",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 183.33999633789062,
-   "buy": 167.02200164794922,
-   "tgt": 185.16902414954674,
-   "stop": 149.92499498639788,
-   "days": null,
-   "conf": null,
-   "s": null,
-   "ed": 9,
-   "name": "Arista Networks, Inc.",
-   "drop": -6.1815586655625925,
-   "news": [
-    [
-     "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
-     "https://www.fool.com/coverage/better-buy/2026/10/21/arista-networks-vs-datadog-which-technology-stock-is-a-better-buy-in-2026/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 14:40:44 +0000"
-    ],
-    [
-     "Arista Networks Vs. Cisco Systems: Modern AI Data Center Networking vs. Legacy Enterprise Switch Leader",
-     "https://247wallst.com/investing/2026/10/21/arista-networks-vs-cisco-systems-modern-ai-data-center-networking-vs-legacy-enterprise-switch-leader/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 11:15:57 +0000"
-    ],
-    [
-     "Arista Networks vs. Axon Enterprise: Which Tech Stock Is a Better Buy in 2026?",
-     "https://www.fool.com/coverage/better-buy/2026/10/20/arista-networks-vs-axon-enterprise-which-tech-stock-is-a-better-buy-in-2026/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 03:16:01 +0000"
-    ],
-    [
-     "Is Open AI Rack Launch Altering The Investment Case For Arista Networks Stock?",
-     "https://finance.yahoo.com/technology/ai/articles/open-ai-rack-launch-altering-101028015.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 10:10:28 +0000"
-    ],
-    [
-     "Arista Networks Stock Fell 18% From Its Record in One Week. Here\u2019s What the Selloff Missed and Where the Stock Could Go by 2030",
-     "https://www.tikr.com/blog/arista-networks-stock-fell-18-from-its-record-in-one-week-heres-what-the-selloff-missed-and-where-the-stock-could-go-by-2030?ref=yahoofinance&.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 03:43:36 +0000"
-    ],
-    [
-     "Arista Networks Is Outgrowing The Market Fourfold: What To Watch Next",
-     "https://www.trefis.com/articles/619151/arista-networks-is-outgrowing-the-market-fourfold-what-to-watch-next/2026-10-19?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 19 Oct 2026 20:17:21 +0000"
-    ],
-    [
-     "ANET Stock Quote Price and Forecast - CNN",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BbWlkeUcySkdqVVBlWGZMWU1TenVYc0lmT2ExN0IzUkVxamxKZUg3MFB4a2hNZV9GQ0RsbmpLeFZqaFZRVWY0dUVvNndVYWJh?oc=5",
-     "CNN",
-     "Mon, 19 Oct 2026 20:15:24 GMT"
-    ],
-    [
-     "Arista Networks (ANET) Stock Looks Fairly Valued On Its 7x Run - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMingFBVV95cUxOLUtSVkRWVS1VU0VVQkxqN3RrY0h6clJwR0NSUG41UG1lYWFld2NvU09FelZqcUdPdEJNQVRaUTFWelFSQUxEYVlNZGRjeWdiSFFSS3JLZjJIMmNfMU9vTVI5ODFEWENDd3g5clVFWGhzQmJvc2hOcnVpUmF0bkxjLWtvcnBRLWxTLWVMUDBJaEpnV2RmNFcyUHQxaktGdw?oc=5",
-     "Yahoo Finance",
-     "Thu, 15 Oct 2026 20:21:47 GMT"
-    ],
-    [
-     "Arista Networks (NYSE:ANET): A Quality Stock With Strong Fundamentals and a Rich Valuation - ChartMill",
-     "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSGFaSzZGOGxFN01DSWRWai1xQlNEbzBFbnZDLXJZaFB3SUZnbU5OT1NPcU1vczlfdzZhdkpYWlFkY0c4d3F2OXJPMHBKVWpwcEtlRmhOMExBcEExZ3JtZThHcW9acURtT3UyUDZnNDhiTF9Rd0MwdXJJeUR4NFVWbllRUTNOUUpRaW5hYzFVX1c4d0Rpd28zVzh2Z21JSUdkdTAyLUJoQVRJTDZ6cXpvR1l1dzliWjFJeU5sY1NSald5M0p0ZXNxWm83TndKMU9VSVVLZA?oc=5",
-     "ChartMill",
-     "Thu, 15 Oct 2026 08:11:14 GMT"
-    ],
-    [
-     "Arista Networks (ANET) Institutional Ownership 2026 - MarketBeat",
-     "https://news.google.com/rss/articles/CBMid0FVX3lxTE15UGVtYk1YLWQxbTZLb1hPckI4S0lqUUNVYjBRQkN4Q0NZSUhld1pUa0Z6NTl6SF9lbTMtcFJCcjRmUHBsU3h3VzBnUlV6SHZSZzdiUmhGYlR4VWtTM1NDc0dSdHlGZElnSGhMNU5PN1p5Wk5tb2ZF?oc=5",
-     "MarketBeat",
-     "Fri, 16 Oct 2026 07:00:00 GMT"
+     "Wed, 21 Oct 2026 22:03:56 GMT"
     ]
    ]
   },
@@ -307,16 +311,46 @@
    "t": "PBF",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 82.52999877929688,
+   "c": 81.54000091552734,
    "buy": 78.29099807739259,
-   "tgt": 83.61771172292208,
+   "tgt": 83.2877124349989,
    "stop": 68.4724239894322,
    "days": null,
    "conf": null,
    "s": null,
-   "ed": 6,
+   "ed": 5,
    "name": "PBF Energy Inc.",
-   "drop": -7.798014959613475,
+   "drop": -8.904034220190404,
+   "rvol": 0.6737724216828861,
+   "dd": {
+    "short": 0.13159999,
+    "dtc": 3.01,
+    "ratings": [
+     1,
+     9,
+     4
+    ],
+    "moves": [
+     {
+      "firm": "Goldman Sachs",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 91.0,
+      "prior": 81.0,
+      "date": "2026-10-09"
+     },
+     {
+      "firm": "Mizuho",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 89.0,
+      "prior": 65.0,
+      "date": "2026-10-08"
+     }
+    ],
+    "iv": 0.7605004418945313,
+    "imove": 9.581404958131698
+   },
    "news": [
     [
      "Are You Looking for a Top Momentum Pick? Why PBF Energy (PBF) is a Great Choice",
@@ -361,99 +395,121 @@
      "Fri, 16 Oct 2026 10:04:08 GMT"
     ],
     [
-     "PBF Energy (PBF) Stock Stays Reasonable On Tight Fuel Market News - Simply Wall Street",
-     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMnJmdGhMUnVBTm00b0NwTkJKeThpUTlOME1MRU1OT3ZFZTJHOUltR0x3UEo2NjNrOU5tQkE0MlRSQVFFeVVhbEp4YmVjZnNwM01HdXVJR0dxRkJXUlZ2YkNHUDR3aGh1Wk9ZQ0dmUldWd0RTNVRWcHd1dEllb1FxRkNTdFJyY3lwQXoyc0piMExkRmRmU2VqampnWC1zUkt4c2t4dXA4eXZYYUR1emhwcUJmSHRpdW9jVEJldDBNM0Zld9IBxwFBVV95cUxNNkdRSlQ5R2JRMG5FT2xhNGtIalJMTXZnaV9tU21leEdMQmttREZRcGtzVVdQNUFnWmFpSmp0SG1nb1pyVlRJb2JzdlB5djNHTW1HQTFCNERsSUJkZW01Sll6UklwU24wY1hHeGhuWjUzOVBfZjY0NlNnUGZDenRGa2tvY1JXVU9Hbmo1SzVXNFY0NmlFQ09ueU1FWG5iOERCc2pvSEtVSmhOdU5FcUVGdy12VkctWHEzaXh1VFd4WDgzY1FqN2xn?oc=5",
-     "Simply Wall Street",
-     "Thu, 15 Oct 2026 23:57:27 GMT"
-    ],
-    [
      "If You Invested $100 In PBF Energy Stock 5 Years Ago, You Would Have This Much Today - Benzinga",
      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV2VkMjhuMEVHQTNnRFJDeGRleEdnNnhtcV90SmZsdGJfbU5FdEhQclpSX2R5NDQ2RktaV0VfX3pobFZzeHBEOXZqRTRsMHZSTlB3LTNqSUthWEdUVDlmX1oyTzJsZTE1YlBwQXhiYTVDWk9ybGtSMHowSEFOWUs3TlJfS3NndWdPbHNtc1ozUm9EdDZTeDBSMkR4MVd2TXM4aVV3U0dyTC1YNngwNGkxcmZvN1ZwaVdDdEs4?oc=5",
      "Benzinga",
      "Mon, 19 Oct 2026 16:46:19 GMT"
     ],
     [
-     "PBF Energy (NYSE:PBF) Stock Sees Heavy Put Option Buying - MarketBeat",
-     "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNVl2YXVRc0hVcTBoanZjQ3dPaDhrZXNBV1JWc0I5dTlCWTkyTGQ2MGZnYWFjTW03X0VhTVpucHNhSFhTUHhKckJZNnhjT0dVQ0s1Xzk1VnNmSW1jWUh0S1o5NHhQanpLQUpqREkyd3FhM0tKSTRqOElSYmVtcktzaXAwMzk0dUhjcjlYb21MakhQSzBTYTZDenhxeXZ1dnY3dmZTTExyVnZRS3V4WEdOR1J0LUh0UjQ?oc=5",
-     "MarketBeat",
-     "Wed, 21 Oct 2026 15:50:42 GMT"
+     "PBF Energy Announces Full Redemption of 2030 Senior Notes - The Globe and Mail",
+     "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQzJlU0ZKOVlDYk5EWTU2c1ZoUXlVNWtqeHllTTRPZDE3QjQ0WFd4eS1EZF9xeGdRYkw0Q2ZZR3pEVm9KQ0N0VlZoa1ZzMERSSnJsNTRWTVV4eWVLcUN5M2ZCMGJPSk93QVF4bHZ4Mno2ejdSaFVQOVE3YzNPbjJaN0pkcjU3RjZ1ZmxLamZGVzdDbmNLRllRSU0weHNmVG9ETFRGNjdheWNEQnY3N05Xa0xmZ0pQLVFTWGR6TTJycVBRZkM5cTg2SDROSjhBQ3dMU09XajNXakM4dlk?oc=5",
+     "The Globe and Mail",
+     "Thu, 15 Oct 2026 19:22:00 GMT"
+    ],
+    [
+     "PBF Energy: Top Pick In Refining (NYSE:PBF) - Seeking Alpha",
+     "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHNUU0S2oySlFXbGk4a0R3eTlRMDU5aUJrNUxrZG1zSGQtTUN2WVdGZ1hTcEdIRFlZZlJyR3M4dlRkeFBxVTk3YUZubE5nMTBhakRiajhBRGoySVcyNEMwUHZEdVJJRDZ5ckpZWTB4MmxjMVZMUWhpQU5valA?oc=5",
+     "Seeking Alpha",
+     "Tue, 20 Oct 2026 13:35:41 GMT"
     ]
    ]
   },
   {
-   "t": "PANW",
+   "t": "HPE",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 348.57000732421875,
-   "buy": 333.2429901123047,
-   "tgt": 353.26688265814494,
-   "stop": 297.15584062848774,
+   "c": 58.16999816894531,
+   "buy": 52.767000961303715,
+   "tgt": 58.36341504655616,
+   "stop": 45.155572564261306,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
-   "name": "Palo Alto Networks, Inc.",
-   "drop": -7.057913987204001,
+   "name": "Hewlett Packard Enterprise Comp",
+   "drop": -7.827606391428188,
+   "rvol": 0.6607953427388953,
+   "dd": {
+    "short": 0.0431,
+    "dtc": 1.81,
+    "ratings": [
+     14,
+     10,
+     0
+    ],
+    "moves": [
+     {
+      "firm": "Barclays",
+      "action": "down",
+      "to": "Equal-Weight",
+      "pt": 77.0,
+      "prior": 83.0,
+      "date": "2026-10-14"
+     }
+    ],
+    "iv": 0.6110878735351563,
+    "imove": 7.698983536101488
+   },
    "news": [
     [
-     "Palo Alto Networks (PANW) Stock Dips While Market Gains: Key Facts",
-     "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-stock-204504448.html?.tsrc=rss",
+     "Supermicro stock jumps as server maker lifts revenue forecast",
+     "https://finance.yahoo.com/markets/article/supermicro-stock-jumps-as-server-maker-lifts-revenue-forecast-122408188.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 20:45:04 +0000"
+     "Wed, 21 Oct 2026 12:24:08 +0000"
     ],
     [
-     "Palo Alto Networks (PANW) Pays a Large Part of Its Wage Bill in Stock. What Does That Do to Profit?",
-     "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-pays-144939208.html?.tsrc=rss",
+     "Hewlett Packard Enterprise (HPE) stock is up, what you need to know",
+     "https://finance.yahoo.com/markets/stocks/articles/hewlett-packard-enterprise-hpe-stock-200639383.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 14:49:39 +0000"
+     "Wed, 21 Oct 2026 20:06:39 +0000"
     ],
     [
-     "Is AI Security Expansion Altering The Investment Case For Palo Alto Networks Stock?",
-     "https://finance.yahoo.com/technology/ai/articles/ai-security-expansion-altering-investment-232352876.html?.tsrc=rss",
+     "Super Micro Surges 12% as Preliminary Revenue Tops Guidance Range; Dell Jumps 7%, Hewlett Packard Enterprise Climbs 5%",
+     "https://247wallst.com/investing/2026/10/21/super-micro-surges-12-as-preliminary-revenue-tops-guidance-range-dell-jumps-7-hewlett-packard-enterprise-climbs-5/?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 19 Oct 2026 23:23:52 +0000"
+     "Wed, 21 Oct 2026 13:08:47 +0000"
     ],
     [
-     "Palo Alto CEO wants AI labs out of the \u2018fear-mongering business\u2019",
-     "https://www.thestreet.com/technology/palo-alto-networks-panw-ai-cybersecurity-strategy?.tsrc=rss",
+     "HPE Teams With NVIDIA to Advance Secure Agentic AI Across Enterprises and Industrial Environments",
+     "https://finance.yahoo.com/technology/ai/articles/hpe-teams-nvidia-advance-secure-113000816.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 19 Oct 2026 16:17:00 +0000"
+     "Wed, 21 Oct 2026 11:30:00 +0000"
     ],
     [
-     "Network Detection and Response (NDR) Market Surges to $7.29 billion at a CAGR 10.9% by 2031 | Report by MarketsandMarkets\u2122",
-     "https://finance.yahoo.com/technology/articles/network-detection-response-ndr-market-143000843.html?.tsrc=rss",
+     "Nvidia Aims To Speed Deployment Of AI Factories",
+     "https://finance.yahoo.com/m/05f98e64-c547-3e0e-bc8f-7caac7bce120/nvidia-aims-to-speed.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 19 Oct 2026 14:30:00 +0000"
+     "Wed, 21 Oct 2026 21:15:58 +0000"
     ],
     [
-     "CrowdStrike Gains 3.6% on Expanded NVIDIA AI Agent Security Deal: \u201cSetting the Standard\u201d",
-     "https://www.tikr.com/blog/crowdstrike-gains-3-6-on-expanded-nvidia-ai-agent-security-deal-setting-the-standard?ref=yahoofinance&.tsrc=rss",
+     "How Big Could Western Digital Stock's Next Fall Be?",
+     "https://www.trefis.com/articles/619647/how-big-could-western-digital-stocks-next-fall-be/2026-10-21?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 15:19:10 +0000"
+     "Wed, 21 Oct 2026 20:40:28 +0000"
     ],
     [
-     "Sell-Off In Cybersecurity Stocks Intensifies Amid Palo Alto Vulnerability - Investor's Business Daily",
-     "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN0RwdUhaYW1SUUMzcE82Wm1kUTVtcVlpUXdCZjNaTm1kcV9ua0pBUDFoVnJZZUd4ZmxTLUxuMWgtRVZRcnJJS2tPRGUyX3NkTjZLamg4Q3JtWm1IMTFfbUg2OWdFdnFieGZzQVFWNy1yUktQLTNGb0k1dDhaMU5RUWItaERwYXAxTVhkZ2FqMy1fMnFXbjd1THJNQlZCc2hyYU9r?oc=5",
-     "Investor's Business Daily",
-     "Fri, 16 Oct 2026 16:43:00 GMT"
+     "HPE Stock\u2019s Worst Week Ever Exposes Wall Street\u2019s Newest Fear - Barron's",
+     "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnWExPUlBUcG9IRmcyY0g2Z1BuS3Vfd3RBaDlhMkk0LWVXSnNyRkZaQXNLYk9keldDdlYtcnpaWFZiWjRiOFU5a1dfTmwySTNiSEhLZ19SWHNZcFMxbV9scjU2T2tBV2M3Y3dIYkwzOElRQXFlUUV3?oc=5",
+     "Barron's",
+     "Fri, 16 Oct 2026 17:55:00 GMT"
     ],
     [
-     "Why is Palo Alto Networks stock sliding today? - Investing.com",
-     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdHRuM2lWY3NkeTJIRVVRbC12WVhmczd0VXdqVEdnNS1rMlluLUpodWJFZUlUZ3BTN296ZVlXSUVBbDZ1X3I1c0pWQVRlakNTcm91M1NMcHFXaTNlRTVuUVgydGFxUmlyekNLNXdZS3R4aG9sQUMxM213TTJUdE9KMGpGa29oQWR1WTU3RXJYX2lBR1pwbG53Tlg5dEdlOHlCOWdscmhpT3dBalk?oc=5",
-     "Investing.com",
-     "Fri, 16 Oct 2026 14:27:56 GMT"
+     "Why Hewlett Packard Enterprise Stock Plunged 20% This Week - The Motley Fool",
+     "https://news.google.com/rss/articles/CBMiswFBVV95cUxObjUtaFdITGpGS1h0QVZmdHVZNmRaR3hEOWRUU2FGWmNfYkRmRXlTZTA0eWtmY01VRDk1SVF0MnJ0clppQnNwbWdLYXRGYjdnajFSOTcxNUJqaTVSQ1I0d0pQRlY1Zk5KVkVOaE5hUENPbGs1cldPWmkxdml1VkhHLWFqZFZoSDdObkl1UmNKb096dmJLZnBNMkNZYnh2cWNjOXpwWFdHb1hpVWxQcFFlQ3NHQQ?oc=5",
+     "The Motley Fool",
+     "Fri, 16 Oct 2026 15:13:00 GMT"
     ],
     [
-     "Palo Alto Networks (NasdaqGS:PANW) Stock Forecast & Analyst Predictions - Simply Wall Street",
-     "https://news.google.com/rss/articles/CBMihAFBVV95cUxQamxpMGplLWNyUHk1TmZYUFhJOG16ZVFDRjVqTXVrUWNjWmhMTDNGY3FMSUVBaThLNjdmV0x3eWkyTG5tWUxsdjdXeUlrVmdBT3NrMEN2LXFfSmVwZ2JNRFJJU3FydXlWUm51cjVkaU1SRnZGdC1JRnFiN2NDV3hVYnczNXc?oc=5",
-     "Simply Wall Street",
-     "Fri, 16 Oct 2026 07:00:00 GMT"
+     "HPE (HPE) Stock May Be 28% Undervalued Following Strong Q2 Earnings - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOU80VVlWWGFBb0QwRUhzMUtEdEkyaVhrNElCbU5IWFE0UVhYWnpsbXpBclgxalBWR0ViamJGRWtpamdxQnFoMEpGcGpGSEdIa1JJazRhQTNGWkY0SDJmMkFaaklmWVRlWW5FR0xKOUotSEVhcElGNmNRZXhSQ29xQXAwZWJ6TlgzNTltc2tB?oc=5",
+     "Yahoo Finance",
+     "Mon, 19 Oct 2026 22:14:42 GMT"
     ],
     [
-     "Palo Alto Networks (NASDAQ:PANW) Stock Price Down 1.9% - Here's Why - MarketBeat",
-     "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZk5yc1RNQ2RpT2UyWWtOUEhKTWlKZjdFck5nc2ZhdThUQmhpQjNISkxKci0tTXNGcTE2N1JCSUJIVHZ4RXotck9XU05TbDFtMUE2c3FEeDJJd1ZRWTN2bTlYSGIyMUxuMEh0SDBvaVBMZmMtOFlvdWlrUll0NGdQNjBkb1pfSXRwd05JdzNYREFrNDM1RWJ4dF9KLVdERk5rQ0pnR213TUFGbndMYlhkc1plamJvY2pRZXEtNA?oc=5",
-     "MarketBeat",
-     "Tue, 20 Oct 2026 21:27:13 GMT"
+     "Has Buying HPE Stock\u2019s Dips Paid Off? - Trefis",
+     "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZnR2MndTNWNTSjZPWXlUYTZpcXZzZGV1YmVKQmtTbVlRSUwzcl9aMjNCWVZMdXBidERyM3Z5OV81UDlBampPTkpUZVFYNVZPTTZsYXBvY2NELU5ELTV1OENZbndTZXgxMElXN3lKYkJNX2thejE2WDhlSTYyZWFNazVaRm9KV3RMcGJJVkRLZ1lmaTNDbVBXVV9yYw?oc=5",
+     "Trefis",
+     "Fri, 16 Oct 2026 16:42:36 GMT"
     ]
    ]
   },
@@ -461,16 +517,38 @@
    "t": "FORM",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 111.7750015258789,
+   "c": 112.18000030517578,
    "buy": 102.00599670410156,
-   "tgt": 112.36651698063852,
+   "tgt": 112.50151657373748,
    "stop": 85.85885838099888,
    "days": null,
    "conf": null,
    "s": null,
-   "ed": 5,
+   "ed": 4,
    "name": "FormFactor, Inc.",
-   "drop": -6.628516931985329,
+   "drop": -6.290200348246078,
+   "rvol": 0.6332472006890612,
+   "dd": {
+    "short": 0.0594,
+    "dtc": 2.7,
+    "ratings": [
+     6,
+     4,
+     0
+    ],
+    "moves": [
+     {
+      "firm": "Freedom Capital Markets",
+      "action": "main",
+      "to": "Hold",
+      "pt": 140.0,
+      "prior": 140.0,
+      "date": "2026-10-21"
+     }
+    ],
+    "iv": 0.8069782485961914,
+    "imove": 10.166970282018955
+   },
    "news": [
     [
      "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know",
@@ -538,113 +616,149 @@
  "macro": [
   [
    "S&P fut",
-   7778.25,
-   0.29657328
+   7774.75,
+   -0.3269126
   ],
   [
    "Nasdaq fut",
-   29920.5,
-   0.8264463
+   29843.5,
+   -0.5448729
   ],
   [
    "VIX",
-   17.11,
-   -1.1547278
+   16.68,
+   -3.63951
   ],
   [
    "US 10Y",
-   5.144,
-   0.52724916
+   5.146,
+   0.5667439
   ],
   [
    "Brent",
-   110.26,
-   1.3512282
+   109.97,
+   1.0567924
   ],
   [
    "Gold",
-   4128.8,
-   -0.3331312
+   4150.9,
+   0.021684393
   ],
   [
    "Bitcoin",
-   84281.11,
-   2.1575468
+   84443.78,
+   1.7245969
   ],
   [
    "Dollar",
-   101.809,
-   0.10619533
+   101.691,
+   -0.009827344
   ]
  ],
  "sectors": [
   [
-   3.8430526117572805,
+   3.6143486809837366,
    "Discretionary",
-   4.640761017097228
+   4.410300213395502
   ],
   [
-   3.221265044899302,
+   3.3219278975341604,
    "Materials",
-   1.968977133059191
+   2.0684187366280637
   ],
   [
-   2.8828461692906204,
+   2.862724497205993,
    "Health",
-   6.027845300830914
+   6.007108534553329
   ],
   [
-   2.742111003911174,
+   2.7879685344852634,
    "Financials",
-   2.7044342672557065
+   2.7502749813356875
   ],
   [
-   1.7233071189750593,
+   1.3738242269583978,
    "Real estate",
-   0.872374945352905
+   0.5258155351357319
   ],
   [
-   1.2084603126083726,
+   1.2200825953346373,
    "Staples",
-   5.66541083544323
+   5.677544932487311
   ],
   [
-   1.1333034866793268,
+   1.0868538340559564,
    "Software",
-   0.7123073851340367
+   0.6660510923832241
   ],
   [
-   1.0186942105113062,
-   "Utilities",
-   6.0251583843111245
-  ],
-  [
-   0.9906932212776054,
+   0.7836853914179542,
    "Energy",
-   9.507782942804432
+   9.283317026424776
   ],
   [
-   0.7423404831200964,
+   0.7602995231719589,
    "Industrials",
-   -1.0699631151754208
+   -1.052327149143395
   ],
   [
-   -1.08176108692134,
+   0.6711379940179008,
+   "Utilities",
+   5.660377358490565
+  ],
+  [
+   -0.9924903966500032,
    "Tech",
-   -3.5681382980302323
+   -3.481111487273436
   ],
   [
-   -1.3490369524444712,
-   "Comms",
-   -2.8740233480083033
-  ],
-  [
-   -1.4520950641434438,
+   -1.4236601208295951,
    "Semis",
-   -7.460891311626194
+   -7.434190142163688
+  ],
+  [
+   -1.6693723869478538,
+   "Comms",
+   -3.189406908099679
   ]
  ],
  "news": [
+  [
+   "Tesla beats on earnings and sales even as auto revenue declines",
+   "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 22:35:36 GMT"
+  ],
+  [
+   "CoreWeave\u2019s market confidence erodes as bond yields spike and stock sinks",
+   "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 22:50:35 GMT"
+  ],
+  [
+   "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction",
+   "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 22:03:37 GMT"
+  ],
+  [
+   "Trump denies ordering Starlink slowdown in Ukraine, says he doesn't know who did",
+   "https://www.cnbc.com/2026/10/21/trump-starlink-ukraine-elon-musk.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 21:48:02 GMT"
+  ],
+  [
+   "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+   "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 19:54:16 GMT"
+  ],
+  [
+   "Southwest Airlines cuts 2026 profit forecast on higher fuel",
+   "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
+   "CNBC",
+   "Wed, 21 Oct 2026 21:07:11 GMT"
+  ],
   [
    "How Ukraine\u2019s drone strikes on Russia crippled the world\u2019s second-largest diesel supplier",
    "https://www.cnbc.com/2026/10/21/ukraine-russia-drone-diesel-refinery-trump-putin-zelenskyy.html",
@@ -655,79 +769,55 @@
    "Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case",
    "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
    "CNBC",
-   "Wed, 21 Oct 2026 18:52:44 GMT"
+   "Wed, 21 Oct 2026 20:04:07 GMT"
   ],
   [
-   "Tesla earnings loom after Musk calls SpaceX merger a 'good idea'",
-   "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
-   "CNBC",
-   "Wed, 21 Oct 2026 16:01:25 GMT"
-  ],
-  [
-   "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
-   "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
-   "CNBC",
-   "Wed, 21 Oct 2026 16:08:50 GMT"
-  ],
-  [
-   "GM aims to develop vehicles in as little as two years with AI, software push",
-   "https://www.cnbc.com/2026/10/21/gm-vehicle-development-ai-software.html",
-   "CNBC",
-   "Wed, 21 Oct 2026 18:03:55 GMT"
-  ],
-  [
-   "Trump-aligned super PACs pour millions into once-safe GOP House seats",
-   "https://www.cnbc.com/2026/10/21/trump-pac-spending-midterm-election-house-republicans.html",
-   "CNBC",
-   "Wed, 21 Oct 2026 17:51:21 GMT"
-  ],
-  [
-   "Netflix has dipped its toe into theatrical. Is it ready to jump in?",
-   "https://www.cnbc.com/2026/10/21/netflix-theatrical-strategy.html",
-   "CNBC",
-   "Wed, 21 Oct 2026 18:32:12 GMT"
-  ],
-  [
-   "Mortgage rates drop for the first time in 2 months, but demand still falls further",
-   "https://www.cnbc.com/2026/10/21/mortgage-rates-drop-for-the-first-time-in-2-months-but-demand-falls.html",
-   "CNBC",
-   "Wed, 21 Oct 2026 13:13:48 GMT"
-  ],
-  [
-   "Medicare is a bargain. What America can\u2019t afford is private health insurance.",
-   "https://www.marketwatch.com/story/medicare-is-a-bargain-what-america-cant-afford-is-private-health-insurance-8a834023?mod=mw_rss_topstories",
+   "Why investors should be skeptical of a potential Tesla-SpaceX merger",
+   "https://www.marketwatch.com/story/why-investors-should-be-skeptical-of-a-potential-tesla-spacex-merger-9e119d32?mod=mw_rss_topstories",
    "MarketWatch",
-   "Wed, 21 Oct 2026 16:34:00 GMT"
+   "Wed, 21 Oct 2026 21:44:00 GMT"
   ],
   [
-   "Polymarket traders see a 10% chance the AI bubble bursts before New Year\u2019s Day",
-   "https://www.marketwatch.com/story/polymarket-traders-see-a-10-chance-the-ai-bubble-bursts-before-new-years-day-ad33258b?mod=mw_rss_topstories",
+   "Trump says data centers should generate their own electricity \u2014 but experts say only states can mandate that",
+   "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
    "MarketWatch",
-   "Wed, 21 Oct 2026 15:59:00 GMT"
+   "Wed, 21 Oct 2026 21:31:00 GMT"
   ],
   [
-   "Elon Musk promised a SpaceX share to every kid in America \u2014 don\u2019t hold your breath",
-   "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
+   "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+   "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
    "MarketWatch",
-   "Wed, 21 Oct 2026 15:50:00 GMT"
+   "Wed, 21 Oct 2026 21:14:00 GMT"
   ],
   [
-   "AI stocks are probably in a bubble \u2014 but might be worth holding on to, says Citadel\u2019s Ken Griffin",
-   "https://www.marketwatch.com/story/ai-stocks-are-probably-in-a-bubble-but-might-be-worth-holding-onto-says-citadels-ken-griffin-87f535ce?mod=mw_rss_topstories",
+   "\u2018I don\u2019t feel sorry for myself\u2019: I\u2019m 64 and will be renting for the rest of my life. Is that so bad?",
+   "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
    "MarketWatch",
-   "Wed, 21 Oct 2026 15:27:00 GMT"
+   "Wed, 21 Oct 2026 21:00:00 GMT"
+  ],
+  [
+   "7 healthcare stocks that stand out as investors pay up for the sector",
+   "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Wed, 21 Oct 2026 20:59:00 GMT"
   ],
   [
    "My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?",
    "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
    "MarketWatch",
-   "Wed, 21 Oct 2026 15:15:00 GMT"
+   "Wed, 21 Oct 2026 20:31:00 GMT"
   ],
   [
-   "Moderna is about to release the trial results for its cancer vaccine. A lot is riding on this data.",
-   "https://www.marketwatch.com/story/moderna-is-about-to-release-the-trial-results-for-its-cancer-vaccine-a-lot-is-riding-on-this-data-ccbf8c9c?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Wed, 21 Oct 2026 15:00:00 GMT"
+   "Stock Market Today: Stock Market News And Analysis - Investor's Business Daily",
+   "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5",
+   "Investor's Business Daily",
+   "Wed, 21 Oct 2026 19:39:00 GMT"
+  ],
+  [
+   "US Stock Futures Slip as Tech Earnings Rally Fades: Markets Wrap - Bloomberg.com",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeTBrLWVPck50dERfQ3N3cFhBMFpUN3lfZFFOeXZLM0lDR0lOSFp2Vnd0OHFaWU5JQ092UHg4XzlXQlEtN2JQNG1oWnpFYWFKSUFoYmZkT1FqTHR1bXR5b010d3ZvSENDZ0phTk04R1k5aUg4Z2ZTb1p2MmQ2LW53Ulk5NktSU0prZWwtMkFIZFo1SDll?oc=5",
+   "Bloomberg.com",
+   "Wed, 21 Oct 2026 22:13:33 GMT"
   ],
   [
    "Going low-risk in your portfolio is riskier than you think - The Washington Post",
@@ -736,34 +826,22 @@
    "Wed, 21 Oct 2026 16:00:00 GMT"
   ],
   [
-   "What Could Recent Stock Market Jitters Mean for the U.S. Economy? - FocusEconomics",
-   "https://news.google.com/rss/articles/CBMiowFBVV95cUxOelc2MWNXdDZ4ZkJJRHVnWXJZVGVOS21Tb0lLM3Y0Sk9ibmVCVHhlaldIVUwwTnItSWI5X0pIZUNzdEY1QzNNRlBtdEtJTjQyR3N5a2hIbUVtMG1yWWtzWElHS2dVLWpqeHhId1dyMUp0cUI0NHNrbmZBUlhIUkItVmlMWG9MQnFVN0NRcllWVE00Z0tNcGJkMFBNeEtVSndJY184?oc=5",
-   "FocusEconomics",
-   "Wed, 21 Oct 2026 13:49:04 GMT"
-  ],
-  [
-   "Russell U.S. Style Indices Forced Into Rethink by Concentrated U.S. Stock Market - ETF Trends",
-   "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVzNnbFdhMTk3UlN6V2ZsbVFhdU9oR0I2MXIzd1pSSFQtcW94b1VpVDdDVjk2UE5kQlQwVnRudFhrZ2RSM2xzZVptR2x4M1VLa1ZmSHRUcEZ6YV9ZMHV4MUJOX0trcTdremswQ3dWQmotTHBvc2lBZENabXhqUzVldWxkZHQxT0IzSXJCMHRxWGFhNmVQRmctNlVoaGRsaHFpa0JLUk9VSVo4WHk2YUgtSk5nOGx3Rk5PcmdhMNIBwgFBVV95cUxQTVFxYi03WnNwS0o4TnF5MzJCdGh4dUNZdkJqcGg3dFIzOHdVVU1QWUtJQzBzVjRuSlR2eW9XY2FwVmFvOHZWZHFfdjJGWHlUSlZzLWllM3F5N2NmWVk1Z2RBUkh2Q256WHlaVTJpajUxcV8takhFdE5rRUp3UG5YdElPV1BwR2JZTThWVjFNVkJ2M1l0NWstd2xGakZiUGNlbDhpVXRWWndVZmdPX2ZOeTEteFpaVjVEZ2RCVnVQT0JyQQ?oc=5",
-   "ETF Trends",
-   "Wed, 21 Oct 2026 15:36:37 GMT"
-  ],
-  [
-   "Gains in Sports Team Values Lag Stock Market Since 2022 - Sportico.com",
-   "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM2Z6Mms0VjhvcmJXZ3dJSHRCYVQ1NHcxT1REXzZuM3BzanFvRjdqTVQ0emdYQVlWY3RGX2VBQWh5OEtxUUJGX0c1VXpROUJGSFpOQUhVVWNMVFBJLWdYOXFLQ1k2d3BhWUJLaFFnR2VSaVgybmc1T3RTczVXTEN5M01QVzItem5QNkhmMExTWk10dTlF?oc=5",
-   "Sportico.com",
-   "Wed, 21 Oct 2026 11:58:44 GMT"
-  ],
-  [
-   "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the Smartest Move Investors Can Make - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMingFBVV95cUxPYjJOS3VQS00zTHNGVG5fSjljX1ByRjZMQVozMEt3WVNwdWhfU00wTjZEUHpIZThFNFZUWG5QNTJoOTBVN3NRMWhnTHNZd1dJa1lRenJMVExzZEpVYmRSQzIwU0V2dkRlR1M3VGdUTTJvNC1ZQnZUWVBqbHhDMHVfMzB3dzMzSVdka19qS3BJbElEdEREME54eHM2TVBQZw?oc=5",
+   "Stock Market Today, Oct. 21: Space Exploration Technologies Surges on Q3 Earnings Beat - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVUZCbTdMR0RybXpPcVRsQVJNVE5PT1hCZkpRRDRjSGY1aTVodlQ2TlZxdTNvQVREODRhQko3cXI4b18zMU00OXppbTB1ODFKUm9xQVVxSUIweGpWbS1fcW93S1REM1RCbDIwZlR4clZzLVJFN1AzOGV3WEMwcXBMZlFUdWh2RkZYblJyRjlUekVMWEo0?oc=5",
    "Yahoo Finance",
-   "Wed, 21 Oct 2026 07:20:00 GMT"
+   "Wed, 21 Oct 2026 21:40:01 GMT"
   ],
   [
-   "5 Things to Know Before the Stock Market Opens on Wednesday - Investopedia",
-   "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX1o5Q3V0X2lET0hZQVkxSkhSMTM5Q3ZZT3VGS3F6bVdPOUVqUldGNGtYYjVuRnJNVnY1VXpzdHpwNlNObDFrQndaSUY3eS1qZmVQM2plVE1yVkpXZHFJV1h6WkM1bEQ4dTF5V1U1alZUbmVPV2h5aFBkUkVVOWthLTlmWmgwZEE0ZEQza0Q3WHk4NDNhYXBlVlM5cmZBbU92djNpbTRNM0pXcFpSMnctNXZrcw?oc=5",
-   "Investopedia",
-   "Wed, 21 Oct 2026 12:23:06 GMT"
+   "Stock futures tick lower as investors digest earnings from Meta and Tesla: Live updates - CNBC",
+   "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ROG52YzhPZGZHbTVQQjVmSGxSeHJoRlA0UW90MkdwNFR0ZThOQzFhSDBhMUFmNWpxSGo1RG9nU2FOZ1VTUGN2VjNieDNOT0M4bDB0Qlg5NVkwMHV3cy00VGxhQTNqQzg3a3FwUFB4Vy1lR3BlM1dV0gF8QVVfeXFMTjlVakFKZGpLV0RGRVNiaGUxMWdVcHJtSGlWdXNtYkJqUmhXbHM5S3dLcFgzdTZMRGx0OG9LZE40eTVsaDZ5WWRKTGZSMVN5OWptaXk4Qk5EZGNJTmZYdzBVUVRER3NVOW4xWllXa2k0RXFGWmhTcEw5QTZ2Ug?oc=5",
+   "CNBC",
+   "Wed, 21 Oct 2026 22:09:00 GMT"
+  ],
+  [
+   "Stock Market Today, Oct. 21: Airline Shares Rise After United Issues Stronger Revenue Guidance - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeWlDa1QxQmtyUGRHNnd6bzJLbnBNZ0l5VW1NY3R4ZG9pUEhKZ25zTl9ZenlxSXZyVzJFd0JXYUJsaGZEUWwzWmJoM2xvV0dYRXhvRDM1ejAxUlRnaXd3Yk1YU1c0anlHT0dGdEJaQ1BfX0d3aWdKNkhQZEllX2hXeUJJem9OV2tZaTFIM1ROYllXbExy?oc=5",
+   "Yahoo Finance",
+   "Wed, 21 Oct 2026 21:53:11 GMT"
   ]
  ],
  "cal": []
