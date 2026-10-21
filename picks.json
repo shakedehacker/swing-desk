@@ -5,16 +5,16 @@
    "t": "HPE",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 57.625,
+   "c": 57.56999969482422,
    "buy": 52.767000961303715,
-   "tgt": 58.18174899024106,
+   "tgt": 58.16341555518247,
    "stop": 45.155572564261306,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Hewlett Packard Enterprise Comp",
-   "drop": -8.691175023458786,
+   "drop": -8.778324927822378,
    "news": [
     [
      "Supermicro stock jumps as server maker lifts revenue forecast",
@@ -82,16 +82,16 @@
    "t": "FORM",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 110.7699966430664,
+   "c": 111.0199966430664,
    "buy": 102.00599670410156,
-   "tgt": 112.03151535303435,
+   "tgt": 112.11484868636768,
    "stop": 85.87728663853237,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "FormFactor, Inc.",
-   "drop": -7.468049878688743,
+   "drop": -7.259211851863934,
    "news": [
     [
      "FormFactor, Teradyne, Applied Materials, AMD, and Intel Shares Plummet, What You Need To Know",
@@ -148,10 +148,10 @@
      "Tue, 20 Oct 2026 20:08:00 GMT"
     ],
     [
-     "FormFactor (NasdaqGS:FORM) Stock Forecast & Analyst Predictions - Simply Wall Street",
-     "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX0lORFhwZ0pkR1Q0akx5UUxwYm5zWWpsVV9OeHJJWVY1YXRuVHJkeTlMRC1BS2U3b0FwcU8waWlmM1B6SkFSdkxCT0hCSEEyalY5UVQyZ1o1U3JDNFp3akNlaGw3c2JhVW1ZUldyOXpkWHVMY0ZGcnVBSUFEMzB1cEhR?oc=5",
-     "Simply Wall Street",
-     "Thu, 15 Oct 2026 07:00:00 GMT"
+     "FormFactor, Inc. $FORM Stock Sold by Assenagon Asset Management S.A. - MarketBeat",
+     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVHBwX0RZV3ZNMXNqS2hKWFc0SzhUdlhsQnRESmdoTUhIeWhIczFKMEU4WmRJOGRVLUY1Sl9aTjZvUDBtbUVzSjMxdlVscXlzbmMtSjBlQ3h3b1pPV2pkdkRYdFJJQ3ZTeVd5SEMtS2xISlVFUTBPZC1fUm9OU0cxQ29FS2tmNGdmaFk4Slp0UlpuYzc4eWUtWXBtZWVEcXdhVGc4bmt4RHF6MmhVcUwxWGt4YjFHellUd0JSa0VJVk5CUQ?oc=5",
+     "MarketBeat",
+     "Wed, 21 Oct 2026 07:50:38 GMT"
     ]
    ]
   },
@@ -159,16 +159,16 @@
    "t": "P",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 131.4949951171875,
+   "c": 131.5,
    "buy": 120.05999450683593,
-   "tgt": 131.45707521436628,
+   "tgt": 131.4587435086371,
    "stop": 104.21512843540737,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Everpure, Inc.",
-   "drop": -7.0641105293189455,
+   "drop": -7.060573259817082,
    "news": [
     [
      "Everpure (P) Stock May Trade At A Premium On Recurring Revenue",
@@ -213,6 +213,12 @@
      "Tue, 20 Oct 2026 23:35:00 GMT"
     ],
     [
+     "Everpure, Inc. (P) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aSG5EUXRCUkllOHVLMHpCQVQyNExjNmhZRlRfa1ZwaTB2ZHJ5SU5mSk50NEZVdk1MNGdUR3ZrSWJlQ2JMLUl3RkE1THJGdw?oc=5",
+     "Yahoo! Finance Canada",
+     "Wed, 21 Oct 2026 01:51:25 GMT"
+    ],
+    [
      "Everpure (P) Stock Forecast and Price Target 2026 $P - MarketBeat",
      "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kZ3lITFhlRjlnb3VUZDhfNW5wNWp4ZWJGVmJpV1RnMndqU0p6V2htZ0Q0Ylp2RDBDbmZYNlFsTFZyaXdYVzhqWllsbmxhNEI2c25XY2RjMmVtWjh0SFNn?oc=5",
      "MarketBeat",
@@ -223,12 +229,6 @@
      "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWFVURjU2alVUV0tUVVJJaTg4NVdBNF9UMEROWjBnNmNuLUsxTVptalhSWTYtR2padWJCQ0J5cFRJSUFKTkRZOXphYmhjZzhPdy1qRWlzcXAzTnpBakotUThIUUhhNzNETVJJUmdUSHhlMWxsSWV3ZlFOMS1GTjJzNzA0bXJBM0tQYmxmT3d3YVFGZldWd1lpeUVfYnBSZmVBYTdrZV93?oc=5",
      "Stock Titan",
      "Fri, 16 Oct 2026 20:41:58 GMT"
-    ],
-    [
-     "2 dividend stocks with P/Es below 9 and yields above 6.5% for an ISA? - The Twelfth Magpie",
-     "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWnFGNm9la213NklUTFg1dHZROVBqUHU2Sml3bm9SVEpXNlQ4LUdtdDVPOG9vWUNRUkZSZzZqZTNWVUxGLUFXRW5aVlVaRDd6RUFvbU13YlFMTXdsVlhDRXU4ZUpXUTRRTHd5OUVpNTBBM21OSUpzSDJqbHhwYnNZV0M0OE50bUwwM2hVRjBQTHRUX0dMTUxjNVFTaFBCbmROS3JwT1Q2ZTRzX0VTTEE?oc=5",
-     "The Twelfth Magpie",
-     "Sat, 17 Oct 2026 10:24:49 GMT"
     ]
    ]
   },
@@ -236,16 +236,16 @@
    "t": "PANW",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 349.32000732421875,
+   "c": 349.2099914550781,
    "buy": 333.2429901123047,
-   "tgt": 353.51688265814494,
+   "tgt": 353.4802107017647,
    "stop": 297.27798505510606,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Palo Alto Networks, Inc.",
-   "drop": -6.857935322818342,
+   "drop": -6.887269758247639,
    "news": [
     [
      "Palo Alto Networks (PANW) Stock Dips While Market Gains: Key Facts",
@@ -313,16 +313,16 @@
    "t": "MTSI",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 271.4200134277344,
+   "c": 271.3999938964844,
    "buy": 244.25101318359376,
-   "tgt": 272.6114592897423,
+   "tgt": 272.604786112659,
    "stop": 204.31886247907366,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "MACOM Technology Solutions Hold",
-   "drop": -6.834165400818604,
+   "drop": -6.841037172408459,
    "news": [
     [
      "Is MACOM Technology Solutions Holdings (MTSI) Trading At A Premium To Cash Flow?",
@@ -384,16 +384,16 @@
    "t": "ANET",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 182.64500427246094,
+   "c": 182.64999389648438,
    "buy": 167.02200164794922,
-   "tgt": 184.93736012773684,
+   "tgt": 184.93902333574465,
    "stop": 149.92499498639788,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Arista Networks, Inc.",
-   "drop": -6.537198862032579,
+   "drop": -6.534645579835163,
    "news": [
     [
      "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
@@ -461,16 +461,16 @@
    "t": "CTVA",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 12.5600004196167,
+   "c": 12.545000076293945,
    "buy": 11.592000102996826,
-   "tgt": 12.808201126024429,
+   "tgt": 12.80320101158351,
    "stop": 10.113428483690534,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Corteva, Inc.",
-   "drop": -6.26865091661627,
+   "drop": -6.380593780420607,
    "news": [
     [
      "What You Need To Know Ahead of Corteva's Earnings Release",
@@ -538,16 +538,16 @@
    "t": "INTC",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 91.98999786376953,
+   "c": 92.0459976196289,
    "buy": 85.83300247192383,
-   "tgt": 93.40883447722962,
+   "tgt": 93.42750106251609,
    "stop": 74.9938584463937,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Intel Corporation",
-   "drop": -6.247456900959003,
+   "drop": -6.190384179503816,
    "news": [
     [
      "AMD, QCOM Targets Raised While INTC, COHR Face Cuts \u2014 Susquehanna Sees \u2018Modest Upside\u2019 For Chip Earnings",
@@ -615,16 +615,16 @@
    "t": "DAR",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 58.540000915527344,
+   "c": 58.599998474121094,
    "buy": 54.78299903869629,
-   "tgt": 59.745273135315145,
+   "tgt": 59.76527232151306,
    "stop": 50.42157064165388,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Darling Ingredients Inc.",
-   "drop": -6.155819312017707,
+   "drop": -6.05963855285383,
    "news": [
     [
      "Darling Ingredients Introduces Nextida\u00ae NxCogni\u2122, the First Targeted Collagen Peptide Designed to Support Clarity and Cognitive Resilience",
@@ -692,16 +692,16 @@
    "t": "FTNT",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 172.78500366210938,
+   "c": 172.91000366210938,
    "buy": 163.71900329589843,
-   "tgt": 174.48848739319322,
+   "tgt": 174.53015405985988,
    "stop": 150.66900896344865,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Fortinet, Inc.",
-   "drop": -6.120618963793523,
+   "drop": -6.052702637834617,
    "news": [
     [
      "Fortinet stock falls as Arete delivers rare double downgrade to sell",
@@ -769,90 +769,90 @@
  "macro": [
   [
    "S&P fut",
-   7776.0,
-   0.2675607
+   7778.5,
+   0.2997969
   ],
   [
    "Nasdaq fut",
-   29929.0,
-   0.85508966
+   29946.25,
+   0.9132189
   ],
   [
    "VIX",
    16.74,
-   -3.294796
+   -3.2928927
   ],
   [
    "US 10Y",
-   5.1169996,
-   0.0
+   5.1150002,
+   -0.03907325
   ],
   [
    "Brent",
-   109.27,
-   0.4412131
+   109.29,
+   0.45960107
   ],
   [
    "Gold",
-   4145.3,
-   0.06516939
+   4145.5,
+   0.07000199
   ],
   [
    "Bitcoin",
-   84411.39,
-   2.298954
+   84309.18,
+   2.1750836
   ],
   [
    "Dollar",
-   101.8,
-   0.097350724
+   101.79,
+   0.08751501
   ]
  ],
  "sectors": [
   [
-   3.5739915787906362,
+   3.5605392113929435,
    "Discretionary",
-   4.36963309335503
+   4.3560773866748725
   ],
   [
-   2.677914659233549,
+   2.6504029396398288,
    "Financials",
-   2.6402614641303
+   2.612759833406697
   ],
   [
-   2.6575469260773588,
+   2.637409747500352,
    "Materials",
-   1.412098083547031
+   1.3922052106884353
   ],
   [
-   2.581047402326342,
+   2.5753021123457787,
    "Health",
-   5.716820925367805
+   5.710900009102837
   ],
   [
-   1.3858687032558326,
+   1.4099760443641252,
    "Real estate",
-   0.5377592574104639
+   0.5616649366503967
   ],
   [
-   1.3130431267362574,
+   1.3304721182235246,
    "Staples",
-   5.77459919763168
+   5.792795715395727
   ],
   [
-   1.072920355713336,
+   1.0218285727164211,
    "Software",
-   0.6521756161018466
+   0.6012965171636964
   ],
   [
-   0.7986102611130308,
+   0.8058639959686031,
    "Energy",
-   9.299500590859132
+   9.307366072288659
   ],
   [
-   0.5153407149978584,
+   0.5273187909129007,
    "Utilities",
-   5.496858800732118
+   5.509430507443991
   ],
   [
    0.4849214858356099,
@@ -860,19 +860,19 @@
    -1.3227512752884585
   ],
   [
-   -1.40838716604621,
+   -1.4178422790989131,
    "Tech",
-   -3.8865544085121773
+   -3.895771860867714
   ],
   [
-   -1.4618324770286906,
+   -1.4392719952133537,
    "Comms",
-   -2.9850752338569486
+   -2.962863501073376
   ],
   [
-   -1.9832157100089676,
+   -1.9973737395571067,
    "Semis",
-   -7.959627750583264
+   -7.972922517590453
   ]
  ],
  "news": [
@@ -973,28 +973,28 @@
    "Wed, 21 Oct 2026 11:58:44 GMT"
   ],
   [
+   "We Are Witnessing the Stock Market Do Something for Only the 2nd Time in 155 Years, and History Is Clear About What Comes Next - The Motley Fool",
+   "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDJyMjVyMXZqZUh0MGZ3ajhYSXRFc2VaZlFYaXJodUZJNktTNU8yV2lVekR3dlh3RzVDbUdsQ0F5ZFNsOFVKMmZ2RkJMUkRPb0pHTXN2bDZ4S3NSMW9mQkROSVdFb0RaT2dhS3BjMTJOd3lZS01uR1BVTGRtTjNXQ1pxQ1I5WHM1elp0bWtacHhmbXBRa1B3Yw?oc=5",
+   "The Motley Fool",
+   "Wed, 21 Oct 2026 06:00:00 GMT"
+  ],
+  [
+   "US stocks nudge higher as SpaceX, Tesla and Nvidia climb - LancasterOnline",
+   "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPazFpNy1ha1VuSFU3OFJLdjlERDJMVVdXSTVrMTh3alowaFgtTEZVM2xfVUs3Uk9Tbld2N0JJV2JfT2ZFMDBHVFJ3Q283eEMyWUxCbkltLXZhSzltX2kyVTJrbndlUkxNOG9fLU9RZTRvZ1pwTWVFT3dCeEVFLVk5QkVhVmd0Q0VGV1dOT09OU2FXZGZ1YU1DUjJ1eUxrWnNSMVhCQTB1bnhQRXRrRTBBVU1ENXlCWUY2eXUteWNMQmdqdFBEcmZ4bzJmUkk1d0V1enhVellkRGNRaWZpbVdCano1Vlp0UV9KdUxiVGpYOE1hMU9LOUpj?oc=5",
+   "LancasterOnline",
+   "Wed, 21 Oct 2026 14:20:35 GMT"
+  ],
+  [
    "U.S. stocks open higher following strong profits reports from companies including SpaceX - Pittsburgh Post-Gazette",
    "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLWRtWnBlX1BvdHRxSmx6TlM1QXJhdlZzeXg4MFpUczVsamsybnYxSTNDODc2NjBHa0pEZTl2RXVyNmI0TVh1LUNPZVNlQkY3WUJrTGNTYkI2TmZ6VHU2d1MtUXd2Rk5oODNwa0N2c0JHWHJJQWQ0c0FnMm1vM1FsTWtRbnh5Z2w2WUw5UkxRWmdnRnFlNEh3LUJiRmdOeUJpRTZQUWd4M29RU2w1WEsw?oc=5",
    "Pittsburgh Post-Gazette",
    "Wed, 21 Oct 2026 13:49:10 GMT"
   ],
   [
-   "COMMENTARY: Morning Bid: Musk mulls megacap - Reuters",
-   "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUdtM2JDNFZXOEVHTmFfNHVoREZ6OGRoSVg5VHRfVVVYdmhYRkZ2ZV80SnM1RUJZLXVOc1F1VU1MVkUyQWZNTTRsMld3ajFYOVppUURMMDdwTk41aXA4dHpYVU1DUDBqM1dvOXBSUzRYdERtSWE4VFo1VnhUaDd3a193Znk4Z1pVaG1Pb3FiUzd3RFYxTzNr?oc=5",
-   "Reuters",
-   "Wed, 21 Oct 2026 13:20:39 GMT"
-  ],
-  [
-   "5 Things to Know Before the Stock Market Opens on Wednesday - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdTNHYVRYOGVvMU5tTlQwMUpFd0Y3R2JIQUVmSXotSXdfdzV0UXE3Sm9oYWtZaExORXBzTDNrSHozalJBQUNVUENZdGRMcko1cGtaRGpYY3diMng3MHEwVEhEaE5ZWjVPcFdYS2NFa29abVY0dlR2cFhGRnZYT2NlVTVOSHdHUVZBOWJTQTZQQ3V5ZEJWQ1E?oc=5",
+   "Musk's SpaceX helps launch stock market gains - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSlVqZGkwZHAzbi1NaV8xMTdXLUcxelRJU1NsSTh6cW1DdXpBbmkyWXNaOUJRS2VrbVFEU3MxZUp3al9KczBOSUpVRGNVa1hQLXhLd0VIUmhsQ0RVUThUX1NralJNVWhsRWpDUHlrZEFsOG9pSkM4cV9pZWdTc0hGZ25LWDlZN3FEZ0x2bUxxZWlfRXRJbzlzWlRjcjZVNlh0OTFR?oc=5",
    "Yahoo Finance",
-   "Wed, 21 Oct 2026 12:23:06 GMT"
-  ],
-  [
-   "Dow Jones Futures Rise As SpaceX, Supermicro Revive AI Stocks; Tesla, Meta On Deck - Investor's Business Daily",
-   "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMGM3eElCcmNqVzZCZFFsSU1yemxZN3RGeGx1cnh3OHNkWGZwc1J5b0U5NVEzYXFqSlQzWGNteDR4ODlGbkplZ1lYeTVVbm5tUU9nRGlDVVdBcWdGMEZFYVZTSGxWQy1YY0hnV04tSVZkSUZkOWpicjlEVzRmT3VQT3dWN2NkaDdqX3BwbHc2cVRJQTFJVnFUUkJINDR0VGYxSFlCU3M1Yy1jSHI3ajZzTmRtUm4?oc=5",
-   "Investor's Business Daily",
-   "Wed, 21 Oct 2026 12:18:00 GMT"
+   "Wed, 21 Oct 2026 13:53:21 GMT"
   ]
  ],
  "cal": [
