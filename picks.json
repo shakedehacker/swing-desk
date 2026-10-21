@@ -616,13 +616,13 @@
  "macro": [
   [
    "S&P fut",
-   7774.75,
-   -0.3269126
+   7773.75,
+   -0.3397327
   ],
   [
    "Nasdaq fut",
-   29843.5,
-   -0.5448729
+   29837.75,
+   -0.56403506
   ],
   [
    "VIX",
@@ -641,13 +641,13 @@
   ],
   [
    "Gold",
-   4150.9,
-   0.021684393
+   4151.0,
+   0.024096385
   ],
   [
    "Bitcoin",
-   84443.78,
-   1.7245969
+   84466.6,
+   1.7520871
   ],
   [
    "Dollar",
@@ -832,16 +832,16 @@
    "Wed, 21 Oct 2026 21:40:01 GMT"
   ],
   [
-   "Stock futures tick lower as investors digest earnings from Meta and Tesla: Live updates - CNBC",
-   "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ROG52YzhPZGZHbTVQQjVmSGxSeHJoRlA0UW90MkdwNFR0ZThOQzFhSDBhMUFmNWpxSGo1RG9nU2FOZ1VTUGN2VjNieDNOT0M4bDB0Qlg5NVkwMHV3cy00VGxhQTNqQzg3a3FwUFB4Vy1lR3BlM1dV0gF8QVVfeXFMTjlVakFKZGpLV0RGRVNiaGUxMWdVcHJtSGlWdXNtYkJqUmhXbHM5S3dLcFgzdTZMRGx0OG9LZE40eTVsaDZ5WWRKTGZSMVN5OWptaXk4Qk5EZGNJTmZYdzBVUVRER3NVOW4xWllXa2k0RXFGWmhTcEw5QTZ2Ug?oc=5",
-   "CNBC",
-   "Wed, 21 Oct 2026 22:09:00 GMT"
-  ],
-  [
    "Stock Market Today, Oct. 21: Airline Shares Rise After United Issues Stronger Revenue Guidance - Yahoo Finance",
    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeWlDa1QxQmtyUGRHNnd6bzJLbnBNZ0l5VW1NY3R4ZG9pUEhKZ25zTl9ZenlxSXZyVzJFd0JXYUJsaGZEUWwzWmJoM2xvV0dYRXhvRDM1ejAxUlRnaXd3Yk1YU1c0anlHT0dGdEJaQ1BfX0d3aWdKNkhQZEllX2hXeUJJem9OV2tZaTFIM1ROYllXbExy?oc=5",
    "Yahoo Finance",
    "Wed, 21 Oct 2026 21:53:11 GMT"
+  ],
+  [
+   "Sharply negative correlation between oil and the stock market, says Schwab\u2019s Kevin Gordon - CNBC",
+   "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTFRNTTJtQ1d0SWdwNU5VU1ZxMkc4RVBzZDd4Z29ybTFKaXI5bVJEZk5MWE1QaWZTQnlweHRUSHRVc28zNDFfMGNpam90ZTRtbFpiNnlEX1FHcjFWVEhGMlhTUUl4V3lWMjdIbmFHQk1IRldWdVJCeGV0VGg2OGlpWV9iTi10dkpGUzJvYTU3ME1ZT1I5azJSaUtKV05QODhSdTVkNnRoTE5RNGZVM3hySnlTLV96TTRQQWJVUmtmLVc0RUNyMWRHS3BYRQ?oc=5",
+   "CNBC",
+   "Wed, 21 Oct 2026 17:49:43 GMT"
   ]
  ],
  "cal": []

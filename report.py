@@ -424,7 +424,7 @@ details{margin-top:6px}summary{cursor:pointer;min-height:44px;display:flex;align
 .skips span{color:var(--mut)}
 .dd{display:grid;grid-template-columns:96px 1fr;gap:6px 12px;margin:14px 0 0;padding:12px 0 0;border-top:1px solid var(--line);font-size:14px}
 .dd dt{color:var(--mut)}.dd dd{margin:0}
-.sent{display:flex;align-items:center;gap:10px;margin:8px 0;font-size:14px}.sent>span:first-child{color:var(--mut)}
+.sent{display:flex;align-items:center;gap:10px;margin:8px 0;font-size:14px}.sent>span:first-child{color:var(--mut)}.sent span{white-space:nowrap}
 .sbar{position:relative;flex:0 1 140px;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--dn),var(--line),var(--up))}
 .sbar i{position:absolute;top:-4px;width:3px;height:14px;margin-left:-1px;background:var(--txt);border-radius:2px}
 .bb{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:14px}.bb p{margin:6px 0}
