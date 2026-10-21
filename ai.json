@@ -1,0 +1,192 @@
+{
+ "asof": "2026-10-21",
+ "model": "Claude Opus",
+ "generated_utc": "2026-10-21T18:25:29+00:00",
+ "note": {
+  "mood": "risk-on",
+  "bullets": [
+   "Oct 21 close: S&P 500 +0.73% to 7,768.86, Nasdaq +1.27%, VIX -4% to 16.62; Nvidia, AMD led, Netflix -4% on guidance cut.",
+   "10Y yield steady near 5.11%; Brent eased to ~$108.8, WTI ~$102 on US-Iran talk hopes. Refiners sliding on Russian diesel deal and sanctions waivers.",
+   "Asia bounced: KOSPI +3.5%, Nikkei +1.4% Wednesday, Samsung and SK Hynix up 3-4%, though KOSPI still down 17% over a month.",
+   "Today: jobless claims 8:30 ET (200K est). Tesla, Meta, IBM, Lam, TXN reported after close; check reactions. Valero reports pre-open. Fed in blackout to Oct 29.",
+   "Tech/AI-hardware and cybersecurity dips look sector-driven and are bouncing; favor them over refiners, which all have earnings inside the hold window."
+  ]
+ },
+ "picks": {
+  "PBF": {
+   "verdict": "VETO",
+   "cause": "sector",
+   "why": "Fell from Oct 13 record close $91.17 with refiners as US-Russia diesel deal (Oct 9) and Oct 20 sanctions waivers threaten distillate cracks. No company damage found, but Q3 earnings Oct 29 fall inside hold window.",
+   "catalysts": "Q3 earnings Thu Oct 29 (call 8:30 ET); peer Valero reports Oct 22",
+   "flags": [
+    "earnings Oct 29",
+    "trades far above $65.55 consensus target",
+    "heavy put buying Oct 21"
+   ],
+   "sources": [
+    {
+     "title": "PBF Energy sets Oct. 29 date for Q3 2026 earnings",
+     "url": "https://www.stocktitan.net/news/PBF/pbf-energy-to-release-third-quarter-2026-earnings-acvdwswzpueo.html"
+    },
+    {
+     "title": "PBF Energy Stock Sees Heavy Put Option Buying",
+     "url": "https://www.marketbeat.com/instant-alerts/options-pbf-energy-nyse-pbf-stock-sees-heavy-put-option-buying-2026-10-21/"
+    },
+    {
+     "title": "Oil Slides in Volatile Sanctions-Driven Trade",
+     "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/20/oil-slides-volatile-sanctions-driven"
+    }
+   ]
+  },
+  "VLO": {
+   "verdict": "VETO",
+   "cause": "sector",
+   "why": "Slid with refiners on Russian diesel deal and sanctions waivers after ~150% YTD run; DBS cut to Hold ($436) Oct 19 on valuation. Q3 earnings Oct 22 pre-open, next trading day.",
+   "catalysts": "Q3 earnings Thu Oct 22 before open (call 10:00 ET)",
+   "flags": [
+    "earnings tomorrow",
+    "DBS downgrade to Hold",
+    "peak-cycle margins"
+   ],
+   "sources": [
+    {
+     "title": "Valero Energy Sets Q3 2026 Earnings Call for Oct. 22",
+     "url": "https://www.stocktitan.net/news/VLO/valero-energy-corporation-to-announce-third-quarter-2026-earnings-d8p09zlytu8x.html"
+    },
+    {
+     "title": "Valero Energy (VLO) Prepares to Report Q3 Earnings Amid Elevated Valuation Concerns",
+     "url": "https://www.gurufocus.com/news/9134510/valero-energy-vlo-prepares-to-report-q3-earnings-amid-elevated-valuation-concerns"
+    },
+    {
+     "title": "DBS downgrades Valero Energy stock to Hold at USD 436.00",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/valero-energy-stock-dbs-downgrades-valero-energy-stock-to-hold-at-usd-436-00/70385269"
+    },
+    {
+     "title": "ULSD Futures Fall 4% After US-Russia Diesel Deal",
+     "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/09/ulsd-futures-fall-4-us-russia-diesel"
+    }
+   ]
+  },
+  "DAR": {
+   "verdict": "VETO",
+   "cause": "unclear",
+   "why": "No company-specific news found; likely tracking diesel/refining weakness via Diamond Green Diesel JV with Valero. Stephens raised target to $80 Oct 15. Q3 earnings Oct 29 fall inside hold window.",
+   "catalysts": "Q3 earnings Thu Oct 29 (call 9:00 ET); JV partner Valero reports Oct 22",
+   "flags": [
+    "earnings Oct 29",
+    "diesel/RIN price exposure",
+    "no clear cause for drop"
+   ],
+   "sources": [
+    {
+     "title": "Darling Ingredients to Release Third Quarter Earnings Results",
+     "url": "https://www.darlingii.com/media/news/2026101-darling-ingredients-to-release-third-quarter-earnings-results"
+    },
+    {
+     "title": "Stephens raises target for Darling Ingredients stock to USD 80.00",
+     "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/stephens-raises-target-for-darling-ingredients-stock-to-usd-80-00/70378385"
+    },
+    {
+     "title": "Why Darling Ingredients Stock Fell Today",
+     "url": "https://www.quiverquant.com/news/Why+Darling+Ingredients+Stock+Fell+Today"
+    }
+   ]
+  },
+  "P": {
+   "verdict": "CAUTION",
+   "cause": "macro",
+   "why": "Fell 7.6% Oct 14 on hot September inflation lifting yields, then 8.6% Oct 15 amid reported insider sales (founder Colgrove ~$15.4M, 10b5-1). No guidance or fundamental damage; bounced 3.5% Oct 21.",
+   "catalysts": "none found (Q3 FY27 earnings expected ~Nov 18, unconfirmed); Oct 20 8-K content unverified",
+   "flags": [
+    "insider selling cluster",
+    "very rich valuation",
+    "rate-sensitive"
+   ],
+   "sources": [
+    {
+     "title": "RUM Group, Everpure, WEBTOON, Magnite, and Kyndryl Shares Are Falling",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/rum-group-everpure-webtoon-magnite-195607907.html"
+    },
+    {
+     "title": "Everpure (NYSE:P) Shares Down 8.6% Following Insider Selling",
+     "url": "https://www.marketbeat.com/instant-alerts/price-everpure-nyse-p-shares-down-86-following-insider-selling-2026-10-15/"
+    },
+    {
+     "title": "Everpure Stock Surges As S&P 500 Inclusion Fuels Breakout",
+     "url": "https://stockstotrade.com/news/everpure-inc-p-news-2026_10_07/"
+    }
+   ]
+  },
+  "HPE": {
+   "verdict": "CAUTION",
+   "cause": "sector",
+   "why": "Barclays cut HPE, Dell, NetApp to Equal Weight Oct 14 (HPE target $83 to $77), arguing server growth is memory-price driven. ~20% slide from Oct 9 high; rose 5% Oct 21 on Super Micro guidance raise.",
+   "catalysts": "none found (FQ4 earnings Dec 3); Super Micro full results early Nov",
+   "flags": [
+    "analyst downgrade on AI demand quality",
+    "memory-cost margin pressure",
+    "high beta to AI-capex sentiment"
+   ],
+   "sources": [
+    {
+     "title": "Why Hewlett Packard Enterprise Stock Plunged 20% This Week",
+     "url": "https://www.fool.com/coverage/market-movers/2026/10/16/why-hewlett-packard-enterprise-stock-plunged-20-this-week/"
+    },
+    {
+     "title": "Super Micro Surges 12% as Preliminary Revenue Tops Guidance Range; Dell Jumps 7%, HPE Climbs 5%",
+     "url": "https://247wallst.com/investing/2026/10/21/super-micro-surges-12-as-preliminary-revenue-tops-guidance-range-dell-jumps-7-hewlett-packard-enterprise-climbs-5/"
+    }
+   ]
+  },
+  "MTSI": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Fell 5.5% Oct 13 in chip selloff (China CXMT DRAM progress, Taiwan strike vote) and 7.1% Oct 15 as hot inflation lifted yields. No company-specific news or analyst cuts found.",
+   "catalysts": "none found (FQ4 earnings estimated ~Nov 5, unconfirmed)",
+   "flags": [
+    "extreme volatility",
+    "high valuation",
+    "earnings date unconfirmed, near window"
+   ],
+   "sources": [
+    {
+     "title": "Lam Research, Lattice Semiconductor, Amkor, Entegris, and MACOM Stocks Trade Down",
+     "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-15-lam-research-lattice-semiconductor-amkor-entegris-and-macom-stocks-trade-down-what-you-need-to-know"
+    },
+    {
+     "title": "Monolithic Power Systems, MACOM, Micron, Seagate, and Vishay Intertechnology Shares Plummet",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-systems-macom-micron-004703356.html"
+    },
+    {
+     "title": "MACOM earnings page",
+     "url": "https://www.marketbeat.com/stocks/NASDAQ/MTSI/earnings/"
+    }
+   ]
+  },
+  "PANW": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Cybersecurity-wide selloff: Oct 14 report of OpenAI talks to buy Trail of Bits sparked AI-lab competition fears; Oct 16 CrowdStrike, Fortinet, SentinelOne fell alongside. Citi raised target to $440. No guidance cut.",
+   "catalysts": "none found (FQ1 earnings mid/late Nov, date unconfirmed)",
+   "flags": [
+    "actively exploited PAN-OS zero-day CVE-2026-0322",
+    "AI-lab entry into security",
+    "rich valuation"
+   ],
+   "sources": [
+    {
+     "title": "Palo Alto Networks Fell Nearly 8% a Day After Citi Raised Its Target to $440",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-fell-nearly-141122591.html"
+    },
+    {
+     "title": "Cybersecurity Stocks Slide as AI Financing Jitters Spread",
+     "url": "https://247wallst.com/investing/2026/10/16/cybersecurity-stocks-slide-as-ai-financing-jitters-spread-palo-alto-falls-7-sentinelone-sinks-9-zscaler-drops-6/"
+    },
+    {
+     "title": "Palo Alto Networks Stock Falls 5.5%",
+     "url": "https://www.marketbeat.com/instant-alerts/price-palo-alto-networks-nasdaq-panw-stock-falls-55-whats-next-2026-10-14/"
+    }
+   ]
+  }
+ }
+}
