@@ -118,6 +118,39 @@ def earnings_week(universe):
         out.append((d, names))
     return out
 
+def desk_data(t, c, hold):
+    """Terminal-style panel from Yahoo (free): short interest, analyst moves in the last 10 days, options-implied move to the exit."""
+    out = {}
+    try:
+        z = desk._get_auth(f"https://query1.finance.yahoo.com/v10/finance/quoteSummary/{t}?modules=defaultKeyStatistics,upgradeDowngradeHistory,recommendationTrend")["quoteSummary"]["result"][0]
+        k = z.get("defaultKeyStatistics", {})
+        out["short"] = (k.get("shortPercentOfFloat") or {}).get("raw")
+        out["dtc"] = (k.get("shortRatio") or {}).get("raw")
+        rt = (z.get("recommendationTrend", {}).get("trend") or [{}])[0]
+        out["ratings"] = [rt.get("strongBuy", 0) + rt.get("buy", 0), rt.get("hold", 0), rt.get("sell", 0) + rt.get("strongSell", 0)]
+        cut = time.time() - 14 * 86400
+        out["moves"] = [dict(firm=h["firm"], action=h["action"], to=h["toGrade"], pt=h.get("currentPriceTarget"), prior=h.get("priorPriceTarget"),
+                             date=dt.date.fromtimestamp(h["epochGradeDate"]).isoformat())
+                        for h in z.get("upgradeDowngradeHistory", {}).get("history", []) if h["epochGradeDate"] > cut][:4]
+    except Exception: pass
+    try:
+        base = f"https://query1.finance.yahoo.com/v7/finance/options/{t}"
+        exps = desk._get_auth(base)["optionChain"]["result"][0]["expirationDates"]
+        exit_ts = time.time() + hold * 1.4 * 86400
+        e = next((x for x in exps if x >= exit_ts), exps[-1])
+        o = desk._get_auth(f"{base}?date={e}")["optionChain"]["result"][0]["options"][0]
+        iv = [x["impliedVolatility"] for x in o["calls"] + o["puts"] if abs(x["strike"] / c - 1) < 0.03 and x.get("impliedVolatility", 0) > 0.05]
+        if iv: out["iv"] = sum(iv) / len(iv); out["imove"] = out["iv"] * (hold / 252) ** 0.5 * 100
+    except Exception: pass
+    return out
+
+def breadth(data):
+    """Market internals across the universe: share above 50/200-day, 52-week lows, dip signals."""
+    xs = [b for t, b in data.items() if t != "SPY" and len(b["c"]) > 260]
+    return dict(a200=sum(b["c"][-1] > b["_e200"][-1] for b in xs) / len(xs) * 100,
+                a50=sum(b["c"][-1] > sum(b["c"][-50:]) / 50 for b in xs) / len(xs) * 100,
+                lows=sum(b["c"][-1] <= min(b["l"][-252:]) for b in xs), n=len(xs))
+
 def build():
     uni = desk.universe()
     data = desk.fetch_all(uni + ["SPY"], "10y")  # 10y = several regimes (2018, 2020, 2022 bear) in the stats
@@ -153,9 +186,15 @@ def build():
         trig = b["c"][-5] * 0.90  # price where it becomes a 10% 5-day dip tomorrow (approx)
         picks.append(dict(t=t, kind="WATCH", rule="watch", c=c, buy=trig, tgt=b["_e5"][-1], stop=trig - 2 * a, days=None,
                           conf=None, s=None, ed=edays(z), name=z.get("shortName", ""), drop=d5))
-    for p in picks: p["news"] = ticker_news(p["t"])
+    for p in picks:
+        b = data[p["t"]]
+        p["rvol"] = b["v"][-1] / (sum(b["v"][-21:-1]) / 20)
+        p["dd"] = desk_data(p["t"], p["c"], p["days"] or 4)
+        p["news"] = ticker_news(p["t"])
+        # audit 2026-10-22: signal-day volume 3x+ normal won 55%, -0.03% net over 10y (usually company news), vs 64% / +0.5% otherwise
+        if p["conf"] is not None and p["rvol"] >= 3: p["conf"] = max(1.0, p["conf"] - 1)
     r = dict(picks=picks, n_dip=n_dip, n_sig=len(today), table=table, asof=max(b["d"][-1] for b in data.values()),
-             news=headlines(), cal=econ_calendar(), earn=earnings_week(set(uni)), macro=macro(), sectors=sectors())
+             news=headlines(), cal=econ_calendar(), earn=earnings_week(set(uni)), macro=macro(), sectors=sectors(), breadth=breadth(data))
     apply_ai(r)
     r["track"] = track(r)
     return r
@@ -286,6 +325,8 @@ def card(p, asof):
         flags = "".join(f'<span class="chip">{E(f)}</span>' for f in a.get("flags", []))
         drive = (f'<div class="drive {a["verdict"].lower()}"><div class="dh"><b>AI check: {E(a["verdict"].title())}</b>'
                  f'<span class="chip">{E(a.get("cause", ""))} driven</span></div><p>{E(a.get("why", ""))}</p>'
+                 + sentiment(a)
+                 + (f'<div class="bb"><p><b class="up">Bull</b> {E(a["bull"])}</p><p><b class="dn">Bear</b> {E(a["bear"])}</p></div>' if a.get("bull") and a.get("bear") else "")
                  + (f'<p class="mut"><b>Coming up:</b> {E(a["catalysts"])}</p>' if a.get("catalysts") else "")
                  + (f'<div>{flags}</div>' if flags else "") + '</div>')
     links = "".join(f'<li><a href="{E(x.get("url", ""))}" target="_blank" rel="noopener">{E(x.get("title") or x.get("url", ""))}</a></li>'
@@ -296,7 +337,35 @@ def card(p, asof):
     return (f'<article class="card {cls.split()[0]}">'
             f'<div class="ch"><div><h3>{E(p["t"])}</h3><div class="mut">{E(p["name"])}</div></div><span class="badge {cls}">{label}</span></div>'
             f'<p class="play"><b>The play.</b> {play}</p>{ladder(p)}'
-            f'<div class="body"><ol class="steps">{steps}</ol><div class="side">{conf}</div></div>{drive}{more}</article>')
+            f'<div class="body"><ol class="steps">{steps}</ol><div class="side">{conf}</div></div>{panel(p)}{drive}{more}</article>')
+
+def panel(p):
+    """Desk data block: tape, options, positioning, the street. Facts only, each one line."""
+    d, rows = p.get("dd") or {}, []
+    rv = p.get("rvol")
+    if rv:
+        rows.append(("Volume", f'{rv:.1f}x normal on the last day' + (' · <b class="dn">news-sized, -1 confidence</b>' if rv >= 3 and p["kind"] == "SIGNAL"
+                     else ' · <b class="dn">news-sized: check the cause</b>' if rv >= 3 else ' · selling climax zone' if rv >= 2 else "")))
+    if d.get("imove"):
+        risk = abs(pct(p["stop"], p["buy"]))
+        rows.append(("Options", f'price a <b>&plusmn;{d["imove"]:.1f}%</b> move by the exit (IV {d["iv"] * 100:.0f}%)'
+                     + (f' · stop is {risk / d["imove"]:.1f}x that' if p["kind"] == "SIGNAL" else "")))
+    if d.get("short") is not None:
+        rows.append(("Short", f'{d["short"] * 100:.1f}% of float' + (f', {d["dtc"]:.1f} days to cover' if d.get("dtc") else "")
+                     + (' · squeeze fuel' if d["short"] >= 0.1 else "")))
+    if d.get("ratings"):
+        b, h, s = d["ratings"]
+        mv = "; ".join(f'{E(m["firm"])} {"upgrade" if m["action"] == "up" else "downgrade" if m["action"] == "down" else "reiterate"} '
+                       f'{E(m["to"])} {m["date"][5:]}' + (f' (PT {m["prior"]:.0f}&rarr;{m["pt"]:.0f})' if m.get("pt") and m.get("prior") else "")
+                       for m in d.get("moves", []))
+        rows.append(("Analysts", f'{b} buy · {h} hold · {s} sell' + (f'<br><span class="mut">{mv}</span>' if mv else "")))
+    return ('<dl class="dd">' + "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in rows) + "</dl>") if rows else ""
+
+def sentiment(a):
+    x = a.get("sentiment")
+    if x is None: return ""
+    return (f'<div class="sent"><span>News sentiment</span><div class="sbar"><i style="left:{(x + 1) * 50:.0f}%"></i></div>'
+            f'<b class="{sign(x)}">{x:+.2f}</b><span class="mut">conf {a.get("sent_conf", 0):.1f}</span></div>')
 
 def skip_row(p):
     a = p.get("ai") or {}
@@ -353,13 +422,19 @@ details{margin-top:6px}summary{cursor:pointer;min-height:44px;display:flex;align
 .skips{list-style:none;padding:0;margin:8px 0 0;background:var(--panel);border:1px solid var(--line);border-radius:14px}
 .skips li{display:grid;grid-template-columns:64px 1fr;gap:10px;padding:12px 16px;border-top:1px solid var(--line);font-size:14px}.skips li:first-child{border-top:0}
 .skips span{color:var(--mut)}
+.dd{display:grid;grid-template-columns:96px 1fr;gap:6px 12px;margin:14px 0 0;padding:12px 0 0;border-top:1px solid var(--line);font-size:14px}
+.dd dt{color:var(--mut)}.dd dd{margin:0}
+.sent{display:flex;align-items:center;gap:10px;margin:8px 0;font-size:14px}.sent>span:first-child{color:var(--mut)}
+.sbar{position:relative;flex:0 1 140px;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--dn),var(--line),var(--up))}
+.sbar i{position:absolute;top:-4px;width:3px;height:14px;margin-left:-1px;background:var(--txt);border-radius:2px}
+.bb{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:14px}.bb p{margin:6px 0}
 .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px 16px 12px;margin-top:12px}.panel h2{margin-top:14px}
 .bul{margin:0;padding-left:18px}.bul li{margin:6px 0}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 table{width:100%;border-collapse:collapse;font-size:14px}td{padding:7px 4px;border-top:1px solid var(--line)}.num{text-align:right}
 .news{list-style:none;padding:0;margin:0}.news li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line);font-size:14px}
 .news a{text-decoration:none}.news span{color:var(--mut);font-size:12px;flex:none;max-width:30%;text-align:right}
-@media (max-width:640px){.strip{grid-template-columns:repeat(2,1fr)}.body,.grid2{grid-template-columns:1fr}.steps li{grid-template-columns:92px 1fr}}
+@media (max-width:640px){.strip{grid-template-columns:repeat(2,1fr)}.body,.grid2,.bb{grid-template-columns:1fr}.steps li{grid-template-columns:92px 1fr}}
 """
 
 def render(r):
@@ -375,6 +450,11 @@ def render(r):
                  + "".join(f"<li>{E(b)}</li>" for b in note["bullets"]) + f'</ul><p class="mut">{E(r["ai_source"] or "")}</p></section>') if note else ""
     arrow = lambda c: "▲" if c > 0 else "▼" if c < 0 else ""
     macro_html = "".join(f'<div class="tick"><span>{E(n)}</span><b>{v:,.2f}</b><i class="{sign(c)}">{arrow(c)} {abs(c):.2f}%</i></div>' for n, v, c in r["macro"])
+    br = r["breadth"]
+    breadth_html = (f'<div class="tick"><span>Above 200-day</span><b>{br["a200"]:.0f}%</b><i class="mut">of {br["n"]} stocks</i></div>'
+                    f'<div class="tick"><span>Above 50-day</span><b>{br["a50"]:.0f}%</b><i class="mut">short-term trend</i></div>'
+                    f'<div class="tick"><span>52-week lows</span><b>{br["lows"]}</b><i class="mut">stocks today</i></div>'
+                    f'<div class="tick"><span>Dip signals</span><b>{r["n_dip"]}</b><i class="mut">{"cluster day" if r["n_dip"] >= 10 else "10+ = cluster day"}</i></div>')
     sec_html = "".join(f'<tr><td>{E(n)}</td><td class="num {sign(a)}">{a:+.1f}%</td><td class="num {sign(b)}">{b:+.1f}%</td></tr>' for a, n, b in r["sectors"])
     news_html = "".join(f'<li><a href="{E(u)}" target="_blank" rel="noopener">{E(h)}</a><span>{E(s)}</span></li>' for h, u, s, _ in r["news"][:12])
     cal_html = "".join(f'<tr><td>{w.astimezone(il.tzinfo):%a %H:%M}</td><td>{E(t)}</td><td class="num">{"High" if imp == "High" else "Med"}</td></tr>'
@@ -383,7 +463,7 @@ def render(r):
     done = [t for t in r["track"] if t["ret"] is not None and t["status"] != "open"]
     summ = (f'<b>{len(done)}</b> closed · <b>{sum(t["ret"] > 0 for t in done) / len(done) * 100:.0f}%</b> won · '
             f'<b>{sum(t["ret"] for t in done) / len(done):+.2f}%</b> average' if done else "No closed trades yet.")
-    track_html = (f'<p>{summ} <span class="mut">(backtest expectation: about 65% won, +1.2% average)</span></p><table>'
+    track_html = (f'<p>{summ} <span class="mut">(10-year backtest, after costs: 65-70% won, +0.7% to +1.5% average)</span></p><table>'
                   + "".join(f'<tr><td>{t["asof"]}</td><td><b>{E(t["t"])}</b></td><td>{E(t["status"])}</td>'
                             f'<td class="num {sign(t["ret"] or 0)}">{fmt_ret(t["ret"])}</td></tr>' for t in reversed(r["track"][-15:])) + "</table>")
     def section(title, sub, items):
@@ -399,7 +479,7 @@ def render(r):
             f'<style>{CSS}</style></head><body><main>'
             f'<header><h1>SWING <b>DESK</b></h1><span class="mut">{il:%a %d %b, %H:%M} Israel · prices as of {r["asof"]} close</span></header>'
             f'<div class="hero"><b>{verdict}</b><p class="mut">{sub}</p>{how}</div>'
-            f'<div class="strip">{macro_html}</div>{note_html}'
+            f'<div class="strip">{macro_html}</div><div class="strip">{breadth_html}</div>{note_html}'
             + section("Trade today", "Place these before the US open.", [card(p, r["asof"]) for p in trade])
             + section("Watchlist", "Not trades yet. Each shows the price that would turn it into one.", [card(p, r["asof"]) for p in watch])
             + skips
@@ -409,8 +489,9 @@ def render(r):
             f'<h2>Earnings next 5 days</h2><table>{earn_html}</table></section></div>'
             f'<section class="panel"><h2>Headlines</h2><ul class="news">{news_html}</ul></section>'
             f'<section class="panel"><h2>Track record</h2>{track_html}</section>'
-            '<p class="mut" style="margin-top:28px">Confidence = how often this exact setup won in a 2-year backtest of S&amp;P 500 and 400 stocks, '
-            'recomputed daily. Real results run lower (no trading costs, survivorship bias). Not financial advice.</p>'
+            '<p class="mut" style="margin-top:28px">Confidence = how often this exact setup won over 10 years of S&amp;P 500 and 400 stocks, '
+            'after 0.15% costs and with gaps through the stop filled at the open, recomputed daily. Minus 1 for news-sized volume or an AI caution. '
+            'Desk data and news sentiment are context, not part of the tested edge. Not financial advice.</p>'
             '</main></body></html>')
 
 if __name__ == "__main__":

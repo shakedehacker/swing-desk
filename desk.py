@@ -59,6 +59,12 @@ def quotes(syms):
             out[q["symbol"]] = q
     return out
 
+def _get_auth(url):
+    """GET a crumb-protected Yahoo endpoint (quoteSummary, options) with the session quotes() set up."""
+    if _opener is None: quotes(["SPY"])
+    sep = "&" if "?" in url else "?"
+    return json.load(_opener.open(f"{url}{sep}crumb={_crumb}", timeout=20))
+
 def universe():
     path = os.path.join(HERE, "universe.txt")
     if os.path.exists(path) and time.time() - os.path.getmtime(path) < 7 * 86400:
