@@ -2,7 +2,7 @@
 """Daily desk report -> site/index.html. Run once a day before 9:00 Israel time.
 
 Picks come only from rules that backtested with an edge; confidence is that bucket's own
-backtest win rate, recomputed every run on 2y of data. Slots the edge can't fill become a
+backtest win rate (net of costs, gap-through-stop fills), recomputed every run on 10y of data. Slots the edge can't fill become a
 labelled watchlist, never fake picks.
 """
 import os, sys, json, time, html, re, datetime as dt, urllib.request, xml.etree.ElementTree as ET
@@ -13,6 +13,7 @@ from desk import ema, atr, pct, quotes, trading_days_until
 
 OUT = os.path.join(desk.HERE, "site", "index.html")
 TOP = 10
+COST = 0.15  # % per round trip (commission + spread), so confidence reflects net results
 
 def ibs(b, i):
     r = b["h"][i] - b["l"][i]
@@ -34,24 +35,24 @@ def cluster(n): return "cluster" if n >= 10 else "mid" if n >= 4 else "lone"
 def bucket(r, n_dip, x): return (r, cluster(n_dip), "low" if x < 0.3 else "high")
 
 def edge_table(data):
-    """Backtest every signal in the sample; stats per (rule, cluster, IBS) bucket."""
-    n = len(data["SPY"]["c"])
+    """Backtest every signal in the sample; stats per (rule, cluster, IBS) bucket.
+    Realistic: a gap through the stop fills at the open, and every trade pays COST."""
     sigs = defaultdict(list)
     for t, b in data.items():
-        if t == "SPY" or len(b["c"]) != n: continue
-        for i in range(260, n - 7):
+        if t == "SPY": continue
+        for i in range(260, len(b["c"]) - 7):
             r = rule(b, i)
-            if r: sigs[i].append((t, r))
+            if r: sigs[b["d"][i]].append((t, i, r))
     stats = defaultdict(list)
-    for i, lst in sigs.items():
-        nd = sum(r == "dip" for _, r in lst)
-        for t, r in lst:
+    for lst in sigs.values():
+        nd = sum(r == "dip" for *_, r in lst)
+        for t, i, r in lst:
             b = data[t]; O, L, C, e5 = b["o"], b["l"], b["c"], b["_e5"]
             en, st, out, held = O[i + 1], O[i + 1] - 2 * atr(b, end=i), None, 6
             for j in range(i + 1, i + 7):
-                if L[j] <= st: out, held = pct(st, en), j - i; break
+                if L[j] <= st: out, held = pct(min(O[j], st) if j > i + 1 else st, en), j - i; break
                 if C[j] > e5[j]: out, held = pct(C[j], en), j - i; break
-            stats[bucket(r, nd, ibs(b, i))].append((pct(C[i + 6], en) if out is None else out, held))
+            stats[bucket(r, nd, ibs(b, i))].append(((pct(C[i + 6], en) if out is None else out) - COST, held))
     table = {}
     for k, v in stats.items():
         rets = [x for x, _ in v]; days = sorted(d for _, d in v)
@@ -119,7 +120,7 @@ def earnings_week(universe):
 
 def build():
     uni = desk.universe()
-    data = desk.fetch_all(uni + ["SPY"])
+    data = desk.fetch_all(uni + ["SPY"], "10y")  # 10y = several regimes (2018, 2020, 2022 bear) in the stats
     for b in data.values(): b["_e200"], b["_e5"] = ema(b["c"], 200), ema(b["c"], 5)
     table = edge_table(data)
     last = {t: len(b["c"]) - 1 for t, b in data.items()}
@@ -137,7 +138,7 @@ def build():
         ed = edays(z)
         if ed is not None and ed <= 7: continue  # never hold a swing through earnings
         s = table.get(bucket(r, n_dip, ibs(b, last[t])))
-        if not s or s["n"] < 30 or s["avg"] < 0.3: continue  # bucket without a real edge
+        if not s or s["n"] < 30 or s["avg"] < 0.5: continue  # needs +0.5%/trade net of costs over 10y (audit.py)
         c, e5, a = b["c"][-1], b["_e5"][-1], atr(b)
         cap = min(e5 / 1.03, c * 1.02)
         if cap <= c * 0.97: continue  # target too close to price: no room left
