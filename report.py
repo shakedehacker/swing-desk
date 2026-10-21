@@ -233,99 +233,184 @@ E = html.escape
 def sign(x): return "up" if x > 0 else "dn" if x < 0 else ""
 def fmt_ret(x): return "" if x is None else f"{x:+.1f}%"
 
+def add_trading_days(d, n):
+    d = dt.date.fromisoformat(d)
+    while n:
+        d += dt.timedelta(1)
+        if d.weekday() < 5: n -= 1
+    return d
+
+def status(p):
+    v = (p.get("ai") or {}).get("verdict")
+    if v == "VETO": return "skip", "Skip"
+    if p["kind"] == "SIGNAL": return ("trade", "Trade today") if v != "CAUTION" else ("trade caution", "Trade · caution")
+    return "watch", "Watching"
+
+def ladder(p):
+    """Horizontal price map: stop, buy, target, and where the stock last closed."""
+    pts = {"Stop": p["stop"], "Buy" if p["kind"] == "SIGNAL" else "Trigger": p["buy"], "Target": p["tgt"]}
+    lo, hi = min(list(pts.values()) + [p["c"]]), max(list(pts.values()) + [p["c"]])
+    pos = lambda x: (x - lo) / (hi - lo) * 100 if hi > lo else 50
+    marks = "".join(f'<span class="mk {k.lower()}" style="left:{pos(v):.1f}%"><i></i><b>{k}</b><em>{v:,.2f}</em></span>' for k, v in pts.items())
+    return (f'<div class="ladder" aria-hidden="true"><div class="rail">'
+            f'<span class="risk" style="left:{pos(p["stop"]):.1f}%;width:{pos(p["buy"]) - pos(p["stop"]):.1f}%"></span>'
+            f'<span class="gain" style="left:{pos(p["buy"]):.1f}%;width:{pos(p["tgt"]) - pos(p["buy"]):.1f}%"></span>'
+            f'<span class="now" style="left:{pos(p["c"]):.1f}%"><b>Last {p["c"]:,.2f}</b></span></div>{marks}</div>')
+
+def card(p, asof):
+    cls, label = status(p)
+    a = p.get("ai") or {}
+    up, down = pct(p["tgt"], p["buy"]), pct(p["stop"], p["buy"])
+    if p["kind"] == "SIGNAL":
+        exit_by = add_trading_days(asof, 6)
+        play = (f'Down {abs(p["drop"]):.0f}% in 5 days while its long-term uptrend holds. Buy the fear at the open, '
+                f'sell the rebound to its 5-day average, usually within {p["days"]} trading days.')
+        steps = (f'<li><span>Buy</span><div><b>Limit at ${p["buy"]:,.2f} or lower</b> at the US open (16:30 Israel). '
+                 f'If it opens above that, skip it.</div></li>'
+                 f'<li><span>Take profit</span><div><b class="up">${p["tgt"]:,.2f}</b> <i>+{up:.1f}%</i> · sell limit, good-til-cancelled</div></li>'
+                 f'<li><span>Stop loss</span><div><b class="dn">${p["stop"]:,.2f}</b> <i>{down:.1f}%</i> · stop order, good-til-cancelled</div></li>'
+                 f'<li><span>Exit by</span><div><b>{exit_by:%a %d %b}</b> at the close, whatever happens</div></li>')
+        s = p["s"]
+        conf = (f'<div class="conf"><b>{p["conf"]:.1f}</b><span>/10</span></div>'
+                f'<p class="mut">Similar setups won <b>{s["win"]:.0f}%</b> of {s["n"]} past trades, average {s["avg"]:+.1f}%.</p>')
+    else:
+        play = (f'Down {abs(p["drop"]):.0f}% in 5 days, close to a dip-bounce setup but not there yet. '
+                f'It becomes a trade if it closes at or below ${p["buy"]:,.2f}; the next morning page then gives exact prices.')
+        steps = (f'<li><span>Trigger</span><div>A close at or below <b>${p["buy"]:,.2f}</b> (last close ${p["c"]:,.2f})</div></li>'
+                 f'<li><span>Then roughly</span><div>target <b class="up">${p["tgt"]:,.2f}</b>, stop <b class="dn">${p["stop"]:,.2f}</b>, hold 3-4 days</div></li>'
+                 f'<li><span>Today</span><div>No order. Do not buy early.</div></li>')
+        conf = '<div class="conf idle"><b>Wait</b></div><p class="mut">No trade until the trigger hits.</p>'
+    drive = ""
+    if a:
+        flags = "".join(f'<span class="chip">{E(f)}</span>' for f in a.get("flags", []))
+        drive = (f'<div class="drive {a["verdict"].lower()}"><div class="dh"><b>AI check: {E(a["verdict"].title())}</b>'
+                 f'<span class="chip">{E(a.get("cause", ""))} driven</span></div><p>{E(a.get("why", ""))}</p>'
+                 + (f'<p class="mut"><b>Coming up:</b> {E(a["catalysts"])}</p>' if a.get("catalysts") else "")
+                 + (f'<div>{flags}</div>' if flags else "") + '</div>')
+    links = "".join(f'<li><a href="{E(x.get("url", ""))}" target="_blank" rel="noopener">{E(x.get("title") or x.get("url", ""))}</a></li>'
+                    for x in a.get("sources", []))
+    links += "".join(f'<li><a href="{E(u)}" target="_blank" rel="noopener">{E(h)}</a> <span class="mut">{E(src)}</span></li>'
+                     for h, u, src, _ in p["news"][:4])
+    more = f'<details><summary>Sources and headlines</summary><ul class="links">{links}</ul></details>' if links else ""
+    return (f'<article class="card {cls.split()[0]}">'
+            f'<div class="ch"><div><h3>{E(p["t"])}</h3><div class="mut">{E(p["name"])}</div></div><span class="badge {cls}">{label}</span></div>'
+            f'<p class="play"><b>The play.</b> {play}</p>{ladder(p)}'
+            f'<div class="body"><ol class="steps">{steps}</ol><div class="side">{conf}</div></div>{drive}{more}</article>')
+
+def skip_row(p):
+    a = p.get("ai") or {}
+    return f'<li><b>{E(p["t"])}</b><span>{E(a.get("why", ""))}</span></li>'
+
+CSS = """
+:root{--bg:#0b0e13;--panel:#141922;--panel2:#1a2029;--line:#262e3a;--txt:#e8ebf0;--mut:#9aa3b2;--acc:#f5b301;--up:#2fd47a;--dn:#ff5a5a;--warn:#f5b301}
+@media (prefers-color-scheme:light){:root:not([data-theme=dark]){--bg:#f4f5f7;--panel:#fff;--panel2:#f7f8fa;--line:#e2e5ea;--txt:#141a22;--mut:#5b6472;--acc:#a86f00;--up:#13803d;--dn:#c62828;--warn:#a86f00}}
+*{box-sizing:border-box;min-width:0}html,body{overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;font-variant-numeric:tabular-nums}
+main{max-width:880px;margin:0 auto;padding:20px 16px 64px}
+a{color:inherit}a:hover{color:var(--acc)}
+.mut{color:var(--mut);font-size:14px}.up{color:var(--up)}.dn{color:var(--dn)}
+header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px}
+h1{margin:0;font-size:20px;letter-spacing:.06em}h1 b{color:var(--acc)}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);margin:36px 0 6px;display:flex;align-items:center;gap:8px}
+.hero{margin:18px 0 6px;padding:18px;border-radius:14px;background:var(--panel);border:1px solid var(--line)}
+.hero b{font-size:24px;display:block;line-height:1.25}.hero p{margin:4px 0 0}.hero details b{font-size:inherit;display:inline}
+.strip{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+.tick{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 10px;display:flex;flex-direction:column}
+.tick span{color:var(--mut);font-size:12px}.tick b{font-size:15px}.tick i{font-style:normal;font-size:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;margin:12px 0}
+.card.trade{border-color:color-mix(in srgb,var(--up) 45%,var(--line))}
+.ch{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.ch h3{margin:0;font-size:22px;letter-spacing:.02em}
+.badge{flex:none;font-size:13px;font-weight:600;padding:5px 11px;border-radius:999px;border:1px solid}
+.badge.trade{color:var(--up);border-color:var(--up)}.badge.caution{color:var(--warn);border-color:var(--warn)}
+.badge.watch{color:var(--mut);border-color:var(--line)}.badge.skip{color:var(--dn);border-color:var(--dn)}
+.play{margin:12px 0 4px}.play b{color:var(--acc)}
+.ladder{position:relative;height:78px;margin:22px 12px 4px}
+.rail{position:absolute;left:0;right:0;top:28px;height:6px;border-radius:3px;background:var(--line)}
+.rail .risk,.rail .gain{position:absolute;top:0;height:6px}.rail .risk{background:color-mix(in srgb,var(--dn) 55%,transparent)}.rail .gain{background:var(--up)}
+.rail .now{position:absolute;top:-26px;transform:translateX(-50%);white-space:nowrap;font-size:12px;color:var(--mut)}
+.rail .now b{font-weight:500}
+.rail .now::after{content:"";position:absolute;left:50%;top:18px;width:2px;height:18px;background:var(--txt);transform:translateX(-50%)}
+.mk{position:absolute;top:24px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;font-size:12px;white-space:nowrap;line-height:1.3}
+.mk i{width:14px;height:14px;border-radius:50%;border:2px solid var(--panel);margin-bottom:4px}
+.mk b{font-weight:600}.mk em{font-style:normal;color:var(--mut)}
+.mk.stop i{background:var(--dn)}.mk.buy i,.mk.trigger i{background:var(--txt)}.mk.target i{background:var(--up)}
+.mk.stop{transform:translateX(-14%);align-items:flex-start}.mk.target{transform:translateX(-86%);align-items:flex-end}
+.body{display:grid;grid-template-columns:1fr 180px;gap:16px;margin-top:10px}
+.steps{list-style:none;margin:0;padding:0}.steps li{display:grid;grid-template-columns:104px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line)}
+.steps span{color:var(--mut);font-size:14px}.steps i{color:var(--mut);font-style:normal}
+.side{background:var(--panel2);border-radius:10px;padding:12px;align-self:start}.side p{margin:6px 0 0}
+.conf b{font-size:34px;color:var(--acc);line-height:1}.conf span{color:var(--mut)}.conf.idle b{font-size:24px;color:var(--mut)}
+.drive{margin-top:12px;padding:12px 14px;border-radius:10px;background:var(--panel2);border-left:3px solid var(--mut)}
+.drive.confirm{border-color:var(--up)}.drive.caution{border-color:var(--warn)}.drive.veto{border-color:var(--dn)}
+.drive p{margin:6px 0 0}.dh{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.chip{display:inline-block;margin:6px 6px 0 0;padding:2px 9px;border:1px solid var(--line);border-radius:999px;font-size:12px;color:var(--mut);text-transform:none;letter-spacing:0}
+.dh .chip,h2 .chip{margin:0}
+details{margin-top:6px}summary{cursor:pointer;min-height:44px;display:flex;align-items:center;color:var(--mut);font-size:14px}
+.hero summary{color:var(--acc)}summary::before{content:"\25B8";margin-right:8px;transition:transform .15s}details[open]>summary::before{transform:rotate(90deg)}summary::-webkit-details-marker{display:none}summary{list-style:none}
+.links{list-style:none;padding:0;margin:0}.links li{padding:8px 0;border-top:1px solid var(--line);font-size:14px}
+.skips{list-style:none;padding:0;margin:8px 0 0;background:var(--panel);border:1px solid var(--line);border-radius:14px}
+.skips li{display:grid;grid-template-columns:64px 1fr;gap:10px;padding:12px 16px;border-top:1px solid var(--line);font-size:14px}.skips li:first-child{border-top:0}
+.skips span{color:var(--mut)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px 16px 12px;margin-top:12px}.panel h2{margin-top:14px}
+.bul{margin:0;padding-left:18px}.bul li{margin:6px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+table{width:100%;border-collapse:collapse;font-size:14px}td{padding:7px 4px;border-top:1px solid var(--line)}.num{text-align:right}
+.news{list-style:none;padding:0;margin:0}.news li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line);font-size:14px}
+.news a{text-decoration:none}.news span{color:var(--mut);font-size:12px;flex:none;max-width:30%;text-align:right}
+@media (max-width:640px){.strip{grid-template-columns:repeat(2,1fr)}.body,.grid2{grid-template-columns:1fr}.steps li{grid-template-columns:92px 1fr}}
+"""
+
 def render(r):
     il = dt.datetime.now(ZoneInfo("Asia/Jerusalem"))
-    sig = [p for p in r["picks"] if p["kind"] == "SIGNAL"]
-    head = (f"{len(sig)} tradeable signal{'s' if len(sig) != 1 else ''} from {r['n_sig']} raw "
-            + ("· CLUSTER DAY: strongest historical edge" if r["n_dip"] >= 10 else
-               "· quiet day: no forced trades" if not sig else ""))
-    rows = []
-    for i, p in enumerate(r["picks"], 1):
-        if p["kind"] == "SIGNAL":
-            s = p["s"]; rr = (p["tgt"] - p["buy"]) / (p["buy"] - p["stop"])
-            conf = f'<div class="conf"><b>{p["conf"]:.1f}</b>/10</div><div class="mut">{s["win"]:.0f}% win · {s["avg"]:+.1f}% avg · n={s["n"]}</div>'
-            plan = (f'<div class="lv"><span>Buy limit ≤</span><b>{p["buy"]:.2f}</b></div>'
-                    f'<div class="lv"><span>Take profit</span><b class="up">{p["tgt"]:.2f}</b> <i>{pct(p["tgt"], p["buy"]):+.1f}%</i></div>'
-                    f'<div class="lv"><span>Stop loss</span><b class="dn">{p["stop"]:.2f}</b> <i>{pct(p["stop"], p["buy"]):+.1f}%</i></div>'
-                    f'<div class="lv"><span>Hold</span><b>~{p["days"]}d</b> <i>max 6 · R:R {rr:.2f}</i></div>')
-            tag = "Dip-bounce" if p["rule"] == "dip" else "3-day reversal"
-        else:
-            conf = '<div class="conf mut">watch</div><div class="mut">not a signal yet</div>'
-            plan = (f'<div class="lv"><span>Becomes a signal near</span><b>{p["buy"]:.2f}</b></div>'
-                    f'<div class="lv mut"><span>Re-check tomorrow\'s report</span></div>')
-            tag = "Watchlist"
-        news = "".join(f'<a href="{E(u)}" target="_blank" rel="noopener">{E(h)}</a>' for h, u, _, _ in p["news"][:2])
-        a = p.get("ai")
-        if a:
-            src = "".join(f' <a href="{E(x.get("url", ""))}" target="_blank" rel="noopener">[{k + 1}]</a>' for k, x in enumerate(a.get("sources", [])[:4]))
-            extra = f'<div class="mut">{E(a["catalysts"])}</div>' if a.get("catalysts") else ""
-            flags = "".join(f'<span class="flag">{E(f)}</span>' for f in a.get("flags", []))
-            news = (f'<div class="ai {a["verdict"].lower()}"><b>AI {E(a["verdict"])}</b> <i>{E(a.get("cause", ""))}</i> '
-                    f'{E(a.get("why", ""))}{src}{extra}<div>{flags}</div></div>') + news
-        rows.append(f'''<article class="pick {p["kind"].lower()}">
-  <div class="top"><span class="rank">{i}</span><div><h3>{E(p["t"])}</h3><div class="mut">{E(p["name"])}</div></div>
-  <span class="tag">{tag}</span></div>
-  <div class="grid"><div>{conf}<div class="mut">close {p["c"]:.2f} · 5d <span class="{sign(p["drop"])}">{p["drop"]:+.1f}%</span></div></div><div>{plan}</div></div>
-  {f'<div class="news">{news}</div>' if news else ''}
-</article>''')
-    macro_html = "".join(f'<div class="tick"><span>{E(n)}</span><b>{v:,.2f}</b><i class="{sign(c)}">{c:+.2f}%</i></div>' for n, v, c in r["macro"])
-    sec_html = "".join(f'<tr><td>{E(n)}</td><td class="{sign(a)}">{a:+.1f}%</td><td class="{sign(b)}">{b:+.1f}%</td></tr>' for a, n, b in r["sectors"])
-    news_html = "".join(f'<li><a href="{E(u)}" target="_blank" rel="noopener">{E(h)}</a><span>{E(s)}</span></li>' for h, u, s, _ in r["news"])
-    cal_html = "".join(f'<tr><td>{w.astimezone(il.tzinfo):%a %H:%M}</td><td>{E(t)}</td><td class="{"dn" if imp == "High" else ""}">{imp}</td><td>{E(f)}</td><td>{E(pv)}</td></tr>' for w, t, imp, f, pv in r["cal"])
+    picks = r["picks"]
+    trade = [p for p in picks if status(p)[0].startswith("trade")]
+    watch = [p for p in picks if status(p)[0] == "watch"]
+    skip = [p for p in picks if status(p)[0] == "skip"]
+    verdict = f'{len(trade)} trade{"s" if len(trade) > 1 else ""} ready for the open' if trade else "No trades today"
+    sub = f'{len(watch)} on the watchlist · {len(skip)} skipped' + (" · cluster day: strongest historical edge" if r["n_dip"] >= 10 else "")
     note = r.get("note")
-    note_html = (f'<h2>Desk note · {E(note.get("mood", ""))}</h2><div class="rules note"><ul>'
-                 + "".join(f"<li>{E(b)}</li>" for b in note["bullets"]) + f'</ul><div class="mut">AI: {E(r["ai_source"] or "")}. Built only from data on this page; not a forecast.</div></div>') if note else ""
-    done = [t for t in r["track"] if t["ret"] is not None and t["status"] != "open"]
-    summ = (f'{len(done)} closed · {sum(t["ret"] > 0 for t in done) / len(done) * 100:.0f}% win · {sum(t["ret"] for t in done) / len(done):+.2f}% avg per trade'
-            if done else "No closed trades yet: the log started 2026-10-21.")
-    track_html = (f'<p class="mut">{summ} · backtest expectation about 65% win, +1.2% avg. Fill = day limit order at the buy limit.</p><table>'
-                  + "".join(f'<tr><td>{t["asof"]}</td><td><b>{E(t["t"])}</b></td><td>{t["conf"]}</td><td>{E(t.get("verdict") or "")}</td>'
-                            f'<td>{E(t["status"])}</td><td class="{sign(t["ret"] or 0)}">{fmt_ret(t["ret"])}</td></tr>'
-                            for t in reversed(r["track"][-20:])) + "</table>")
+    note_html = (f'<section class="panel"><h2>Morning note <span class="chip">{E(note.get("mood", ""))}</span></h2><ul class="bul">'
+                 + "".join(f"<li>{E(b)}</li>" for b in note["bullets"]) + f'</ul><p class="mut">{E(r["ai_source"] or "")}</p></section>') if note else ""
+    arrow = lambda c: "▲" if c > 0 else "▼" if c < 0 else ""
+    macro_html = "".join(f'<div class="tick"><span>{E(n)}</span><b>{v:,.2f}</b><i class="{sign(c)}">{arrow(c)} {abs(c):.2f}%</i></div>' for n, v, c in r["macro"])
+    sec_html = "".join(f'<tr><td>{E(n)}</td><td class="num {sign(a)}">{a:+.1f}%</td><td class="num {sign(b)}">{b:+.1f}%</td></tr>' for a, n, b in r["sectors"])
+    news_html = "".join(f'<li><a href="{E(u)}" target="_blank" rel="noopener">{E(h)}</a><span>{E(s)}</span></li>' for h, u, s, _ in r["news"][:12])
+    cal_html = "".join(f'<tr><td>{w.astimezone(il.tzinfo):%a %H:%M}</td><td>{E(t)}</td><td class="num">{"High" if imp == "High" else "Med"}</td></tr>'
+                       for w, t, imp, *_ in r["cal"])
     earn_html = "".join(f'<tr><td>{d:%a %d %b}</td><td>{E(", ".join(n) or "-")}</td></tr>' for d, n in r["earn"])
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Swing Desk</title><meta name="robots" content="noindex">
-<style>
-:root{{--bg:#0b0e13;--panel:#131821;--line:#222a36;--txt:#e6e9ef;--mut:#8a93a3;--acc:#f5b301;--up:#22c55e;--dn:#ef4444}}
-@media (prefers-color-scheme:light){{:root:not([data-theme=dark]){{--bg:#f6f7f9;--panel:#fff;--line:#e3e6eb;--txt:#151a22;--mut:#5d6675;--acc:#b07d00;--up:#15803d;--dn:#c62828}}}}
-*{{box-sizing:border-box;min-width:0}}html,body{{overflow-x:hidden}}body{{margin:0;background:var(--bg);color:var(--txt);font:15px/1.45 ui-sans-serif,-apple-system,"Segoe UI",sans-serif}}
-main{{max-width:1100px;margin:0 auto;padding:20px 16px 60px}}
-header{{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;border-bottom:2px solid var(--acc);padding-bottom:10px}}
-h1{{margin:0;font-size:22px;letter-spacing:.04em}}h1 b{{color:var(--acc)}}h2{{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);margin:28px 0 10px}}
-.mut{{color:var(--mut);font-size:13px}}.up{{color:var(--up)}}.dn{{color:var(--dn)}}
-.strip{{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:8px;margin-top:14px}}
-.tick{{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;display:flex;flex-direction:column}}
-.tick span{{color:var(--mut);font-size:12px}}.tick i{{font-style:normal;font-size:12px}}
-.pick{{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:10px}}
-.pick.signal{{border-left:3px solid var(--acc)}}.pick.watch{{opacity:.8}}
-.top{{display:flex;gap:12px;align-items:center}}.top h3{{margin:0;font-size:19px}}.top>div{{flex:1}}
-.rank{{width:28px;height:28px;border-radius:50%;background:var(--line);display:grid;place-items:center;font-weight:700;flex:none}}
-.tag{{margin-left:auto;font-size:11px;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line);border-radius:20px;padding:3px 9px;color:var(--mut)}}
-.grid{{display:grid;grid-template-columns:200px 1fr;gap:16px;margin-top:12px}}
-.conf b{{font-size:28px;color:var(--acc)}}.lv{{display:flex;gap:10px;align-items:baseline;padding:3px 0;border-bottom:1px dashed var(--line)}}
-.lv span{{color:var(--mut);min-width:150px;font-size:13px}}.lv i{{color:var(--mut);font-style:normal;font-size:13px}}
-.news{{margin-top:10px;display:flex;flex-direction:column;gap:3px}}.news a,li a{{color:var(--txt);text-decoration:none;font-size:13px}}.news a:hover,li a:hover{{color:var(--acc)}}
-.cols{{display:grid;grid-template-columns:1.4fr 1fr;gap:20px}}ul{{list-style:none;padding:0;margin:0}}
-li{{padding:7px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px}}li span{{color:var(--mut);font-size:12px;flex:none;max-width:30%;text-align:right}}
-table{{width:100%;border-collapse:collapse;font-size:13px}}td{{padding:6px 4px;border-bottom:1px solid var(--line)}}
-.ai{{margin-top:10px;padding:8px 10px;border-radius:8px;background:var(--bg);font-size:13px;border-left:3px solid var(--mut)}}
-.ai.confirm{{border-color:var(--up)}}.ai.caution{{border-color:var(--acc)}}.ai.veto{{border-color:var(--dn)}}.ai a{{color:var(--acc)}}.ai i{{color:var(--mut)}}
-.flag{{display:inline-block;margin:4px 4px 0 0;padding:1px 7px;border:1px solid var(--line);border-radius:10px;font-size:11px;color:var(--mut)}}
-.note ul{{margin:0 0 6px}}.note li{{border:0;padding:3px 0;display:list-item;list-style:disc inside;color:var(--txt)}}
-.rules{{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:13px;color:var(--mut)}}
-@media (max-width:720px){{.grid,.cols{{grid-template-columns:1fr}}.lv span{{min-width:120px}}}}
-</style></head><body><main>
-<header><h1>SWING <b>DESK</b></h1><div class="mut">Updated {il:%a %d %b %Y, %H:%M} Israel · data as of {r["asof"]} close · US open 16:30</div></header>
-<div class="strip">{macro_html}</div>
-{note_html}<h2>Today's top {TOP}</h2><p class="mut">{head}. Entries are LIMIT orders at the US open: if it opens above the buy limit, skip. Attach the bracket (take profit + stop) GTC. Exit by day 6 regardless.</p>
-{"".join(rows) or '<p class="mut">No setups today.</p>'}
-<div class="cols"><section><h2>Headlines</h2><ul>{news_html}</ul></section>
-<section><h2>Sector flows · 5d / 20d</h2><table>{sec_html}</table>
-<h2>US economic calendar</h2><table>{cal_html or '<tr><td class="mut">nothing major</td></tr>'}</table>
-<h2>Earnings next 5 days</h2><table>{earn_html}</table></section></div>
-<h2>Track record · live picks</h2>{track_html}<h2>Rules</h2><div class="rules">Confidence = this exact setup's win rate in a 2-year backtest of S&amp;P 500+400 stocks, recomputed daily (survivorship bias, no costs: real results are lower).
-Correlated picks are one bet: risk at most 1-2% of the account across all of them. Never hold through earnings (filtered out here). Not financial advice.</div>
-</main></body></html>'''
+    done = [t for t in r["track"] if t["ret"] is not None and t["status"] != "open"]
+    summ = (f'<b>{len(done)}</b> closed · <b>{sum(t["ret"] > 0 for t in done) / len(done) * 100:.0f}%</b> won · '
+            f'<b>{sum(t["ret"] for t in done) / len(done):+.2f}%</b> average' if done else "No closed trades yet.")
+    track_html = (f'<p>{summ} <span class="mut">(backtest expectation: about 65% won, +1.2% average)</span></p><table>'
+                  + "".join(f'<tr><td>{t["asof"]}</td><td><b>{E(t["t"])}</b></td><td>{E(t["status"])}</td>'
+                            f'<td class="num {sign(t["ret"] or 0)}">{fmt_ret(t["ret"])}</td></tr>' for t in reversed(r["track"][-15:])) + "</table>")
+    def section(title, sub, items):
+        return f'<section><h2>{title}</h2><p class="mut">{sub}</p>{"".join(items)}</section>' if items else ""
+    skips = (f'<section><h2>Skipped</h2><p class="mut">Looked at, then ruled out.</p><ul class="skips">'
+             + "".join(skip_row(p) for p in skip) + '</ul></section>') if skip else ""
+    how = ('<details><summary>How to use this page</summary><p class="mut">Only cards under <b>Trade today</b> are trades. '
+           'Before 16:30 Israel time, place a limit buy at the buy price and attach a take-profit and a stop-loss (good-til-cancelled). '
+           'If it opens above the buy price, skip it. Sell by the exit date whatever happens. All open trades together should risk '
+           'at most 1-2% of your account. Not financial advice.</p></details>')
+    return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<title>Swing Desk</title><meta name="robots" content="noindex"><meta name="theme-color" content="#0b0e13">'
+            f'<style>{CSS}</style></head><body><main>'
+            f'<header><h1>SWING <b>DESK</b></h1><span class="mut">{il:%a %d %b, %H:%M} Israel · prices as of {r["asof"]} close</span></header>'
+            f'<div class="hero"><b>{verdict}</b><p class="mut">{sub}</p>{how}</div>'
+            f'<div class="strip">{macro_html}</div>{note_html}'
+            + section("Trade today", "Place these before the US open.", [card(p, r["asof"]) for p in trade])
+            + section("Watchlist", "Not trades yet. Each shows the price that would turn it into one.", [card(p, r["asof"]) for p in watch])
+            + skips
+            + '<h2>Market</h2><div class="grid2">'
+            f'<section class="panel"><h2>Sector money flow</h2><table><tr><td class="mut">Sector</td><td class="num mut">5 days</td><td class="num mut">20 days</td></tr>{sec_html}</table></section>'
+            f'<section class="panel"><h2>US data this week</h2><table>{cal_html or "<tr><td class=mut>No major US data</td></tr>"}</table>'
+            f'<h2>Earnings next 5 days</h2><table>{earn_html}</table></section></div>'
+            f'<section class="panel"><h2>Headlines</h2><ul class="news">{news_html}</ul></section>'
+            f'<section class="panel"><h2>Track record</h2>{track_html}</section>'
+            '<p class="mut" style="margin-top:28px">Confidence = how often this exact setup won in a 2-year backtest of S&amp;P 500 and 400 stocks, '
+            'recomputed daily. Real results run lower (no trading costs, survivorship bias). Not financial advice.</p>'
+            '</main></body></html>')
 
 if __name__ == "__main__":
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
