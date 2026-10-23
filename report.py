@@ -49,9 +49,10 @@ def edge_table(data):
         for t, i, r in lst:
             b = data[t]; O, L, C, e5 = b["o"], b["l"], b["c"], b["_e5"]
             en, st, out, held = O[i + 1], O[i + 1] - 2 * atr(b, end=i), None, 6
+            H, tg = b["h"], e5[i]  # the page's order: take-profit limit at the signal day's EMA5
             for j in range(i + 1, i + 7):
                 if L[j] <= st: out, held = pct(min(O[j], st) if j > i + 1 else st, en), j - i; break
-                if C[j] > e5[j]: out, held = pct(C[j], en), j - i; break
+                if H[j] >= tg: out, held = pct(max(O[j], tg) if j > i + 1 else tg, en), j - i; break
             stats[bucket(r, nd, ibs(b, i))].append(((pct(C[i + 6], en) if out is None else out) - COST, held))
     table = {}
     for k, v in stats.items():
