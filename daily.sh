@@ -26,7 +26,8 @@ python3 report.py
 cd site
 url=$(npx vercel deploy --prod --yes || NODE_OPTIONS="--require $PWD/../dnsfix.js" npx vercel deploy --prod --yes)
 # promote explicitly: after any manual promote/rollback Vercel stops auto-assigning the production domain
-npx vercel promote "$url" --yes || NODE_OPTIONS="--require $PWD/../dnsfix.js" npx vercel promote "$url" --yes
+url=$(echo "$url" | grep -oE 'https://swing-desk-[a-z0-9]+-[a-z0-9-]+\.vercel\.app' | head -1)
+[ -n "$url" ] && { npx vercel promote "$url" --yes || NODE_OPTIONS="--require $PWD/../dnsfix.js" npx vercel promote "$url" --yes; }
 cd ..
 asof=$(python3 -c "import json;print(json.load(open('picks.json'))['asof'])")
 code=$(curl -s https://swing-desk-five.vercel.app/ | grep -q "prices as of $asof" && echo "fresh $asof" || echo "STALE: live page is not $asof")
