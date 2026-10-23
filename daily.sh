@@ -28,7 +28,8 @@ url=$(npx vercel deploy --prod --yes || NODE_OPTIONS="--require $PWD/../dnsfix.j
 # promote explicitly: after any manual promote/rollback Vercel stops auto-assigning the production domain
 npx vercel promote "$url" --yes || NODE_OPTIONS="--require $PWD/../dnsfix.js" npx vercel promote "$url" --yes
 cd ..
-code=$(curl -s -o /dev/null -w '%{http_code}' https://swing-desk-five.vercel.app/)
+asof=$(python3 -c "import json;print(json.load(open('picks.json'))['asof'])")
+code=$(curl -s https://swing-desk-five.vercel.app/ | grep -q "prices as of $asof" && echo "fresh $asof" || echo "STALE: live page is not $asof")
 echo "live: $code"
 
 git add ai.json history.json picks.json && git commit -qm "desk $(date +%F)" && git push -q || true
