@@ -17,20 +17,23 @@ def day(full, d):
         data[t] = x
     table = report.edge_table(data)
     last = {t: len(b["c"]) - 1 for t, b in data.items()}
-    today = [(t, report.rule(b, last[t])) for t, b in data.items() if t != "SPY"]
-    today = [(t, r) for t, r in today if r]
-    n_dip = sum(r == "dip" for _, r in today)
+    today = [(t, report.rules(b, last[t])) for t, b in data.items() if t != "SPY"]
+    today = [(t, rs) for t, rs in today if rs]
+    n_dip = sum("dip" in rs for _, rs in today)
+    s5 = report.spy5(data).get(d, 0)
     sig, rejected = [], []
-    for t, r in today:
+    for t, rs in today:
         b = data[t]
-        s = table.get(report.bucket(r, n_dip, report.ibs(b, last[t])))
+        r, s = report.choose(b, last[t], rs, n_dip, s5, table)
         c, e5, a = b["c"][-1], b["_e5"][-1], atr(b)
         cap = min(e5 / 1.03, c * 1.02)
-        why = "bucket below +0.5% net" if not s or s["n"] < 30 or s["avg"] < 0.5 else "no room to target" if cap <= c * 0.97 else None
-        p = dict(t=t, rule=r, buy=cap, tgt=e5, stop=cap - 2 * a, conf=report.confidence(s) if s else None,
-                 bucket=report.bucket(r, n_dip, report.ibs(b, last[t])), rvol=b["v"][-1] / (sum(b["v"][-21:-1]) / 20))
+        why = "bucket below the bar" if not s else "no room to target" if cap <= c * 0.97 else None
+        p = dict(t=t, rule=r, tier=report.tier(r, n_dip), buy=cap, tgt=e5, stop=cap - 2 * a, conf=report.confidence(s) if s else None,
+                 bucket=report.bucket(r, n_dip, b, last[t], s5), rvol=b["v"][-1] / (sum(b["v"][-21:-1]) / 20))
         if p["conf"] and p["rvol"] >= 3: p["conf"] = max(1.0, p["conf"] - 1)
         (rejected if why else sig).append(dict(p, why=why))
+    sig.sort(key=lambda p: (p["tier"] != "golden", -(p["conf"] or 0)))
+    sig = [p for p in sig if p["tier"] == "golden"][:report.TOP] + [p for p in sig if p["tier"] == "solid"][:report.SOLID]
     watch = sorted((pct(b["c"][-1], b["c"][-6]), t) for t, b in data.items()
                    if t != "SPY" and report.liquid(b, last[t]) and b["c"][-1] > b["_e200"][-1]
                    and -10 <= pct(b["c"][-1], b["c"][-6]) < -6 and t not in {x for x, _ in today})
@@ -60,7 +63,7 @@ if __name__ == "__main__":
         print(f"\n=== {d} close -> page next morning | dip signals {nd} | SPY next 5d {pct(spy['c'][min(i + 5, len(spy['c']) - 1)], spy['c'][i]):+.1f}%")
         for p in sig:
             st, r = score(full[p["t"]], d, p); allr.append(r) if r is not None else None
-            print(f"  TRADE {p['t']:6} {p['rule']:4} conf {p['conf']:.1f} buy<={p['buy']:.2f} tgt {p['tgt']:.2f} stop {p['stop']:.2f} rvol {p['rvol']:.1f} -> {st} {'' if r is None else f'{r:+.2f}%'}")
+            print(f"  {p['tier'].upper():6} {p['t']:6} {p['rule']:5} conf {p['conf']:.1f} buy<={p['buy']:.2f} tgt {p['tgt']:.2f} stop {p['stop']:.2f} rvol {p['rvol']:.1f} -> {st} {'' if r is None else f'{r:+.2f}%'}")
         for p in rej:
             st, r = score(full[p["t"]], d, p)
             print(f"  skip  {p['t']:6} ({p['why']}) would have: {st} {'' if r is None else f'{r:+.2f}%'}")

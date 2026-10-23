@@ -13,6 +13,7 @@ from desk import ema, atr, pct, quotes, trading_days_until
 
 OUT = os.path.join(desk.HERE, "site", "index.html")
 TOP = 10
+SOLID = 5  # solid picks per day: same-day dips are correlated, more is not more diversified
 COST = 0.15  # % per round trip (commission + spread), so confidence reflects net results
 
 def ibs(b, i):
@@ -22,29 +23,46 @@ def ibs(b, i):
 def liquid(b, i):
     return sum(b["c"][j] * b["v"][j] for j in range(i - 19, i + 1)) / 20 >= 5e7 and b["c"][i] >= 10
 
-def rule(b, i):
-    """'dip' = >10% 5-day drop, 'rev3' = >7% 3-day drop (Lehmann); both above EMA200."""
-    c = b["c"]
-    if not liquid(b, i) or c[i] <= b["_e200"][i]: return None
-    if c[i] / c[i - 5] - 1 < -0.10: return "dip"
-    if c[i] / c[i - 3] - 1 < -0.07: return "rev3"
-    return None
+def rules(b, i):
+    """Every rule bar i matches, all above EMA200: 'dip' >10% 5-day drop, 'rev3' >7% 3-day drop (Lehmann),
+    'solid' 7-10% 5-day drop closing in the bottom 30% of the day without news-sized volume (setups.py, 2026-10-24)."""
+    c, v = b["c"], b["v"]
+    if not liquid(b, i) or c[i] <= b["_e200"][i]: return []
+    d5, out = c[i] / c[i - 5] - 1, []
+    if d5 < -0.10: out.append("dip")
+    if c[i] / c[i - 3] - 1 < -0.07: out.append("rev3")
+    if -0.10 < d5 <= -0.07 and ibs(b, i) < 0.3 and v[i] < 3 * sum(v[i - 20:i]) / 20: out.append("solid")
+    return out
 
 def cluster(n): return "cluster" if n >= 10 else "mid" if n >= 4 else "lone"
 
-def bucket(r, n_dip, x): return (r, cluster(n_dip), "low" if x < 0.3 else "high")
+def bucket(r, n_dip, b, i, spy5):
+    if r == "solid": return (r, "strong" if b["c"][i] > 1.15 * b["_e200"][i] else "normal", "mkt down" if spy5 < -1 else "mkt up")
+    return (r, cluster(n_dip), "low" if ibs(b, i) < 0.3 else "high")
+
+def spy5(data):
+    s = data["SPY"]
+    return {d: pct(s["c"][k], s["c"][k - 5]) for k, d in enumerate(s["d"]) if k >= 5}
+
+def choose(b, i, rs, n_dip, s5, table):
+    """Best rule for this stock today: the passing bucket with the highest net average, else the first with why it failed."""
+    opts = [(r, table.get(bucket(r, n_dip, b, i, s5))) for r in rs]
+    # golden: +0.5%/trade net over 10y (audit.py); solid: +0.4% and 65%+ wins (setups.py), firing on ~43% of days
+    ok = [(r, s) for r, s in opts if s and s["n"] >= 30 and (s["avg"] >= 0.5 or r == "solid" and s["avg"] >= 0.4 and s["win"] >= 65)]
+    return max(ok, key=lambda x: x[1]["avg"]) if ok else (rs[0], None)
+
+def tier(r, n_dip): return "golden" if r in ("dip", "rev3") and n_dip >= 10 else "solid"
 
 def edge_table(data):
     """Backtest every signal in the sample; stats per (rule, cluster, IBS) bucket.
     Realistic: a gap through the stop fills at the open, and every trade pays COST."""
-    sigs = defaultdict(list)
+    sigs, s5 = defaultdict(list), spy5(data)
     for t, b in data.items():
         if t == "SPY": continue
         for i in range(260, len(b["c"]) - 7):
-            r = rule(b, i)
-            if r: sigs[b["d"][i]].append((t, i, r))
+            for r in rules(b, i): sigs[b["d"][i]].append((t, i, r))
     stats = defaultdict(list)
-    for lst in sigs.values():
+    for day, lst in sigs.items():
         nd = sum(r == "dip" for *_, r in lst)
         for t, i, r in lst:
             b = data[t]; O, L, C, e5 = b["o"], b["l"], b["c"], b["_e5"]
@@ -53,7 +71,7 @@ def edge_table(data):
             for j in range(i + 1, i + 7):
                 if L[j] <= st: out, held = pct(min(O[j], st) if j > i + 1 else st, en), j - i; break
                 if H[j] >= tg: out, held = pct(max(O[j], tg) if j > i + 1 else tg, en), j - i; break
-            stats[bucket(r, nd, ibs(b, i))].append(((pct(C[i + 6], en) if out is None else out) - COST, held))
+            stats[bucket(r, nd, b, i, s5.get(day, 0))].append(((pct(C[i + 6], en) if out is None else out) - COST, held))
     table = {}
     for k, v in stats.items():
         rets = [x for x, _ in v]; days = sorted(d for _, d in v)
@@ -158,30 +176,31 @@ def build():
     for b in data.values(): b["_e200"], b["_e5"] = ema(b["c"], 200), ema(b["c"], 5)
     table = edge_table(data)
     last = {t: len(b["c"]) - 1 for t, b in data.items()}
-    today = [(t, rule(b, last[t])) for t, b in data.items() if t != "SPY"]
-    today = [(t, r) for t, r in today if r]
-    n_dip = sum(r == "dip" for _, r in today)
+    today = [(t, rules(b, last[t])) for t, b in data.items() if t != "SPY"]
+    today = [(t, rs) for t, rs in today if rs]
+    n_dip = sum("dip" in rs for _, rs in today)
+    s5 = spy5(data).get(data["SPY"]["d"][-1], 0)
     # watchlist: 5-day drop of 6-10% above EMA200, not yet a signal
     watch = sorted(((pct(b["c"][-1], b["c"][-6]), t) for t, b in data.items()
                     if t != "SPY" and liquid(b, last[t]) and b["c"][-1] > b["_e200"][-1]
                     and -10 <= pct(b["c"][-1], b["c"][-6]) < -6 and not any(t == x for x, _ in today)))
     q = quotes([t for t, _ in today] + [t for _, t in watch[:15]]) if today or watch else {}
     picks = []
-    for t, r in today:
+    for t, rs in today:
         b, z = data[t], q.get(t, {})
         ed = edays(z)
         if ed is not None and ed <= 7: continue  # never hold a swing through earnings
-        s = table.get(bucket(r, n_dip, ibs(b, last[t])))
-        if not s or s["n"] < 30 or s["avg"] < 0.5: continue  # needs +0.5%/trade net of costs over 10y (audit.py)
+        r, s = choose(b, last[t], rs, n_dip, s5, table)
+        if not s: continue
         c, e5, a = b["c"][-1], b["_e5"][-1], atr(b)
         cap = min(e5 / 1.03, c * 1.02)
         if cap <= c * 0.97: continue  # target too close to price: no room left
-        picks.append(dict(t=t, kind="SIGNAL", rule=r, c=c, buy=cap, tgt=e5, stop=cap - 2 * a, days=s["days"],
+        picks.append(dict(t=t, kind="SIGNAL", rule=r, tier=tier(r, n_dip), c=c, buy=cap, tgt=e5, stop=cap - 2 * a, days=s["days"],
                           conf=confidence(s), s=s, ed=ed, name=z.get("shortName", ""), drop=pct(c, b["c"][-6])))
-    picks.sort(key=lambda p: -p["s"]["avg"])
-    picks = picks[:TOP]
+    picks.sort(key=lambda p: (p["tier"] != "golden", -p["s"]["avg"]))
+    picks = [p for p in picks if p["tier"] == "golden"][:TOP] + [p for p in picks if p["tier"] == "solid"][:SOLID]
     for d5, t in watch:
-        if len(picks) >= TOP: break
+        if len(picks) >= TOP + SOLID or sum(p["kind"] == "WATCH" for p in picks) >= 5: break
         b, z = data[t], q.get(t, {})
         c, a = b["c"][-1], atr(b)
         trig = b["c"][-5] * 0.90  # price where it becomes a 10% 5-day dip tomorrow (approx)
@@ -239,7 +258,7 @@ def track(r):
     have = {(h["asof"], h["t"]) for h in hist}
     for p in r["picks"]:
         if p["kind"] == "SIGNAL" and (r["asof"], p["t"]) not in have:
-            hist.append(dict(asof=r["asof"], t=p["t"], buy=round(p["buy"], 2), tgt=round(p["tgt"], 2), stop=round(p["stop"], 2),
+            hist.append(dict(asof=r["asof"], t=p["t"], tier=p.get("tier"), buy=round(p["buy"], 2), tgt=round(p["tgt"], 2), stop=round(p["stop"], 2),
                              conf=round(p["conf"], 1), verdict=(p["ai"] or {}).get("verdict")))
     json.dump(hist, open(HIST, "w"), indent=1)
     rows = []
@@ -284,7 +303,9 @@ def add_trading_days(d, n):
 def status(p):
     v = (p.get("ai") or {}).get("verdict")
     if v == "VETO": return "skip", "Skip"
-    if p["kind"] == "SIGNAL": return ("trade", "Trade today") if v != "CAUTION" else ("trade caution", "Trade · caution")
+    if p["kind"] == "SIGNAL":
+        name = "Golden" if p.get("tier") == "golden" else "Solid"
+        return (f"trade {p.get('tier', 'solid')}", f"{name} trade") if v != "CAUTION" else (f"trade {p.get('tier', 'solid')} caution", f"{name} · caution")
     return "watch", "Watching"
 
 def ladder(p):
@@ -304,8 +325,11 @@ def card(p, asof):
     up, down = pct(p["tgt"], p["buy"]), pct(p["stop"], p["buy"])
     if p["kind"] == "SIGNAL":
         exit_by = add_trading_days(asof, 6)
-        play = (f'Down {abs(p["drop"]):.0f}% in 5 days while its long-term uptrend holds. Buy the fear at the open, '
-                f'sell the rebound to its 5-day average, usually within {p["days"]} trading days.')
+        play = (f'Crash-day dip: down {abs(p["drop"]):.0f}% in 5 days on a day when 10+ strong stocks flushed together. '
+                f'The rarest and strongest setup the desk has. Buy the fear at the open, sell the rebound to its 5-day average, '
+                f'usually within {p["days"]} trading days.' if p.get("tier") == "golden" else
+                f'Down {abs(p["drop"]):.0f}% in 5 days and closed near the day\'s low, while its long-term uptrend holds. '
+                f'Buy the pullback at the open, sell the bounce to its 5-day average, usually within {p["days"]} trading days.')
         steps = (f'<li><span>Buy</span><div><b>Limit at ${p["buy"]:,.2f} or lower</b> at the US open (16:30 Israel). '
                  f'If it opens above that, skip it.</div></li>'
                  f'<li><span>Take profit</span><div><b class="up">${p["tgt"]:,.2f}</b> <i>+{up:.1f}%</i> · sell limit, good-til-cancelled</div></li>'
@@ -335,7 +359,7 @@ def card(p, asof):
     links += "".join(f'<li><a href="{E(u)}" target="_blank" rel="noopener">{E(h)}</a> <span class="mut">{E(src)}</span></li>'
                      for h, u, src, _ in p["news"][:4])
     more = f'<details><summary>Sources and headlines</summary><ul class="links">{links}</ul></details>' if links else ""
-    return (f'<article class="card {cls.split()[0]}">'
+    return (f'<article class="card {" ".join(x for x in cls.split() if x != "caution")}">'
             f'<div class="ch"><div><h3>{E(p["t"])}</h3><div class="mut">{E(p["name"])}</div></div><span class="badge {cls}">{label}</span></div>'
             f'<p class="play"><b>The play.</b> {play}</p>{ladder(p)}'
             f'<div class="body"><ol class="steps">{steps}</ol><div class="side">{conf}</div></div>{panel(p)}{drive}{more}</article>')
@@ -373,8 +397,8 @@ def skip_row(p):
     return f'<li><b>{E(p["t"])}</b><span>{E(a.get("why", ""))}</span></li>'
 
 CSS = """
-:root{--bg:#0b0e13;--panel:#141922;--panel2:#1a2029;--line:#262e3a;--txt:#e8ebf0;--mut:#9aa3b2;--acc:#f5b301;--up:#2fd47a;--dn:#ff5a5a;--warn:#f5b301}
-@media (prefers-color-scheme:light){:root:not([data-theme=dark]){--bg:#f4f5f7;--panel:#fff;--panel2:#f7f8fa;--line:#e2e5ea;--txt:#141a22;--mut:#5b6472;--acc:#a86f00;--up:#13803d;--dn:#c62828;--warn:#a86f00}}
+:root{--bg:#0b0e13;--panel:#141922;--panel2:#1a2029;--line:#262e3a;--txt:#e8ebf0;--mut:#9aa3b2;--acc:#f5b301;--up:#2fd47a;--dn:#ff5a5a;--warn:#f5b301;--gold:#f5c542}
+@media (prefers-color-scheme:light){:root:not([data-theme=dark]){--bg:#f4f5f7;--panel:#fff;--panel2:#f7f8fa;--line:#e2e5ea;--txt:#141a22;--mut:#5b6472;--acc:#a86f00;--up:#13803d;--dn:#c62828;--warn:#a86f00;--gold:#b8860b}}
 *{box-sizing:border-box;min-width:0}html,body{overflow-x:hidden}
 body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;font-variant-numeric:tabular-nums}
 main{max-width:880px;margin:0 auto;padding:20px 16px 64px}
@@ -390,6 +414,8 @@ h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)
 .tick span{color:var(--mut);font-size:12px}.tick b{font-size:15px}.tick i{font-style:normal;font-size:12px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;margin:12px 0}
 .card.trade{border-color:color-mix(in srgb,var(--up) 45%,var(--line))}
+.card.golden{border:2px solid var(--gold);box-shadow:0 0 0 4px color-mix(in srgb,var(--gold) 14%,transparent)}
+.badge.golden{color:var(--bg);background:var(--gold);border-color:var(--gold)}
 .ch{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .ch h3{margin:0;font-size:22px;letter-spacing:.02em}
 .badge{flex:none;font-size:13px;font-weight:600;padding:5px 11px;border-radius:999px;border:1px solid}
@@ -442,9 +468,12 @@ def render(r):
     il = dt.datetime.now(ZoneInfo("Asia/Jerusalem"))
     picks = r["picks"]
     trade = [p for p in picks if status(p)[0].startswith("trade")]
+    golden = [p for p in trade if p.get("tier") == "golden"]
+    solid = [p for p in trade if p.get("tier") != "golden"]
     watch = [p for p in picks if status(p)[0] == "watch"]
     skip = [p for p in picks if status(p)[0] == "skip"]
-    verdict = f'{len(trade)} trade{"s" if len(trade) > 1 else ""} ready for the open' if trade else "No trades today"
+    parts = [f'{len(golden)} golden'] * bool(golden) + [f'{len(solid)} solid'] * bool(solid)
+    verdict = f'{" + ".join(parts)} trade{"s" if len(trade) > 1 else ""} ready for the open' if trade else "No trades today"
     sub = f'{len(watch)} on the watchlist · {len(skip)} skipped' + (" · cluster day: strongest historical edge" if r["n_dip"] >= 10 else "")
     note = r.get("note")
     note_html = (f'<section class="panel"><h2>Morning note <span class="chip">{E(note.get("mood", ""))}</span></h2><ul class="bul">'
@@ -471,7 +500,7 @@ def render(r):
         return f'<section><h2>{title}</h2><p class="mut">{sub}</p>{"".join(items)}</section>' if items else ""
     skips = (f'<section><h2>Skipped</h2><p class="mut">Looked at, then ruled out.</p><ul class="skips">'
              + "".join(skip_row(p) for p in skip) + '</ul></section>') if skip else ""
-    how = ('<details><summary>How to use this page</summary><p class="mut">Only cards under <b>Trade today</b> are trades. '
+    how = ('<details><summary>How to use this page</summary><p class="mut">Only cards under <b>Golden trades</b> and <b>Solid trades</b> are trades. Golden first; from Solid take 1-3. '
            'Before 16:30 Israel time, place a limit buy at the buy price and attach a take-profit and a stop-loss (good-til-cancelled). '
            'If it opens above the buy price, skip it. Sell by the exit date whatever happens. All open trades together should risk '
            'at most 1-2% of your account. Not financial advice.</p></details>')
@@ -481,7 +510,8 @@ def render(r):
             f'<header><h1>SWING <b>DESK</b></h1><span class="mut">{il:%a %d %b, %H:%M} Israel · prices as of {r["asof"]} close</span></header>'
             f'<div class="hero"><b>{verdict}</b><p class="mut">{sub}</p>{how}</div>'
             f'<div class="strip">{macro_html}</div><div class="strip">{breadth_html}</div>{note_html}'
-            + section("Trade today", "Place these before the US open.", [card(p, r["asof"]) for p in trade])
+            + section("Golden trades", "Crash-day dips: rare, the strongest edge in the backtest. Take these first.", [card(p, r["asof"]) for p in golden])
+            + section("Solid trades", "Everyday pullbacks in strong stocks. Smaller edge: same-day picks move together, so take 1-3, not all.", [card(p, r["asof"]) for p in solid])
             + section("Watchlist", "Not trades yet. Each shows the price that would turn it into one.", [card(p, r["asof"]) for p in watch])
             + skips
             + '<h2>Market</h2><div class="grid2">'
