@@ -24,7 +24,9 @@ claude -p "$(cat research.md)" --model sonnet --output-format json --permission-
 
 python3 report.py
 cd site
-npx vercel deploy --prod --yes || NODE_OPTIONS="--require $PWD/../dnsfix.js" npx vercel deploy --prod --yes
+url=$(npx vercel deploy --prod --yes || NODE_OPTIONS="--require $PWD/../dnsfix.js" npx vercel deploy --prod --yes)
+# promote explicitly: after any manual promote/rollback Vercel stops auto-assigning the production domain
+npx vercel promote "$url" --yes || NODE_OPTIONS="--require $PWD/../dnsfix.js" npx vercel promote "$url" --yes
 cd ..
 code=$(curl -s -o /dev/null -w '%{http_code}' https://swing-desk-five.vercel.app/)
 echo "live: $code"
