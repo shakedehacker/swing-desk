@@ -15,6 +15,9 @@ OUT = os.path.join(desk.HERE, "site", "index.html")
 TOP = 10
 SOLID = 5  # solid picks per day: same-day dips are correlated, more is not more diversified
 COST = 0.15  # % per round trip (commission + spread), so confidence reflects net results
+ACCOUNT = float(os.environ.get("ACCOUNT", 4500))  # USD at IBKR; set ACCOUNT=... in daily.sh when it changes
+RISK = {"golden": 0.01, "solid": 0.005}  # account % lost if the stop hits (position-sizer, fixed fractional)
+MAX_POS = 0.25  # never more than a quarter of the account in one stock
 
 def ibs(b, i):
     r = b["h"][i] - b["l"][i]
@@ -217,6 +220,9 @@ def build():
              news=headlines(), cal=econ_calendar(), earn=earnings_week(set(uni)), macro=macro(), sectors=sectors(), breadth=breadth(data))
     apply_ai(r)
     r["track"] = track(r)
+    r["breaker"] = breaker(r["track"])
+    for p in r["picks"]:
+        if p["kind"] == "SIGNAL": p["size"] = size(p, r["breaker"][0])
     return r
 
 def edays(z):
@@ -252,6 +258,25 @@ def apply_ai(r):
     r["picks"].sort(key=lambda p: (p["kind"] != "SIGNAL", (p["ai"] or {}).get("verdict") == "VETO"))
 
 HIST = os.path.join(desk.HERE, "history.json")
+def size(p, mult):
+    """Shares so a stop-out costs RISK of the account (halved by the breaker), capped at MAX_POS. IBKR allows fractional US shares."""
+    risk = ACCOUNT * RISK[p.get("tier", "solid")] * mult
+    sh = min(risk / (p["buy"] - p["stop"]), ACCOUNT * MAX_POS / p["buy"])
+    sh = int(sh) if sh >= 1 else round(sh, 2)
+    return dict(shares=sh, value=sh * p["buy"], risk=sh * (p["buy"] - p["stop"]))
+
+def breaker(rows):
+    """Drawdown circuit breaker on the live record (discipline rule, not part of the tested edge):
+    2 losses in a row -> half size; 3+ -> half size and golden only."""
+    closed = [t for t in rows if t["ret"] is not None and t["status"] not in ("open", "pending")]
+    streak = 0
+    for t in reversed(closed):
+        if t["ret"] > 0: break
+        streak += 1
+    if streak >= 3: return 0.5, f"{streak} losing trades in a row: half size, Golden only until a winner.", False
+    if streak == 2: return 0.5, "2 losing trades in a row: half size until a winner.", True
+    return 1.0, None, True
+
 def track(r):
     """Log today's signals, then score every logged pick against real prices (limit fill, target/stop/day-6 exit)."""
     hist = json.load(open(HIST)) if os.path.exists(HIST) else []
@@ -332,7 +357,10 @@ def card(p, asof):
                 f'Buy the pullback at the open, sell the bounce to its 5-day average, usually within {p["days"]} trading days.')
         steps = (f'<li><span>Buy</span><div><b>Limit at ${p["buy"]:,.2f} or lower</b> at the US open (16:30 Israel). '
                  f'If it opens above that, skip it.</div></li>'
-                 f'<li><span>Take profit</span><div><b class="up">${p["tgt"]:,.2f}</b> <i>+{up:.1f}%</i> · sell limit, good-til-cancelled</div></li>'
+                 + (f'<li><span>Size</span><div><b>{p["size"]["shares"]} shares</b> (about ${p["size"]["value"]:,.0f}). '
+                    f'If the stop hits you lose about <b class="dn">${p["size"]["risk"]:,.0f}</b> '
+                    f'({p["size"]["risk"] / ACCOUNT * 100:.1f}% of ${ACCOUNT:,.0f}).</div></li>' if p.get("size") else "")
+                 + f'<li><span>Take profit</span><div><b class="up">${p["tgt"]:,.2f}</b> <i>+{up:.1f}%</i> · sell limit, good-til-cancelled</div></li>'
                  f'<li><span>Stop loss</span><div><b class="dn">${p["stop"]:,.2f}</b> <i>{down:.1f}%</i> · stop order, good-til-cancelled</div></li>'
                  f'<li><span>Exit by</span><div><b>{exit_by:%a %d %b}</b> at the close, whatever happens</div></li>')
         s = p["s"]
@@ -449,6 +477,7 @@ details{margin-top:6px}summary{cursor:pointer;min-height:44px;display:flex;align
 .skips{list-style:none;padding:0;margin:8px 0 0;background:var(--panel);border:1px solid var(--line);border-radius:14px}
 .skips li{display:grid;grid-template-columns:64px 1fr;gap:10px;padding:12px 16px;border-top:1px solid var(--line);font-size:14px}.skips li:first-child{border-top:0}
 .skips span{color:var(--mut)}
+.brk{margin:10px 0 0;padding:8px 12px;border-radius:8px;border:1px solid var(--dn);color:var(--dn);font-weight:600}
 .dd{display:grid;grid-template-columns:96px 1fr;gap:6px 12px;margin:14px 0 0;padding:12px 0 0;border-top:1px solid var(--line);font-size:14px}
 .dd dt{color:var(--mut)}.dd dd{margin:0}
 .sent{display:flex;align-items:center;gap:10px;margin:8px 0;font-size:14px}.sent>span:first-child{color:var(--mut)}.sent span{white-space:nowrap}
@@ -469,12 +498,15 @@ def render(r):
     picks = r["picks"]
     trade = [p for p in picks if status(p)[0].startswith("trade")]
     golden = [p for p in trade if p.get("tier") == "golden"]
-    solid = [p for p in trade if p.get("tier") != "golden"]
+    solid = [p for p in trade if p.get("tier") != "golden"] if r["breaker"][2] else []
     watch = [p for p in picks if status(p)[0] == "watch"]
     skip = [p for p in picks if status(p)[0] == "skip"]
     parts = [f'{len(golden)} golden'] * bool(golden) + [f'{len(solid)} solid'] * bool(solid)
     verdict = f'{" + ".join(parts)} trade{"s" if len(trade) > 1 else ""} ready for the open' if trade else "No trades today"
-    sub = f'{len(watch)} on the watchlist · {len(skip)} skipped' + (" · cluster day: strongest historical edge" if r["n_dip"] >= 10 else "")
+    risk = sum(p["size"]["risk"] for p in golden + solid[:3] if p.get("size"))
+    brk = f'<p class="brk">{E(r["breaker"][1])}</p>' if r["breaker"][1] else ""
+    sub = (f'Golden + top 3 Solid together risk about ${risk:,.0f} ({risk / ACCOUNT * 100:.1f}% of the account) · ' if trade else "") + \
+          f'{len(watch)} on the watchlist · {len(skip)} skipped' + (" · cluster day: strongest historical edge" if r["n_dip"] >= 10 else "")
     note = r.get("note")
     note_html = (f'<section class="panel"><h2>Morning note <span class="chip">{E(note.get("mood", ""))}</span></h2><ul class="bul">'
                  + "".join(f"<li>{E(b)}</li>" for b in note["bullets"]) + f'</ul><p class="mut">{E(r["ai_source"] or "")}</p></section>') if note else ""
@@ -493,7 +525,9 @@ def render(r):
     done = [t for t in r["track"] if t["ret"] is not None and t["status"] != "open"]
     summ = (f'<b>{len(done)}</b> closed · <b>{sum(t["ret"] > 0 for t in done) / len(done) * 100:.0f}%</b> won · '
             f'<b>{sum(t["ret"] for t in done) / len(done):+.2f}%</b> average' if done else "No closed trades yet.")
-    track_html = (f'<p>{summ} <span class="mut">(10-year backtest, after costs: 65-70% won, +0.7% to +1.5% average)</span></p><table>'
+    tiers = " · ".join(f'{n}: {sum(t["ret"] > 0 for t in x)}/{len(x)} won, {sum(t["ret"] for t in x) / len(x):+.1f}% avg'
+                       for n, x in (("Golden", [t for t in done if t.get("tier") == "golden"]), ("Solid", [t for t in done if t.get("tier") == "solid"])) if x)
+    track_html = (f'<p>{summ}{"<br>" + tiers if tiers else ""} <span class="mut">(10-year backtest, after costs: 65-70% won, +0.7% to +1.5% average)</span></p><table>'
                   + "".join(f'<tr><td>{t["asof"]}</td><td><b>{E(t["t"])}</b></td><td>{E(t["status"])}</td>'
                             f'<td class="num {sign(t["ret"] or 0)}">{fmt_ret(t["ret"])}</td></tr>' for t in reversed(r["track"][-15:])) + "</table>")
     def section(title, sub, items):
@@ -508,7 +542,7 @@ def render(r):
             '<title>Swing Desk</title><meta name="robots" content="noindex"><meta name="theme-color" content="#0b0e13">'
             f'<style>{CSS}</style></head><body><main>'
             f'<header><h1>SWING <b>DESK</b></h1><span class="mut">{il:%a %d %b, %H:%M} Israel · prices as of {r["asof"]} close</span></header>'
-            f'<div class="hero"><b>{verdict}</b><p class="mut">{sub}</p>{how}</div>'
+            f'<div class="hero"><b>{verdict}</b><p class="mut">{sub}</p>{brk}{how}</div>'
             f'<div class="strip">{macro_html}</div><div class="strip">{breadth_html}</div>{note_html}'
             + section("Golden trades", "Crash-day dips: rare, the strongest edge in the backtest. Take these first.", [card(p, r["asof"]) for p in golden])
             + section("Solid trades", "Everyday pullbacks in strong stocks. Smaller edge: same-day picks move together, so take 1-3, not all.", [card(p, r["asof"]) for p in solid])
