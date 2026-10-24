@@ -392,6 +392,25 @@ def sentiment(a):
     return (f'<div class="sent"><span>News sentiment</span><div class="sbar"><i style="left:{(x + 1) * 50:.0f}%"></i></div>'
             f'<b class="{sign(x)}">{x:+.2f}</b><span class="mut">conf {a.get("sent_conf", 0):.1f}</span></div>')
 
+def ticket(trade, asof):
+    """The order ticket: everything to type into IBKR, one row per trade."""
+    rows = "".join(f'<tr><td><b>{E(p["t"])}</b><span class="tier {p.get("tier", "solid")}">{"Golden" if p.get("tier") == "golden" else "Solid"}</span></td>'
+                   f'<td class="num">${p["buy"]:,.2f}</td><td class="num up">${p["tgt"]:,.2f}</td><td class="num dn">${p["stop"]:,.2f}</td>'
+                   f'<td class="num">{add_trading_days(asof, 6):%a %d}</td></tr>' for p in trade)
+    return ('<div class="tkt"><table><tr class="mut"><td>Stock</td><td class="num">Buy limit</td><td class="num">Take profit</td>'
+            f'<td class="num">Stop loss</td><td class="num">Exit by</td></tr>{rows}</table></div>')
+
+def next_page(il):
+    d = il.date() + dt.timedelta(1)
+    while d.weekday() >= 5: d += dt.timedelta(1)
+    return d
+
+def watch_row(p, asof):
+    a = (p.get("ai") or {}).get("verdict")
+    return (f'<details class="wrow"><summary><b>{E(p["t"])}</b> <span class="mut">{E(p["name"])}</span>'
+            f'<span class="wmeta">down {abs(p["drop"]):.0f}% · trade if it closes &le; ${p["buy"]:,.2f}'
+            + (f' · AI {E(a.title())}' if a else "") + f'</span></summary>{card(p, asof)}</details>')
+
 def skip_row(p):
     a = p.get("ai") or {}
     return f'<li><b>{E(p["t"])}</b><span>{E(a.get("why", ""))}</span></li>'
@@ -415,7 +434,7 @@ h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)
 .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;margin:12px 0}
 .card.trade{border-color:color-mix(in srgb,var(--up) 45%,var(--line))}
 .card.golden{border:2px solid var(--gold);box-shadow:0 0 0 4px color-mix(in srgb,var(--gold) 14%,transparent)}
-.badge.golden{color:var(--bg);background:var(--gold);border-color:var(--gold)}
+.badge.trade.golden{color:#111;background:var(--gold);border-color:var(--gold)}
 .ch{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .ch h3{margin:0;font-size:22px;letter-spacing:.02em}
 .badge{flex:none;font-size:13px;font-weight:600;padding:5px 11px;border-radius:999px;border:1px solid}
@@ -449,6 +468,13 @@ details{margin-top:6px}summary{cursor:pointer;min-height:44px;display:flex;align
 .skips{list-style:none;padding:0;margin:8px 0 0;background:var(--panel);border:1px solid var(--line);border-radius:14px}
 .skips li{display:grid;grid-template-columns:64px 1fr;gap:10px;padding:12px 16px;border-top:1px solid var(--line);font-size:14px}.skips li:first-child{border-top:0}
 .skips span{color:var(--mut)}
+.hero.go{border-color:var(--up)}
+.tkt{margin-top:12px;overflow-x:auto}.tkt table{font-size:14px}.tkt td{white-space:nowrap;padding:8px 4px}.hero .tkt b{font-size:16px;display:inline}.tkt .tier{display:table;margin:3px 0 0}
+.tier{margin-left:8px;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;border:1px solid var(--up);color:var(--up)}
+.tier.golden{background:var(--gold);border-color:var(--gold);color:#111}
+.wrow{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:8px 0;padding:0 14px}
+.wrow>summary{padding:12px 0;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}
+.wrow .wmeta{color:var(--mut);font-size:14px;flex-basis:100%}.wrow .card{border:0;padding:0 0 14px;margin:0;background:none}
 .dd{display:grid;grid-template-columns:96px 1fr;gap:6px 12px;margin:14px 0 0;padding:12px 0 0;border-top:1px solid var(--line);font-size:14px}
 .dd dt{color:var(--mut)}.dd dd{margin:0}
 .sent{display:flex;align-items:center;gap:10px;margin:8px 0;font-size:14px}.sent>span:first-child{color:var(--mut)}.sent span{white-space:nowrap}
@@ -474,7 +500,10 @@ def render(r):
     skip = [p for p in picks if status(p)[0] == "skip"]
     parts = [f'{len(golden)} golden'] * bool(golden) + [f'{len(solid)} solid'] * bool(solid)
     verdict = f'{" + ".join(parts)} trade{"s" if len(trade) > 1 else ""} ready for the open' if trade else "No trades today"
-    sub = f'{len(watch)} on the watchlist · {len(skip)} skipped' + (" · cluster day: strongest historical edge" if r["n_dip"] >= 10 else "")
+    nxt = next_page(il)
+    sub = (("Place these before the US open (16:30 Israel). Details below." if trade else
+            f"Nothing qualifies. Doing nothing is the trade. Next page: {nxt:%a %d %b}, 07:30.")
+           + (" Cluster day: the strongest historical edge." if r["n_dip"] >= 10 else ""))
     note = r.get("note")
     note_html = (f'<section class="panel"><h2>Morning note <span class="chip">{E(note.get("mood", ""))}</span></h2><ul class="bul">'
                  + "".join(f"<li>{E(b)}</li>" for b in note["bullets"]) + f'</ul><p class="mut">{E(r["ai_source"] or "")}</p></section>') if note else ""
@@ -504,33 +533,56 @@ def render(r):
              + "".join(skip_row(p) for p in skip) + '</ul></section>') if skip else ""
     how = ('<details><summary>How to use this page</summary><p class="mut">Only cards under <b>Golden trades</b> and <b>Solid trades</b> are trades. Golden first; from Solid take 1-3. '
            'Before 16:30 Israel time, place a limit buy at the buy price and attach a take-profit and a stop-loss (good-til-cancelled). '
-           'If it opens above the buy price, skip it. Sell by the exit date whatever happens. All open trades together should risk '
-           'at most 1-2% of your account. Not financial advice.</p></details>')
+           'If it opens above the buy price, skip it. Sell by the exit date whatever happens. Not financial advice.</p></details>')
     return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>Swing Desk</title><meta name="robots" content="noindex"><meta name="theme-color" content="#0b0e13">'
             f'<style>{CSS}</style></head><body><main>'
             f'<header><h1>SWING <b>DESK</b></h1><span class="mut">{il:%a %d %b, %H:%M} Israel · prices as of {r["asof"]} close</span></header>'
-            f'<div class="hero"><b>{verdict}</b><p class="mut">{sub}</p>{how}</div>'
-            f'<div class="strip">{macro_html}</div><div class="strip">{breadth_html}</div>{note_html}'
+            f'<div class="hero{" go" if trade else ""}"><b>{verdict}</b><p class="mut">{sub}</p>{ticket(golden + solid, r["asof"]) if trade else ""}{how}</div>'
             + section("Golden trades", "Crash-day dips: rare, the strongest edge in the backtest. Take these first.", [card(p, r["asof"]) for p in golden])
-            + section("Solid trades", "Everyday pullbacks in strong stocks. Smaller edge: same-day picks move together, so take 1-3, not all.", [card(p, r["asof"]) for p in solid])
-            + section("Watchlist", "Not trades yet. Each shows the price that would turn it into one.", [card(p, r["asof"]) for p in watch])
-            + skips
-            + '<h2>Market</h2><div class="grid2">'
+            + section("Solid trades", "Everyday pullbacks in strong stocks. Smaller edge, and same-day picks tend to move together.", [card(p, r["asof"]) for p in solid])
+            + section("Watchlist", "Not trades. Tap one to see the plan if it triggers.", [watch_row(p, r["asof"]) for p in watch])
+            + note_html
+            + f'<h2>Market</h2><div class="strip">{macro_html}</div><div class="strip">{breadth_html}</div><div class="grid2">'
             f'<section class="panel"><h2>Sector money flow</h2><table><tr><td class="mut">Sector</td><td class="num mut">5 days</td><td class="num mut">20 days</td></tr>{sec_html}</table></section>'
             f'<section class="panel"><h2>US data this week</h2><table>{cal_html or "<tr><td class=mut>No major US data</td></tr>"}</table>'
             f'<h2>Earnings next 5 days</h2><table>{earn_html}</table></section></div>'
             f'<section class="panel"><h2>Headlines</h2><ul class="news">{news_html}</ul></section>'
-            f'<section class="panel"><h2>Track record</h2>{track_html}</section>'
+            + skips
+            + f'<section class="panel"><h2>Track record</h2>{track_html}</section>'
             '<p class="mut" style="margin-top:28px">Confidence = how often this exact setup won over 10 years of S&amp;P 500 and 400 stocks, '
             'after 0.15% costs and with gaps through the stop filled at the open, recomputed daily. Minus 1 for news-sized volume or an AI caution. '
             'Desk data and news sentiment are context, not part of the tested edge. Not financial advice.</p>'
             '</main></body></html>')
 
+def notify(r):
+    """Push each new Golden trade to the phone via ntfy.sh (free app, private random topic in .ntfy_topic, gitignored)."""
+    tf, seen_f = os.path.join(desk.HERE, ".ntfy_topic"), os.path.join(desk.HERE, "logs", "notified.json")
+    if not os.path.exists(tf): return
+    topic = open(tf).read().strip()
+    seen = json.load(open(seen_f)) if os.path.exists(seen_f) else []
+    for p in r["picks"]:
+        if p["kind"] != "SIGNAL" or p.get("tier") != "golden" or status(p)[0] == "skip" or f'{r["asof"]}:{p["t"]}' in seen: continue
+        a, s = p.get("ai") or {}, p["s"]
+        body = (f'BUY limit ${p["buy"]:,.2f} or lower at the US open (16:30 Israel). Skip if it opens above.\n'
+                f'TAKE PROFIT ${p["tgt"]:,.2f} (+{pct(p["tgt"], p["buy"]):.1f}%), sell limit GTC\n'
+                f'STOP LOSS ${p["stop"]:,.2f} ({pct(p["stop"], p["buy"]):.1f}%), stop order GTC\n'
+                f'EXIT BY {add_trading_days(r["asof"], 6):%a %d %b} at the close\n'
+                f'CONFIDENCE {p["conf"]:.1f}/10: similar setups won {s["win"]:.0f}% of {s["n"]}, avg {s["avg"]:+.1f}%\n'
+                + (f'AI {a["verdict"]}: {a.get("why", "")}\n' if a else "")
+                + (f'Coming up: {a["catalysts"]}' if a.get("catalysts") else ""))
+        req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=body.encode(), headers={
+            "Title": f'GOLDEN TRADE: {p["t"]} {p["name"]}'.encode("ascii", "ignore").decode(), "Priority": "urgent",
+            "Tags": "moneybag", "Click": "https://swing-desk-five.vercel.app/"})
+        try: urllib.request.urlopen(req, timeout=15); seen.append(f'{r["asof"]}:{p["t"]}')
+        except Exception as e: print("notify failed", p["t"], e)
+    json.dump(seen[-200:], open(seen_f, "w"))
+
 if __name__ == "__main__":
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     r = build()
     open(OUT, "w").write(render(r))
+    if "--notify" in sys.argv: notify(r)
     # picks.json: committed by the workflow, read by the Claude research routine (its sandbox can't reach Yahoo)
     json.dump(dict(asof=r["asof"], picks=[{k: v for k, v in p.items() if k != "ai"} for p in r["picks"]],
                    macro=r["macro"], sectors=r["sectors"], news=r["news"], cal=[(str(w), *x) for w, *x in r["cal"]]),

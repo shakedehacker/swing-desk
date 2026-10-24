@@ -22,7 +22,7 @@ claude -p "$(cat research.md)" --model sonnet --output-format json --permission-
   && python3 -c "import json;d=json.load(open('logs/research.json'));u=d['usage'];print('research turns',d.get('num_turns'),'tokens',sum(u.get(k,0) for k in ('input_tokens','cache_creation_input_tokens','cache_read_input_tokens','output_tokens')))" \
   || echo "research failed: publishing without AI"
 
-python3 report.py
+python3 report.py --notify  # final render: push new Golden trades to the phone
 cd site
 url=$(npx vercel deploy --prod --yes || NODE_OPTIONS="--require $PWD/../dnsfix.js" npx vercel deploy --prod --yes)
 # promote explicitly: after any manual promote/rollback Vercel stops auto-assigning the production domain

@@ -5,3 +5,4 @@ charts.png
 positions.json
 __pycache__/
 logs/
+.ntfy_topic
