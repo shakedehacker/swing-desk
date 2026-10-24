@@ -15,7 +15,7 @@
    "ed": 2,
    "name": "Freeport-McMoRan, Inc.",
    "drop": -6.269773587791305,
-   "rvol": 1.0097735482141068,
+   "rvol": 1.0105511383077552,
    "dd": {
     "short": 0.0176,
     "dtc": 2.18,
@@ -34,8 +34,8 @@
       "date": "2026-10-19"
      }
     ],
-    "iv": 0.5473067730712892,
-    "imove": 6.895417201942351
+    "iv": 0.5850261224365235,
+    "imove": 7.3706363354450755
    },
    "news": [
     [
@@ -75,12 +75,6 @@
      "Wed, 21 Oct 2026 11:25:00 +0000"
     ],
     [
-     "FCX Stock Quote Price and Forecast - CNN",
-     "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiZ0ZWM3BMMlc4T1lZbWk1dDhfSW1iV0RYdk44VjRTSmNPT3NGSjVIdkhNWkVKOHFVTEh5N0h1cGdQVndDX1FmVHNudlMzVk0?oc=5",
-     "CNN",
-     "Wed, 21 Oct 2026 20:15:23 GMT"
-    ],
-    [
      "Freeport-McMoRan (FCX) Stock Sinks As Market Gains: What You Should Know - Yahoo Finance",
      "https://news.google.com/rss/articles/CBMingFBVV95cUxNdGQ5MEpZaDVQUlFVN0thUFBlN0pWdko5SkhuOTJqUHlIM2pQVE9TRHFlMWo2TzlDRmkyWjZjZnBlLWViczVZNXRySVFJZ3FBaWIzZVFsaTNnTUZWSzVqNm03Ukl6OGRuQmd2LXdldE16NUtEYjNWSWFqOXo1OVpROXhRQ1VJV3dGSVE2N1ZoNTJYMVdjcXBrVHF1VmlWZw?oc=5",
      "Yahoo Finance",
@@ -97,6 +91,12 @@
      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdXJUdEFSb0xocXkwMmFZLW1DWmlhcXVxZEIwSjFuQ2YtMHBwSG9UdE9xd3o3SWpRYUFTLUVQc2dtbldITmdiNlc2NzhRLUFZZHg5YlFRcUQ1T3NnTGtPMG9MUFVQZDMzNmxzRUgwOURfQlRXNERVTF8wZjV6UDBhRVJRZVg0TmhOTjVHZ0poVW1wSFB0MnVJVnlMcDdfbkpua2JWUXo3TklwcGNzNTlJWGxR?oc=5",
      "GuruFocus",
      "Thu, 22 Oct 2026 22:01:33 GMT"
+    ],
+    [
+     "Copper prices slide to five-week lows as AI-related stock selloff hits sentiment (FCX:NYSE) - Seeking Alpha",
+     "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWW0xRGFhY2haM05VNWx1V2N1aF9VeUxBdm5RVnZCYW10M3VuR3ZjbVhvY1BNTG13cEpwXzhWdzlidkdiRXdqMFBMYWhGd0FNVHZwRnJ5OHdMTFVENExfQ3hXR1pqaTJ4TzNRYmx1M2FiWjE3WXcxUW5tRVZGNWlsV0hGU3AwTGJ4VjFfUndjM2tNSVhJbUhaQ09NSEdIR1ZELVdHcmlQT21acEk2ME56X2dSbUxUUUhtbUE?oc=5",
+     "Seeking Alpha",
+     "Thu, 22 Oct 2026 12:43:21 GMT"
     ]
    ]
   }
@@ -104,13 +104,13 @@
  "macro": [
   [
    "S&P fut",
-   7672.5,
-   -0.41534168
+   7659.75,
+   -0.5808294
   ],
   [
    "Nasdaq fut",
-   29175.0,
-   0.113238625
+   29117.75,
+   -0.08321323
   ],
   [
    "VIX",
@@ -124,23 +124,23 @@
   ],
   [
    "Brent",
-   111.66,
-   2.7609055
+   111.7,
+   2.7977114
   ],
   [
    "Gold",
-   4010.0,
-   -1.2412547
+   4007.9,
+   -1.2929761
   ],
   [
    "Bitcoin",
-   80853.86,
-   -0.5559733
+   80709.3,
+   -0.9241165
   ],
   [
    "Dollar",
    101.752,
-   0.1427034
+   -0.056967545
   ]
  ],
  "sectors": [
@@ -218,10 +218,34 @@
    "Fri, 23 Oct 2026 21:26:59 GMT"
   ],
   [
-   "Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+   "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
    "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
    "CNBC",
-   "Fri, 23 Oct 2026 22:49:04 GMT"
+   "Sat, 24 Oct 2026 06:41:14 GMT"
+  ],
+  [
+   "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
+   "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+   "CNBC",
+   "Sat, 24 Oct 2026 06:23:02 GMT"
+  ],
+  [
+   "What a day in customer service looks like \u2014 as AI changes everything",
+   "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
+   "CNBC",
+   "Sat, 24 Oct 2026 05:00:01 GMT"
+  ],
+  [
+   "AI's 'Black October':\u00a0Critical PHP flaws set off global security scramble",
+   "https://www.cnbc.com/2026/10/23/php-vulnerabilities-ai-cybersecurity.html",
+   "CNBC",
+   "Fri, 23 Oct 2026 16:55:37 GMT"
+  ],
+  [
+   "TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC",
+   "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
+   "CNBC",
+   "Fri, 23 Oct 2026 15:35:36 GMT"
   ],
   [
    "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
@@ -236,28 +260,10 @@
    "Fri, 23 Oct 2026 22:49:42 GMT"
   ],
   [
-   "AI's 'Black October':\u00a0Critical PHP flaws set off global security scramble",
-   "https://www.cnbc.com/2026/10/23/php-vulnerabilities-ai-cybersecurity.html",
-   "CNBC",
-   "Fri, 23 Oct 2026 16:55:37 GMT"
-  ],
-  [
-   "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
-   "https://www.cnbc.com/2026/10/23/apple-iphone-duo-china-launch.html",
-   "CNBC",
-   "Fri, 23 Oct 2026 20:06:37 GMT"
-  ],
-  [
-   "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
-   "https://www.cnbc.com/2026/10/23/meta-shares-rough-week-mike-khouw-is-buying.html",
-   "CNBC",
-   "Fri, 23 Oct 2026 19:25:18 GMT"
-  ],
-  [
-   "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
-   "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
-   "CNBC",
-   "Fri, 23 Oct 2026 20:52:23 GMT"
+   "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?",
+   "https://www.marketwatch.com/story/my-spouse-was-awarded-90-000-from-my-401-k-in-our-divorce-how-is-that-fair-dc839aa3?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Sat, 24 Oct 2026 07:00:00 GMT"
   ],
   [
    "\u2018I don\u2019t feel sorry for myself\u2019: I\u2019m 64 and will be renting for the rest of my life. Is that so bad?",
@@ -290,22 +296,22 @@
    "Fri, 23 Oct 2026 21:11:00 GMT"
   ],
   [
-   "The real test for Moderna\u2019s cancer vaccine isn\u2019t about beating Keytruda. It\u2019s keeping cancer from coming back in the long term.",
-   "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Fri, 23 Oct 2026 21:06:00 GMT"
-  ],
-  [
    "Wall Street closes lower to end rocky week - Reuters",
    "https://news.google.com/rss/articles/CBMingFBVV95cUxQR01KeXBjdXBubVRzTlJfWWJTMHctb2hFS2pVT21ydWtZNzBaMldxd1c2ZUJGNWhIeGV6MUxvQVZvSl9GdFh5QThQbFpuT0IwYi02Y3JGM19YSWJ3LXMtb29RbS1WZUljdGtsS2dockxHVm5SWnBSMzJpM0Y4RFItdW5SMzFsdXg2LWtrYWE1SC1TQlkxOERJZHNtQVREdw?oc=5",
    "Reuters",
-   "Fri, 23 Oct 2026 20:31:14 GMT"
+   "Fri, 23 Oct 2026 23:46:35 GMT"
+  ],
+  [
+   "If I Could Tell Every Investor 1 Thing About Stock Market Crashes, It Would Be This - The Motley Fool",
+   "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVGZmWWNZNHFfRHVxX3RKZFFGbnhHTXkzYTJMTzREQ012enVTQTNKZ2NkM0ZkNV9scDduXy02MXNyVTJMTERBUjlJUnlnMHp5clBQLUlpS2V5R2g5eUlmRHhfUXk2d2dKUVpldWNJTzFaTEVCS0VYd3ZSaGJtZWRFNjlYOFhJa2phV3lpOVJmamhzcXJlRUk1eg?oc=5",
+   "The Motley Fool",
+   "Sat, 24 Oct 2026 05:56:26 GMT"
   ],
   [
    "AI pixie dust is losing its stock market power - Axios",
    "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ILUtHNDlPMWRZdXNwQXlnTnQtVE8zTTJBUmtzVTVudzJMRTV1dHRsRFFsd3puWEJGR0Q0dTZtMXYtbGM3Z3hPZUg1MUR4dVZCMzJGOUMwcWU2MVp3YzR6Tm5fYUZwN3d4Y2NvaDFLV3U?oc=5",
    "Axios",
-   "Fri, 23 Oct 2026 21:37:47 GMT"
+   "Fri, 23 Oct 2026 22:38:36 GMT"
   ],
   [
    "New York stock market closes week lower - Anadolu Ajans\u0131",
@@ -314,22 +320,16 @@
    "Fri, 23 Oct 2026 21:14:35 GMT"
   ],
   [
-   "Weekly Market Update: Stocks Flat as Energy Rises, Communication Services Fall - Morningstar",
-   "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeFpJTzJIblpDeEo3VTFmZ0F2X21Xc1J3aVVwRHdwOEtLYXhvWUNKVG9DQXBjTUpDYThWZWprcG1NWGNWdGhaa3djSHVGYU1aMjl4cHNZXzJSMDZMU21MUV9rb0FDRkVHYzgtMVViczJtYlVxSlRjX0lwN1J6ai1LcHJ3VVE3MXgteFY4d1BLaml2cGwxa2hmNjhjR0RNekdtRFRCcElhVGZuYlNHM2c?oc=5",
-   "Morningstar",
-   "Fri, 23 Oct 2026 21:15:05 GMT"
+   "Wall Street mostly loses ground under pressure from rising oil prices - Pittsburgh Post-Gazette",
+   "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOUNWMExKdUdLSk4zYVlEdU9Objhna2g5d0VvZlNTTjJfSXlVN015Rmt4eG9SYkUwbUFrc2tXSVV4REs0eUNFSHFOWHluM3k2ZThQVkpOYlJrMEtIOVNUZmNmUEJWdWVqdExGSEtIVzdadEZnRzdfTzVkNmlRcWRlc1JVWVk0Ui1RM2lMVi11X0dsWXNxbl9xM09LZkc0MkRTS0R2Q3hPWGtrSEhVeVpJ?oc=5",
+   "Pittsburgh Post-Gazette",
+   "Sat, 24 Oct 2026 05:40:08 GMT"
   ],
   [
-   "Stocks Fall as Oil Rally Keeps a Lid on Treasuries: Markets Wrap - Bloomberg",
-   "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGVVVVZBVjRRcTNYSXJlNS0tV0E5MkEwOVlGcTh3anZ1eC16ZEdSYmp5ODRIcUo1T3BkU01vNkpTTmJxOUFELVFUUG9SS0o2SDNSWHQ5bE9PVGp3a29vLUROenZwc2FBTnhMQ3VOR1B4SVJiZjFvaDV6TjMwUlg3dUlQcmlkdUJXZU5PbXE2YWtrZXN1?oc=5",
-   "Bloomberg",
-   "Fri, 23 Oct 2026 20:05:55 GMT"
-  ],
-  [
-   "The U.S. stock market is fracturing into two camps, and it\u2019s leaving investors with a brutal case of whiplash - MarketWatch",
-   "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNR2VKQkQxR3RUaVlmUkhsV1VzOE9Jc1Y1R0NOVE8wZGRtWUpZX3FHbkZFMWNfWjlqejNUQzFvd1F5TmZoaFZsN0JlbkRVUjVVdlFNMW16cXZPWVNsSjE5RDlsTU1NZm8xOWZVSm1zNEdHYV9tVWtMMlhodXdsVzhVb1dyT1d6dnRtb01KQUhidmZTcVN2RkpZMXJMS2lpbEdmMGU3ZUY4emdHWjRaUXo2M0E5ZU9WTHNvVjg2Wjg2QnJFcEtpZWVjYWRqVm1Gem1abHNDRVFMX3AzaF90bG40LWljcw?oc=5",
-   "MarketWatch",
-   "Fri, 23 Oct 2026 10:29:00 GMT"
+   "Mixed Signals With Big Earnings Due; CrowdStrike, Ethos, CSX, Microsoft In Focus - Video - Investor's Business Daily",
+   "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5QMTlBbmZja0d0a2lrSURwaGNRY0MwOTh5NE1EaGZPVlFOQW5ZNTRWdzUyQ3RHNS1wM2Y0YlVFX3dJZTNaRUZyNF91ODk?oc=5",
+   "Investor's Business Daily",
+   "Fri, 23 Oct 2026 21:00:00 GMT"
   ]
  ],
  "cal": []

@@ -493,7 +493,9 @@ def render(r):
     done = [t for t in r["track"] if t["ret"] is not None and t["status"] != "open"]
     summ = (f'<b>{len(done)}</b> closed · <b>{sum(t["ret"] > 0 for t in done) / len(done) * 100:.0f}%</b> won · '
             f'<b>{sum(t["ret"] for t in done) / len(done):+.2f}%</b> average' if done else "No closed trades yet.")
-    track_html = (f'<p>{summ} <span class="mut">(10-year backtest, after costs: 65-70% won, +0.7% to +1.5% average)</span></p><table>'
+    tiers = " · ".join(f'{n}: {sum(t["ret"] > 0 for t in x)}/{len(x)} won, {sum(t["ret"] for t in x) / len(x):+.1f}% avg'
+                       for n, x in (("Golden", [t for t in done if t.get("tier") == "golden"]), ("Solid", [t for t in done if t.get("tier") == "solid"])) if x)
+    track_html = (f'<p>{summ}{"<br>" + tiers if tiers else ""} <span class="mut">(10-year backtest, after costs: 65-70% won, +0.7% to +1.5% average)</span></p><table>'
                   + "".join(f'<tr><td>{t["asof"]}</td><td><b>{E(t["t"])}</b></td><td>{E(t["status"])}</td>'
                             f'<td class="num {sign(t["ret"] or 0)}">{fmt_ret(t["ret"])}</td></tr>' for t in reversed(r["track"][-15:])) + "</table>")
     def section(title, sub, items):
