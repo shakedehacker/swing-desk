@@ -300,6 +300,11 @@ def add_trading_days(d, n):
         if d.weekday() < 5: n -= 1
     return d
 
+def open_il(asof):
+    """US open (09:30 New York) in Israel time on the next trading day; shifts when only one country has changed clocks."""
+    d = add_trading_days(asof, 1)
+    return dt.datetime(d.year, d.month, d.day, 9, 30, tzinfo=ZoneInfo("America/New_York")).astimezone(ZoneInfo("Asia/Jerusalem")).strftime("%H:%M")
+
 def status(p):
     v = (p.get("ai") or {}).get("verdict")
     if v == "VETO": return "skip", "Skip"
@@ -330,7 +335,7 @@ def card(p, asof):
                 f'usually within {p["days"]} trading days.' if p.get("tier") == "golden" else
                 f'Down {abs(p["drop"]):.0f}% in 5 days and closed near the day\'s low, while its long-term uptrend holds. '
                 f'Buy the pullback at the open, sell the bounce to its 5-day average, usually within {p["days"]} trading days.')
-        steps = (f'<li><span>Buy</span><div><b>Limit at ${p["buy"]:,.2f} or lower</b> at the US open (16:30 Israel). '
+        steps = (f'<li><span>Buy</span><div><b>Limit at ${p["buy"]:,.2f} or lower</b> at the US open ({open_il(asof)} Israel). '
                  f'If it opens above that, skip it.</div></li>'
                  f'<li><span>Take profit</span><div><b class="up">${p["tgt"]:,.2f}</b> <i>+{up:.1f}%</i> · sell limit, good-til-cancelled</div></li>'
                  f'<li><span>Stop loss</span><div><b class="dn">${p["stop"]:,.2f}</b> <i>{down:.1f}%</i> · stop order, good-til-cancelled</div></li>'
@@ -501,7 +506,7 @@ def render(r):
     parts = [f'{len(golden)} golden'] * bool(golden) + [f'{len(solid)} solid'] * bool(solid)
     verdict = f'{" + ".join(parts)} trade{"s" if len(trade) > 1 else ""} ready for the open' if trade else "No trades today"
     nxt = next_page(il)
-    sub = (("Place these before the US open (16:30 Israel). Details below." if trade else
+    sub = ((f"Place these before the US open ({open_il(r['asof'])} Israel). Details below." if trade else
             f"Nothing qualifies. Doing nothing is the trade. Next page: {nxt:%a %d %b}, 07:30.")
            + (" Cluster day: the strongest historical edge." if r["n_dip"] >= 10 else ""))
     note = r.get("note")
@@ -532,7 +537,7 @@ def render(r):
     skips = (f'<section><h2>Skipped</h2><p class="mut">Looked at, then ruled out.</p><ul class="skips">'
              + "".join(skip_row(p) for p in skip) + '</ul></section>') if skip else ""
     how = ('<details><summary>How to use this page</summary><p class="mut">Only cards under <b>Golden trades</b> and <b>Solid trades</b> are trades. Golden first; from Solid take 1-3. '
-           'Before 16:30 Israel time, place a limit buy at the buy price and attach a take-profit and a stop-loss (good-til-cancelled). '
+           f'Before {open_il(r["asof"])} Israel time, place a limit buy at the buy price and attach a take-profit and a stop-loss (good-til-cancelled). '
            'If it opens above the buy price, skip it. Sell by the exit date whatever happens. Not financial advice.</p></details>')
     return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>Swing Desk</title><meta name="robots" content="noindex"><meta name="theme-color" content="#0b0e13">'
@@ -564,7 +569,7 @@ def notify(r):
     for p in r["picks"]:
         if p["kind"] != "SIGNAL" or p.get("tier") != "golden" or status(p)[0] == "skip" or f'{r["asof"]}:{p["t"]}' in seen: continue
         a, s = p.get("ai") or {}, p["s"]
-        body = (f'BUY limit ${p["buy"]:,.2f} or lower at the US open (16:30 Israel). Skip if it opens above.\n'
+        body = (f'BUY limit ${p["buy"]:,.2f} or lower at the US open ({open_il(r["asof"])} Israel). Skip if it opens above.\n'
                 f'TAKE PROFIT ${p["tgt"]:,.2f} (+{pct(p["tgt"], p["buy"]):.1f}%), sell limit GTC\n'
                 f'STOP LOSS ${p["stop"]:,.2f} ({pct(p["stop"], p["buy"]):.1f}%), stop order GTC\n'
                 f'EXIT BY {add_trading_days(r["asof"], 6):%a %d %b} at the close\n'

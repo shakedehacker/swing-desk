@@ -34,8 +34,8 @@
       "date": "2026-10-19"
      }
     ],
-    "iv": 0.5850261224365235,
-    "imove": 7.3706363354450755
+    "iv": 0.5492293612670899,
+    "imove": 6.919639536417003
    },
    "news": [
     [
@@ -134,8 +134,8 @@
   ],
   [
    "Bitcoin",
-   80709.3,
-   -0.9241165
+   80464.69,
+   -0.17283572
   ],
   [
    "Dollar",
@@ -212,125 +212,189 @@
  ],
  "news": [
   [
-   "Trump dropping some Canada tariffs but 'replacing' them with other products",
-   "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
+   "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
+   "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
    "CNBC",
-   "Fri, 23 Oct 2026 21:26:59 GMT"
+   "Sat, 24 Oct 2026 14:30:01 GMT"
   ],
   [
-   "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-   "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+   "Democrats, voting-rights groups challenge Trump's bid to block Alaska Senate certification",
+   "https://www.cnbc.com/2026/10/24/alaska-senate-doj-certification-lawsuit.html",
    "CNBC",
-   "Sat, 24 Oct 2026 06:41:14 GMT"
+   "Sat, 24 Oct 2026 19:57:24 GMT"
+  ],
+  [
+   "Why popular airplanes are getting scrapped years early",
+   "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+   "CNBC",
+   "Sat, 24 Oct 2026 15:18:30 GMT"
   ],
   [
    "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
    "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
    "CNBC",
-   "Sat, 24 Oct 2026 06:23:02 GMT"
+   "Sun, 25 Oct 2026 08:06:11 GMT"
   ],
   [
-   "What a day in customer service looks like \u2014 as AI changes everything",
-   "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
+   "After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement",
+   "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
    "CNBC",
-   "Sat, 24 Oct 2026 05:00:01 GMT"
+   "Sat, 24 Oct 2026 20:38:30 GMT"
   ],
   [
-   "AI's 'Black October':\u00a0Critical PHP flaws set off global security scramble",
-   "https://www.cnbc.com/2026/10/23/php-vulnerabilities-ai-cybersecurity.html",
+   "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+   "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
    "CNBC",
-   "Fri, 23 Oct 2026 16:55:37 GMT"
+   "Sat, 24 Oct 2026 11:00:01 GMT"
   ],
   [
-   "TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC",
-   "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
+   "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+   "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
    "CNBC",
-   "Fri, 23 Oct 2026 15:35:36 GMT"
+   "Sat, 24 Oct 2026 10:59:16 GMT"
   ],
   [
-   "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
-   "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
+   "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
+   "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
    "CNBC",
-   "Fri, 23 Oct 2026 22:27:06 GMT"
+   "Sat, 24 Oct 2026 15:00:01 GMT"
   ],
   [
-   "Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
-   "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html",
-   "CNBC",
-   "Fri, 23 Oct 2026 22:49:42 GMT"
-  ],
-  [
-   "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?",
-   "https://www.marketwatch.com/story/my-spouse-was-awarded-90-000-from-my-401-k-in-our-divorce-how-is-that-fair-dc839aa3?mod=mw_rss_topstories",
+   "My father-in-law, 81, sold his $75,000 home to pay his daughter\u2019s $50,000 debt. How can I keep him from becoming destitute?",
+   "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sat, 24 Oct 2026 07:00:00 GMT"
+   "Sat, 24 Oct 2026 20:15:00 GMT"
   ],
   [
-   "\u2018I don\u2019t feel sorry for myself\u2019: I\u2019m 64 and will be renting for the rest of my life. Is that so bad?",
-   "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+   "\u2018She\u2019s living the dream\u2019: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+   "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
    "MarketWatch",
-   "Fri, 23 Oct 2026 22:49:00 GMT"
+   "Sat, 24 Oct 2026 20:00:00 GMT"
   ],
   [
-   "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-   "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
+   "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids \u2014 and I can\u2019t bear to leave.",
+   "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
    "MarketWatch",
-   "Fri, 23 Oct 2026 22:00:00 GMT"
+   "Sat, 24 Oct 2026 19:45:00 GMT"
   ],
   [
-   "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn\u2019t work out.",
-   "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
+   "Young Americans are giving up on car ownership. It\u2019s a path to financial freedom for some.",
+   "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
    "MarketWatch",
-   "Fri, 23 Oct 2026 21:46:00 GMT"
+   "Sat, 24 Oct 2026 18:45:00 GMT"
   ],
   [
-   "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-   "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
+   "I\u2019m 58 and hate annuities. How can I get dependable income in retirement?",
+   "https://www.marketwatch.com/story/im-58-and-hate-annuities-how-can-i-get-dependable-income-in-retirement-cd6040f4?mod=mw_rss_topstories",
    "MarketWatch",
-   "Fri, 23 Oct 2026 21:13:00 GMT"
+   "Sat, 24 Oct 2026 18:03:00 GMT"
   ],
   [
-   "The mobile ambitions of SpaceX are hitting telecom stocks again. Here\u2019s what the latest developments mean.",
-   "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
+   "I want to pay off $4,500 in credit-card debt in 2 months. Is this possible?",
+   "https://www.marketwatch.com/story/i-want-to-pay-off-4-500-in-credit-card-debt-in-2-months-is-this-possible-059d9a21?mod=mw_rss_topstories",
    "MarketWatch",
-   "Fri, 23 Oct 2026 21:11:00 GMT"
+   "Sat, 24 Oct 2026 17:39:00 GMT"
   ],
   [
-   "Wall Street closes lower to end rocky week - Reuters",
-   "https://news.google.com/rss/articles/CBMingFBVV95cUxQR01KeXBjdXBubVRzTlJfWWJTMHctb2hFS2pVT21ydWtZNzBaMldxd1c2ZUJGNWhIeGV6MUxvQVZvSl9GdFh5QThQbFpuT0IwYi02Y3JGM19YSWJ3LXMtb29RbS1WZUljdGtsS2dockxHVm5SWnBSMzJpM0Y4RFItdW5SMzFsdXg2LWtrYWE1SC1TQlkxOERJZHNtQVREdw?oc=5",
-   "Reuters",
-   "Fri, 23 Oct 2026 23:46:35 GMT"
+   "Prediction: The Stock Market Will Soar After Midterm Elections - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnk3MGlfamUxQlpHU1FlTDhyME9QYXVsU0J3VVFrZFlzT2E4NElsN0V5b0p6WDVKUGJsdWs2VjZrZXBjSHBWUHprcXpkUHBaMWxZUTJHWmdTcmh6cy1mVk93cm0yN1JPRzNubXZ4VGJ6VGIzV3NIUGtoeE9rTFRmUHQwVVQzNGhaV1Bnei1zcXZ3UzF4U2dndnJVYlAwM09fbWlB?oc=5",
+   "Yahoo Finance",
+   "Sun, 25 Oct 2026 03:05:00 GMT"
   ],
   [
-   "If I Could Tell Every Investor 1 Thing About Stock Market Crashes, It Would Be This - The Motley Fool",
-   "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVGZmWWNZNHFfRHVxX3RKZFFGbnhHTXkzYTJMTzREQ012enVTQTNKZ2NkM0ZkNV9scDduXy02MXNyVTJMTERBUjlJUnlnMHp5clBQLUlpS2V5R2g5eUlmRHhfUXk2d2dKUVpldWNJTzFaTEVCS0VYd3ZSaGJtZWRFNjlYOFhJa2phV3lpOVJmamhzcXJlRUk1eg?oc=5",
+   "This Stock Market Metric Warns History May Be Repeating Itself. Here's How the Smartest Investors Are Preparing. - The Motley Fool",
+   "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNXVNZU1GZXRuaE54OUlOeTlxdlZESVFMbkNNb0Vrb2VOc1NjVEFkY3Z4QzQxR1dDWnpZUmlGNzdXMHJKaDZieWRHOGYzNUdUd0FrYWpIM0tPN1FlWWFFMXAyV2lKOTFwVUJmcjlvMmJiNGZzRF9qV1pQVExGZmRtclFvR2phazBUOVFqSnJCUTRHZndPUmcxNw?oc=5",
    "The Motley Fool",
-   "Sat, 24 Oct 2026 05:56:26 GMT"
+   "Sun, 25 Oct 2026 07:18:01 GMT"
   ],
   [
    "AI pixie dust is losing its stock market power - Axios",
    "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ILUtHNDlPMWRZdXNwQXlnTnQtVE8zTTJBUmtzVTVudzJMRTV1dHRsRFFsd3puWEJGR0Q0dTZtMXYtbGM3Z3hPZUg1MUR4dVZCMzJGOUMwcWU2MVp3YzR6Tm5fYUZwN3d4Y2NvaDFLV3U?oc=5",
    "Axios",
-   "Fri, 23 Oct 2026 22:38:36 GMT"
+   "Sat, 24 Oct 2026 21:32:54 GMT"
   ],
   [
-   "New York stock market closes week lower - Anadolu Ajans\u0131",
-   "https://news.google.com/rss/articles/CBMihwFBVV95cUxOU00tTTNrS1BMdFhaM0NQU1ZQWTU5bWZrb0dxaHppQXEwY2V0M3dpWW92OHZ1N0pNNERCUzNUTmRGeFRxQ0wzUmJ6TmZHVmVWZmlwLWUzVHdOQnc4UnhfREhlUVFDaGJpVkN2emR5b01vdmxLV3FaRndUd2JuMndJM1FUTHNwOEU?oc=5",
-   "Anadolu Ajans\u0131",
-   "Fri, 23 Oct 2026 21:14:35 GMT"
+   "The Earnings Boom Is Heavily Reliant on Just a Handful of Stocks - WSJ",
+   "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaHhLUi1IeDVOLXZPSmlYYVpxRnZDUVBiMDRTTUdtMnQxRE5DcEUyenlyaWhZWXdfVno3ZU5FUzZUYkg4ODVlY0VDV0hneFdYUG1nX090Wml0dmk4b2NBM2k2QzA2VV9FNUVtM2lVczJGbjc2c3EyVmN2LVVGeUh0ZXllRnMxaUFfcVIyQmVuYXVPVGROeEk4akxUbmxKcElHUXU4eE42TFBwdkVj?oc=5",
+   "WSJ",
+   "Sun, 25 Oct 2026 02:00:00 GMT"
   ],
   [
-   "Wall Street mostly loses ground under pressure from rising oil prices - Pittsburgh Post-Gazette",
-   "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOUNWMExKdUdLSk4zYVlEdU9Objhna2g5d0VvZlNTTjJfSXlVN015Rmt4eG9SYkUwbUFrc2tXSVV4REs0eUNFSHFOWHluM3k2ZThQVkpOYlJrMEtIOVNUZmNmUEJWdWVqdExGSEtIVzdadEZnRzdfTzVkNmlRcWRlc1JVWVk0Ui1RM2lMVi11X0dsWXNxbl9xM09LZkc0MkRTS0R2Q3hPWGtrSEhVeVpJ?oc=5",
-   "Pittsburgh Post-Gazette",
-   "Sat, 24 Oct 2026 05:40:08 GMT"
+   "US MARKETS CALL: Still Proceeding Cautiously - Yardeni QuickTakes",
+   "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWU9md0E5MldyUHVKQkRveGhEc3RqX1gxQWJaM19jbjEtMWIwcWdqN1FJekNPbmlvemRpajlNNFNqUnh6b2hHa0I0Njg0S2t4UWhFQV92d0RsczdTNThGQUk3SFN2d29HNjQxY01VeWxOcjFFUnZNS054TU9ta1EyUGRHd2c?oc=5",
+   "Yardeni QuickTakes",
+   "Sun, 25 Oct 2026 04:03:28 GMT"
   ],
   [
-   "Mixed Signals With Big Earnings Due; CrowdStrike, Ethos, CSX, Microsoft In Focus - Video - Investor's Business Daily",
-   "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5QMTlBbmZja0d0a2lrSURwaGNRY0MwOTh5NE1EaGZPVlFOQW5ZNTRWdzUyQ3RHNS1wM2Y0YlVFX3dJZTNaRUZyNF91ODk?oc=5",
-   "Investor's Business Daily",
-   "Fri, 23 Oct 2026 21:00:00 GMT"
+   "Meet the Ultra-High-Yield Dividend Stock That Has Doubled the S&P 500's Returns This Year - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWRvdkEwRWJIUjkzRjF5Nkd1aC1NNTVoMDVLZjlwWVgtTUJ3ZkJ1NGVfb1ZPcFNMTFR4NUlQVGd2LUFET1l6SnpKOHczY2F6X1IyWXNtUmNRU2FBRGwwWXllVWpNWWM4YUhuYkM0OUxPMWJBVENBZVNVSy1JSXZxQWZ3UWNxT3FqVndheEctYVBpekMyQ1ZKdllBZw?oc=5",
+   "Yahoo Finance",
+   "Sun, 25 Oct 2026 05:38:00 GMT"
   ]
  ],
- "cal": []
+ "cal": [
+  [
+   "2026-10-27 10:00:00-04:00",
+   "CB Consumer Confidence",
+   "Medium",
+   "80.5",
+   "81.9"
+  ],
+  [
+   "2026-10-28 14:00:00-04:00",
+   "FOMC Statement",
+   "High",
+   "",
+   ""
+  ],
+  [
+   "2026-10-28 14:00:00-04:00",
+   "Federal Funds Rate",
+   "High",
+   "4.00%",
+   "4.00%"
+  ],
+  [
+   "2026-10-28 14:30:00-04:00",
+   "FOMC Press Conference",
+   "High",
+   "",
+   ""
+  ],
+  [
+   "2026-10-29 08:30:00-04:00",
+   "Advance GDP Price Index q/q",
+   "Medium",
+   "3.5%",
+   "6.2%"
+  ],
+  [
+   "2026-10-29 08:30:00-04:00",
+   "Advance GDP q/q",
+   "High",
+   "3.2%",
+   "1.5%"
+  ],
+  [
+   "2026-10-29 08:30:00-04:00",
+   "Core PCE Price Index m/m",
+   "High",
+   "0.3%",
+   "0.2%"
+  ],
+  [
+   "2026-10-29 08:30:00-04:00",
+   "Unemployment Claims",
+   "Medium",
+   "198K",
+   "194K"
+  ],
+  [
+   "2026-10-30 08:30:00-04:00",
+   "Employment Cost Index q/q",
+   "Medium",
+   "0.8%",
+   "0.9%"
+  ]
+ ]
 }
