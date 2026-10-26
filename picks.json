@@ -12,7 +12,7 @@
    "days": null,
    "conf": null,
    "s": null,
-   "ed": 2,
+   "ed": 1,
    "name": "Freeport-McMoRan, Inc.",
    "drop": -6.269773587791305,
    "rvol": 1.0105511383077552,
@@ -33,9 +33,7 @@
       "prior": 83.0,
       "date": "2026-10-19"
      }
-    ],
-    "iv": 0.5492293612670899,
-    "imove": 6.919639536417003
+    ]
    },
    "news": [
     [
@@ -81,16 +79,16 @@
      "Tue, 20 Oct 2026 20:50:04 GMT"
     ],
     [
-     "Here\u2019s How Much You Would Have Made Owning Freeport-McMoRan Stock In The Last 10 Years - Benzinga",
-     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTEtKWHU1bjRFZXVNb2VrbnZjQ3RxamlRc21XdXlPMTlaTmtnemZQS2Y5QXBFQTlUQzFWTTRyOGExVjEtYVVfbzJ4VmJGOFFHdUJlejBJdVQzRURxclBVZTNHbld3NTZYN1gxeHRpUElsaGVHQXIyWnh3aXRaU0c1Zk01aFNsQ18xX2h3QXp2M3ZnM21lWV9pbm0tQWlBQlBfVHU5RTBjSU9hcUgxWlFnTF9BWEFQN2oyQ3lhekJ4WEZBQQ?oc=5",
-     "Benzinga",
-     "Mon, 19 Oct 2026 15:45:49 GMT"
-    ],
-    [
      "Freeport-McMoRan Inc (FCX) Stock Down 6.3% but Still Overvalued -- GF Score: 84/100 - GuruFocus",
      "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdXJUdEFSb0xocXkwMmFZLW1DWmlhcXVxZEIwSjFuQ2YtMHBwSG9UdE9xd3o3SWpRYUFTLUVQc2dtbldITmdiNlc2NzhRLUFZZHg5YlFRcUQ1T3NnTGtPMG9MUFVQZDMzNmxzRUgwOURfQlRXNERVTF8wZjV6UDBhRVJRZVg0TmhOTjVHZ0poVW1wSFB0MnVJVnlMcDdfbkpua2JWUXo3TklwcGNzNTlJWGxR?oc=5",
      "GuruFocus",
      "Thu, 22 Oct 2026 22:01:33 GMT"
+    ],
+    [
+     "Here\u2019s How Much You Would Have Made Owning Freeport-McMoRan Stock In The Last 10 Years - Benzinga",
+     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTEtKWHU1bjRFZXVNb2VrbnZjQ3RxamlRc21XdXlPMTlaTmtnemZQS2Y5QXBFQTlUQzFWTTRyOGExVjEtYVVfbzJ4VmJGOFFHdUJlejBJdVQzRURxclBVZTNHbld3NTZYN1gxeHRpUElsaGVHQXIyWnh3aXRaU0c1Zk01aFNsQ18xX2h3QXp2M3ZnM21lWV9pbm0tQWlBQlBfVHU5RTBjSU9hcUgxWlFnTF9BWEFQN2oyQ3lhekJ4WEZBQQ?oc=5",
+     "Benzinga",
+     "Mon, 19 Oct 2026 15:45:49 GMT"
     ],
     [
      "Copper prices slide to five-week lows as AI-related stock selloff hits sentiment (FCX:NYSE) - Seeking Alpha",
@@ -104,13 +102,13 @@
  "macro": [
   [
    "S&P fut",
-   7659.75,
-   -0.5808294
+   7680.5,
+   0.27089658
   ],
   [
    "Nasdaq fut",
-   29117.75,
-   -0.08321323
+   29185.75,
+   0.23353453
   ],
   [
    "VIX",
@@ -124,23 +122,23 @@
   ],
   [
    "Brent",
-   111.7,
-   2.7977114
+   109.63,
+   -1.8531779
   ],
   [
    "Gold",
-   4007.9,
-   -1.2929761
+   4025.5,
+   0.43913516
   ],
   [
    "Bitcoin",
-   80464.69,
-   -0.17283572
+   80048.32,
+   -0.5616718
   ],
   [
    "Dollar",
-   101.752,
-   -0.056967545
+   101.655,
+   0.047237415
   ]
  ],
  "sectors": [
@@ -212,124 +210,124 @@
  ],
  "news": [
   [
-   "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
-   "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
+   "Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede",
+   "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
    "CNBC",
-   "Sat, 24 Oct 2026 14:30:01 GMT"
+   "Mon, 26 Oct 2026 04:09:41 GMT"
   ],
   [
-   "Democrats, voting-rights groups challenge Trump's bid to block Alaska Senate certification",
-   "https://www.cnbc.com/2026/10/24/alaska-senate-doj-certification-lawsuit.html",
+   "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
+   "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
    "CNBC",
-   "Sat, 24 Oct 2026 19:57:24 GMT"
+   "Mon, 26 Oct 2026 05:18:01 GMT"
   ],
   [
-   "Why popular airplanes are getting scrapped years early",
-   "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+   "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
+   "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
    "CNBC",
-   "Sat, 24 Oct 2026 15:18:30 GMT"
+   "Mon, 26 Oct 2026 00:37:51 GMT"
   ],
   [
-   "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
-   "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
+   "\u2018Ticking time bomb\u2019: The world's pension funds face an ageing crisis",
+   "https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html",
    "CNBC",
-   "Sun, 25 Oct 2026 08:06:11 GMT"
+   "Mon, 26 Oct 2026 05:22:30 GMT"
   ],
   [
-   "After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement",
-   "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
+   "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
+   "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
    "CNBC",
-   "Sat, 24 Oct 2026 20:38:30 GMT"
+   "Mon, 26 Oct 2026 04:56:16 GMT"
   ],
   [
-   "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
-   "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+   "Blanche defends Trump-ordered lawsuit over Alaska Senate election certification",
+   "https://www.cnbc.com/2026/10/25/blanche-doj-alaska-senate-certification-lawsuit.html",
    "CNBC",
-   "Sat, 24 Oct 2026 11:00:01 GMT"
+   "Sun, 25 Oct 2026 20:28:55 GMT"
   ],
   [
-   "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
-   "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
+   "Ukraine disputes Elon Musk\u2019s claim that its military violated Starlink terms during drone operations",
+   "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
    "CNBC",
-   "Sat, 24 Oct 2026 10:59:16 GMT"
+   "Sun, 25 Oct 2026 18:18:49 GMT"
   ],
   [
-   "Retail investors are not more sophisticated than 30 years ago, says former hedge fund manager",
-   "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html",
+   "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+   "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
    "CNBC",
-   "Sat, 24 Oct 2026 15:00:01 GMT"
+   "Sat, 24 Oct 2026 10:58:30 GMT"
   ],
   [
-   "My father-in-law, 81, sold his $75,000 home to pay his daughter\u2019s $50,000 debt. How can I keep him from becoming destitute?",
-   "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+   "Musk says SpaceX landed a $40 billion debt deal \u2014 and forecasts doom for some AI rivals",
+   "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sat, 24 Oct 2026 20:15:00 GMT"
+   "Mon, 26 Oct 2026 01:50:00 GMT"
   ],
   [
    "\u2018She\u2019s living the dream\u2019: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
    "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sat, 24 Oct 2026 20:00:00 GMT"
+   "Sun, 25 Oct 2026 20:15:00 GMT"
   ],
   [
-   "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids \u2014 and I can\u2019t bear to leave.",
-   "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+   "\u2018I don\u2019t feel sorry for myself\u2019: I\u2019m 64 and will be renting for the rest of my life. Is that so bad?",
+   "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sat, 24 Oct 2026 19:45:00 GMT"
+   "Sun, 25 Oct 2026 20:00:00 GMT"
   ],
   [
-   "Young Americans are giving up on car ownership. It\u2019s a path to financial freedom for some.",
-   "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
+   "We stopped helping our neighbors with free home repairs and our friendship cooled. Who\u2019s to blame?",
+   "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sat, 24 Oct 2026 18:45:00 GMT"
+   "Sun, 25 Oct 2026 19:30:00 GMT"
   ],
   [
-   "I\u2019m 58 and hate annuities. How can I get dependable income in retirement?",
-   "https://www.marketwatch.com/story/im-58-and-hate-annuities-how-can-i-get-dependable-income-in-retirement-cd6040f4?mod=mw_rss_topstories",
+   "My father-in-law, 81, sold his $75,000 home to pay his daughter\u2019s $50,000 debt. How can I keep him from becoming destitute?",
+   "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sat, 24 Oct 2026 18:03:00 GMT"
+   "Sun, 25 Oct 2026 18:00:00 GMT"
   ],
   [
-   "I want to pay off $4,500 in credit-card debt in 2 months. Is this possible?",
-   "https://www.marketwatch.com/story/i-want-to-pay-off-4-500-in-credit-card-debt-in-2-months-is-this-possible-059d9a21?mod=mw_rss_topstories",
+   "My partner of 17 years left me his $1 million home. His children are livid. Am I obliged to split it with them?",
+   "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sat, 24 Oct 2026 17:39:00 GMT"
+   "Sun, 25 Oct 2026 17:00:00 GMT"
   ],
   [
-   "Prediction: The Stock Market Will Soar After Midterm Elections - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnk3MGlfamUxQlpHU1FlTDhyME9QYXVsU0J3VVFrZFlzT2E4NElsN0V5b0p6WDVKUGJsdWs2VjZrZXBjSHBWUHprcXpkUHBaMWxZUTJHWmdTcmh6cy1mVk93cm0yN1JPRzNubXZ4VGJ6VGIzV3NIUGtoeE9rTFRmUHQwVVQzNGhaV1Bnei1zcXZ3UzF4U2dndnJVYlAwM09fbWlB?oc=5",
-   "Yahoo Finance",
-   "Sun, 25 Oct 2026 03:05:00 GMT"
+   "Investors expect Brazilian stocks, currency to fall after Lula reelected - Reuters",
+   "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN2NwbFFDLVhWTUJuTGZxYkI1YWtMOFNFM29UMndmRUp3V1RzM0wyeTdvS2dzalE3WFRKdUVvWTdpOXVzakNmajA1TFVkX1RmdG5xRmRWUm9pQ1lOMEYwM2tMQVY0emRfdjVWeks3QVBhdWNzVXd4dEN1TE5oc1Q2ZHpOUDE3NmM4bWE0Sk1mS3RSeF9CUUlqdjhkZmJiNFpRWUp3ZTRDb3ZHWkU?oc=5",
+   "Reuters",
+   "Mon, 26 Oct 2026 04:09:00 GMT"
   ],
   [
-   "This Stock Market Metric Warns History May Be Repeating Itself. Here's How the Smartest Investors Are Preparing. - The Motley Fool",
-   "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNXVNZU1GZXRuaE54OUlOeTlxdlZESVFMbkNNb0Vrb2VOc1NjVEFkY3Z4QzQxR1dDWnpZUmlGNzdXMHJKaDZieWRHOGYzNUdUd0FrYWpIM0tPN1FlWWFFMXAyV2lKOTFwVUJmcjlvMmJiNGZzRF9qV1pQVExGZmRtclFvR2phazBUOVFqSnJCUTRHZndPUmcxNw?oc=5",
-   "The Motley Fool",
-   "Sun, 25 Oct 2026 07:18:01 GMT"
+   "Futures Waver; 3 Titans Lead Huge Earnings - Investor's Business Daily",
+   "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQnVjTUhHNlhCR3diSDlXVTI4c082YmNhWmRrdGJqWW9yeGxsa0ZKSFBfa1RDUVBRS202amNuT3loOXdtTzdOWUpNTjA3VjlnWVczak1rU3NjYUg0YnF6R1JlcUdVRi1NOEdya0I1ZU4xZlNzUmRKU2U1ZlJkcVRCNF90clE4QjJNRmVOOGJ4Ymp5QzdHVEp3WFgtLXYyS09KbGtvNi1ucWgtZnlJbUpmVXVyaE9fZ0pPeUJUQg?oc=5",
+   "Investor's Business Daily",
+   "Mon, 26 Oct 2026 04:19:24 GMT"
   ],
   [
-   "AI pixie dust is losing its stock market power - Axios",
-   "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ILUtHNDlPMWRZdXNwQXlnTnQtVE8zTTJBUmtzVTVudzJMRTV1dHRsRFFsd3puWEJGR0Q0dTZtMXYtbGM3Z3hPZUg1MUR4dVZCMzJGOUMwcWU2MVp3YzR6Tm5fYUZwN3d4Y2NvaDFLV3U?oc=5",
-   "Axios",
-   "Sat, 24 Oct 2026 21:32:54 GMT"
+   "Week 7 Vikings Stock Market Report - Yahoo Sports",
+   "https://news.google.com/rss/articles/CBMiggFBVV95cUxNXzNHS3dnWlpHWG1RWjVGaERxMTM3a3JRQ2QtVW9xWDA1azRDYUFObm54YWtrbWZDT0hYVnlVTzNMTGVkNFdHVkVGU3R3VXllTEdHRy1Dd0hGQ1BGUXJ2REFNRmNKMjdxSDI3dGFWcUdpaHNzVk9RUGJpMTg3R204N1JR?oc=5",
+   "Yahoo Sports",
+   "Mon, 26 Oct 2026 02:56:00 GMT"
   ],
   [
-   "The Earnings Boom Is Heavily Reliant on Just a Handful of Stocks - WSJ",
-   "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaHhLUi1IeDVOLXZPSmlYYVpxRnZDUVBiMDRTTUdtMnQxRE5DcEUyenlyaWhZWXdfVno3ZU5FUzZUYkg4ODVlY0VDV0hneFdYUG1nX090Wml0dmk4b2NBM2k2QzA2VV9FNUVtM2lVczJGbjc2c3EyVmN2LVVGeUh0ZXllRnMxaUFfcVIyQmVuYXVPVGROeEk4akxUbmxKcElHUXU4eE42TFBwdkVj?oc=5",
-   "WSJ",
-   "Sun, 25 Oct 2026 02:00:00 GMT"
+   "Brazil Markets Brace for Rout on Lula\u2019s Improbable Election Win - Bloomberg.com",
+   "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRWNieW1WT3NpRmdERGNsa1dyWDNVZ2JWYWJqckFwX21zVXZyQTZSWTJ4dTlGRVN0dXlyWEZJek9NcHdzeTgxSGZUY0x4d0dpVmY5dzYyNDdLSUZsZmt6b3RjRlpGeVlfLWJVazN6bG1TSUdGRm9teGZGSVhLeWEwRHFzNDRJM09MemxoaGxoWktpWXNJZFZVZlhGR3I4bTcwOWxNRjdnU3VOejdZczYtMFBiLUs?oc=5",
+   "Bloomberg.com",
+   "Mon, 26 Oct 2026 02:22:00 GMT"
   ],
   [
-   "US MARKETS CALL: Still Proceeding Cautiously - Yardeni QuickTakes",
-   "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWU9md0E5MldyUHVKQkRveGhEc3RqX1gxQWJaM19jbjEtMWIwcWdqN1FJekNPbmlvemRpajlNNFNqUnh6b2hHa0I0Njg0S2t4UWhFQV92d0RsczdTNThGQUk3SFN2d29HNjQxY01VeWxOcjFFUnZNS054TU9ta1EyUGRHd2c?oc=5",
-   "Yardeni QuickTakes",
-   "Sun, 25 Oct 2026 04:03:28 GMT"
+   "Weak earnings outlook further pressures China\u2019s bearish stock market - South China Morning Post",
+   "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNlpWMVpyRFZnYUo2b0lYQVU1NjJjQldUNjdTNUVLV0h0SkZUZEtEd3NvQ0ljS1hsakxzZW83bFd2ejJ2Z2FydTRoXzBnSlRMRFo2SmpheF9wNkVMUTNRVVNxYTBqZUtVRVVzY2k4T19LZlY2QnRNMnlFQ0lVVXNFRjcwR213ZFhveGU0amdRSlppX21LZHExb2F1RUxiTFNTa3NuNDdVbDZaYjJ3VGl0cGdRckxidjVOWExzQjZ3ZTM1eFV4dloybmNrOXlxc1V3eGV1Sw?oc=5",
+   "South China Morning Post",
+   "Mon, 26 Oct 2026 04:00:10 GMT"
   ],
   [
-   "Meet the Ultra-High-Yield Dividend Stock That Has Doubled the S&P 500's Returns This Year - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWRvdkEwRWJIUjkzRjF5Nkd1aC1NNTVoMDVLZjlwWVgtTUJ3ZkJ1NGVfb1ZPcFNMTFR4NUlQVGd2LUFET1l6SnpKOHczY2F6X1IyWXNtUmNRU2FBRGwwWXllVWpNWWM4YUhuYkM0OUxPMWJBVENBZVNVSy1JSXZxQWZ3UWNxT3FqVndheEctYVBpekMyQ1ZKdllBZw?oc=5",
-   "Yahoo Finance",
-   "Sun, 25 Oct 2026 05:38:00 GMT"
+   "CAPITAL IDEAS: The bull market turns four. Will it see five? - The Berkshire Edge",
+   "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3FWQWM0enNKVUFUajRWVEhsRHJVdTdUMnJZN2JRbHpJRFpQNFZINjZXOWxuS193Nkt6cGdlUHNHSUhBNVU0bXZhbldTZGt1cGRuS3B3S1V4TXlDdTRjYU1HYXZaRm5rcjE0S3lpekQzaEtndkFlU0RVWkNWNWd6eEJLVXFOc1cxak1BaExiNlg?oc=5",
+   "The Berkshire Edge",
+   "Mon, 26 Oct 2026 04:05:26 GMT"
   ]
  ],
  "cal": [

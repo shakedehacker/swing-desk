@@ -1,15 +1,8 @@
-{
- "asof": "2026-10-23",
- "model": "Claude",
- "generated_utc": "2026-10-23T23:39:43Z",
- "note": {
-  "mood": "mixed",
-  "bullets": [
-   "S&P futures -0.4%, Nasdaq futures flat; Asia mixed, Europe futures softer on lingering AI-sector jitters.",
-   "Brent crude +2.8% to $111.66 and US 10Y near 4.99% keep pressure on rate- and energy-sensitive names.",
-   "AI/semis selloff persists: neocloud credit-risk worries, Solidigm pulled its IPO; Semis -13% and Comms -6.6% worst sectors this week.",
-   "Heavy week ahead: FOMC decision, Q3 GDP, September PCE inflation, and mega-cap earnings (Microsoft, Alphabet, Amazon)."
-  ]
- },
- "picks": {}
-}
+{"asof": "2026-10-23", "model": "Claude", "generated_utc": "2026-10-26T05:31:32Z",
+ "note": {"mood": "mixed", "bullets": [
+   "US futures edged up (S&P +0.3%, Nasdaq +0.2%); Asia mixed, Europe firm. FOMC decision Wed Oct 28 is the week's main catalyst.",
+   "Brent fell ~2% off last week's 6-month highs as Saudi/Houthi attack risk and demand-destruction fears offset each other.",
+   "10Y yield near 5%, VIX up 2.2% to 19.45, signaling mild risk-off; AI/semis rotation pressured Tech, Semis, Comms last week.",
+   "Sector dispersion wide: Software and Energy led gains, Semis and Comms down over 6%; big tech earnings due this week."
+ ]},
+ "picks": {}}
