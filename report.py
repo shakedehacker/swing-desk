@@ -305,6 +305,10 @@ def open_il(asof):
     d = add_trading_days(asof, 1)
     return dt.datetime(d.year, d.month, d.day, 9, 30, tzinfo=ZoneInfo("America/New_York")).astimezone(ZoneInfo("Asia/Jerusalem")).strftime("%H:%M")
 
+def nav(active):
+    tabs = (("index.html", "Desk", "desk"), ("trader.html", "Claude's account", "trader"))
+    return '<nav class="tabs">' + "".join(f'<a href="{h}"{" class=on" if k == active else ""}>{n}</a>' for h, n, k in tabs) + "</nav>"
+
 def status(p):
     v = (p.get("ai") or {}).get("verdict")
     if v == "VETO": return "skip", "Skip"
@@ -473,6 +477,8 @@ details{margin-top:6px}summary{cursor:pointer;min-height:44px;display:flex;align
 .skips{list-style:none;padding:0;margin:8px 0 0;background:var(--panel);border:1px solid var(--line);border-radius:14px}
 .skips li{display:grid;grid-template-columns:64px 1fr;gap:10px;padding:12px 16px;border-top:1px solid var(--line);font-size:14px}.skips li:first-child{border-top:0}
 .skips span{color:var(--mut)}
+.tabs{display:flex;gap:6px;margin:0 0 14px}.tabs a{text-decoration:none;font-size:14px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--mut)}
+.tabs a.on{color:var(--txt);border-color:var(--acc)}
 .hero.go{border-color:var(--up)}
 .tkt{margin-top:12px;overflow-x:auto}.tkt table{font-size:14px}.tkt td{white-space:nowrap;padding:8px 4px}.hero .tkt b{font-size:16px;display:inline}.tkt .tier{display:table;margin:3px 0 0}
 .tier{margin-left:8px;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;border:1px solid var(--up);color:var(--up)}
@@ -542,7 +548,7 @@ def render(r):
     return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>Swing Desk</title><meta name="robots" content="noindex"><meta name="theme-color" content="#0b0e13">'
             f'<style>{CSS}</style></head><body><main>'
-            f'<header><h1>SWING <b>DESK</b></h1><span class="mut">{il:%a %d %b, %H:%M} Israel · prices as of {r["asof"]} close</span></header>'
+            f'{nav("desk")}<header><h1>SWING <b>DESK</b></h1><span class="mut">{il:%a %d %b, %H:%M} Israel · prices as of {r["asof"]} close</span></header>'
             f'<div class="hero{" go" if trade else ""}"><b>{verdict}</b><p class="mut">{sub}</p>{ticket(golden + solid, r["asof"]) if trade else ""}{how}</div>'
             + section("Golden trades", "Crash-day dips: rare, the strongest edge in the backtest. Take these first.", [card(p, r["asof"]) for p in golden])
             + section("Solid trades", "Everyday pullbacks in strong stocks. Smaller edge, and same-day picks tend to move together.", [card(p, r["asof"]) for p in solid])
@@ -584,6 +590,9 @@ def notify(r):
     json.dump(seen[-200:], open(seen_f, "w"))
 
 if __name__ == "__main__":
+    ny = dt.datetime.now(ZoneInfo("America/New_York"))
+    if ny.weekday() < 5 and (9, 30) <= (ny.hour, ny.minute) < (16, 30) and "--force" not in sys.argv:
+        sys.exit("US market is open: today's bar is partial and would publish fake signals. Run after the close or pass --force.")
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     r = build()
     open(OUT, "w").write(render(r))

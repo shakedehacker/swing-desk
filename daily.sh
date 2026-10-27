@@ -23,6 +23,7 @@ claude -p "$(cat research.md)" --model sonnet --output-format json --permission-
   || echo "research failed: publishing without AI"
 
 python3 report.py --notify  # final render: push new Golden trades to the phone
+[ -f .alpaca ] && python3 trader.py morning  # Claude's own account: stops for the session, exits, new entries
 cd site
 url=$(npx vercel deploy --prod --yes || NODE_OPTIONS="--require $PWD/../dnsfix.js" npx vercel deploy --prod --yes)
 # promote explicitly: after any manual promote/rollback Vercel stops auto-assigning the production domain

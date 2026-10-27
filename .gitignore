@@ -6,3 +6,6 @@ positions.json
 __pycache__/
 logs/
 .ntfy_topic
+.alpaca
+STOP
+trader.json
