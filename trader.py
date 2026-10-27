@@ -4,6 +4,7 @@
   python3 trader.py morning   # 07:30 Israel, after report.py: session stops, overdue exits, new entries
   python3 trader.py watch     # every 5 min: fills, target and day-6 exits; after the close, the daily summary
   python3 trader.py status    # print account, positions, ledger
+  python3 trader.py setup     # asks for the Alpaca keys (hidden input), writes .alpaca, checks they work
 
 Keys: .alpaca (gitignored), lines KEY=..., SECRET=..., BASE=https://paper-api.alpaca.markets
 Kill switch: create ~/trading/STOP  -> no new entries, open entry orders cancelled (stops stay).
@@ -233,5 +234,19 @@ def status():
     print("broker positions:", [(x["symbol"], x["qty"]) for x in api("GET", "/v2/positions") or []])
     print("ledger:", json.dumps(L["positions"], indent=1))
 
+def setup():
+    import getpass
+    key = input("Alpaca API Key ID: ").strip()
+    secret = getpass.getpass("Alpaca Secret Key (hidden): ").strip()
+    live = input("Live money account? Type LIVE for live, Enter for paper: ").strip() == "LIVE"
+    base = "https://api.alpaca.markets" if live else "https://paper-api.alpaca.markets"
+    f = os.path.join(HERE, ".alpaca")
+    with open(os.open(f, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600), "w") as o:
+        o.write(f"KEY={key}\nSECRET={secret}\nBASE={base}\n")
+    a = api("GET", "/v2/account")
+    if "error" in a: os.remove(f); sys.exit(f"Keys rejected ({a['error']}), nothing saved. Copy them again and rerun setup.")
+    print(f"OK: {'LIVE' if live else 'paper'} account, status {a['status']}, equity ${float(a['equity']):,.2f}")
+    if not live and float(a["equity"]) > 1000: print("Equity is not $60 yet: reset the paper account to $60 in the Alpaca dashboard, then run status.")
+
 if __name__ == "__main__":
-    {"morning": morning, "watch": watch, "status": status}[sys.argv[1]]()
+    {"morning": morning, "watch": watch, "status": status, "setup": setup}[sys.argv[1]]()

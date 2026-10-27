@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.shaked.swingtrader</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/python3</string>
+		<string>/Users/shakedpeleg/trading/trader.py</string>
+		<string>watch</string>
+	</array>
+	<!-- Every 5 min. Outside US hours watch() returns at once (after the close it sends the daily summary once). -->
+	<key>StartInterval</key>
+	<integer>300</integer>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/Users/shakedpeleg/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+	</dict>
+	<key>StandardOutPath</key>
+	<string>/Users/shakedpeleg/trading/logs/trader.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/shakedpeleg/trading/logs/trader.log</string>
+</dict>
+</plist>
