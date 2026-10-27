@@ -1,8 +1,46 @@
-{"asof": "2026-10-23", "model": "Claude", "generated_utc": "2026-10-26T05:31:32Z",
- "note": {"mood": "mixed", "bullets": [
-   "US futures edged up (S&P +0.3%, Nasdaq +0.2%); Asia mixed, Europe firm. FOMC decision Wed Oct 28 is the week's main catalyst.",
-   "Brent fell ~2% off last week's 6-month highs as Saudi/Houthi attack risk and demand-destruction fears offset each other.",
-   "10Y yield near 5%, VIX up 2.2% to 19.45, signaling mild risk-off; AI/semis rotation pressured Tech, Semis, Comms last week.",
-   "Sector dispersion wide: Software and Energy led gains, Semis and Comms down over 6%; big tech earnings due this week."
- ]},
- "picks": {}}
+{
+ "asof": "2026-10-26",
+ "model": "Claude",
+ "generated_utc": "2026-10-27T05:33:03Z",
+ "note": {
+  "mood": "risk-on",
+  "bullets": [
+   "Asia rallied on AI optimism (Nikkei +2.2%, Kospi +4%) after a Wall Street advance; US futures mixed-to-higher into FOMC.",
+   "FOMC decision Wed Oct 28: markets price ~90% odds of a hold at 4.00%; press conference key for rate-path signal.",
+   "Oil eased (Brent -0.8%) on Mideast diplomatic progress; VIX down ~5.4%, signaling calmer risk appetite.",
+   "Anthropic's IPO filing is lifting AI-stock sentiment; Core PCE and Advance GDP due Thu Oct 29 ahead of the Fed."
+  ]
+ },
+ "picks": {
+  "NEM": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "NEM fell with the whole gold-miner sector (GDX -2%) as spot gold slid toward $4,000 on rising yields/dollar, not company damage. Q3 beat estimates with record profit and a large buyback. Only one small broker (Freedom Broker) downgraded on cost inflation; Citi and Barclays raised targets the same week.",
+   "sentiment": 0.4,
+   "sent_conf": 0.4,
+   "bull": "Record Q3 profit, big buyback, Citi/Barclays raised targets despite the gold pullback.",
+   "bear": "Freedom Broker downgrade flags real cost inflation and Q4 FCF shortfall risk at Lihir/Cadia.",
+   "catalysts": "No company-specific event found; FOMC decision Oct 28 and gold-price direction are the main swing factors.",
+   "flags": ["gold-price sensitive", "cost-inflation watch at Lihir/Cadia", "one downgrade vs two target hikes"],
+   "sources": [
+    {"title": "Newmont Sinks 4% Despite Record Third-Quarter Profit as Gold Slides Back Toward $4,000", "url": "https://www.tikr.com/blog/newmont-sinks-44-despite-record-third-quarter-profit-as-gold-slides-back-toward-4000?ref=yahoofinance&.tsrc=rss"},
+    {"title": "Newmont Stock Leads Gold Miners Lower", "url": "https://finance.yahoo.com/markets/commodities/articles/newmont-stock-leads-gold-miners-181521724.html"}
+   ]
+  },
+  "MAT": {
+   "verdict": "VETO",
+   "cause": "company",
+   "why": "Drop driven by company turmoil: Citi downgraded MAT to Neutral (10/14) on guidance/cost concerns, CEO Kreiz departed Sep 29, and Southeastern Asset Management is pushing a proxy fight to force a sale. Recent bounce is on takeover speculation (Authentic Brands, Zuru), not improved fundamentals.",
+   "sentiment": -0.1,
+   "sent_conf": 0.3,
+   "bull": "Takeover interest from Authentic Brands/Zuru near $20+/share sets a valuation floor and pressures the board.",
+   "bear": "Citi downgrade, CEO exit, and an active proxy fight show real governance and guidance damage, not a sector dip.",
+   "catalysts": "Q3 earnings expected within the hold window (desk data: ~7 trading days out); proxy-fight headlines possible anytime.",
+   "flags": ["activist/proxy fight in progress", "single-firm downgrade aimed at company", "earnings near hold window edge"],
+   "sources": [
+    {"title": "Southeastern Asset Management Prepares Proxy Battle at Mattel Inc (MAT)", "url": "https://www.gurufocus.com/news/9134878/southeastern-asset-management-prepares-proxy-battle-at-mattel-inc-mat"},
+    {"title": "Mattel (MAT): Leadership Pivot and Takeover Interest Drive Rebound Following Q3 Softness", "url": "https://finance.yahoo.com/markets/stocks/articles/mattel-mat-leadership-pivot-takeover-131622426.html"}
+   ]
+  }
+ }
+}

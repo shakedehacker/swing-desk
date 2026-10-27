@@ -1,21 +1,222 @@
 {
- "asof": "2026-10-23",
+ "asof": "2026-10-26",
  "picks": [
+  {
+   "t": "NEM",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 110.38999938964844,
+   "buy": 105.12899780273438,
+   "tgt": 112.54372230653833,
+   "stop": 97.25613948277065,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Newmont Corporation",
+   "drop": -6.457082119010149,
+   "rvol": 1.325578786751156,
+   "dd": {
+    "short": 0.0176,
+    "dtc": 2.18,
+    "ratings": [
+     19,
+     3,
+     1
+    ],
+    "moves": [
+     {
+      "firm": "Freedom Broker",
+      "action": "down",
+      "to": "Hold",
+      "pt": 116.0,
+      "prior": 130.0,
+      "date": "2026-10-22"
+     },
+     {
+      "firm": "Citigroup",
+      "action": "main",
+      "to": "Buy",
+      "pt": 140.0,
+      "prior": 125.0,
+      "date": "2026-10-20"
+     },
+     {
+      "firm": "Barclays",
+      "action": "main",
+      "to": "Overweight",
+      "pt": 123.0,
+      "prior": 124.0,
+      "date": "2026-10-19"
+     }
+    ]
+   },
+   "news": [
+    [
+     "Newmont Corporation (NEM) is Attracting Investor Attention: Here is What You Should Know",
+     "https://finance.yahoo.com/markets/stocks/articles/newmont-corporation-nem-attracting-investor-120003635.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 26 Oct 2026 12:00:03 +0000"
+    ],
+    [
+     "Newmont\u2019s Record Quarter Shows Why Gold\u2019s Floor Is the Real Story",
+     "https://www.marketbeat.com/articles/newmonts-record-quarter-shows-why-golds-floor-is-the-real-story/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sun, 25 Oct 2026 16:05:00 +0000"
+    ],
+    [
+     "Newmont And 2 Other Great Undervalued Stocks",
+     "https://finance.yahoo.com/markets/stocks/articles/newmont-2-other-great-undervalued-141022939.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 24 Oct 2026 14:10:22 +0000"
+    ],
+    [
+     "Newmont Sinks 4%4 Despite Record Third-Quarter Profit as Gold Slides Back Toward $4,000",
+     "https://www.tikr.com/blog/newmont-sinks-44-despite-record-third-quarter-profit-as-gold-slides-back-toward-4000?ref=yahoofinance&.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 23 Oct 2026 15:16:20 +0000"
+    ],
+    [
+     "NEM Q3 Earnings Beat Estimates on Higher Gold Prices, Strong Sales",
+     "https://finance.yahoo.com/markets/stocks/articles/nem-q3-earnings-beat-estimates-130400422.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 23 Oct 2026 13:04:00 +0000"
+    ],
+    [
+     "Newmont: 3 Key Takeaways for Long-Term Investors",
+     "https://www.fool.com/earnings/takeaways/2026/10/23/newmont-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 23 Oct 2026 11:40:02 +0000"
+    ],
+    [
+     "Newmont Corporation (NEM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mbThBd3ppSkRGOE5JNXduc2JUUFFiZVpLeFpPR1JLS05uaXF2bTN6TnBsMDVtd3pPMk44Y1FIUXlOXzFnODVvSHBJT2t5bF81?oc=5",
+     "Yahoo! Finance Canada",
+     "Sun, 25 Oct 2026 02:42:32 GMT"
+    ],
+    [
+     "NEM Stock Quote Price and Forecast - CNN",
+     "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9udzNKQXNuZHpTeUJ6ZkZGaFFHM19ReUZwX3l2Y05kYjQ4QXJxUjZGVGhWd0QzOEN2R21rWi1JZ1E3cTNqNkNsM05DTnd6S1E?oc=5",
+     "CNN",
+     "Sun, 25 Oct 2026 21:15:29 GMT"
+    ],
+    [
+     "Why Did RUM, MRK, NEM Stocks Jump To 52-Week Highs Today? - Stocktwits",
+     "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb2hGWkd1b3dEaHczLXppbE5fWVU0OURvZ2xQcFBFeWtDUzRPMmhQdTJkTzhPRVNQMTFuTlJWMkJaTlFQTy11M2dHLWN3TmZzSE9FeXpaeE9CYmpjd001MFlza3RvaTRCWXkteFAwTGo4Z195ZmpyTW16QnZ3Q0Nzc29PdzJEaUZWWkpGd0xmMEdlWGRhblRyb2pzWVZoblpTeUVsOGhIRmVabFZWc2ozNGRkbjRtWFdYcEE?oc=5",
+     "Stocktwits",
+     "Tue, 27 Oct 2026 00:31:12 GMT"
+    ],
+    [
+     "Newmont: Big Buyback, Big Cash, And Big Free Cash Flow (NYSE:NEM) - Seeking Alpha",
+     "https://news.google.com/rss/articles/CBMilwFBVV95cUxNa0pYTXJKUG1DbXZlUHEtX2VWZVMzb2dLSTBGWG9pNXQyTnRsUHZuRHdPVFFHOU0xaXhKWTExc3hNLUFCd3FTaXNaUURhYXdXVGR5ZHQxd292N2lFUG54TVowNTlmdUJXR2dmQ3JDY2I5UlRQRkJ0cXZNdEF5R0h3RkhsdUdLVEdKbkJocDJwUFgtdV9vVklB?oc=5",
+     "Seeking Alpha",
+     "Fri, 23 Oct 2026 14:50:13 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "DXCM",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 78.56999969482422,
+   "buy": 77.16599807739259,
+   "tgt": 79.98626583699809,
+   "stop": 71.84028505597797,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": 2,
+   "name": "DexCom, Inc.",
+   "drop": -8.618287244474521,
+   "rvol": 1.5180281906566022,
+   "dd": {
+    "short": 0.0429,
+    "dtc": 3.52,
+    "ratings": [
+     26,
+     3,
+     0
+    ],
+    "moves": []
+   },
+   "news": [
+    [
+     "DexCom Gears Up to Report Q3 Results: How to Play the Stock?",
+     "https://finance.yahoo.com/healthcare/articles/dexcom-gears-report-q3-results-165900735.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 26 Oct 2026 16:59:00 +0000"
+    ],
+    [
+     "Why Is DexCom (DXCM) In Focus After Its G7 Trial Reached NEJM?",
+     "https://finance.yahoo.com/healthcare/articles/why-dexcom-dxcm-focus-g7-011709026.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 22 Oct 2026 01:17:09 +0000"
+    ],
+    [
+     "DexCom's G7 Shows Strong Results in Type 2 Diabetes CONNECT Study",
+     "https://finance.yahoo.com/healthcare/articles/dexcoms-g7-shows-strong-results-135000890.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 20 Oct 2026 13:50:00 +0000"
+    ],
+    [
+     "NEJM study supports CGM use for people with diabetes who don\u2019t take insulin",
+     "https://www.medtechdive.com/news/nejm-study-supports-cgm-use-for-people-with-diabetes-who-dont-take-insulin/833124/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 15 Oct 2026 15:53:37 +0000"
+    ],
+    [
+     "Landmark Dexcom CONNECT Study Published in The New England Journal of Medicine, Redefining the Standard of Care for People with Type 2 Diabetes Not on Insulin",
+     "https://finance.yahoo.com/healthcare/articles/landmark-dexcom-connect-study-published-211000800.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 14 Oct 2026 21:10:00 +0000"
+    ],
+    [
+     "Here's Why You Should Retain DexCom Stock in Your Portfolio for Now",
+     "https://finance.yahoo.com/healthcare/articles/heres-why-retain-dexcom-stock-164100784.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 13 Oct 2026 16:41:00 +0000"
+    ],
+    [
+     "DexCom Gears Up to Report Q3 Results: How to Play the Stock? - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMilgFBVV95cUxPblRSaklVZlh3OWF6UTJ5VVN4SllfZHJCT3NJenBQN2pLcTJXaFI5QkxMTGR6RGJYaEI2Zl9UWDE1WnpBR0JLVTFVaFYtSXVhTjk0NWQ1a1ZmemZNYk9qNVh5MFBKM29OZVhpQzJTLVhmUklwU3diYjVXQi0ydzZEX1gwSE5zX3F5VV9LQUNuUDNxbHhZRkE?oc=5",
+     "Yahoo Finance",
+     "Mon, 26 Oct 2026 16:59:00 GMT"
+    ],
+    [
+     "DexCom (NasdaqGS:DXCM) Stock Forecast & Analyst Predictions - Simply Wall Street",
+     "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tRTdjbUVyUjZwZDZwOHZ4U0M3WERyQzUxX2k3cld4c3V4LXpFMWc4MTZ4emtkWW1oUGoxQV9vS1RCdFBvU2piY1BQT2s5d0JDOFg4TlhNbV96cDZ6YlhPa3BONDJCVWxlTmdfT1QtQ284S01xNG5J?oc=5",
+     "Simply Wall Street",
+     "Fri, 23 Oct 2026 07:00:00 GMT"
+    ],
+    [
+     "DexCom (DXCM) Shares Fall 6.5% Amid Broader Market Gains on Octo - GuruFocus",
+     "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN0xWVVYxc19RcXg0aDUzN2UtOFNGZFFLbkRkSDVWNHAtbDF3NTJFQ0FNcmdIRTlPNXM1eklGTXBvOUE4Q01USFhVZ1JoVlBUeTE1TkljZFhpSzczUG9DQzFLRWp6UktrRl83ZXNZTkdFcktuYkNBaHRKendOQnhuUUJZN093bXZGVDlUVDZKZHFzeHlEWk03bnJKcTA4ZjBVZXRsMFZieWRhWnk5YkJJ?oc=5",
+     "GuruFocus",
+     "Wed, 21 Oct 2026 17:08:49 GMT"
+    ],
+    [
+     "DexCom Inc. stock underperforms Wednesday when compared to competitors - MarketWatch",
+     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNUprVTB6UGdZcHFEUUp6SWlHUFEwUWViYW1mUTNhWkFuT3NWY0FYNkdEdU4xSF9VVGxjUTZVMjFhSzQ3NE5wbHhwWlktSzRoc1F1UmpOV2F1LTJJTk9BVEdmdlp3Q2FsMERlX2RDUkxPRU5fbXRXMmp0WlQtLTlUbTZ3M1RYVTJSLW1aOE0yaHRTTGtoMkZkeEtaWVBnM3VzVEwwcTlIOWMtQmtldW1rbVNZNkVKUE5BNVczV1hFMF8wbjBjUzdpdw?oc=5",
+     "MarketWatch",
+     "Wed, 21 Oct 2026 20:30:00 GMT"
+    ]
+   ]
+  },
   {
    "t": "FCX",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 65.18000030517578,
-   "buy": 62.775,
-   "tgt": 66.97444157398891,
-   "stop": 57.73214351109096,
+   "c": 65.16000366210938,
+   "buy": 61.98300247192383,
+   "tgt": 66.36962893669573,
+   "stop": 57.08871754237584,
    "days": null,
    "conf": null,
    "s": null,
-   "ed": 1,
+   "ed": 0,
    "name": "Freeport-McMoRan, Inc.",
-   "drop": -6.269773587791305,
-   "rvol": 1.0105511383077552,
+   "drop": -6.5806399109543,
+   "rvol": 0.8135365605618265,
    "dd": {
     "short": 0.0176,
     "dtc": 2.18,
@@ -85,16 +286,201 @@
      "Thu, 22 Oct 2026 22:01:33 GMT"
     ],
     [
-     "Here\u2019s How Much You Would Have Made Owning Freeport-McMoRan Stock In The Last 10 Years - Benzinga",
-     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTEtKWHU1bjRFZXVNb2VrbnZjQ3RxamlRc21XdXlPMTlaTmtnemZQS2Y5QXBFQTlUQzFWTTRyOGExVjEtYVVfbzJ4VmJGOFFHdUJlejBJdVQzRURxclBVZTNHbld3NTZYN1gxeHRpUElsaGVHQXIyWnh3aXRaU0c1Zk01aFNsQ18xX2h3QXp2M3ZnM21lWV9pbm0tQWlBQlBfVHU5RTBjSU9hcUgxWlFnTF9BWEFQN2oyQ3lhekJ4WEZBQQ?oc=5",
-     "Benzinga",
-     "Mon, 19 Oct 2026 15:45:49 GMT"
-    ],
-    [
      "Copper prices slide to five-week lows as AI-related stock selloff hits sentiment (FCX:NYSE) - Seeking Alpha",
      "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWW0xRGFhY2haM05VNWx1V2N1aF9VeUxBdm5RVnZCYW10M3VuR3ZjbVhvY1BNTG13cEpwXzhWdzlidkdiRXdqMFBMYWhGd0FNVHZwRnJ5OHdMTFVENExfQ3hXR1pqaTJ4TzNRYmx1M2FiWjE3WXcxUW5tRVZGNWlsV0hGU3AwTGJ4VjFfUndjM2tNSVhJbUhaQ09NSEdIR1ZELVdHcmlQT21acEk2ME56X2dSbUxUUUhtbUE?oc=5",
      "Seeking Alpha",
      "Thu, 22 Oct 2026 12:43:21 GMT"
+    ],
+    [
+     "FCX to Report Q3 Earnings: What's in the Cards for the Stock? - Zacks Investment Research",
+     "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMUxVU1lzSWdqS0ZEYmVGd1NZdVE0ajBHQ0hQV2V0UUZXUlJpbzlpeDI5aUZkaGkzTXJEQ2pVZVM1Nnk5UVFPNk9HQTl4YWhrVWRiWGhlOW1XODdlTnVoYXozZ3RFYlNaQUtmLWE1RHdlVUdJVU1kTV9GbkFPWnBWUjltd1BIdmZ0MWNBUUlVYzkzRXhFbzE5Y0VVSVkwalNt?oc=5",
+     "Zacks Investment Research",
+     "Fri, 23 Oct 2026 11:30:26 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "MAT",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 15.819999694824219,
+   "buy": 15.290999794006348,
+   "tgt": 16.450714336273293,
+   "stop": 14.183856800624303,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": 7,
+   "name": "Mattel, Inc.",
+   "drop": -6.279618001439779,
+   "rvol": 0.7490147954858334,
+   "dd": {
+    "short": 0.1667,
+    "dtc": 6.71,
+    "ratings": [
+     10,
+     3,
+     2
+    ],
+    "moves": [
+     {
+      "firm": "Citigroup",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 17.0,
+      "prior": 15.0,
+      "date": "2026-10-14"
+     }
+    ]
+   },
+   "news": [
+    [
+     "The Biggest Price Hike in 49 Years Just Hit a Christmas Staple \u2014 and Families Could Feel It This Holiday Season",
+     "https://247wallst.com/investing/2026/10/22/the-biggest-price-hike-in-49-years-just-hit-a-christmas-staple-and-families-could-feel-it-this-holiday-season/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 22 Oct 2026 14:35:10 +0000"
+    ],
+    [
+     "MAT Stock Closes Flat As Southeastern Reportedly Prepares Proxy Fight To Force Sale Of The Barbie Maker",
+     "https://stocktwits.com/news-articles/markets/equity/mat-stock-closes-flat-as-southeastern-reportedly-prepares-proxy-fight-to-force-sale-of-the-barbie-maker/cZxMhopRBwG?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 21:42:52 +0000"
+    ],
+    [
+     "Mattel Adds Board Member From Its Biggest Shareholder as Pressure Mounts",
+     "https://finance.yahoo.com/m/a0fa5d52-588c-3b18-b9d9-d104754001ca/mattel-adds-board-member-from.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 21:32:00 +0000"
+    ],
+    [
+     "Mattel Enters into Cooperation Agreement with EdgePoint Investment Group Inc.",
+     "https://finance.yahoo.com/markets/stocks/articles/mattel-enters-cooperation-agreement-edgepoint-204000535.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 20:40:00 +0000"
+    ],
+    [
+     "Mattel (MAT): Leadership Pivot and Takeover Interest Drive Rebound Following Q3 Softness",
+     "https://finance.yahoo.com/markets/stocks/articles/mattel-mat-leadership-pivot-takeover-131622426.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 21 Oct 2026 13:16:22 +0000"
+    ],
+    [
+     "Mattel grants incoming CFO $1.4M sign-on bonus",
+     "https://www.cfodive.com/news/mattel-grants-incoming-cfo-cash-sign-bonus-sale-takeover-shareholder/833380/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 19 Oct 2026 18:23:21 +0000"
+    ],
+    [
+     "Why Did T, MAT, And HTZ Stocks Slump To 52-Week Lows Last Week? - Stocktwits",
+     "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcmpVS0JsVkRNVnBjTGRJOXZWWVN4OVFvaUR0Ykc1VXV4OXNzMHRpMEtuOFBlN1RrMGJldmZOeDMxNXZ6N1Y2aGxoeXlEQ0xVU3UwbDVNbmx1U2Q2MXhXa2JpZmVXbGd0NUlLbXpERll3cXZkYlZianlZQjdfZ1FWSzdDYXdiZk1LeDAwdlVZYTMtVDNNSkFWeS1SRGJKNkt6eWFMcXhKcUozNXNVQ2RaaXV0dm1OMWtqbzVxdA?oc=5",
+     "Stocktwits",
+     "Sat, 24 Oct 2026 17:13:37 GMT"
+    ],
+    [
+     "Mattel Inc (MAT) Stock Down 3.1% -- Now Undervalued? GF Score: 7 - GuruFocus",
+     "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNElxYW1odWZRQmdyNnFVN2pDaWNTYjVqUUR6V2hGWW9Xc3FZcjB5X2EwWm9FejJSajNFQlFmaWZDZTFtdF92dFFkbkdZTDdFekkwNV9IUGFnTzVSc0Vad1hLS2hRWE9Mc0YzN2xYOW1xdXk2Z3locUV0UUlQTThWQ2t6ZERTQlJfVjNOcEZkWEIxNlBqRXExNng0OWtydTA?oc=5",
+     "GuruFocus",
+     "Fri, 23 Oct 2026 23:17:25 GMT"
+    ],
+    [
+     "Mattel, Inc. Estimates \u2013 NASDAQ:MAT - TradingView",
+     "https://news.google.com/rss/articles/CBMid0FVX3lxTE90dEpJTnRnSTBTclJxcFhxX1lvZzBFNEFsdEtxVmtMZHJZQjJ0OEw0Wmd2LVVLU0JWZE9Rb05wcmd2MlhuM1otYmpkekoxZnRSOGdCVmVmVmNScjZGX2EyY01tQkZZc0ZfUnpTLTBxaFVvR00zTEE0?oc=5",
+     "TradingView",
+     "Sat, 24 Oct 2026 04:58:45 GMT"
+    ],
+    [
+     "AI pixie dust is losing its stock market power - Axios",
+     "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ILUtHNDlPMWRZdXNwQXlnTnQtVE8zTTJBUmtzVTVudzJMRTV1dHRsRFFsd3puWEJGR0Q0dTZtMXYtbGM3Z3hPZUg1MUR4dVZCMzJGOUMwcWU2MVp3YzR6Tm5fYUZwN3d4Y2NvaDFLV3U?oc=5",
+     "Axios",
+     "Fri, 23 Oct 2026 21:38:36 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "APH",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 75.2699966430664,
+   "buy": 71.3879997253418,
+   "tgt": 76.18163157046382,
+   "stop": 65.34228439331055,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": 1,
+   "name": "Amphenol Corporation",
+   "drop": -6.240660453924274,
+   "rvol": 1.0248759448893505,
+   "dd": {
+    "short": 0.0139999995,
+    "dtc": 2.47,
+    "ratings": [
+     17,
+     2,
+     0
+    ],
+    "moves": []
+   },
+   "news": [
+    [
+     "Amphenol (APH) to report earnings tomorrow: here is what to expect",
+     "https://finance.yahoo.com/markets/stocks/articles/amphenol-aph-report-earnings-tomorrow-051047467.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 27 Oct 2026 05:10:47 +0000"
+    ],
+    [
+     "Should Amphenol Stock Be in Your Portfolio Pre-Q3 Earnings?",
+     "https://finance.yahoo.com/markets/stocks/articles/amphenol-stock-portfolio-pre-q3-165100329.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 26 Oct 2026 16:51:00 +0000"
+    ],
+    [
+     "Why Amphenol (APH) Is Getting Attention Now",
+     "https://finance.yahoo.com/markets/stocks/articles/why-amphenol-aph-getting-attention-081012652.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sun, 25 Oct 2026 08:10:12 +0000"
+    ],
+    [
+     "Will Strong Earnings Growth Change Amphenol (APH) Stock Narrative",
+     "https://finance.yahoo.com/markets/stocks/articles/strong-earnings-growth-change-amphenol-070949221.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sun, 25 Oct 2026 07:09:49 +0000"
+    ],
+    [
+     "Gear Up for Amphenol (APH) Q3 Earnings: Wall Street Estimates for Key Metrics",
+     "https://finance.yahoo.com/markets/stocks/articles/gear-amphenol-aph-q3-earnings-121505517.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 23 Oct 2026 12:15:05 +0000"
+    ],
+    [
+     "What Is Amphenol's Management Stressing Now?",
+     "https://www.trefis.com/articles/619997/what-is-amphenols-management-stressing-now/2026-10-22?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 22 Oct 2026 17:26:10 +0000"
+    ],
+    [
+     "Amphenol - Forbes",
+     "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83TnFXeEVOYlJrUmtiYl9lNWNUVEJyeWdxZFNkWC1OYjM0MkdXUmRiWnBfcE5IOTVfa2wxZTdhRExKMThMal94UC1ULVR2bkJvdmlTZg?oc=5",
+     "Forbes",
+     "Thu, 22 Oct 2026 10:30:00 GMT"
+    ],
+    [
+     "Should Amphenol Stock Be in Your Portfolio Pre-Q3 Earnings? - TradingView",
+     "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdkxwNTRhWFFoR284ZmhrOUhTTWZ1cDRNNGY2bmoyUjgwSm90cG12eFk5MmJkR1YzX1Z0cFdKRjB5R3JremNnVS02QmNVbEZOVVBaQzdHWDJ6QWhKci1yaVFtVE1YN3lGOEUxYU5qVjVBQ0xsWmdmOTg5ZmMta0I3QVVqWXhoOUlUZmtLVGc3UVA0OTZLZGlvU21vUTR1R2s3elBBZmRsdndZYnNxNWdNak5vRmc?oc=5",
+     "TradingView",
+     "Mon, 26 Oct 2026 16:51:00 GMT"
+    ],
+    [
+     "What Is Amphenol\u2019s Management Stressing Now? - Trefis",
+     "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYTBXSzdtb2UweDM3U05maUN2bGs0eHd3ME56TlV1ZTJKRjk1YURYcE9nem5ZWnN4SlQzZjB0X09nLVJqYXpsd2pVUHRSZEo1T2JCOVFjVloxeFJDRGlIU2xieHQ1dzJjV2NoM0d4V2tBS1pNY0ZlMXVsa3RFYWhnYUp2anAtQ1JYWEJwc2I4SmxDdHhpTzdObXVKcmM5azlGUlI4Mw?oc=5",
+     "Trefis",
+     "Thu, 22 Oct 2026 17:25:45 GMT"
+    ],
+    [
+     "Amphenol (NYSE:APH) Stock Forecast & Analyst Predictions - Simply Wall Street",
+     "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOVUtHUUNSSTB0elM4cFFLaUlVS19FLWl3WDA2VWVIZ2xtMzUyMjlEOU8zVjFlNW8yWlVmZWxVclUxUllNeUVVV2RiRXdmNGNHSndXU3kxYTdBNEd6cW93VEI0UFJCZnIxX3FtWjN3?oc=5",
+     "Simply Wall Street",
+     "Tue, 20 Oct 2026 07:00:00 GMT"
     ]
    ]
   }
@@ -102,232 +488,232 @@
  "macro": [
   [
    "S&P fut",
-   7680.5,
-   0.27089658
+   7717.75,
+   0.04212846
   ],
   [
    "Nasdaq fut",
-   29185.75,
-   0.23353453
+   29388.5,
+   -0.1656065
   ],
   [
    "VIX",
-   19.45,
-   2.2070417
+   18.39,
+   -5.449878
   ],
   [
    "US 10Y",
-   4.988,
-   0.70663935
+   4.986,
+   -0.040093325
   ],
   [
    "Brent",
-   109.63,
-   -1.8531779
+   109.73,
+   -0.9120413
   ],
   [
    "Gold",
-   4025.5,
-   0.43913516
+   4020.0,
+   -0.4556236
   ],
   [
    "Bitcoin",
-   80048.32,
-   -0.5616718
+   79724.57,
+   -0.52486753
   ],
   [
    "Dollar",
-   101.655,
-   0.047237415
+   102.089,
+   0.12749954
   ]
  ],
  "sectors": [
   [
-   5.990032796014533,
+   5.094821808393291,
    "Software",
-   4.3203415803864775
+   5.653039046970454
   ],
   [
-   1.5973094979592206,
-   "Energy",
-   11.75048486129664
-  ],
-  [
-   1.4543557058379175,
-   "Health",
-   5.0263632011992465
-  ],
-  [
-   0.9724854100948921,
-   "Real estate",
-   2.4302172477363992
-  ],
-  [
-   0.8291928367918588,
+   2.877172652679194,
    "Utilities",
-   7.719572719130041
+   8.407641368307118
   ],
   [
-   0.7659136260212085,
-   "Materials",
-   3.032132850128133
+   2.7138587832894245,
+   "Energy",
+   12.141708696932563
   ],
   [
-   0.7304261237008447,
-   "Staples",
-   7.555453036919357
+   2.7117857397876532,
+   "Real estate",
+   3.5066525186135955
   ],
   [
-   0.684439958541283,
+   2.066612586933392,
+   "Health",
+   4.682940867512886
+  ],
+  [
+   1.7435507819263174,
    "Financials",
-   1.9328981953713464
+   3.377010292361815
   ],
   [
-   0.5690906943434326,
-   "Discretionary",
-   2.2973959584082104
+   0.8599931290832252,
+   "Staples",
+   6.903257643952432
   ],
   [
-   -0.13081456999357588,
+   0.8439652575796597,
+   "Materials",
+   3.8609254099083667
+  ],
+  [
+   0.19359034058623603,
    "Tech",
-   -6.643913110033772
+   -4.220424359531682
   ],
   [
-   -1.8717212043783737,
+   0.16799499063491208,
    "Industrials",
-   -3.409022946827467
+   -1.078322122640596
   ],
   [
-   -2.3323822843696385,
+   -0.17473086654018477,
+   "Discretionary",
+   4.825690033238961
+  ],
+  [
+   -1.2471331695001364,
    "Semis",
-   -13.08361673552274
+   -9.731506757903208
   ],
   [
-   -4.360041308828444,
+   -5.668087992861393,
    "Comms",
-   -6.595252309333855
+   -6.592914023146889
   ]
  ],
  "news": [
   [
-   "Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede",
-   "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+   "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+   "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
    "CNBC",
-   "Mon, 26 Oct 2026 04:09:41 GMT"
+   "Mon, 26 Oct 2026 22:50:07 GMT"
   ],
   [
-   "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
-   "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
+   "HSBC announces share buyback of up to $1 billion as third-quarter profit meets estimates",
+   "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
    "CNBC",
-   "Mon, 26 Oct 2026 05:18:01 GMT"
+   "Tue, 27 Oct 2026 05:30:10 GMT"
   ],
   [
-   "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
-   "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+   "Oil falls as renewed diplomatic efforts to end Mideast conflict ease supply concerns",
+   "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
    "CNBC",
-   "Mon, 26 Oct 2026 00:37:51 GMT"
+   "Tue, 27 Oct 2026 05:09:59 GMT"
   ],
   [
-   "\u2018Ticking time bomb\u2019: The world's pension funds face an ageing crisis",
-   "https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html",
+   "Judge fast-tracks DOJ's Alaska Senate lawsuit as Peltola seeks dismissal before Election Day",
+   "https://www.cnbc.com/2026/10/26/alaska-senate-peltola-doj-lawsuit-election-sullivan.html",
    "CNBC",
-   "Mon, 26 Oct 2026 05:22:30 GMT"
+   "Tue, 27 Oct 2026 04:40:30 GMT"
   ],
   [
-   "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
-   "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html",
+   "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+   "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
    "CNBC",
-   "Mon, 26 Oct 2026 04:56:16 GMT"
+   "Tue, 27 Oct 2026 01:05:06 GMT"
   ],
   [
-   "Blanche defends Trump-ordered lawsuit over Alaska Senate election certification",
-   "https://www.cnbc.com/2026/10/25/blanche-doj-alaska-senate-certification-lawsuit.html",
+   "China industrial profits post strongest growth in three months as tech boom widens economic divide",
+   "https://www.cnbc.com/2026/10/27/china-industrial-profits-september-ai-tech-exports-.html",
    "CNBC",
-   "Sun, 25 Oct 2026 20:28:55 GMT"
+   "Tue, 27 Oct 2026 03:34:08 GMT"
   ],
   [
-   "Ukraine disputes Elon Musk\u2019s claim that its military violated Starlink terms during drone operations",
-   "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
+   "DOJ charges ex-FBI Director James Comey in new case",
+   "https://www.cnbc.com/2026/10/26/james-comey-indictment-national-defense-doj-trump.html",
    "CNBC",
-   "Sun, 25 Oct 2026 18:18:49 GMT"
+   "Tue, 27 Oct 2026 03:30:04 GMT"
   ],
   [
-   "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
-   "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
+   "Bank of Japan is expected to hold rates this week \u2014 but stay hawkish: CNBC survey",
+   "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
    "CNBC",
-   "Sat, 24 Oct 2026 10:58:30 GMT"
+   "Tue, 27 Oct 2026 00:17:44 GMT"
   ],
   [
-   "Musk says SpaceX landed a $40 billion debt deal \u2014 and forecasts doom for some AI rivals",
-   "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
+   "What gave this city its \u2018best place to retire\u2019 crown? You can actually afford to live there.",
+   "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
    "MarketWatch",
-   "Mon, 26 Oct 2026 01:50:00 GMT"
+   "Tue, 27 Oct 2026 04:01:00 GMT"
   ],
   [
-   "\u2018She\u2019s living the dream\u2019: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-   "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+   "\u2018You need only watch episodes of Judge Judy\u2019: I\u2019m in my 70s. Why do people keep making the same avoidable financial mistakes?",
+   "https://www.marketwatch.com/story/you-need-only-watch-episodes-of-judge-judy-im-in-my-70s-why-do-people-keep-making-the-same-avoidable-financial-mistakes-bbf60fe4?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sun, 25 Oct 2026 20:15:00 GMT"
+   "Mon, 26 Oct 2026 22:30:00 GMT"
   ],
   [
-   "\u2018I don\u2019t feel sorry for myself\u2019: I\u2019m 64 and will be renting for the rest of my life. Is that so bad?",
-   "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+   "Dividend stocks are having an excellent October as tech sector struggles",
+   "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sun, 25 Oct 2026 20:00:00 GMT"
+   "Mon, 26 Oct 2026 22:10:00 GMT"
   ],
   [
-   "We stopped helping our neighbors with free home repairs and our friendship cooled. Who\u2019s to blame?",
-   "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720?mod=mw_rss_topstories",
+   "Options traders are seizing control of the S&P 500",
+   "https://www.marketwatch.com/story/options-traders-are-seizing-control-of-the-s-p-500-1add94ca?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sun, 25 Oct 2026 19:30:00 GMT"
+   "Mon, 26 Oct 2026 22:03:00 GMT"
   ],
   [
-   "My father-in-law, 81, sold his $75,000 home to pay his daughter\u2019s $50,000 debt. How can I keep him from becoming destitute?",
-   "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+   "TikTok parent ByteDance\u2019s chatbot is now giving travel-booking sites a run for their money. And yours.",
+   "https://www.marketwatch.com/story/tiktok-parent-bytedances-chatbot-is-now-giving-travel-booking-sites-a-run-for-their-money-and-yours-028e4aa0?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sun, 25 Oct 2026 18:00:00 GMT"
+   "Mon, 26 Oct 2026 22:00:00 GMT"
   ],
   [
-   "My partner of 17 years left me his $1 million home. His children are livid. Am I obliged to split it with them?",
-   "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+   "Over 40% of Americans are heading toward retirement \u2018blind\u2019 \u2014 with no plan",
+   "https://www.marketwatch.com/story/over-40-of-americans-are-heading-toward-retirement-blind-with-no-plan-e49b502f?mod=mw_rss_topstories",
    "MarketWatch",
-   "Sun, 25 Oct 2026 17:00:00 GMT"
+   "Mon, 26 Oct 2026 21:55:00 GMT"
   ],
   [
-   "Investors expect Brazilian stocks, currency to fall after Lula reelected - Reuters",
-   "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN2NwbFFDLVhWTUJuTGZxYkI1YWtMOFNFM29UMndmRUp3V1RzM0wyeTdvS2dzalE3WFRKdUVvWTdpOXVzakNmajA1TFVkX1RmdG5xRmRWUm9pQ1lOMEYwM2tMQVY0emRfdjVWeks3QVBhdWNzVXd4dEN1TE5oc1Q2ZHpOUDE3NmM4bWE0Sk1mS3RSeF9CUUlqdjhkZmJiNFpRWUp3ZTRDb3ZHWkU?oc=5",
-   "Reuters",
-   "Mon, 26 Oct 2026 04:09:00 GMT"
+   "Weekly market commentary - BlackRock",
+   "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+   "BlackRock",
+   "Mon, 26 Oct 2026 23:12:38 GMT"
   ],
   [
-   "Futures Waver; 3 Titans Lead Huge Earnings - Investor's Business Daily",
-   "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQnVjTUhHNlhCR3diSDlXVTI4c082YmNhWmRrdGJqWW9yeGxsa0ZKSFBfa1RDUVBRS202amNuT3loOXdtTzdOWUpNTjA3VjlnWVczak1rU3NjYUg0YnF6R1JlcUdVRi1NOEdya0I1ZU4xZlNzUmRKU2U1ZlJkcVRCNF90clE4QjJNRmVOOGJ4Ymp5QzdHVEp3WFgtLXYyS09KbGtvNi1ucWgtZnlJbUpmVXVyaE9fZ0pPeUJUQg?oc=5",
-   "Investor's Business Daily",
-   "Mon, 26 Oct 2026 04:19:24 GMT"
-  ],
-  [
-   "Week 7 Vikings Stock Market Report - Yahoo Sports",
-   "https://news.google.com/rss/articles/CBMiggFBVV95cUxNXzNHS3dnWlpHWG1RWjVGaERxMTM3a3JRQ2QtVW9xWDA1azRDYUFObm54YWtrbWZDT0hYVnlVTzNMTGVkNFdHVkVGU3R3VXllTEdHRy1Dd0hGQ1BGUXJ2REFNRmNKMjdxSDI3dGFWcUdpaHNzVk9RUGJpMTg3R204N1JR?oc=5",
-   "Yahoo Sports",
-   "Mon, 26 Oct 2026 02:56:00 GMT"
-  ],
-  [
-   "Brazil Markets Brace for Rout on Lula\u2019s Improbable Election Win - Bloomberg.com",
-   "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRWNieW1WT3NpRmdERGNsa1dyWDNVZ2JWYWJqckFwX21zVXZyQTZSWTJ4dTlGRVN0dXlyWEZJek9NcHdzeTgxSGZUY0x4d0dpVmY5dzYyNDdLSUZsZmt6b3RjRlpGeVlfLWJVazN6bG1TSUdGRm9teGZGSVhLeWEwRHFzNDRJM09MemxoaGxoWktpWXNJZFZVZlhGR3I4bTcwOWxNRjdnU3VOejdZczYtMFBiLUs?oc=5",
+   "Asian Stocks to Gain as Anthropic Files for IPO: Markets Wrap - Bloomberg.com",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTFLZTJNckNaRFN0TG9fLXJTY3h3VkVRSnZfMDJfLVkxOTNsU01IbWtXbDZQUTFIOXJXWENhY2NIX0ZuLUdLSHJMemcyUkNEZklQdUQxZlpHUWNwaVE3WFp1dk1meVZwejRrSUF1dEhFdDBjNUp3WVdqVnNBamJfQjFrN2g5b3QwZFBUMHZjYVU2aGhK?oc=5",
    "Bloomberg.com",
-   "Mon, 26 Oct 2026 02:22:00 GMT"
+   "Tue, 27 Oct 2026 05:03:18 GMT"
   ],
   [
-   "Weak earnings outlook further pressures China\u2019s bearish stock market - South China Morning Post",
-   "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNlpWMVpyRFZnYUo2b0lYQVU1NjJjQldUNjdTNUVLV0h0SkZUZEtEd3NvQ0ljS1hsakxzZW83bFd2ejJ2Z2FydTRoXzBnSlRMRFo2SmpheF9wNkVMUTNRVVNxYTBqZUtVRVVzY2k4T19LZlY2QnRNMnlFQ0lVVXNFRjcwR213ZFhveGU0amdRSlppX21LZHExb2F1RUxiTFNTa3NuNDdVbDZaYjJ3VGl0cGdRckxidjVOWExzQjZ3ZTM1eFV4dloybmNrOXlxc1V3eGV1Sw?oc=5",
-   "South China Morning Post",
-   "Mon, 26 Oct 2026 04:00:10 GMT"
+   "Equities end higher as Anthropic's IPO filing buoys AI stocks - Reuters",
+   "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5",
+   "Reuters",
+   "Mon, 26 Oct 2026 23:28:41 GMT"
   ],
   [
-   "CAPITAL IDEAS: The bull market turns four. Will it see five? - The Berkshire Edge",
-   "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3FWQWM0enNKVUFUajRWVEhsRHJVdTdUMnJZN2JRbHpJRFpQNFZINjZXOWxuS193Nkt6cGdlUHNHSUhBNVU0bXZhbldTZGt1cGRuS3B3S1V4TXlDdTRjYU1HYXZaRm5rcjE0S3lpekQzaEtndkFlU0RVWkNWNWd6eEJLVXFOc1cxak1BaExiNlg?oc=5",
-   "The Berkshire Edge",
-   "Mon, 26 Oct 2026 04:05:26 GMT"
+   "Four takeaways from Anthropic\u2019s potentially record-breaking stock market filing - The Guardian",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbHVZRnFMZ3RKdmREOW9PaTRrdURtSVJQN0NWcFhJcUFXYlNuVzNpajdYVVFPWjd2enJ6bmh5TUgtVWVXTTBvOWFVS0x5YXlmeWp1Z1NuaDJnM056RjRudXFuWVQ0bllKdGNsTFlEbV9ia18wZjVrZ0JuU1hkOHYtNHJqZThRRU9lWnhzS2dud3ZtWjJD?oc=5",
+   "The Guardian",
+   "Tue, 27 Oct 2026 05:00:00 GMT"
+  ],
+  [
+   "Stock Market Today: Stock Market News And Analysis - Investor's Business Daily",
+   "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5",
+   "Investor's Business Daily",
+   "Mon, 26 Oct 2026 20:31:00 GMT"
+  ],
+  [
+   "Brazilian Markets Convulse After Unexpected Election Result - The New York Times",
+   "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSVo2MjVwYzJKOENXM2V3VjJFLUsxQjh4Mkc3YXE3VFlMTlFLRVZqUFpjS2ZZYV9NX0dsUF80NnZ5b0RMM2NBNmZ1SUQ2eEZQT0RDWjN0NXNBb3llMmhaaFFScFFvcnlaRlR6b19aT3kweW9Nd2IxZDZZWDYzdVBsVlVkME5kVzZiMFAw?oc=5",
+   "The New York Times",
+   "Mon, 26 Oct 2026 20:07:18 GMT"
   ]
  ],
  "cal": [
@@ -335,7 +721,7 @@
    "2026-10-27 10:00:00-04:00",
    "CB Consumer Confidence",
    "Medium",
-   "80.5",
+   "81.2",
    "81.9"
   ],
   [
@@ -363,7 +749,7 @@
    "2026-10-29 08:30:00-04:00",
    "Advance GDP Price Index q/q",
    "Medium",
-   "3.5%",
+   "3.3%",
    "6.2%"
   ],
   [
