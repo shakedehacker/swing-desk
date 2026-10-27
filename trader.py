@@ -209,7 +209,7 @@ def render(L, acct, deploy=False):
     logs = "".join(f'<li><span class="mut">{E(t)}</span> {E(m)}</li>' for t, m in reversed(L["log"][-25:]))
     stat = (f'<b>{len(done)}</b> closed · <b>{sum(c["ret"] > 0 for c in done) / len(done) * 100:.0f}%</b> won · '
             f'<b>${sum(c["pnl"] or 0 for c in done):+,.2f}</b> realised' if done else "No closed trades yet.")
-    page = ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+    page = ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="icon" type="image/png" href="favicon.png"><meta name="apple-mobile-web-app-title" content="Swing Desk"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="theme-color" content="#0b0e13">'
             '<title>Swing Desk Trader</title><meta name="robots" content="noindex">'
             f'<style>{report.CSS}.spark{{width:100%;height:64px}}.logl{{list-style:none;padding:0;margin:0;font-size:14px}}.logl li{{padding:6px 0;border-top:1px solid var(--line)}}</style></head><body><main>'
             f'{report.nav("trader")}'

@@ -545,7 +545,7 @@ def render(r):
     how = ('<details><summary>How to use this page</summary><p class="mut">Only cards under <b>Golden trades</b> and <b>Solid trades</b> are trades. Golden first; from Solid take 1-3. '
            f'Before {open_il(r["asof"])} Israel time, place a limit buy at the buy price and attach a take-profit and a stop-loss (good-til-cancelled). '
            'If it opens above the buy price, skip it. Sell by the exit date whatever happens. Not financial advice.</p></details>')
-    return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+    return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="icon" type="image/png" href="favicon.png"><meta name="apple-mobile-web-app-title" content="Swing Desk"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="theme-color" content="#0b0e13">'
             '<title>Swing Desk</title><meta name="robots" content="noindex"><meta name="theme-color" content="#0b0e13">'
             f'<style>{CSS}</style></head><body><main>'
             f'{nav("desk")}<header><h1>SWING <b>DESK</b></h1><span class="mut">{il:%a %d %b, %H:%M} Israel · prices as of {r["asof"]} close</span></header>'
