@@ -109,7 +109,7 @@ def reconcile(L):
             L["closed"].append(dict(sym=sym, tier=p["tier"], entry_date=p.get("entry_date"), exit_date=today_et().isoformat(), entry=p["entry"],
                                     exit=px, qty=p["qty"], pnl=(px - p["entry"]) * p["qty"] if px else None, ret=ret, reason=why))
             log(L, f"{sym}: closed ({why}) {'' if ret is None else f'{ret:+.2f}%'}")
-            push(f"Sold {sym} ({why})", f"{'' if ret is None else f'{ret:+.2f}%, ${(px - p['entry']) * p['qty']:+,.2f}'}")
+            push(f"Sold {sym} ({why})", "" if ret is None else f"{ret:+.2f}%, ${L['closed'][-1]['pnl']:+,.2f}")
             del L["positions"][sym]
     strangers = set(pos) - set(L["positions"])
     if strangers: log(L, f"HALT: positions not in ledger: {sorted(strangers)}"); push("Trader halted", f"Unknown positions {sorted(strangers)}", "high")
@@ -202,7 +202,7 @@ def render(L, acct, deploy=False):
                   for s, p in L["positions"].items()) or '<tr><td class="mut">No positions</td></tr>'
     closed = "".join(f'<tr><td>{E(c["exit_date"])}</td><td><b>{E(c["sym"])}</b></td><td>{E(c["reason"])}</td>'
                      f'<td class="num {report.sign(c["ret"] or 0)}">{report.fmt_ret(c["ret"])}</td>'
-                     f'<td class="num {report.sign(c["pnl"] or 0)}">{"" if c["pnl"] is None else f"${c["pnl"]:+,.2f}"}</td></tr>' for c in reversed(L["closed"][-30:]))
+                     f'<td class="num {report.sign(c["pnl"] or 0)}">{"" if c["pnl"] is None else "${:+,.2f}".format(c["pnl"])}</td></tr>' for c in reversed(L["closed"][-30:]))
     pts = [v for _, v in L["equity"][-60:]] or [eq]
     lo, hi = min(pts), max(pts)
     spark = " ".join(f"{i / max(1, len(pts) - 1) * 300:.1f},{60 - (v - lo) / ((hi - lo) or 1) * 56 - 2:.1f}" for i, v in enumerate(pts))

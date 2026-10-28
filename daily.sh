@@ -14,7 +14,8 @@ python3 report.py || { osascript -e 'display notification "Market data step fail
 
 # Lean run: no MCP servers, skills, user hooks or default system prompt (53K -> 9K tokens of context per turn).
 # Measured 2026-10-21: ~240K tokens total vs ~7.2M for the first Opus+subagents version, same findings.
-claude -p "$(cat research.md)" --model sonnet --output-format json --permission-mode acceptEdits \
+# Hard cap 15 min (a hung web fetch held 2026-10-28 for 48 min); on timeout the page publishes without AI.
+perl -e 'alarm 900; exec @ARGV' claude -p "$(cat research.md)" --model sonnet --output-format json --permission-mode acceptEdits \
   --strict-mcp-config --mcp-config '{"mcpServers":{}}' --disable-slash-commands --setting-sources project \
   --tools "WebSearch,WebFetch,Read,Write,Bash" --allowedTools "WebSearch WebFetch Read Write Bash(python3:*)" \
   --system-prompt "You are a precise financial research assistant. Use tools efficiently. Never invent facts." \
