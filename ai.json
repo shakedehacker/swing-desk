@@ -1,45 +1,31 @@
 {
- "asof": "2026-10-26",
+ "asof": "2026-10-27",
  "model": "Claude",
- "generated_utc": "2026-10-27T05:33:03Z",
+ "generated_utc": "2026-10-28T06:17:48Z",
  "note": {
-  "mood": "risk-on",
+  "mood": "mixed",
   "bullets": [
-   "Asia rallied on AI optimism (Nikkei +2.2%, Kospi +4%) after a Wall Street advance; US futures mixed-to-higher into FOMC.",
-   "FOMC decision Wed Oct 28: markets price ~90% odds of a hold at 4.00%; press conference key for rate-path signal.",
-   "Oil eased (Brent -0.8%) on Mideast diplomatic progress; VIX down ~5.4%, signaling calmer risk appetite.",
-   "Anthropic's IPO filing is lifting AI-stock sentiment; Core PCE and Advance GDP due Thu Oct 29 ahead of the Fed."
+   "FOMC holds rates steady at 4.00% today; GDP, Core PCE and jobless claims due Thursday add event risk into the hold window.",
+   "AI optimism extends rally: SK Hynix profit beat and Anthropic IPO buzz lift Nasdaq futures +0.35%, VIX down 4.7% to 17.5.",
+   "Iran war costs balloon toward $47B and Israel election yields no clear majority, keeping Brent near $111 and geopolitics elevated.",
+   "Sector split: Software/Utilities/Materials up on the week while Semis -8% and Comms -7%, masking true risk appetite under the AI rally."
   ]
  },
  "picks": {
-  "NEM": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "NEM fell with the whole gold-miner sector (GDX -2%) as spot gold slid toward $4,000 on rising yields/dollar, not company damage. Q3 beat estimates with record profit and a large buyback. Only one small broker (Freedom Broker) downgraded on cost inflation; Citi and Barclays raised targets the same week.",
-   "sentiment": 0.4,
-   "sent_conf": 0.4,
-   "bull": "Record Q3 profit, big buyback, Citi/Barclays raised targets despite the gold pullback.",
-   "bear": "Freedom Broker downgrade flags real cost inflation and Q4 FCF shortfall risk at Lihir/Cadia.",
-   "catalysts": "No company-specific event found; FOMC decision Oct 28 and gold-price direction are the main swing factors.",
-   "flags": ["gold-price sensitive", "cost-inflation watch at Lihir/Cadia", "one downgrade vs two target hikes"],
-   "sources": [
-    {"title": "Newmont Sinks 4% Despite Record Third-Quarter Profit as Gold Slides Back Toward $4,000", "url": "https://www.tikr.com/blog/newmont-sinks-44-despite-record-third-quarter-profit-as-gold-slides-back-toward-4000?ref=yahoofinance&.tsrc=rss"},
-    {"title": "Newmont Stock Leads Gold Miners Lower", "url": "https://finance.yahoo.com/markets/commodities/articles/newmont-stock-leads-gold-miners-181521724.html"}
-   ]
-  },
-  "MAT": {
-   "verdict": "VETO",
+  "MSM": {
+   "verdict": "CAUTION",
    "cause": "company",
-   "why": "Drop driven by company turmoil: Citi downgraded MAT to Neutral (10/14) on guidance/cost concerns, CEO Kreiz departed Sep 29, and Southeastern Asset Management is pushing a proxy fight to force a sale. Recent bounce is on takeover speculation (Authentic Brands, Zuru), not improved fundamentals.",
-   "sentiment": -0.1,
-   "sent_conf": 0.3,
-   "bull": "Takeover interest from Authentic Brands/Zuru near $20+/share sets a valuation floor and pressures the board.",
-   "bear": "Citi downgrade, CEO exit, and an active proxy fight show real governance and guidance damage, not a sector dip.",
-   "catalysts": "Q3 earnings expected within the hold window (desk data: ~7 trading days out); proxy-fight headlines possible anytime.",
-   "flags": ["activist/proxy fight in progress", "single-firm downgrade aimed at company", "earnings near hold window edge"],
+   "why": "Stock fell on headline EPS miss (-16% y/y) from $42M noncash impairment tied to discontinued Digital Core tech program; adjusted EPS beat estimates, FY27 guidance raised. Analysts mostly bullish post-drop, but one listicle flags weak multi-year sales growth.",
+   "sentiment": -0.6,
+   "sent_conf": 0.8,
+   "bull": "Adjusted EPS beat, FY27 sales guidance raised 9.5-10.5%, and 3 of 4 analysts raised ratings/targets right after the plunge.",
+   "bear": "Headline EPS fell 16% y/y on a $42M impairment, and one analyst flags weak multi-year sales/EPS growth versus industrial peers.",
+   "catalysts": "none found",
+   "flags": ["noncash impairment drove headline EPS miss", "mixed analyst reaction", "drop is earnings-specific, not sector-wide"],
    "sources": [
-    {"title": "Southeastern Asset Management Prepares Proxy Battle at Mattel Inc (MAT)", "url": "https://www.gurufocus.com/news/9134878/southeastern-asset-management-prepares-proxy-battle-at-mattel-inc-mat"},
-    {"title": "Mattel (MAT): Leadership Pivot and Takeover Interest Drive Rebound Following Q3 Softness", "url": "https://finance.yahoo.com/markets/stocks/articles/mattel-mat-leadership-pivot-takeover-131622426.html"}
+    {"title": "MSC Industrial fiscal Q4 2026 slides: efficiency drives profit growth", "url": "https://www.investing.com/news/company-news/msc-industrial-fiscal-q4-2026-slides-efficiency-drives-profit-growth-93CH-4966476"},
+    {"title": "1 small-cap stock to target this week and 2 that underwhelm", "url": "https://finance.yahoo.com/markets/stocks/articles/1-small-cap-stock-target-174247169.html?.tsrc=rss"},
+    {"title": "MSC Industrial Direct (MSM) Beats Q4 Estimates, Projects Solid Q1 Growth", "url": "https://www.gurufocus.com/news/9136210/msc-industrial-direct-msm-beats-q4-estimates-projects-solid-q1-growth"}
    ]
   }
  }
