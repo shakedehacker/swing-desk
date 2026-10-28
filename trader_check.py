@@ -63,4 +63,12 @@ L = trader.load(); c = L["closed"][-1]
 assert not L["positions"] and c["reason"] == "target" and c["ret"] > 4, c
 open(trader.STOP, "w").close(); B["open"] = False; trader.morning()
 assert "kill switch" in trader.load()["log"][-1][1]
+os.remove(trader.STOP)                             # news guard: CANCEL answer cancels a pending entry, error keeps it
+L = trader.load(); L["positions"]["BBB"] = dict(status="entry", entry_order="o1", tier="solid"); trader.save(L)
+trader.api = lambda m, path, body=None, data=False: {"news": [{"created_at": "2026-10-28T06:00", "headline": "Acme to acquire BBB"}]} if data else {}
+trader.subprocess.run = lambda *a, **k: type("R", (), {"stdout": "CANCEL: acquisition agreed"})()
+L = trader.load(); trader.guard(L); assert "BBB" not in L["positions"] and "news guard" in L["log"][-1][1], L["log"][-1]
+L["positions"]["BBB"] = dict(status="entry", entry_order="o1", tier="solid")
+def boom(*a, **k): raise TimeoutError
+trader.subprocess.run = boom; trader.guard(L); assert "BBB" in L["positions"]
 print("trader ok:", f"{c['ret']:+.2f}%", f"${c['pnl']:+.2f}")

@@ -11,7 +11,7 @@ Kill switch: create ~/trading/STOP  -> no new entries, open entry orders cancell
 Fractional orders at Alpaca are DAY only and can't be brackets, so the stop is re-placed every session
 (server-side, survives a sleeping Mac) and the target / time exits are handled by `watch`.
 """
-import os, sys, json, time, html, datetime as dt, urllib.request, urllib.error
+import os, sys, json, time, html, subprocess, datetime as dt, urllib.request, urllib.error
 from zoneinfo import ZoneInfo
 import desk, report
 
@@ -172,6 +172,7 @@ def watch():
         for sym, p in list(L["positions"].items()):
             if p["status"] == "entry": api("DELETE", f"/v2/orders/{p['entry_order']}"); log(L, f"{sym}: entry cancelled (kill switch)"); del L["positions"][sym]
     if not clock["is_open"]:
+        if now.hour == 9 and L.get("guard") != now.date().isoformat(): guard(L)
         if now.hour >= 16 and L["summary"] != now.date().isoformat() and now.weekday() < 5:
             reconcile(L); summary(L)
         return save(L)
@@ -184,6 +185,44 @@ def watch():
         elif held_days(p["entry_date"]) >= HOLD and (now.hour, now.minute) >= (15, 50): sell_now(L, sym, p, "time")
     save(L)
     if len(L["log"]) != changed: render(L, api("GET", "/v2/account"), deploy=True)
+
+GUARD = """You protect a mean-reversion dip-buying bot. It buys liquid US stocks after a sharp multi-day drop,
+expecting a bounce within 6 trading days. Ordinary bad news (downgrades, misses, macro fear, sector selloffs) is
+exactly what it is designed to buy, so that is KEEP. Answer CANCEL only when the headlines below show an event that
+breaks the bounce logic: an agreed or offered acquisition of this company (price pinned), fraud / accounting probe /
+restatement / auditor resignation, bankruptcy or going-concern doubt, delisting or trading halt, a guidance cut or
+profit warning issued after yesterday's close, a failed pivotal drug trial or FDA rejection, or a CEO/CFO sudden exit
+amid scandal. Headlines about other companies do not count. Reply with one line: KEEP or CANCEL, a colon, then at most
+12 words of reason.
+
+Stock: {sym}
+Headlines since yesterday's close (newest first):
+{news}"""
+
+def guard(L):
+    """Pre-open news check, once a day before 09:30 ET, only for pending entries. Fails open: any error keeps the order."""
+    L["guard"] = today_et().isoformat()
+    since = (dt.datetime.now(ET) - dt.timedelta(hours=18)).astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for sym, p in list(L["positions"].items()):
+        if p["status"] != "entry": continue
+        news = api("GET", f"/v1beta1/news?symbols={sym}&start={since}&limit=20&sort=desc", data=True).get("news") or []
+        if not news: continue
+        lines = "\n".join(f"- {n['created_at'][:16]} {n['headline']}" + (f" -- {n['summary'][:200]}" if n.get("summary") else "") for n in news)
+        try:
+            out = subprocess.run(["claude", "-p", GUARD.format(sym=sym, news=lines), "--model", "haiku", "--tools", "",
+                                  # isolated: local plugin hooks would otherwise inject coding-session context into the judge
+                                  "--settings", '{"disableAllHooks":true}', "--system-prompt", "You are a terse financial news classifier. Output exactly one line and nothing else.",
+                                  "--strict-mcp-config", "--mcp-config", '{"mcpServers":{}}', "--disable-slash-commands",
+                                  "--setting-sources", "project", "--max-turns", "1"],
+                                 capture_output=True, text=True, timeout=120, cwd="/tmp").stdout.strip()
+        except Exception as e:
+            log(L, f"{sym}: news guard failed ({type(e).__name__}), order kept"); continue
+        if out.upper().startswith("CANCEL"):
+            api("DELETE", f"/v2/orders/{p['entry_order']}"); del L["positions"][sym]
+            log(L, f"{sym}: entry cancelled by news guard: {out[7:].strip()}")
+            push(f"Bot skipped {sym}", f"Pre-open news: {out[7:].strip()}")
+        else:
+            log(L, f"{sym}: news guard {out[:80] or 'no answer'}, order kept")
 
 def summary(L):
     acct = api("GET", "/v2/account")
