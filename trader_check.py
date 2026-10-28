@@ -7,6 +7,7 @@ trader.LEDGER, trader.OUT, trader.STOP = f"{tmp}/l.json", f"{tmp}/t.html", f"{tm
 trader.cfg = lambda: {"BASE": "https://paper-api.alpaca.markets", "KEY": "x", "SECRET": "y"}
 trader.push = lambda *a, **k: None
 trader.time.sleep = lambda s: None
+trader.in_window = lambda now: True
 trader.os.system = lambda c: 0  # never deploy from the check
 today = trader.today_et().isoformat()
 B = dict(orders={}, pos={}, cash=60.0, px=100.0, open=False, n=0)

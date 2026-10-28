@@ -2,7 +2,7 @@
 """Claude's own account: trades the desk's Golden/Solid picks at Alpaca (paper first), long only, stocks only.
 
   python3 trader.py morning   # 07:30 Israel, after report.py: session stops, overdue exits, new entries
-  python3 trader.py watch     # every 5 min: fills, target and day-6 exits; after the close, the daily summary
+  python3 trader.py watch     # every minute (idle outside US hours): fills, target and day-6 exits; after the close, the daily summary
   python3 trader.py status    # print account, positions, ledger
   python3 trader.py setup     # asks for the Alpaca keys (hidden input), writes .alpaca, checks they work
 
@@ -158,11 +158,16 @@ def morning():
     elif not cands: log(L, "no qualifying picks today")
     save(L); render(L, acct)
 
+def in_window(now):
+    # ponytail: no work outside 09:25-17:00 ET weekdays (watch runs every minute); holidays inside the window are caught by /v2/clock
+    return now.weekday() < 5 and (9, 25) <= (now.hour, now.minute) < (17, 0)
+
 def watch():
+    now = dt.datetime.now(ET)
+    if not in_window(now): return
     L = load()
     clock = api("GET", "/v2/clock")
     if "error" in clock: return
-    now = dt.datetime.now(ET)
     if os.path.exists(STOP):
         for sym, p in list(L["positions"].items()):
             if p["status"] == "entry": api("DELETE", f"/v2/orders/{p['entry_order']}"); log(L, f"{sym}: entry cancelled (kill switch)"); del L["positions"][sym]
