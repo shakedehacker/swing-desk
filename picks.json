@@ -1,405 +1,554 @@
 {
- "asof": "2026-10-27",
+ "asof": "2026-10-29",
  "picks": [
   {
-   "t": "MSM",
+   "t": "CRM",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 118.37999725341797,
-   "buy": 119.53800659179687,
-   "tgt": 119.64793255958465,
-   "stop": 109.67657383510044,
+   "c": 230.89999389648438,
+   "buy": 223.71300659179687,
+   "tgt": 239.44028685600438,
+   "stop": 204.38729248046874,
    "days": null,
    "conf": null,
    "s": null,
-   "ed": 50,
-   "name": "MSC Industrial Direct Company, ",
-   "drop": -8.608045727597924,
-   "rvol": 1.1681516051477867,
+   "ed": null,
+   "name": "Salesforce, Inc.",
+   "drop": -7.747013428332183,
+   "rvol": 1.0618191461665014,
    "dd": {
-    "short": 0.0542,
-    "dtc": 3.47,
+    "short": 0.0392,
+    "dtc": 2.78,
     "ratings": [
-     6,
-     4,
+     40,
+     15,
      1
     ],
     "moves": [
      {
-      "firm": "Barclays",
+      "firm": "DA Davidson",
       "action": "main",
-      "to": "Overweight",
-      "pt": 159.0,
-      "prior": 152.0,
-      "date": "2026-10-26"
+      "to": "Neutral",
+      "pt": 250.0,
+      "prior": 225.0,
+      "date": "2026-10-21"
      },
      {
-      "firm": "Jefferies",
-      "action": "up",
-      "to": "Buy",
-      "pt": 135.0,
-      "prior": 130.0,
-      "date": "2026-10-23"
-     },
-     {
-      "firm": "Keybanc",
-      "action": "main",
+      "firm": "Cantor Fitzgerald",
+      "action": "reit",
       "to": "Overweight",
-      "pt": 140.0,
-      "prior": 145.0,
-      "date": "2026-10-23"
-     },
-     {
-      "firm": "Stephens & Co.",
-      "action": "up",
-      "to": "Overweight",
-      "pt": 135.0,
-      "prior": 130.0,
-      "date": "2026-10-23"
+      "pt": 300.0,
+      "prior": 300.0,
+      "date": "2026-10-21"
      }
-    ]
+    ],
+    "iv": 0.4482883947753906,
+    "imove": 5.647902896247765
    },
    "news": [
     [
-     "1 small-cap stock to target this week and 2 that underwhelm",
-     "https://finance.yahoo.com/markets/stocks/articles/1-small-cap-stock-target-174247169.html?.tsrc=rss",
+     "ServiceNow stock sinks in worst day ever, Fortinet shares drop as Q3 earnings reports send software sector lower",
+     "https://finance.yahoo.com/markets/stocks/article/fortinet-drags-down-cybersecurity-stocks-as-the-companys-service-revenue-forecast-misses-estimates-124146969.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 27 Oct 2026 17:42:47 +0000"
+     "Thu, 29 Oct 2026 12:41:46 +0000"
     ],
     [
-     "Best Income Stocks to Buy for October 26th",
-     "https://finance.yahoo.com/markets/stocks/articles/best-income-stocks-buy-october-081000532.html?.tsrc=rss",
+     "Salesforce (CRM) Stock Sees Modest Fair Value Lift As AI And Braze Views Evolve",
+     "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-stock-sees-modest-181354019.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 26 Oct 2026 08:10:00 +0000"
+     "Thu, 29 Oct 2026 18:13:54 +0000"
     ],
     [
-     "Did Asset Impairment Just Shift MSC Industrial Direct's (MSM) Investment Narrative?",
-     "https://finance.yahoo.com/markets/stocks/articles/did-asset-impairment-just-shift-171218939.html?.tsrc=rss",
+     "Salesforce vs. Synopsys: Which Technology Stock Is a Better Buy in 2026?",
+     "https://www.fool.com/coverage/better-buy/2026/10/29/salesforce-vs-synopsys-which-technology-stock-is-a-better-buy-in-2026/?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 23 Oct 2026 17:12:18 +0000"
+     "Thu, 29 Oct 2026 17:36:44 +0000"
     ],
     [
-     "MSC Industrial Direct (MSM) Q4 Earnings Contrast A Profit Squeeze",
-     "https://finance.yahoo.com/markets/stocks/articles/msc-industrial-direct-msm-q4-151708552.html?.tsrc=rss",
+     "Salesforce vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
+     "https://www.fool.com/coverage/better-buy/2026/10/29/salesforce-vs-datadog-which-technology-stock-is-a-better-buy-in-2026/?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 23 Oct 2026 15:17:08 +0000"
+     "Thu, 29 Oct 2026 16:20:02 +0000"
     ],
     [
-     "Fastenal vs. Grainger vs. MSC Industrial: Which Dividend Wins for Retirement?",
-     "https://247wallst.com/investing/2026/10/23/fastenal-vs-grainger-vs-msc-industrial-which-dividend-wins-for-retirement/?.tsrc=rss",
+     "Can You Still Buy Salesforce Stock Today?",
+     "https://www.trefis.com/stock/crm/articles/621321/can-you-still-buy-salesforce-stock-today/2026-10-29?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 23 Oct 2026 15:15:23 +0000"
+     "Thu, 29 Oct 2026 14:03:07 +0000"
     ],
     [
-     "MSC Industrial Direct (MSM) Drops After Earnings As Undervalued Case Faces A Fresh Test",
-     "https://finance.yahoo.com/markets/stocks/articles/msc-industrial-direct-msm-drops-142015888.html?.tsrc=rss",
+     "ServiceNow Tumbles 19% as Slower Contract Growth Overshadows Raised AI Target; Salesforce Slides 6%, Workday Drops 5%",
+     "https://247wallst.com/investing/2026/10/29/servicenow-tumbles-19-as-slower-contract-growth-overshadows-raised-ai-target-salesforce-slides-6-workday-drops-5/?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 23 Oct 2026 14:20:15 +0000"
+     "Thu, 29 Oct 2026 13:09:05 +0000"
     ],
     [
-     "MSC Industrial (MSM) stock trades down, here is why - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOWlrUGh1bU42dmg3eGxENlFIdE5rOUdOWFJYcmdLQzI5WTZoQkE2bk1HR29YLWhqRGVQUGdSYk9BZGtpZklpSnowcG5yQ2VHSjAwUmVaZVhUZGNVWm5mT09jNXl2SWh2bzVLT29UWHdfTEs1aXBmZk9sVjNJT01CSEs1OTJUa3B0bXMwRGwydXppbUxpLW13SzJCZmk?oc=5",
+     "What Is Going On With Salesforce Stock? - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaDhTRU5JcnJpSzFQR0hPdkd2MUdKMU9Kd2lNS0dJQmRKQ0RaZkNhV3NSVHZhSF91OURVNzBsYXFZR0k1c25uT2lIM1B0aGs3d3A0UGEzQkNDclhQQXdZZFFwZkJwaXg0dzU4bzFSZ3NhU3dTTmNsQ0JGODVkOWxOM0JWT2cxZlZmUE5CZ3ZXQ2c?oc=5",
      "Yahoo Finance",
-     "Fri, 23 Oct 2026 00:37:00 GMT"
+     "Wed, 28 Oct 2026 12:23:28 GMT"
     ],
     [
-     "MSC Industrial wins two brokerage upgrades after post-earnings plunge (MSM:NYSE) - Seeking Alpha",
-     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1gwV3pvVHZtV19yQnVCbjJXSzFlaUZteERfbnVzQmtMOU9UV1NyTmlDT21vckpDWWZVXzlPUFNsdGE5Qk5uQW5UM2IzRG5PNDBkdWp6bWpqTVJNRWhaZVVFaktZbDZ2VnhzWWJoRWFTbmVMdFlYR2h0Q3BSMGpVWktsY3JTWXpxM3Q3Q1VlSVNiazFpUFUybm9aeUxKODBjeGl3Tld1a19jMXc?oc=5",
-     "Seeking Alpha",
-     "Fri, 23 Oct 2026 18:36:38 GMT"
+     "Can Salesforce Stock Hit $350? - Trefis",
+     "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDJVelljWVl0SkhJeDhHcTBDYnpZbC11WTBuTW5yVVoxMVRYNjdRR05qZ1hxOG03bEZBLUpsQUVyUUh2akFKbzRzbS1DRTRmSFBRaDY0TE51c2kzUDBtaDk2NlBQNnd2RE9lc29qRHJrREJSOVFxckd4YjBYaGtXbGFGTXR2eFJNMnh2eWV2MU1OQQ?oc=5",
+     "Trefis",
+     "Fri, 23 Oct 2026 08:43:11 GMT"
     ],
     [
-     "MSC Industrial Direct (MSM) Stock Sinks As Q4 Results Uncover Earnings Strain - Simply Wall Street",
-     "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdjJady1IbDR1ZFRQYXIzRFZWYkZjVGxSa3dXOWsxazQ0ZkFaQnlPRG92ODcwS2xLN3c2SGNmczhCMUwtVzRTNDdsSk1MZy1TMUlHWUtPUGhkeV9lTVZnZzJqUkxvbUdZWmt1Xy1pa1hDdDk4d04zVXN0UmVTWmhaUlUtdkx0TXNPd1R5LU1yZWl6aXBxZG5qV1U3RnZPNlNGV3BPZXJiZXk2YVQyZXdpY3pWeUgyUkgwNEU2eTdnYkRYbS0wVlBEZTIyNlZKRlhBSVJZSGUzX0jSAd4BQVVfeXFMTUVydDVmc0M5a0ZOZXFHdm41ZVdtS1VKclpMZlYxNE5ONzdJaEhWNllXdFNSMUhHZzNVUUNkR2RYa1FDQk04UkFfQWZvdDcxN2VITlJVNmZmTXRISFFYd2htd0pWekpfdnIyUmJoQV9WYVVoM3hDdjI2OHVLMnZOOUNUdlRXc3NfT1Q5S2VVUjJNR2tzQVJGT1E2WWdzaTdhLWNsYnpwNGlVV1VJLXRvWURqR0Y0My1Vc2VCa09KdFowbVV1a3lHMTFmU21fdVhTVHpEemRZVjZfNE5uZWlR?oc=5",
-     "Simply Wall Street",
-     "Fri, 23 Oct 2026 00:36:45 GMT"
+     "Salesforce (CRM) Stock Looks Cheap Relative To Its Earnings Power - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxNMXVObG96cURZMEFjSFU2VXlscjFRWldnWkRDM2dTSkVCSGIxZnVNUWkzUVJ3ZHZQMTBNQ0lUaVVwLW5ESlRMcEtBVkFZM2hLZkhQNF9fM2UwcjlOVThxaUhrSF9lVGRSQU83MWV3TkF2RUJHYjdTc3lsSGd6TVAtaHdIUFE3TU1IMFJaU05BTkhiWTNMTDIwbFozeVRpZw?oc=5",
+     "Yahoo Finance",
+     "Tue, 27 Oct 2026 15:08:29 GMT"
     ],
     [
-     "Silver Hill Expands South: Metalsource Mining (CSE: MSM) Intersects ~22m Mineralization 80 Metres Beyond Prior Hole - Investorideas.com",
-     "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSjdOWUFTZ2pkTFdtelU3QkFVdmVjQ3dFX2R5MGlRVjViN2hxT1NyWi10azFQVWRBVTl4NkxKRlNhOUdQaGdpQlBiVEZ3OVNNNU9rbmJKbVR0MXpSTXlkRlNxSkhRV0VnejBXbVg1MlBNWER1ZHlTV19aTFZ6c2ZpNUNTMXJQSHY5MHN0SWVsOEZWRERkb1RGRTNfSVR2a1NleS1kendHS1F2dG52WkZDTkRBT1BLcExEd1dodzR5Q2N1alNZWkpZTl9TaGs5NjhCNUN2RWs0cGM1ZThWbXZOOFFrUkZHSktkdkFyT1VuXzgwVTlHdTV5RjI1aw?oc=5",
-     "Investorideas.com",
-     "Thu, 22 Oct 2026 14:33:57 GMT"
+     "Why Is Salesforce Stock Falling on Thursday? - Salesforce (NYSE:CRM) - Benzinga",
+     "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUWJEQUJOTVMwOHJKMTJ3VVh0emMwalFfaW4ySVM5UkVUeUhVREcyNk1HTkNtMEdaS21nNUtPbGJBOFNyMXVtWnZYVVlYcE1vSjAzNWFzaUxzaHhEUjI3ZWdMM0doV0dZV2tyalNJQkE3UTQ3YTdJQ2djWkUzLUJIcDQ0UkxVeXQzVWh3YndwNHc4ZU1qMTZfbzlodnZYdWxaV3V0cFZhTQ?oc=5",
+     "Benzinga",
+     "Thu, 29 Oct 2026 16:00:51 GMT"
     ]
    ]
   },
   {
-   "t": "BTSG",
+   "t": "WEX",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 58.36000061035156,
-   "buy": 56.124000549316406,
-   "tgt": 59.7306084348295,
-   "stop": 52.59071404593332,
+   "c": 183.47000122070312,
+   "buy": 177.71400604248046,
+   "tgt": 187.62339339443423,
+   "stop": 165.718289402553,
    "days": null,
    "conf": null,
    "s": null,
-   "ed": 2,
-   "name": "BrightSpring Health Services, I",
-   "drop": -6.5043218162310845,
-   "rvol": 1.128659257449324,
+   "ed": null,
+   "name": "WEX Inc.",
+   "drop": -7.40385495817849,
+   "rvol": 1.7998634327542882,
    "dd": {
-    "short": 0.0939,
-    "dtc": 4.84,
+    "short": 0.111999996,
+    "dtc": 5.06,
     "ratings": [
-     18,
-     0,
-     0
-    ],
-    "moves": []
-   },
-   "news": [
-    [
-     "BrightSpring Health Services (BTSG) Could Be 10% Undervalued On Its Raised 2026 Outlook",
-     "https://finance.yahoo.com/healthcare/articles/brightspring-health-services-btsg-could-022035949.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 15 Oct 2026 02:20:35 +0000"
-    ],
-    [
-     "BTSG Stock Climbs 67.3% YTD: What's Driving the Rally in 2026?",
-     "https://finance.yahoo.com/healthcare/articles/btsg-stock-climbs-67-3-134200029.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 14 Oct 2026 13:42:00 +0000"
-    ],
-    [
-     "Why BrightSpring Health Services (BTSG) Stock Is Up Today",
-     "https://finance.yahoo.com/markets/stocks/articles/why-brightspring-health-services-btsg-020603663.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Sat, 03 Oct 2026 02:06:03 +0000"
-    ],
-    [
-     "BrightSpring Health Services, Inc. to Announce Third Quarter 2026 Financial Results on October 30, 2026",
-     "https://finance.yahoo.com/healthcare/articles/brightspring-health-services-inc-announce-120500593.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 01 Oct 2026 12:05:00 +0000"
-    ],
-    [
-     "BTSG Deploys AI Across Operations: Will It Improve Margins?",
-     "https://finance.yahoo.com/healthcare/articles/btsg-deploys-ai-across-operations-131900590.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 30 Sep 2026 13:19:00 +0000"
-    ],
-    [
-     "BrightSpring vs. Option Care Health: Which Healthcare Stock Is Better?",
-     "https://finance.yahoo.com/healthcare/articles/brightspring-vs-option-care-health-175700131.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 29 Sep 2026 17:57:00 +0000"
-    ],
-    [
-     "BTSG Oct 2026 50.000 put (BTSG261016P00050000) interactive stock chart - Yahoo Finance UK",
-     "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WM1NydmJRbTFWUC1oMkRvUTlNbmZraVpyUkVrM1R4TDJnSm9ueFZnTDdzaGZkN0N4dXBjaVE4cXVTVGlKMldhMWN5SGpzWDUtckR0NWhhdlBlWHVXQXZZME9XNW1pcjVVcG5Edlln?oc=5",
-     "Yahoo Finance UK",
-     "Wed, 21 Oct 2026 20:50:09 GMT"
-    ],
-    [
-     "Price to earnings forward of BrightSpring Health Services, Inc. \u2013 NASDAQ:BTSG - TradingView",
-     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPXzdmTDhkSW9TamNrSDdIVVdJelozT2lGTmIxWmVBNHBnUVVEY3U0dk5sUi1WdENPVHlYbm5YSkc0NG40Q2d5RE9LYjFJWmdIQmUtVkduZlZyeXRodTdFa2dfOWtBT1hxZGdhbEdXSnJwank5Mm1Wb3owd2I2N1paNjZCclg4TFdQa3hDQm1aczB1aWxLMXk2RU1SUmZyM2VRQWc?oc=5",
-     "TradingView",
-     "Sat, 24 Oct 2026 19:54:09 GMT"
-    ],
-    [
-     "Merit Medical Systems, Inc. (MMSI) stock price, news, quote and history - Yahoo Finance UK",
-     "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92LTNQVVZscWJVOVpuZlJndXRNcGM0cFJ2Z2VPcHlETVdidkJjMW9YY1d0dFRTMWpfSms2UXF3YV9ZRkVIQmFtRXNQaFpfNl9ST2hnYk1FZ2Z4WWJyTVRHLXRn?oc=5",
-     "Yahoo Finance UK",
-     "Thu, 22 Oct 2026 16:07:51 GMT"
-    ],
-    [
-     "Understanding the Setup: (BTSG) and Scalable Risk - Stock Traders Daily",
-     "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVlbnIzSG1EUHRYV2xtSE1DMG9LVEdLTW9PTXktV1llMnVia3g2YW45d3RybjR5ZTJaWkVOOFRIbW1JeE56dFNNQzV0akFkS1hhMjNTNzkyVU9lWDlsakFpUFpWTHdzcHdoNUktVmFqN09Hb1V3UGxlUWtUTDFHYU9CQ0MzZmJLUl8wcmVNTHI5b0YzVDVpdXZ0RXZudTVDTmM5bEpnRDN0R2ZJUHozV195TVBfUHNzOVVGTlhTVHFQX01fbEtV?oc=5",
-     "Stock Traders Daily",
-     "Mon, 26 Oct 2026 17:42:02 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "MCK",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 967.02001953125,
-   "buy": 913.95,
-   "tgt": 990.2865631530092,
-   "stop": 869.9871616908482,
-   "days": null,
-   "conf": null,
-   "s": null,
-   "ed": 5,
-   "name": "McKesson Corporation",
-   "drop": -6.12549760076827,
-   "rvol": 0.8314683135499589,
-   "dd": {
-    "short": 0.0196,
-    "dtc": 2.59,
-    "ratings": [
-     13,
-     3,
+     5,
+     10,
      0
     ],
     "moves": [
      {
-      "firm": "Mizuho",
+      "firm": "Morgan Stanley",
       "action": "main",
-      "to": "Neutral",
-      "pt": 1020.0,
-      "prior": 905.0,
-      "date": "2026-10-20"
-     },
-     {
-      "firm": "UBS",
-      "action": "main",
-      "to": "Buy",
-      "pt": 1200.0,
-      "prior": 1080.0,
-      "date": "2026-10-16"
+      "to": "Equal-Weight",
+      "pt": 178.0,
+      "prior": 172.0,
+      "date": "2026-10-27"
      }
-    ]
+    ],
+    "iv": 0.43843640182495114,
+    "imove": 5.523779452127648
    },
    "news": [
     [
-     "McKesson (MCK) Stock Dips While Market Gains: Key Facts",
-     "https://finance.yahoo.com/markets/stocks/articles/mckesson-mck-stock-dips-while-205002356.html?.tsrc=rss",
+     "WEX (WEX) Q3 2026 Earnings Call Transcript",
+     "https://www.fool.com/earnings/call-transcripts/2026/10/29/wex-wex-q3-2026-earnings-call-transcript/?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 27 Oct 2026 20:50:02 +0000"
+     "Thu, 29 Oct 2026 20:02:49 +0000"
     ],
     [
-     "McKesson's Quarterly Earnings Preview: What You Need to Know",
-     "https://www.barchart.com/story/news/8365102/mckesson-s-quarterly-earnings-preview-what-you-need-to-know?.tsrc=rss",
+     "Compared to Estimates, Wex (WEX) Q3 Earnings: A Look at Key Metrics",
+     "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-wex-wex-q3-223002620.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 23 Oct 2026 12:32:41 +0000"
+     "Wed, 28 Oct 2026 22:30:02 +0000"
     ],
     [
-     "Is Trending Stock McKesson Corporation (MCK) a Buy Now?",
-     "https://finance.yahoo.com/markets/stocks/articles/trending-stock-mckesson-corporation-mck-120004422.html?.tsrc=rss",
+     "WEX\u2019s (NYSE:WEX) Q3 2026: strong sales, full-year sales guidance is optimistic",
+     "https://finance.yahoo.com/markets/stocks/articles/wex-nyse-wex-q3-2026-213005473.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 12:00:04 +0000"
+     "Wed, 28 Oct 2026 21:30:05 +0000"
     ],
     [
-     "McKesson Corporation Declares Quarterly Dividend",
-     "https://finance.yahoo.com/healthcare/articles/mckesson-corporation-declares-quarterly-dividend-120000960.html?.tsrc=rss",
+     "Wex (WEX) Q3 Earnings and Revenues Top Estimates",
+     "https://finance.yahoo.com/markets/stocks/articles/wex-wex-q3-earnings-revenues-204509446.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 12:00:00 +0000"
+     "Wed, 28 Oct 2026 20:45:09 +0000"
     ],
     [
-     "Would You Have Held McKesson Stock All The Way Up?",
-     "https://www.trefis.com/articles/619441/would-you-have-held-mckesson-stock-all-the-way-up/2026-10-20?.tsrc=rss",
+     "Wex: Q3 Earnings Snapshot",
+     "https://finance.yahoo.com/markets/stocks/articles/wex-q3-earnings-snapshot-204357206.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 02:32:21 +0000"
+     "Wed, 28 Oct 2026 20:43:57 +0000"
     ],
     [
-     "McKesson (MCK) Outperforms Broader Market: What You Need to Know",
-     "https://finance.yahoo.com/markets/stocks/articles/mckesson-mck-outperforms-broader-market-210004918.html?.tsrc=rss",
+     "WEX Inc. Reports Third Quarter 2026 Financial Results",
+     "https://finance.yahoo.com/markets/stocks/articles/wex-inc-reports-third-quarter-203000859.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 20 Oct 2026 21:00:04 +0000"
+     "Wed, 28 Oct 2026 20:30:00 +0000"
     ],
     [
-     "McKesson Corporation (MCK) stock price, news, quote and history - Yahoo Finance UK",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1MX2FwbkhwXzM2V1pwREg2bjg5SUJ5VDlzVjgxNEZnMVlMeFFfRWF2NUlrOHVJOEJaZ1oxakRFcDNFdFhjWTNSSHpPYU9UdjJt?oc=5",
-     "Yahoo Finance UK",
-     "Tue, 27 Oct 2026 21:20:56 GMT"
-    ],
-    [
-     "McKesson (MCK) Stock Dips While Market Gains: Key Facts - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUVo1eHd1dXQ2cEpOZG9ETkhlbXVJWHBpdkRXRG1rQmhSNjcxUDlzVTI3TXRRZ2llR3p1SUtnLWF6cWQ3d0piNmlWdmFRamlqNjNtY25XVDA0c3g4YVNIRW8zSEpzWDA4QWhxc0R3QnJUVXFOdXRBeVlRT1ljc2UtcS1uRlNwcDNQaUExWmdmN1ozOG5GUVFXY29B?oc=5",
+     "WEX (WEX) Stock Looks Expensive Even After Its 33% Rise - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVHNxS0p6QWNYeGlTc0ZNQ3BKbXVZcDlHZHhScWY5VzRzWU5xaGFqYllGUjFraGMwNUpmeE1ZZmJRejFqVUFWb1RGREdzMnMxbWxtcFlkYVRaRzhZbEJIZkJHRV9tZFgtN1BWRmtHNUJZd2hkY3lYSlhualR1Wk1pSjF6aGl4U2tBQzVSWmZlS18xaFNHSzQ1bmN3?oc=5",
      "Yahoo Finance",
-     "Tue, 27 Oct 2026 20:50:02 GMT"
+     "Sat, 24 Oct 2026 18:14:26 GMT"
     ],
     [
-     "MCK 261120 710.00C (MCK261120C710000) Stock Options Chain | Quotes & News - Moomoo",
-     "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjS3c0dzZERWpid2RENGNhRlplaUR2M013ek5GeE9wTHRvMFRaWkswdmdLa05MaHdvVFZrY1V6QWpzQmpnUXoxWEJoNVRhTjRZT2pEZzVyRU1tSW5FVFlB?oc=5",
-     "Moomoo",
-     "Thu, 22 Oct 2026 02:38:54 GMT"
+     "WEX posts stronger than expected Q3 results, raises 2026 guidance - Mainebiz",
+     "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeVI2T2Q0anprbWg5M3M2U1RyZ1dfeVk5YWg1RGFGNHlSMk9QVkk3RzR5dF95elJaNklabUFZOTBPMjlqbG9hSUhURHpJTGNXWHlLb2pldDBOc2phWU1fZTY1VUJNUUVIMmtDVF9qaXIxRVdnUExPZ2NtVjNwYU9rM0N1R19XeUtWamxfN3pSV3ZmZ3lVMk1KbjdB?oc=5",
+     "Mainebiz",
+     "Thu, 29 Oct 2026 12:34:17 GMT"
     ],
     [
-     "McKesson: AI And FDA Overhaul Likely To Overtake Regulatory Drag In 2027 (NYSE:MCK) - Seeking Alpha",
-     "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDdqeWI4NzVFNUY4aUNpclZ4MHhfWVQtS3R0a0lOSFI4N0RUV2xwTWhXYk1qM2dTWms0THBKTWtaRk9pamlmaElHa05iSXdUeHgxSUlYZEtyOHIwcUFtNExjTXpZZzdjaDY5cW0xUnV5V3JhYkw0SjlVN0tBcDU2ZGtGQjIyMGZBcjI4M1QwRGR2a0tzWXhNX0w5bU5hWWdBMGxkX1R4WUNxWnZ5ZWxmd193?oc=5",
-     "Seeking Alpha",
-     "Thu, 22 Oct 2026 13:42:02 GMT"
+     "Do Options Traders Know Something About WEX Stock We Don't? - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUERpQWNCMTB5RXN4TGxZd3hiSmQ1cGVRclA5X3dlbjM0NURkVGlDR3ktNFNoUjlUejZPWE1MaGdYX3hfVkFxWTI1VlNSXzV5MkV0VHQxd3RlRkV0NXlTRjZBenhMUVUyN211b3NyMnBiaHkzbEVCVzI1OHdudUR2emRSN1hyRi1Xdk5kQjhSalNib2RhZ0xBeTdLRFNoNFdBcGc?oc=5",
+     "Yahoo Finance",
+     "Wed, 28 Oct 2026 14:35:00 GMT"
+    ],
+    [
+     "WEX Inc. Estimates \u2013 NYSE:WEX - TradingView",
+     "https://news.google.com/rss/articles/CBMidEFVX3lxTE1EMV9ZYlFYVldNaXJDdjNzLVppaXhNS05TRC1LU0tnMTdMUjBncnB1TEZVeEdrSGd6MEdHdFBkbXNKUTdERnBleXNYWXBsUzAtZDRJNzlaQ0FhbkN4MGNaVHhERnRnbHFrc2daLVRDRWFYZU8w?oc=5",
+     "TradingView",
+     "Sat, 24 Oct 2026 00:50:50 GMT"
     ]
    ]
   },
   {
-   "t": "AHR",
+   "t": "ADP",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 51.060001373291016,
-   "buy": 47.57400054931641,
-   "tgt": 52.52823210399718,
-   "stop": 44.66871457781111,
+   "c": 286.0799865722656,
+   "buy": 273.74400329589844,
+   "tgt": 290.8751577704779,
+   "stop": 259.6468614850725,
    "days": null,
    "conf": null,
    "s": null,
-   "ed": 6,
-   "name": "American Healthcare REIT, Inc.",
-   "drop": -6.070638704945375,
-   "rvol": 2.5781914097985066,
+   "ed": null,
+   "name": "Automatic Data Processing, Inc.",
+   "drop": -7.098790574732194,
+   "rvol": 1.1116238202878561,
    "dd": {
-    "short": 0.1657,
-    "dtc": 10.06,
+    "short": 0.025799999,
+    "dtc": 4.91,
     "ratings": [
-     16,
-     0,
-     0
+     4,
+     11,
+     3
     ],
-    "moves": []
+    "moves": [
+     {
+      "firm": "Citigroup",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 295.0,
+      "prior": 287.0,
+      "date": "2026-10-29"
+     },
+     {
+      "firm": "RBC Capital",
+      "action": "reit",
+      "to": "Sector Perform",
+      "pt": 290.0,
+      "prior": 290.0,
+      "date": "2026-10-29"
+     },
+     {
+      "firm": "Morgan Stanley",
+      "action": "main",
+      "to": "Equal-Weight",
+      "pt": 288.0,
+      "prior": 286.0,
+      "date": "2026-10-29"
+     },
+     {
+      "firm": "Guggenheim",
+      "action": "reit",
+      "to": "Buy",
+      "pt": 340.0,
+      "prior": 340.0,
+      "date": "2026-10-29"
+     }
+    ],
+    "iv": 0.3598574757080078,
+    "imove": 4.533778038813599
    },
    "news": [
     [
-     "3 Healthcare REIT Stocks Income Investors May Want To Watch Now",
-     "https://finance.yahoo.com/healthcare/articles/3-healthcare-reit-stocks-income-001845256.html?.tsrc=rss",
+     "ADP (ADP) Stock Retreats As Q1 Results Meet A Premium Valuation",
+     "https://finance.yahoo.com/markets/stocks/articles/adp-adp-stock-retreats-q1-131301708.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 16 Oct 2026 00:18:45 +0000"
+     "Thu, 29 Oct 2026 13:13:01 +0000"
     ],
     [
-     "Here's Why American Healthcare REIT (AHR) is Poised for a Turnaround After Losing 7.8% in 4 Weeks",
-     "https://finance.yahoo.com/markets/stocks/articles/heres-why-american-healthcare-reit-123502592.html?.tsrc=rss",
+     "Why Is Automatic Data Processing (ADP) Expanding Its Small Business Payroll Reach?",
+     "https://finance.yahoo.com/small-business/articles/why-automatic-data-processing-adp-111353036.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 06 Oct 2026 12:35:02 +0000"
+     "Thu, 29 Oct 2026 11:13:53 +0000"
     ],
     [
-     "Are Finance Stocks Lagging  American Healthcare REIT, Inc. (AHR) This Year?",
-     "https://finance.yahoo.com/markets/stocks/articles/finance-stocks-lagging-american-healthcare-124002823.html?.tsrc=rss",
+     "What Automatic Data Processing (ADP) Said on Its Q1 Earnings Call",
+     "https://www.marketbeat.com/instant-alerts/transcript-what-automatic-data-processing-adp-said-on-its-q1-earnings-call-2026-10-28/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 02 Oct 2026 12:40:02 +0000"
+     "Wed, 28 Oct 2026 23:04:13 +0000"
     ],
     [
-     "American Healthcare REIT Announces Dates for\u00a0 Third Quarter 2026 Earnings Release and Conference Call",
-     "https://finance.yahoo.com/real-estate/articles/american-healthcare-reit-announces-dates-201500424.html?.tsrc=rss",
+     "ADP: Fiscal Q1 Earnings Snapshot",
+     "https://finance.yahoo.com/markets/stocks/articles/adp-fiscal-q1-earnings-snapshot-183603759.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 01 Oct 2026 20:15:00 +0000"
+     "Wed, 28 Oct 2026 18:36:03 +0000"
     ],
     [
-     "Zacks Industry Outlook Highlights American Healthcare REIT, Terreno Realty and RLJ Lodging Trust",
-     "https://finance.yahoo.com/real-estate/articles/zacks-industry-outlook-highlights-american-125800365.html?.tsrc=rss",
+     "Automatic Data Processing, Inc. Q1 2027 Earnings Call Summary",
+     "https://app.moby.co/home/research/tools/earningsCalendar/earnings-automatic-data-processing-inc-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 23 Sep 2026 12:58:00 +0000"
+     "Wed, 28 Oct 2026 16:54:35 +0000"
     ],
     [
-     "American Healthcare REIT Declares Third Quarter 2026 Distribution",
-     "https://finance.yahoo.com/real-estate/articles/american-healthcare-reit-declares-third-201500524.html?.tsrc=rss",
+     "ADP Q1 Earnings Beat Estimates, Revenues Increase Marginally Y/Y",
+     "https://finance.yahoo.com/markets/stocks/articles/adp-q1-earnings-beat-estimates-142200511.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 18 Sep 2026 20:15:00 +0000"
+     "Wed, 28 Oct 2026 14:22:00 +0000"
     ],
     [
-     "American Healthcare REIT, Inc. (AHR) stock price, news, quote and history - Yahoo Finance Singapore",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTS2o5M18zZ3lTdzE1a2V0ejZkSEJjNTR0VzN6WUoyOXRMX0QtUFJzZW42bWwwRTNXUkVnSE5iamFoYXVUZG1MU2ttSGJZdHBR?oc=5",
-     "Yahoo Finance Singapore",
-     "Sat, 24 Oct 2026 17:30:58 GMT"
+     "Automatic Data Processing | ADP Stock Price, Company Overview & News - Forbes",
+     "https://news.google.com/rss/articles/CBMia0FVX3lxTE82VW42S0Z3bXNyZzlZclhqZGM1RGM1aDNkYXYyc2pkMGNuejlLQ1FKMjRld0pQWjc2VzZYd053Y29aSnZ6bmlZNW5PSXVvbFlwOHFQbDJaZmNIc2xnSlo3ZE5sbGdGQjJCNmJF?oc=5",
+     "Forbes",
+     "Tue, 27 Oct 2026 14:00:00 GMT"
     ],
     [
-     "What's in the Offing for Ventas Stock This Earnings Season? - TradingView",
-     "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdnc0UFJpWkRkamdfblhfemdvUE9uNnNZVDBfcnAyZ2NzZ0cxbkpHc2NxcHFVaHNkT3V5cVNuR0JvTnBlNjR5SkczWEVfSzFfSE5GWFZidXFuOGRoTnJwVHNsVi1UZlpPSnRST2dnSFBTR3h5YlBsZkpFQ0trYU1KRXhsNmNtMUtTY29PcHFQalFfMW9pdHZrQlRoOGh4WVoyU1Q4SGUzV254SnF0OWs2WlhRYw?oc=5",
-     "TradingView",
-     "Fri, 23 Oct 2026 15:59:00 GMT"
+     "Stifel raises ADP stock price target to $305 on margin expansion - Investing.com",
+     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOHp3S0x4cTVkb0NfNXl3Qm5KY0oya29Za25nSHNqbGRSaHhKbXBjSmNVTGlwZ3o5eTZraFBTOGVqM3dHV2xfSkZWdXVlSzl1clhTRXdJa3FwTUxfeld3N01LdUpPRGtDS01rbURJVE9rVXFRZmhTakpURXhveHVrYzJlU1NQb3l6OGkwVWNiMS1yYWdTcHVKTWo0UUIxbFJqQzgxcVNsZ3F6OHJacFFad05odjk0aWF3MUZadktDMEU?oc=5",
+     "Investing.com",
+     "Thu, 29 Oct 2026 15:44:58 GMT"
     ],
     [
-     "American Healthcare REIT, Inc. (AHR) Stock Forecasts - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVXZBdS1oa09Ib1NQd2s3WGdsTUhXVWtkRkVVejRNTmFvT1d3eWZNQ1RIYkZIdlFxT0FtZ0MwQ0l3ZllzU0JFYVlDaUE4UXJ6Nmt3R0h0QzZUM3dOalk4Q3RUU2taekFhaFAwYjZEMzhsUnNnVEx1bG1YS0cta0ZGTnNQLU5WV3RxUmRRYUEwS18?oc=5",
-     "Yahoo Finance",
-     "Thu, 22 Oct 2026 03:49:07 GMT"
+     "ADP Stock Is Falling Wednesday: What's Going On? - Automatic Data Processing (NASDAQ:ADP) - Benzinga",
+     "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc2lSNkF2VnRMeVR0TUVjUURzTnd3ZHFwbzF4MTdTX3AxVjBtLWNYQ1RJY2lfZ3FrS3IxcFJseHF6SHBacDVyMFNNWDhCM0ZrZ09aMlAtUHZLcWxPX3dFR25ob0VaRjBJVkpTQWVkV1R1dlh6Ym5aUDNCVzhvZF9FRnpDTk1fTHlYY3ZHRkJjWmNxTmxEM3E5dXMtNjVkXzFrYy1lUE5fS1hlSXAtajNkbTZaU18tQWF1RzF5N1pnRFNackJneHlr?oc=5",
+     "Benzinga",
+     "Wed, 28 Oct 2026 12:06:06 GMT"
     ],
     [
-     "American Healthcare REIT (NYSE:AHR) Stock Price Breaks Above 50-Day Moving Average - Here's What Happened - MarketBeat",
-     "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbGlUT1ZOUFhOQTRpd0p5RTBjNVV5RjVKUmduQTQzczhIeUNKS09GWldTWVQ2S3BrazYweGlrN0dET1Q4REJoc1dmMWpjQ1hBclBTSUNvQlE0Mzcwczg5SWNUMlR4VkZLWXNOZ3hXdVZ6WEtFMU5UUVpORlVGR3lMT0diR1JKSW8wSGJ0bWl0RmNLWUJaMFlNcEo5YkV5OExzRmlrajdkQlBNOTI5ODRXZ0xRQ1lmNnNTNDEwQVgzcXEyZDhHUlFjRDZDdF9qTVBkYnlwWDMyRE5Sek1SN2lCWW9QZjNmd2Itb0VtZU9qekZ2Zw?oc=5",
+     "Automatic Data Processing (NASDAQ:ADP) Q1 Fiscal 2027 Results In Line, Stock Slips on Revised Outlook - ChartMill",
+     "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWGhjZjloeWFpemNtdWhUUnBqd1ZxN0ZlUF9LXzBBemNERlFhTl92bjBmU3JQSm9GWEo3Nm5YWU9fWTBWdWF3NjV3RkVZZ1NVaW5kRjB0WUtXTUpocVFfQ0ZKX0V4Rkx3UXZSM3gxc2I4aV9CLXlKX05icFptaktOMGNNVDI3VmhndGNKMnExMmhrcHJPZTdfM0FXTFYxR29iVG45YzVYVkxkSXpzWTlfYXlndzhRSzlIUks0b25lYWg3czlDUDF2Q1hHdUc5QjZHSk1pYUV5dG9fZFRyRnd5XzF3?oc=5",
+     "ChartMill",
+     "Wed, 28 Oct 2026 12:21:16 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "MOH",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 198.9499969482422,
+   "buy": 188.23499450683593,
+   "tgt": 202.0928008712703,
+   "stop": 167.54999476841516,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Molina Healthcare Inc",
+   "drop": -8.165621533994294,
+   "rvol": 0.7195892628694993,
+   "dd": {
+    "short": 0.067,
+    "dtc": 4.28,
+    "ratings": [
+     4,
+     14,
+     1
+    ],
+    "moves": [
+     {
+      "firm": "JP Morgan",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 225.0,
+      "prior": 220.0,
+      "date": "2026-10-27"
+     },
+     {
+      "firm": "UBS",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 225.0,
+      "prior": 202.0,
+      "date": "2026-10-23"
+     },
+     {
+      "firm": "Morgan Stanley",
+      "action": "main",
+      "to": "Equal-Weight",
+      "pt": 192.0,
+      "prior": 167.0,
+      "date": "2026-10-23"
+     },
+     {
+      "firm": "RBC Capital",
+      "action": "main",
+      "to": "Sector Perform",
+      "pt": 222.0,
+      "prior": 218.0,
+      "date": "2026-10-23"
+     }
+    ],
+    "iv": 0.4740958352661133,
+    "imove": 5.973046084407532
+   },
+   "news": [
+    [
+     "Molina: 3 Key Takeaways for Long-Term Investors",
+     "https://www.fool.com/earnings/takeaways/2026/10/29/molina-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 22:20:02 +0000"
+    ],
+    [
+     "Molina Healthcare (MOH) vs. ELV and UNH: Can Margin Recovery and Acquisitions Unlock Long-Term Upside?",
+     "https://finance.yahoo.com/healthcare/articles/molina-healthcare-moh-vs-elv-131225026.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 28 Oct 2026 13:12:25 +0000"
+    ],
+    [
+     "Molina Healthcare (MOH) Stock Drops After Q3 Results Expose Margin Squeeze",
+     "https://finance.yahoo.com/healthcare/articles/molina-healthcare-moh-stock-drops-231406386.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 23 Oct 2026 23:14:06 +0000"
+    ],
+    [
+     "MOH Q3 deep dive: Medicaid margin stabilization and rate cycle drive cautious optimism",
+     "https://finance.yahoo.com/healthcare/articles/moh-q3-deep-dive-medicaid-214439613.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 23 Oct 2026 21:44:39 +0000"
+    ],
+    [
+     "5 must-read analyst questions from Molina Healthcare\u2019s Q3 earnings call",
+     "https://finance.yahoo.com/healthcare/articles/5-must-read-analyst-questions-131239498.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 23 Oct 2026 13:12:39 +0000"
+    ],
+    [
+     "Molina Healthcare (MOH) Stock May Trade At A Discount Despite Reaffirmed 2026 Guidance",
+     "https://finance.yahoo.com/markets/stocks/articles/molina-healthcare-moh-stock-may-061516408.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 23 Oct 2026 06:15:16 +0000"
+    ],
+    [
+     "Molina Healthcare (MOH) Stock Forecast and Price Target 2026 $MOH - MarketBeat",
+     "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qNFZVUUthZmFQWXBRNW9Nd3lrUlRnSzl6X1FrMU9ldHd4ajEtYk5YS3JJYVVqMm1pdUJsUlo3TXVzNkJMSDc5eGtqWjlyUzNhZTAwSDR1T1FSRzZEQkFTS2xB?oc=5",
      "MarketBeat",
-     "Tue, 27 Oct 2026 09:08:13 GMT"
+     "Tue, 27 Oct 2026 07:00:00 GMT"
+    ],
+    [
+     "Molina Healthcare Inc Estimates \u2013 NYSE:MOH - TradingView",
+     "https://news.google.com/rss/articles/CBMidEFVX3lxTE5POXMzQ0JuME5IQkxNUjVSU2J5V0tZc085Qmd1SFpmOGplM0JPQTU4eHBMc0dNZXNWMjdIeEF4R0xVX1djZHAtd3YyZ1FPR05CNG04aWNscWR2MkdBWEw5ay1vYUYxcmxkUnF3UGVNcW55Q3Nh?oc=5",
+     "TradingView",
+     "Fri, 23 Oct 2026 13:54:08 GMT"
+    ],
+    [
+     "Molina Healthcare (NYSE:MOH) Stock Forecast & Analyst Predictions - Simply Wall St",
+     "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdnRYcHJkTGs0ajIyb2RtcVhVWTJCU0RDUUJYSkdqamhFRTdRNVA5SFBZdU13d1BGMW11d00zcDcxQmM1Y3p1ZkcwS1kyQWFfeEFGSkJWY3AtdWR5SUNxbjZCVFdmTVZWQ0pZWEdkNWU1YnV0ajhWWV9kRXEwdnlySVF3?oc=5",
+     "Simply Wall St",
+     "Tue, 27 Oct 2026 07:00:00 GMT"
+    ],
+    [
+     "MOH Maintains Neutral Rating by JP Morgan -- Price Target Raised to $225 - GuruFocus",
+     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdXhtSGJlZ1BUYV95OWhEZ2paa0otNzZCX2pJalFHRFV5dlVBZkdfcHhyN1FtaGpCN0RJSnFZR1JackViM3VXSllkVW51MC1QU3Rfb2ozRlhUZGo3NUJxLWhwMXQ4UEZhR3lrdlJDOVV0UllTbXN1aktDSTRBdFRSU3d5dFpkSkFtNXREeGlpOWo3VklpMG00WXdTTFdwZTN3VFJHM0hsVFR3bDA?oc=5",
+     "GuruFocus",
+     "Tue, 27 Oct 2026 21:56:09 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "GDDY",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 105.88999938964844,
+   "buy": 101.51100082397461,
+   "tgt": 107.41691464932435,
+   "stop": 93.96171493530274,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "GoDaddy Inc.",
+   "drop": -7.705049863707614,
+   "rvol": 1.407714351699753,
+   "dd": {
+    "short": 0.0775,
+    "dtc": 2.91,
+    "ratings": [
+     7,
+     10,
+     1
+    ],
+    "moves": [
+     {
+      "firm": "Cantor Fitzgerald",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 100.0,
+      "prior": 90.0,
+      "date": "2026-10-19"
+     }
+    ],
+    "iv": 1.1402427428181967,
+    "imove": 14.365708246395853
+   },
+   "news": [
+    [
+     "GoDaddy\u2019s (NYSE:GDDY) Q3 2026 sales top estimates",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-nyse-gddy-q3-2026-210301137.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 21:03:01 +0000"
+    ],
+    [
+     "Compared to Estimates, GoDaddy (GDDY) Q3 Earnings: A Look at Key Metrics",
+     "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-godaddy-gddy-q3-210003092.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 21:00:03 +0000"
+    ],
+    [
+     "GoDaddy (GDDY) Beats Q3 Earnings and Revenue Estimates",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-gddy-beats-q3-earnings-203503631.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 20:35:03 +0000"
+    ],
+    [
+     "GoDaddy: Q3 Earnings Snapshot",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-q3-earnings-snapshot-202328564.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 20:23:28 +0000"
+    ],
+    [
+     "GoDaddy Inc. Reports Third Quarter 2026 Financial Results",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-inc-reports-third-quarter-200700783.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 20:07:00 +0000"
+    ],
+    [
+     "GoDaddy earnings: what to look for from GDDY",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-earnings-look-gddy-122234770.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 28 Oct 2026 12:22:34 +0000"
+    ],
+    [
+     "GDDY: Godaddy Inc - Ordinary Shares - Class A Latest Stock Price, Analysis, News and Trading Ideas - Stocktwits",
+     "https://news.google.com/rss/articles/CBMiSkFVX3lxTE82ZjRmR3drMGpwUW1uNllnZmxQSjlGazR4cUlxRE14dVl3NERkLUtsZ0VHZnl6aVpjbTBCbHByTGRyRDNSVVdvRHhB?oc=5",
+     "Stocktwits",
+     "Wed, 28 Oct 2026 07:02:03 GMT"
+    ],
+    [
+     "GoDaddy earnings: what to look for from GDDY - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNzlMY2YxcHdPanFYYjFSN082OFJXbnhQTnczOEdORHdfdm5wUWY4ZkphdTN1ODJNZVA2NEhORU1pNHBHYWo0RVpIa0hFTFh6ODBhMURTdGNja2JIMXI3T3FsaGVpYktZRnVhc2RIOEl1V2RlTEUzV3FmMmpGMS12SzZ1TFl3Z1R2YlFBb1RoWHMzcmtycWc?oc=5",
+     "Yahoo Finance",
+     "Wed, 28 Oct 2026 12:22:34 GMT"
+    ],
+    [
+     "LAWSUIT ALERT: GoDaddy Inc. (NYSE: GDDY) Investors Should Contact the Shareholders Foundation - Morningstar",
+     "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPem5YUVRfWWZlOTF5UjlRWHBnOEliSHVxY2wyN2dnanpobnFScWlXQmE5djgyaE00eUxNa1l4ZEhqSmhDLXF4Qmh0elJjSUZic1BIZlN6ZWdKdWZxcUh0bE42OFY0cC1oazZvazY3M0hXOF85QlNadGpwRGF4VW4xT2FEYlp1Ri12MVNfMUVHel92Z21UR1BfRHpCZVZiMWNIcjlTX04xU2hWMUNkLUxpQ0RCVUc0Y3lhYWxiVW1fUy1RandKY0F2MGFXeXcxM3A2UWV1SkU0OVd6dFRmQi1xTkZvSQ?oc=5",
+     "Morningstar",
+     "Thu, 29 Oct 2026 10:30:00 GMT"
+    ],
+    [
+     "GoDaddy (NYSE:GDDY) Stock Forecast & Analyst Predictions - Simply Wall St",
+     "https://news.google.com/rss/articles/CBMic0FVX3lxTFByX1RiMmV2VThPaGNEZnlMb25OMG10U093WEVXaTVOaUpnTjB3amQ4MEJZVmxaR01sUldjQWthRkJYLWg0QXdiRFNRTUMxemtlbXZ3dmx0YWpBX25mUWd1ZThyd1lzbnJjRGNraWZsSV8xU0E?oc=5",
+     "Simply Wall St",
+     "Tue, 27 Oct 2026 07:00:00 GMT"
     ]
    ]
   }
@@ -407,284 +556,235 @@
  "macro": [
   [
    "S&P fut",
-   7761.0,
-   0.035446137
+   7701.5,
+   -0.6802721
   ],
   [
    "Nasdaq fut",
-   29948.25,
-   0.4570307
+   29091.0,
+   -1.5932616
   ],
   [
    "VIX",
-   17.52,
-   -4.7308264
+   17.2,
+   1.714967
   ],
   [
    "US 10Y",
-   4.993,
-   0.14039248
+   4.989,
+   -1.1100146
   ],
   [
    "Brent",
-   111.04,
-   1.4898064
+   111.41,
+   0.55054206
   ],
   [
    "Gold",
-   4043.3,
-   -0.76817477
+   4019.4,
+   -0.29766336
   ],
   [
    "Bitcoin",
-   80854.82,
-   1.6838018
+   77757.99,
+   -4.2970552
   ],
   [
    "Dollar",
-   102.425,
-   0.10360133
+   101.882,
+   -0.15190448
   ]
  ],
  "sectors": [
   [
-   4.535676106124864,
-   "Software",
-   6.234553775411866
-  ],
-  [
-   2.316135103311523,
-   "Utilities",
-   7.907326774218526
-  ],
-  [
-   2.1839964400547807,
-   "Tech",
-   -2.575832651329535
-  ],
-  [
-   2.1268020039407753,
+   7.322061548071357,
    "Semis",
-   -8.060642935801965
+   -9.086938519979704
   ],
   [
-   1.0735882138884323,
-   "Materials",
-   5.4582492636701785
+   3.509931602397165,
+   "Tech",
+   -4.585204073289084
   ],
   [
-   0.671459890105619,
+   2.039230637796896,
    "Industrials",
-   -0.7154299526601293
+   0.8835421599601379
   ],
   [
-   0.35309380529542356,
+   1.687138367318597,
    "Energy",
-   10.838475901391131
+   9.585324160132359
   ],
   [
-   0.28714975575532264,
-   "Financials",
-   3.462326985180586
+   1.6250728862543529,
+   "Materials",
+   8.220020165869379
   ],
   [
-   0.14157045087686004,
-   "Real estate",
-   2.6608574505586624
-  ],
-  [
-   -0.04329268550460341,
-   "Discretionary",
-   5.771869293899723
-  ],
-  [
-   -0.35591959869267775,
+   1.511301813708621,
    "Health",
-   4.949333544017187
+   10.734053348657003
   ],
   [
-   -0.6837589448673409,
+   1.2699927321584648,
+   "Real estate",
+   5.850543388055041
+  ],
+  [
+   1.0346881053024948,
+   "Discretionary",
+   6.7916547702052465
+  ],
+  [
+   0.6298121401697943,
+   "Utilities",
+   8.719755690176601
+  ],
+  [
+   0.5119101377210056,
+   "Financials",
+   6.5095390980788315
+  ],
+  [
+   -0.6898454668681331,
+   "Software",
+   -0.24023110797937175
+  ],
+  [
+   -2.0113319275035346,
    "Staples",
-   6.4752634704489775
+   9.772187595153724
   ],
   [
-   -5.99872988828224,
+   -5.781045606336588,
    "Comms",
-   -7.07813699044173
+   -7.94069780159078
   ]
  ],
  "news": [
   [
-   "Trump says Iran war will end 'when I want it to' as costs reportedly balloon to $47 billion",
-   "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html",
+   "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
+   "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
    "CNBC",
-   "Wed, 28 Oct 2026 03:02:44 GMT"
+   "Thu, 29 Oct 2026 22:24:49 GMT"
   ],
   [
-   "UBS pre-tax profits jump 27% to $3.59 billion in the third quarter",
-   "https://www.cnbc.com/2026/10/28/ubs-earnings-third-quarter.html",
+   "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance",
+   "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
    "CNBC",
-   "Wed, 28 Oct 2026 06:08:16 GMT"
+   "Thu, 29 Oct 2026 22:37:54 GMT"
   ],
   [
-   "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
-   "https://www.cnbc.com/2026/10/28/oil-price-today-wti-brent-hormuz.html",
+   "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
+   "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
    "CNBC",
-   "Wed, 28 Oct 2026 05:52:51 GMT"
+   "Thu, 29 Oct 2026 20:02:32 GMT"
   ],
   [
-   "Israel election appears to have no clear winner with Netanyahu, opponent Eisenkot far short of majorities",
-   "https://www.cnbc.com/2026/10/28/israel-election-netanyahu-trump-gaza-.html",
+   "Binance 'potential security issue' sees $2.54 billion frozen by the likes of Circle, Tether",
+   "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
    "CNBC",
-   "Wed, 28 Oct 2026 02:15:55 GMT"
+   "Thu, 29 Oct 2026 23:56:02 GMT"
   ],
   [
-   "Meta- and Google-backed Jio Platforms\u2019 shares soar over 21% on trading debut after record IPO",
-   "https://www.cnbc.com/2026/10/28/jio-ipo-india-listing-.html",
+   "DOJ escalates Alaska Senate lawsuit over dueling Sullivan candidacies",
+   "https://www.cnbc.com/2026/10/29/alaska-senate-governor-investigation-sullivan-peltola-doj.html",
    "CNBC",
-   "Wed, 28 Oct 2026 05:16:41 GMT"
+   "Thu, 29 Oct 2026 23:55:09 GMT"
   ],
   [
-   "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
-   "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html",
+   "Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value",
+   "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
    "CNBC",
-   "Tue, 27 Oct 2026 21:12:55 GMT"
+   "Thu, 29 Oct 2026 20:15:19 GMT"
   ],
   [
-   "SK Hynix shares soar over 10 % as profit beats, chipmaker to return $25 billion to investors",
-   "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+   "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
+   "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
    "CNBC",
-   "Wed, 28 Oct 2026 05:54:33 GMT"
+   "Thu, 29 Oct 2026 23:01:02 GMT"
   ],
   [
-   "Trump jokes $5,000 would buy 'a hamburger and maybe a small dessert' at Mar-a-Lago as cost of living looms over midterms",
-   "https://www.cnbc.com/2026/10/28/trump-jokes-5000-cash-would-buy-hamburger-and-dessert-at-mar-a-lago.html",
+   "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
+   "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html",
    "CNBC",
-   "Wed, 28 Oct 2026 04:29:20 GMT"
+   "Thu, 29 Oct 2026 21:52:27 GMT"
   ],
   [
-   "A leading Silicon Valley cheerleader just showed all the reasons to be worried about the AI bubble",
-   "https://www.marketwatch.com/story/a-leading-silicon-valley-cheerleader-just-showed-all-the-reasons-to-be-worried-about-the-ai-bubble-e3b32fe1?mod=mw_rss_topstories",
+   "Amazon\u2019s bold cloud forecast isn\u2019t enough to stave off a stock drop",
+   "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
    "MarketWatch",
-   "Wed, 28 Oct 2026 02:15:00 GMT"
+   "Thu, 29 Oct 2026 23:55:00 GMT"
   ],
   [
-   "Retail traders buy the dip on chip stocks \u2014 but Robinhood gets burned by the crypto market",
-   "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
+   "Why Intel\u2019s stock is sinking toward its worst drop in two years",
+   "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
    "MarketWatch",
-   "Tue, 27 Oct 2026 22:51:00 GMT"
+   "Thu, 29 Oct 2026 23:21:00 GMT"
   ],
   [
-   "\u2018She\u2019s living the dream\u2019: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
-   "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+   "My abusive ex-husband promised $20,000 for our kids\u2019 education. Now he refuses to pay. Is he legally obligated?",
+   "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
    "MarketWatch",
-   "Tue, 27 Oct 2026 22:18:00 GMT"
+   "Thu, 29 Oct 2026 22:45:00 GMT"
   ],
   [
-   "CoreWeave and other AI stocks rise as Anthropic restores the market\u2019s faith in sustained spending",
-   "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
+   "The midterms are crucial to the future of Social Security \u2014 no matter how old you are",
+   "https://www.marketwatch.com/story/the-midterms-are-crucial-to-the-future-of-social-security-no-matter-how-old-you-are-0f080a9c?mod=mw_rss_topstories",
    "MarketWatch",
-   "Tue, 27 Oct 2026 21:41:00 GMT"
+   "Thu, 29 Oct 2026 22:01:00 GMT"
   ],
   [
-   "As Trump touts energy companies\u2019 fortunes, U.S. consumers face the most expensive year for gas prices ever",
-   "https://www.marketwatch.com/story/as-trump-touts-energy-companies-fortunes-u-s-consumers-face-the-most-expensive-year-for-gas-prices-ever-c467268c?mod=mw_rss_topstories",
+   "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
+   "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
    "MarketWatch",
-   "Tue, 27 Oct 2026 21:29:00 GMT"
+   "Thu, 29 Oct 2026 22:00:00 GMT"
   ],
   [
-   "The rest of the market is leaving Big Tech behind after a historic comeback",
-   "https://www.marketwatch.com/story/the-rest-of-the-market-is-leaving-big-tech-behind-after-a-historic-comeback-324e9fb2?mod=mw_rss_topstories",
+   "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+   "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
    "MarketWatch",
-   "Tue, 27 Oct 2026 21:28:00 GMT"
+   "Thu, 29 Oct 2026 21:52:00 GMT"
   ],
   [
-   "Asian Stocks Set to Gain on Resurgent AI Optimism: Markets Wrap - Bloomberg",
-   "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdFZXQ0F0WGVCT3FPRFB5RndJRUYtdHFQNVlfVmxJV1dmd0ZKMklnSl8yYnV6Z0N0bERBbmVhenJGS3dTOF95VERJeC0xektmNXVOSzJzTUVySzRSYWRIWHl6RGNxU1o2eWRmcU5EcEN3OTlzaldJUERqdWloQ1pRa1Q2ZUI4YUZCejlrUzk3NzBRdmdf?oc=5",
-   "Bloomberg",
-   "Wed, 28 Oct 2026 05:07:00 GMT"
+   "A historic drop for Alphabet\u2019s stock drags the US market lower - AP News",
+   "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSWE2NlZVNmVDNUoyd0IzVGhKeDFtWFV0VEYwdU0xeWNGdk1mdGdCZFI1OTM2aE5fbTh1Rk55S3lubUdIMkc1UVY3d2xsUm9IOHZJdFNFSmlKSkVZdFNOTERLbzlTN2VjSEUxZnZleElyQ1Z5WHRQNl9KY25xZjVhQ0s3YWtyTDNUQWFQQWlB?oc=5",
+   "AP News",
+   "Thu, 29 Oct 2026 20:42:00 GMT"
   ],
   [
-   "Stocktwits - Stock Market Live Quotes, Social Community Discussions, News, Stock Rankings & Earnings - Stocktwits",
-   "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5CbWhDSkpSUGlnTUNHUHlsQmt4YkQ5TDVCRFNEX0t3dThqQzNOdEw4aVA4SE5mb01lXzZN?oc=5",
-   "Stocktwits",
-   "Wed, 28 Oct 2026 03:16:21 GMT"
+   "Why the Next Stock Market Boom Won\u2019t Look Like the Last - The Acquirer's Multiple",
+   "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYjJYbHJiNWFJeEsxY1AwRlpyQ1hfajRZbXVJTWV3RVVjdGF5VzJ4TW5jX0M2MTN4N3V1WE1vVkZNTm1qRFZzV213bk0xNjhLRzAyUzJvVHhmQjN0ZUkzZmdNYThmandJMGx1X3gzc0FWdktmYlhyRGQtODlzbEhpRXBKSWdFUWlWcXZIYURPYy1EWlZUc0d3cw?oc=5",
+   "The Acquirer's Multiple",
+   "Thu, 29 Oct 2026 21:48:51 GMT"
   ],
   [
-   "Wall Street ends higher on revived AI momentum - Reuters",
-   "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
-   "Reuters",
-   "Tue, 27 Oct 2026 23:01:33 GMT"
+   "Asia Stocks Under Pressure, Haven Bid Boosts Bonds: Markets Wrap - Bloomberg.com",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLWZRMVRrOG1xQ1NBUE55MXNIWTFyTFBfUDBwVnUwbDRHOHNibGNUazhpRVVJamItaGc5UndhUngwMTFOLUE1M3dscmdtSDBvWUJrNmoyWnFGZ2tBcm9VZjZ5MXcyQXFuSDZmWmE4WVlheXZBeTVTci1CXzFQMUxnMkpFRXBVTjh0SlI0N0hobUZzOHh3?oc=5",
+   "Bloomberg.com",
+   "Thu, 29 Oct 2026 23:33:14 GMT"
   ],
   [
-   "Stock Market: Will S&P 500 Open Up or Down Today? - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMikgFBVV95cUxOclBuVk11eHVBazNTc0stOUkwbjBpYk1pdjlOREI5d2dLWktRVzlaRC1sZ0JpNDBZVkJLWmFqeW0xVEJYUk1KN2p1QzNpNHpzd0Q3RFZhNXE0WmdSQ3NYY2xwU1pKQzZFSUFRRXdrcjk4OXJvYWg3S0ZFZmdqQXFIdkZPZkRJcFJjTEt6UjQzTmpIdw?oc=5",
+   "Alphabet loses $482 billion in market value, the biggest drop in its history - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0pfRGxYakdFTWU5eXlYYTd5cGVuVmpzMDFiMDBuX2ZOQVB5aFV1Qmk1dEhXQWwtSVNtU2ZOSTNfVDMxS2NoMUpTbmJ3a0hYOGtvOGJldXlkU3k2N3djaVhDMUNGN0g5Q1J2SzRXMkhXbzI3MUxqd2t5SEszX0JEZWZPUmRSd3VZQmYyZzZZeDNvY0hKaExMcnNTbHhzeTItckpZaEJmbWxodHVla2FKTTN4cmdFY2VjWk96cjdwLUtjX3FMRmZwLVp3SHJiX2xNajBR?oc=5",
    "Yahoo Finance",
-   "Wed, 28 Oct 2026 05:36:20 GMT"
+   "Thu, 29 Oct 2026 20:29:14 GMT"
   ],
   [
-   "US Stock Futures Gain, Oil Falls on Iran Comments: Markets Wrap - Bloomberg",
-   "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTFLZTJNckNaRFN0TG9fLXJTY3h3VkVRSnZfMDJfLVkxOTNsU01IbWtXbDZQUTFIOXJXWENhY2NIX0ZuLUdLSHJMemcyUkNEZklQdUQxZlpHUWNwaVE3WFp1dk1meVZwejRrSUF1dEhFdDBjNUp3WVdqVnNBamJfQjFrN2g5b3QwZFBUMHZjYVU2aGhK?oc=5",
-   "Bloomberg",
-   "Tue, 27 Oct 2026 20:06:31 GMT"
+   "Stock Market Today: Stock Market News And Analysis - Investor's Business Daily",
+   "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5",
+   "Investor's Business Daily",
+   "Thu, 29 Oct 2026 16:53:00 GMT"
   ],
   [
-   "Weak domestic returns fuel India's overseas retail investing boom - Reuters",
-   "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONEhZU00tSmhiaTd1OUJQT3RfcTdEYWwzSC11WkxMT3E2ZFlBQmpEeUZWbmNvUWhoMUlnQzVDcS1DWUg0c0xzSjI4UEJtYm5RWm1UODJSeC1WQm1DREFWT2Z1cERRa1BzYW1GT0xOWGloaVQ3bWhwdDNoLW85emRKR1htTDRxYWFkS0dheW45ckxsUnBocVAzeDdPdXdlTjV4X0ExT2tidUx4Y3RtZUFfbDVJbkJBa2M4czBj?oc=5",
-   "Reuters",
-   "Wed, 28 Oct 2026 05:26:00 GMT"
+   "Jim Cramer raises a red flag to stock market investors - TheStreet",
+   "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFlZcDExS2ZIaE1XVTI1MjE0VmgyOWFyNHJrT1Fka2gtQmJVUUc3TFAwbjBxbGlpMGNWZHBlY1dFbDNaNUhoQVpkZVJ2Z3NrSVRqTDdzby1ZTjRkYU5oRXhkd0N1R2E0aFUwYzlFZnpTMTA5Zmc1QUNsT2laTEUxU3VNTjc0cFllQ2pnT2lfRkc0VEFnV1dQODdMaUdkdw?oc=5",
+   "TheStreet",
+   "Thu, 29 Oct 2026 20:16:53 GMT"
   ]
  ],
  "cal": [
-  [
-   "2026-10-28 14:00:00-04:00",
-   "FOMC Statement",
-   "High",
-   "",
-   ""
-  ],
-  [
-   "2026-10-28 14:00:00-04:00",
-   "Federal Funds Rate",
-   "High",
-   "4.00%",
-   "4.00%"
-  ],
-  [
-   "2026-10-28 14:30:00-04:00",
-   "FOMC Press Conference",
-   "High",
-   "",
-   ""
-  ],
-  [
-   "2026-10-29 08:30:00-04:00",
-   "Advance GDP Price Index q/q",
-   "Medium",
-   "3.2%",
-   "6.2%"
-  ],
-  [
-   "2026-10-29 08:30:00-04:00",
-   "Advance GDP q/q",
-   "High",
-   "3.2%",
-   "1.5%"
-  ],
-  [
-   "2026-10-29 08:30:00-04:00",
-   "Core PCE Price Index m/m",
-   "High",
-   "0.3%",
-   "0.2%"
-  ],
-  [
-   "2026-10-29 08:30:00-04:00",
-   "Unemployment Claims",
-   "Medium",
-   "198K",
-   "194K"
-  ],
   [
    "2026-10-30 08:30:00-04:00",
    "Employment Cost Index q/q",

@@ -1,31 +1,89 @@
 {
- "asof": "2026-10-27",
+ "asof": "2026-10-29",
  "model": "Claude",
- "generated_utc": "2026-10-28T06:17:48Z",
+ "generated_utc": "2026-10-29T23:58:30Z",
  "note": {
   "mood": "mixed",
   "bullets": [
-   "FOMC holds rates steady at 4.00% today; GDP, Core PCE and jobless claims due Thursday add event risk into the hold window.",
-   "AI optimism extends rally: SK Hynix profit beat and Anthropic IPO buzz lift Nasdaq futures +0.35%, VIX down 4.7% to 17.5.",
-   "Iran war costs balloon toward $47B and Israel election yields no clear majority, keeping Brent near $111 and geopolitics elevated.",
-   "Sector split: Software/Utilities/Materials up on the week while Semis -8% and Comms -7%, masking true risk appetite under the AI rally."
+   "Megacap tech selloff (Alphabet -13%, Intel -21%, ServiceNow -27% worst days) dragged Nasdaq futures -1.6%, but Health/Energy/Staples/Utilities rallied, masking broad risk-off.",
+   "Chevron and ExxonMobil report Q3 earnings before Friday's open; Brent near $111 keeps energy sentiment firm.",
+   "US 10Y yield near 4.99%, Dollar soft -0.16%; Employment Cost Index (medium impact) due 8:30am ET today.",
+   "Bitcoin -4.1% and Circle/Tether freezing funds tied to a Binance security issue add overnight crypto-market stress."
   ]
  },
  "picks": {
-  "MSM": {
-   "verdict": "CAUTION",
+  "MOH": {
+   "verdict": "VETO",
    "cause": "company",
-   "why": "Stock fell on headline EPS miss (-16% y/y) from $42M noncash impairment tied to discontinued Digital Core tech program; adjusted EPS beat estimates, FY27 guidance raised. Analysts mostly bullish post-drop, but one listicle flags weak multi-year sales growth.",
-   "sentiment": -0.6,
-   "sent_conf": 0.8,
-   "bull": "Adjusted EPS beat, FY27 sales guidance raised 9.5-10.5%, and 3 of 4 analysts raised ratings/targets right after the plunge.",
-   "bear": "Headline EPS fell 16% y/y on a $42M impairment, and one analyst flags weak multi-year sales/EPS growth versus industrial peers.",
+   "why": "Oct 23 Q3 report showed net income halved, medical cost ratio above guidance, falling membership, and trimmed 2027 premium guidance. Analysts kept Neutral/Equal-Weight ratings but raised price targets. Company-specific earnings damage, not sector-wide (Health sector sentiment positive).",
+   "sentiment": 0.1,
+   "sent_conf": 0.6,
+   "bull": "Management reaffirmed $5.25 EPS guidance, calling margins a cyclical trough ahead of 2027 Medicaid rate increases.",
+   "bear": "Q3 net income halved, membership keeps shrinking, and 2027 premium guidance was trimmed — real fundamental damage.",
    "catalysts": "none found",
-   "flags": ["noncash impairment drove headline EPS miss", "mixed analyst reaction", "drop is earnings-specific, not sector-wide"],
+   "flags": ["Q3 margin miss", "2027 premium guide trimmed", "membership decline"],
    "sources": [
-    {"title": "MSC Industrial fiscal Q4 2026 slides: efficiency drives profit growth", "url": "https://www.investing.com/news/company-news/msc-industrial-fiscal-q4-2026-slides-efficiency-drives-profit-growth-93CH-4966476"},
-    {"title": "1 small-cap stock to target this week and 2 that underwhelm", "url": "https://finance.yahoo.com/markets/stocks/articles/1-small-cap-stock-target-174247169.html?.tsrc=rss"},
-    {"title": "MSC Industrial Direct (MSM) Beats Q4 Estimates, Projects Solid Q1 Growth", "url": "https://www.gurufocus.com/news/9136210/msc-industrial-direct-msm-beats-q4-estimates-projects-solid-q1-growth"}
+    {"title": "Molina Healthcare (MOH) Stock Drops After Q3 Results Expose Margin Squeeze", "url": "https://finance.yahoo.com/healthcare/articles/molina-healthcare-moh-stock-drops-231406386.html?.tsrc=rss"},
+    {"title": "MOH Q3 deep dive: Medicaid margin stabilization and rate cycle drive cautious optimism", "url": "https://finance.yahoo.com/healthcare/articles/moh-q3-deep-dive-medicaid-214439613.html?.tsrc=rss"}
+   ]
+  },
+  "CRM": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "CRM fell with Tech/Software after ServiceNow's 19% post-earnings crash sparked sector-wide SaaS demand-growth fears. No CRM-specific guidance cut found; DA Davidson and Cantor Fitzgerald moves this month were price-target raises, not downgrades.",
+   "sentiment": -0.1,
+   "sent_conf": 0.6,
+   "bull": "Drop is sector contagion from ServiceNow's contract slowdown, not a CRM-specific issue; two analysts raised targets this week.",
+   "bear": "If enterprise software demand is genuinely decelerating sector-wide, CRM's own growth could disappoint next quarter too.",
+   "catalysts": "none found",
+   "flags": ["sector contagion from NOW", "no CRM-specific guidance cut"],
+   "sources": [
+    {"title": "ServiceNow Tumbles 19% as Slower Contract Growth Overshadows Raised AI Target; Salesforce Slides 6%, Workday Drops 5%", "url": "https://247wallst.com/investing/2026/10/29/servicenow-tumbles-19-as-slower-contract-growth-overshadows-raised-ai-target-salesforce-slides-6-workday-drops-5/?.tsrc=rss"}
+   ]
+  },
+  "GDDY": {
+   "verdict": "VETO",
+   "cause": "company",
+   "why": "GDDY beat Q3 estimates and reaffirmed revenue guidance, but forward ARR growth guidance decelerated to 4.9% and an active securities-fraud lawsuit over undisclosed domain-discounting remains open. Cantor Fitzgerald downgraded to Neutral ahead of earnings (Oct 19).",
+   "sentiment": -0.3,
+   "sent_conf": 0.7,
+   "bull": "Q3 beat on revenue and EPS with reaffirmed full-year guidance; GAAP EPS topped estimates by $0.18.",
+   "bear": "Active securities-fraud lawsuit over domain discounting plus decelerating 4.9% ARR growth guidance signal real company-specific damage.",
+   "catalysts": "none found",
+   "flags": ["securities fraud lawsuit", "ARR growth deceleration", "pre-earnings downgrade"],
+   "sources": [
+    {"title": "GoDaddy's (NYSE:GDDY) Q3 2026 sales top estimates", "url": "https://finance.yahoo.com/markets/stocks/articles/godaddy-nyse-gddy-q3-2026-210301137.html?.tsrc=rss"},
+    {"title": "LAWSUIT ALERT: GoDaddy Inc. (NYSE: GDDY) Investors Should Contact the Shareholders Foundation", "url": "https://www.morningstar.com/news/pr-newswire/20261029dc84362/lawsuit-alert-godaddy-inc-nyse-gddy-investors-should-contact-the-shareholders-foundation"}
+   ]
+  },
+  "WEX": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "WEX beat Q3 estimates and raised full-year revenue/EPS guidance, yet shares fell amid sector-wide payments selling and analyst concern about slower embedded-payments/Benefits pipeline realization. No fraud, lawsuit, downgrade, or guidance cut found.",
+   "sentiment": 0.0,
+   "sent_conf": 0.6,
+   "bull": "WEX beat Q3 and raised full-year guidance meaningfully, with no negative company-specific news found.",
+   "bear": "Stock fell despite beat-and-raise amid sector-wide payments selling and concern over slower pipeline realization.",
+   "catalysts": "none found",
+   "flags": ["beat & raise despite drop", "sector-wide payments selling", "pipeline timing risk"],
+   "sources": [
+    {"title": "WEX's (NYSE:WEX) Q3 2026: strong sales, full-year sales guidance is optimistic", "url": "https://finance.yahoo.com/markets/stocks/articles/wex-nyse-wex-q3-2026-213005473.html?.tsrc=rss"},
+    {"title": "Wex Drops 5.5% Amid Sector-Wide Selling", "url": "https://news.alphastreet.com/wex-drops-5-5-amid-sector-wide-selling/"}
+   ]
+  },
+  "ADP": {
+   "verdict": "CAUTION",
+   "cause": "unclear",
+   "why": "ADP beat Q1 FY2027 estimates, raised full-year revenue and EPS guidance, and drew price-target hikes from Stifel/Citi. Drop looks like 'sell the news' profit-taking after a rich ~25x P/E run-up, not fundamental damage or a sector move.",
+   "sentiment": 0.3,
+   "sent_conf": 0.6,
+   "bull": "ADP beat, raised FY2027 guidance, and drew multiple analyst price-target hikes — fundamentals improved, drop looks like profit-taking.",
+   "bear": "Entering earnings at a rich 25x P/E after a strong run, any in-line print risked a 'sell the news' reaction.",
+   "catalysts": "none found",
+   "flags": ["rich valuation profit-taking", "beat & raised guidance", "sell-the-news"],
+   "sources": [
+    {"title": "ADP (ADP) Stock Retreats As Q1 Results Meet A Premium Valuation", "url": "https://finance.yahoo.com/markets/stocks/articles/adp-adp-stock-retreats-q1-131301708.html?.tsrc=rss"},
+    {"title": "ADP Stock Is Falling Wednesday: What's Going On?", "url": "https://www.benzinga.com/markets/earnings/26/10/62650791/payroll-giant-adp-hikes-2027-profit-outlook-as-ai-strategy-gathers-pace"}
    ]
   }
  }
