@@ -1,95 +1,91 @@
 {
  "asof": "2026-10-29",
  "model": "Claude",
- "generated_utc": "2026-10-30T05:29:41Z",
+ "generated_utc": "2026-10-30T12:01:48Z",
  "note": {
   "mood": "risk-off",
   "bullets": [
-   "Tech/AI capex jitters dominate: Intel -21%, Amazon FCF -$42.4B, ServiceNow -27%, Alphabet revenue miss drag Nasdaq futures down ~2%.",
-   "Oil jumped on Houthi attacks on Saudi energy infrastructure, Brent near $112-116, adding inflation worry ahead of today's Employment Cost Index.",
-   "Asia tumbled overnight (Kospi -5%, Nikkei -2.5%) on AI-spending fears; record $6.3B Binance-linked crypto hack also pressured risk appetite.",
-   "VIX up ~1.7% to 17.2 and US10Y easing toward 4.99% (bull-steepening); tone is risk-off into month-end despite falling yields."
+   "Nasdaq futures -2.2%, S&P -1% after Amazon (-7%) and Intel (-26%) earnings reignite AI-capex spending fears; chip names AMD/NVDA/AVGO also down.",
+   "Asia mixed overnight: Nikkei -2.6%, Kospi -4.7%, Hang Seng +1.6%; Europe's Stoxx 600 -0.3% despite stronger euro-area growth data.",
+   "VIX +7.7% to 18.5 signals rising risk-off tone; Brent oil +2.7% on Chevron/Exxon refining beats, yields and dollar softer.",
+   "Today: Employment Cost Index (8:30am ET, cons 0.8% q/q) and Chicago PMI (9:45am ET); midterm-election jitters add to macro uncertainty."
   ]
  },
  "picks": {
   "CRM": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "CRM fell with the whole SaaS group after ServiceNow's 19% post-earnings crash on slowing contract growth hit Salesforce (-6%), Workday, Adobe. No CRM earnings miss; DA Davidson cut to Neutral but raised PT to $250, Cantor reiterated Overweight $300.",
-   "sentiment": -0.2,
+   "why": "Drop tracked a sector-wide SaaS selloff after ServiceNow's contract-growth slowdown spooked enterprise-software investors broadly (Workday -5%, Datadog -5.7%); no Salesforce-specific bad news found; its own analyst moves were PT-raises.",
+   "sentiment": -0.1,
    "sent_conf": 0.6,
-   "bull": "Sector-wide SaaS selloff, not CRM-specific damage; Cantor keeps $300 target, valuation looks cheap.",
-   "bear": "Braze acquisition overhang plus DA Davidson's downgrade add standalone caution despite the price-target hike.",
+   "bull": "Drop was sector-wide SaaS fear from ServiceNow's outlook, not Salesforce-specific damage, and shares look undervalued at current levels.",
+   "bear": "Enterprise software demand worries are real and sentiment-driven, which can cap a quick bounce even without company bad news.",
    "catalysts": "none found",
-   "flags": ["Braze deal overhang", "software sector fear", "DA Davidson downgrade (PT raised)"],
+   "flags": ["sector selloff", "no CRM-specific bad news"],
    "sources": [
-    {"title": "ServiceNow Tumbles 19% as Slower Contract Growth Overshadows Raised AI Target; Salesforce Slides 6%", "url": "https://247wallst.com/investing/2026/10/29/servicenow-tumbles-19-as-slower-contract-growth-overshadows-raised-ai-target-salesforce-slides-6-workday-drops-5/?.tsrc=rss"},
-    {"title": "Salesforce Shares Fall as Braze Deal Overhang and Software Weakness Pressure Sentiment", "url": "https://www.quiverquant.com/news/Salesforce+Shares+Fall+as+Braze+Deal+Overhang+and+Software+Weakness+Pressure+Sentiment"},
-    {"title": "Salesforce (NYSE:CRM) Stock Falls 2.7% - Here's Why", "url": "https://www.marketbeat.com/instant-alerts/price-salesforce-nyse-crm-stock-falls-27-heres-why-2026-10-27/"}
+    {"title": "ServiceNow Tumbles 19% as Slower Contract Growth Overshadows Raised AI Target; Salesforce Slides 6%, Workday Drops 5%", "url": "https://247wallst.com/investing/2026/10/29/servicenow-tumbles-19-as-slower-contract-growth-overshadows-raised-ai-target-salesforce-slides-6-workday-drops-5/?.tsrc=rss"},
+    {"title": "Salesforce (CRM) Stock Sees Modest Fair Value Lift As AI And Braze Views Evolve", "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-stock-sees-modest-181354019.html?.tsrc=rss"}
    ]
   },
-  "WEX": {
-   "verdict": "VETO",
+  "GDDY": {
+   "verdict": "CAUTION",
    "cause": "company",
-   "why": "WEX beat Q3 EPS/revenue and raised FY guidance, but Morgan Stanley downgraded to Equal-Weight (PT raised 172->178) on fuel-price-driven beat quality; market questioned whether growth is sustainable without temporary tailwinds, driving the post-earnings slide.",
-   "sentiment": -0.3,
-   "sent_conf": 0.6,
-   "bull": "Headline beat and raised full-year guidance show fundamentals still improving despite the selloff.",
-   "bear": "Morgan Stanley's downgrade flags beat quality reliant on fuel prices, not durable volume growth.",
+   "why": "GDDY beat Q3 estimates and guided to the high end of FY revenue, but fell on the earnings call itself: management flagged Airo's lower gross margins from inference costs, revenue-cannibalization risk, and competitive pricing pressure; a shareholder-lawsuit alert also surfaced.",
+   "sentiment": -0.05,
+   "sent_conf": 0.7,
+   "bull": "GDDY beat Q3 estimates, hit the high end of revenue guidance, and Airo's bookings run-rate doubled past $100M.",
+   "bear": "Stock fell on earnings day itself on margin and cannibalization concerns around Airo, a company-specific reassessment, not a sector move.",
    "catalysts": "none found",
-   "flags": ["post-earnings downgrade aimed at WEX", "beat quality concerns (fuel-price driven)"],
+   "flags": ["Airo margin/cannibalization concern", "shareholder lawsuit alert", "beat but sold on margin quality"],
    "sources": [
-    {"title": "WEX Inc Reports Q3 2026 Earnings: Revenue of $780.1 Million and EPS Beat Estimates", "url": "https://www.gurufocus.com/news/9148604/wex-inc-reports-q3-2026-earnings-revenue-of-7801-million-and-eps-of-388-beat-estimates"},
-    {"title": "WEX (WEX) Stock Falls Despite Stronger Q3 Earnings And Margin Gains", "url": "https://finance.yahoo.com/markets/stocks/articles/wex-wex-stock-falls-despite-043206408.html?.tsrc=rss"},
-    {"title": "WEX (WEX) Q3 2026 Earnings Call Transcript", "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/wex-wex-q3-2026-earnings-call-transcript/?.tsrc=rss"}
-   ]
-  },
-  "ADP": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "ADP beat Q1 EPS/revenue and raised revenue/EPS guidance, yet Citigroup and Morgan Stanley downgraded to Neutral/Equal-Weight same day; stock fell on premium valuation as margin-expansion guidance held flat despite the beat, disappointing elevated expectations.",
-   "sentiment": -0.3,
-   "sent_conf": 0.6,
-   "bull": "Revenue growth guidance raised to ~6% and EPS growth raised to 10-12%; the beat was real.",
-   "bear": "Two same-day downgrades (Citi, Morgan Stanley) on valuation show the stock priced in more than delivered.",
-   "catalysts": "none found",
-   "flags": ["two same-day analyst downgrades on ADP", "valuation-driven selloff despite beat"],
-   "sources": [
-    {"title": "ADP Q1 fiscal 2027 slides: 13% EPS growth, raised outlook", "url": "https://www.investing.com/news/company-news/adp-q1-fiscal-2027-slides-13-eps-growth-raised-outlook-93CH-4979608"},
-    {"title": "ADP Stock Is Falling Wednesday: What's Going On?", "url": "https://www.benzinga.com/markets/earnings/26/10/62650791/payroll-giant-adp-hikes-2027-profit-outlook-as-ai-strategy-gathers-pace"},
-    {"title": "ADP (ADP) Stock Price Slips After Q1 Earnings Strength", "url": "https://simplywall.st/stocks/us/commercial-services/nasdaq-adp/automatic-data-processing/news/adp-adp-stock-price-slips-after-q1-earnings-strength"}
+    {"title": "GoDaddy Q3 2026 slides: Airo momentum drives 6% growth, margins expand", "url": "https://www.investing.com/news/company-news/godaddy-q3-2026-slides-airo-momentum-drives-6-growth-margins-expand-93CH-4985527"},
+    {"title": "GoDaddy's (NYSE:GDDY) Q3 2026 sales top estimates", "url": "https://finance.yahoo.com/markets/stocks/articles/godaddy-nyse-gddy-q3-2026-210301137.html?.tsrc=rss"},
+    {"title": "LAWSUIT ALERT: GoDaddy Inc. (NYSE: GDDY) Investors Should Contact the Shareholders Foundation", "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPem5YUVRfWWZlOTF5UjlRWHBnOEliSHVxY2wyN2dnanpobnFScWlXQmE5djgyaE00eUxNa1l4ZEhqSmhDLXF4Qmh0elJjSUZic1BIZlN6ZWdKdWZxcUh0bE42OFY0cC1oazZvazY3M0hXOF85QlNadGpwRGF4VW4xT2FEYlp1Ri12MVNfMUVHel92Z21UR1BfRHpCZVZiMWNIcjlTX04xU2hWMUNkLUxpQ0RCVUc0Y3lhYWxiVW1fUy1RandKY0F2MGFXeXcxM3A2UWV1SkU0OVd6dFRmQi1xTkZvSQ?oc=5"}
    ]
   },
   "MOH": {
    "verdict": "VETO",
    "cause": "company",
-   "why": "MOH fell after Q3 showed medical cost ratio rising to 92.9% and a thin 0.6% pretax margin; JPMorgan, UBS, Morgan Stanley and RBC all moved to Neutral-type ratings on margin concerns despite reaffirmed 2026 EPS guidance of at least $5.25.",
-   "sentiment": -0.5,
-   "sent_conf": 0.7,
-   "bull": "2026 EPS guidance of at least $5.25 reaffirmed; management calls this the margin cycle's low point.",
-   "bear": "MCR rising to 92.9% plus four analyst downgrades to Neutral/Equal-Weight signal real margin deterioration.",
+   "why": "Q3 beat on revenue/EPS hid a 52% GAAP net-income drop on Medicaid margin squeeze and membership losses; four analysts (JPM, UBS, MS, RBC) cut ratings to Neutral/Equal-weight on fundamentals, and 2027 premium guidance was trimmed. Health sector overall was up, so this is company damage, not sector weakness.",
+   "sentiment": -0.35,
+   "sent_conf": 0.75,
+   "bull": "2026 EPS guidance was reaffirmed and management sees 2027 EPS building blocks above $9.50 as Florida CMS ramps.",
+   "bear": "Net income fell 52% on margin squeeze, membership losses continue, and four analysts cut ratings to Neutral on fundamentals.",
    "catalysts": "none found",
-   "flags": ["medical cost ratio rising", "four analyst downgrades aimed at MOH"],
+   "flags": ["2027 guidance trimmed", "4 analyst downgrades on fundamentals", "52% net income drop"],
    "sources": [
-    {"title": "Molina Healthcare (MOH) Stock Drops After Q3 Results Expose Margin Squeeze", "url": "https://finance.yahoo.com/healthcare/articles/molina-healthcare-moh-stock-drops-231406386.html?.tsrc=rss"},
-    {"title": "Molina Healthcare (MOH) Q3 Results Confront A Thin Margin Rebuild", "url": "https://simplywall.st/stocks/us/healthcare/nyse-moh/molina-healthcare/news/molina-healthcare-moh-q3-results-confront-a-thin-margin-rebu"},
-    {"title": "Molina Healthcare Inc (MOH) Q3 2026 Earnings Call Highlights", "url": "https://www.gurufocus.com/news/9138162/molina-healthcare-inc-moh-q3-2026-earnings-call-highlights-reaffirmed-guidance-florida-cms-ramp-and-2027-eps-building-blocks-above-950"}
+    {"title": "Molina Healthcare Q3 2026: The Beat That Hides a 52% Net Income Drop", "url": "https://247wallst.com/cards/molina-healthcare-q3-2026-earnings-moh-01m5g2671z0ccepbq125ttx1ke"},
+    {"title": "Molina Healthcare (MOH) Stock Drops After Q3 Results Expose Margin Squeeze", "url": "https://finance.yahoo.com/healthcare/articles/molina-healthcare-moh-stock-drops-231406386.html?.tsrc=rss"}
    ]
   },
-  "GDDY": {
+  "WEX": {
    "verdict": "CAUTION",
    "cause": "unclear",
-   "why": "GDDY beat Q3 EPS and met/exceeded guidance on Oct 29, yet shares still dipped on valuation/insider-selling focus; a Cantor downgrade from Oct 19 and an older securities-fraud suit tied to a Feb 2026 bookings miss linger but aren't new catalysts.",
-   "sentiment": -0.2,
-   "sent_conf": 0.4,
-   "bull": "Earnings beat with guidance met across all key metrics; no fresh fundamental damage found.",
-   "bear": "Stock fell despite the beat, suggesting the market sees a risk analysts haven't flagged yet.",
+   "why": "WEX beat Q3 estimates on all lines and raised FY2026 EPS/revenue guidance, yet the stock barely reacted positively and has pulled back from a recent 33% rally; one Morgan Stanley downgrade (Oct 27, PT raised) preceded earnings. No clear damage found, but the muted reaction to a clean beat is unexplained.",
+   "sentiment": 0.1,
+   "sent_conf": 0.55,
+   "bull": "WEX beat Q3 estimates on every line and raised full-year EPS and revenue guidance, a fundamentally strong quarter.",
+   "bear": "Despite the beat, the stock barely moved higher after a big prior rally, and one analyst downgraded shares just before earnings.",
    "catalysts": "none found",
-   "flags": ["stock fell despite earnings beat", "stale securities-fraud suit (Feb 2026 event)", "elevated rvol 1.4x"],
+   "flags": ["muted reaction to clean beat", "pre-earnings downgrade", "post-rally valuation reset"],
    "sources": [
-    {"title": "GoDaddy (GDDY) Shares Dip 3% After Q3 Earnings Beat Expectations", "url": "https://www.gurufocus.com/news/9152967/godaddy-gddy-shares-dip-3-after-q3-earnings-beat-expectations"},
-    {"title": "LAWSUIT ALERT: GoDaddy Inc. (NYSE: GDDY) Investors Should Contact the Shareholders Foundation", "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPem5YUVRfWWZlOTF5UjlRWHBnOEliSHVxY2wyN2dnanpobnFScWlXQmE5djgyaE00eUxNa1l4ZEhqSmhDLXF4Qmh0elJjSUZic1BIZlN6ZWdKdWZxcUh0bE42OFY0cC1oazZvazY3M0hXOF85QlNadGpwRGF4VW4xT2FEYlp1Ri12MVNfMUVHel92Z21UR1BfRHpCZVZiMWNIcjlTX04xU2hWMUNkLUxpQ0RCVUc0Y3lhYWxiVW1fUy1RandKY0F2MGFXeXcxM3A2UWV1SkU0OVd6dFRmQi1xTkZvSQ?oc=5"},
-    {"title": "GoDaddy (NYSE:GDDY) Posts Quarterly Earnings Results, Beats Estimates By $0.18 EPS", "url": "https://www.marketbeat.com/instant-alerts/earnings-godaddy-nyse-gddy-posts-quarterly-earnings-results-beats-estimates-by-018-eps-2026-10-29/"}
+    {"title": "Wex earnings beat by $0.48, revenue topped estimates", "url": "https://www.investing.com/news/earnings/wex-earnings-beat-by-048-revenue-topped-estimates-4980834"},
+    {"title": "WEX (WEX) Stock Falls Despite Stronger Q3 Earnings And Margin Gains", "url": "https://finance.yahoo.com/markets/stocks/articles/wex-wex-stock-falls-despite-043206408.html?.tsrc=rss"}
+   ]
+  },
+  "ADP": {
+   "verdict": "CONFIRM",
+   "cause": "macro",
+   "why": "ADP beat Q1 estimates and raised FY27 revenue/EPS growth guidance; the sell-off was a 'sell-the-news' valuation reset (unchanged margin-expansion target, softer NER Pulse hiring data) amid a broad market risk-off day driven by Amazon/Intel AI-capex fears, not ADP-specific damage. Analyst moves kept PTs flat-to-higher.",
+   "sentiment": -0.1,
+   "sent_conf": 0.65,
+   "bull": "ADP beat Q1 estimates and raised FY27 revenue and EPS growth guidance; Stifel reiterated a Buy with PT raised to $305.",
+   "bear": "Margin-expansion guidance was left unchanged and ADP's own payroll data show hiring cooling, a headwind for future volume growth.",
+   "catalysts": "none found",
+   "flags": ["sell-the-news on beat", "cooling labor data", "broad macro selloff day"],
+   "sources": [
+    {"title": "ADP Falls Despite Solid Q1 Results as Investors Appear to Focus on Margins and Labor Trends", "url": "https://www.quiverquant.com/news/ADP+Falls+Despite+Solid+Q1+Results+as+Investors+Appear+to+Focus+on+Margins+and+Labor+Trends"},
+    {"title": "ADP (ADP) Stock Retreats As Q1 Results Meet A Premium Valuation", "url": "https://finance.yahoo.com/markets/stocks/articles/adp-adp-stock-retreats-q1-131301708.html?.tsrc=rss"}
    ]
   }
  }
