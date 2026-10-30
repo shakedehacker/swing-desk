@@ -15,7 +15,7 @@
    "ed": null,
    "name": "Salesforce, Inc.",
    "drop": -7.747013428332183,
-   "rvol": 1.0618191461665014,
+   "rvol": 1.0629434932170811,
    "dd": {
     "short": 0.0392,
     "dtc": 2.78,
@@ -41,9 +41,7 @@
       "prior": 300.0,
       "date": "2026-10-21"
      }
-    ],
-    "iv": 0.4482883947753906,
-    "imove": 5.647902896247765
+    ]
    },
    "news": [
     [
@@ -95,238 +93,113 @@
      "Fri, 23 Oct 2026 08:43:11 GMT"
     ],
     [
-     "Salesforce (CRM) Stock Looks Cheap Relative To Its Earnings Power - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMingFBVV95cUxNMXVObG96cURZMEFjSFU2VXlscjFRWldnWkRDM2dTSkVCSGIxZnVNUWkzUVJ3ZHZQMTBNQ0lUaVVwLW5ESlRMcEtBVkFZM2hLZkhQNF9fM2UwcjlOVThxaUhrSF9lVGRSQU83MWV3TkF2RUJHYjdTc3lsSGd6TVAtaHdIUFE3TU1IMFJaU05BTkhiWTNMTDIwbFozeVRpZw?oc=5",
-     "Yahoo Finance",
-     "Tue, 27 Oct 2026 15:08:29 GMT"
-    ],
-    [
-     "Why Is Salesforce Stock Falling on Thursday? - Salesforce (NYSE:CRM) - Benzinga",
-     "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUWJEQUJOTVMwOHJKMTJ3VVh0emMwalFfaW4ySVM5UkVUeUhVREcyNk1HTkNtMEdaS21nNUtPbGJBOFNyMXVtWnZYVVlYcE1vSjAzNWFzaUxzaHhEUjI3ZWdMM0doV0dZV2tyalNJQkE3UTQ3YTdJQ2djWkUzLUJIcDQ0UkxVeXQzVWh3YndwNHc4ZU1qMTZfbzlodnZYdWxaV3V0cFZhTQ?oc=5",
-     "Benzinga",
-     "Thu, 29 Oct 2026 16:00:51 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "WEX",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 183.47000122070312,
-   "buy": 177.71400604248046,
-   "tgt": 187.62339339443423,
-   "stop": 165.718289402553,
-   "days": null,
-   "conf": null,
-   "s": null,
-   "ed": null,
-   "name": "WEX Inc.",
-   "drop": -7.40385495817849,
-   "rvol": 1.7998634327542882,
-   "dd": {
-    "short": 0.111999996,
-    "dtc": 5.06,
-    "ratings": [
-     5,
-     10,
-     0
-    ],
-    "moves": [
-     {
-      "firm": "Morgan Stanley",
-      "action": "main",
-      "to": "Equal-Weight",
-      "pt": 178.0,
-      "prior": 172.0,
-      "date": "2026-10-27"
-     }
-    ],
-    "iv": 0.43843640182495114,
-    "imove": 5.523779452127648
-   },
-   "news": [
-    [
-     "WEX (WEX) Q3 2026 Earnings Call Transcript",
-     "https://www.fool.com/earnings/call-transcripts/2026/10/29/wex-wex-q3-2026-earnings-call-transcript/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 20:02:49 +0000"
-    ],
-    [
-     "Compared to Estimates, Wex (WEX) Q3 Earnings: A Look at Key Metrics",
-     "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-wex-wex-q3-223002620.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 22:30:02 +0000"
-    ],
-    [
-     "WEX\u2019s (NYSE:WEX) Q3 2026: strong sales, full-year sales guidance is optimistic",
-     "https://finance.yahoo.com/markets/stocks/articles/wex-nyse-wex-q3-2026-213005473.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 21:30:05 +0000"
-    ],
-    [
-     "Wex (WEX) Q3 Earnings and Revenues Top Estimates",
-     "https://finance.yahoo.com/markets/stocks/articles/wex-wex-q3-earnings-revenues-204509446.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 20:45:09 +0000"
-    ],
-    [
-     "Wex: Q3 Earnings Snapshot",
-     "https://finance.yahoo.com/markets/stocks/articles/wex-q3-earnings-snapshot-204357206.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 20:43:57 +0000"
-    ],
-    [
-     "WEX Inc. Reports Third Quarter 2026 Financial Results",
-     "https://finance.yahoo.com/markets/stocks/articles/wex-inc-reports-third-quarter-203000859.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 20:30:00 +0000"
-    ],
-    [
-     "WEX (WEX) Stock Looks Expensive Even After Its 33% Rise - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVHNxS0p6QWNYeGlTc0ZNQ3BKbXVZcDlHZHhScWY5VzRzWU5xaGFqYllGUjFraGMwNUpmeE1ZZmJRejFqVUFWb1RGREdzMnMxbWxtcFlkYVRaRzhZbEJIZkJHRV9tZFgtN1BWRmtHNUJZd2hkY3lYSlhualR1Wk1pSjF6aGl4U2tBQzVSWmZlS18xaFNHSzQ1bmN3?oc=5",
-     "Yahoo Finance",
-     "Sat, 24 Oct 2026 18:14:26 GMT"
-    ],
-    [
-     "WEX posts stronger than expected Q3 results, raises 2026 guidance - Mainebiz",
-     "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeVI2T2Q0anprbWg5M3M2U1RyZ1dfeVk5YWg1RGFGNHlSMk9QVkk3RzR5dF95elJaNklabUFZOTBPMjlqbG9hSUhURHpJTGNXWHlLb2pldDBOc2phWU1fZTY1VUJNUUVIMmtDVF9qaXIxRVdnUExPZ2NtVjNwYU9rM0N1R19XeUtWamxfN3pSV3ZmZ3lVMk1KbjdB?oc=5",
-     "Mainebiz",
-     "Thu, 29 Oct 2026 12:34:17 GMT"
-    ],
-    [
-     "Do Options Traders Know Something About WEX Stock We Don't? - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUERpQWNCMTB5RXN4TGxZd3hiSmQ1cGVRclA5X3dlbjM0NURkVGlDR3ktNFNoUjlUejZPWE1MaGdYX3hfVkFxWTI1VlNSXzV5MkV0VHQxd3RlRkV0NXlTRjZBenhMUVUyN211b3NyMnBiaHkzbEVCVzI1OHdudUR2emRSN1hyRi1Xdk5kQjhSalNib2RhZ0xBeTdLRFNoNFdBcGc?oc=5",
-     "Yahoo Finance",
-     "Wed, 28 Oct 2026 14:35:00 GMT"
-    ],
-    [
-     "WEX Inc. Estimates \u2013 NYSE:WEX - TradingView",
-     "https://news.google.com/rss/articles/CBMidEFVX3lxTE1EMV9ZYlFYVldNaXJDdjNzLVppaXhNS05TRC1LU0tnMTdMUjBncnB1TEZVeEdrSGd6MEdHdFBkbXNKUTdERnBleXNYWXBsUzAtZDRJNzlaQ0FhbkN4MGNaVHhERnRnbHFrc2daLVRDRWFYZU8w?oc=5",
-     "TradingView",
-     "Sat, 24 Oct 2026 00:50:50 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "ADP",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 286.0799865722656,
-   "buy": 273.74400329589844,
-   "tgt": 290.8751577704779,
-   "stop": 259.6468614850725,
-   "days": null,
-   "conf": null,
-   "s": null,
-   "ed": null,
-   "name": "Automatic Data Processing, Inc.",
-   "drop": -7.098790574732194,
-   "rvol": 1.1116238202878561,
-   "dd": {
-    "short": 0.025799999,
-    "dtc": 4.91,
-    "ratings": [
-     4,
-     11,
-     3
-    ],
-    "moves": [
-     {
-      "firm": "Citigroup",
-      "action": "main",
-      "to": "Neutral",
-      "pt": 295.0,
-      "prior": 287.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "RBC Capital",
-      "action": "reit",
-      "to": "Sector Perform",
-      "pt": 290.0,
-      "prior": 290.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Morgan Stanley",
-      "action": "main",
-      "to": "Equal-Weight",
-      "pt": 288.0,
-      "prior": 286.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Guggenheim",
-      "action": "reit",
-      "to": "Buy",
-      "pt": 340.0,
-      "prior": 340.0,
-      "date": "2026-10-29"
-     }
-    ],
-    "iv": 0.3598574757080078,
-    "imove": 4.533778038813599
-   },
-   "news": [
-    [
-     "ADP (ADP) Stock Retreats As Q1 Results Meet A Premium Valuation",
-     "https://finance.yahoo.com/markets/stocks/articles/adp-adp-stock-retreats-q1-131301708.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 13:13:01 +0000"
-    ],
-    [
-     "Why Is Automatic Data Processing (ADP) Expanding Its Small Business Payroll Reach?",
-     "https://finance.yahoo.com/small-business/articles/why-automatic-data-processing-adp-111353036.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 11:13:53 +0000"
-    ],
-    [
-     "What Automatic Data Processing (ADP) Said on Its Q1 Earnings Call",
-     "https://www.marketbeat.com/instant-alerts/transcript-what-automatic-data-processing-adp-said-on-its-q1-earnings-call-2026-10-28/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 23:04:13 +0000"
-    ],
-    [
-     "ADP: Fiscal Q1 Earnings Snapshot",
-     "https://finance.yahoo.com/markets/stocks/articles/adp-fiscal-q1-earnings-snapshot-183603759.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 18:36:03 +0000"
-    ],
-    [
-     "Automatic Data Processing, Inc. Q1 2027 Earnings Call Summary",
-     "https://app.moby.co/home/research/tools/earningsCalendar/earnings-automatic-data-processing-inc-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 16:54:35 +0000"
-    ],
-    [
-     "ADP Q1 Earnings Beat Estimates, Revenues Increase Marginally Y/Y",
-     "https://finance.yahoo.com/markets/stocks/articles/adp-q1-earnings-beat-estimates-142200511.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 14:22:00 +0000"
-    ],
-    [
-     "Automatic Data Processing | ADP Stock Price, Company Overview & News - Forbes",
-     "https://news.google.com/rss/articles/CBMia0FVX3lxTE82VW42S0Z3bXNyZzlZclhqZGM1RGM1aDNkYXYyc2pkMGNuejlLQ1FKMjRld0pQWjc2VzZYd053Y29aSnZ6bmlZNW5PSXVvbFlwOHFQbDJaZmNIc2xnSlo3ZE5sbGdGQjJCNmJF?oc=5",
+     "Salesforce | CRM Stock Price, Company Overview & News - Forbes",
+     "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1mM2oxc3YyMHI3ckVCWDJlM0U5VFYzWUdDWWhXeWhtZWZsQU1ld1JzQlZvT1F1UXBjTkxtb29qRkIydG1YVk1wbUdwZl9ZRTM3TDdkNEs0WQ?oc=5",
      "Forbes",
      "Tue, 27 Oct 2026 14:00:00 GMT"
     ],
     [
-     "Stifel raises ADP stock price target to $305 on margin expansion - Investing.com",
-     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOHp3S0x4cTVkb0NfNXl3Qm5KY0oya29Za25nSHNqbGRSaHhKbXBjSmNVTGlwZ3o5eTZraFBTOGVqM3dHV2xfSkZWdXVlSzl1clhTRXdJa3FwTUxfeld3N01LdUpPRGtDS01rbURJVE9rVXFRZmhTakpURXhveHVrYzJlU1NQb3l6OGkwVWNiMS1yYWdTcHVKTWo0UUIxbFJqQzgxcVNsZ3F6OHJacFFad05odjk0aWF3MUZadktDMEU?oc=5",
-     "Investing.com",
-     "Thu, 29 Oct 2026 15:44:58 GMT"
+     "Salesforce (CRM) Stock Looks Cheap Relative To Its Earnings Power - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxNMXVObG96cURZMEFjSFU2VXlscjFRWldnWkRDM2dTSkVCSGIxZnVNUWkzUVJ3ZHZQMTBNQ0lUaVVwLW5ESlRMcEtBVkFZM2hLZkhQNF9fM2UwcjlOVThxaUhrSF9lVGRSQU83MWV3TkF2RUJHYjdTc3lsSGd6TVAtaHdIUFE3TU1IMFJaU05BTkhiWTNMTDIwbFozeVRpZw?oc=5",
+     "Yahoo Finance",
+     "Tue, 27 Oct 2026 15:08:29 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "GDDY",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 105.88999938964844,
+   "buy": 101.51100082397461,
+   "tgt": 107.41691464932435,
+   "stop": 93.96171493530274,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "GoDaddy Inc.",
+   "drop": -7.705049863707614,
+   "rvol": 1.4086596167545467,
+   "dd": {
+    "short": 0.0775,
+    "dtc": 2.91,
+    "ratings": [
+     7,
+     10,
+     1
+    ],
+    "moves": [
+     {
+      "firm": "Cantor Fitzgerald",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 100.0,
+      "prior": 90.0,
+      "date": "2026-10-19"
+     }
+    ]
+   },
+   "news": [
+    [
+     "GoDaddy\u2019s (NYSE:GDDY) Q3 2026 sales top estimates",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-nyse-gddy-q3-2026-210301137.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 21:03:01 +0000"
     ],
     [
-     "ADP Stock Is Falling Wednesday: What's Going On? - Automatic Data Processing (NASDAQ:ADP) - Benzinga",
-     "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc2lSNkF2VnRMeVR0TUVjUURzTnd3ZHFwbzF4MTdTX3AxVjBtLWNYQ1RJY2lfZ3FrS3IxcFJseHF6SHBacDVyMFNNWDhCM0ZrZ09aMlAtUHZLcWxPX3dFR25ob0VaRjBJVkpTQWVkV1R1dlh6Ym5aUDNCVzhvZF9FRnpDTk1fTHlYY3ZHRkJjWmNxTmxEM3E5dXMtNjVkXzFrYy1lUE5fS1hlSXAtajNkbTZaU18tQWF1RzF5N1pnRFNackJneHlr?oc=5",
-     "Benzinga",
-     "Wed, 28 Oct 2026 12:06:06 GMT"
+     "Compared to Estimates, GoDaddy (GDDY) Q3 Earnings: A Look at Key Metrics",
+     "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-godaddy-gddy-q3-210003092.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 21:00:03 +0000"
     ],
     [
-     "Automatic Data Processing (NASDAQ:ADP) Q1 Fiscal 2027 Results In Line, Stock Slips on Revised Outlook - ChartMill",
-     "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWGhjZjloeWFpemNtdWhUUnBqd1ZxN0ZlUF9LXzBBemNERlFhTl92bjBmU3JQSm9GWEo3Nm5YWU9fWTBWdWF3NjV3RkVZZ1NVaW5kRjB0WUtXTUpocVFfQ0ZKX0V4Rkx3UXZSM3gxc2I4aV9CLXlKX05icFptaktOMGNNVDI3VmhndGNKMnExMmhrcHJPZTdfM0FXTFYxR29iVG45YzVYVkxkSXpzWTlfYXlndzhRSzlIUks0b25lYWg3czlDUDF2Q1hHdUc5QjZHSk1pYUV5dG9fZFRyRnd5XzF3?oc=5",
-     "ChartMill",
-     "Wed, 28 Oct 2026 12:21:16 GMT"
+     "GoDaddy (GDDY) Beats Q3 Earnings and Revenue Estimates",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-gddy-beats-q3-earnings-203503631.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 20:35:03 +0000"
+    ],
+    [
+     "GoDaddy: Q3 Earnings Snapshot",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-q3-earnings-snapshot-202328564.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 20:23:28 +0000"
+    ],
+    [
+     "GoDaddy Inc. Reports Third Quarter 2026 Financial Results",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-inc-reports-third-quarter-200700783.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 20:07:00 +0000"
+    ],
+    [
+     "GoDaddy earnings: what to look for from GDDY",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-earnings-look-gddy-122234770.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 28 Oct 2026 12:22:34 +0000"
+    ],
+    [
+     "GoDaddy earnings: what to look for from GDDY - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNzlMY2YxcHdPanFYYjFSN082OFJXbnhQTnczOEdORHdfdm5wUWY4ZkphdTN1ODJNZVA2NEhORU1pNHBHYWo0RVpIa0hFTFh6ODBhMURTdGNja2JIMXI3T3FsaGVpYktZRnVhc2RIOEl1V2RlTEUzV3FmMmpGMS12SzZ1TFl3Z1R2YlFBb1RoWHMzcmtycWc?oc=5",
+     "Yahoo Finance",
+     "Wed, 28 Oct 2026 12:22:34 GMT"
+    ],
+    [
+     "LAWSUIT ALERT: GoDaddy Inc. (NYSE: GDDY) Investors Should Contact the Shareholders Foundation - Morningstar",
+     "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPem5YUVRfWWZlOTF5UjlRWHBnOEliSHVxY2wyN2dnanpobnFScWlXQmE5djgyaE00eUxNa1l4ZEhqSmhDLXF4Qmh0elJjSUZic1BIZlN6ZWdKdWZxcUh0bE42OFY0cC1oazZvazY3M0hXOF85QlNadGpwRGF4VW4xT2FEYlp1Ri12MVNfMUVHel92Z21UR1BfRHpCZVZiMWNIcjlTX04xU2hWMUNkLUxpQ0RCVUc0Y3lhYWxiVW1fUy1RandKY0F2MGFXeXcxM3A2UWV1SkU0OVd6dFRmQi1xTkZvSQ?oc=5",
+     "Morningstar",
+     "Thu, 29 Oct 2026 10:30:00 GMT"
+    ],
+    [
+     "GoDaddy (NYSE:GDDY) Stock Forecast & Analyst Predictions - Simply Wall St",
+     "https://news.google.com/rss/articles/CBMic0FVX3lxTFByX1RiMmV2VThPaGNEZnlMb25OMG10U093WEVXaTVOaUpnTjB3amQ4MEJZVmxaR01sUldjQWthRkJYLWg0QXdiRFNRTUMxemtlbXZ3dmx0YWpBX25mUWd1ZThyd1lzbnJjRGNraWZsSV8xU0E?oc=5",
+     "Simply Wall St",
+     "Tue, 27 Oct 2026 07:00:00 GMT"
+    ],
+    [
+     "GoDaddy to Report Q3 Earnings: What's in Store for the Stock? - TradingView",
+     "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN3RGWGVwc01PeWJyRGEzSmRLX1g0TFkxWEZuZVR3YVVfeTBJaUliTWdnZldJZElsS042amttdUFRdGR0aEpPVVhvcnZBMEpPYUFHRzVRbkVYbmF5Z0h3N0V2aE5pUVY3am9yTjF1VWxpYUdKODgwMFRPdzZlN2xuWGxST1B4NFZHOEtBT2tONmdZbXI1cTFzalViMzZuVlZRSFlmTlcwem8tQnhJMUJsVkQ4Nk0?oc=5",
+     "TradingView",
+     "Tue, 27 Oct 2026 17:22:00 GMT"
     ]
    ]
   },
@@ -337,14 +210,14 @@
    "c": 198.9499969482422,
    "buy": 188.23499450683593,
    "tgt": 202.0928008712703,
-   "stop": 167.54999476841516,
+   "stop": 167.5507097516741,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Molina Healthcare Inc",
    "drop": -8.165621533994294,
-   "rvol": 0.7195892628694993,
+   "rvol": 0.7196956831844581,
    "dd": {
     "short": 0.067,
     "dtc": 4.28,
@@ -386,9 +259,7 @@
       "prior": 218.0,
       "date": "2026-10-23"
      }
-    ],
-    "iv": 0.4740958352661133,
-    "imove": 5.973046084407532
+    ]
    },
    "news": [
     [
@@ -454,101 +325,222 @@
    ]
   },
   {
-   "t": "GDDY",
+   "t": "WEX",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 105.88999938964844,
-   "buy": 101.51100082397461,
-   "tgt": 107.41691464932435,
-   "stop": 93.96171493530274,
+   "c": 183.47000122070312,
+   "buy": 177.71400604248046,
+   "tgt": 187.62339339443423,
+   "stop": 165.718289402553,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
-   "name": "GoDaddy Inc.",
-   "drop": -7.705049863707614,
-   "rvol": 1.407714351699753,
+   "name": "WEX Inc.",
+   "drop": -7.40385495817849,
+   "rvol": 1.8422010998215521,
    "dd": {
-    "short": 0.0775,
-    "dtc": 2.91,
+    "short": 0.111999996,
+    "dtc": 5.06,
     "ratings": [
-     7,
+     5,
      10,
-     1
+     0
     ],
     "moves": [
      {
-      "firm": "Cantor Fitzgerald",
+      "firm": "Morgan Stanley",
       "action": "main",
-      "to": "Neutral",
-      "pt": 100.0,
-      "prior": 90.0,
-      "date": "2026-10-19"
+      "to": "Equal-Weight",
+      "pt": 178.0,
+      "prior": 172.0,
+      "date": "2026-10-27"
      }
-    ],
-    "iv": 1.1402427428181967,
-    "imove": 14.365708246395853
+    ]
    },
    "news": [
     [
-     "GoDaddy\u2019s (NYSE:GDDY) Q3 2026 sales top estimates",
-     "https://finance.yahoo.com/markets/stocks/articles/godaddy-nyse-gddy-q3-2026-210301137.html?.tsrc=rss",
+     "WEX (WEX) Stock Falls Despite Stronger Q3 Earnings And Margin Gains",
+     "https://finance.yahoo.com/markets/stocks/articles/wex-wex-stock-falls-despite-043206408.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 21:03:01 +0000"
+     "Fri, 30 Oct 2026 04:32:06 +0000"
     ],
     [
-     "Compared to Estimates, GoDaddy (GDDY) Q3 Earnings: A Look at Key Metrics",
-     "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-godaddy-gddy-q3-210003092.html?.tsrc=rss",
+     "WEX (WEX) Q3 2026 Earnings Call Transcript",
+     "https://www.fool.com/earnings/call-transcripts/2026/10/29/wex-wex-q3-2026-earnings-call-transcript/?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 21:00:03 +0000"
+     "Thu, 29 Oct 2026 20:02:49 +0000"
     ],
     [
-     "GoDaddy (GDDY) Beats Q3 Earnings and Revenue Estimates",
-     "https://finance.yahoo.com/markets/stocks/articles/godaddy-gddy-beats-q3-earnings-203503631.html?.tsrc=rss",
+     "Compared to Estimates, Wex (WEX) Q3 Earnings: A Look at Key Metrics",
+     "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-wex-wex-q3-223002620.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 20:35:03 +0000"
+     "Wed, 28 Oct 2026 22:30:02 +0000"
     ],
     [
-     "GoDaddy: Q3 Earnings Snapshot",
-     "https://finance.yahoo.com/markets/stocks/articles/godaddy-q3-earnings-snapshot-202328564.html?.tsrc=rss",
+     "WEX\u2019s (NYSE:WEX) Q3 2026: strong sales, full-year sales guidance is optimistic",
+     "https://finance.yahoo.com/markets/stocks/articles/wex-nyse-wex-q3-2026-213005473.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 20:23:28 +0000"
+     "Wed, 28 Oct 2026 21:30:05 +0000"
     ],
     [
-     "GoDaddy Inc. Reports Third Quarter 2026 Financial Results",
-     "https://finance.yahoo.com/markets/stocks/articles/godaddy-inc-reports-third-quarter-200700783.html?.tsrc=rss",
+     "Wex (WEX) Q3 Earnings and Revenues Top Estimates",
+     "https://finance.yahoo.com/markets/stocks/articles/wex-wex-q3-earnings-revenues-204509446.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 20:07:00 +0000"
+     "Wed, 28 Oct 2026 20:45:09 +0000"
     ],
     [
-     "GoDaddy earnings: what to look for from GDDY",
-     "https://finance.yahoo.com/markets/stocks/articles/godaddy-earnings-look-gddy-122234770.html?.tsrc=rss",
+     "Wex: Q3 Earnings Snapshot",
+     "https://finance.yahoo.com/markets/stocks/articles/wex-q3-earnings-snapshot-204357206.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 12:22:34 +0000"
+     "Wed, 28 Oct 2026 20:43:57 +0000"
     ],
     [
-     "GDDY: Godaddy Inc - Ordinary Shares - Class A Latest Stock Price, Analysis, News and Trading Ideas - Stocktwits",
-     "https://news.google.com/rss/articles/CBMiSkFVX3lxTE82ZjRmR3drMGpwUW1uNllnZmxQSjlGazR4cUlxRE14dVl3NERkLUtsZ0VHZnl6aVpjbTBCbHByTGRyRDNSVVdvRHhB?oc=5",
-     "Stocktwits",
-     "Wed, 28 Oct 2026 07:02:03 GMT"
-    ],
-    [
-     "GoDaddy earnings: what to look for from GDDY - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNzlMY2YxcHdPanFYYjFSN082OFJXbnhQTnczOEdORHdfdm5wUWY4ZkphdTN1ODJNZVA2NEhORU1pNHBHYWo0RVpIa0hFTFh6ODBhMURTdGNja2JIMXI3T3FsaGVpYktZRnVhc2RIOEl1V2RlTEUzV3FmMmpGMS12SzZ1TFl3Z1R2YlFBb1RoWHMzcmtycWc?oc=5",
+     "WEX (WEX) Stock Looks Expensive Even After Its 33% Rise - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVHNxS0p6QWNYeGlTc0ZNQ3BKbXVZcDlHZHhScWY5VzRzWU5xaGFqYllGUjFraGMwNUpmeE1ZZmJRejFqVUFWb1RGREdzMnMxbWxtcFlkYVRaRzhZbEJIZkJHRV9tZFgtN1BWRmtHNUJZd2hkY3lYSlhualR1Wk1pSjF6aGl4U2tBQzVSWmZlS18xaFNHSzQ1bmN3?oc=5",
      "Yahoo Finance",
-     "Wed, 28 Oct 2026 12:22:34 GMT"
+     "Sat, 24 Oct 2026 18:14:26 GMT"
     ],
     [
-     "LAWSUIT ALERT: GoDaddy Inc. (NYSE: GDDY) Investors Should Contact the Shareholders Foundation - Morningstar",
-     "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPem5YUVRfWWZlOTF5UjlRWHBnOEliSHVxY2wyN2dnanpobnFScWlXQmE5djgyaE00eUxNa1l4ZEhqSmhDLXF4Qmh0elJjSUZic1BIZlN6ZWdKdWZxcUh0bE42OFY0cC1oazZvazY3M0hXOF85QlNadGpwRGF4VW4xT2FEYlp1Ri12MVNfMUVHel92Z21UR1BfRHpCZVZiMWNIcjlTX04xU2hWMUNkLUxpQ0RCVUc0Y3lhYWxiVW1fUy1RandKY0F2MGFXeXcxM3A2UWV1SkU0OVd6dFRmQi1xTkZvSQ?oc=5",
-     "Morningstar",
-     "Thu, 29 Oct 2026 10:30:00 GMT"
+     "A Look at WEX Inc (WEX) After 3.1% Decline -- GF Value $214.00 v - GuruFocus",
+     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR2dYR1VRWHRhUE8xcEdGMFp3a21fU2RpVGJ3ckp5VTZ0MWd0d3RCaUFrc21TV3pCLXRNQkx0ZTRDRnpVZ0dvRlFNY3JoZjJxQlN1RmNqWUF0cWVmSUVycjlxZkxqcV9sMkFyV01KWDVsblRqR0Q3azRHSWdlS1NnQnJEbUY4Mng1eVNERFlUb3dicmJqSUpNSnlGZ1N5NDdPRWozWF81cENGTGc?oc=5",
+     "GuruFocus",
+     "Fri, 30 Oct 2026 00:36:45 GMT"
     ],
     [
-     "GoDaddy (NYSE:GDDY) Stock Forecast & Analyst Predictions - Simply Wall St",
-     "https://news.google.com/rss/articles/CBMic0FVX3lxTFByX1RiMmV2VThPaGNEZnlMb25OMG10U093WEVXaTVOaUpnTjB3amQ4MEJZVmxaR01sUldjQWthRkJYLWg0QXdiRFNRTUMxemtlbXZ3dmx0YWpBX25mUWd1ZThyd1lzbnJjRGNraWZsSV8xU0E?oc=5",
-     "Simply Wall St",
-     "Tue, 27 Oct 2026 07:00:00 GMT"
+     "Will Earnings Report Change WEX Stock Narrative - Simply Wall Street",
+     "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVFA1bTUtTFBlU1c0dzMwYUFMVWVYelAtTTlqZGQ4SlR5YkdfeXU4VUIzbkdQSnpKTDB2bjZnd2hPSC1xQ1JzT0kwNnJjblA1UzBGdC1GRXZ0bFBjNjBWYUhRNWhxMkRzVldTdFlJVzBVY3lLMzZMT1g2dmxQcHg2dkR5LXR6ZTJkQk83UmtEcnRyX055NnZfRW5hYXhTcDJoM3BVa1BPckhTQmsxSUxGallxM2dkTEVmQUkzU9IBwgFBVV95cUxPSXVMZGV3eWo1MWRlWG50TmNibTVhX1JLalc4WEUtOVBzMkZicTBrdzVVQ09JZWVqR0tZaDJUcGNLbEJDQ0w1b21JUWRPSzRtZnVpOVk5am9rSjVmY19kXy1ESm1zRGRmWWVUTVEzVzFxV1k4ckNVa1RwTnJxalpKZDdpWmNHRGV0Tl9nY2lXTGJMemNzTVZ5U2RoS2ttUUptdGRkaXpDTURwLWJWRzcxZndhY0M3MjN5bnZuQmpCaGROZw?oc=5",
+     "Simply Wall Street",
+     "Tue, 27 Oct 2026 11:28:11 GMT"
+    ],
+    [
+     "Wex earnings beat by $0.48, revenue topped estimates - Investing.com Nigeria",
+     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUM5MnZneXE1bVNDemhKazI2eUYzNGEtRkF5ZXRYa2NrSzlZWXc2OU5ReTZsUkxyRnlac1ZRdFdWN1d5WnV0VHR3VmhZTHZOczhVeTVhSzllemo5WG5OdHd5SFVIUkMtZDljZm5SaHdYemh2OGdXUVFfR2dSR3JWSDVEZTczRWJNYWtMNVdBZVdiTnhTa0FRZ1N6cC0?oc=5",
+     "Investing.com Nigeria",
+     "Thu, 29 Oct 2026 03:18:43 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "ADP",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 286.0799865722656,
+   "buy": 273.74400329589844,
+   "tgt": 290.8751577704779,
+   "stop": 259.6468614850725,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Automatic Data Processing, Inc.",
+   "drop": -7.098790574732194,
+   "rvol": 1.141361122817772,
+   "dd": {
+    "short": 0.025799999,
+    "dtc": 4.91,
+    "ratings": [
+     4,
+     11,
+     3
+    ],
+    "moves": [
+     {
+      "firm": "Citigroup",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 295.0,
+      "prior": 287.0,
+      "date": "2026-10-29"
+     },
+     {
+      "firm": "RBC Capital",
+      "action": "reit",
+      "to": "Sector Perform",
+      "pt": 290.0,
+      "prior": 290.0,
+      "date": "2026-10-29"
+     },
+     {
+      "firm": "Morgan Stanley",
+      "action": "main",
+      "to": "Equal-Weight",
+      "pt": 288.0,
+      "prior": 286.0,
+      "date": "2026-10-29"
+     },
+     {
+      "firm": "Guggenheim",
+      "action": "reit",
+      "to": "Buy",
+      "pt": 340.0,
+      "prior": 340.0,
+      "date": "2026-10-29"
+     }
+    ],
+    "iv": 0.32739930419921875,
+    "imove": 4.124843515841514
+   },
+   "news": [
+    [
+     "ADP (ADP) Stock Retreats As Q1 Results Meet A Premium Valuation",
+     "https://finance.yahoo.com/markets/stocks/articles/adp-adp-stock-retreats-q1-131301708.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 13:13:01 +0000"
+    ],
+    [
+     "Why Is Automatic Data Processing (ADP) Expanding Its Small Business Payroll Reach?",
+     "https://finance.yahoo.com/small-business/articles/why-automatic-data-processing-adp-111353036.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 11:13:53 +0000"
+    ],
+    [
+     "What Automatic Data Processing (ADP) Said on Its Q1 Earnings Call",
+     "https://www.marketbeat.com/instant-alerts/transcript-what-automatic-data-processing-adp-said-on-its-q1-earnings-call-2026-10-28/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 28 Oct 2026 23:04:13 +0000"
+    ],
+    [
+     "ADP: Fiscal Q1 Earnings Snapshot",
+     "https://finance.yahoo.com/markets/stocks/articles/adp-fiscal-q1-earnings-snapshot-183603759.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 28 Oct 2026 18:36:03 +0000"
+    ],
+    [
+     "Automatic Data Processing, Inc. Q1 2027 Earnings Call Summary",
+     "https://app.moby.co/home/research/tools/earningsCalendar/earnings-automatic-data-processing-inc-q1-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 28 Oct 2026 16:54:35 +0000"
+    ],
+    [
+     "ADP Q1 Earnings Beat Estimates, Revenues Increase Marginally Y/Y",
+     "https://finance.yahoo.com/markets/stocks/articles/adp-q1-earnings-beat-estimates-142200511.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 28 Oct 2026 14:22:00 +0000"
+    ],
+    [
+     "Stifel raises ADP stock price target to $305 on margin expansion - Investing.com",
+     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOHp3S0x4cTVkb0NfNXl3Qm5KY0oya29Za25nSHNqbGRSaHhKbXBjSmNVTGlwZ3o5eTZraFBTOGVqM3dHV2xfSkZWdXVlSzl1clhTRXdJa3FwTUxfeld3N01LdUpPRGtDS01rbURJVE9rVXFRZmhTakpURXhveHVrYzJlU1NQb3l6OGkwVWNiMS1yYWdTcHVKTWo0UUIxbFJqQzgxcVNsZ3F6OHJacFFad05odjk0aWF3MUZadktDMEU?oc=5",
+     "Investing.com",
+     "Thu, 29 Oct 2026 15:44:58 GMT"
+    ],
+    [
+     "ADP Falls Despite Solid Q1 Results as Investors Appear to Focus on Margins and Labor Trends - Moomoo",
+     "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbnhYc25vekMtMmF3cXU0WnhSLURaWERnMTJtcFVmVmRZT0lQSTg0Y1RnZ0VFam1aTWIzU0R4QzBOYndOcXJUTU9hSXBJeXJDN2RZME9ER2FneEZoRWQ0bWNIeGNXNEwxS0pUWkZaa1AxVmlhTlVvT1ZDT3VKZU9remlLTlB3Q3I4U0ROOVdIamtacm5xaW9PVG01MVE0dHl4dTM0?oc=5",
+     "Moomoo",
+     "Wed, 28 Oct 2026 17:35:27 GMT"
+    ],
+    [
+     "ADP Stock Is Falling Wednesday: What's Going On? - Automatic Data Processing (NASDAQ:ADP) - Benzinga",
+     "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc2lSNkF2VnRMeVR0TUVjUURzTnd3ZHFwbzF4MTdTX3AxVjBtLWNYQ1RJY2lfZ3FrS3IxcFJseHF6SHBacDVyMFNNWDhCM0ZrZ09aMlAtUHZLcWxPX3dFR25ob0VaRjBJVkpTQWVkV1R1dlh6Ym5aUDNCVzhvZF9FRnpDTk1fTHlYY3ZHRkJjWmNxTmxEM3E5dXMtNjVkXzFrYy1lUE5fS1hlSXAtajNkbTZaU18tQWF1RzF5N1pnRFNackJneHlr?oc=5",
+     "Benzinga",
+     "Wed, 28 Oct 2026 12:06:06 GMT"
+    ],
+    [
+     "Automatic Data Processing (NASDAQ:ADP) Q1 Fiscal 2027 Results In Line, Stock Slips on Revised Outlook - ChartMill",
+     "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWGhjZjloeWFpemNtdWhUUnBqd1ZxN0ZlUF9LXzBBemNERlFhTl92bjBmU3JQSm9GWEo3Nm5YWU9fWTBWdWF3NjV3RkVZZ1NVaW5kRjB0WUtXTUpocVFfQ0ZKX0V4Rkx3UXZSM3gxc2I4aV9CLXlKX05icFptaktOMGNNVDI3VmhndGNKMnExMmhrcHJPZTdfM0FXTFYxR29iVG45YzVYVkxkSXpzWTlfYXlndzhRSzlIUks0b25lYWg3czlDUDF2Q1hHdUc5QjZHSk1pYUV5dG9fZFRyRnd5XzF3?oc=5",
+     "ChartMill",
+     "Wed, 28 Oct 2026 12:21:16 GMT"
     ]
    ]
   }
@@ -556,13 +548,13 @@
  "macro": [
   [
    "S&P fut",
-   7701.5,
-   -0.6802721
+   7684.75,
+   -0.8962827
   ],
   [
    "Nasdaq fut",
-   29091.0,
-   -1.5932616
+   29006.25,
+   -1.8799472
   ],
   [
    "VIX",
@@ -576,23 +568,23 @@
   ],
   [
    "Brent",
-   111.41,
-   0.55054206
+   111.87,
+   0.96570367
   ],
   [
    "Gold",
-   4019.4,
-   -0.29766336
+   4009.1,
+   -0.55315286
   ],
   [
    "Bitcoin",
-   77757.99,
-   -4.2970552
+   78470.39,
+   -2.0537279
   ],
   [
    "Dollar",
-   101.882,
-   -0.15190448
+   101.825,
+   -0.20777327
   ]
  ],
  "sectors": [
@@ -664,16 +656,46 @@
  ],
  "news": [
   [
+   "Biggest-ever crypto hack impacts $6.3 billion as Binance works to contain fallout",
+   "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+   "CNBC",
+   "Fri, 30 Oct 2026 04:40:17 GMT"
+  ],
+  [
+   "Israel faces weeks of coalition haggling as Netanyahu\u2019s party claims election 'stolen'",
+   "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html",
+   "CNBC",
+   "Fri, 30 Oct 2026 03:28:10 GMT"
+  ],
+  [
+   "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
+   "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+   "CNBC",
+   "Fri, 30 Oct 2026 04:19:38 GMT"
+  ],
+  [
    "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged",
    "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
    "CNBC",
    "Thu, 29 Oct 2026 22:24:49 GMT"
   ],
   [
+   "How elections worldwide are testing Trump\u2019s influence abroad",
+   "https://www.cnbc.com/2026/10/30/election-trump-brazil-serbia-hungary.html",
+   "CNBC",
+   "Fri, 30 Oct 2026 00:13:22 GMT"
+  ],
+  [
    "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance",
    "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
    "CNBC",
-   "Thu, 29 Oct 2026 22:37:54 GMT"
+   "Fri, 30 Oct 2026 00:39:52 GMT"
+  ],
+  [
+   "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+   "https://www.cnbc.com/2026/10/29/microsoft-25-billion-debt-offering.html",
+   "CNBC",
+   "Fri, 30 Oct 2026 00:38:13 GMT"
   ],
   [
    "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
@@ -682,40 +704,34 @@
    "Thu, 29 Oct 2026 20:02:32 GMT"
   ],
   [
-   "Binance 'potential security issue' sees $2.54 billion frozen by the likes of Circle, Tether",
-   "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
-   "CNBC",
-   "Thu, 29 Oct 2026 23:56:02 GMT"
+   "What gave this city its \u2018best place to retire\u2019 crown? You can actually afford to live there.",
+   "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Fri, 30 Oct 2026 03:16:00 GMT"
   ],
   [
-   "DOJ escalates Alaska Senate lawsuit over dueling Sullivan candidacies",
-   "https://www.cnbc.com/2026/10/29/alaska-senate-governor-investigation-sullivan-peltola-doj.html",
-   "CNBC",
-   "Thu, 29 Oct 2026 23:55:09 GMT"
-  ],
-  [
-   "Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value",
-   "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
-   "CNBC",
-   "Thu, 29 Oct 2026 20:15:19 GMT"
-  ],
-  [
-   "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
-   "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html",
-   "CNBC",
-   "Thu, 29 Oct 2026 23:01:02 GMT"
-  ],
-  [
-   "Rivian third-quarter earnings beat estimates as software revenue, R2 deliveries rise",
-   "https://www.cnbc.com/2026/10/29/rivian-rivn-earnings-q3-2026.html",
-   "CNBC",
-   "Thu, 29 Oct 2026 21:52:27 GMT"
-  ],
-  [
-   "Amazon\u2019s bold cloud forecast isn\u2019t enough to stave off a stock drop",
+   "Amazon\u2019s stock drops \u2014\u00a0even in the face of a bold new cloud forecast",
    "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
    "MarketWatch",
-   "Thu, 29 Oct 2026 23:55:00 GMT"
+   "Fri, 30 Oct 2026 00:15:00 GMT"
+  ],
+  [
+   "A Starbucks turnaround is brewing \u2014\u00a0but perhaps not quickly enough for investors",
+   "https://www.marketwatch.com/story/a-starbucks-turnaround-is-brewing-but-perhaps-not-quickly-enough-3b5f57ac?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Fri, 30 Oct 2026 00:14:00 GMT"
+  ],
+  [
+   "Sandisk sees revenue nearly quintuple \u2014\u00a0and a stock split is on the way",
+   "https://www.marketwatch.com/story/sandisk-sees-revenue-nearly-quintuple-and-its-stock-is-heading-higher-b9318916?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Fri, 30 Oct 2026 00:06:00 GMT"
+  ],
+  [
+   "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
+   "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Fri, 30 Oct 2026 00:05:00 GMT"
   ],
   [
    "Why Intel\u2019s stock is sinking toward its worst drop in two years",
@@ -724,64 +740,40 @@
    "Thu, 29 Oct 2026 23:21:00 GMT"
   ],
   [
-   "My abusive ex-husband promised $20,000 for our kids\u2019 education. Now he refuses to pay. Is he legally obligated?",
-   "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Thu, 29 Oct 2026 22:45:00 GMT"
-  ],
-  [
-   "The midterms are crucial to the future of Social Security \u2014 no matter how old you are",
-   "https://www.marketwatch.com/story/the-midterms-are-crucial-to-the-future-of-social-security-no-matter-how-old-you-are-0f080a9c?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Thu, 29 Oct 2026 22:01:00 GMT"
-  ],
-  [
-   "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
-   "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Thu, 29 Oct 2026 22:00:00 GMT"
-  ],
-  [
-   "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
-   "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Thu, 29 Oct 2026 21:52:00 GMT"
-  ],
-  [
-   "A historic drop for Alphabet\u2019s stock drags the US market lower - AP News",
-   "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSWE2NlZVNmVDNUoyd0IzVGhKeDFtWFV0VEYwdU0xeWNGdk1mdGdCZFI1OTM2aE5fbTh1Rk55S3lubUdIMkc1UVY3d2xsUm9IOHZJdFNFSmlKSkVZdFNOTERLbzlTN2VjSEUxZnZleElyQ1Z5WHRQNl9KY25xZjVhQ0s3YWtyTDNUQWFQQWlB?oc=5",
-   "AP News",
-   "Thu, 29 Oct 2026 20:42:00 GMT"
-  ],
-  [
-   "Why the Next Stock Market Boom Won\u2019t Look Like the Last - The Acquirer's Multiple",
-   "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYjJYbHJiNWFJeEsxY1AwRlpyQ1hfajRZbXVJTWV3RVVjdGF5VzJ4TW5jX0M2MTN4N3V1WE1vVkZNTm1qRFZzV213bk0xNjhLRzAyUzJvVHhmQjN0ZUkzZmdNYThmandJMGx1X3gzc0FWdktmYlhyRGQtODlzbEhpRXBKSWdFUWlWcXZIYURPYy1EWlZUc0d3cw?oc=5",
-   "The Acquirer's Multiple",
-   "Thu, 29 Oct 2026 21:48:51 GMT"
-  ],
-  [
    "Asia Stocks Under Pressure, Haven Bid Boosts Bonds: Markets Wrap - Bloomberg.com",
    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLWZRMVRrOG1xQ1NBUE55MXNIWTFyTFBfUDBwVnUwbDRHOHNibGNUazhpRVVJamItaGc5UndhUngwMTFOLUE1M3dscmdtSDBvWUJrNmoyWnFGZ2tBcm9VZjZ5MXcyQXFuSDZmWmE4WVlheXZBeTVTci1CXzFQMUxnMkpFRXBVTjh0SlI0N0hobUZzOHh3?oc=5",
    "Bloomberg.com",
-   "Thu, 29 Oct 2026 23:33:14 GMT"
+   "Fri, 30 Oct 2026 05:04:00 GMT"
   ],
   [
-   "Alphabet loses $482 billion in market value, the biggest drop in its history - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0pfRGxYakdFTWU5eXlYYTd5cGVuVmpzMDFiMDBuX2ZOQVB5aFV1Qmk1dEhXQWwtSVNtU2ZOSTNfVDMxS2NoMUpTbmJ3a0hYOGtvOGJldXlkU3k2N3djaVhDMUNGN0g5Q1J2SzRXMkhXbzI3MUxqd2t5SEszX0JEZWZPUmRSd3VZQmYyZzZZeDNvY0hKaExMcnNTbHhzeTItckpZaEJmbWxodHVla2FKTTN4cmdFY2VjWk96cjdwLUtjX3FMRmZwLVp3SHJiX2xNajBR?oc=5",
+   "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters - Reuters",
+   "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
+   "Reuters",
+   "Thu, 29 Oct 2026 23:35:39 GMT"
+  ],
+  [
+   "If a Stock Market Crash Is Coming, History Says Following These 6 Words From Warren Buffett Is the Smartest Move You Can Make - The Motley Fool",
+   "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYy1kdGdDV2dzVDE2d0pFVnlUZlA0ODVVQzBWN1E2OHdpTGVGa21fV1BWdC00YXFEQXpuMTJKM3JDaU5kSU04NmFUYkpfLXBCT3JnTnZ5Ykd4WWFaekFhUXFpbVJuaTEwRndWNXBPVTctWHlTRHo2Vmt1NGNpdEVoNVhidkJ1c1UxR2FGa24tQU1nQzVhMXhRbg?oc=5",
+   "The Motley Fool",
+   "Fri, 30 Oct 2026 04:28:02 GMT"
+  ],
+  [
+   "U.S. stock futures sink, Nasdaq down 2% as Amazon, Intel earnings underwhelm - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN3BsVkRQZGpDVUx3bC1nOVUxZFVxcTdNdWk5ZHB6SFJpNjlRNjBoNUNFME9TUENNZXVNczFjeFNHM1c0Wloya2dXenBtSlNHRmV5QTc4bUxLaUJIeTc1ZjFBbFpUNHVUNXJOMl95M3QtZGxOcEpmYWJSczExdVNUeF9sOEhWTUlJMVFCOWhzVU9qcS10SkFF?oc=5",
    "Yahoo Finance",
-   "Thu, 29 Oct 2026 20:29:14 GMT"
+   "Fri, 30 Oct 2026 01:36:00 GMT"
+  ],
+  [
+   "Why isn\u2019t China\u2019s AI and tech boom saving its stock markets? - CNN",
+   "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YdU1UN0YxR2F6VEtwY2NvTzBRZFNWa2U1Z2NDUkxQclRHX2NkVzZ2MExucGI5QmZuMk5ZLU0tTGNrNFoyVTFDREhDMzFYWU8wbFdfcjhUdHFYeE4xeTJkOVowRHBsTGxiTXhUMHBjaHZVTDQwZjVYQ1ozaw?oc=5",
+   "CNN",
+   "Fri, 30 Oct 2026 05:05:20 GMT"
   ],
   [
    "Stock Market Today: Stock Market News And Analysis - Investor's Business Daily",
    "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5",
    "Investor's Business Daily",
    "Thu, 29 Oct 2026 16:53:00 GMT"
-  ],
-  [
-   "Jim Cramer raises a red flag to stock market investors - TheStreet",
-   "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFlZcDExS2ZIaE1XVTI1MjE0VmgyOWFyNHJrT1Fka2gtQmJVUUc3TFAwbjBxbGlpMGNWZHBlY1dFbDNaNUhoQVpkZVJ2Z3NrSVRqTDdzby1ZTjRkYU5oRXhkd0N1R2E0aFUwYzlFZnpTMTA5Zmc1QUNsT2laTEUxU3VNTjc0cFllQ2pnT2lfRkc0VEFnV1dQODdMaUdkdw?oc=5",
-   "TheStreet",
-   "Thu, 29 Oct 2026 20:16:53 GMT"
   ]
  ],
  "cal": [
