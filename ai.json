@@ -1,91 +1,74 @@
 {
- "asof": "2026-10-29",
+ "asof": "2026-10-30",
  "model": "Claude",
- "generated_utc": "2026-10-30T12:01:48Z",
+ "generated_utc": "2026-11-02T05:03:50Z",
  "note": {
-  "mood": "risk-off",
+  "mood": "mixed",
   "bullets": [
-   "Nasdaq futures -2.2%, S&P -1% after Amazon (-7%) and Intel (-26%) earnings reignite AI-capex spending fears; chip names AMD/NVDA/AVGO also down.",
-   "Asia mixed overnight: Nikkei -2.6%, Kospi -4.7%, Hang Seng +1.6%; Europe's Stoxx 600 -0.3% despite stronger euro-area growth data.",
-   "VIX +7.7% to 18.5 signals rising risk-off tone; Brent oil +2.7% on Chevron/Exxon refining beats, yields and dollar softer.",
-   "Today: Employment Cost Index (8:30am ET, cons 0.8% q/q) and Chicago PMI (9:45am ET); midterm-election jitters add to macro uncertainty."
+   "Futures bounce (S&P +0.4%, Nasdaq +0.9%) after last week's ~$5T AI-driven tech rout; Semis -17% and Tech -10% remain the week's biggest sector laggards.",
+   "VIX up 13% to 19.4 and 10Y yield near 4.93% show lingering caution even as futures turn green; Brent oil fell 3% to $110.",
+   "Geopolitical overhang: Rubio says US and Iran both prepare for strikes despite talk of a peaceful end; US midterm elections due Nov 3.",
+   "Data-heavy week: ISM Manufacturing today, JOLTS Wed, ISM Services Wed, and Friday's jobs report (NFP, unemployment rate) could move swing positions mid-hold."
   ]
  },
  "picks": {
-  "CRM": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Drop tracked a sector-wide SaaS selloff after ServiceNow's contract-growth slowdown spooked enterprise-software investors broadly (Workday -5%, Datadog -5.7%); no Salesforce-specific bad news found; its own analyst moves were PT-raises.",
-   "sentiment": -0.1,
-   "sent_conf": 0.6,
-   "bull": "Drop was sector-wide SaaS fear from ServiceNow's outlook, not Salesforce-specific damage, and shares look undervalued at current levels.",
-   "bear": "Enterprise software demand worries are real and sentiment-driven, which can cap a quick bounce even without company bad news.",
-   "catalysts": "none found",
-   "flags": ["sector selloff", "no CRM-specific bad news"],
-   "sources": [
-    {"title": "ServiceNow Tumbles 19% as Slower Contract Growth Overshadows Raised AI Target; Salesforce Slides 6%, Workday Drops 5%", "url": "https://247wallst.com/investing/2026/10/29/servicenow-tumbles-19-as-slower-contract-growth-overshadows-raised-ai-target-salesforce-slides-6-workday-drops-5/?.tsrc=rss"},
-    {"title": "Salesforce (CRM) Stock Sees Modest Fair Value Lift As AI And Braze Views Evolve", "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-stock-sees-modest-181354019.html?.tsrc=rss"}
-   ]
-  },
-  "GDDY": {
-   "verdict": "CAUTION",
-   "cause": "company",
-   "why": "GDDY beat Q3 estimates and guided to the high end of FY revenue, but fell on the earnings call itself: management flagged Airo's lower gross margins from inference costs, revenue-cannibalization risk, and competitive pricing pressure; a shareholder-lawsuit alert also surfaced.",
-   "sentiment": -0.05,
-   "sent_conf": 0.7,
-   "bull": "GDDY beat Q3 estimates, hit the high end of revenue guidance, and Airo's bookings run-rate doubled past $100M.",
-   "bear": "Stock fell on earnings day itself on margin and cannibalization concerns around Airo, a company-specific reassessment, not a sector move.",
-   "catalysts": "none found",
-   "flags": ["Airo margin/cannibalization concern", "shareholder lawsuit alert", "beat but sold on margin quality"],
-   "sources": [
-    {"title": "GoDaddy Q3 2026 slides: Airo momentum drives 6% growth, margins expand", "url": "https://www.investing.com/news/company-news/godaddy-q3-2026-slides-airo-momentum-drives-6-growth-margins-expand-93CH-4985527"},
-    {"title": "GoDaddy's (NYSE:GDDY) Q3 2026 sales top estimates", "url": "https://finance.yahoo.com/markets/stocks/articles/godaddy-nyse-gddy-q3-2026-210301137.html?.tsrc=rss"},
-    {"title": "LAWSUIT ALERT: GoDaddy Inc. (NYSE: GDDY) Investors Should Contact the Shareholders Foundation", "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPem5YUVRfWWZlOTF5UjlRWHBnOEliSHVxY2wyN2dnanpobnFScWlXQmE5djgyaE00eUxNa1l4ZEhqSmhDLXF4Qmh0elJjSUZic1BIZlN6ZWdKdWZxcUh0bE42OFY0cC1oazZvazY3M0hXOF85QlNadGpwRGF4VW4xT2FEYlp1Ri12MVNfMUVHel92Z21UR1BfRHpCZVZiMWNIcjlTX04xU2hWMUNkLUxpQ0RCVUc0Y3lhYWxiVW1fUy1RandKY0F2MGFXeXcxM3A2UWV1SkU0OVd6dFRmQi1xTkZvSQ?oc=5"}
-   ]
-  },
-  "MOH": {
+  "AVTR": {
    "verdict": "VETO",
    "cause": "company",
-   "why": "Q3 beat on revenue/EPS hid a 52% GAAP net-income drop on Medicaid margin squeeze and membership losses; four analysts (JPM, UBS, MS, RBC) cut ratings to Neutral/Equal-weight on fundamentals, and 2027 premium guidance was trimmed. Health sector overall was up, so this is company damage, not sector weakness.",
-   "sentiment": -0.35,
+   "why": "Q3 beat and FY guidance raised, but stock fell on margin headwinds, European weakness, and a soft 0.75-1.25% organic growth guide; Barclays cut to Underweight (PT $16) the same week - AVTR-specific caution, not sector news.",
+   "sentiment": -0.3,
    "sent_conf": 0.75,
-   "bull": "2026 EPS guidance was reaffirmed and management sees 2027 EPS building blocks above $9.50 as Florida CMS ramps.",
-   "bear": "Net income fell 52% on margin squeeze, membership losses continue, and four analysts cut ratings to Neutral on fundamentals.",
-   "catalysts": "none found",
-   "flags": ["2027 guidance trimmed", "4 analyst downgrades on fundamentals", "52% net income drop"],
+   "bull": "Profit swung positive, revenue beat, FY guidance raised, leverage falling despite the post-earnings dip.",
+   "bear": "Barclays went Underweight; margins still pressured by Europe/pricing and organic growth guide is only 0.75-1.25%.",
+   "catalysts": "none found (next: Dec 8 Investor Day, outside hold window)",
+   "flags": ["earnings caution", "Barclays Underweight", "Europe weakness"],
    "sources": [
-    {"title": "Molina Healthcare Q3 2026: The Beat That Hides a 52% Net Income Drop", "url": "https://247wallst.com/cards/molina-healthcare-q3-2026-earnings-moh-01m5g2671z0ccepbq125ttx1ke"},
-    {"title": "Molina Healthcare (MOH) Stock Drops After Q3 Results Expose Margin Squeeze", "url": "https://finance.yahoo.com/healthcare/articles/molina-healthcare-moh-stock-drops-231406386.html?.tsrc=rss"}
+    {"title": "Avantor (AVTR) Stock Drops As Q3 Earnings Rebound Meets Caution", "url": "https://finance.yahoo.com/markets/stocks/articles/avantor-avtr-stock-drops-q3-181246237.html?.tsrc=rss"},
+    {"title": "What Avantor (AVTR) Said on Its Q3 Earnings Call", "url": "https://www.marketbeat.com/instant-alerts/transcript-what-avantor-avtr-said-on-its-q3-earnings-call-2026-10-28/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss"}
+   ]
+  },
+  "NTAP": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Dropped with a broad AI-hardware selloff after weak Intel/Amazon-linked results hit Nasdaq tech (sector data: Tech -10%, Semis -17% over the period); no NTAP-specific downgrade, only a neutral Guggenheim initiation.",
+   "sentiment": -0.1,
+   "sent_conf": 0.5,
+   "bull": "Drop tracks a sector-wide tech selloff, not NTAP fundamentals; ratings skew buy-heavy (8 buy, 0 sell).",
+   "bear": "A technical 'sell signal' and in-focus headlines suggest momentum turned, with no fresh bullish catalyst to force a quick bounce.",
+   "catalysts": "none found",
+   "flags": ["sector selloff", "technical sell signal", "no analyst downgrade"],
+   "sources": [
+    {"title": "Stock Market Today: Nasdaq Slumps On Weak Intel Report; NetApp Gives Sell Signal", "url": "https://finance.yahoo.com/m/3cdf61c3-8737-3183-b5ff-f3bf8fc03ece/stock-market-today%3A-nasdaq.html?.tsrc=rss"},
+    {"title": "NetApp (NTAP) Registers a Bigger Fall Than the Market: Important Facts to Note", "url": "https://finance.yahoo.com/markets/stocks/articles/netapp-ntap-registers-bigger-fall-210004708.html"}
+   ]
+  },
+  "CTSH": {
+   "verdict": "VETO",
+   "cause": "company",
+   "why": "Q3 revenue/EPS beat, but bookings fell 7% y/y, Health Sciences and P&R segments shrank, and Q4 guide implies deceleration; EPS gain came entirely from buybacks, not operations - company-specific demand softening, not a sector move.",
+   "sentiment": -0.45,
+   "sent_conf": 0.8,
+   "bull": "Headline EPS/revenue beat, new OpenAI/AI partnership wins, and Guggenheim raised PT to $80 (Buy).",
+   "bear": "Bookings fell 7%, two core segments shrank, and EPS growth came entirely from buybacks, not real demand.",
+   "catalysts": "none found",
+   "flags": ["bookings -7%", "guidance deceleration", "buyback-driven EPS"],
+   "sources": [
+    {"title": "Cognizant Bookings Drop 7% as Growth Slows: Rapid Earnings Reaction", "url": "https://www.fool.com/investing/2026/10/29/cognizant-bookings-drop-7-as-growth-slows-rapid-earnings-reaction/?.tsrc=rss"}
    ]
   },
   "WEX": {
    "verdict": "CAUTION",
-   "cause": "unclear",
-   "why": "WEX beat Q3 estimates on all lines and raised FY2026 EPS/revenue guidance, yet the stock barely reacted positively and has pulled back from a recent 33% rally; one Morgan Stanley downgrade (Oct 27, PT raised) preceded earnings. No clear damage found, but the muted reaction to a clean beat is unexplained.",
-   "sentiment": 0.1,
-   "sent_conf": 0.55,
-   "bull": "WEX beat Q3 estimates on every line and raised full-year EPS and revenue guidance, a fundamentally strong quarter.",
-   "bear": "Despite the beat, the stock barely moved higher after a big prior rally, and one analyst downgraded shares just before earnings.",
+   "cause": "company",
+   "why": "Beat Q3 and raised guidance, yet fell on cash-quality concerns and Morgan Stanley doubting WEX can sustain 5-10% 2027 organic growth after benefits/corporate-payments revenue trailed estimates; no rating downgrades, both UBS and MS raised price targets.",
+   "sentiment": -0.15,
+   "sent_conf": 0.6,
+   "bull": "Q3 beat, guidance raised, margins expanded to 14% from 10.8%, and UBS/Morgan Stanley both hiked price targets.",
+   "bear": "Morgan Stanley doubts 2027 organic growth holds after benefits/corporate-payments trailed estimates, and cash-quality of earnings is questioned.",
    "catalysts": "none found",
-   "flags": ["muted reaction to clean beat", "pre-earnings downgrade", "post-rally valuation reset"],
+   "flags": ["growth-sustainability doubts", "cash-quality concern", "no rating downgrade"],
    "sources": [
-    {"title": "Wex earnings beat by $0.48, revenue topped estimates", "url": "https://www.investing.com/news/earnings/wex-earnings-beat-by-048-revenue-topped-estimates-4980834"},
-    {"title": "WEX (WEX) Stock Falls Despite Stronger Q3 Earnings And Margin Gains", "url": "https://finance.yahoo.com/markets/stocks/articles/wex-wex-stock-falls-despite-043206408.html?.tsrc=rss"}
-   ]
-  },
-  "ADP": {
-   "verdict": "CONFIRM",
-   "cause": "macro",
-   "why": "ADP beat Q1 estimates and raised FY27 revenue/EPS growth guidance; the sell-off was a 'sell-the-news' valuation reset (unchanged margin-expansion target, softer NER Pulse hiring data) amid a broad market risk-off day driven by Amazon/Intel AI-capex fears, not ADP-specific damage. Analyst moves kept PTs flat-to-higher.",
-   "sentiment": -0.1,
-   "sent_conf": 0.65,
-   "bull": "ADP beat Q1 estimates and raised FY27 revenue and EPS growth guidance; Stifel reiterated a Buy with PT raised to $305.",
-   "bear": "Margin-expansion guidance was left unchanged and ADP's own payroll data show hiring cooling, a headwind for future volume growth.",
-   "catalysts": "none found",
-   "flags": ["sell-the-news on beat", "cooling labor data", "broad macro selloff day"],
-   "sources": [
-    {"title": "ADP Falls Despite Solid Q1 Results as Investors Appear to Focus on Margins and Labor Trends", "url": "https://www.quiverquant.com/news/ADP+Falls+Despite+Solid+Q1+Results+as+Investors+Appear+to+Focus+on+Margins+and+Labor+Trends"},
-    {"title": "ADP (ADP) Stock Retreats As Q1 Results Meet A Premium Valuation", "url": "https://finance.yahoo.com/markets/stocks/articles/adp-adp-stock-retreats-q1-131301708.html?.tsrc=rss"}
+    {"title": "WEX (WEX) Stock Falls Despite Stronger Q3 Earnings And Margin Gains", "url": "https://finance.yahoo.com/markets/stocks/articles/wex-wex-stock-falls-despite-043206408.html?.tsrc=rss"},
+    {"title": "WEX Mobility Volumes Improve, but 2027 Organic-Growth Outlook Faces Questions, Morgan Stanley Says", "url": "https://finance.yahoo.com/markets/stocks/articles/wex-mobility-volumes-improve-2027-150350707.html?.tsrc=rss"}
    ]
   }
  }

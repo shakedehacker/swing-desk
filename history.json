@@ -16,5 +16,25 @@
   "stop": 205.0,
   "conf": 6.5,
   "verdict": null
+ },
+ {
+  "asof": "2026-10-30",
+  "t": "AVTR",
+  "tier": "solid",
+  "buy": 16.11,
+  "tgt": 16.59,
+  "stop": 15.03,
+  "conf": 6.1,
+  "verdict": null
+ },
+ {
+  "asof": "2026-10-30",
+  "t": "NTAP",
+  "tier": "solid",
+  "buy": 203.16,
+  "tgt": 213.4,
+  "stop": 181.8,
+  "conf": 6.1,
+  "verdict": null
  }
 ]
