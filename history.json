@@ -36,5 +36,125 @@
   "stop": 181.8,
   "conf": 6.1,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "DELL",
+  "tier": "golden",
+  "buy": 400.64,
+  "tgt": 438.93,
+  "stop": 329.69,
+  "conf": 7.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "DINO",
+  "tier": "golden",
+  "buy": 110.93,
+  "tgt": 114.25,
+  "stop": 100.16,
+  "conf": 7.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "HPE",
+  "tier": "golden",
+  "buy": 52.21,
+  "tgt": 55.59,
+  "stop": 44.66,
+  "conf": 7.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "HPQ",
+  "tier": "golden",
+  "buy": 29.0,
+  "tgt": 30.35,
+  "stop": 25.98,
+  "conf": 7.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "ILMN",
+  "tier": "golden",
+  "buy": 231.11,
+  "tgt": 253.52,
+  "stop": 196.77,
+  "conf": 7.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "NTAP",
+  "tier": "golden",
+  "buy": 188.97,
+  "tgt": 204.02,
+  "stop": 166.25,
+  "conf": 7.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "NTNX",
+  "tier": "golden",
+  "buy": 65.72,
+  "tgt": 68.17,
+  "stop": 60.25,
+  "conf": 7.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "OKTA",
+  "tier": "golden",
+  "buy": 188.57,
+  "tgt": 205.35,
+  "stop": 158.96,
+  "conf": 7.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "P",
+  "tier": "golden",
+  "buy": 116.06,
+  "tgt": 126.15,
+  "stop": 96.24,
+  "conf": 7.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "PLTR",
+  "tier": "golden",
+  "buy": 181.91,
+  "tgt": 187.99,
+  "stop": 162.86,
+  "conf": 7.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "AVTR",
+  "tier": "solid",
+  "buy": 15.79,
+  "tgt": 16.26,
+  "stop": 14.67,
+  "conf": 7.7,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "CRM",
+  "tier": "solid",
+  "buy": 225.96,
+  "tgt": 232.74,
+  "stop": 207.8,
+  "conf": 6.3,
+  "verdict": null
  }
 ]
