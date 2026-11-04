@@ -156,5 +156,75 @@
   "stop": 207.8,
   "conf": 6.3,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "IQV",
+  "tier": "golden",
+  "buy": 260.08,
+  "tgt": 267.88,
+  "stop": 239.95,
+  "conf": 6.4,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "MU",
+  "tier": "golden",
+  "buy": 850.26,
+  "tgt": 888.87,
+  "stop": 747.86,
+  "conf": 6.4,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "CRWD",
+  "tier": "solid",
+  "buy": 244.51,
+  "tgt": 251.84,
+  "stop": 216.58,
+  "conf": 7.7,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-02",
+  "t": "PANW",
+  "tier": "solid",
+  "buy": 358.55,
+  "tgt": 369.3,
+  "stop": 317.57,
+  "conf": 7.7,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-03",
+  "t": "AVTR",
+  "tier": "solid",
+  "buy": 15.57,
+  "tgt": 16.04,
+  "stop": 14.45,
+  "conf": 7.7,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-03",
+  "t": "MTDR",
+  "tier": "solid",
+  "buy": 55.4,
+  "tgt": 57.11,
+  "stop": 50.72,
+  "conf": 6.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-03",
+  "t": "VAL",
+  "tier": "solid",
+  "buy": 91.79,
+  "tgt": 95.99,
+  "stop": 82.47,
+  "conf": 6.3,
+  "verdict": null
  }
 ]

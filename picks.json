@@ -1,1211 +1,143 @@
 {
- "asof": "2026-11-02",
+ "asof": "2026-11-03",
  "momentum": [
   {
    "t": "MRNA",
-   "c": 220.8300018310547,
-   "gain": 248.92086374275272,
-   "buy": 225.2466018676758,
-   "stop": 82.16914149693082,
-   "exit": "2026-12-01"
-  },
-  {
-   "t": "CRL",
-   "c": 338.5400085449219,
-   "gain": 52.60122862844001,
-   "buy": 345.3108087158203,
-   "stop": 236.64286150251115,
-   "exit": "2026-12-01"
-  },
-  {
-   "t": "MPC",
-   "c": 430.3900146484375,
-   "gain": 50.55181750485473,
-   "buy": 438.99781494140626,
-   "stop": 318.89713396344865,
-   "exit": "2026-12-01"
+   "c": 228.44000244140625,
+   "gain": 269.69157812100445,
+   "buy": 233.0088024902344,
+   "stop": 90.02770778111051,
+   "exit": "2026-12-02"
   },
   {
    "t": "VEEV",
-   "c": 307.0,
-   "gain": 50.184079939172264,
-   "buy": 313.14,
-   "stop": 249.55428205217635,
-   "exit": "2026-12-01"
+   "c": 303.2099914550781,
+   "gain": 46.8127954286665,
+   "buy": 309.27419128417966,
+   "stop": 245.7599836077009,
+   "exit": "2026-12-02"
   },
   {
-   "t": "ACN",
-   "c": 260.94000244140625,
-   "gain": 45.06249272559606,
-   "buy": 266.1588024902344,
-   "stop": 193.52143205915178,
-   "exit": "2026-12-01"
+   "t": "APA",
+   "c": 47.77000045776367,
+   "gain": 46.537799016521284,
+   "buy": 48.72540046691895,
+   "stop": 37.064284733363564,
+   "exit": "2026-12-02"
+  },
+  {
+   "t": "MPC",
+   "c": 427.3399963378906,
+   "gain": 46.42485675443431,
+   "buy": 435.88679626464847,
+   "stop": 311.8699733189174,
+   "exit": "2026-12-02"
+  },
+  {
+   "t": "RVTY",
+   "c": 163.47999572753906,
+   "gain": 40.72335709819268,
+   "buy": 166.74959564208984,
+   "stop": 118.49714878627232,
+   "exit": "2026-12-02"
   }
  ],
  "picks": [
   {
-   "t": "DELL",
-   "kind": "SIGNAL",
-   "rule": "dip",
-   "tier": "golden",
-   "c": 392.7799987792969,
-   "buy": 400.63559875488284,
-   "tgt": 438.926901699731,
-   "stop": 329.6884595598493,
-   "days": 3,
-   "conf": 7.273425499231952,
-   "s": {
-    "n": 2387,
-    "win": 66.82027649769586,
-    "avg": 1.1113048654152644,
-    "days": 3
-   },
-   "ed": 15,
-   "name": "Dell Technologies Inc.",
-   "drop": -15.909139168298147,
-   "rvol": 1.0072776463768913,
-   "dd": {
-    "short": 0.0423,
-    "dtc": 1.59,
-    "ratings": [
-     19,
-     10,
-     0
-    ],
-    "moves": [],
-    "iv": 0.8774159292221069,
-    "imove": 9.573392646715048
-   },
-   "news": [
-    [
-     "Dell Technologies (DELL) Unveiled New Cybersecurity Tools For AI Environments",
-     "https://finance.yahoo.com/technology/ai/articles/dell-technologies-dell-unveiled-cybersecurity-021224897.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 02:12:24 +0000"
-    ],
-    [
-     "Dell Technologies vs. Intel: Which Technology Stock Is a Better Buy for 2027?",
-     "https://www.fool.com/coverage/better-buy/2026/11/02/dell-technologies-vs-intel-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 19:50:02 +0000"
-    ],
-    [
-     "Super Micro Drops 5% Ahead of Earnings as AI Server Selloff Extends; Dell Falls 4%, HPE Slides 3%",
-     "https://247wallst.com/investing/2026/11/02/super-micro-drops-5-ahead-of-earnings-as-ai-server-selloff-extends-dell-falls-4-hpe-slides-3/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 18:51:47 +0000"
-    ],
-    [
-     "CrowdStrike and Dell Technologies Announce Integrated AI Security for the Dell AI Factory with NVIDIA",
-     "https://finance.yahoo.com/technology/ai/articles/crowdstrike-dell-technologies-announce-integrated-170500709.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 17:05:00 +0000"
-    ],
-    [
-     "Small and Medium-Sized Businesses (SMBs) IT Spending Market Report 2026 | Capture $1.10T by 2030 as Microsoft, Amazon, Google, Dell, and Cisco Scale Cloud and Cybersecurity",
-     "https://finance.yahoo.com/small-business/articles/small-medium-sized-businesses-smbs-144800864.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 14:48:00 +0000"
-    ],
-    [
-     "Global Intelligent Edge Computing Module Market Report 2026 | NVIDIA, Dell, Siemens, Cisco and Intel Capitalize on Edge AI as Market Hits $12.35 Billion by 2030",
-     "https://finance.yahoo.com/technology/ai/articles/global-intelligent-edge-computing-module-144500175.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 14:45:00 +0000"
-    ],
-    [
-     "Why is Dell (DELL) stock soaring today - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNnBYelNxd01kVkdWRmstRkVlSUd3bnhkM2dQWnNHLU9xQWE4c3M4Z3g1cF9pNjBEeTE4SU5RTm1RTlV6azR4R1UzLVZMV2xCdVYzbUt4Uml4NFpwTzdMUnZ2djVKcnJXRGtqNERwdzBnc2xkSWNESlVEcExqZGk5cVhzamdtSEd0ZjU3Y2d6UlZqNGFkOHo0?oc=5",
-     "Yahoo Finance",
-     "Tue, 27 Oct 2026 21:42:47 GMT"
-    ],
-    [
-     "How to Buy Dell Technologies Stock (DELL) - The Motley Fool",
-     "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ2JxM0M3enU2TGpwVWttSy1peVd2Y19CYlU3eEc0N3FpS09TRTBrNW5Xd2I2QXZUTGlOaHBNVndxamJlXzJ5OXFFa3N5enBBZ0lrVVgzQkNBUF81VTY5NEpGVlVxZjYwc0pzZHhPeEVWX2UwSjI3cTAxeHBWVkJEV2VOTlFFcW8?oc=5",
-     "The Motley Fool",
-     "Wed, 28 Oct 2026 18:58:00 GMT"
-    ],
-    [
-     "Dell Technologies Inc. (DELL) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zLUhOd1FlWHQ1dmkzQWVqVVdCNzZ3UE9EREtZd2E4TWNFNzZKc0xqTmhETEhOcXc5eHVhRHltWWpPMjlUckdzOEdEQ1FENG1fS1E?oc=5",
-     "Yahoo! Finance Canada",
-     "Sat, 31 Oct 2026 22:24:47 GMT"
-    ],
-    [
-     "Has Buying Dell Stock\u2019s Dips Paid Off? - Trefis",
-     "https://news.google.com/rss/articles/CBMingFBVV95cUxPd2kyQnFWcDhkYWwyaFByZ3RnczNJOFd2MmRja1Bsa29BSkJfYTZCOWpwRWFJcGhXa0F0SjQ1bEQ1ZGRFY0tnLTN4T0wwS0M2S3RpaDdSZmZpY3gzQ1BQOU1qUWZ5VWt6clQzNXotU1RMUUpGbzZpZ0NLVEJMVVR3Tll3R0VtY3dYb3ZqRkw0c0JCaUJ2bGE2d2dkQk1CUQ?oc=5",
-     "Trefis",
-     "Thu, 29 Oct 2026 10:41:18 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "DINO",
-   "kind": "SIGNAL",
-   "rule": "dip",
-   "tier": "golden",
-   "c": 111.66000366210938,
-   "buy": 110.92655951601647,
-   "tgt": 114.25435630149697,
-   "stop": 100.16227401971345,
-   "days": 3,
-   "conf": 7.273425499231952,
-   "s": {
-    "n": 2387,
-    "win": 66.82027649769586,
-    "avg": 1.1113048654152644,
-    "days": 3
-   },
-   "ed": null,
-   "name": "HF Sinclair Corporation",
-   "drop": -10.85029647735778,
-   "rvol": 1.1410012510584584,
-   "dd": {
-    "short": 0.045700002,
-    "dtc": 2.59,
-    "ratings": [
-     7,
-     7,
-     3
-    ],
-    "moves": [
-     {
-      "firm": "Morgan Stanley",
-      "action": "main",
-      "to": "Overweight",
-      "pt": 130.0,
-      "prior": 127.0,
-      "date": "2026-11-02"
-     },
-     {
-      "firm": "TD Cowen",
-      "action": "main",
-      "to": "Hold",
-      "pt": 110.0,
-      "prior": 100.0,
-      "date": "2026-10-22"
-     }
-    ],
-    "iv": 0.6094399407958985,
-    "imove": 6.649534905301453
-   },
-   "news": [
-    [
-     "Is There Any Reason To Invest In HF Sinclair Stock?",
-     "https://www.trefis.com/stock/dino/articles/621809/is-there-any-reason-to-invest-in-hf-sinclair-stock/2026-11-02?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 18:53:44 +0000"
-    ],
-    [
-     "Are Investors Undervaluing HF Sinclair (DINO) Right Now?",
-     "https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-hf-sinclair-dino-134003819.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 13:40:03 +0000"
-    ],
-    [
-     "Zacks.com featured highlights include G-III Apparel, HF Sinclair, Par Pacific, Genworth Financial and PBF Energy",
-     "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-g-095800602.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 09:58:00 +0000"
-    ],
-    [
-     "HF Sinclair appoints permanent CEO",
-     "https://www.cstoredive.com/news/hf-sinclair-appoints-permanent-ceo/873157/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 14:00:00 +0000"
-    ],
-    [
-     "DINO Q3 Earnings Call Highlights Refining Gains & Expansion Plans",
-     "https://finance.yahoo.com/energy/articles/dino-q3-earnings-call-highlights-131300041.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 13:13:00 +0000"
-    ],
-    [
-     "Did Earnings Beat Just Shift HF Sinclair's (DINO) Investment Narrative?",
-     "https://finance.yahoo.com/markets/stocks/articles/did-earnings-beat-just-shift-020812064.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 02:08:12 +0000"
-    ],
-    [
-     "Hf Sinclair Stock Price Forecast. Should You Buy DINO? - StockInvest.us",
-     "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5FOVZ0c3M3Rm5hUnlKN1FoYmhZcnl6ZFExLUFCcGtaX1dWYzdoOGVTZG5NR0N3ZTFRdnlDamRhMnJnd05BelFOWA?oc=5",
-     "StockInvest.us",
-     "Fri, 30 Oct 2026 22:53:59 GMT"
-    ],
-    [
-     "HF Sinclair Corp (DINO) Stock Price, Quote, News & History - Benzinga",
-     "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Ub0ZmN2p6VGNMUk41LUU0UVBTTGpNSnJkSnVsM3FTYjk5ZTFHc2NKZWUtVHJ1R0RyLUtHdHRHUEdMOVFsNHJiUmxzYw?oc=5",
-     "Benzinga",
-     "Fri, 30 Oct 2026 23:38:00 GMT"
-    ],
-    [
-     "Is There Any Reason To Invest In HF Sinclair Stock? - Trefis",
-     "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUmU2YXRBalQxVmkzSjZtQmtCUU5uOGhzejhwdUxaZ2h3VmdLQ1JNSloyQ3F1OVpEaTRiUHNYOThuRjNhOGN4ako2dFZMTDBnbHBsd1VUVFhzeHJLZUVPelpuTUlReGpYSGVPLTdIcHNoOUxQNTJYbjhwUk5EdmZoejVULU1DbFNHNk5tdEEwYzZRNG14dnRHZm9uWmwySFB4eTFFcGFQUzNLc1VWMUlyYQ?oc=5",
-     "Trefis",
-     "Mon, 02 Nov 2026 18:53:17 GMT"
-    ],
-    [
-     "HF Sinclair (DINO) Q3 Earnings and Revenues Surpass Estimates - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc19QNGpYZFJNSGc3UUt3WEl1VWRQN3N1N1ZqZXRyUWYwMlQ2RFJTbEowdVhpc2VPaHduaWJaU3hOWWs4V01kTF85MGlzZ184ZUhrRl9sNTNycERsYk4zallYdjdNU1hGOGY5LTFTRmJITlFlY1FpYm5uSEY1WGZFZDhKdEhoLVdTUDR5cDhIYnNMT2xmWXVfXw?oc=5",
-     "Yahoo Finance",
-     "Wed, 28 Oct 2026 10:50:03 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "HPE",
-   "kind": "SIGNAL",
-   "rule": "dip",
-   "tier": "golden",
-   "c": 51.189998626708984,
-   "buy": 52.21379859924316,
-   "tgt": 55.58743208800155,
-   "stop": 44.663084378923685,
-   "days": 3,
-   "conf": 7.273425499231952,
-   "s": {
-    "n": 2387,
-    "win": 66.82027649769586,
-    "avg": 1.1113048654152644,
-    "days": 3
-   },
-   "ed": 14,
-   "name": "Hewlett Packard Enterprise Comp",
-   "drop": -12.82357363327039,
-   "rvol": 0.9155124356087131,
-   "dd": {
-    "short": 0.044699997,
-    "dtc": 2.47,
-    "ratings": [
-     14,
-     10,
-     0
-    ],
-    "moves": [],
-    "iv": 0.7700218310546875,
-    "imove": 8.401626970420482
-   },
-   "news": [
-    [
-     "Super Micro Drops 5% Ahead of Earnings as AI Server Selloff Extends; Dell Falls 4%, HPE Slides 3%",
-     "https://247wallst.com/investing/2026/11/02/super-micro-drops-5-ahead-of-earnings-as-ai-server-selloff-extends-dell-falls-4-hpe-slides-3/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 18:51:47 +0000"
-    ],
-    [
-     "5 Valuable Price-to-Book Stocks to Buy in November",
-     "https://finance.yahoo.com/markets/stocks/articles/5-valuable-price-book-stocks-135400320.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 13:54:00 +0000"
-    ],
-    [
-     "HPE to Present Live Audio Webcast of Fiscal 2026 Fourth Quarter Earnings Conference Call",
-     "https://finance.yahoo.com/markets/stocks/articles/hpe-present-live-audio-webcast-124500856.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 12:45:00 +0000"
-    ],
-    [
-     "Dell Sinks 11% as Intel\u2019s Warning on PC Slump and Memory Shortage Hits Hardware Stocks; HP Tumbles 9%, Hewlett Packard Enterprise and Super Micro Fall 7%",
-     "https://247wallst.com/investing/2026/10/30/dell-sinks-11-as-intels-warning-on-pc-slump-and-memory-shortage-hits-hardware-stocks-hp-tumbles-9-hewlett-packard-enterprise-and-super-micro-fall-7/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 17:02:31 +0000"
-    ],
-    [
-     "DELL Expands AI Security Capabilities: Can It Challenge CSCO & HPE?",
-     "https://finance.yahoo.com/technology/ai/articles/dell-expands-ai-security-capabilities-164000363.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 16:40:00 +0000"
-    ],
-    [
-     "Building the Agentic Enterprise | Opening Remarks",
-     "https://finance.yahoo.com/video/building-agentic-enterprise-opening-remarks-162521639.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 16:25:21 +0000"
-    ],
-    [
-     "Hewlett Packard Enterprise Company (HPE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE12VUhTT19OTGtERmE5V1llNTFBR2VXMy1COW51TEZaTUtYTXY2R2JFT0IyYUZVRlN1cjRNRWF2Y3Baai1EYzdiei1QLXVsdUtI?oc=5",
-     "Yahoo! Finance Canada",
-     "Sun, 01 Nov 2026 18:06:40 GMT"
-    ],
-    [
-     "Dell and HPE Lost Billions in a Day Over 1 Big Worry. Dell Had Already Answered It. - Barchart.com",
-     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLUItQ0x6Q0FGanp3LU9lUWpjRm1HUGJYMVlySTRqWllzOVktSFllMkYtLUphdkpsa3JJZENCa0N0QjkzbDlEdkJlMGJRUHVxLTMwbGpuMzJncmkxd181WGJNd0x1Z1RFYjJDdXVMS3hJbzU3a3h4R29FdE1lTnZLUWR6TkdWbFY4am5yQ0NXX18xZzFBMS1HZmNKQ0VwTFQ0M2VZc2VFZWs5aVNiMmlFVTZjYkIzRXZGOVloM29zakZuX1U?oc=5",
-     "Barchart.com",
-     "Tue, 27 Oct 2026 13:00:02 GMT"
-    ],
-    [
-     "Is HPE Stock Undervalued? - Trefis",
-     "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdGV0cWotbVM2V3lYMUE0V1NncXlGMTRNUGgxaktKQlJZWmlpLWFON204R1VWd05RQlFCNWNKN2lLSERpbUh0Ri1oZnhBdTd2X0lGU3JsVnF4SkpLcnp4YzloSV9INlpFWnI3Y2dwMmpEemZvUTZCSEJUdjZJSWtBLTlhRmd1dzlnTlc0NA?oc=5",
-     "Trefis",
-     "Wed, 28 Oct 2026 17:33:11 GMT"
-    ],
-    [
-     "HPE vs. LITE: Which AI Infrastructure Stock is a Safer Bet Now? - Zacks Investment Research",
-     "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdEdMM3E3U2lJaUJRNHlNNzVLM1hRcWdrRzRJcFhEbWZ2UlBTQnl6QnRyV09TZnlpSWw5NE5OWHZZcDhJWnA1VUY0UWRWZ0tFZFY3WUlBalc3N2xfWjR3dEE3WGdmWWlIa000VmcyNkhOM0pPTG5Ic25sZ0dnNjlWangxdDFGdGYxcWRnRHBEYzY0LVFpaHprNU5kSDJNZGRXck9z?oc=5",
-     "Zacks Investment Research",
-     "Tue, 27 Oct 2026 15:12:32 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "HPQ",
-   "kind": "SIGNAL",
-   "rule": "dip",
-   "tier": "golden",
-   "c": 28.43000030517578,
-   "buy": 28.998600311279297,
-   "tgt": 30.348646654802707,
-   "stop": 25.981457334245956,
-   "days": 3,
-   "conf": 7.273425499231952,
-   "s": {
-    "n": 2387,
-    "win": 66.82027649769586,
-    "avg": 1.1113048654152644,
-    "days": 3
-   },
-   "ed": null,
-   "name": "HP Inc.",
-   "drop": -16.603108894331985,
-   "rvol": 1.4209523794339993,
-   "dd": {
-    "short": 0.0979,
-    "dtc": 5.41,
-    "ratings": [
-     2,
-     9,
-     7
-    ],
-    "moves": [],
-    "iv": 0.5984740673828126,
-    "imove": 6.529887417261524
-   },
-   "news": [
-    [
-     "HP (HPQ) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-     "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-sees-more-significant-220002870.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 22:00:02 +0000"
-    ],
-    [
-     "HP (HPQ) Could Be 5% Above Fair Value Following Its AI Workstation News",
-     "https://finance.yahoo.com/technology/ai/articles/hp-hpq-could-5-above-091041716.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Sun, 01 Nov 2026 09:10:41 +0000"
-    ],
-    [
-     "HPQ vs. AAPL: Which Computer Stock Offers Better Investment Potential?",
-     "https://finance.yahoo.com/markets/stocks/articles/hpq-vs-aapl-computer-stock-133300006.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 13:33:00 +0000"
-    ],
-    [
-     "HP Inc. Earnings Preview: What to Expect",
-     "https://www.barchart.com/story/news/8527215/hp-inc-earnings-preview-what-to-expect?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 12:29:59 +0000"
-    ],
-    [
-     "What Did NetApp Do That HP Did Not?",
-     "https://www.trefis.com/stock/hpq/articles/620818/what-did-netapp-do-that-hp-did-not/2026-10-27?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 27 Oct 2026 18:36:27 +0000"
-    ],
-    [
-     "HP (HPQ) Rises Higher Than Market: Key Facts",
-     "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-rises-higher-market-210002164.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 26 Oct 2026 21:00:02 +0000"
-    ],
-    [
-     "HPQ Silicon Inc. (HPQ.V) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ya2FlQ1M0bEZEdlJtdnRMQW9FVUphRF94cUlKN2xnMHVZc3dKcDBuYjBxZWlQUGItdHpfYnlEZU9rbHRibVJYdGJfc1pzSzk5Q3Zr?oc=5",
-     "Yahoo! Finance Canada",
-     "Mon, 02 Nov 2026 21:17:16 GMT"
-    ],
-    [
-     "Dell Sinks 11% as Intel's Warning on PC Slump and Memory Shortage Hits Hardware Stocks; HP Tumbles 9%, Hewlett Packard Enterprise and Super Micro Fall 7% - 24/7 Wall St.",
-     "https://news.google.com/rss/articles/CBMimwJBVV95cUxOcS1XS0Nfa0Nub0NDaEwzQkEtQmRpQUR5Mi1PQkVwZUJGWXlfTkFvUFFob0NGX0dXOExoUHVKTWNGbDBqaXVUc05lTk9KTFFpb3ZZOVhzc0tIMjhFNzBjWDNWRXVqdjNqdDRCa0o3eWhVaWlZRThvWjFvczRqOWhVZ25SdlF0bGhFTmZyNEhhczM5R1lBUnUwTDg2UUVvUnZtMlpNVUFFOFZ5OU9kVTNycGF4MlVHWGtsRWRGUjYxVlZNT1ZJZXBfdUFnYVBiN0s1cFhhYXU4YzJnZkRwYktYWVF0ZUFsdmZ1Snk0bUViX2dWNV81cWRxaXJUY09qaGZtOUtjLVJHdXFrUGZBSUZpWm5UWTI3cnVaT2Rv?oc=5",
-     "24/7 Wall St.",
-     "Fri, 30 Oct 2026 18:02:00 GMT"
-    ],
-    [
-     "HPQ, DELL Stocks Plunge After Intel Flags Prolonged PC Market Weakness - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbzRwdGt5eHFubDdFUUY1ak9iSXhhWEV2ZUFHVF9LUmptc2w4SC1sYnUtYmg0SkJtSU9vNWpnSFVtYkNCWmJTVk5JREhUaGdIOHR3NzEtc0dvdldhMFRTWmxEM0NrNDBOb0NqeXJyaUJNdzZZNTVQMEFSMVVRNGVhOG1FakNkZDRQT3ZoMW9tYkJyanIzUWIyZA?oc=5",
-     "Yahoo Finance",
-     "Fri, 30 Oct 2026 01:40:00 GMT"
-    ],
-    [
-     "Why HP (HPQ) shares are sliding today - TradingView",
-     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbXlnZHNDRzRJTkR6U29oZjNHQThOaFJXZnhEbUpvMkt3ZVJ6M2xObVB2SWVnMEE5eGdEN0xnQmdCZmJyUXpkYzRuTlcydHRLSnphcVpla1Q0VlhDQVd6SFRMNEluSkRNdTAxRVRKenRtUm81UmZVX1NTTEVyTWpBUUprVjdvd1phS2FncFV3NFhDZmZZVFpHbVdzb0Q?oc=5",
-     "TradingView",
-     "Fri, 30 Oct 2026 18:20:53 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "NTAP",
-   "kind": "SIGNAL",
-   "rule": "dip",
-   "tier": "golden",
-   "c": 185.25999450683594,
-   "buy": 188.96519439697266,
-   "tgt": 204.0170450222709,
-   "stop": 166.24519535609656,
-   "days": 3,
-   "conf": 7.273425499231952,
-   "s": {
-    "n": 2387,
-    "win": 66.82027649769586,
-    "avg": 1.1113048654152644,
-    "days": 3
-   },
-   "ed": 20,
-   "name": "NetApp, Inc.",
-   "drop": -16.57961411231851,
-   "rvol": 1.091275714486022,
-   "dd": {
-    "short": 0.0493,
-    "dtc": 3.65,
-    "ratings": [
-     8,
-     13,
-     0
-    ],
-    "moves": [
-     {
-      "firm": "Guggenheim",
-      "action": "init",
-      "to": "Neutral",
-      "pt": 0.0,
-      "prior": 0.0,
-      "date": "2026-10-26"
-     }
-    ],
-    "iv": 0.5874878491210938,
-    "imove": 6.410017948724304
-   },
-   "news": [
-    [
-     "NetApp (NTAP) Registers a Bigger Fall Than the Market: Important Facts to Note",
-     "https://finance.yahoo.com/markets/stocks/articles/netapp-ntap-registers-bigger-fall-215002678.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 21:50:02 +0000"
-    ],
-    [
-     "NetApp Completes Acquisition of PEAK:AIO to Accelerate Zettabyte-scale AI Deployments",
-     "https://finance.yahoo.com/technology/ai/articles/netapp-completes-acquisition-peak-aio-130000465.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 13:00:00 +0000"
-    ],
-    [
-     "Why Is NetApp (NTAP) In Focus After A New Keystone Channel Push?",
-     "https://finance.yahoo.com/markets/stocks/articles/why-netapp-ntap-focus-keystone-001448001.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Sat, 31 Oct 2026 00:14:48 +0000"
-    ],
-    [
-     "Stock Market Today: Nasdaq Slumps On Weak Intel Report; NetApp Gives Sell Signal",
-     "https://finance.yahoo.com/m/3cdf61c3-8737-3183-b5ff-f3bf8fc03ece/stock-market-today%3A-nasdaq.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 21:06:56 +0000"
-    ],
-    [
-     "Quantum vs. NetApp: Which Data Storage Stock is the Better Buy?",
-     "https://finance.yahoo.com/markets/stocks/articles/quantum-vs-netapp-data-storage-111100555.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 11:11:00 +0000"
-    ],
-    [
-     "Investors Heavily Search NetApp, Inc. (NTAP): Here is What You Need to Know",
-     "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-netapp-inc-120001145.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 12:00:01 +0000"
-    ],
-    [
-     "NetApp, Inc. (NTAP) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12c3NQZVNPclRjNlBSUG1xOVkxTE5BSjVwYkN6c1I0NlM2NEdjZFF5RnctbC1yMU1RaGEyNlQ2eGU4OWlXdVJ1dGdHLUJOMTZLSnc?oc=5",
-     "Yahoo! Finance Canada",
-     "Sun, 01 Nov 2026 02:07:04 GMT"
-    ],
-    [
-     "Would You Have Held NetApp Stock All The Way Up? - Trefis",
-     "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeTdwR2dYSGpxVWdKMThHM0huMThxN3hudU84QjVRWjQ1bzVHcmpIc2pMRTFDNnJYSWlET19XaHh0RTU5ZzdsOE56ODh0SjFkNmJpRTNRVDl6QlZ1V0ZSTnVrV1drWUNXZmVITWxfakhBWUloRzk2VjVOa2pLeWxKMUd0a2F3dUwyTU50aVYxSUJ3U3pqb2RJMUd3Y3Z0ZEoxQXpSeUV2SzRXYl94?oc=5",
-     "Trefis",
-     "Tue, 27 Oct 2026 09:34:28 GMT"
-    ],
-    [
-     "Netapp Stock Price Forecast. Should You Buy NTAP? - StockInvest.us",
-     "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5UOTUxbkNFR0pYcDJmV2llOHduakFVUEhPcDZrb0hOVlBWUlN2NjNlVWV5OFBVTlhkR24tc3hybXdvQjRaSW9rZw?oc=5",
-     "StockInvest.us",
-     "Fri, 30 Oct 2026 22:19:02 GMT"
-    ],
-    [
-     "Is It Time To Consider Buying NetApp, Inc. (NASDAQ:NTAP)? - Moomoo",
-     "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzJuaEt4d1JDMTJxNGFiQmxZU0lMZkZBdHJENWZUMlJ4M3lfaUhXaGF3aW1ZWG1kSWs4NU1taVczVUk5SWcwVG02ZHpMR2lfOWF5OWJpZzBsY0p3MFZjejBoZnhfUGxmRmhtbTdvM2FjYmNwYWJWS1RQTnE2aDVHdmJuRjZ5aXRjd2tCWF9fOVpnZTM2bi1ld3d5Z2M?oc=5",
-     "Moomoo",
-     "Fri, 30 Oct 2026 14:46:32 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "NTNX",
-   "kind": "SIGNAL",
-   "rule": "dip",
-   "tier": "golden",
-   "c": 64.43000030517578,
-   "buy": 65.7186003112793,
-   "tgt": 68.1708822135538,
-   "stop": 60.249887368338456,
-   "days": 3,
-   "conf": 7.273425499231952,
-   "s": {
-    "n": 2387,
-    "win": 66.82027649769586,
-    "avg": 1.1113048654152644,
-    "days": 3
-   },
-   "ed": null,
-   "name": "Nutanix, Inc.",
-   "drop": -11.387703044360354,
-   "rvol": 1.0066886870355078,
-   "dd": {
-    "short": 0.0573,
-    "dtc": 4.29,
-    "ratings": [
-     10,
-     7,
-     0
-    ],
-    "moves": [
-     {
-      "firm": "Guggenheim",
-      "action": "init",
-      "to": "Buy",
-      "pt": 100.0,
-      "prior": 0.0,
-      "date": "2026-10-26"
-     }
-    ],
-    "iv": 0.503361900024414,
-    "imove": 5.4921285924254075
-   },
-   "news": [
-    [
-     "Is Nutanix (NTNX) a Buy as Wall Street Analysts Look Optimistic?",
-     "https://finance.yahoo.com/markets/stocks/articles/nutanix-ntnx-buy-wall-street-133003096.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 13:30:03 +0000"
-    ],
-    [
-     "Nutanix (NTNX) Registers a Bigger Fall Than the Market: Important Facts to Note",
-     "https://finance.yahoo.com/markets/stocks/articles/nutanix-ntnx-registers-bigger-fall-204503478.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 20:45:03 +0000"
-    ],
-    [
-     "EXLS vs. NTNX: Which Stock Is the Better Value Option?",
-     "https://finance.yahoo.com/markets/stocks/articles/exls-vs-ntnx-stock-better-144002028.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 14:40:02 +0000"
-    ],
-    [
-     "Nutanix (NTNX) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-     "https://finance.yahoo.com/markets/stocks/articles/nutanix-ntnx-sees-more-significant-205004275.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 20:50:04 +0000"
-    ],
-    [
-     "2 Reasons to like NTNX and 1 to stay skeptical",
-     "https://finance.yahoo.com/markets/stocks/articles/2-reasons-ntnx-1-stay-135503472.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 13:55:03 +0000"
-    ],
-    [
-     "Earnings Beat Could Be A Big Test For Nutanix Stock (NTNX)",
-     "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-could-big-test-150801774.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 15:08:01 +0000"
-    ],
-    [
-     "Nutanix (NTNX) Stock May Trade At A Discount As AI Infrastructure News Builds - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNlZYNVZnLUdLOWhGWkZfODFDWk5rdWVkX2UwMGpQTlloRXo5YUNwQlJmSUFiTTdfUmY4S0d3QmpXZUNKVzkwOHAzZGY0MzBnUG1yanJGQVBhYVdzZ1c1MlpnaU5mT2psUm5oa2JEbW1XMFVBT0FwSGdEczNOb2NxX0RBSmJ6Y2pWOXZ0cVNoaHY4aDJBQWR2Uw?oc=5",
-     "Yahoo Finance",
-     "Tue, 27 Oct 2026 19:06:07 GMT"
-    ],
-    [
-     "Nutanix (NTNX) Stock Forecast & Analyst Ratings - Moomoo",
-     "https://news.google.com/rss/articles/CBMitgJBVV95cUxOOG0yLWJjcnBWaU1LYWhSVXF1WW0wMFgxN0VzZXJRWkVVc2U1Q0hyV1A3dmI5dVI5dDc4aXZ2aW0yakg5VE5ISFByMDVnOC1GOUtDb3Jzb1FOT1JKcklLQlJsR0NXdUhyYUlkY3RpYnZMRHplekJSaXROR3FiY05SMDNBa19UY3V5UEhqQ05tMHlaLWtoa1VSR01zTW5aSVhuSFJpMDFlTzA3MTFUWGZ3WVUybHhWNG9xR2xxVk9qZFl5TzEzTDgzdVc1MFdCa1QwYXdMNWdkLWx4aEdBSEFKcmpLS09SYms2bjdWOWZEUHE1TktBa3RRVnFRY09IZHhsWWd4TWgtc1k0ajVQWHNWUnhJeEVQbUlQUVBfcERlWHp2bUZ5S0Qycjl6ZVZEYTlUV09NamNn?oc=5",
-     "Moomoo",
-     "Sun, 01 Nov 2026 18:20:02 GMT"
-    ],
-    [
-     "Nutanix Inc (NTNX) Stock Down 4.1% -- Now Undervalued? GF Score: 78/100 - GuruFocus",
-     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPa2diTDlpZUpMQlJhNGV0bGx1RlpXN1h2UkQ4UE5lWU1HU2VjWEJwN1I0TGwwMHZjUXBuUjg4UmdRVjBsRGlqbjVQbDBzeGF6dnNXTllvb0RobGtMa0hGTUVOUDVwWVNDV0sxLVZsc0p3dmdheXJlV3ZtQUNySThBTEswMFlwLUhXZld1Yjg0QmQydG4zVWJjWUNiYURoVzd6blE?oc=5",
-     "GuruFocus",
-     "Tue, 03 Nov 2026 00:49:04 GMT"
-    ],
-    [
-     "Nutanix (NTNX) Stock Fair Value Edges Higher On Hybrid Cloud And VMware Replacement Views - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdEVMUE0tY1pXQ1JibXFyVFRURXpzZWV4SHoxWXNMTDZOY1hFVDVidUhDdXp2UGttb3JMUGJsdlFrN0NManp4Zk9yYU82TE5FMVlIMHlMQlBqdk9LQUY5cHhJbE9xMWlyVWJoNXN2LVN0ZEcxMDZOWndwc0hrYWc2bHNsSzhNTmJqYkU1MFVHZFBJZ1pRVXFNQjlR?oc=5",
-     "Yahoo Finance",
-     "Wed, 28 Oct 2026 01:07:00 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "OKTA",
-   "kind": "SIGNAL",
-   "rule": "dip",
-   "tier": "golden",
-   "c": 184.8699951171875,
-   "buy": 188.56739501953126,
-   "tgt": 205.34698651497885,
-   "stop": 158.96196768624444,
-   "days": 3,
-   "conf": 7.273425499231952,
-   "s": {
-    "n": 2387,
-    "win": 66.82027649769586,
-    "avg": 1.1113048654152644,
-    "days": 3
-   },
-   "ed": 20,
-   "name": "Okta, Inc.",
-   "drop": -15.972001394035129,
-   "rvol": 1.8063760759992216,
-   "dd": {
-    "short": 0.0466,
-    "dtc": 1.93,
-    "ratings": [
-     34,
-     10,
-     0
-    ],
-    "moves": [],
-    "iv": 0.8439007580566406,
-    "imove": 9.207712149583736
-   },
-   "news": [
-    [
-     "Okta (OKTA) Registers a Bigger Fall Than the Market: Important Facts to Note",
-     "https://finance.yahoo.com/markets/stocks/articles/okta-okta-registers-bigger-fall-215003203.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 21:50:03 +0000"
-    ],
-    [
-     "Okta Stock Rises Ahead of S&P 500 Entry",
-     "https://finance.yahoo.com/markets/stocks/articles/okta-stock-rises-ahead-p-142941316.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 14:29:41 +0000"
-    ],
-    [
-     "Okta to Announce Third Quarter Fiscal Year 2027 Financial Results on December 1, 2026",
-     "https://finance.yahoo.com/markets/stocks/articles/okta-announce-third-quarter-fiscal-130000166.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 13:00:00 +0000"
-    ],
-    [
-     "Okta Shares Rise 2.5% Ahead of S&P 500 Inclusion as Index Fund Demand Builds",
-     "https://investorshub.advfn.com/market-news/article/39008/okta-shares-rise-2-5-ahead-of-sp-500-inclusion-as-index-fund-demand-builds?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 11:29:11 +0000"
-    ],
-    [
-     "Okta Stock Can Find More Buyers as It Joins the S&P 500",
-     "https://finance.yahoo.com/m/9caa5bbe-db77-33ed-aec8-9298712adc25/okta-stock-can-find-more.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 11:21:00 +0000"
-    ],
-    [
-     "iShares Core S&P Mid-Cap (IJH) Adds Okta and TechnipFMC on Oct. 29",
-     "https://finance.yahoo.com/markets/stocks/articles/ishares-core-p-mid-cap-110615340.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 11:06:15 +0000"
-    ],
-    [
-     "Okta Stock Can Find More Buyers as It Joins the S&P 500 - Barron's",
-     "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZlM0UXRoOGxPREp0VGdCTjhDc09ROXZzVm1CTHkyXzBQMVl1Y0k2WWZ0dVFWMGxMVFo0b1FBNFhSS0ZUWm5QVU1COVQ2aVA0dTMzV25wTjlRTG9zd0k5dVhadHRBVlVJVzhoU0dYdjZCOTJOcXRRQko1b2NLZ21wcV96QVotTGp4MFVPOA?oc=5",
-     "Barron's",
-     "Mon, 02 Nov 2026 11:21:00 GMT"
-    ],
-    [
-     "Okta (OKTA) Beats Stock Market Upswing: What Investors Need to Know - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSUZheC03Ym10VnBHaG8xcFRuNWxwUVlaRXYzV1V5Y3VjNWxPME9aLVZkSVg1NXliTm9nSEc1LVZFS2tvUndwd2dtdEpCQ1duZDU4ekNZT0F4bWt6UzFfb2o0Q2pJV09Zb2hvVFQwTWpPaTBpcTBZWkZKczZHTzJRYVZNUm5zNzN5a0RyYkRzY2dkdXkwNVdGMA?oc=5",
-     "Yahoo Finance",
-     "Tue, 27 Oct 2026 20:50:03 GMT"
-    ],
-    [
-     "There's a cybersecurity stock on Josh Brown's list that's pulling back. How he's trading it - CNBC",
-     "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZQ0E1YXlnM3F5T2xwby1jdGJnR0RuZm5XUUdodExzaXNfWWRkQ0QwSFNvNzBKNWRycWFlcENSRDRWWTVRdDJIb2lFZkVocXJqVGdsbmpQb2VFcUNhMEpOUzc2eFVqbVQ0RkVHeURaZ1E0UTBaaGc?oc=5",
-     "CNBC",
-     "Thu, 29 Oct 2026 15:07:43 GMT"
-    ],
-    [
-     "Okta Stock Rises Ahead of S&P 500 Entry - TradingView",
-     "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSERFY1hVdTlGWnFZcV9mcTdnSTRNcTl5Q19fWmZhRE5JNnl5dWFxcGhDSjlhZU5BMW0xSUlwOHhTWUV3RlozbVFfaGVGbC03cU0tR0d3RzBpbVRXRGRxUE9tNDUwSWl5Y1Bsc1hqeFBRd1hOQV9OaTliLXpZVndBOU1zSlFEZVNxQWtyTk92NmpTUWFKZzRzWk0xYkM0V2tC?oc=5",
-     "TradingView",
-     "Mon, 02 Nov 2026 14:29:41 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "P",
-   "kind": "SIGNAL",
-   "rule": "dip",
-   "tier": "golden",
-   "c": 113.77999877929688,
-   "buy": 116.05559875488281,
-   "tgt": 126.15410144326937,
-   "stop": 96.24145734514508,
-   "days": 3,
-   "conf": 6.273425499231952,
-   "s": {
-    "n": 2387,
-    "win": 66.82027649769586,
-    "avg": 1.1113048654152644,
-    "days": 3
-   },
-   "ed": 11,
-   "name": "Everpure, Inc.",
-   "drop": -13.363285469480502,
-   "rvol": 1.0416131777079078,
-   "dd": {
-    "short": 0.038399998,
-    "dtc": 1.15,
-    "ratings": [
-     18,
-     1,
-     1
-    ],
-    "moves": [],
-    "iv": 1.0546922265625,
-    "imove": 11.507635626438502
-   },
-   "news": [
-    [
-     "VNT or P: Which Is the Better Value Stock Right Now?",
-     "https://finance.yahoo.com/markets/stocks/articles/vnt-p-better-value-stock-144003758.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 14:40:03 +0000"
-    ],
-    [
-     "Earnings Preview: What to Expect From Everpure's Report",
-     "https://www.barchart.com/story/news/8552583/earnings-preview-what-to-expect-from-everpure-s-report?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 12:24:13 +0000"
-    ],
-    [
-     "Everpure vs. Dell: Which Data Storage Stock is the Better Buy Now?",
-     "https://finance.yahoo.com/markets/stocks/articles/everpure-vs-dell-data-storage-164000547.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 16:40:00 +0000"
-    ],
-    [
-     "Everpure Announces Date and Conference Call Information for Third Quarter Fiscal 2027 Financial Results",
-     "https://finance.yahoo.com/markets/stocks/articles/everpure-announces-date-conference-call-200500992.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 20:05:00 +0000"
-    ],
-    [
-     "3 AI Cloud Stocks Retail Investors Are Watching Before Big Tech Earnings",
-     "https://finance.yahoo.com/technology/ai/articles/3-ai-cloud-stocks-retail-190903581.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 19:09:03 +0000"
-    ],
-    [
-     "Tesla Makes Bullish Move, But These Five AI Stocks Lead The S&P 500",
-     "https://finance.yahoo.com/m/54d46439-0b38-30e3-9a18-879dc93c5bad/tesla-makes-bullish-move%2C-but.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 26 Oct 2026 20:14:37 +0000"
-    ],
-    [
-     "Everpure, Inc. (P) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aSG5EUXRCUkllOHVLMHpCQVQyNExjNmhZRlRfa1ZwaTB2ZHJ5SU5mSk50NEZVdk1MNGdUR3ZrSWJlQ2JMLUl3RkE1THJGdw?oc=5",
-     "Yahoo! Finance Canada",
-     "Sat, 31 Oct 2026 22:13:38 GMT"
-    ],
-    [
-     "Everpure, Inc. (P) stock price, news, quote and history - Yahoo Finance Australia",
-     "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IYXV5Q3c3QVo1UzJBY2dxYmdFcnRldVBVeVdoNTUxbjAzWWRVNUlpWC1VSHREV0gxMnRxbmtoZnZiT2RMNFM0ejlqdVZhQQ?oc=5",
-     "Yahoo Finance Australia",
-     "Sat, 31 Oct 2026 19:29:13 GMT"
-    ],
-    [
-     "Everpure Inc (P) Stock Down 7.5% but Still Overvalued -- GF Scor - GuruFocus",
-     "https://news.google.com/rss/articles/CBMipgFBVV95cUxOT0VSWC1NbWc1T0FYSlQzaXA3Nm0xb2s5blFfN3JXenM1UjJEaTNzMG1pQ1QwSGxGenVwRkZTbHQ5LWhGUzd6TkRVZ2lwbXBpTjJsT3NJWE1iZERENFlmeEd1am4wMk5vU2pCZ3Y3Z0MxbjRWbXI2OFZjQm9nVk9nNm9OTmZYYXpTejZzVElKUVlhSGNuUDI2dnZRSUhDQW1odUVjSnd3?oc=5",
-     "GuruFocus",
-     "Fri, 30 Oct 2026 22:56:16 GMT"
-    ],
-    [
-     "Here's How Warren Buffett's Berkshire Hathaway Stock Did in Every S&P 500 Down Year Since 2000 - The Motley Fool",
-     "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQd0x4OEg0ZlFpTFNaQkllVGZ0bVNlRnkyYm5uUGZBNHB6NkpOblBoOFJXMFNCMmNPbFd1OVQ3dzFjc1kyNXl3azNkUWllazVGVnZZWlVWM01mTUZDTU4yd0M4SFo0TW9NYjZxS3RMX2djRTJQUG96V0p0V1RQdTRyYmZxN1FveGppRm1OUUNtclhJT3U3TDZ2MjFDUTh2NGVpWjI3LXExT3IwNG9BMHdMZjFCMy1JMW5teURDMXdETGRENFlWc29vZWYtX1NEYW9ReVFQYnIxdnk?oc=5",
-     "The Motley Fool",
-     "Mon, 02 Nov 2026 14:23:00 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "PLTR",
-   "kind": "SIGNAL",
-   "rule": "dip",
-   "tier": "golden",
-   "c": 178.33999633789062,
-   "buy": 181.90679626464845,
-   "tgt": 187.98800177528545,
-   "stop": 162.86050981794085,
-   "days": 3,
-   "conf": 6.273425499231952,
-   "s": {
-    "n": 2387,
-    "win": 66.82027649769586,
-    "avg": 1.1113048654152644,
-    "days": 3
-   },
-   "ed": null,
-   "name": "Palantir Technologies Inc.",
-   "drop": -10.309797011444399,
-   "rvol": 1.582033914109844,
-   "dd": {
-    "short": 0.026099999,
-    "dtc": 2.37,
-    "ratings": [
-     21,
-     9,
-     2
-    ],
-    "moves": [
-     {
-      "firm": "Cantor Fitzgerald",
-      "action": "main",
-      "to": "Neutral",
-      "pt": 207.0,
-      "prior": 156.0,
-      "date": "2026-11-02"
-     },
-     {
-      "firm": "JP Morgan",
-      "action": "init",
-      "to": "Overweight",
-      "pt": 262.0,
-      "prior": 0.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Oppenheimer",
-      "action": "reit",
-      "to": "Outperform",
-      "pt": 235.0,
-      "prior": 200.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Rosenblatt",
-      "action": "main",
-      "to": "Buy",
-      "pt": 260.0,
-      "prior": 225.0,
-      "date": "2026-10-27"
-     }
-    ],
-    "iv": 1.0149719366455079,
-    "imove": 11.074251733176101
-   },
-   "news": [
-    [
-     "Alex Karp on Palantir's AI demand: 'Much larger than we can service'",
-     "https://finance.yahoo.com/video/alex-karp-on-palantirs-ai-demand-much-larger-than-we-can-service-232326872.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 23:23:26 +0000"
-    ],
-    [
-     "Palantir (PLTR) Q3 2026 Earnings Call Transcript",
-     "https://www.fool.com/earnings/call-transcripts/2026/11/02/palantir-pltr-q3-2026-earnings-call-transcript/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 04:28:39 +0000"
-    ],
-    [
-     "Jim Cramer Calls Out 'Pretty Thick' Negativity on Apple, Palantir and Marvell: 'No Matter What They Say, It Isn't Enough'",
-     "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-calls-pretty-thick-032537139.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 03:25:37 +0000"
-    ],
-    [
-     "\u2018Captain Of The Football Team\u2019: Alex Karp Says Palantir\u2019s AI Appeal Is Surging",
-     "https://stocktwits.com/news-articles/markets/equity/captain-of-the-football-team-alex-karp-says-palantir-s-ai-appeal-is-surging/cNGQofOR9Pz?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 02:47:15 +0000"
-    ],
-    [
-     "Dow Jones Futures: AI Trade Dives As Marvell, Lumentum Plunge; Apple Tumbles On Earnings With Midterm Elections Next",
-     "https://finance.yahoo.com/m/4fe38c4f-79dc-38c4-99cf-7844e9e446ee/dow-jones-futures%3A-ai-trade.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 02:32:39 +0000"
-    ],
-    [
-     "What Palantir Technologies (PLTR) Said on Its Q3 Earnings Call",
-     "https://www.marketbeat.com/instant-alerts/transcript-what-palantir-technologies-pltr-said-on-its-q3-earnings-call-2026-11-02/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 01:14:07 +0000"
-    ],
-    [
-     "Palantir (PLTR) Stock Could Be 5% Above Fair Value Despite Sovereign AI Expansion - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMilwFBVV95cUxONEZOQ1VqU2JUVVkxd0VkTGhWbHZHaXB3VEVoYVROWEZSQWJoeWdBYVNHN0hIZ3RWaHpJSlBUdlJYT2FsYlRReEdDaDg0YVlJdzk0LURmRmhxcm42VGZmWkZZV3F3ZUk5ZWxjeS16NC1VSklWOW5DTjQ0cWZHYnBaOU5YdXNBS3ZjZVE1cnBKNHVDaHZNYUE4?oc=5",
-     "Yahoo Finance",
-     "Wed, 28 Oct 2026 05:16:05 GMT"
-    ],
-    [
-     "Palantir reports booming U.S. commercial revenue growth, topping government for first time - CNBC",
-     "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wdkIzdGt1UWFvU0E0ZUlmQWhkdG5GaWJvZVc4UDZYaHFnYU9yOWNkdU5xekxFTDJWTERpcDJSN2VIcWI0M01qYlBHSVRhU2FBaE1VOEU1VHJodFgtX2FhYm5IQjBnMkpDSWNlWktFWmlrdFRJSlHSAXtBVV95cUxQVzlMd0xTcFNwb2dGc3dTR1RLYzVWUV9qcGFmRV9TM19rVm9uLWY5OTBkVXRHVFhPa0REbko0dENhaDBNbHduU2pwN2lkT0p3Tll6N0ZPeEQ1emphekVOdlYxSHM4b0NUalZaZGZmM2J6aTVfcnJ4UHQycEU?oc=5",
-     "CNBC",
-     "Mon, 02 Nov 2026 21:09:24 GMT"
-    ],
-    [
-     "Here\u2019s How Much Traders Expect Palantir Stock to Move After Earnings - Investopedia",
-     "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRUxqc3VOYkx6UFQ4dGxIS1JWaDFwOEZ5WjlRSDk4RFgxbnlYQzNjX20wX3dfN0VSVGE0R2YyZnpLMm91MzhuY2NDRmNRdFJIQVo0OFVIN1Q5eHJnTWhraDFKNWh1dG5CV0kxRE93R2tCSDNsQ1cycEYtU1JJdlFPS1FQbDl5SlFfM0hRbmdKRjdySUFkZ1ZmbFZHZ2pvdFF1YmhrUEl3Zw?oc=5",
-     "Investopedia",
-     "Mon, 02 Nov 2026 15:59:04 GMT"
-    ],
-    [
-     "Here\u2019s why Palantir\u2019s stock is down despite a \u2018bombastic\u2019 quarter - MarketWatch",
-     "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSHhHZjA1amc4Y0R1WHF0NWZxdjRERjNvdkVibU9sWHJjS2tOc25vSFlVR1ZNMS1IYkMtNnloMzFkVkhsQmtEYVp1OXo5dTBtQ1lyMVZSZ0ZhWWxNLTJVandDdS1tY1l4bjlBVmF4dzROdEFBQlpPb3dIS2Jfa001NXV1dnkxZXdlQS1WNVU5RHBrZlJ2TlVpTWFadVB6VEZpNk5uTlM1aw?oc=5",
-     "MarketWatch",
-     "Tue, 03 Nov 2026 00:59:00 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "CRM",
+   "t": "MTDR",
    "kind": "SIGNAL",
    "rule": "solid",
    "tier": "solid",
-   "c": 226.17999267578125,
-   "buy": 225.95912856410487,
-   "tgt": 232.73790242102802,
-   "stop": 207.80055486851336,
+   "c": 54.310001373291016,
+   "buy": 55.39620140075684,
+   "tgt": 57.113242121893464,
+   "stop": 50.72048827035086,
    "days": 3,
-   "conf": 6.261834026539911,
+   "conf": 6.255251684502572,
    "s": {
-    "n": 3366,
-    "win": 66.78550207961973,
-    "avg": 0.4234789523134441,
-    "days": 3
+    "n": 3364,
+    "win": 66.76575505350772,
+    "avg": 0.4204604415121936,
+    "days": 3,
+    "lose": -4.538273917980557
    },
    "ed": null,
-   "name": "Salesforce, Inc.",
-   "drop": -8.654742490911493,
-   "rvol": 0.9282161632730954,
+   "name": "Matador Resources Company",
+   "drop": -8.36848160311251,
+   "rvol": 1.9280667059025658,
    "dd": {
-    "short": 0.0392,
-    "dtc": 2.78,
+    "ind": "Oil & Gas E&P",
+    "short": 0.1252,
+    "dtc": 9.42,
     "ratings": [
-     40,
-     15,
-     1
+     18,
+     4,
+     0
     ],
-    "moves": [
-     {
-      "firm": "DA Davidson",
-      "action": "main",
-      "to": "Neutral",
-      "pt": 250.0,
-      "prior": 225.0,
-      "date": "2026-10-21"
-     },
-     {
-      "firm": "Cantor Fitzgerald",
-      "action": "reit",
-      "to": "Overweight",
-      "pt": 300.0,
-      "prior": 300.0,
-      "date": "2026-10-21"
-     }
-    ],
-    "iv": 0.516107947692871,
-    "imove": 5.631199373978311
+    "moves": [],
+    "iv": 0.5471236694335939,
+    "imove": 5.9696086420986685
    },
    "news": [
     [
-     "Why Salesforce (CRM) Dipped More Than Broader Market Today",
-     "https://finance.yahoo.com/markets/stocks/articles/why-salesforce-crm-dipped-more-214503577.html?.tsrc=rss",
+     "Matador (MTDR) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "https://finance.yahoo.com/markets/stocks/articles/matador-mtdr-reports-q3-earnings-000002995.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 21:45:03 +0000"
+     "Wed, 04 Nov 2026 00:00:02 +0000"
     ],
     [
-     "Why Is Salesforce (CRM) Backing A $700 Million AI Assistant Startup?",
-     "https://finance.yahoo.com/technology/ai/articles/why-salesforce-crm-backing-700-180836729.html?.tsrc=rss",
+     "Matador Resources (NYSE:MTDR) reports bullish Q3 2026",
+     "https://finance.yahoo.com/markets/stocks/articles/matador-resources-nyse-mtdr-reports-215604571.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 18:08:36 +0000"
+     "Tue, 03 Nov 2026 21:56:04 +0000"
     ],
     [
-     "Will Salesforce (CRM) Beat Estimates Again in Its Next Earnings Report?",
-     "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-beat-estimates-again-161002804.html?.tsrc=rss",
+     "Matador Resources (MTDR) Q3 Earnings and Revenues Beat Estimates",
+     "https://finance.yahoo.com/markets/stocks/articles/matador-resources-mtdr-q3-earnings-215006002.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 16:10:02 +0000"
+     "Tue, 03 Nov 2026 21:50:06 +0000"
     ],
     [
-     "Presentations.AI Launches AI Sales Enablement Deck Generator With Salesforce to PowerPoint Automation, Live Presentation Refresh, Editable PowerPoint Export and a Presentation API at $0.10 Per Slide",
-     "https://finance.yahoo.com/technology/ai/articles/presentations-ai-launches-ai-sales-133900758.html?.tsrc=rss",
+     "Matador: Q3 Earnings Snapshot",
+     "https://finance.yahoo.com/markets/stocks/articles/matador-q3-earnings-snapshot-213434291.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Sat, 31 Oct 2026 13:39:00 +0000"
+     "Tue, 03 Nov 2026 21:34:34 +0000"
     ],
     [
-     "Salesforce\u2019s M&A spree continues with a reported $375M deal for defense tech startup Rune",
-     "https://finance.yahoo.com/technology/ai/articles/salesforce-m-spree-continues-reported-232123064.html?.tsrc=rss",
+     "Matador Resources Company Reports Third Quarter 2026 Results Including Record Oil Production and Continued Debt Repayment",
+     "https://finance.yahoo.com/energy/articles/matador-resources-company-reports-third-211500706.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 23:21:23 +0000"
+     "Tue, 03 Nov 2026 21:15:00 +0000"
     ],
     [
-     "Earnings Beat May Change The Case For Bandwidth Stock",
-     "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-may-change-case-211839902.html?.tsrc=rss",
+     "Why Riverwater Partners Initiated a Position in Matador Resources (MTDR)?",
+     "https://finance.yahoo.com/markets/stocks/articles/why-riverwater-partners-initiated-position-160019618.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 21:18:39 +0000"
+     "Tue, 03 Nov 2026 16:00:19 +0000"
     ],
     [
-     "Salesforce, Inc. (CRM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9HcjdIRDd1M3ZzYlFEZ2JpaWU3N2NKWDlQdURLa3dfZm1MT0VOQW1iMFJHRmZOMTJMMVBmd3VtSmY1T2ZqVy1URi1LN3RpRno2?oc=5",
-     "Yahoo! Finance Canada",
-     "Mon, 02 Nov 2026 16:16:08 GMT"
-    ],
-    [
-     "Salesforce (CRM) Stock Forecast & Analyst Ratings - Moomoo",
-     "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOM3BtMjdua1NJTEk5UmxERkJMcmhJYlhDTlNyMTJDcWFIWlVkSUV1WVdVbHBlTzQzSUFxTmJhZDVXajVSSU8xYmZSdnQ1MDY1R1lPekZ0SEwyMUIwRU1GXzByNHBROFRKVGtqVFE0OW9ieEFnN2N3R0hyaVJnTzY0b1FqZWdmaE52Sko0R0NpckVBalhRQm1LQkZwdExJREtmNTFjLVpWbXRkRXE4M3dYcE9KbmQtVmxzMmtPcHkxaUg1VlFodVBLQjg5TnFERWcySnZVR29CNnpVYkV3R3ZfVkVOaV9KRmNoZ0plUXBmVEFGamhZcFNlc0lwMU1BTHVZX2hZb0hrb1FJSVF0S1VjVG9RZklhTnQyQXpLU1QzdWtjNFZkeXJ3MzkyY0dMWmU1dFRxWDhiRlZSLTYzMTUwSnIyaHluc0Yx?oc=5",
-     "Moomoo",
-     "Sat, 31 Oct 2026 14:37:38 GMT"
-    ],
-    [
-     "Salesforce, Inc. (CRM) stock price, news, quote and history - Yahoo Finance Australia",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vMEZOZmN4Z2Y1MHJ4M0IxaHNwbXF1Z1duZWU1dzhqN1U4aHlZaXh1M1k2U3VCMmljeGl0ZE0xVXhvWkdVZ2MxZjdjaDN3cnVh?oc=5",
-     "Yahoo Finance Australia",
-     "Sun, 01 Nov 2026 02:00:20 GMT"
-    ],
-    [
-     "Why Is Salesforce Stock Falling on Thursday? - Salesforce (NYSE:CRM) - Benzinga",
-     "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUWJEQUJOTVMwOHJKMTJ3VVh0emMwalFfaW4ySVM5UkVUeUhVREcyNk1HTkNtMEdaS21nNUtPbGJBOFNyMXVtWnZYVVlYcE1vSjAzNWFzaUxzaHhEUjI3ZWdMM0doV0dZV2tyalNJQkE3UTQ3YTdJQ2djWkUzLUJIcDQ0UkxVeXQzVWh3YndwNHc4ZU1qMTZfbzlodnZYdWxaV3V0cFZhTQ?oc=5",
-     "Benzinga",
-     "Thu, 29 Oct 2026 16:00:51 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "ILMN",
-   "kind": "SIGNAL",
-   "rule": "dip",
-   "tier": "golden",
-   "c": 226.5800018310547,
-   "buy": 231.11160186767577,
-   "tgt": 253.52392787791746,
-   "stop": 196.76732870919363,
-   "days": 3,
-   "conf": 0.0,
-   "s": {
-    "n": 2387,
-    "win": 66.82027649769586,
-    "avg": 1.1113048654152644,
-    "days": 3
-   },
-   "ed": null,
-   "name": "Illumina, Inc.",
-   "drop": -16.40348484068854,
-   "rvol": 1.1755698499490586,
-   "dd": {
-    "short": 0.0855,
-    "dtc": 1.86,
-    "ratings": [
-     10,
-     7,
-     4
-    ],
-    "moves": [
-     {
-      "firm": "Citigroup",
-      "action": "main",
-      "to": "Sell",
-      "pt": 210.0,
-      "prior": 113.0,
-      "date": "2026-11-02"
-     },
-     {
-      "firm": "JP Morgan",
-      "action": "main",
-      "to": "Overweight",
-      "pt": 300.0,
-      "prior": 320.0,
-      "date": "2026-10-31"
-     },
-     {
-      "firm": "Evercore ISI Group",
-      "action": "main",
-      "to": "Outperform",
-      "pt": 275.0,
-      "prior": 290.0,
-      "date": "2026-10-30"
-     }
-    ],
-    "iv": 0.6228522822570802,
-    "imove": 6.795875548140644
-   },
-   "news": [
-    [
-     "Illumina selected to help bring precision medicine into everyday healthcare in Singapore",
-     "https://finance.yahoo.com/healthcare/articles/illumina-selected-help-bring-precision-010000037.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 01:00:00 +0000"
-    ],
-    [
-     "3 Stocks to Watch Following Guidance Upgrades",
-     "https://finance.yahoo.com/markets/stocks/articles/3-stocks-watch-following-guidance-233400754.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 23:34:00 +0000"
-    ],
-    [
-     "10x Genomics Sinks 12%, Twist Down 15%, PacBio Down 10% as Genomics Stocks Give Back Rebound",
-     "https://www.tikr.com/blog/10x-genomics-sinks-12-twist-down-15-pacbio-down-10-as-genomics-stocks-give-back-rebound?ref=yahoofinance&tlnk=yf-261102-xvq74w7x&.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 20:46:12 +0000"
-    ],
-    [
-     "Forensic Technologies and Services - Global Strategic Business Report: Secure Share of a $44.7B Market by 2030 as Thermo Fisher, Illumina, Agilent and BAE Systems Accelerate AI-Led Forensics",
-     "https://finance.yahoo.com/technology/ai/articles/forensic-technologies-services-global-strategic-154900013.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 15:49:00 +0000"
-    ],
-    [
-     "The top 5 analyst questions from Illumina\u2019s Q3 earnings call",
-     "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-illumina-151736661.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 15:17:36 +0000"
-    ],
-    [
-     "Don't Overlook Illumina (ILMN) International Revenue Trends While Assessing the Stock",
-     "https://finance.yahoo.com/markets/stocks/articles/dont-overlook-illumina-ilmn-international-131504683.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 13:15:04 +0000"
-    ],
-    [
-     "Illumina (ILMN) Stock Stays Reasonable After Raised 2026 Guidance - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSlEtVTBDc0VNQjdwdXcwMWJUcmxaSmJKZno4blBZbkJQOXhMUlZaSk9PUTh0MGloclBaNmg2Vjd3ZWFCaTJKS1dremJmU0FoS3NfMFJUMllrM1VabHJJMEdGUlRhcG5TQzloTjJjWkVVTFMwUU5jQW5INWlSdTkySUpMbUMtbk9WbVdZcmFBZWx3VGxEaWVudnFrRzlyWkk4ZVNB?oc=5",
+     "Are Investors Undervaluing Matador Resources (MTDR) Right Now? - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVktBMlRhNlF0RnlDVy11NVFLdUtFV2VoZ3JzcXBMRTZiRlBJSEVRVzNEb1lnUG9BSTFPUEQ3S2o3c09LalZsdnFfN3dPYnh3c0x0N1hydmZvajdJNWhFTWdFWFFNUWhKcDdqYm5rVDktT0VCQ2t4ZGllYnoxcVVjMzRndmdJQVU5LXZoWTdGQWcwdE9wYmJqdmV5eElUMXBpR3FfYjlzZ0xGUWVzeWlV?oc=5",
      "Yahoo Finance",
-     "Sat, 31 Oct 2026 02:11:00 GMT"
+     "Mon, 02 Nov 2026 13:40:03 GMT"
     ],
     [
-     "Illumina Crashes As Tariffs, AI Woes Eat Into 157% Run-Up - Investor's Business Daily",
-     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVVMTGhCTG1ZOWFhc1F1Nm5LLURWZHhmTUNmQUJGUkJWcmNGc2kxTk9BSHJDeUVNYno0VVpBVDdTZEwyQjJ0YzNuLUlwVk9YOGtiTHFhMjVYb3BEQnJGMHZtX0NvNFg4NDFnUDNyTzE4cmt6ejNsVDFwNzZmR1hFSXd3cTJxejAxOVU4?oc=5",
-     "Investor's Business Daily",
-     "Fri, 30 Oct 2026 21:34:00 GMT"
+     "Matador Resources earnings: what to look for from MTDR - TradingView",
+     "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmpxbk9YS0tRZDFSY3FLQTRTRHFoN0hHOENtUkdVRVJXdi1SS1d5M0c3ODFua1lVMW91aFhuNVlLaktXbWNVTzlJOEF2RmJtMVBCejAydU5zVk9TR2k3VEt2c1ktYzZDdzB1bnI0ZXpJT2hPQXJlMmctbmFXTmJsYkNVM1FURkdnLWI4dnJ2VVVJRUU1cVBKZXVXcW1BWVFRQ0VjMmdRZkRFaEc0ZFdQUGNya0o?oc=5",
+     "TradingView",
+     "Mon, 02 Nov 2026 03:11:00 GMT"
     ],
     [
-     "Illumina Stock Price Forecast. Should You Buy ILMN? - StockInvest.us",
-     "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55WHU1OHZQSGZkTUNPS29tajdnbmR6aEN3c1VQU2p3MDVwWExORmgxejN5c2pwa2drZ0tiWFlTdE1faUtvSXFPVg?oc=5",
-     "StockInvest.us",
-     "Fri, 30 Oct 2026 22:19:01 GMT"
+     "Matador Resources' San Mateo JV inks two Delaware Basin gas deals (MTDR:NYSE) - Seeking Alpha",
+     "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTXd5UUJCci05S1lfSENTdERLa1ZlWTJPcW5OV3d6R3VrMFozZ2U5YkNEUFRVdldlMF9PUkRKeVlLcl9TSzcyY2VzMzVqSVd5SWwzOWhRVGlramhXb2FJeWhENEtIX3ppUzJFZmVJZGx1M0Vpc2QyTGlUdDgySDJJUkxHTEtFRmNBNUtqOTNVRUtYRFJuN2ZvdktweVk5Vzg3cWJmYg?oc=5",
+     "Seeking Alpha",
+     "Mon, 02 Nov 2026 13:53:05 GMT"
     ],
     [
-     "Illumina (ILMN) Stock Falls After Q3 Results Lift Guidance - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimAFBVV95cUxOXzVYT1lQMkNRcXNHZVpna240VG5WOUJHV2Y3Qkh3NS0tQlBqbURXM2xsTzZNM2U1VE1WeFR3ajRlZ2FwQmZwY2ozMnNwUUFPWVhXUEVDb0g3b3I1Z2llWERWTTczNUkxWTFtbWVYTUJIQUd6UkRYV3pxUTY0ZS1pR05IZVhwN2VQLWZ2TnI3TVR4S3VaSmRHNA?oc=5",
-     "Yahoo Finance",
-     "Sun, 01 Nov 2026 18:10:12 GMT"
+     "Wall Street Analysts Think Matador (MTDR) Could Surge 26.76%: Read This Before Placing a Bet - Zacks Investment Research",
+     "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTTFTVEFsVUZ4RVhwVVpXRmZrTUJNMGJXa2p1UkdNOGxMTGIwSjg4UnV4UDVtVmh6ajJPaFEzd2p1RlJ1Z0dJb0VGaUFaUHZ2ZG1CZF9zNEdqbWZzbXE4bjVZWlpxeEtfbG5xYmVodl96UmdPaFNzNFp2cG5iLWhCaDBKa1NWNjU3YXBKcGJvNzI1Q3Jmd3owMDV0Ni1fRklKSXVsMzdvaVhkU3U0WHBYeFJFM0VlU01fbW9DWDhzeFVvLWI3ZG5z?oc=5",
+     "Zacks Investment Research",
+     "Tue, 03 Nov 2026 14:03:37 GMT"
     ]
    ]
   },
@@ -1214,23 +146,25 @@
    "kind": "SIGNAL",
    "rule": "solid",
    "tier": "solid",
-   "c": 15.609999656677246,
-   "buy": 15.790584571172527,
-   "tgt": 16.264302108307703,
-   "stop": 14.665870673467449,
+   "c": 15.59000015258789,
+   "buy": 15.572363873528575,
+   "tgt": 16.039534789734432,
+   "stop": 14.44622137169752,
    "days": 2,
    "conf": 0.0,
    "s": {
-    "n": 961,
-    "win": 68.15816857440167,
-    "avg": 0.6820477714458849,
-    "days": 2
+    "n": 962,
+    "win": 68.08731808731808,
+    "avg": 0.6810340877199167,
+    "days": 2,
+    "lose": -4.897422391632528
    },
    "ed": null,
    "name": "Avantor, Inc.",
-   "drop": -9.716605956575552,
-   "rvol": 0.8760712524040444,
+   "drop": -8.990070540726125,
+   "rvol": 0.8111373921388182,
    "dd": {
+    "ind": "Medical Instruments & Supplies",
     "short": 0.062,
     "dtc": 4.07,
     "ratings": [
@@ -1272,8 +206,8 @@
       "date": "2026-10-29"
      }
     ],
-    "iv": 0.5966837207031251,
-    "imove": 5.31568107413478
+    "iv": 0.557621611328125,
+    "imove": 4.96768814535873
    },
    "news": [
     [
@@ -1319,10 +253,10 @@
      "Wed, 28 Oct 2026 21:01:55 GMT"
     ],
     [
-     "Avantor (AVTR) Stock Looks Fairly Valued After a 56% Five Year Fall - Simply Wall St",
-     "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUTJSQXNaTUNZYXVORlNOYWNBSXNJYURNUFRzV3d0WkJHczQ3Z0ZwejVZQ3o4c1h1bVJGVlJ2dkpmZ1FWaGtWQzlEUkFZWFIyTmlPVXNrN2l0UFdYMm9BQl9uN2V6N1RUODh1RWtrY0pGUkZ2ZWFuNUZXVWRmQ2ltMG9OdGRCck04MGt2SVJJQVJuQjFmc3cyRjBDSXFqdk9CVTFURkQyRmRRYW9XNHF1WFdpMWZCaVJVckdySUZFUllXZ2Vxa1NXRVpoVi1FT0liT2prSdIB2gFBVV95cUxOSkZSVWZRZ281Xzhua0N6ME5kZjZuelNYWFpZZk53Vm5mRkVTYlB5TjNyQlhXV2RVTUFZTEhSODJEMkZod0ZmOGFTcVhFR2RkRnVHVTMyTHZLbXlxcnZXQkZSMEdnWGhPNmQ5Y3lGdmV1ajRyai1NZHU4SDEzdHNHd2dhMnZhYnVzZXpPcWVXSktlNDMzN2kxWUhET2VfYlppb0xUc3dHOHlxOG1VUEFLTGRpV0NtOFRoZ09tb29nZzBGUTZQM0hzVzZNQ005bzZoNkt2czNDX1F5Zw?oc=5",
+     "Avantor (AVTR) Stock Shrugs Off Q3 Earnings As Debt Stays Central - Simply Wall St",
+     "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNlVZeExuNnJEZHFvSmNWNEd4dGlobGRLX3ZlYjZXTkNlMkdwNzNBTWlpRDZKSVVvb19HVUh0LUJ2MTJ4amc4Vm1kbWwzR2tiRHAyTndITkJoX2dRTGRzbW5ZTGN2cmFuTzVlWE9LcUZ0TnpVZTVZY19CTERvTWtYdGwwa1JrWFJDTnZ1MjBNVEowZVZVaTJESHJycUdYZmJjeXZuYWxMSzdaU3l0ZjNUeTRKblFxb0NXdm52bjJEY2M3Qkk2TktKOGw3bldNNi02RzYyMFpB0gHbAUFVX3lxTFBaazBVeHpTdzhYOGRORlVmM2JSYzdlZDE4SVJBR0w3YUZpVkx5QVl6R21ZOHItc2YyeVNQVUZWQVE2MnZXUmhQa3Y5eDFqTzJCQ3pkNy1VU3o5VG9qb3RGMjZVSVJVQXZkVHV0NHNKWGw4bUU3b3pOTm1HWFUwOHY1Z3J5VDVtMzFTbVhzdDRyR2Z3a2UzRjZaYTdnLWdpR3ZnWUpscjd3MEUzejRLU1BHODlYcnEweERmX2pVX016UDdNampIR1R1dzFBZk5kX3o1VUY2Vk5BYVptNA?oc=5",
      "Simply Wall St",
-     "Tue, 27 Oct 2026 20:56:04 GMT"
+     "Thu, 29 Oct 2026 23:29:52 GMT"
     ],
     [
      "Avantor, Inc. Stock 12\u2011Month Price Target Raised to $16.27, Implies 5% Downside - TradingView",
@@ -1331,125 +265,340 @@
      "Wed, 28 Oct 2026 22:20:00 GMT"
     ],
     [
-     "Avantor (AVTR) Stock Shrugs Off Q3 Earnings As Debt Stays Central - Simply Wall St",
-     "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNlVZeExuNnJEZHFvSmNWNEd4dGlobGRLX3ZlYjZXTkNlMkdwNzNBTWlpRDZKSVVvb19HVUh0LUJ2MTJ4amc4Vm1kbWwzR2tiRHAyTndITkJoX2dRTGRzbW5ZTGN2cmFuTzVlWE9LcUZ0TnpVZTVZY19CTERvTWtYdGwwa1JrWFJDTnZ1MjBNVEowZVZVaTJESHJycUdYZmJjeXZuYWxMSzdaU3l0ZjNUeTRKblFxb0NXdm52bjJEY2M3Qkk2TktKOGw3bldNNi02RzYyMFpB0gHbAUFVX3lxTFBaazBVeHpTdzhYOGRORlVmM2JSYzdlZDE4SVJBR0w3YUZpVkx5QVl6R21ZOHItc2YyeVNQVUZWQVE2MnZXUmhQa3Y5eDFqTzJCQ3pkNy1VU3o5VG9qb3RGMjZVSVJVQXZkVHV0NHNKWGw4bUU3b3pOTm1HWFUwOHY1Z3J5VDVtMzFTbVhzdDRyR2Z3a2UzRjZaYTdnLWdpR3ZnWUpscjd3MEUzejRLU1BHODlYcnEweERmX2pVX016UDdNampIR1R1dzFBZk5kX3o1VUY2Vk5BYVptNA?oc=5",
-     "Simply Wall St",
-     "Thu, 29 Oct 2026 23:29:52 GMT"
+     "A 46,728-unit stock grant for Avantor (AVTR)'s HR chief vests in three equal annual installments. - Stock Titan",
+     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUVF1Uk5fM2dRckM3aU50VTF2XzA0b0NEZGVPZnBBdklTSDFjT2k4SlRlTmNGWGMwbUJDVlJWOFBBUHR5RmJjd1Rlc2M2dHNhMzZ0dFFienJfZG14bEY3Q1RLendBbGJSRjB6WXBiSVpnc280VHpmalZlaFJVc21pQ2NhNUx0TTFSU1JTT09XdWlwZE43dkp2aXFwX2ZEeWRRb2c1a3VfYmw?oc=5",
+     "Stock Titan",
+     "Tue, 03 Nov 2026 22:37:45 GMT"
     ]
    ]
   },
   {
-   "t": "PBF",
+   "t": "VAL",
+   "kind": "SIGNAL",
+   "rule": "solid",
+   "tier": "solid",
+   "c": 89.98999786376953,
+   "buy": 91.78979782104493,
+   "tgt": 95.99076555557879,
+   "stop": 82.4679398236956,
+   "days": 3,
+   "conf": 0.0,
+   "s": {
+    "n": 3364,
+    "win": 66.76575505350772,
+    "avg": 0.4204604415121936,
+    "days": 3,
+    "lose": -4.538273917980557
+   },
+   "ed": null,
+   "name": "Valaris Limited",
+   "drop": -8.369821094930375,
+   "rvol": 1.0052472390429945,
+   "dd": {
+    "ind": "Oil & Gas Drilling",
+    "short": 0.0994,
+    "dtc": 4.85,
+    "ratings": [
+     1,
+     7,
+     1
+    ],
+    "moves": [],
+    "iv": 0.5968057897949219,
+    "imove": 6.511685016483651
+   },
+   "news": [
+    [
+     "Valaris (VAL) Stock Slides As Q3 Results Deepen Backlog Doubts",
+     "https://finance.yahoo.com/markets/stocks/articles/valaris-val-stock-slides-q3-010920313.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 04 Nov 2026 01:09:20 +0000"
+    ],
+    [
+     "Valaris\u2019s (NYSE:VAL) Q3 2026 sales top estimates",
+     "https://finance.yahoo.com/markets/stocks/articles/valaris-nyse-val-q3-2026-220608672.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 02 Nov 2026 22:06:08 +0000"
+    ],
+    [
+     "Valaris Issues Fleet Status Report",
+     "https://finance.yahoo.com/energy/articles/valaris-issues-fleet-status-report-214700699.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 02 Nov 2026 21:47:00 +0000"
+    ],
+    [
+     "Valaris Limited (VAL) Q3 Earnings Lag Estimates",
+     "https://finance.yahoo.com/markets/stocks/articles/valaris-limited-val-q3-earnings-212503802.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 02 Nov 2026 21:25:03 +0000"
+    ],
+    [
+     "Valaris Reports Third Quarter 2026 Results",
+     "https://finance.yahoo.com/energy/articles/valaris-reports-third-quarter-2026-211500802.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 02 Nov 2026 21:15:00 +0000"
+    ],
+    [
+     "Earnings to watch: Valaris (VAL) reports Q3 results tomorrow",
+     "https://finance.yahoo.com/markets/stocks/articles/earnings-watch-valaris-val-reports-062700898.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sun, 01 Nov 2026 06:27:00 +0000"
+    ],
+    [
+     "Valaris Ltd (VAL) Shares Fall 5.0% -- What GF Score of 73 Tells Investors - GuruFocus",
+     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObkZIQkR5V2QyZXQyeEtEZG9IcFVaaEVJOWNxUXZpb2RZckxtOVN6Y3hFeDJvZ0ZTb09FdTdpVVZDM09JRk5HcF9KdWlOTFdfVnhXUy1VWWkxQWx5bVBnUm1SYlB1T29kS2p1UTZkaWgwcDdZc3Rib1VESG5OSHNpb1NGRGZJd0NFUTNmSGpoWTlFU3FMbHF6b09GUk1RcFJYbldYX1c5N2g?oc=5",
+     "GuruFocus",
+     "Wed, 04 Nov 2026 00:13:13 GMT"
+    ],
+    [
+     "The 5 Best Cheap Stocks (Under $10) to Buy Now - Kiplinger",
+     "https://news.google.com/rss/articles/CBMidkFVX3lxTE40aTA1QnpwVHFOY084clh4SERiMnczMXFadTdMcThZT053ZkVNaUluSDB0Mklpc0piZ2liejF5eDBIOTltWW9wNURNdzVFLXExV3JwTGVRWUstTklKRU93QUVaZTZvREthcE5vaHI0SHJUQ091aUE?oc=5",
+     "Kiplinger",
+     "Thu, 29 Oct 2026 18:37:16 GMT"
+    ],
+    [
+     "Valaris adds $600M in new contracts and extensions in latest fleet status report - Seeking Alpha",
+     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTUpYMk1aZWdFQlFsM0hYLWNfMUpCZFRsQ0JXRnZaV1VEX203LXUyYnM1bzUyM3BLcGhYYmpSZmFtNzFwTXdjS3o1UFRRLW1lQkVGV2x1UmZ3ckRkRllUbmMyUDcwSnpIa1FUX1VUWEVoN2tQTzVwQVg3WWxpSG0tV3R4UTlHT1E1UUFiWHFGWk1PLW5iM0pGZnlOUWRCRmROQUtRRHhwclNXeVd6YUdoYWFrVkgySmFX?oc=5",
+     "Seeking Alpha",
+     "Tue, 03 Nov 2026 17:59:52 GMT"
+    ],
+    [
+     "Valaris\u2019s (NYSE:VAL) Q3 2026 sales top estimates - TradingView",
+     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ0hIVTh0SjJOaFQ1bHBUYjFrTERjUFBpa1BFbW5weVpWblpUM2NQSmxIWmozMS1BNmNYa291dTB1ZHNGTHVreGJORzhqZjFCN01jWHhnd0N3RDNJdDk5UjF3cnc4ZXhWME93Ul9EUXZ4X0RYWUN4cjI2b0dmbWs4dm9mR0VNQXppS05XSDQ1WUI0UUlmeFhTZmVTWGVsajdBb0RfM0Rvb043a1E?oc=5",
+     "TradingView",
+     "Mon, 02 Nov 2026 22:06:08 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "CRWD",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 75.08000183105469,
-   "buy": 66.26699752807617,
-   "tgt": 76.19739945550582,
-   "stop": 56.43271124703544,
+   "c": 244.67999267578125,
+   "buy": 239.99400329589844,
+   "tgt": 249.4559748387691,
+   "stop": 212.58300127301897,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
-   "name": "PBF Energy Inc.",
-   "drop": -6.790814417708146,
-   "rvol": 1.0896440861920555,
+   "name": "CrowdStrike Holdings, Inc.",
+   "drop": -8.708304340949747,
+   "rvol": 0.6832807848161272,
    "dd": {
-    "short": 0.1249,
-    "dtc": 3.02,
+    "ind": "Software - Infrastructure",
+    "short": 0.0238,
+    "dtc": 2.49,
     "ratings": [
-     1,
-     10,
-     4
+     41,
+     11,
+     1
     ],
     "moves": [
      {
-      "firm": "Freedom Broker",
+      "firm": "Deutsche Bank",
       "action": "up",
-      "to": "Hold",
-      "pt": 63.0,
-      "prior": 55.0,
-      "date": "2026-11-03"
-     },
-     {
-      "firm": "Piper Sandler",
-      "action": "main",
-      "to": "Neutral",
-      "pt": 97.0,
-      "prior": 94.0,
+      "to": "Buy",
+      "pt": 300.0,
+      "prior": 240.0,
       "date": "2026-11-02"
      },
      {
-      "firm": "TD Cowen",
+      "firm": "Mizuho",
       "action": "main",
-      "to": "Hold",
-      "pt": 75.0,
-      "prior": 73.0,
+      "to": "Outperform",
+      "pt": 275.0,
+      "prior": 250.0,
       "date": "2026-10-22"
      }
     ],
-    "iv": 0.7944356494140625,
-    "imove": 10.008948385684311
+    "iv": 0.693657441711426,
+    "imove": 8.73926231351293
    },
    "news": [
     [
-     "PBF Energy (PBF) is an Incredible Growth Stock: 3 Reasons Why",
-     "https://finance.yahoo.com/markets/stocks/articles/pbf-energy-pbf-incredible-growth-164501784.html?.tsrc=rss",
+     "CrowdStrike announces 'kill switch' for AI agents that go rogue",
+     "https://finance.yahoo.com/markets/stocks/article/crowdstrike-says-it-will-buy-2-ai-cybersecurity-startups-announces-kill-switch-for-ai-agents-163631619.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 16:45:01 +0000"
+     "Tue, 03 Nov 2026 14:52:55 +0000"
     ],
     [
-     "Robert Half (RHI) Surges on Temporary Staffing Stabilization and Easing AI Fears",
-     "https://finance.yahoo.com/markets/stocks/articles/robert-half-rhi-surges-temporary-140605813.html?.tsrc=rss",
+     "CrowdStrike (CRWD) stock trades down, here is why",
+     "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-stock-trades-down-234936695.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 14:06:05 +0000"
+     "Tue, 03 Nov 2026 23:49:36 +0000"
     ],
     [
-     "Qualys (QLYS) Surges Following Launch of AI-Driven Vulnerability Platform",
-     "https://finance.yahoo.com/technology/ai/articles/qualys-qlys-surges-following-launch-140013669.html?.tsrc=rss",
+     "CrowdStrike Launches AI Agent 'Kill Switch,' Plans to Acquire Fiddler AI",
+     "https://decrypt.co/382467/crowdstrike-ai-agent-kill-switch-acquire-fiddler-ai?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 14:00:13 +0000"
+     "Tue, 03 Nov 2026 21:16:03 +0000"
     ],
     [
-     "What\u2019s Driving PBF Energy\u2019s (PBF) Cash Surge?",
-     "https://finance.yahoo.com/markets/stocks/articles/driving-pbf-energy-pbf-cash-135608266.html?.tsrc=rss",
+     "CrowdStrike Makes $495 Million Bet on AI Security",
+     "https://finance.yahoo.com/technology/ai/articles/crowdstrike-makes-495-million-bet-180625048.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 13:56:08 +0000"
+     "Tue, 03 Nov 2026 18:06:25 +0000"
     ],
     [
-     "PBF Energy (PBF) Stock Price Trails Its Q3 Earnings Windfall",
-     "https://finance.yahoo.com/energy/articles/pbf-energy-pbf-stock-price-071201866.html?.tsrc=rss",
+     "CrowdStrike to Pay $495 Million for Two AI Startups",
+     "https://finance.yahoo.com/technology/ai/articles/crowdstrike-pay-495-million-two-180000273.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Sat, 31 Oct 2026 07:12:01 +0000"
+     "Tue, 03 Nov 2026 18:00:00 +0000"
     ],
     [
-     "Versigent (VGNT) is Unlocking Value Through Independent Growth and Capital Allocation",
-     "https://finance.yahoo.com/markets/stocks/articles/versigent-vgnt-unlocking-value-independent-161748267.html?.tsrc=rss",
+     "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+     "https://finance.yahoo.com/technology/ai/articles/crowdstrike-shell-nearly-500m-2-175652041.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 16:17:48 +0000"
+     "Tue, 03 Nov 2026 17:56:52 +0000"
     ],
     [
-     "PBF Energy Inc. (PBF) stock price, news, quote and history - Yahoo Finance UK",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqR1lrcENaMEdGUzlHN2dZMVV0NEE2ODVPZ1JOLWRQS0lQMHI1SHFjLXpTZHdTc2FTb1hzR1V3bVNoR1JCQW9LdnhsSk1CZ0Nf?oc=5",
-     "Yahoo Finance UK",
-     "Sun, 01 Nov 2026 04:26:04 GMT"
+     "CrowdStrike (CRWD) Stock Looks Overvalued On Its 5x Three Year Run - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcjNsOUpTVzBsNC03d2pwVkI1YUl4T0g0eWxOSm5qc0tKWnlZaENXcVR3N3ozYVh5U3g0WTJBMFZKM0tSQ1JoUjRVNkdSQ1V3OUJUMUQwYklhRW9IZmNnLVVIamNvSTB4TDdNaFRsc1JBUGJYdnRpaUt1VFNkMGl2NFZvczFyRExFeXNIeUx5eDc5ZDhyZ282XzVQX2dRUzNHd2hkSTZ2OA?oc=5",
+     "Yahoo Finance",
+     "Thu, 29 Oct 2026 00:16:00 GMT"
     ],
     [
-     "PBF Energy(PBF) Stock Options Chain | Quotes & News - Moomoo",
-     "https://news.google.com/rss/articles/CBMiqAJBVV95cUxORWVXek9sLWpraV9rbE93WnBIX054LWV2WGxSNGFSLW5BMllmOGM2NnlJeHhpOHRyZGRyaFZNd3p6Tk1NTE0xWXJzVTUzS1BtVFNNOWVJRGpUbno0QXl2U180SjV3UHBJRW9lb1NtbVZ1LXF5djNDdHQ1MzdvSk1RRWpENmp5MjZiX1AzQ3duYVhrU2YxTEVvbVZ2clM1Y0tORkNPZTJxd25HdVVDNUd1RHIyVS0zLV9hNFgtS0F6Y2RRcC1JekhDOGg2Qzk5SVEzaDVaNGJSdE9GVGZ4OHU5YXJqbkVjV0t2ck1uYmNZdU1UY0pJZThDNEZoZTJCTXliSzk1OFd3SVc3NXFjcHI3bE1xa2QwMXNnVHhULXFORm85X2ZmRjl0cg?oc=5",
+     "Stocks making the biggest moves premarket: CrowdStrike, Rivian, Micron & more - CNBC",
+     "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR29ZbTNOVVZ4ckwwZXBJM05kMHpXazlXM2ZTNlB3Q3NkS3MwYVZVOUExcEJOLTVFNmk4VWpMSXN4T1lRYzhoTU1waUNqTnllamJCTUdaVU9sb2poY2lxWWlCOFZPMXBheXgzZHF5SGZkbWx2SWVSVDV5WEJpLVBiTThYUUZ4TktvOWFVcFJjRS0xZTlGVHc?oc=5",
+     "CNBC",
+     "Mon, 02 Nov 2026 12:42:43 GMT"
+    ],
+    [
+     "Is CRWD Stock The Safe Haven In AI-Driven Software Selloff? Wall Street Eyes Big Upside - Stocktwits",
+     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWWpzZnVHbEh4cHd1OUZMSHJSTVk4c3VNYXAxTWFUM1JEUlM1M0ZhT3FaTXN3ZXNtQ21KVmZUM2UzU3d0QURlN3JfUVVnUGY1ZkJLWU4tdDcyUVBVelF3Z1g0ZEFLTlFzU0ZYNFJiN1RfZ2YxbEJVbFA0QldRX0MxQlhhSEw1Umw2cHZMbV9RczNESmU3Wlg2akpUSHp3Y0luWHpoUTBlRnZET2pSM1RWNk1tTlZNOHlOUExURFF4LTVBZ1FnWG1pOXBMRTRtY0w4NjVvaWpSaw?oc=5",
+     "Stocktwits",
+     "Sat, 31 Oct 2026 18:44:30 GMT"
+    ],
+    [
+     "CrowdStrike (CRWD) Stock Forecast & Analyst Ratings - Moomoo",
+     "https://news.google.com/rss/articles/CBMipAJBVV95cUxPOU9YV3k0bXp6aHdBYnVwMm50OFZKYklEYXBfbUQ2aFR5Y0I2ajNwbnRZUFdZeXQ2TWFiUlhBU1VNcDFaRG9aZU1RUGVvYzZLRHRBZmlIVVJmYjVFSS14eWQyLUZpMEZhSkh0dnpOY3cyVVJoNy1QYmFUcW91MkM0c2g5a2luSXVMVGc4cnl0TmNLOFZNd1lRNnAwN2JwazVGd0RrTC1nWmVqNnlpcnEtR1hHdHc1VzNJTnpNNW1rYmdWOURJbnRMdVctLS1KQi1tRWdkOGtuTXg5Sm13eVFjZDdaOUxQeHBSRHNuOWNBdDc0MjYzRVNVRmx1ZkVpdHNTNVIzczNNMlV6dFZZSnJRRkFDN1daMWw4b2x5ZG1sMW8yRGpX?oc=5",
      "Moomoo",
-     "Fri, 30 Oct 2026 21:35:52 GMT"
+     "Sun, 01 Nov 2026 04:45:46 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "CVLT",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 160.99000549316406,
+   "buy": 149.8140060424805,
+   "tgt": 163.17610750899743,
+   "stop": 131.80257066999164,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Commvault Systems, Inc.",
+   "drop": -6.699505855775745,
+   "rvol": 0.7478502921397862,
+   "dd": {
+    "ind": "Software - Application",
+    "short": 0.10569999,
+    "dtc": 6.06,
+    "ratings": [
+     11,
+     8,
+     0
+    ],
+    "moves": [
+     {
+      "firm": "DA Davidson",
+      "action": "main",
+      "to": "Buy",
+      "pt": 210.0,
+      "prior": 185.0,
+      "date": "2026-10-28"
+     },
+     {
+      "firm": "Truist Securities",
+      "action": "reit",
+      "to": "Buy",
+      "pt": 200.0,
+      "prior": 182.0,
+      "date": "2026-10-28"
+     },
+     {
+      "firm": "Scotiabank",
+      "action": "main",
+      "to": "Sector Perform",
+      "pt": 180.0,
+      "prior": 160.0,
+      "date": "2026-10-28"
+     },
+     {
+      "firm": "RBC Capital",
+      "action": "main",
+      "to": "Sector Perform",
+      "pt": 180.0,
+      "prior": 160.0,
+      "date": "2026-10-28"
+     }
+    ],
+    "iv": 0.5496871203613283,
+    "imove": 6.925406758910971
+   },
+   "news": [
+    [
+     "CVLT Q3 deep dive: SaaS growth, identity resilience, and AI readiness shape outlook",
+     "https://finance.yahoo.com/markets/stocks/articles/cvlt-q3-deep-dive-saas-023529774.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 31 Oct 2026 02:35:29 +0000"
     ],
     [
-     "PBF Energy (PBF) Stock Price Trails Its Q3 Earnings Windfall - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaDhyMXlzaVJIcmRlbmtyVlg4c2xEMUEtMWV0OVRDV1JNalFfT3NBMng3RnpKYzF1dk5yZVNIek03M19XSy1OUlE2elROOVJFX21jQ2VhU1VOdWFLX0NGbjFWRC1xMEZXMEZBOHdmai1UeE9OSlkzZXFfTU9EcHpab21ZbEM4bG12QktF?oc=5",
-     "Yahoo Finance",
-     "Sat, 31 Oct 2026 07:12:01 GMT"
+     "5 must-read analyst questions from Commvault\u2019s Q3 earnings call",
+     "https://finance.yahoo.com/markets/stocks/articles/5-must-read-analyst-questions-181634164.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 18:16:34 +0000"
     ],
     [
-     "PBF Energy (PBF) Stock Dropped, So What Is Driving Attention Now? - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdG1zOXNULUpNcHRTME1wb0VSRlNEbjdwOUZGZWEwYlh6UlBPODdZVVBQRHZqSnlxbDVDcjVfOGNNd3dyM09mRFVwdG55UV9ydlVGeXB6anVVV1dYTkwyUG5ianNWaDBKcl9USGh0dV9lR0xCNTlTYnFUd1BqUzd3WjRTd0N5OGVtczNRdWl3?oc=5",
-     "Yahoo Finance",
-     "Wed, 28 Oct 2026 21:09:43 GMT"
+     "What Makes Commvault Systems (CVLT) a Strong Momentum Stock: Buy Now?",
+     "https://finance.yahoo.com/markets/stocks/articles/makes-commvault-systems-cvlt-strong-150003936.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 15:00:03 +0000"
+    ],
+    [
+     "Commvault Faces Continued Traction on SaaS Transition, Multi-Product\nAdoption, RBC Says",
+     "https://finance.yahoo.com/technology/articles/commvault-faces-continued-traction-saas-170433776.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 28 Oct 2026 17:04:33 +0000"
+    ],
+    [
+     "Commvault Advances Identity Resilience, Enabling Customers to Identify and Manage Hidden Risks in Identity Systems Before Attackers Exploit Them",
+     "https://finance.yahoo.com/technology/ai/articles/commvault-advances-identity-resilience-enabling-123000881.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 28 Oct 2026 12:30:00 +0000"
+    ],
+    [
+     "Commvault (CVLT) Q2 Earnings Power Upends A Modest Stock Reaction",
+     "https://finance.yahoo.com/markets/stocks/articles/commvault-cvlt-q2-earnings-power-060807158.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 28 Oct 2026 06:08:07 +0000"
+    ],
+    [
+     "Commvault Systems, Inc. (CVLT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9LbXNLT0xZN2l1Q01LQmFra2pIS2xNZkp0dlBTX25ub041b1Z2c3ZfSXl2Zk5TYm1CZ1dkWVg5cmRRX2JOWDBBMEJBTGxnLVluZWc?oc=5",
+     "Yahoo! Finance Canada",
+     "Sun, 01 Nov 2026 20:18:52 GMT"
+    ],
+    [
+     "Commvault Systems, Inc. (CVLT) stock price, news, quote and history - Yahoo Finance UK",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OGtMLXJOamVFZVBYVC1femNsY0I2VjJLa2tsYVFZLVZWVjdwSTlJNDJ1WU0zTjI3SUQ3ZG1ObUNnb3RhRUk1TlhlZ3BNVGY0MlE?oc=5",
+     "Yahoo Finance UK",
+     "Sun, 01 Nov 2026 05:53:41 GMT"
+    ],
+    [
+     "Commvault Systems (NasdaqGS:CVLT) Stock Forecast & Analyst Predictions - Simply Wall St",
+     "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTWpRYUNXb0hzcTVsUHEwSnlJZFFEQllHYW8xbHNuT1RqRndoSk1DOTBybHZDaXhiUWRPYnZHMUwtQ2pQRUhJNFNWYlR4UHZ2U0x1ZXN5TUM0ejNoaWpTeWdxeHVfZmJJMnpNSXBSVTRldzUtWXlOaVlub0ExR1NsY1loTQ?oc=5",
+     "Simply Wall St",
+     "Wed, 28 Oct 2026 07:00:00 GMT"
+    ],
+    [
+     "Analysts Offer Insights on Technology Companies: CommVault Systems (CVLT), Enphase Energy (ENPH) and Corning (GLW) - The Globe and Mail",
+     "https://news.google.com/rss/articles/CBMimgJBVV95cUxPa2VWd3VkZ2ZRU2pUSlJvSFhma3A5cU8zREZyXzJ5RGV1dUxLZlVhemRVLXlxQXRVclFBekJDNS1vc3lSQU9fb09leG95UGQ1UlRTdGZfdUdkQVpaVFpyYUlpdU53c0J1Z25Yb3hQdjlRVnpSZ0dqSFg3bnZzSml0YmxMd1dTUm5LWlFrQXZEclZvWnZKdEE0TkxhdmZYSm9zWk5fUmUxVnZmSXo2UjZzSEtoelBnUG9ZaGJtczVoSXpuSUliVzRZemU2VkZVeGFla0ZrQlRDdlRJTDEtY1U1LXVCWm5lUUlFSzlxaG5vNTRSZVRqUzhONmpVam1nODJTMjVtUmRoOUxhb1NZSmJhcDJDQ21Xal8zVXc?oc=5",
+     "The Globe and Mail",
+     "Thu, 29 Oct 2026 10:36:00 GMT"
     ]
    ]
   },
@@ -1457,18 +606,19 @@
    "t": "PATH",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 13.34000015258789,
-   "buy": 12.654000377655029,
-   "tgt": 13.702807634183257,
-   "stop": 11.520429025377545,
+   "c": 13.130000114440918,
+   "buy": 12.770999622344972,
+   "tgt": 13.511871794269144,
+   "stop": 11.620999731336322,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "UiPath, Inc.",
-   "drop": -6.713286890506254,
-   "rvol": 0.7813228908658998,
+   "drop": -6.6145112192047435,
+   "rvol": 0.722574558066756,
    "dd": {
+    "ind": "Software - Infrastructure",
     "short": 0.25030002,
     "dtc": 2.63,
     "ratings": [
@@ -1477,8 +627,8 @@
      2
     ],
     "moves": [],
-    "iv": 0.6127968408203126,
-    "imove": 7.720514500078959
+    "iv": 0.5903361279296876,
+    "imove": 7.437536116375071
    },
    "news": [
     [
@@ -1518,12 +668,6 @@
      "Tue, 27 Oct 2026 16:39:00 +0000"
     ],
     [
-     "UiPath (PATH) Stock Could Be A Bargain On A 73% Five Year Fall - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWHNyeENBdzVtY2JDekNERDJyZFJKY3ZSQmJBdDN1My1YUXNFVVBZaUJOYXFsbUJPeWdxZF9PTTgtTndkR29lR2dzR3NPWkwtRldqVHlvNlUzZ2xNNkVJRUdtUDh3R04ySHdFZk5VME9UOEVQU1RCNU9wWkR2bURXOE42UHRoejZ4ZXl5Q2lETUtkUWpqSzBKLVlDVTc?oc=5",
-     "Yahoo Finance",
-     "Tue, 27 Oct 2026 05:11:00 GMT"
-    ],
-    [
      "Uipath Stock Price Forecast. Should You Buy PATH? - StockInvest.us",
      "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Oakx6bUpTMXozY3ZfV1R4UmswN1ZzXzZHM2hpV25lLWZqdFdpZU9CSlBrUmh5VGt1SUpfalJ0bGV0a2plZXNIXw?oc=5",
      "StockInvest.us",
@@ -1536,6 +680,12 @@
      "Sun, 01 Nov 2026 17:43:34 GMT"
     ],
     [
+     "CFTC gets into legal clash over stock perps after having cleared path for crypto version - CoinDesk",
+     "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQXBNbndnX2JwaXFuQS1MTlZxRDRRRDVJVjQ1bE1pb3BhbEFyc0ZOU2FLRi1mWWQxVzQ1bGg5cGJGemRMY0dmX1RhN2luSzl3Y0YzUXRYVy00aURPdU1mNElzX3NmUk9BbHVaMmFLaktlQlMtVE5DZk5fM2RsLVhPd1FQa0JxLXBqWklvV2VGM3l0UXlQQklvR21DTU9OSE5NQ2J6V19BNWQySl93X25EVnFJOU40RWxOZHM0RDlKVjFhWlJJbjdiTi02RQ?oc=5",
+     "CoinDesk",
+     "Tue, 03 Nov 2026 22:14:44 GMT"
+    ],
+    [
      "Anthropic's path to the Nasdaq just got a lot bumpier - CNBC",
      "https://news.google.com/rss/articles/CBMib0FVX3lxTE1samp0RmQyX1c5aFBfNjBzQVluay0zQ2RJbW1jVktrZUZnWTBwTlloNUNnSGJiMFdMNzRQbWFFbFN5T05Nemc5NHJBODBuNEVqQjJ5bzlaR2ZXTjBXb3p1OTRkVmV6M2VJRmthNDBCVdIBdEFVX3lxTE41WkJMbHlKSUdYcnRhc3hWcmFJZWgyYjRBd0tyZ3VoaHgxMnV0dDYzdng4emRyTmtFVU5KOEktT3dTQzRBQlVhUDZGb0l4MndZWU9EWmYwcWR1UkFoOW9KMkV3djdfTzZJNnBEX2tSbVlpb3A2?oc=5",
      "CNBC",
@@ -1544,125 +694,201 @@
    ]
   },
   {
-   "t": "RMD",
+   "t": "CRM",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 232.94000244140625,
-   "buy": 225.72000274658203,
-   "tgt": 240.327703874746,
-   "stop": 211.50714045933313,
+   "c": 222.1999969482422,
+   "buy": 217.8990005493164,
+   "tgt": 229.22526726343276,
+   "stop": 199.02757110595704,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
-   "name": "ResMed Inc.",
-   "drop": -8.001577705775953,
-   "rvol": 1.2554301990675174,
+   "name": "Salesforce, Inc.",
+   "drop": -7.758729083300164,
+   "rvol": 0.9390756464374588,
    "dd": {
-    "short": 0.0851,
-    "dtc": 10.34,
+    "ind": "Software - Application",
+    "short": 0.0392,
+    "dtc": 2.78,
     "ratings": [
-     9,
-     10,
+     40,
+     15,
      1
     ],
     "moves": [
      {
-      "firm": "Canaccord Genuity",
-      "action": "down",
-      "to": "Hold",
-      "pt": 0.0,
-      "prior": 0.0,
-      "date": "2026-11-02"
-     },
-     {
-      "firm": "Citigroup",
+      "firm": "DA Davidson",
       "action": "main",
       "to": "Neutral",
-      "pt": 270.0,
-      "prior": 240.0,
-      "date": "2026-10-30"
-     },
-     {
-      "firm": "RBC Capital",
-      "action": "main",
-      "to": "Outperform",
-      "pt": 288.0,
-      "prior": 262.0,
-      "date": "2026-10-30"
-     },
-     {
-      "firm": "Wells Fargo",
-      "action": "main",
-      "to": "Equal-Weight",
       "pt": 250.0,
-      "prior": 215.0,
-      "date": "2026-10-30"
+      "prior": 225.0,
+      "date": "2026-10-21"
+     },
+     {
+      "firm": "Cantor Fitzgerald",
+      "action": "reit",
+      "to": "Overweight",
+      "pt": 300.0,
+      "prior": 300.0,
+      "date": "2026-10-21"
      }
     ],
-    "iv": 0.3786072882080078,
-    "imove": 4.77000347216641
+    "iv": 0.5064868687744142,
+    "imove": 6.381134748080503
    },
    "news": [
     [
-     "ResMed: 3 Key Takeaways for Long-Term Investors",
-     "https://www.fool.com/earnings/takeaways/2026/11/02/resmed-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "Why Salesforce and ServiceNow could emerge as AI winners",
+     "https://www.thestreet.com/investing/why-salesforce-and-servicenow-could-emerge-as-ai-winners?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 09:33:51 +0000"
+     "Tue, 03 Nov 2026 23:34:30 +0000"
     ],
     [
-     "What Sent ResMed Stock Lower?",
-     "https://www.trefis.com/stock/rmd/articles/621888/what-sent-resmed-stock-lower/2026-11-01?.tsrc=rss",
+     "Salesforce vs. IBM: Comparing Consistent Revenue Expansion Against Slow Sales Growth",
+     "https://www.fool.com/coverage/charts/2026/11/03/salesforce-vs-ibm-comparing-consistent-revenue-expansion-against-slow-sales-growth/?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 01:23:30 +0000"
+     "Tue, 03 Nov 2026 20:43:52 +0000"
     ],
     [
-     "RMD Q3 deep dive: product innovation and supply chain execution drive results amid evolving landscape",
-     "https://finance.yahoo.com/healthcare/articles/rmd-q3-deep-dive-product-230700542.html?.tsrc=rss",
+     "Salesforce Is Down 16% This Year. Another AI Deal Didn\u2019t Help.",
+     "https://finance.yahoo.com/m/2c8ccdcf-8f21-3f47-8d63-60477d85e33c/salesforce-is-down-16%25-this.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Sat, 31 Oct 2026 23:07:00 +0000"
+     "Tue, 03 Nov 2026 17:08:00 +0000"
     ],
     [
-     "ResMed (RMD) Looks Fully Valued After Another Earnings Beat",
-     "https://finance.yahoo.com/markets/stocks/articles/resmed-rmd-looks-fully-valued-191602154.html?.tsrc=rss",
+     "Salesforce (CRM) Files Share Offering, Is The Pullback A Valuation Opportunity?",
+     "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-files-share-offering-161757085.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 19:16:02 +0000"
+     "Tue, 03 Nov 2026 16:17:57 +0000"
     ],
     [
-     "ResMed (RMD) Q1 2027 Earnings Call Transcript",
-     "https://www.fool.com/earnings/call-transcripts/2026/10/30/resmed-rmd-q1-2027-earnings-call-transcript/?.tsrc=rss",
+     "The Selloff Didn\u2019t Stop Salesforce From Spending $2.7 Billion on an AI Startup",
+     "https://247wallst.com/investing/2026/11/03/the-selloff-didnt-stop-salesforce-from-spending-2-7-billion-on-an-ai-startup/?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 15:00:40 +0000"
+     "Tue, 03 Nov 2026 15:48:10 +0000"
     ],
     [
-     "ResMed (RMD) Reports Q1 Earnings: What Key Metrics Have to Say",
-     "https://finance.yahoo.com/markets/stocks/articles/resmed-rmd-reports-q1-earnings-123001112.html?.tsrc=rss",
+     "Salesforce Stocks Decline 3% With Cresta Voice AI Deal in Focus",
+     "https://finance.yahoo.com/markets/stocks/articles/salesforce-stocks-decline-3-cresta-153514947.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 12:30:01 +0000"
+     "Tue, 03 Nov 2026 15:35:14 +0000"
     ],
     [
-     "RMD Stock Up on Q1 Earnings and Revenue Beat, Gross Margin Climbs - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMilAFBVV95cUxOclB5ZjRraFQyUExwZVdKNk9aSV8tVUZwa3RoRC1mMmZCSXlUY2V3SzVQX1o0eGNRa1dXc1prczlWb3pqOWlybzZBY01fMm51NEtMZUwtOVBoOF80Q0hZVDdNMmJpOGlFWEw1ZzNEX21POXY2UUFDeWtaSlFib3ltcDFucnJJLURoc1ZKRDRrVFVNZ3JJ?oc=5",
+     "Salesforce (CRM) Stock Sees Modest Fair Value Lift As AI And Braze Views Evolve - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxPZEtENTEySkp3WWdjMDNrZGx5NEVaRDdIMklHSUtEWjdsbUg0VGxaRThWX1FpaF9ySE15SHlnRENPRER1QVNJSWxRSUdVUTUxaGlEMWZocURBcFd2WE9QS3ZaeWlOeXlaSXNxTzE1bTBLYmgyODV0QjJmYzZTVnVaS0dnRlFINm5QV2RWcUNIZ3FnUlZ2MjFhWTlGZDJVZw?oc=5",
      "Yahoo Finance",
-     "Fri, 30 Oct 2026 10:28:00 GMT"
+     "Thu, 29 Oct 2026 18:13:54 GMT"
     ],
     [
-     "75 and Stocks Are Down? Your RMD Doesn\u2019t Have to Come From the Bottom - 24/7 Wall St.",
-     "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeWFEMjVVMGs4UkpzeERlZVpxX25Obm9YSTRYZ0czWGpqLUhQN2JmZkg1LVk5M3lxZkh5TTFSYWVmR1dTZjY2M2Q4alIwYzQxQzQ3a1IxcW90UVZDTy1aUEN2ZXhDZm9LMEt5d3hOSWtpY2hsTzNWc2lDeVNQWTJLMUp2cks2T0l2bmtHUXN6cmtGMXJYYWlfdkVtSlphQlpTRE5ud3NnVkU0YjdMNUl3WFpGdms3Zw?oc=5",
-     "24/7 Wall St.",
-     "Fri, 30 Oct 2026 21:03:00 GMT"
+     "Salesforce (CRM) Stock Forecast & Analyst Ratings - Moomoo",
+     "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOM3BtMjdua1NJTEk5UmxERkJMcmhJYlhDTlNyMTJDcWFIWlVkSUV1WVdVbHBlTzQzSUFxTmJhZDVXajVSSU8xYmZSdnQ1MDY1R1lPekZ0SEwyMUIwRU1GXzByNHBROFRKVGtqVFE0OW9ieEFnN2N3R0hyaVJnTzY0b1FqZWdmaE52Sko0R0NpckVBalhRQm1LQkZwdExJREtmNTFjLVpWbXRkRXE4M3dYcE9KbmQtVmxzMmtPcHkxaUg1VlFodVBLQjg5TnFERWcySnZVR29CNnpVYkV3R3ZfVkVOaV9KRmNoZ0plUXBmVEFGamhZcFNlc0lwMU1BTHVZX2hZb0hrb1FJSVF0S1VjVG9RZklhTnQyQXpLU1QzdWtjNFZkeXJ3MzkyY0dMWmU1dFRxWDhiRlZSLTYzMTUwSnIyaHluc0Yx?oc=5",
+     "Moomoo",
+     "Sat, 31 Oct 2026 14:37:38 GMT"
     ],
     [
-     "ResMed (RMD) Reports Q1 Earnings: What Key Metrics Have to Say - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUUFMWlJkUlM1Y0cyQk81VnNLZE9NendMeGx6VTJCQ1lrMjVIbjMtT1BSRDBGaWJ3RTBJWWdpNGxhdDViTHJZYlVJa1Iyc0V4VGdvTW4tczlxcDQ5aV8zbFRFb0VVLUhhREQzd25FRnhqa3FHUnd0ZmkxMlE2NnZoOVZXSi1GdG4yX1hGcGtuazBvUFkyZmYwWGxQNA?oc=5",
+     "Can You Still Buy Salesforce Stock Today? - Trefis",
+     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUDF5enBJMElmRnc4ek01U09LZkstMkIzUFRlVUtpbGhsME1acmdVSHRKLUxBLXNiRUFnUWhRMGRIYXNqa2dnTHNuaE1JamhWRWN0YVFZU0U3LW5qeXhhc0doaHJsZGxoSzc0bXlQTVc0Y3dmeEpMYjUtVnlFVDduQ0MwVUpPelc2aFdBRDRPWC1vVDI4QW1fMkVQcy1XMWNzaHc?oc=5",
+     "Trefis",
+     "Thu, 29 Oct 2026 14:02:38 GMT"
+    ],
+    [
+     "Why Is Salesforce Stock Falling on Thursday? - Salesforce (NYSE:CRM) - Benzinga",
+     "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUWJEQUJOTVMwOHJKMTJ3VVh0emMwalFfaW4ySVM5UkVUeUhVREcyNk1HTkNtMEdaS21nNUtPbGJBOFNyMXVtWnZYVVlYcE1vSjAzNWFzaUxzaHhEUjI3ZWdMM0doV0dZV2tyalNJQkE3UTQ3YTdJQ2djWkUzLUJIcDQ0UkxVeXQzVWh3YndwNHc4ZU1qMTZfbzlodnZYdWxaV3V0cFZhTQ?oc=5",
+     "Benzinga",
+     "Thu, 29 Oct 2026 16:00:51 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "CSCO",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 102.97000122070312,
+   "buy": 99.26100082397461,
+   "tgt": 104.74501617838534,
+   "stop": 92.81814607892719,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": 6,
+   "name": "Cisco Systems, Inc.",
+   "drop": -7.550723864339803,
+   "rvol": 1.2479482899289216,
+   "dd": {
+    "ind": "Communication Equipment",
+    "short": 0.0153,
+    "dtc": 3.16,
+    "ratings": [
+     19,
+     10,
+     0
+    ],
+    "moves": [],
+    "iv": 0.7353729888446513,
+    "imove": 9.264828806462965
+   },
+   "news": [
+    [
+     "Logicalis strengthens global managed services with Cisco Secure Networking Specialization",
+     "https://finance.yahoo.com/technology/articles/logicalis-strengthens-global-managed-services-211400036.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 03 Nov 2026 21:14:00 +0000"
+    ],
+    [
+     "Cisco Schedules Conference Call for Q1 Fiscal Year 2027 Financial Results",
+     "https://finance.yahoo.com/markets/stocks/articles/cisco-schedules-conference-call-q1-210500831.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 03 Nov 2026 21:05:00 +0000"
+    ],
+    [
+     "Top Analyst Reports for Eli Lilly, Cisco & KLA",
+     "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-eli-lilly-201200869.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 03 Nov 2026 20:12:00 +0000"
+    ],
+    [
+     "Cisco AI backlog and core demand underpin Bank of America\u2019s bullish outlook",
+     "https://www.proactiveinvestors.com/companies/news/1101169/cisco-ai-backlog-and-core-demand-underpin-bank-of-america-s-bullish-outlook-1101169.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 03 Nov 2026 18:11:00 +0000"
+    ],
+    [
+     "LOGICALIS BECOMES FIRST CISCO GLOBAL PARTNER TO ACHIEVE SECURE NETWORKING SPECIALISATION ACROSS FIVE COUNTRIES",
+     "https://finance.yahoo.com/technology/ai/articles/logicalis-becomes-first-cisco-global-140000515.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 03 Nov 2026 14:00:00 +0000"
+    ],
+    [
+     "Anthropic's long-term leadership in AI looks 'extremely strong': Fmr. Cisco CEO",
+     "https://finance.yahoo.com/video/anthropics-long-term-leadership-in-ai-looks-extremely-strong-fmr-cisco-ceo-152529386.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 02 Nov 2026 15:25:29 +0000"
+    ],
+    [
+     "Earnings Preview: What to Expect From Cisco\u2019s Report - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMiowFBVV95cUxONmYwWUpHdjB5Vl9lbDMtbU1KczA1VDFRQ1EyLWVPc3VJYV9sNXJrTVJpSlV5WjZ3UmpUOERCdG82VmhSMDN4ZnJPeVh6V1NqR2QxRVlxSUpHdzBjVUdpNDYyUUsxWXB1aF8yd2xpQWdWcVZ0c3FvZVdEcXd2YW00UGlNNnBrNEtSM2ZIZjNPZ091MVJiMnBCOUhPVDlwZTNWQktF?oc=5",
      "Yahoo Finance",
-     "Fri, 30 Oct 2026 12:30:01 GMT"
+     "Thu, 29 Oct 2026 06:36:00 GMT"
     ],
     [
-     "ResMed (RMD) Looks Fully Valued After Another Earnings Beat - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUUhGczYxa0RjbE5HMC1vTjVTaWRLa2dZb1hWV3dudXdwZVYzTlNxVWZRM0ExTEwxWWNIVjdtRTBrTVV6OHF6dk5hb2JHWEVSRTZoNUtpZ0ZrZF9NTWZkY193akU5dWJ0Wks0ZmtUcFFReDNIMW1ERDltekM2TUljZVpRWGp5MXFISVRmOElIMVljblNOajdVcFJB?oc=5",
-     "Yahoo Finance",
-     "Fri, 30 Oct 2026 19:16:02 GMT"
+     "The Dates That Matter Most For Cisco Stock - Trefis",
+     "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX2xxZ3Y5YkJGaWMzRGJ6WHNmWnVMdTNKSGdRZ1dSSVNraXFtZjN5VUM5U1ppQlRQR3c1Y1ZEVUdNSDJJUDdvcHhUdXZDUmtpRVN3cGN3TUZGMTk2SHBNMm5femVfX0poZGw4RG1GQVQ3NXdpcEo1NF9TR0RwempNU01VYkh6WnBISS1CYzFWcjZrNXV1R1hpcGJxeVlYaFY4VkxGek5R?oc=5",
+     "Trefis",
+     "Mon, 02 Nov 2026 08:18:05 GMT"
+    ],
+    [
+     "Cisco Stock Price Forecast. Should You Buy CSCO? - StockInvest.us",
+     "https://news.google.com/rss/articles/CBMiSEFVX3lxTE93YnZPblFjOGZNSFR4TTh3dlBqelJvcU0wVmVTT2ktN2Nad0tWQ0hpMkpic0JfRWVIRk5YOTF3Vjl1ZE5meVN0TQ?oc=5",
+     "StockInvest.us",
+     "Fri, 30 Oct 2026 22:18:10 GMT"
+    ],
+    [
+     "Cisco Systems, Inc. (CSCO) stock price, news, quote and history - Yahoo Finance Singapore",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mR3M4RGJZb3BnUE9hX3BsMExHdUo0NGNtM1NrSFYteWlnVDBuc1dZemt1Q2xjdzNiWnNIc2RPckxVNTF3eWFLbXRvU2loMlQ3bnc?oc=5",
+     "Yahoo Finance Singapore",
+     "Tue, 03 Nov 2026 21:59:24 GMT"
     ]
    ]
   }
@@ -1670,249 +896,235 @@
  "macro": [
   [
    "S&P fut",
-   7564.0,
-   -0.13862301
+   7528.75,
+   -0.8951196
   ],
   [
    "Nasdaq fut",
-   28128.0,
-   0.0017776198
+   27909.25,
+   -1.4007754
   ],
   [
    "VIX",
-   21.15,
-   8.9083395
+   20.83,
+   -1.513001
   ],
   [
    "US 10Y",
-   4.894,
-   -0.7100801
+   4.952,
+   1.1851264
   ],
   [
    "Brent",
-   105.3,
-   0.5058761
+   103.3,
+   -0.28957087
   ],
   [
    "Gold",
-   3932.9,
-   -0.9245313
+   3959.7,
+   0.48979923
   ],
   [
    "Bitcoin",
-   76695.17,
-   -1.985709
+   77245.05,
+   0.95289594
   ],
   [
    "Dollar",
-   101.777,
-   0.031448897
+   101.427,
+   -0.43192643
   ]
  ],
  "sectors": [
   [
-   4.456981419276729,
-   "Materials",
-   8.424238725142041
-  ],
-  [
-   3.413269256925955,
-   "Discretionary",
-   7.00960480122601
-  ],
-  [
-   3.26284990501855,
-   "Staples",
-   12.080455089989472
-  ],
-  [
-   2.967429362138696,
-   "Health",
-   10.294563834015879
-  ],
-  [
-   2.749019819606091,
-   "Financials",
-   6.82999300709648
-  ],
-  [
-   2.632194951743405,
-   "Utilities",
-   9.256934789198134
-  ],
-  [
-   1.9626172139286746,
+   2.8982082517369445,
    "Real estate",
-   7.302683438454016
+   6.253040852160696
   ],
   [
-   1.647101035826437,
+   2.7012009122232117,
+   "Health",
+   10.1322690200641
+  ],
+  [
+   2.344304820246723,
+   "Financials",
+   5.88779930383363
+  ],
+  [
+   2.065399186285477,
+   "Staples",
+   8.740823508234241
+  ],
+  [
+   2.024779176005387,
    "Industrials",
-   -0.22927652889741523
+   -0.15152960954735173
   ],
   [
-   -3.4319348227962454,
-   "Energy",
-   5.988966416656205
+   1.628414839764214,
+   "Discretionary",
+   5.021482768576946
   ],
   [
-   -3.456905527817833,
+   1.5643132336551568,
+   "Materials",
+   5.751056981053315
+  ],
+  [
+   1.3302210387906133,
+   "Utilities",
+   5.49076367811332
+  ],
+  [
+   -2.0660352884902533,
    "Comms",
-   -10.169338242139936
+   -9.144647510019176
   ],
   [
-   -6.150067918261892,
-   "Semis",
-   -19.81227670271133
+   -2.2430711036985795,
+   "Energy",
+   4.596078910079648
   ],
   [
-   -6.494206541362024,
+   -6.849971296663659,
    "Tech",
-   -13.293182913800782
+   -12.618814600576266
   ],
   [
-   -8.519613893319978,
+   -7.071931309139501,
+   "Semis",
+   -18.020550271739133
+  ],
+  [
+   -8.158879242067629,
    "Software",
-   -7.127232599181433
+   -7.646635228474141
   ]
  ],
  "news": [
   [
-   "U.S. reportedly strikes Iran's Qeshm Island as Vance hopes for \u2018negotiated settlement\u2019 with Tehran",
-   "https://www.cnbc.com/2026/11/03/iran-us-vance-trump-strikes.html",
+   "Midterm elections could jolt stocks as Democrats look poised to sweep Congress",
+   "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
    "CNBC",
-   "Tue, 03 Nov 2026 04:27:41 GMT"
+   "Wed, 04 Nov 2026 03:38:08 GMT"
   ],
   [
-   "North Korea denies links to Binance hack as researchers trace stolen billions",
-   "https://www.cnbc.com/2026/11/03/north-korea-binance-elliptic-chainalysis.html",
+   "Stock market after midterm elections: What S&P 500 history shows",
+   "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
    "CNBC",
-   "Tue, 03 Nov 2026 03:27:18 GMT"
+   "Tue, 03 Nov 2026 18:21:05 GMT"
   ],
   [
-   "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
-   "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
+   "Google responds to political backlash over removing search from schools that ban AI",
+   "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html",
    "CNBC",
-   "Mon, 02 Nov 2026 22:53:20 GMT"
+   "Wed, 04 Nov 2026 01:07:01 GMT"
   ],
   [
-   "Australia hikes rates to 18-year high to fight inflation",
-   "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html",
+   "Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports",
+   "https://www.cnbc.com/2026/11/03/trump-doj-election-lawsuits-monitors-2026-midterms.html",
    "CNBC",
-   "Tue, 03 Nov 2026 03:46:20 GMT"
+   "Tue, 03 Nov 2026 23:26:39 GMT"
   ],
   [
-   "Trump focuses on Reflecting Pool in final public speech before midterms",
-   "https://www.cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html",
+   "What the 2026 midterm elections could mean for Trump's final two years",
+   "https://www.cnbc.com/2026/11/03/midterm-elections-congress-trump-democrats-republicans.html",
    "CNBC",
-   "Mon, 02 Nov 2026 21:15:13 GMT"
+   "Tue, 03 Nov 2026 18:29:24 GMT"
   ],
   [
-   "OpenAI hires former U.S. Army Secretary Dan Driscoll for national security role",
-   "https://www.cnbc.com/2026/11/03/openai-hires-dan-driscoll-national-security.html",
+   "Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways",
+   "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html",
    "CNBC",
-   "Tue, 03 Nov 2026 02:47:57 GMT"
+   "Tue, 03 Nov 2026 20:10:41 GMT"
   ],
   [
-   "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
-   "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+   "AMD stock jumps 8% on earnings as data center revenue nearly doubles",
+   "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
    "CNBC",
-   "Mon, 02 Nov 2026 20:19:25 GMT"
+   "Tue, 03 Nov 2026 23:04:37 GMT"
   ],
   [
-   "Trump Account holders to receive SpaceX stock from Gwynne Shotwell in December",
-   "https://www.cnbc.com/2026/11/02/trump-accounts-spacex-shares-shotwell.html",
+   "Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto",
+   "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
    "CNBC",
-   "Mon, 02 Nov 2026 19:46:47 GMT"
+   "Tue, 03 Nov 2026 18:40:37 GMT"
   ],
   [
-   "Here\u2019s why Palantir\u2019s stock is down despite a \u2018bombastic\u2019 quarter",
-   "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+   "Democrats win the Senate but control of the House is still up in the air. Here\u2019s what it means for your finances.",
+   "https://www.marketwatch.com/story/democrats-win-the-senate-but-control-of-the-house-is-still-up-in-the-air-heres-what-it-means-for-your-finances-ed78cd6e?mod=mw_rss_topstories",
    "MarketWatch",
-   "Tue, 03 Nov 2026 00:59:00 GMT"
+   "Wed, 04 Nov 2026 04:46:00 GMT"
   ],
   [
-   "Apple\u2019s iPhone business is booming. Here\u2019s why the stock is falling anyway.",
-   "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
+   "Here\u2019s why AMD\u2019s stock is rising \u2014 and sending a confident message about the AI trade",
+   "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
    "MarketWatch",
-   "Tue, 03 Nov 2026 00:52:00 GMT"
+   "Wed, 04 Nov 2026 01:16:00 GMT"
   ],
   [
-   "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
-   "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+   "Super Micro\u2019s stock pops as earnings show booming demand for AI servers",
+   "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
    "MarketWatch",
-   "Tue, 03 Nov 2026 00:03:00 GMT"
+   "Wed, 04 Nov 2026 01:12:00 GMT"
   ],
   [
-   "Marvell and Lumentum shareholders unite in panning merger deal: \u2018It\u2019s a trash offer\u2019",
-   "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories",
+   "What analysts are telling us while Apple\u2019s stock falls after earnings report",
+   "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
    "MarketWatch",
-   "Mon, 02 Nov 2026 23:39:00 GMT"
+   "Tue, 03 Nov 2026 22:48:00 GMT"
   ],
   [
-   "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
-   "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+   "Shopify\u2019s stock slides after earnings. This is what\u2019s worrying Wall Street.",
+   "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
    "MarketWatch",
-   "Mon, 02 Nov 2026 22:03:00 GMT"
+   "Tue, 03 Nov 2026 22:45:00 GMT"
   ],
   [
-   "Wall Street\u2019s most hated stocks are faring far better than its favorites",
-   "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
+   "AI\u2019s control over the bond market is growing \u2014 even rivaling war and elections",
+   "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
    "MarketWatch",
-   "Mon, 02 Nov 2026 21:45:00 GMT"
+   "Tue, 03 Nov 2026 22:06:00 GMT"
   ],
   [
-   "October dive for AI-related shares tests broader US stock market's resilience - Reuters",
-   "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVlEWkkyN3lYZG41WXJvcl9pNWlKYW5VNjdmb1lHYkNGVHpmT1BHLWVDUFQydFNra3JIeVlfVFh5ZzhoTzRfMVdwZ2didmtGZ0hGZDN6ZmtTbUk5b2lIb3JfZ2poRld3R1BCM28zLUlHUnlZcHJQMXp3S01PTGNBSmxRN1pYMThUZXQtbHBHaU5CWnhTMFF6VTFidG05QzdQTnVJYmJiZl9YQTFxX3ZhWExjN0NZOUpTWjFTaUh5WUFSem9MdW1Z?oc=5",
+   "Stocks Slide With Dollar on Rising Blue-Wave Bets: Markets Wrap - Bloomberg.com",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVc2azZiNTdEZEJUM0RFOERmNk1QaTRQOGdkbE5EOUM5YVE5M2pqVTFkYmJsTC13MnpKaVRSd2ZLYmowSlhpOE5VcjdJNnJleWZsTDJ2SGN2b3JTOE9pdkZLMmdCblZhSE5ucGoyd2k2SEJwOFpVZVp1aWk1aWJYSHdvQ3VTMGtGa3FXa3NYUWxiWEsz?oc=5",
+   "Bloomberg.com",
+   "Wed, 04 Nov 2026 03:31:00 GMT"
+  ],
+  [
+   "Indian stocks muted after four sessions of gains; US election results in focus - Reuters",
+   "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0tFa0Z0bnRlSFU3NTdYOFVXaGdid3Fad1NTRnViRDBTUWg2Um1BQ21RVlNkSWdjR2Y1Z2VXdV9fWXdjY19GZkJDZ2F0ZFFvckRQY2V0eDRwVzZJMkJ5a29mbGlLZUQyQkFzX1VwVThZdEQtZEdiUVJMRzJxeGFXQUxmclZST2l1RzN6elNobi1IZC11a2N2cFJDZEdQNVo1MmgxWlFBaHA3VXlLWHc?oc=5",
    "Reuters",
-   "Mon, 02 Nov 2026 17:08:44 GMT"
+   "Wed, 04 Nov 2026 02:39:00 GMT"
   ],
   [
-   "After Tech Sell-Off, Investors Brace for More Market Volatility - The New York Times",
-   "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnVYZlFEd2dVa0N2SXlxM2xacnZiSXRUcEdPZU4wOHhleVV2MmNYU3ZhbEFFYjJsM3pCWjVkdUhEV0s0dWotM1E2VjZVb3d2TzZYVzlWRjI5Mm1TeENpdTB0RjE0ZzBjR1NPRWpNOFQ3Z1ozUjBPZmNTeDJJSVZQVkNiRHE2Uks3aldGbDRReXUxbnNRYVNsRDlQSVc5OWJDa3ZVUkVNZFB4Rzk4RkQ4OA?oc=5",
-   "The New York Times",
-   "Mon, 02 Nov 2026 21:36:00 GMT"
+   "How Wall Street analysts think the midterms could affect the stock market - CBS News",
+   "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKNExSNUh0clVZWHY5bmZ0dGVxMHFBT25FbU9ybTZ1MElfRHhNN1hKSFhja1J4VTZPT0ttMkprWVVMWEhKMVdlTHVwVWRQMS1ZMkkzQ1YwZmpHQ184QjJud1ZQVk9GeGJxWUotMjhhMHpFTW5nMXNmQXFqdFo?oc=5",
+   "CBS News",
+   "Tue, 03 Nov 2026 18:26:48 GMT"
   ],
   [
-   "Stocks, Bonds Rise as Oil Tumbles on US-Iran Hopes: Markets Wrap - Bloomberg.com",
-   "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXhSWUZpNlU1UFZVSEtvY3QwQVB4T3FuYlpCT3lpaE05MThfMFFTZVZWWllFZDZDYkJFdTBIWEx1X1ZMVXlESFdaX3Noc2VSSW1QRHFzYzhPZkowLVNZeWR1N2dBN2hlLXY1VlJ3SHJNR3Ayc29JOXN4cXN3bklZQzN5bEctRER1aGp1eFdUVjhITWM0?oc=5",
-   "Bloomberg.com",
-   "Mon, 02 Nov 2026 21:49:43 GMT"
+   "China\u2019s AI stock-market struggles are a warning - The Economist",
+   "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM0syTWN4M010ZjVBWXJrVjBWdkNoNGE1ajd4Q2Y0eTdEMkJhbC1JVnNzdkJJSkNkSHhTbDNoNmw4Z1pZQk5EbGxkNUxJbTBQOTRJRGRrUzlKcTRGTWZxVVZxM2Rmb3FCVnJFQ2oyUTQ5UzhrODR4V29jM2toZFIyYVRXTVpRTVI1QXNBYk96a00weFk3T3NGZkQ3cXo?oc=5",
+   "The Economist",
+   "Tue, 03 Nov 2026 20:48:59 GMT"
   ],
   [
-   "US Stock Market Fails To Recover as $700 Billion Comeback Collapses - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbzY3ZFlzZS1ZWExBcDNpX3JpLWJMTk9OSzNJS285Q1M5bUFGcnhGVVJYUmoyWk5Uc2dIQ1dzd29VX1Z3WThKWUR5SzI0azFLSG9IZ2Z6T1psVVZMTk1jQkh4NnN4cmZyRDZBa0pibjF5cko3RGYxMmNhTmVxcUxaTmNqMTB6V2kzR3VkWEU2NjU4MmRrUW9HbER3?oc=5",
+   "US stock futures fall as investors weigh a potential midterm shake-up in Washington - Business Insider",
+   "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ0tvRDFCX1BhS2ZZTGxPVEdwc2NlalhETlcwVzJ6TE9VcDM0VXNZTW1fX2pZRVRfaWtzcmFPMFk1TmlKaXhldXpBMVlMVE4tVEtkV1JVV29PUGZsbFUzUTRkWWJYczJ1dFNucGxMd1VIdmw0eXZBV1ZJU3lBbV9jalZmYmR1c3JEX2hEMm1oVF80TXZkeGJ4dnV4THJxUTFEUlVIYkpuUUI?oc=5",
+   "Business Insider",
+   "Wed, 04 Nov 2026 02:32:00 GMT"
+  ],
+  [
+   "History Shows a Worst-Case Scenario Unfolding for Stocks on Election Night, as Well as a Silver Lining That Isn't Getting Enough Attention - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeWFCcXBRU3dfWE1zemdvamtKTWZPbDlTOUlSY3B6M05Dejg2dnFRYjNBQWxpMXB2NjVEcVlQN3pqcW9PLW1ueWsydXNHdGdUTS1jckZORk9FYlRzOEJYeXA0M3FKZVNSTXRNU0dlLXRHUlRTTlJpTGtmc242QkJyeGNldFNUVmhCbnBUcXA4Sk1BMDUtOUhGYjVkSjJ1bmc?oc=5",
    "Yahoo Finance",
-   "Mon, 02 Nov 2026 22:56:17 GMT"
-  ],
-  [
-   "Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap - Bloomberg.com",
-   "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGEyREpLdzRYM3VsY3NTclQ1Y2xud2pYNVl6Y0JhZ3RNczRVVjJ0aG43NmgyWkQ5SU85SmtVWGVCU0wySnBTdkhzZXR3R3RpMWloMWdlckxKM3BBUFB4VU9FbzhDQ2l2dm5xZlIwbFZJTHdJQVVyaU1Qc3djSmowcHdGMDNOVUIyMDdURnFwWWpUbmZN?oc=5",
-   "Bloomberg.com",
-   "Tue, 03 Nov 2026 04:34:28 GMT"
-  ],
-  [
-   "Dow Jones Futures: AI Trade Dives As Apple Tumbles On Earnings; Midterm Elections Next - Investor's Business Daily",
-   "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUFhSS0pDcDhxY3pENzBPOFQxQ3p4VkctbjFUT1Jfb1o0OUVoRVpLYUtFS0VqcnVkZGJGbnZwN1pSUGhaZ010dU9sSGw3SUJ0TUl4czk4a3VRc2pMbk10UGozZ1FWZ19pX3VScTZfVlBocmQ1ZDMwVWZHTjkxSHNBbHJiWHRwcHVXTTRqTHJwNjZpVWM2c1ZCNnNlVnFMUjdPa0dBSFFlM2xpS0w2bGE5OFQ1NWNudkw3ZWI2b1YwQ2l5SmJSS0J2Skl0VGJoaEUycFRIanYybTZ6MkFzU0pvSA?oc=5",
-   "Investor's Business Daily",
-   "Tue, 03 Nov 2026 03:03:00 GMT"
+   "Wed, 04 Nov 2026 04:21:00 GMT"
   ]
  ],
  "cal": [
-  [
-   "2026-11-03 10:00:00-05:00",
-   "JOLTS Job Openings",
-   "Medium",
-   "7.15M",
-   "7.08M"
-  ],
-  [
-   "2026-11-03 10:16:00-05:00",
-   "Congressional Elections",
-   "High",
-   "",
-   ""
-  ],
   [
    "2026-11-04 10:00:00-05:00",
    "ISM Services PMI",
