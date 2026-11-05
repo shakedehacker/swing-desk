@@ -1,120 +1,76 @@
 {
- "asof": "2026-11-03",
+ "asof": "2026-11-04",
  "model": "Claude",
- "generated_utc": "2026-11-04T05:03:13Z",
+ "generated_utc": "2026-11-05T05:02:49Z",
  "note": {
-  "mood": "risk-off",
+  "mood": "mixed",
   "bullets": [
-   "S&P futures -1.1%, Nasdaq -2.1% as early Democratic Senate wins raise odds of a Democratic sweep, pressuring risk assets.",
-   "10-yr yield down 7bp to 4.89% as election uncertainty boosts Treasuries; dollar weaker overnight.",
-   "Oil swung over $6 Monday (WTI ~$96) on US-Iran peace-talk hopes before partially rebounding as deal obstacles remain; hits energy names.",
-   "Software/AI-capex jitters persist: Oracle's $20B raise and heavy Alphabet/Amazon data-center spend keep pressuring software multiples sector-wide."
+   "Stocks surged Wed as Democrats won Congress; VIX fell ~20% to 16.6, but Thu futures dip (Nasdaq -1%) on an Asia chip selloff (Kospi -4.6%).",
+   "Oil fell further overnight (Brent near $88-94) on hopes a weaker Trump faces pressure to end the Iran conflict, easing inflation fears.",
+   "10Y yield eased toward 4.89%; gold and bitcoin both higher, signaling risk appetite intact despite the equity-futures pullback.",
+   "Heavy data: jobless claims today 8:30am ET; NFP, unemployment rate and consumer sentiment due Fri Nov 6 - key for Fed path."
   ]
  },
  "picks": {
-  "AVTR": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "Oct 30 Q3 beat (4th straight) and raised FY guide, but margin headwinds from inflation/mix, Europe weakness and thin 2026 organic growth guide (0.75-1.25%) spooked holders; turnaround seen as already priced in.",
-   "sentiment": -0.3,
-   "sent_conf": 0.7,
-   "bull": "Fourth consecutive earnings beat and a swing to profit show the turnaround is progressing.",
-   "bear": "Margin headwinds, European weakness and muted 2026 growth guidance show the recovery is still fragile.",
-   "catalysts": "none found",
-   "flags": ["earnings-driven drop", "margin pressure"],
-   "sources": [
-    {"title": "Avantor (AVTR) Stock Drops As Q3 Earnings Rebound Meets Caution", "url": "https://finance.yahoo.com/markets/stocks/articles/avantor-avtr-stock-drops-q3-181246237.html"},
-    {"title": "Avantor Gets Buy Upgrade; Stock Drops 4% on Earnings", "url": "https://www.basisreport.com/news/avtr-avantor-buy-upgrade-stock-drops-earnings-beat"}
-   ]
-  },
-  "MTDR": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Energy names sold off as crude slid on US-Iran de-escalation hopes. MTDR still beat Q3 EPS by $0.25 (Nov 3) on positive estimate revisions; no company-specific downgrade found in the drop window.",
-   "sentiment": 0.2,
-   "sent_conf": 0.5,
-   "bull": "Q3 EPS beat by $0.25; the drop tracks an oil-price-driven energy selloff, not a company problem.",
-   "bear": "Further oil weakness from Mideast de-escalation would keep pressuring E&P revenue outlook.",
-   "catalysts": "Ex-dividend Nov 10 ($0.4375/sh).",
-   "flags": ["oil-price sensitive"],
-   "sources": [
-    {"title": "Matador Resources (NYSE:MTDR) Releases Earnings Results, Beats Expectations By $0.25 EPS", "url": "https://www.dailypolitical.com/2026/11/03/matador-resources-nysemtdr-releases-earnings-results-beats-expectations-by-0-25-eps.html"},
-    {"title": "Matador Resources Stock Stumbles as Sentiment Sours", "url": "https://www.tipranks.com/news/catalyst/matador-resources-stock-stumbles-as-sentiment-sours"}
-   ]
-  },
-  "VAL": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "Nov 2 Q3 results: revenue beat ($593.6M vs $573.7M) but EPS missed badly ($0.66 vs $1.13 consensus), driving an ~5-10% post-earnings slide. Analysts hold a $69 target, 23% below spot.",
-   "sentiment": -0.6,
-   "sent_conf": 0.8,
-   "bull": "Revenue beat estimates and stock is still up sharply year-to-date despite the pullback.",
-   "bear": "EPS missed consensus by nearly 42%, and analyst price targets imply ~23% further downside.",
-   "catalysts": "none found",
-   "flags": ["earnings miss"],
-   "sources": [
-    {"title": "Valaris (VAL) Stock Price & Overview", "url": "https://stockanalysis.com/stocks/val/"},
-    {"title": "Reassessing Valaris (VAL) Valuation After A Strong Year And Recent Share Price Pullback", "url": "https://finance.yahoo.com/markets/stocks/articles/reassessing-valaris-val-valuation-strong-160926122.html"}
-   ]
-  },
   "CRWD": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "Cybersecurity/software extended a sector-wide selloff (AI capex worries after Oracle's $20B raise, Alphabet/Amazon capex) despite a Deutsche Bank upgrade to Buy ($300 PT) and new CoreWeave/Dynatrace/Deloitte partnerships for CRWD.",
-   "sentiment": 0.3,
-   "sent_conf": 0.6,
-   "bull": "Deutsche Bank just upgraded to Buy with a $300 target; new AI-security partnerships announced despite the dip.",
-   "bear": "Stock is still richly valued after a 120% YTD run, inviting profit-taking on any sector wobble.",
-   "catalysts": "none found",
-   "flags": ["sector rotation"],
+   "why": "Drop tracks a broad software/cybersecurity selloff (Fortinet earnings, AI-capex and valuation-compression fears across the group), not CRWD-specific news; rvol near 1x confirms no idiosyncratic volume spike.",
+   "sentiment": 0.2,
+   "sent_conf": 0.55,
+   "bull": "Sector-wide selloff, not CRWD-specific; Deutsche Bank just raised PT to $300 with a fresh Buy rating.",
+   "bear": "Richly valued cybersecurity names stay vulnerable to further multiple compression if AI-capex worries persist.",
+   "catalysts": "none found in next 7 trading days; next earnings well outside window (ed=18)",
+   "flags": ["valuation risk", "sector selloff ongoing"],
    "sources": [
-    {"title": "CrowdStrike Slides 3% Despite Deutsche Bank Upgrade and CoreWeave Deal", "url": "https://247wallst.com/investing/2026/11/02/crowdstrike-slides-3-despite-deutsche-bank-upgrade-and-coreweave-deal-fortinet-falls-3-palo-alto-drops-2/"},
-    {"title": "CrowdStrike (CRWD) stock trades down, here is why", "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-stock-trades-down-234936695.html"}
+    {"title": "CrowdStrike Stocks Decline 2.7% With Upgrade Testing AI Security Revenue Conversion", "url": "https://www.gurufocus.com/news/9162525/crowdstrike-stocks-decline-27-with-upgrade-testing-ai-security-revenue-conversion"},
+    {"title": "CrowdStrike (CRWD) stock trades down, here is why - StockStory", "url": "https://www.tradingview.com/news/stockstory:f8109d065094b:0-crowdstrike-crwd-stock-trades-down-here-is-why/"}
    ]
   },
-  "CRM": {
+  "AVT": {
    "verdict": "VETO",
    "cause": "company",
-   "why": "Nov 3 decline tied to the $2.7B Cresta acquisition (5th deal this year, undisclosed terms) raising integration/execution concerns, plus a ~609k-share offering for an employee plan adding dilution worries, despite a Q3 EPS beat.",
-   "sentiment": -0.3,
-   "sent_conf": 0.6,
-   "bull": "Q3 EPS beat big ($5.90 vs $3.27 consensus) and revenue grew 10.8% y/y; consensus rating is still Moderate Buy.",
-   "bear": "Fifth acquisition this year plus a new share offering raise integration-risk and dilution concerns.",
-   "catalysts": "none found",
-   "flags": ["M&A integration risk", "share offering"],
+   "why": "Q1 revenue/EPS beat records, but shares fell on dim Q2 EPS guidance and investor concern over rising debt/working-capital needs - a company-specific red flag despite the headline beat. Elevated rvol 2.4x confirms company-driven volume.",
+   "sentiment": -0.4,
+   "sent_conf": 0.7,
+   "bull": "Record Q1 revenue/EPS beat and management's upbeat framing show underlying demand strength.",
+   "bear": "Stock sold off on dim Q2 EPS guidance plus rising debt/working-capital strain - a company-specific flag, not sector noise.",
+   "catalysts": "none found in next 7 trading days; next earnings far out",
+   "flags": ["guidance cut", "rising leverage"],
    "sources": [
-    {"title": "Salesforce (CRM) Files Share Offering, Is The Pullback A Valuation Opportunity?", "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-files-share-offering-161757085.html"},
-    {"title": "Salesforce (NYSE:CRM) Stock Falls 1.9% - What's Next?", "url": "https://www.marketbeat.com/instant-alerts/price-salesforce-nyse-crm-stock-falls-19-whats-next-2026-11-03/"}
+    {"title": "Avnet Q1 FY27 slides: 82% revenue surge, record margins amid stock decline", "url": "https://www.investing.com/news/company-news/avnet-q1-fy27-slides-82-revenue-surge-record-margins-amid-stock-decline-93CH-5000697"},
+    {"title": "Avnet Q1 earnings beat estimates, stock falls on dim Q2 EPS guidance", "url": "https://tr.tradingview.com/news/zacks%3A6bb9e030b094b%3A0-avnet-q1-earnings-beat-estimates-stock-falls-on-dim-q2-eps-guidance"}
    ]
   },
-  "CVLT": {
+  "HPQ": {
    "verdict": "CAUTION",
    "cause": "unclear",
-   "why": "Oct 27 gap-down was a 'sell the news' reaction to a Q3 beat (EPS $1.38 vs $1.24) with only Hold/Neutral target raises; Nov 2 added sector-wide AI-capex selloff pressure. No clear company damage, but no clean sector story either.",
-   "sentiment": -0.1,
-   "sent_conf": 0.4,
-   "bull": "Q3 beat on EPS and revenue with ARR up 20%; no analyst downgrades on fundamentals were found.",
-   "bear": "High valuation multiple triggered a 'sell the news' drop even on a beat, and new buy-side support looks limited.",
-   "catalysts": "none found",
-   "flags": ["mixed analyst reaction", "valuation-driven selloff"],
+   "why": "Bulk of the sell-off tracks a sector-wide PC-slump/memory-shortage warning (Dell -11%, HPE -7%, SMCI -7% same day), but HP also named an outsider pharma CEO (ex-GSK Walmsley), adding execution-risk uncertainty on top of the sector move.",
+   "sentiment": -0.05,
+   "sent_conf": 0.5,
+   "bull": "Drop is mostly industry-wide (Intel memory-shortage/PC-slump warning hit Dell and HPE too); shares already bounced 5.7% off lows.",
+   "bear": "New outsider CEO with no PC-industry background adds leadership uncertainty just as memory costs squeeze hardware margins.",
+   "catalysts": "none in next 7 trading days; Q4 FY26 earnings Nov 24 falls outside the hold window",
+   "flags": ["CEO transition", "sector PC slump", "memory cost pressure"],
    "sources": [
-    {"title": "RingCentral, Commvault, and Fastly shares plummet, what you need to know", "url": "https://www.financialcontent.com/article/stockstory-2026-11-2-ringcentral-commvault-and-fastly-shares-plummet-what-you-need-to-know"},
-    {"title": "CommVault Systems (NASDAQ:CVLT) Shares Gap Down - Here's What Happened", "url": "https://www.marketbeat.com/instant-alerts/price-commvault-systems-nasdaq-cvlt-shares-gap-down-heres-what-happened-2026-10-27/"}
+    {"title": "HP Inc. Names Emma Walmsley as CEO, Shares Dip 2.1% Premarket", "url": "https://www.gurufocus.com/news/9169605/hp-inc-names-emma-walmsley-as-ceo-shares-dip-21-premarket-hpq"},
+    {"title": "Dell Sinks 11% as Intel's Warning on PC Slump and Memory Shortage Hits Hardware Stocks; HP Tumbles 9%", "url": "https://247wallst.com/investing/2026/10/30/dell-sinks-11-as-intels-warning-on-pc-slump-and-memory-shortage-hits-hardware-stocks-hp-tumbles-9-hewlett-packard-enterprise-and-super-micro-fall-7/"},
+    {"title": "HP shares snapped losing streak after slipping nearly 16% in last six sessions", "url": "https://seekingalpha.com/news/4665506-hp-shares-snapped-losing-streak-after-slipping-nearly-16-in-last-six-sessions"}
    ]
   },
-  "PATH": {
+  "RRC": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "Nov 2 drop tracked a broad software/AI-capex selloff (PATH -2.84% vs S&P -0.51%). The last company-specific hit (DA Davidson/UBS/RBC downgrades on AI-pricing pushback) was Oct 16, outside the recent drop window; no new catalyst found.",
-   "sentiment": -0.2,
-   "sent_conf": 0.4,
-   "bull": "Latest single-day drop simply tracked a broad software selloff; no fresh company-specific news found.",
-   "bear": "Elevated 25% short interest and lingering AI-pricing-resistance concerns from mid-October could keep pressuring shares.",
-   "catalysts": "none found",
-   "flags": ["high short interest", "stale downgrade overhang"],
+   "why": "Drop tracks energy-sector/gas-price weakness, plus RRC's pending fixed-ratio stock merger with EQT ties its price to EQT (which fell on integration/low-gas-price worries). No company-specific damage found; both recent analyst moves raised price targets.",
+   "sentiment": 0.1,
+   "sent_conf": 0.5,
+   "bull": "Both Truist and Mizuho raised price targets (to $51 and $67) this week; drop tracks energy-sector weakness and EQT-deal arithmetic, not RRC fundamentals.",
+   "bear": "As a fixed-ratio merger target, RRC's price is now tethered to EQT, so further EQT/gas-price weakness caps the bounce.",
+   "catalysts": "none major found in next 7 trading days; EQT-RRC merger close timing not yet confirmed",
+   "flags": ["merger-linked", "energy sector weak", "gas price exposure"],
    "sources": [
-    {"title": "UiPath (PATH) Falls More Steeply Than Broader Market: What Investors Need to Know", "url": "https://finance.yahoo.com/markets/stocks/articles/uipath-path-falls-more-steeply-214501321.html"},
-    {"title": "PATH Stock Slides As Analysts Cut Price Targets", "url": "https://stockstotrade.com/news/uipath-inc-path-news-2026_10_16/"}
+    {"title": "EQT and Range Resources Are Merging: Is It Time to Buy the New U.S. Natural Gas Titan?", "url": "https://www.fool.com/investing/2026/10/29/eqt-and-range-resources-are-merging-is-it-time-to/"},
+    {"title": "EQT to Acquire Range Resources, Create a Leading Natural Gas Company", "url": "https://finance.yahoo.com/energy/articles/eqt-acquire-range-resources-create-150300737.html"}
    ]
   }
  }

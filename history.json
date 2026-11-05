@@ -226,5 +226,15 @@
   "stop": 82.47,
   "conf": 6.3,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-04",
+  "t": "CRWD",
+  "tier": "solid",
+  "buy": 239.45,
+  "tgt": 246.64,
+  "stop": 211.16,
+  "conf": 6.1,
+  "verdict": null
  }
 ]
