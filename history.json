@@ -236,5 +236,55 @@
   "stop": 211.16,
   "conf": 6.1,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-05",
+  "t": "AVTR",
+  "tier": "solid",
+  "buy": 15.2,
+  "tgt": 15.65,
+  "stop": 14.03,
+  "conf": 7.6,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-05",
+  "t": "GKOS",
+  "tier": "solid",
+  "buy": 221.6,
+  "tgt": 228.24,
+  "stop": 191.94,
+  "conf": 7.6,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-05",
+  "t": "PBF",
+  "tier": "solid",
+  "buy": 69.74,
+  "tgt": 73.03,
+  "stop": 59.06,
+  "conf": 7.6,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-05",
+  "t": "PSX",
+  "tier": "solid",
+  "buy": 251.98,
+  "tgt": 262.59,
+  "stop": 228.6,
+  "conf": 7.6,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-05",
+  "t": "RVTY",
+  "tier": "solid",
+  "buy": 152.11,
+  "tgt": 156.67,
+  "stop": 135.84,
+  "conf": 7.6,
+  "verdict": null
  }
 ]

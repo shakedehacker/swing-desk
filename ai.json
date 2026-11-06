@@ -1,76 +1,166 @@
 {
- "asof": "2026-11-04",
+ "asof": "2026-11-05",
  "model": "Claude",
- "generated_utc": "2026-11-05T05:02:49Z",
+ "generated_utc": "2026-11-06T07:44:32Z",
  "note": {
-  "mood": "mixed",
+  "mood": "risk-off",
   "bullets": [
-   "Stocks surged Wed as Democrats won Congress; VIX fell ~20% to 16.6, but Thu futures dip (Nasdaq -1%) on an Asia chip selloff (Kospi -4.6%).",
-   "Oil fell further overnight (Brent near $88-94) on hopes a weaker Trump faces pressure to end the Iran conflict, easing inflation fears.",
-   "10Y yield eased toward 4.89%; gold and bitcoin both higher, signaling risk appetite intact despite the equity-futures pullback.",
-   "Heavy data: jobless claims today 8:30am ET; NFP, unemployment rate and consumer sentiment due Fri Nov 6 - key for Fed path."
+   "Nasdaq/S&P had their worst day since 2020 Thu as a Democratic midterm sweep stoked AI-regulation and data-center-moratorium fears; Mag7 lost ~$1T.",
+   "VIX spiked ~70% to 28.2; Fri futures mixed, Nasdaq fut recovering slightly (+0.4%) while S&P/Dow futures stay soft.",
+   "Oil rebounding (Brent +~4%) on renewed US-Iran conflict risk after an 8% Wednesday drop; 10Y yield eased near 4.84% on safe-haven buying.",
+   "October jobs report due 8:30am ET (payrolls 65K est, unemployment 4.2%) is today's key swing factor for the risk-off mood."
   ]
  },
  "picks": {
-  "CRWD": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Drop tracks a broad software/cybersecurity selloff (Fortinet earnings, AI-capex and valuation-compression fears across the group), not CRWD-specific news; rvol near 1x confirms no idiosyncratic volume spike.",
-   "sentiment": 0.2,
-   "sent_conf": 0.55,
-   "bull": "Sector-wide selloff, not CRWD-specific; Deutsche Bank just raised PT to $300 with a fresh Buy rating.",
-   "bear": "Richly valued cybersecurity names stay vulnerable to further multiple compression if AI-capex worries persist.",
-   "catalysts": "none found in next 7 trading days; next earnings well outside window (ed=18)",
-   "flags": ["valuation risk", "sector selloff ongoing"],
+  "AVTR": {
+   "verdict": "CAUTION",
+   "cause": "company",
+   "why": "Q3 beat (EPS/revenue above estimates, organic-growth guidance raised) but FY adjusted EPS guidance merely matched consensus; investors read it as uninspiring, triggering a sell-the-news drop. No downgrade, no miss.",
+   "sentiment": -0.2,
+   "sent_conf": 0.5,
+   "bull": "Core Q3 beat with raised organic-growth guidance shows underlying demand improving, setting up a bounce from oversold levels.",
+   "bear": "Guidance merely matched consensus with flat margins, so the post-earnings de-rating could persist without a fresh catalyst.",
+   "catalysts": "none found",
+   "flags": ["earnings reaction", "guidance inline not cut", "mixed analyst ratings"],
    "sources": [
-    {"title": "CrowdStrike Stocks Decline 2.7% With Upgrade Testing AI Security Revenue Conversion", "url": "https://www.gurufocus.com/news/9162525/crowdstrike-stocks-decline-27-with-upgrade-testing-ai-security-revenue-conversion"},
-    {"title": "CrowdStrike (CRWD) stock trades down, here is why - StockStory", "url": "https://www.tradingview.com/news/stockstory:f8109d065094b:0-crowdstrike-crwd-stock-trades-down-here-is-why/"}
+    {"title": "Avantor beats Q3 estimates but shares slip on guidance", "url": "https://www.investing.com/news/earnings/avantor-beats-q3-estimates-but-shares-slip-on-guidance-93CH-4978215"},
+    {"title": "Avantor (AVTR) Stock Drops As Q3 Earnings Rebound Meets Caution", "url": "https://finance.yahoo.com/markets/stocks/articles/avantor-avtr-stock-drops-q3-181246237.html?.tsrc=rss"}
    ]
   },
-  "AVT": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "Q1 revenue/EPS beat records, but shares fell on dim Q2 EPS guidance and investor concern over rising debt/working-capital needs - a company-specific red flag despite the headline beat. Elevated rvol 2.4x confirms company-driven volume.",
-   "sentiment": -0.4,
-   "sent_conf": 0.7,
-   "bull": "Record Q1 revenue/EPS beat and management's upbeat framing show underlying demand strength.",
-   "bear": "Stock sold off on dim Q2 EPS guidance plus rising debt/working-capital strain - a company-specific flag, not sector noise.",
-   "catalysts": "none found in next 7 trading days; next earnings far out",
-   "flags": ["guidance cut", "rising leverage"],
+  "GKOS": {
+   "verdict": "CAUTION",
+   "cause": "unclear",
+   "why": "Four firms raised price targets to Buy/Overweight on 2026-10-29 after a strong quarter; drop looks like profit-taking plus notable insider selling ($16.5M/90 days) rather than company damage. No downgrade or bad news found.",
+   "sentiment": 0.1,
+   "sent_conf": 0.4,
+   "bull": "All four analysts raised price targets after a record quarter, implying Wall Street sees the pullback as pure profit-taking.",
+   "bear": "Heavy insider selling and reportedly bearish options flow suggest some holders expect pressure to persist near-term.",
+   "catalysts": "none found",
+   "flags": ["heavy insider selling", "no damage found", "profit-taking after pop"],
    "sources": [
-    {"title": "Avnet Q1 FY27 slides: 82% revenue surge, record margins amid stock decline", "url": "https://www.investing.com/news/company-news/avnet-q1-fy27-slides-82-revenue-surge-record-margins-amid-stock-decline-93CH-5000697"},
-    {"title": "Avnet Q1 earnings beat estimates, stock falls on dim Q2 EPS guidance", "url": "https://tr.tradingview.com/news/zacks%3A6bb9e030b094b%3A0-avnet-q1-earnings-beat-estimates-stock-falls-on-dim-q2-eps-guidance"}
+    {"title": "Why is Glaukos stock sliding today?", "url": "https://www.investing.com/news/stock-market-news/why-is-glaukos-stock-sliding-today-93CH-4939474"},
+    {"title": "ETFs Bought $385.0 Million of Glaukos (GKOS) on Tuesday", "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-385-0-million-110035661.html?.tsrc=rss"}
+   ]
+  },
+  "PBF": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Energy sector fell ~10% broadly (oil volatility from US-Iran tension) matching PBF's drop. Only one Hold-level upgrade and one maintained Neutral found, both with raised price targets; no PBF-specific bad news.",
+   "sentiment": 0.1,
+   "sent_conf": 0.4,
+   "bull": "Energy sector-wide selloff, not PBF-specific news, drove the drop; refining cash-flow and growth narrative remain intact.",
+   "bear": "Refining margins are cyclical and oil-price swings from Iran tensions could keep pressuring crack spreads and the stock.",
+   "catalysts": "none found",
+   "flags": ["sector-wide energy selloff"],
+   "sources": [
+    {"title": "PBF Energy (PBF) Stock Price Trails Its Q3 Earnings Windfall", "url": "https://finance.yahoo.com/energy/articles/pbf-energy-pbf-stock-price-071201866.html?.tsrc=rss"},
+    {"title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy", "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html"}
+   ]
+  },
+  "PSX": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Drop tracks a broad energy-sector slide (~10% sector move) tied to oil volatility, not company news. Analysts (Citi, Morgan Stanley, Wells Fargo, Freedom Broker) all maintained/raised ratings and targets through early November.",
+   "sentiment": 0.2,
+   "sent_conf": 0.5,
+   "bull": "Drop tracks a broad energy-sector slide; analysts kept raising price targets (Citi, Morgan Stanley, Wells Fargo) through early November.",
+   "bear": "A renewed Iran conflict could whipsaw oil and refining margins, adding volatility before the position can play out.",
+   "catalysts": "none found",
+   "flags": ["sector-wide energy selloff"],
+   "sources": [
+    {"title": "Phillips 66 (PSX) Just Flashed Golden Cross Signal: Do You Buy?", "url": "https://finance.yahoo.com/energy/articles/phillips-66-psx-secures-long-170952479.html?.tsrc=rss"},
+    {"title": "Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections", "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html"}
+   ]
+  },
+  "RVTY": {
+   "verdict": "CAUTION",
+   "cause": "company",
+   "why": "Q3 beat with raised 2026 guidance, yet shares round-tripped (fell then rallied ~11%) on valuation concerns (GF Value implies ~35% overvalued, P/E 74x vs 5yr median 36x). No miss, no downgrade, just a company-specific valuation debate.",
+   "sentiment": 0.0,
+   "sent_conf": 0.5,
+   "bull": "Q3 beat with raised 2026 guidance and multiple analyst PT hikes point to improving fundamentals beneath the valuation debate.",
+   "bear": "Stock is viewed as richly valued (GF Value implies ~35% downside), so good news may keep getting sold.",
+   "catalysts": "none found",
+   "flags": ["post-earnings volatility", "valuation concerns", "insider selling"],
+   "sources": [
+    {"title": "Revvity (RVTY) Reaffirms Its Dividend, Is The Stock Now Too Pricey?", "url": "https://finance.yahoo.com/markets/stocks/articles/revvity-rvty-reaffirms-dividend-stock-081156809.html?.tsrc=rss"},
+    {"title": "Revvity Inc (RVTY) Stock Down 5.3% but Still Overvalued -- GF Score: 70/100", "url": "https://www.gurufocus.com/news/9160384/revvity-inc-rvty-stock-down-53-but-still-overvalued-gf-score-70100"}
+   ]
+  },
+  "CVLT": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Drop mirrors the broad software-sector rout (-8% to -10% sector-wide) tied to AI-regulation fears after the midterms, not Commvault news. Four firms maintained/upgraded with raised price targets on 2026-10-28; SaaS growth story intact.",
+   "sentiment": 0.3,
+   "sent_conf": 0.5,
+   "bull": "Drop mirrors a broad software-sector rout tied to AI-regulation fears, not any Commvault-specific news; SaaS growth story intact.",
+   "bear": "If AI-driven software de-rating continues market-wide, CVLT could keep falling with peers regardless of its own fundamentals.",
+   "catalysts": "none found",
+   "flags": ["sector-wide software selloff"],
+   "sources": [
+    {"title": "Is It Worth Investing in Commvault (CVLT) Based on Wall Street's Bullish Views?", "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-commvault-cvlt-based-133003356.html?.tsrc=rss"},
+    {"title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade", "url": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories"}
    ]
   },
   "HPQ": {
    "verdict": "CAUTION",
-   "cause": "unclear",
-   "why": "Bulk of the sell-off tracks a sector-wide PC-slump/memory-shortage warning (Dell -11%, HPE -7%, SMCI -7% same day), but HP also named an outsider pharma CEO (ex-GSK Walmsley), adding execution-risk uncertainty on top of the sector move.",
-   "sentiment": -0.05,
-   "sent_conf": 0.5,
-   "bull": "Drop is mostly industry-wide (Intel memory-shortage/PC-slump warning hit Dell and HPE too); shares already bounced 5.7% off lows.",
-   "bear": "New outsider CEO with no PC-industry background adds leadership uncertainty just as memory costs squeeze hardware margins.",
-   "catalysts": "none in next 7 trading days; Q4 FY26 earnings Nov 24 falls outside the hold window",
-   "flags": ["CEO transition", "sector PC slump", "memory cost pressure"],
+   "cause": "sector",
+   "why": "Intel warned PC shipments will fall 12% in 2026/10% in 2027, hitting Dell (-11%), HPE, Supermicro and HP (-7-9%) together - sector-wide, not HP-specific. Adds uncertainty: new, untested CEO Emma Walmsley named 2026-11-04; no dd.moves found.",
+   "sentiment": -0.3,
+   "sent_conf": 0.55,
+   "bull": "HP's slide mostly reflects Intel's industry-wide PC-demand warning that hit Dell and HPE too, not an HP-only problem.",
+   "bear": "A new, untested CEO plus a structurally weakening PC market make the fundamental setup for a bounce weaker.",
+   "catalysts": "none found",
+   "flags": ["PC sector slump (Intel warning)", "new/untested CEO", "earnings in ~12 sessions (outside hold window)"],
    "sources": [
-    {"title": "HP Inc. Names Emma Walmsley as CEO, Shares Dip 2.1% Premarket", "url": "https://www.gurufocus.com/news/9169605/hp-inc-names-emma-walmsley-as-ceo-shares-dip-21-premarket-hpq"},
-    {"title": "Dell Sinks 11% as Intel's Warning on PC Slump and Memory Shortage Hits Hardware Stocks; HP Tumbles 9%", "url": "https://247wallst.com/investing/2026/10/30/dell-sinks-11-as-intels-warning-on-pc-slump-and-memory-shortage-hits-hardware-stocks-hp-tumbles-9-hewlett-packard-enterprise-and-super-micro-fall-7/"},
-    {"title": "HP shares snapped losing streak after slipping nearly 16% in last six sessions", "url": "https://seekingalpha.com/news/4665506-hp-shares-snapped-losing-streak-after-slipping-nearly-16-in-last-six-sessions"}
+    {"title": "HPQ, DELL Stocks Plunge After Intel Flags Prolonged PC Market Weakness", "url": "https://www.tradingview.com/news/stocktwits:f2cd2b4bc094b:0-hpq-dell-stocks-plunge-after-intel-flags-prolonged-pc-market-weakness/"},
+    {"title": "HP Names Emma Walmsley as New CEO, Ending Monthlong Search", "url": "https://finance.yahoo.com/markets/stocks/articles/hp-names-emma-walmsley-ceo-124439611.html?.tsrc=rss"},
+    {"title": "Dell Sinks 11% as Intel's Warning on PC Slump and Memory Shortage Hits Hardware Stocks", "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOcS1XS0Nfa0Nub0NDaEwzQkEtQmRpQUR5Mi1PQkVwZUJGWXlfTkFvUFFob0NGX0dXOExoUHVKTWNGbDBqaXVUc05lTk9KTFFpb3ZZOVhzc0tIMjhFNzBjWDNWRXVqdjNqdDRCa0o3eWhVaWlZRThvWjFvczRqOWhVZ25SdlF0bGhFTmZyNEhhczM5R1lBUnUwTDg2UUVvUnZtMlpNVUFFOFZ5OU9kVTNycGF4MlVHWGtsRWRGUjYxVlZNT1ZJZXBfdUFnYVBiN0s1cFhhYXU4YzJnZkRwYktYWVF0ZUFsdmZ1Snk0bUViX2dWNV81cWRxaXJUY09qaGZtOUtjLVJHdXFrUGZBSUZpWm5UWTI3cnVaT2Rv?oc=5"}
    ]
   },
-  "RRC": {
+  "BRKR": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "Drop tracks energy-sector/gas-price weakness, plus RRC's pending fixed-ratio stock merger with EQT ties its price to EQT (which fell on integration/low-gas-price worries). No company-specific damage found; both recent analyst moves raised price targets.",
-   "sentiment": 0.1,
+   "why": "Q3 2026 adjusted EPS beat ($0.56 vs $0.42 est), guidance maintained; GAAP headline loss was due to a one-time non-cash $175M goodwill impairment. Two firms (Citi, Leerink) raised price targets 2026-11-05; broader medical-device-sector selloff also hit peers.",
+   "sentiment": 0.3,
    "sent_conf": 0.5,
-   "bull": "Both Truist and Mizuho raised price targets (to $51 and $67) this week; drop tracks energy-sector weakness and EQT-deal arithmetic, not RRC fundamentals.",
-   "bear": "As a fixed-ratio merger target, RRC's price is now tethered to EQT, so further EQT/gas-price weakness caps the bounce.",
-   "catalysts": "none major found in next 7 trading days; EQT-RRC merger close timing not yet confirmed",
-   "flags": ["merger-linked", "energy sector weak", "gas price exposure"],
+   "bull": "Adjusted EPS beat, maintained full-year guidance, and two analyst price-target hikes show the core business is healthy.",
+   "bear": "A $175M non-cash goodwill impairment and a broad medical-device-sector selloff add noise that could delay the bounce.",
+   "catalysts": "none found",
+   "flags": ["one-time non-cash goodwill impairment", "sector-wide medical device selloff"],
    "sources": [
-    {"title": "EQT and Range Resources Are Merging: Is It Time to Buy the New U.S. Natural Gas Titan?", "url": "https://www.fool.com/investing/2026/10/29/eqt-and-range-resources-are-merging-is-it-time-to/"},
-    {"title": "EQT to Acquire Range Resources, Create a Leading Natural Gas Company", "url": "https://finance.yahoo.com/energy/articles/eqt-acquire-range-resources-create-150300737.html"}
+    {"title": "Bruker (BRKR) Jumped, What Is Behind The Fresh Attention?", "url": "https://finance.yahoo.com/markets/stocks/articles/bruker-brkr-jumped-behind-fresh-081654540.html?.tsrc=rss"},
+    {"title": "Bruker (BRKR) Q3 2026 Earnings Results & Call Transcript", "url": "https://www.marketbeat.com/earnings/reports/2026-11-4-bruker-co-stock/"}
+   ]
+  },
+  "MEDP": {
+   "verdict": "CAUTION",
+   "cause": "unclear",
+   "why": "No fresh company-specific bad news found this week; 2026 analyst moves (Oct 23-26) were all maintains with raised price targets. A 2026 cancellation-rate fraud suit is from Feb/Apr, already priced in. Heavy recent insider/fund selling is a flag.",
+   "sentiment": -0.2,
+   "sent_conf": 0.4,
+   "bull": "No new company-specific bad news found this week; prior cancellation-rate fraud allegations are from early 2026 and already priced in.",
+   "bear": "Heavy insider selling ($213M/90 days) and fund trimming suggest some holders remain skeptical of a durable bounce.",
+   "catalysts": "none found",
+   "flags": ["heavy insider/fund selling", "prior cancellation-rate overhang (stale)"],
+   "sources": [
+    {"title": "Did Earnings Beat Just Shift Medpace Holdings (MEDP) Investment Narrative?", "url": "https://finance.yahoo.com/markets/stocks/articles/did-earnings-beat-just-shift-081522635.html?.tsrc=rss"},
+    {"title": "Medpace Holdings, Inc. $MEDP Shares Sold by Boston Trust Walden Corp", "url": "https://www.marketbeat.com/instant-alerts/filing-medpace-holdings-inc-medp-shares-sold-by-boston-trust-walden-corp-2026-11-05/"}
+   ]
+  },
+  "IEX": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Q3 beat with a guidance raise; four firms maintained/upgraded with higher price targets on 2026-10-29 (Citi, RBC, Oppenheimer, Stifel). Drop exceeds the broader industrials pullback (~-4.5% sector) but no IDEX-specific bad news found.",
+   "sentiment": 0.2,
+   "sent_conf": 0.4,
+   "bull": "IDEX beat Q3 estimates and raised guidance, with four analysts reiterating Buy/Outperform and higher price targets in late October.",
+   "bear": "Drop tracks a broader industrials pullback; continued macro risk-off into the weekend's jobs report could extend the slide.",
+   "catalysts": "none found",
+   "flags": ["sector-wide industrials pullback"],
+   "sources": [
+    {"title": "IEX Q3 deep dive: strong demand in advantaged markets and operational leverage drive guidance raise", "url": "https://finance.yahoo.com/markets/stocks/articles/iex-q3-deep-dive-strong-074136541.html?.tsrc=rss"},
+    {"title": "Learn Why The Bull Case For IDEX (IEX) Could Change Following Earnings Beat", "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-idex-092155940.html?.tsrc=rss"}
    ]
   }
  }
