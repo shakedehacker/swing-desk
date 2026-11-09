@@ -1,57 +1,57 @@
 {
- "asof": "2026-11-05",
+ "asof": "2026-11-06",
  "momentum": [
   {
    "t": "MRNA",
-   "c": 241.4600067138672,
-   "gain": 276.4745671798059,
-   "buy": 246.28920684814454,
-   "stop": 103.33828081403459,
-   "exit": "2026-12-04"
-  },
-  {
-   "t": "MPC",
-   "c": 377.32000732421875,
-   "gain": 45.040238786223256,
-   "buy": 384.8664074707031,
-   "stop": 244.43284824916293,
-   "exit": "2026-12-04"
-  },
-  {
-   "t": "RVTY",
-   "c": 150.8300018310547,
-   "gain": 44.583981758654566,
-   "buy": 153.8466018676758,
-   "stop": 102.0457284109933,
-   "exit": "2026-12-04"
+   "c": 254.19000244140625,
+   "gain": 270.7072331212406,
+   "buy": 259.2738024902344,
+   "stop": 112.26641845703125,
+   "exit": "2026-12-07"
   },
   {
    "t": "ACN",
-   "c": 265.1600036621094,
-   "gain": 40.68973338453172,
-   "buy": 270.46320373535156,
-   "stop": 194.30855887276786,
-   "exit": "2026-12-04"
+   "c": 260.5,
+   "gain": 44.875169836956516,
+   "buy": 265.71,
+   "stop": 190.08998325892856,
+   "exit": "2026-12-07"
   },
   {
-   "t": "CRL",
-   "c": 313.0199890136719,
-   "gain": 40.60339445748098,
-   "buy": 319.2803887939453,
-   "stop": 200.22427368164062,
-   "exit": "2026-12-04"
+   "t": "MPC",
+   "c": 372.739990234375,
+   "gain": 38.839285969478986,
+   "buy": 380.1947900390625,
+   "stop": 243.85997663225447,
+   "exit": "2026-12-07"
+  },
+  {
+   "t": "RVTY",
+   "c": 155.11000061035156,
+   "gain": 35.32150020914748,
+   "buy": 158.21220062255858,
+   "stop": 104.8600071498326,
+   "exit": "2026-12-07"
+  },
+  {
+   "t": "VEEV",
+   "c": 303.7300109863281,
+   "gain": 33.35037206504487,
+   "buy": 309.8046112060547,
+   "stop": 248.86857822963168,
+   "exit": "2026-12-07"
   }
  ],
  "picks": [
   {
-   "t": "AVTR",
+   "t": "ANF",
    "kind": "SIGNAL",
    "rule": "solid",
    "tier": "solid",
-   "c": 15.140000343322754,
-   "buy": 15.197210294063273,
-   "tgt": 15.653126602885171,
-   "stop": 14.033353651476428,
+   "c": 149.5399932861328,
+   "buy": 152.53079315185548,
+   "tgt": 158.11157674512148,
+   "stop": 137.91936693464007,
    "days": 2,
    "conf": 6.648686030428768,
    "s": {
@@ -61,1177 +61,982 @@
     "days": 2,
     "lose": -4.89833862650164
    },
-   "ed": null,
-   "name": "Avantor, Inc.",
-   "drop": -9.23261351125496,
-   "rvol": 0.6868787450154655,
+   "ed": 11,
+   "name": "Abercrombie & Fitch Company",
+   "drop": -9.061061137227034,
+   "rvol": 0.8927384548077975,
    "dd": {
-    "ind": "Medical Instruments & Supplies",
-    "short": 0.062,
+    "ind": "Apparel Retail",
+    "short": 0.14930001,
+    "dtc": 3.65,
+    "ratings": [
+     9,
+     6,
+     0
+    ],
+    "moves": [],
+    "iv": 0.6352131649502841,
+    "imove": 5.658928644791153
+   },
+   "news": [
+    [
+     "Is Abercrombie & Fitch (ANF) Trading At A Discount To Cash Flow?",
+     "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-anf-trading-discount-221105016.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 22:11:05 +0000"
+    ],
+    [
+     "ANF vs. TPR: Which Stock Is the Better Value Option?",
+     "https://finance.yahoo.com/markets/stocks/articles/anf-vs-tpr-stock-better-154002303.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 15:40:02 +0000"
+    ],
+    [
+     "Abercrombie & Fitch and Dallas Cowboys Wide Receiver CeeDee Lamb Launch Co-Designed Collection",
+     "https://finance.yahoo.com/media-advertising/articles/abercrombie-fitch-dallas-cowboys-wide-133000304.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 04 Nov 2026 13:30:00 +0000"
+    ],
+    [
+     "Abercrombie & Fitch (ANF) Stock Sinks As Market Gains: What You Should Know",
+     "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-anf-stock-sinks-214501980.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 03 Nov 2026 21:45:01 +0000"
+    ],
+    [
+     "What Makes Abercrombie & Fitch (ANF) a Strong Momentum Stock: Buy Now?",
+     "https://finance.yahoo.com/markets/stocks/articles/makes-abercrombie-fitch-anf-strong-160006819.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 03 Nov 2026 16:00:06 +0000"
+    ],
+    [
+     "Abercrombie & Fitch Company (ANF) Hits Fresh High: Is There Still Room to Run?",
+     "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-company-anf-hits-131502562.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 03 Nov 2026 13:15:02 +0000"
+    ],
+    [
+     "Abercrombie & Fitch Co. (ANF) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBtckJLQWtNUlJFbDM2V2NpNHFWVUMxSWcyVDJDSDNfRUhfVS02dl9JMVU0X3UwWXVLSXZZSWUwa0ZMakRueG04RjV3aHBDejRT?oc=5",
+     "Yahoo! Finance Canada",
+     "Sat, 07 Nov 2026 03:28:11 GMT"
+    ],
+    [
+     "Abercrombie & Fitch Co (ANF) Stock Price, Quote, News & History - Benzinga",
+     "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBIV1d0ckZDZ3ZBem8wWFh4RDlPWUxfV0N3Xzhua3RHWnhpZ3hfbWFyVEthUWFJVFF4R3I3X0dQQXd2MmRlSV9nV0h3?oc=5",
+     "Benzinga",
+     "Fri, 06 Nov 2026 21:56:00 GMT"
+    ],
+    [
+     "ANF vs. TPR: Which Stock Is the Better Value Option? - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMikgFBVV95cUxOREQ0Y1hmMDY1SzlsZ2xQNHhLeTl3aFBUYUpEM1BhZkpmZHY3X01fRmhua2xoQWRINVNReEVtRG50NzBiNEpHUlV2YlJFamN5Z21tS08zNElCcm1XQXdjOWRVZ2ZVcU9sVy11Q25qZWU3ZVFKckdQeHdfTDRDUzdhWnZfRW5FdHN1MlBZc0pRZjNtZw?oc=5",
+     "Yahoo Finance",
+     "Thu, 05 Nov 2026 15:40:02 GMT"
+    ],
+    [
+     "Abercrombie & Fitch Co (ANF) Shares Fall 4.1% -- GF Value Says S - GuruFocus",
+     "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcXJtMGFkOUdmREd5WnBNbncta3ZSZVBXdXBXTnZHeHY4c3RqbXZMcFhnbm10b2syMnN5cGsxQ0NhYlJ6VUZKbzM5dHkwRXp2SkozRUktZEY5Ny1QVkl2U29hNGM2V2tTVGZXSEQ2UUU4bVJheFlmU1Fkdl9TUmw1VEh4WWtTMW9GVHRaMk5lbFc0WGwtYzdQYkpJRjBFVHpxVlUtNlY5M0w0MXdEQkE?oc=5",
+     "GuruFocus",
+     "Tue, 03 Nov 2026 23:53:02 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "DOW",
+   "kind": "SIGNAL",
+   "rule": "solid",
+   "tier": "solid",
+   "c": 31.399999618530273,
+   "buy": 31.510158529916136,
+   "tgt": 32.45546328581362,
+   "stop": 29.042586726414463,
+   "days": 3,
+   "conf": 6.2552811663195484,
+   "s": {
+    "n": 3361,
+    "win": 66.76584349895865,
+    "avg": 0.41882486907940125,
+    "days": 3,
+    "lose": -4.539137597833163
+   },
+   "ed": 58,
+   "name": "Dow Inc.",
+   "drop": -9.510089544244826,
+   "rvol": 0.7171788011809831,
+   "dd": {
+    "ind": "Chemicals",
+    "short": 0.047199998,
+    "dtc": 3.43,
+    "ratings": [
+     5,
+     14,
+     1
+    ],
+    "moves": [],
+    "iv": 0.4786429089355469,
+    "imove": 5.222422288216663
+   },
+   "news": [
+    [
+     "AI demand isn't going anywhere, but volatility lies ahead",
+     "https://finance.yahoo.com/video/ai-demand-isnt-going-anywhere-but-volatility-lies-ahead-194213515.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 19:42:13 +0000"
+    ],
+    [
+     "The Median Home In America\u2019s Best Place To Retire Is Worth About $206,000, Far Below The National Average. U.S. News Picked This Michigan City Over Florida Again",
+     "https://247wallst.com/personal-finance/2026/11/05/the-median-home-in-americas-best-place-to-retire-is-worth-about-206000-far-below-the-national-average-u-s-news-picked-this-michigan-city-over-florida-again/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 15:05:25 +0000"
+    ],
+    [
+     "Dow Launches DOWSIL IE-5619 Emulsion for Textile Industry",
+     "https://finance.yahoo.com/markets/stocks/articles/dow-launches-dowsil-ie-5619-135300972.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 29 Oct 2026 13:53:00 +0000"
+    ],
+    [
+     "Dow: 3 Key Takeaways for Long-Term Investors",
+     "https://www.fool.com/earnings/takeaways/2026/10/25/dow-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sun, 25 Oct 2026 15:20:02 +0000"
+    ],
+    [
+     "Dow (DOW) Stock Climbs After Q3 Earnings Sharpen Margin Recovery",
+     "https://finance.yahoo.com/markets/stocks/articles/dow-dow-stock-climbs-q3-181218456.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 24 Oct 2026 18:12:18 +0000"
+    ],
+    [
+     "What Is Bank of America (BAC) Signaling With Its New Board And Las Vegas Chief?",
+     "https://finance.yahoo.com/markets/stocks/articles/bank-america-bac-signaling-board-090905928.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 03 Nov 2026 09:09:05 +0000"
+    ],
+    [
+     "DOW Stock Quote Price and Forecast - CNN",
+     "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfNkJIQUNIQkdZYVZYN3hLdEhwd3ZZWDlEams0ZmZYY1luNUhUbWd2YmxvSThOVGdxdDVlUkRuR0ltN3FMRHJVa2gyYjFPbTA?oc=5",
+     "CNN",
+     "Fri, 06 Nov 2026 15:13:37 GMT"
+    ],
+    [
+     "U.S. stocks surge, and the Dow soars 1,500 points as Brent oil's price drops below $95 per barrel - PBS",
+     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWkpVS2U5RVFxaEtXOFd1Q2RQWEdZd0x6c1g5bTJtTnZBR3kya185cnZOTkFCTW83eDE4aUNvVk91NmV1ckltdVUxZXZkczY0R3hrRFZOSzJld1lHWEkxdDlQX0dwaWJiZE9pY0xod1pFUEJaTnkxdjY4bGp2Unk0YjJoMWNOTzlDS2RmeXhpaDRESWVrTnFTVGxsYmVPZGYwMkZnaWtUZ2I0MEVvVkRyWExNNDlXTTFIVUFuWEJwVm5mUXBaUFBjadIBzgFBVV95cUxNaDRuLTR0Q01OVG5fQTA0eG9waUVBQXVPN0NhSmdIVW1MdnpxaFowejV3dGRaamVmOWpvaVVlNEh5YlBUUTZsRjRZRzdHUnlsZThXeC1WelhvREEtOW5McGZOUE41RlhiQ2F2eVAxWmVONW9vTElYV2F5dHkteWJBeDR3NzRkVU5GSHY3Y3dsYmtzVi1jb1hCT3Y3VkU5bWl6MVA0OGY5ZEY2WTR2UDdVaHpua19uYkFIRWNRYjRFY3Qxc3QwSXhrZUd4WEcxUQ?oc=5",
+     "PBS",
+     "Wed, 04 Nov 2026 20:47:45 GMT"
+    ],
+    [
+     "Dow plunges 1,800 points, wiping out gains from midterm results rally - ABC News - Breaking News, Latest News and Videos",
+     "https://news.google.com/rss/articles/CBMipAFBVV95cUxPamlYMTRnTnVQT1JzN0doUmdpcFdPaEFLblFvUjd5V0FRQWlGWkFUOXhQYUwzenJRZXptY0RrX0UzOUNyUG5zZXAwNnRoMUpTU2M4Zml3M3U3djlRbXkxMndoazZMZlRaQnlwaUtXalJWZHl4VnBpV2FFUjJXYjhoQk03SUxyeXRPV2htUkZ4cGtmcllOZ190Z3BsOHlSWlFoZTVHcdIBqgFBVV95cUxOUlFBU1J4UktLenhRbmFhOEJPTUkzY2JBNkZTR0lpWURVNUUtT2FscU5BbWpPR0M4ekp5a2JuSG5BcWpGMElnMVQxNnFHUHB1Wk9GVTIzR1NaRzY1b1lCS0FwZ3UyQ2lRei1HREM0cURIQ0hSbzFFVGRmUmdVUWJwWTVFM0NtbVZHOThSZ0k4aXM2SUxxTHdWa3EwRkdTNFBfYU9CYnlJc0Zodw?oc=5",
+     "ABC News - Breaking News, Latest News and Videos",
+     "Thu, 05 Nov 2026 21:46:21 GMT"
+    ],
+    [
+     "Stocks rebound after tech selloff that pushed Nasdaq into correction - CBS News",
+     "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wQm5VYTdUdFdHMmVJQVZZN0JweHdoYXVsNXBaY21ONkE2NmZaTGd4V3lnLXpVVE05WlpvR3NiTUJIdEZMRHFCNlZqaXlWS29IOWF3VkRKTEdLVnR2SGpuZ2Q3dzhGYWVhWU9mN1NNT0pKSmdOTnV3NzRCZzk?oc=5",
+     "CBS News",
+     "Fri, 06 Nov 2026 15:10:00 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "EXPD",
+   "kind": "SIGNAL",
+   "rule": "solid",
+   "tier": "solid",
+   "c": 184.61000061035156,
+   "buy": 186.6680599601732,
+   "tgt": 192.2681017589784,
+   "stop": 174.83663034242767,
+   "days": 3,
+   "conf": 5.2552811663195484,
+   "s": {
+    "n": 3361,
+    "win": 66.76584349895865,
+    "avg": 0.41882486907940125,
+    "days": 3,
+    "lose": -4.539137597833163
+   },
+   "ed": null,
+   "name": "Expeditors International of Was",
+   "drop": -7.161179309067323,
+   "rvol": 1.2785712934410414,
+   "dd": {
+    "ind": "Integrated Freight & Logistics",
+    "short": 0.0421,
     "dtc": 4.07,
     "ratings": [
-     2,
-     12,
-     1
+     3,
+     10,
+     5
     ],
     "moves": [
      {
-      "firm": "RBC Capital",
+      "firm": "UBS",
       "action": "main",
-      "to": "Sector Perform",
-      "pt": 17.0,
-      "prior": 14.0,
-      "date": "2026-10-29"
+      "to": "Buy",
+      "pt": 245.0,
+      "prior": 220.0,
+      "date": "2026-11-05"
+     },
+     {
+      "firm": "JP Morgan",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 220.0,
+      "prior": 214.0,
+      "date": "2026-11-04"
      },
      {
       "firm": "Barclays",
       "action": "main",
       "to": "Underweight",
-      "pt": 16.0,
-      "prior": 15.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Stifel",
-      "action": "main",
-      "to": "Hold",
-      "pt": 18.0,
-      "prior": 15.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Baird",
-      "action": "main",
-      "to": "Outperform",
-      "pt": 18.0,
-      "prior": 17.0,
-      "date": "2026-10-29"
-     }
-    ]
-   },
-   "news": [
-    [
-     "Cell and Tissue Culture Supplies - Global Strategic Business Report: Capitalize on the US$97.7 Billion Surge as Avantor, Corning, Lonza, and Thermo Fischer Scientific Reshape Competition",
-     "https://finance.yahoo.com/healthcare/articles/cell-tissue-culture-supplies-global-153600910.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 15:36:00 +0000"
-    ],
-    [
-     "Avantor (AVTR) Stock Drops As Q3 Earnings Rebound Meets Caution",
-     "https://finance.yahoo.com/markets/stocks/articles/avantor-avtr-stock-drops-q3-181246237.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 18:12:46 +0000"
-    ],
-    [
-     "Avantor, Inc. (AVTR) is a Great Momentum Stock: Should You Buy?",
-     "https://finance.yahoo.com/markets/stocks/articles/avantor-inc-avtr-great-momentum-150005700.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 15:00:05 +0000"
-    ],
-    [
-     "Avantor (AVTR) Upgraded to Buy: What Does It Mean for the Stock?",
-     "https://finance.yahoo.com/markets/stocks/articles/avantor-avtr-upgraded-buy-does-150002362.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 15:00:02 +0000"
-    ],
-    [
-     "Is Avantor (AVTR) Stock Outpacing Its Medical Peers This Year?",
-     "https://finance.yahoo.com/healthcare/articles/avantor-avtr-stock-outpacing-medical-124002939.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 12:40:02 +0000"
-    ],
-    [
-     "Repligen Soars 5% as RBC Raises Price Target to $200 After Full-Year Guidance Hike",
-     "https://www.tikr.com/blog/repligen-soars-5-as-rbc-raises-price-target-to-200-after-full-year-guidance-hike?ref=yahoofinance&.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 18:37:57 +0000"
-    ],
-    [
-     "A 46,728-unit stock grant for Avantor (AVTR)'s HR chief vests in three equal annual installments. - Stock Titan",
-     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUVF1Uk5fM2dRckM3aU50VTF2XzA0b0NEZGVPZnBBdklTSDFjT2k4SlRlTmNGWGMwbUJDVlJWOFBBUHR5RmJjd1Rlc2M2dHNhMzZ0dFFienJfZG14bEY3Q1RLendBbGJSRjB6WXBiSVpnc280VHpmalZlaFJVc21pQ2NhNUx0TTFSU1JTT09XdWlwZE43dkp2aXFwX2ZEeWRRb2c1a3VfYmw?oc=5",
-     "Stock Titan",
-     "Tue, 03 Nov 2026 22:37:45 GMT"
-    ],
-    [
-     "3 unpopular stocks with open questions - The Globe and Mail",
-     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSFF1clhQZnRDZ2JkNjJlUVM4RHR3eDhjSDhJVUoxbXpTc21HUVBfSWdWWlJFeHlYZEcwTFowQkNRMXlhejhkNlFOa0RnZk9oSEFMV0NabHMtSjZBbEpLN0xfejFqaDVIYTU1aHowcVdzd0pGZWMzRzFieW1YazZuZVdoZk01WnIzZWNITWRvQnZWaVl0bC0xRXctZ1lhVTYwdUpuNHdrRlo2N21aVF9yLTBoc05OajFnT0gxZE9tWnc?oc=5",
-     "The Globe and Mail",
-     "Sun, 01 Nov 2026 07:00:00 GMT"
-    ],
-    [
-     "Avantor, Inc. (AVTR) is a Great Momentum Stock: Should You Buy? - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUxrSEZCbVgzVUN4RTBmaWZPQVRGa0xLdE9WbTJDZWFhUUJheGY2RGpaS3RrZHhlaF9LRW1fVFVLV29iellrMDV0WTR1VXdKUlh6Y2I2ZkpVVS1SV1lkaHVqTmhPdU5wcUJPQXVIS20zRHhuUUk1emgzUGJzZWpCT0g0MWVwWkdWX2h4WjdDMVJvZVZVdkd4WTB0WTY?oc=5",
-     "Yahoo Finance",
-     "Fri, 30 Oct 2026 15:00:05 GMT"
-    ],
-    [
-     "Trading Systems Reacting to (AVTR) Volatility - Stock Traders Daily",
-     "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZVhyRWFPa2lUSWFxZ1JBREtqYzktTU5sUURRMjVjNGoyTzhqemlwdmhBdnRyQXhkb0plQjNjdWtKMVBYbVAxb091M0lhWl9kTnVyTFd5NngtcWZjeW42ZTRNTko5djc3dXh3Y2R6cXhzYktWTWY3UnZRekZGUldNY0pjZjIyNXVuTy11WUJIZER2YmJqbS1mNWFvZ25sRXQxWjdiRlVpUmx3WERkWWk1ZHJZWFBjVTRRa2xubTdlNA?oc=5",
-     "Stock Traders Daily",
-     "Sat, 31 Oct 2026 01:26:02 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "GKOS",
-   "kind": "SIGNAL",
-   "rule": "solid",
-   "tier": "solid",
-   "c": 219.97999572753906,
-   "buy": 221.5956664794848,
-   "tgt": 228.24353647386937,
-   "stop": 191.93537508021026,
-   "days": 2,
-   "conf": 6.648686030428768,
-   "s": {
-    "n": 964,
-    "win": 67.9460580912863,
-    "avg": 0.6691668371667422,
-    "days": 2,
-    "lose": -4.89833862650164
-   },
-   "ed": null,
-   "name": "Glaukos Corporation",
-   "drop": -9.27911596686185,
-   "rvol": 1.0443363361519928,
-   "dd": {
-    "ind": "Medical Devices",
-    "short": 0.0888,
-    "dtc": 4.37,
-    "ratings": [
-     12,
-     1,
-     0
-    ],
-    "moves": [
-     {
-      "firm": "HC Wainwright & Co.",
-      "action": "main",
-      "to": "Buy",
-      "pt": 248.0,
-      "prior": 195.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "JP Morgan",
-      "action": "main",
-      "to": "Overweight",
-      "pt": 240.0,
-      "prior": 200.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Citigroup",
-      "action": "main",
-      "to": "Buy",
-      "pt": 247.0,
-      "prior": 225.0,
-      "date": "2026-10-29"
+      "pt": 175.0,
+      "prior": 165.0,
+      "date": "2026-11-04"
      },
      {
       "firm": "Truist Securities",
       "action": "main",
-      "to": "Buy",
-      "pt": 255.0,
-      "prior": 215.0,
-      "date": "2026-10-29"
-     }
-    ]
-   },
-   "news": [
-    [
-     "iShares S&P Mid-Cap 400 Growth (IJK) Buys $58 Million More Glaukos on Tuesday",
-     "https://finance.yahoo.com/markets/stocks/articles/ishares-p-mid-cap-400-110437931.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 05 Nov 2026 11:04:37 +0000"
-    ],
-    [
-     "iShares Russell 2000 (IWM) Buys $2.4 Million More Jackson Financial on Tuesday",
-     "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-buys-110400445.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 05 Nov 2026 11:04:00 +0000"
-    ],
-    [
-     "iShares Core S&P Mid-Cap (IJH) Adds Glaukos and TechnipFMC on Nov. 3",
-     "https://finance.yahoo.com/markets/stocks/articles/ishares-core-p-mid-cap-110338929.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 05 Nov 2026 11:03:38 +0000"
-    ],
-    [
-     "ETFs Bought $385.0 Million of Glaukos (GKOS) on Tuesday",
-     "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-385-0-million-110035661.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 05 Nov 2026 11:00:35 +0000"
-    ],
-    [
-     "Is Glaukos (GKOS) Still Cheap After Record Sales And Profit?",
-     "https://finance.yahoo.com/markets/stocks/articles/glaukos-gkos-still-cheap-record-151010217.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 15:10:10 +0000"
-    ],
-    [
-     "iShares Russell 2000 (IWM) Buys $1.9 Million More Jackson Financial on Nov. 2",
-     "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-2000-iwm-buys-110459276.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 11:04:59 +0000"
-    ],
-    [
-     "Is Glaukos (GKOS) Still Cheap After Record Sales And Profit? - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWkVaU2oxQVpkaElsNFBId1A5eHVLNEsxcWN4SE5qY01aWkhLc3JGOXNydDZsT3pIZmszOUQ1UTEwWG83YVpJa2pBNWpPWUVmU2diamhCMlV6djdpeDdXaUZONTFQdzBVcVc1SHdQUnZrV0NvRjFhcjZiVHUtZGl4aWg5SFQzaEJxYTJ0TGdoRDJ1ZzhnLTdNaXFRWTI?oc=5",
-     "Yahoo Finance",
-     "Wed, 04 Nov 2026 15:10:10 GMT"
-    ],
-    [
-     "Glaukos (NYSE:GKOS) Stock Forecast & Analyst Predictions - Simply Wall St",
-     "https://news.google.com/rss/articles/CBMidkFVX3lxTE00OUtHbjVQYU5reGIwd1RPYzVJYWZBNTVRaHFXVTZJcEs2aWF3WnRWTGVmMThJWDE4WUEtTXBDN1ZfaVhNQmdwY1R4UGZMNEtrdVZRTjRBN25KeGJuR0RQczJkdzgyTngyVUxrRjJnTW54TnluZEE?oc=5",
-     "Simply Wall St",
-     "Fri, 30 Oct 2026 07:00:00 GMT"
-    ],
-    [
-     "Glaukos(GKOS.US) Officer Sells US$10.62 Million in Common Stock - Moomoo",
-     "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcXE2RDdaaWN5cndsMVpoMGdJcF9UWUFPN1JtdloxdTBsMmM2QjI0RWhZSGUzQ0RUYjBwMkd0N2JqcVpUbENvdDVhQjdmTnJFdlJNNHZvOG9BeDRtb2lOMnJtVW9oRlA0UU42V0N4bWFiNlZFMnd3enVUZHJfRnlCMVUtZXJrMV9iNGR2X2Nka004aTFmSmpoN2FOcGRtRTJ4?oc=5",
-     "Moomoo",
-     "Wed, 04 Nov 2026 03:17:16 GMT"
-    ],
-    [
-     "Conferences in New York, London and Miami are on Glaukos management's schedule. - Stock Titan",
-     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ3JQZTJ4NU9KVmpCSGFrbXJSU0dKV2JsN0ZyYVNYbFZ1ZzlKMXlwSGR4d05LdTFDODR5bXJzSjkwakJ4cmZYZjNsTnpPUkQ4RUFTS0p3WEgwdDFxZm5JV1ZZbWRGOGFFYmhGSktzeXRDd0NpQ19HUUMxZlJYX0lfSGhtMHZDVGRjNmhyb3VXYUtLRnE2SWlUUmR5by1tblhaSG9WbF9hNTFBdFk?oc=5",
-     "Stock Titan",
-     "Tue, 03 Nov 2026 12:00:00 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "PBF",
-   "kind": "SIGNAL",
-   "rule": "solid",
-   "tier": "solid",
-   "c": 68.37000274658203,
-   "buy": 69.73740280151367,
-   "tgt": 73.03219359545008,
-   "stop": 59.063118002755296,
-   "days": 2,
-   "conf": 7.648686030428768,
-   "s": {
-    "n": 964,
-    "win": 67.9460580912863,
-    "avg": 0.6691668371667422,
-    "days": 2,
-    "lose": -4.89833862650164
-   },
-   "ed": null,
-   "name": "PBF Energy Inc.",
-   "drop": -9.491657508666396,
-   "rvol": 0.8918780088638292,
-   "dd": {
-    "ind": "Oil & Gas Refining & Marketing",
-    "short": 0.1249,
-    "dtc": 3.02,
-    "ratings": [
-     1,
-     10,
-     4
-    ],
-    "moves": [
-     {
-      "firm": "Freedom Broker",
-      "action": "up",
       "to": "Hold",
-      "pt": 63.0,
-      "prior": 55.0,
-      "date": "2026-11-03"
-     },
-     {
-      "firm": "Piper Sandler",
-      "action": "main",
-      "to": "Neutral",
-      "pt": 97.0,
-      "prior": 94.0,
-      "date": "2026-11-02"
-     }
-    ]
-   },
-   "news": [
-    [
-     "PBF Energy (PBF) is an Incredible Growth Stock: 3 Reasons Why",
-     "https://finance.yahoo.com/markets/stocks/articles/pbf-energy-pbf-incredible-growth-164501784.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 16:45:01 +0000"
-    ],
-    [
-     "Robert Half (RHI) Surges on Temporary Staffing Stabilization and Easing AI Fears",
-     "https://finance.yahoo.com/markets/stocks/articles/robert-half-rhi-surges-temporary-140605813.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 14:06:05 +0000"
-    ],
-    [
-     "Qualys (QLYS) Surges Following Launch of AI-Driven Vulnerability Platform",
-     "https://finance.yahoo.com/technology/ai/articles/qualys-qlys-surges-following-launch-140013669.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 14:00:13 +0000"
-    ],
-    [
-     "What\u2019s Driving PBF Energy\u2019s (PBF) Cash Surge?",
-     "https://finance.yahoo.com/markets/stocks/articles/driving-pbf-energy-pbf-cash-135608266.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 13:56:08 +0000"
-    ],
-    [
-     "PBF Energy (PBF) Stock Price Trails Its Q3 Earnings Windfall",
-     "https://finance.yahoo.com/energy/articles/pbf-energy-pbf-stock-price-071201866.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Sat, 31 Oct 2026 07:12:01 +0000"
-    ],
-    [
-     "Versigent (VGNT) is Unlocking Value Through Independent Growth and Capital Allocation",
-     "https://finance.yahoo.com/markets/stocks/articles/versigent-vgnt-unlocking-value-independent-161748267.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 16:17:48 +0000"
-    ],
-    [
-     "PBF Energy Inc. (PBF) stock price, news, quote and history - Yahoo Finance Australia",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1fbjgxOTFmRnUzMGt4dndZWDBYbTlReUVaR2FDWWgzY2lFVDVqZ04tYks0c3JCMVVoWnVLaDBwTnk5V1lfZE9tM3hRREstQ1g1?oc=5",
-     "Yahoo Finance Australia",
-     "Sun, 01 Nov 2026 04:09:08 GMT"
-    ],
-    [
-     "PBF Energy(PBF) Stock Options Chain | Quotes & News - Moomoo",
-     "https://news.google.com/rss/articles/CBMiqAJBVV95cUxORWVXek9sLWpraV9rbE93WnBIX054LWV2WGxSNGFSLW5BMllmOGM2NnlJeHhpOHRyZGRyaFZNd3p6Tk1NTE0xWXJzVTUzS1BtVFNNOWVJRGpUbno0QXl2U180SjV3UHBJRW9lb1NtbVZ1LXF5djNDdHQ1MzdvSk1RRWpENmp5MjZiX1AzQ3duYVhrU2YxTEVvbVZ2clM1Y0tORkNPZTJxd25HdVVDNUd1RHIyVS0zLV9hNFgtS0F6Y2RRcC1JekhDOGg2Qzk5SVEzaDVaNGJSdE9GVGZ4OHU5YXJqbkVjV0t2ck1uYmNZdU1UY0pJZThDNEZoZTJCTXliSzk1OFd3SVc3NXFjcHI3bE1xa2QwMXNnVHhULXFORm85X2ZmRjl0cg?oc=5",
-     "Moomoo",
-     "Fri, 30 Oct 2026 21:35:52 GMT"
-    ],
-    [
-     "PBF Energy (PBF) Stock Looks Cheap While The Market Stays Cautious - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX0Y3endIa2hRaGw4LXlkUDhjRG1sOEJUV3pKZUw5OW0zTDhVbkZTdDJMTlRva2VHRVllTjgxV2E3UXhWcUJoX3BneV9OOTN4aEc5ZmdCU1FOeTBRaEZMSkNxMmxBM0NrX2JHWGtrQlZwc09scldYMzhvbEk1cGoyRmlSSzFzVUZvdmRwV2NlLUpibVE0aXc?oc=5",
-     "Yahoo Finance",
-     "Tue, 03 Nov 2026 05:05:49 GMT"
-    ],
-    [
-     "Freedom Broker upgrades PBF Energy stock rating on strong earnings - Investing.com",
-     "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZVhJUHFCV0tVZUU2R3diWTZPVS11QnpqclprRndaYjk0dFJ5c3lsemItbVBWWWVxMUlrOW5tbzNrQmpFLWVNR0tFbTBPeFhHNHpHQzliYVFBbEtFUktibVJrVnpPSEZWMi1xVHd3bGFGdzRLNkZFZ1lRS21UUDc5bVVaT1hIbEVmeTNwRExEemxtQ1FvaFRRUUxLYmU5OVBNUjRCVk9mc0dQQkJmc3FMdk44RENDRGI4dkVBQ2RqUVViYXFz?oc=5",
-     "Investing.com",
-     "Mon, 02 Nov 2026 15:43:52 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "PSX",
-   "kind": "SIGNAL",
-   "rule": "solid",
-   "tier": "solid",
-   "c": 247.0399932861328,
-   "buy": 251.98079315185547,
-   "tgt": 262.5896872952242,
-   "stop": 228.59792397635323,
-   "days": 2,
-   "conf": 7.648686030428768,
-   "s": {
-    "n": 964,
-    "win": 67.9460580912863,
-    "avg": 0.6691668371667422,
-    "days": 2,
-    "lose": -4.89833862650164
-   },
-   "ed": null,
-   "name": "Phillips 66",
-   "drop": -9.710899999241551,
-   "rvol": 1.8293724808132623,
-   "dd": {
-    "ind": "Oil & Gas Refining & Marketing",
-    "short": 0.0201,
-    "dtc": 2.23,
-    "ratings": [
-     11,
-     8,
-     1
-    ],
-    "moves": [
-     {
-      "firm": "Citigroup",
-      "action": "main",
-      "to": "Neutral",
-      "pt": 302.0,
-      "prior": 297.0,
-      "date": "2026-11-04"
-     },
-     {
-      "firm": "Morgan Stanley",
-      "action": "main",
-      "to": "Overweight",
-      "pt": 290.0,
-      "prior": 284.0,
-      "date": "2026-11-02"
-     },
-     {
-      "firm": "Freedom Broker",
-      "action": "up",
-      "to": "Hold",
-      "pt": 258.0,
-      "prior": 173.0,
-      "date": "2026-10-31"
-     },
-     {
-      "firm": "Wells Fargo",
-      "action": "main",
-      "to": "Overweight",
-      "pt": 346.0,
-      "prior": 345.0,
-      "date": "2026-10-29"
-     }
-    ],
-    "iv": 0.062509375,
-    "imove": 0.5568777731223152
-   },
-   "news": [
-    [
-     "Phillips 66 (PSX) Secures Long Term Used Cooking Oil Supply For Renewable Fuels",
-     "https://finance.yahoo.com/energy/articles/phillips-66-psx-secures-long-170952479.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 17:09:52 +0000"
-    ],
-    [
-     "From Fryer to Flyer: Converting Used Cooking Oil into Sustainable Aviation Fuel",
-     "https://finance.yahoo.com/energy/articles/fryer-flyer-converting-used-cooking-180000607.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 18:00:00 +0000"
-    ],
-    [
-     "What State Street Energy Select Sector SPDR ETF (XLE) Sold: Exxon Leads on Monday",
-     "https://finance.yahoo.com/energy/articles/state-street-energy-select-sector-110544981.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 11:05:44 +0000"
-    ],
-    [
-     "The Zacks Analyst Blog Highlights Phillips 66, Valero Energy and HF Sinclair",
-     "https://finance.yahoo.com/energy/articles/zacks-analyst-blog-highlights-phillips-071600706.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 07:16:00 +0000"
-    ],
-    [
-     "CVR Energy nears $4 bln deal for Marathon refineries- WSJ",
-     "https://finance.yahoo.com/energy/articles/cvr-energy-nears-4-bln-054250852.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 05:42:50 +0000"
-    ],
-    [
-     "Can MPC's Gulf Coast Focus Fuel Stronger Future Refining Returns?",
-     "https://finance.yahoo.com/energy/articles/mpcs-gulf-coast-focus-fuel-163900782.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 05 Nov 2026 16:39:00 +0000"
-    ],
-    [
-     "Phillips 66 (PSX) Just Flashed Golden Cross Signal: Do You Buy? - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimAFBVV95cUxORzlCVkU2RUF5UHk0ZE5MdlZPSzJPRU5lWEl4LWlyMFRuaEQ2V2gzZlYyZG81bWVkcjZ6YV9oV001YkEtci1EYzltU1RRVzZ6RjAtVGZaSVdGWklxc2d4dUg5ZGowYk14ZHNnV1ZmU2ktR0VUcFFMRWQwMEdYemhtR1ZyVEtsUW5ibGxUeVdiN2g1d1N4UUhFSQ?oc=5",
-     "Yahoo Finance",
-     "Mon, 02 Nov 2026 13:35:01 GMT"
-    ],
-    [
-     "Phillips 66 (NYSE:PSX): A Quality Dividend Stock for Income Investors - ChartMill",
-     "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQmJGYWhybmhGMHhlS3AtSDRVTEFIamRFUXAtV0pYbGItUXBUQ1QxTG1IUy1hNU1vYVdMeVdqZmRpckV6a0R1QU9rTUFUZEtUaVV6c3BnQV9MX2d2MHJ0dHctc1d5NDR6cXhaalk4Unh4U2Y0S2hCNnVqbVEweHNLTUFoSUR0TDRDa1l4QWVsc0Z0X0pWMTQ2eGVkTEZSU3NCNXpaT0ZBVWl6QjZJZm5SdXNyUlBLSTA?oc=5",
-     "ChartMill",
-     "Sat, 31 Oct 2026 12:50:52 GMT"
-    ],
-    [
-     "Phillips 66 (PSX) Stock Up 3.4% but GF Value Says Overvalued -- GF Score: 59/100 - GuruFocus",
-     "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZlF2cDFoVFFtQnJfZXIxNkhHVnc1LXBIbUN1T1VxYS1BcXhhNS03SUFOc2RBTnJzLWtrbFVEOGJOMEFDeHRYQWY0R0pQYnNabHYyS0NzTFlRVUNiUjJhenYwaXNWNldQM2pCY05FWHhxRmx0SVMtTEUxaXlpaE02a19YXzE5ZEg2UzktemZ3TXJsaXNEcGpWSjFtS2VYQjBRajEzZ1VGeTI3WVZOVjBZ?oc=5",
-     "GuruFocus",
-     "Fri, 30 Oct 2026 21:39:05 GMT"
-    ],
-    [
-     "Buy 3 Energy Stocks as November Momentum Builds Up Post Choppy October - TradingView",
-     "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa0JwMjhpV3R4eUQ2RUR2eGl0S2plSGQ1VDhLUEJZa3h3QnB5cTNIZ1dVV1NKV3VLOHBlalRuaEhNLU1qYXBJbXREUHBSYnp2NldScmIzREcxOF9WM09xOGNmamhERExQZFZTelAwQ1l2RFpqQnM1M19Kbm1fSWd5ZUVKWlprd0VnWGoyMmg0bXIzYnNybk5paEFsWm5Vb1BnaFkxcUVxcndlekNuUDhFWjJJRC1iaEV0T0RiZjRjd2diR2hK?oc=5",
-     "TradingView",
-     "Tue, 03 Nov 2026 11:51:00 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "RVTY",
-   "kind": "SIGNAL",
-   "rule": "solid",
-   "tier": "solid",
-   "c": 150.8300018310547,
-   "buy": 152.106070519775,
-   "tgt": 156.66925263536825,
-   "stop": 135.8446460464212,
-   "days": 2,
-   "conf": 6.648686030428768,
-   "s": {
-    "n": 964,
-    "win": 67.9460580912863,
-    "avg": 0.6691668371667422,
-    "days": 2,
-    "lose": -4.89833862650164
-   },
-   "ed": null,
-   "name": "Revvity, Inc.",
-   "drop": -9.017973855908357,
-   "rvol": 1.239813846955836,
-   "dd": {
-    "ind": "Diagnostics & Research",
-    "short": 0.0858,
-    "dtc": 2.82,
-    "ratings": [
-     6,
-     11,
-     1
-    ],
-    "moves": [
-     {
-      "firm": "JP Morgan",
-      "action": "main",
-      "to": "Neutral",
-      "pt": 160.0,
-      "prior": 155.0,
-      "date": "2026-11-04"
-     },
-     {
-      "firm": "TD Cowen",
-      "action": "main",
-      "to": "Buy",
-      "pt": 185.0,
+      "pt": 200.0,
       "prior": 175.0,
       "date": "2026-11-04"
-     },
-     {
-      "firm": "Barclays",
-      "action": "main",
-      "to": "Equal-Weight",
-      "pt": 175.0,
-      "prior": 160.0,
-      "date": "2026-11-04"
-     },
-     {
-      "firm": "RBC Capital",
-      "action": "main",
-      "to": "Sector Perform",
-      "pt": 172.0,
-      "prior": 135.0,
-      "date": "2026-11-04"
      }
-    ]
+    ],
+    "iv": 0.41189146057128906,
+    "imove": 4.494104276604407
    },
    "news": [
     [
-     "Revvity Q3 Earnings Call Highlights",
-     "https://www.marketbeat.com/instant-alerts/transcript-revvity-q3-earnings-call-highlights-2026-11-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "Is Expeditors International Of Washington (EXPD) Fully Valued Following Results And Its New Dividend?",
+     "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-washington-expd-fully-111046735.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 08:14:22 +0000"
+     "Wed, 04 Nov 2026 11:10:46 +0000"
     ],
     [
-     "Revvity (RVTY) Reaffirms Its Dividend, Is The Stock Now Too Pricey?",
-     "https://finance.yahoo.com/markets/stocks/articles/revvity-rvty-reaffirms-dividend-stock-081156809.html?.tsrc=rss",
+     "Expeditors (EXPD) Stock May Be Fairly Valued As AI Demand Builds",
+     "https://finance.yahoo.com/markets/stocks/articles/expeditors-expd-stock-may-fairly-011025705.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 08:11:56 +0000"
+     "Wed, 04 Nov 2026 01:10:25 +0000"
     ],
     [
-     "Earnings Beat Might Change The Case For Revvity (RVTY) Stock",
-     "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-might-change-case-071042359.html?.tsrc=rss",
+     "What Expeditors International Of Washington Shares Earnings Beat Means For Shareholders",
+     "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-washington-shares-earnings-001936947.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 07:10:42 +0000"
+     "Wed, 04 Nov 2026 00:19:36 +0000"
     ],
     [
-     "Revvity Inc (RVTY) (Q3 2026) Earnings Call Highlights: Strong Organic Growth and Raised ...",
-     "https://finance.yahoo.com/markets/stocks/articles/revvity-inc-rvty-q3-2026-230525122.html?.tsrc=rss",
+     "Expeditors Announces Semi-Annual Cash Dividend of $0.81",
+     "https://finance.yahoo.com/markets/stocks/articles/expeditors-announces-semi-annual-cash-210500926.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 23:05:25 +0000"
+     "Tue, 03 Nov 2026 21:05:00 +0000"
     ],
     [
-     "Revvity Faced Off With 'Elevated Investor Expectations' \u2014 And Won",
-     "https://finance.yahoo.com/m/fe650195-49cf-341e-8016-564dce0b6f02/revvity-faced-off-with.html?.tsrc=rss",
+     "EXPD Q3 Earnings Beat Estimates on Airfreight and Ocean Strength",
+     "https://finance.yahoo.com/markets/stocks/articles/expd-q3-earnings-beat-estimates-170900899.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 21:32:07 +0000"
+     "Tue, 03 Nov 2026 17:09:00 +0000"
     ],
     [
-     "Revvity (RVTY) Q3 2026 Earnings Call Transcript",
-     "https://www.fool.com/earnings/call-transcripts/2026/11/03/revvity-rvty-q3-2026-earnings-call-transcript/?.tsrc=rss",
+     "Successful quarter at Expeditors boosted by hyperscaler business",
+     "https://finance.yahoo.com/markets/stocks/articles/successful-quarter-expeditors-boosted-hyperscaler-154813659.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 21:31:21 +0000"
+     "Tue, 03 Nov 2026 15:48:13 +0000"
     ],
     [
-     "Revvity (RVTY) Stock May Be Trading At A Premium On Its AI Workflow Launch - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSS1TS3ZPT1FKbXlGNjNMTmFHLVZHcTkxWlozcTAwMXFBZ3B1T2ZvLUp1R3ZkYllwZ3JtWWYzUVl5elNmcDNlZVlWaWRZZ3Q3OEg2X0Y3Y3RhRmlFSU91NjhHeWFneG9pNVZ3a0lJUkt3VmMzaUQ5Z2IxSmQxRmZJTjBrNjQ0TTJXRjNPeno2eWtwdTFjRTRydFNUVQ?oc=5",
-     "Yahoo Finance",
-     "Fri, 30 Oct 2026 15:13:24 GMT"
+     "Expeditors International of Washington, Inc. (EXPD) latest stock news and headlines - Yahoo Finance UK",
+     "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KdUdXYld4S0hxaTZPeVJLQVBQT2tSVGJjdHNYUWU5Nm1sSVpHeDhya2pfWDBjdlFpOFpGRExTREQ3ZU9wMXZQclQ5d2RVQ1paN1plNk9mRUg?oc=5",
+     "Yahoo Finance UK",
+     "Sat, 07 Nov 2026 05:14:21 GMT"
     ],
     [
-     "Why is Revvity (RVTY) stock rocketing higher today - TradingView",
-     "https://news.google.com/rss/articles/CBMirgFBVV95cUxPelJaOUhGbW5lN1FXR013cHNzd2xrLS1sQmR0RllzcW5yN1FPQWNKMmlmSkEzNm1kTmFfN3RFU2x2T25pQnhhRUhzSEViZzAtbXV3RF9IOHAtU0RwVkVYX1UtWnVLSlVrWmVvbWZQYVhoY2ZsenRMU05JQ1RYY05hREZ4WFA2Zy10dlJtRWZqQjBEVzk4TS04Zk1WQ3NqZGpxMlNac0NYeTlnTURqUHc?oc=5",
-     "TradingView",
-     "Tue, 03 Nov 2026 15:40:57 GMT"
-    ],
-    [
-     "Revvity Inc (RVTY) Stock Down 5.3% but Still Overvalued -- GF Sc - GuruFocus",
-     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZDJkbTJRZ2hZM1plS0dsaTBFRGx0dkdiUXcyX1J3MWlDQkxzbER5U2djNTIyUmhXQndnNDNnZnUtNG1OSVpja2wzSnhFLTAtTEFuVzU2cDFnNTZORGZSV1NxZ1Fva18xSmlzVDMwOFVCOXpabU9xR19TNGtrNVF6NXU0VFlRcndidnhpUlhxY2lkcVBuRHFKOHI2OXJ1U0wzN3R2NkxxTmI?oc=5",
+     "Expeditors International of Washington Inc (EXPD) Shares Fall 3. - GuruFocus",
+     "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOXFNLVNvVzJVOGxXTjVMN1hIY25QRVg0cGJQTEZtMlFaYzhHbFJvQmE2TXpZM1BzcDFkc2J6blExVTRnR01INGxod0ZzSWQzeWF0UHFmU1RMRTRYQkpCenh2Sko5cDJPNVFXRXhCb1hpMFBHQ001YkRaMC02c0dYWkpDMERDRUM4SnY3OW1LR3ZVV0Y0Q1M4QmxiWC15ZVFFMGhOTDdGd05MVG9ESU1aUWh6RTBaQ3RMOGE5M01FWXBTYmNjZnlMSmhXUXI?oc=5",
      "GuruFocus",
-     "Sat, 31 Oct 2026 01:45:41 GMT"
+     "Thu, 05 Nov 2026 01:20:58 GMT"
     ],
     [
-     "Earnings Beat Might Change The Case For Revvity (RVTY) Stock - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU19ieWhiNE9JYUpBd0RLeTZIZU9RR3l1UVJ3VnV6cEMwV1k0UTREazV1Y1VpNmg1enBwUnZsYzBLZFdveXFZXzNlQUVOcjdsTlp0TDREREpaaGd4MXBxWUphcHZtMUt4Z1htZjJQUlB3VUNVNm1FdWVoU1U4NWx1ZFllNlNXUUE0LTd4dzlYLW5SMXRaVU9ONnJDRjQ?oc=5",
-     "Yahoo Finance",
-     "Wed, 04 Nov 2026 07:10:00 GMT"
+     "Expeditors International Of Washington (EXPD) Stock Looks Fully Priced Following Its 92% Run - Simply Wall St",
+     "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYmduazZFeGNCemRnM2hud2x1MzFZajRlT3phQTBtZ0JteUpJWVg0RkF3aExJdXhqSXdiejZSWVZhTlJ2M2RUSlF6QW9tYU51bDVNMlppcUVUand2U2R5TThNNEM5Tjh5TDkzRWNTcm4xNXRnXzJ1dDVzTjQ1SGlCQlYtUVhudDZraEx0MlB1Q2xrbnJmVGhrZzZoUWRmaTRmenpNdmFVMEdhc25BeENaT1FIM29UcjlUVDNjb3pWMXpXaUZPdnJFc0JLd2lTX2pYT2tWMGFkUzNDaEhkVG9md2dTV3Bud05TNV9lMkplZWpxWUXSAfgBQVVfeXFMUEdhX3JSZE9tRXhFR0tabzlyYm1qUU5lRTJ2UWFwdk9IQmpiMjltM2FWZTVVOHRGNFdleVVTT25JeUozbVY0Q05ROFBaa3UwcmZCajBpR2IxU21PWjVLXy1LeF9PV0llZTFHaVhRRXdyMm9iNkYybGw2OEJxRXc5RjJPN3M4UDNNSFRVNkVvYVBMaU5IT195d0VRaFFPSG5kMGc4TjNNUUpEVHU0N1ZkU2lha2RLRWVUNVRKM0dnNUpCbDlVVGp4TmhUZ2xQc1UyOVllSzlPWEpNS1JQNHl6VWUzZlUwYmxFZ1kyRkVLdnNUUWFpX19pa08?oc=5",
+     "Simply Wall St",
+     "Wed, 04 Nov 2026 05:28:33 GMT"
+    ],
+    [
+     "A logistics company says it will have returned more than $1 billion to shareholders in 2026 - Stock Titan",
+     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa0dUOE5PZEE4NmNnZEV4RS0zZnJGMmdaZGFGZ215cjdZaUNwYUpkdnotOVpnRkZ3dW05dW9nNUQ1NTc1VzZUY1ZhVDhYNEVjT1BlOGdSdk9talBrWUNXV3I1dlpiMk9OZjh0UV9XT1ZvMGVfQkFDMG1jaVJ4TVBoNzg4M0JBeFE4SFh6d2pRa1ZIU0piYWlObldxdGV4RTRoRzhZZFJJWVd6dw?oc=5",
+     "Stock Titan",
+     "Tue, 03 Nov 2026 21:05:00 GMT"
     ]
    ]
   },
   {
-   "t": "CVLT",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 157.6199951171875,
-   "buy": 148.61700439453125,
-   "tgt": 161.16049114115165,
-   "stop": 131.47843061174666,
-   "days": null,
-   "conf": null,
-   "s": null,
-   "ed": null,
-   "name": "Commvault Systems, Inc.",
-   "drop": -8.15220875438898,
-   "rvol": 1.144734304840087,
-   "dd": {
-    "ind": "Software - Application",
-    "short": 0.10569999,
-    "dtc": 6.06,
-    "ratings": [
-     11,
-     8,
-     0
-    ],
-    "moves": [
-     {
-      "firm": "DA Davidson",
-      "action": "main",
-      "to": "Buy",
-      "pt": 210.0,
-      "prior": 185.0,
-      "date": "2026-10-28"
-     },
-     {
-      "firm": "Truist Securities",
-      "action": "reit",
-      "to": "Buy",
-      "pt": 200.0,
-      "prior": 182.0,
-      "date": "2026-10-28"
-     },
-     {
-      "firm": "Scotiabank",
-      "action": "main",
-      "to": "Sector Perform",
-      "pt": 180.0,
-      "prior": 160.0,
-      "date": "2026-10-28"
-     },
-     {
-      "firm": "RBC Capital",
-      "action": "main",
-      "to": "Sector Perform",
-      "pt": 180.0,
-      "prior": 160.0,
-      "date": "2026-10-28"
-     }
-    ]
+   "t": "SLB",
+   "kind": "SIGNAL",
+   "rule": "solid",
+   "tier": "solid",
+   "c": 49.91999816894531,
+   "buy": 49.44733974386763,
+   "tgt": 50.93075993618366,
+   "stop": 45.7187674433654,
+   "days": 3,
+   "conf": 6.2552811663195484,
+   "s": {
+    "n": 3361,
+    "win": 66.76584349895865,
+    "avg": 0.41882486907940125,
+    "days": 3,
+    "lose": -4.539137597833163
    },
-   "news": [
-    [
-     "Is It Worth Investing in Commvault (CVLT) Based on Wall Street's Bullish Views?",
-     "https://finance.yahoo.com/markets/stocks/articles/worth-investing-commvault-cvlt-based-133003356.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 13:30:03 +0000"
-    ],
-    [
-     "CVLT Q3 deep dive: SaaS growth, identity resilience, and AI readiness shape outlook",
-     "https://finance.yahoo.com/markets/stocks/articles/cvlt-q3-deep-dive-saas-023529774.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Sat, 31 Oct 2026 02:35:29 +0000"
-    ],
-    [
-     "5 must-read analyst questions from Commvault\u2019s Q3 earnings call",
-     "https://finance.yahoo.com/markets/stocks/articles/5-must-read-analyst-questions-181634164.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 18:16:34 +0000"
-    ],
-    [
-     "What Makes Commvault Systems (CVLT) a Strong Momentum Stock: Buy Now?",
-     "https://finance.yahoo.com/markets/stocks/articles/makes-commvault-systems-cvlt-strong-150003936.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 15:00:03 +0000"
-    ],
-    [
-     "Commvault Faces Continued Traction on SaaS Transition, Multi-Product\nAdoption, RBC Says",
-     "https://finance.yahoo.com/technology/articles/commvault-faces-continued-traction-saas-170433776.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 17:04:33 +0000"
-    ],
-    [
-     "Commvault Advances Identity Resilience, Enabling Customers to Identify and Manage Hidden Risks in Identity Systems Before Attackers Exploit Them",
-     "https://finance.yahoo.com/technology/ai/articles/commvault-advances-identity-resilience-enabling-123000881.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 12:30:00 +0000"
-    ],
-    [
-     "Commvault Systems, Inc. (CVLT) stock price, news, quote and history - Yahoo Finance Singapore",
-     "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDamFabGtqczVjenlKNEtSSFZUb1lVM2dkNDVjenZ2Z1BjRkNLa0pqSWo5TWZkenBpOUNDTFNzN0Y5ZWZjQVN5ald3bWdWRzh0dUE?oc=5",
-     "Yahoo Finance Singapore",
-     "Wed, 04 Nov 2026 13:34:35 GMT"
-    ],
-    [
-     "CommVault Systems, Inc. (NASDAQ:CVLT) Stock Has Average Price Target of $174.00 - MarketBeat",
-     "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOHQzdFBmZHU4aUtlZGVxSnQwb1J3VXI1eWxXSFBtZUtVVk5hZkJKN2xwSmNqNUliaXlHWjFJZEh3Y2NScTZUcjhjX0YxVEtxXy1UQmRQQnV4TzZLNVVlX2lBWE9teS1oNGMzTU9CVC1vcUpWY2NRVDRVX1FXRVRpT25GZlY4MjZsUUFtU28tSzVQR3p5bWEtRXFKajFzVzZWMUREOTNKRl9JamtKOHpLSmYzWGVFakdrUm9fNDZNS2NVX09hSWtpbktSN2xlM2NPVTdZ?oc=5",
-     "MarketBeat",
-     "Mon, 02 Nov 2026 07:44:53 GMT"
-    ],
-    [
-     "Fund Update: 299,141 COMMVAULT SYSTEMS (CVLT) shares added to Boston Trust Walden Corp portfolio - Quiver Quantitative",
-     "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3luSnl5bm9PcVBqcUFqWTlHbTNsVGRhQnhLTFFMM0NicHB3N3d3SkNkWFM1OVhyemg0WlVja0p6Tm9MQURrQlNOemlja2xnV2NGaFFWdDd3SVhBWEhUaDhCOVVYbzhMTVg0VE5DQkt0ZHlKZXowRzNrc3dELUlOSjIyMHFTQWI3cm1POVlBUzMzVVRNYmZKY3hWa3VWNGVsazhSVHZ2bW9NUFU4UFNSeGFwX29NR0M0ZEJCS2ZONUVwLTNsTGF0VUJ1MFZCZWVIMWpF?oc=5",
-     "Quiver Quantitative",
-     "Fri, 30 Oct 2026 17:11:00 GMT"
-    ],
-    [
-     "(CVLT) Price Dynamics and Execution-Aware Positioning - Stock Traders Daily",
-     "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcF9DdDZVTlE5N2x3WkJXUHdKcmlndi05OGJwRk1kbVJwSzV3azNlSktMWW04WHg5TEVQcVFLZDhLMDdLajQ4SC1LTjRGVW1nWl9ZdGxLTnB0VFN2VXdweGVtd3lka2tjVlpEN3dGUTFORU5mRWhnTmNLNWhxcVVoV0hIWUFQU3lqeGpHUTNDWDVsR2lmZmp4VDZhcDdRNnNBY0xfdU4xSzRJSVVYNEJvWVNtREFITXRqSldEM2xOX1AwWW03bXlROElR?oc=5",
-     "Stock Traders Daily",
-     "Sat, 31 Oct 2026 16:42:02 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "HPQ",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 29.440000534057617,
-   "buy": 25.902000617980956,
-   "tgt": 29.644784507668508,
-   "stop": 22.627714620317732,
-   "days": null,
-   "conf": null,
-   "s": null,
-   "ed": 12,
-   "name": "HP Inc.",
-   "drop": -7.508637748592751,
-   "rvol": 1.3491733155265164,
-   "dd": {
-    "ind": "Computer Hardware",
-    "short": 0.0979,
-    "dtc": 5.41,
-    "ratings": [
-     2,
-     9,
-     7
-    ],
-    "moves": []
-   },
-   "news": [
-    [
-     "HP Workforce Experience Platform\u2122 (WXP) Earns Recognition for Vision and Innovation in Digital Employee Experience Management",
-     "https://finance.yahoo.com/technology/articles/hp-workforce-experience-platform-wxp-140000771.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 05 Nov 2026 14:00:00 +0000"
-    ],
-    [
-     "HP Inc. Looks Outside Tech, Tapping Pharma Heavyweight as New CEO",
-     "https://finance.yahoo.com/m/ba4dfcdf-2148-31e7-b345-dc62d6f7f03f/hp-inc.-looks-outside-tech%2C.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 15:50:00 +0000"
-    ],
-    [
-     "Are Wall Street Analysts Bullish on HP Inc. Stock?",
-     "https://www.barchart.com/story/news/8644181/are-wall-street-analysts-bullish-on-hp-inc-stock?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 12:54:30 +0000"
-    ],
-    [
-     "HP Names Emma Walmsley as New CEO, Ending Monthlong Search",
-     "https://finance.yahoo.com/markets/stocks/articles/hp-names-emma-walmsley-ceo-124439611.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 12:44:39 +0000"
-    ],
-    [
-     "HP Inc. Appoints Emma Walmsley as Chief Executive Officer",
-     "https://finance.yahoo.com/technology/articles/hp-inc-appoints-emma-walmsley-120000023.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 12:00:00 +0000"
-    ],
-    [
-     "HP Inc. to Announce Fourth Quarter Fiscal 2026 Earnings on November 24, 2026 and to Attend Upcoming Investor Conferences",
-     "https://finance.yahoo.com/markets/stocks/articles/hp-inc-announce-fourth-quarter-211500707.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 21:15:00 +0000"
-    ],
-    [
-     "HPQ Silicon Inc. (HPQ.V) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ya2FlQ1M0bEZEdlJtdnRMQW9FVUphRF94cUlKN2xnMHVZc3dKcDBuYjBxZWlQUGItdHpfYnlEZU9rbHRibVJYdGJfc1pzSzk5Q3Zr?oc=5",
-     "Yahoo! Finance Canada",
-     "Tue, 03 Nov 2026 20:47:22 GMT"
-    ],
-    [
-     "6 Red Days In A Row: HP Stock Is Down 17% - Trefis",
-     "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeHNLS1JfUHpHVElZcUNkcno2QXo4LTczSmRERmR5N3p1dlUyQjdsT0E0c3A0NzVqSC1UbUlIUGhzV3dNdGxnbk1hY0lqNUQ0MENHZnFva1ZXY3dRbUxrVnZwVm5sUUQ4ZXJOX0w4X1p3YWJXcW9SNWUyLU4yMTNfSF9YTmI3bjVrZ0JiSzhPbDRSUWJ0a1VrQVNwOUhteVdm?oc=5",
-     "Trefis",
-     "Wed, 04 Nov 2026 07:53:52 GMT"
-    ],
-    [
-     "Dell Sinks 11% as Intel's Warning on PC Slump and Memory Shortage Hits Hardware Stocks; HP Tumbles 9%, Hewlett Packard Enterprise and Super Micro Fall 7% - 24/7 Wall St.",
-     "https://news.google.com/rss/articles/CBMimwJBVV95cUxOcS1XS0Nfa0Nub0NDaEwzQkEtQmRpQUR5Mi1PQkVwZUJGWXlfTkFvUFFob0NGX0dXOExoUHVKTWNGbDBqaXVUc05lTk9KTFFpb3ZZOVhzc0tIMjhFNzBjWDNWRXVqdjNqdDRCa0o3eWhVaWlZRThvWjFvczRqOWhVZ25SdlF0bGhFTmZyNEhhczM5R1lBUnUwTDg2UUVvUnZtMlpNVUFFOFZ5OU9kVTNycGF4MlVHWGtsRWRGUjYxVlZNT1ZJZXBfdUFnYVBiN0s1cFhhYXU4YzJnZkRwYktYWVF0ZUFsdmZ1Snk0bUViX2dWNV81cWRxaXJUY09qaGZtOUtjLVJHdXFrUGZBSUZpWm5UWTI3cnVaT2Rv?oc=5",
-     "24/7 Wall St.",
-     "Fri, 30 Oct 2026 18:02:00 GMT"
-    ],
-    [
-     "Why HP (HPQ) shares are sliding today - TradingView",
-     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbXlnZHNDRzRJTkR6U29oZjNHQThOaFJXZnhEbUpvMkt3ZVJ6M2xObVB2SWVnMEE5eGdEN0xnQmdCZmJyUXpkYzRuTlcydHRLSnphcVpla1Q0VlhDQVd6SFRMNEluSkRNdTAxRVRKenRtUm81UmZVX1NTTEVyTWpBUUprVjdvd1phS2FncFV3NFhDZmZZVFpHbVdzb0Q?oc=5",
-     "TradingView",
-     "Fri, 30 Oct 2026 18:20:53 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "IEX",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 222.60000610351562,
-   "buy": 210.45599670410158,
-   "tgt": 231.10656446287481,
-   "stop": 195.923142351423,
-   "days": null,
-   "conf": null,
-   "s": null,
    "ed": null,
-   "name": "IDEX Corporation",
-   "drop": -6.9903462163297565,
-   "rvol": 1.007066708759319,
+   "name": "SLB Limited",
+   "drop": -7.108305527002113,
+   "rvol": 1.1838369503213095,
    "dd": {
-    "ind": "Specialty Industrial Machinery",
-    "short": 0.038599998,
-    "dtc": 3.72,
+    "ind": "Oil & Gas Equipment & Services",
+    "short": 0.0432,
+    "dtc": 4.24,
     "ratings": [
-     10,
-     5,
-     0
-    ],
-    "moves": [
-     {
-      "firm": "Citigroup",
-      "action": "main",
-      "to": "Buy",
-      "pt": 272.0,
-      "prior": 269.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "RBC Capital",
-      "action": "main",
-      "to": "Outperform",
-      "pt": 283.0,
-      "prior": 285.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Oppenheimer",
-      "action": "main",
-      "to": "Outperform",
-      "pt": 280.0,
-      "prior": 275.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Stifel",
-      "action": "main",
-      "to": "Buy",
-      "pt": 273.0,
-      "prior": 267.0,
-      "date": "2026-10-29"
-     }
-    ]
-   },
-   "news": [
-    [
-     "IEX Q3 deep dive: strong demand in advantaged markets and operational leverage drive guidance raise",
-     "https://finance.yahoo.com/markets/stocks/articles/iex-q3-deep-dive-strong-074136541.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 07:41:36 +0000"
-    ],
-    [
-     "5 must-read analyst questions from IDEX\u2019s Q3 earnings call",
-     "https://finance.yahoo.com/markets/stocks/articles/5-must-read-analyst-questions-144329244.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Sat, 31 Oct 2026 14:43:29 +0000"
-    ],
-    [
-     "Learn Why The Bull Case For IDEX (IEX) Could Change Following Earnings Beat",
-     "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-idex-092155940.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 09:21:55 +0000"
-    ],
-    [
-     "IDEX (IEX) Could Be 7% Undervalued As Earnings Put Valuation In Focus",
-     "https://finance.yahoo.com/markets/stocks/articles/idex-iex-could-7-undervalued-062416120.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 06:24:16 +0000"
-    ],
-    [
-     "Idex: Q3 Earnings Snapshot",
-     "https://finance.yahoo.com/markets/stocks/articles/idex-q3-earnings-snapshot-183742908.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 18:37:42 +0000"
-    ],
-    [
-     "IDEX (IEX) Q3 2026 Earnings Call Transcript",
-     "https://www.fool.com/earnings/call-transcripts/2026/10/28/idex-iex-q3-2026-earnings-call-transcript/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 28 Oct 2026 18:16:59 +0000"
-    ],
-    [
-     "IDEX Corporation (IEX) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yc0Z2YmJLTXpTRlRzY29wLU4zdHJ1NEE4a0ptdFJFVmRxazg4WTdnSWFvcDlBUEwtVDI2TnhjeDR5NGRaNVRIem9jSlNsa3lK?oc=5",
-     "Yahoo! Finance Canada",
-     "Mon, 02 Nov 2026 20:05:42 GMT"
-    ],
-    [
-     "IEX is \u2018Fastest Growing\u2019 Equities Exchange - Markets Media",
-     "https://news.google.com/rss/articles/CBMiekFVX3lxTE9xMzQ5YzhYNElKZmxvRUE3U0NkSG1lSDVOQm5lb0N3RWFjaTdGeVFvZ2VjcmNqOHRaSnd4RFFJOFNPQ3RTajItX1pBZC04TW85cExNLUliS183QVktWE84UDNqN2taRklTeFRFWnhTREh0T3FJVGFlZWtR?oc=5",
-     "Markets Media",
-     "Thu, 05 Nov 2026 18:25:53 GMT"
-    ],
-    [
-     "IDEX (NYSE:IEX) Stock Picked Up by Analysts at Royal Bank Of Canada - MarketBeat",
-     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWEw1bk92aGFYUlpING5yc3V4Y1ZlMFppRFJsS1VGZVBrLXNtQ0ZnUkdRblQxYkprUHFmY1dCSzJuMTBtbldWVmM1RDBwaXpQYTZDYkpPVnZNN3hyOHdJc2tSZWZ3b2RSVlI3bHYyZ3FTRUFzeFZ3ZE90RFFJRUtfb0ZSVDhLOHNfd0tnY0FGSzQ0OUIyX1hVRG5qYTdaMlpxemg4bVJ0blg1YmJzaU4wN3huWnZzbTVVMlQ1UFpLaG5JZmJab3RDU1NxbUMzRlRnNkFKTlRNaw?oc=5",
-     "MarketBeat",
-     "Sat, 31 Oct 2026 07:00:00 GMT"
-    ],
-    [
-     "IEX Outlook for the Week - Equitypandit",
-     "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJN0VWajVmbDAyMDhvS3NKdTNUdEVGTjFZeWh2NnNJRmlxSno3aEZIWllib05aSFdNakgyRGVmTlZxT3lLa1l0Q3pnVjV3amFJdHdVZDdNdGluNVpQQS03Vy14R20?oc=5",
-     "Equitypandit",
-     "Fri, 30 Oct 2026 07:00:00 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "BRKR",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 58.060001373291016,
-   "buy": 51.3629997253418,
-   "tgt": 59.124895669817846,
-   "stop": 43.63585575648717,
-   "days": null,
-   "conf": null,
-   "s": null,
-   "ed": null,
-   "name": "Bruker Corporation",
-   "drop": -6.354836494691907,
-   "rvol": 1.3163367185372692,
-   "dd": {
-    "ind": "Medical Devices",
-    "short": 0.1603,
-    "dtc": 5.27,
-    "ratings": [
-     6,
-     6,
+     26,
+     3,
      1
     ],
     "moves": [
      {
-      "firm": "Citigroup",
-      "action": "main",
-      "to": "Neutral",
-      "pt": 64.0,
-      "prior": 53.0,
-      "date": "2026-11-05"
-     },
-     {
-      "firm": "Leerink Partners",
-      "action": "main",
-      "to": "Outperform",
-      "pt": 85.0,
-      "prior": 80.0,
-      "date": "2026-11-05"
-     }
-    ]
-   },
-   "news": [
-    [
-     "Bruker (BRKR) Jumped, What Is Behind The Fresh Attention?",
-     "https://finance.yahoo.com/markets/stocks/articles/bruker-brkr-jumped-behind-fresh-081654540.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 05 Nov 2026 08:16:54 +0000"
-    ],
-    [
-     "Bruker Corp (BRKR) Q3 2026 Earnings Call Highlights: Margin Expansion and Strong Bookings ...",
-     "https://finance.yahoo.com/markets/stocks/articles/bruker-corp-brkr-q3-2026-010942684.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 05 Nov 2026 01:09:42 +0000"
-    ],
-    [
-     "Bruker (BRKR) Q3 2026 Earnings Call Transcript",
-     "https://www.fool.com/earnings/call-transcripts/2026/11/04/bruker-brkr-q3-2026-earnings-call-transcript/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 19:16:27 +0000"
-    ],
-    [
-     "Bruker Corporation Q3 2026 Earnings Call Summary",
-     "https://app.moby.co/home/research/tools/earningsCalendar/earnings-bruker-corporation-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 18:10:37 +0000"
-    ],
-    [
-     "Bruker Q3 Earnings Call Highlights",
-     "https://www.marketbeat.com/instant-alerts/transcript-bruker-q3-earnings-call-highlights-2026-11-04/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 17:14:37 +0000"
-    ],
-    [
-     "Life Science Instrumentation - Global Strategic Business Report 2026-2032 Featuring ACHB Enterprise, Agilent Technologies, BD, Bio-Rad Labs, Bruker Corp., ChromaCode, Danaher Corp., Emerson Electric Co., Eppendorf, GE Healthcare, Hitachi High-Tech Corp.",
-     "https://finance.yahoo.com/healthcare/articles/life-science-instrumentation-global-strategic-144400939.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 04 Nov 2026 14:44:00 +0000"
-    ],
-    [
-     "Bruker (NASDAQ:BRKR) surprises with Q3 2026 sales, stock soars - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRUZKaE9lSlBvTEF3TXlFcUtHc0dWTjFuUFM5UV9PZ2FWazhHekctX2NqajktdVhoSzlkUmdqdXg5ZlptR0UyNGZ5QjVuRzQtOGRybUpiWWxxXzlKemJxM0pRQXlRZFBfZ2lodDd6RDRBZkpFM0V1NGZJcnhRZU5PWlhZNmhId2FtY2FHZXE0QTRxVHlOYVliX1RIVjE?oc=5",
-     "Yahoo Finance",
-     "Wed, 04 Nov 2026 12:54:10 GMT"
-    ],
-    [
-     "Why is Bruker (BRKR) stock soaring today - TradingView",
-     "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHhJUTFIS1J1dXBHNm5FX3VySEgxd2dXMXB2dGlaV25UWF93MDYzb0ZqTVhPdmhPSDBpeDB2TlVIQWpsWDBYbVAzX1M3Vlp3Ty1Pb05SaDlvZEtVX1BSeGlTMDFYT2dkMmE0QU1MdzZ4a2VCbTF0Znd4b3BlY2FVbmdHTlJrOVkzOFdhOF92UVAybjhHVzhQSjZsN3VnWWpI?oc=5",
-     "TradingView",
-     "Wed, 04 Nov 2026 19:01:05 GMT"
-    ],
-    [
-     "BRUKER CORP (NASDAQ:BRKR) Q3 EPS Beat and Margin Expansion Offset Slight Revenue Miss - ChartMill",
-     "https://news.google.com/rss/articles/CBMizwFBVV95cUxQN0JFQXJ4ZFZMNXkxUVFXVTFZWTZoSlRyWkdYNFB1QzlhdmdXdlY1dm9wRTJOVV9rdko3MnhVQ3JnNU15UjlUWEg3Njg0MHp1U1ZoZHFoR3dSRTR6Mk83N3pHWDFmSDNWZmJtX3pPUTctc3RxdS1UNzVQU1N1azVsRkNLV1U4VHc4aWdDXzduRVVkc1lfb3NPb29nZzN2djM3ZkR3RUFRdFJiQjNkRm5YTTZHMnRBOF8yODFuUndTSVlHVjhwaV92UEpJTHZyazA?oc=5",
-     "ChartMill",
-     "Wed, 04 Nov 2026 13:24:10 GMT"
-    ],
-    [
-     "BRKR Maintains Outperform by Leerink Partners -- Price Target Ra - GuruFocus",
-     "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUS05X3ZTMjZUakk1N0x3QnFVVXNaQTVpWkVBdXM2ZXlQSHVXaTZQMjZkakxVSy12dXRHSmQ3eTZPSU10dHptZEFVN19UclV4dXd2RzJ4eUtpWFFoSnB4Nmo4MVhrWk9kN1M1NzBHNWEtWkQ5MVVYVWR0TkhQdDZtMFdxYndFWE1YSDFheHdOVzZhTGRGY2hoSl9BLTZLc01kRF8yV1BkSVkxRFE4bW9B?oc=5",
-     "GuruFocus",
-     "Thu, 05 Nov 2026 23:27:45 GMT"
-    ]
-   ]
-  },
-  {
-   "t": "MEDP",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 634.97998046875,
-   "buy": 586.8090087890625,
-   "tgt": 651.7221258466916,
-   "stop": 537.7851527622769,
-   "days": null,
-   "conf": null,
-   "s": null,
-   "ed": null,
-   "name": "Medpace Holdings, Inc.",
-   "drop": -6.284316849174898,
-   "rvol": 0.9636091876887412,
-   "dd": {
-    "ind": "Diagnostics & Research",
-    "short": 0.0719,
-    "dtc": 6.09,
-    "ratings": [
-     2,
-     11,
-     1
-    ],
-    "moves": [
-     {
-      "firm": "BMO Capital",
-      "action": "main",
-      "to": "Market Perform",
-      "pt": 670.0,
-      "prior": 600.0,
+      "firm": "Freedom Broker",
+      "action": "up",
+      "to": "Hold",
+      "pt": 48.0,
+      "prior": 48.0,
       "date": "2026-10-26"
      },
      {
       "firm": "UBS",
       "action": "main",
-      "to": "Neutral",
-      "pt": 700.0,
-      "prior": 673.0,
-      "date": "2026-10-23"
+      "to": "Buy",
+      "pt": 70.0,
+      "prior": 75.0,
+      "date": "2026-10-26"
      },
      {
-      "firm": "Truist Securities",
+      "firm": "Barclays",
       "action": "main",
+      "to": "Overweight",
+      "pt": 63.0,
+      "prior": 66.0,
+      "date": "2026-10-26"
+     },
+     {
+      "firm": "Piper Sandler",
+      "action": "main",
+      "to": "Overweight",
+      "pt": 65.0,
+      "prior": 63.0,
+      "date": "2026-10-26"
+     }
+    ],
+    "iv": 0.470317796875,
+    "imove": 5.131587868725125
+   },
+   "news": [
+    [
+     "SLB (SLB) Stock Still Looks Undervalued Despite Its 70% Run",
+     "https://finance.yahoo.com/markets/stocks/articles/slb-slb-stock-still-looks-151819577.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 07 Nov 2026 15:18:19 +0000"
+    ],
+    [
+     "SLB (SLB) Could Be 20% Below Fair Value After New Contract Wins",
+     "https://finance.yahoo.com/markets/stocks/articles/slb-slb-could-20-below-141006503.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 07 Nov 2026 14:10:06 +0000"
+    ],
+    [
+     "Why Is SLB (SLB) Pairing A Norway Contract With New Production Chemistry?",
+     "https://finance.yahoo.com/energy/articles/why-slb-slb-pairing-norway-001149806.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 07 Nov 2026 00:11:49 +0000"
+    ],
+    [
+     "Wall Street Bulls Look Optimistic About SLB (SLB): Should You Buy?",
+     "https://finance.yahoo.com/markets/stocks/articles/wall-street-bulls-look-optimistic-133003287.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 06 Nov 2026 13:30:03 +0000"
+    ],
+    [
+     "SLB: 3 Key Takeaways for Long-Term Investors",
+     "https://www.fool.com/earnings/takeaways/2026/11/05/slb-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 17:20:02 +0000"
+    ],
+    [
+     "SLB OneSubsea Awarded Contract for Lyra Field Development Offshore Norway",
+     "https://finance.yahoo.com/energy/articles/slb-onesubsea-awarded-contract-lyra-124900967.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 12:49:00 +0000"
+    ],
+    [
+     "SLB (SLB) Stock Still Looks Undervalued Despite Its 70% Run - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kczl3bnVnLVZXazJqS1hpS3FXeXRFZ2FKS2xVdUdMOFB4VnlsWC1aM0xNdGQ1Y2x1ejdwT3RJRGFwbk9ZanZ4b2lFOHdadzlxVWFBQzJFUUwwaFYyN0Y4cEVwY3JEWkpGdWZNZ05oTU9lTS1QeWxfNHNZay1XMmc?oc=5",
+     "Yahoo! Finance Canada",
+     "Sat, 07 Nov 2026 15:18:19 GMT"
+    ],
+    [
+     "Slb CEO Olivier Le Peuch sells $1.32M in company stock - Investing.com",
+     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUEpQMTM0VVNoTHhuODhjMmxRVVFVOXVlVmZDaGcxMEZueTNxTVlldk42bmVWMW83YUlkalVReDB5a1QyaEFmWHBSX1FPZWhNemRfeUZER282bUszZldSaFpXMm5xQjM2eEdsb3RzWWpSRjRvR29XZWJ1R2g5TmRUSEppVVlBQXVRaWpveHl1SE8xTGRDeENtQUtZQ1ctMmRfUXNlTEFKRzlFUkMzMlBZUzZ6T0JaQ3JH?oc=5",
+     "Investing.com",
+     "Tue, 03 Nov 2026 00:35:54 GMT"
+    ],
+    [
+     "Possible Bearish Signals With SLB Insiders Disposing Stock - Moomoo",
+     "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT21HM1FITFdmOUZyYWRXQnFvZTJWWS1ZQXdvUDRyNlNjclFueTZiQlBSRTlGMnFtczgxYV9mTkZyYlJxeTlpVzRlbml5N1dnRldjWmN0N2tUVTVZR2dwNEZvR3k3dldLZHFKc0ppdHZfM2xqRlB2OFlyZ3dDZklUSUo2MXA3cTlJdndLdU11NkR3OG0tUEVpLUlCQ3VzMmJiemZ6VA?oc=5",
+     "Moomoo",
+     "Fri, 06 Nov 2026 11:54:59 GMT"
+    ],
+    [
+     "SLB Ltd. stock outperforms competitors despite losses on the day - MarketWatch",
+     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWW1vZnhBMnRKS2dfb0dWd2VQdXRxVDROQzB6ZWVrTmtKenhZWkxTMV92bDhUcjdDV0JxOFd1X2xyLTZneWQ1M0p6YXBNWXlXbmx4cW80RTBLbmFwNV96Z3EtU0xfM2pkWnNaNFZEZU9lNHBIYl9ycXVmb2lXeFc0dUFkNUoxNDAwTWk3QkJrTW5nVVh1S1BLOWZQcUhFRkRqTlUzaUJQSWxJX1RRejVYQVlTUWl4NXpLcExlZy11WmI?oc=5",
+     "MarketWatch",
+     "Mon, 02 Nov 2026 21:43:00 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "CVX",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 212.61000061035156,
+   "buy": 204.99300384521484,
+   "tgt": 218.08852145461674,
+   "stop": 193.5115737915039,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Chevron Corporation",
+   "drop": -9.727413063225821,
+   "rvol": 0.9928883707015862,
+   "dd": {
+    "ind": "Oil & Gas Integrated",
+    "short": 0.013200001,
+    "dtc": 2.77,
+    "ratings": [
+     21,
+     5,
+     0
+    ],
+    "moves": [
+     {
+      "firm": "Freedom Broker",
+      "action": "up",
       "to": "Hold",
-      "pt": 633.0,
-      "prior": 609.0,
-      "date": "2026-10-23"
+      "pt": 218.0,
+      "prior": 0.0,
+      "date": "2026-11-06"
+     },
+     {
+      "firm": "UBS",
+      "action": "main",
+      "to": "Buy",
+      "pt": 265.0,
+      "prior": 235.0,
+      "date": "2026-11-02"
      },
      {
       "firm": "Barclays",
       "action": "main",
       "to": "Equal-Weight",
-      "pt": 675.0,
-      "prior": 625.0,
-      "date": "2026-10-23"
+      "pt": 244.0,
+      "prior": 208.0,
+      "date": "2026-11-02"
+     },
+     {
+      "firm": "Morgan Stanley",
+      "action": "main",
+      "to": "Overweight",
+      "pt": 230.0,
+      "prior": 226.0,
+      "date": "2026-11-02"
      }
-    ]
+    ],
+    "iv": 0.37861949511718745,
+    "imove": 4.770157264766248
    },
    "news": [
     [
-     "Did Earnings Beat Just Shift Medpace Holdings (MEDP) Investment Narrative?",
-     "https://finance.yahoo.com/markets/stocks/articles/did-earnings-beat-just-shift-081522635.html?.tsrc=rss",
+     "Chevron\u2019s Refineries Ran at 98%. Its January Report Must Absorb a $4 Billion Hess Charge",
+     "https://www.tikr.com/blog/chevrons-refineries-ran-at-98-its-january-report-must-absorb-a-4-billion-hess-charge?ref=yahoofinance&tlnk=yf-261108-qr9hx6x8&.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 05 Nov 2026 08:15:22 +0000"
+     "Sun, 08 Nov 2026 15:50:14 +0000"
     ],
     [
-     "CON vs. MEDP: Which Stock Is the Better Value Option?",
-     "https://finance.yahoo.com/markets/stocks/articles/con-vs-medp-stock-better-154002619.html?.tsrc=rss",
+     "3 Great Dividend Stocks With Yield Over 3%",
+     "https://finance.yahoo.com/markets/stocks/articles/3-great-dividend-stocks-yield-042328185.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 02 Nov 2026 15:40:02 +0000"
+     "Sun, 08 Nov 2026 04:23:28 +0000"
     ],
     [
-     "Medpace (MEDP) is a Great Momentum Stock: Should You Buy?",
-     "https://finance.yahoo.com/markets/stocks/articles/medpace-medp-great-momentum-stock-150005023.html?.tsrc=rss",
+     "ExxonMobil Is Up 38% in 2026 and Chevron Is Up 39%: Take Profits, or Hold On?",
+     "https://www.tikr.com/blog/exxonmobil-is-up-38-in-2026-and-chevron-is-up-39-take-profits-or-hold-on?ref=yahoofinance&tlnk=yf-261108-4f8f2hpw&.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 15:00:05 +0000"
+     "Sat, 07 Nov 2026 23:45:59 +0000"
     ],
     [
-     "Medpace Holdings, Inc. (MEDP) Hits Fresh High: Is There Still Room to Run?",
-     "https://finance.yahoo.com/markets/stocks/articles/medpace-holdings-inc-medp-hits-121503521.html?.tsrc=rss",
+     "Chevron (CVX) Q3 Earnings Spotlight Strong Cash Flow And Flat Production",
+     "https://finance.yahoo.com/energy/articles/chevron-cvx-q3-earnings-spotlight-001411385.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Thu, 29 Oct 2026 12:15:03 +0000"
+     "Sat, 07 Nov 2026 00:14:11 +0000"
     ],
     [
-     "Is Medpace (MEDP) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
-     "https://finance.yahoo.com/markets/stocks/articles/medpace-medp-solid-growth-stock-154502655.html?.tsrc=rss",
+     "Compared to Estimates, Chevron (CVX) Q3 Earnings: A Look at Key Metrics",
+     "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-chevron-cvx-q3-223002474.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 26 Oct 2026 15:45:02 +0000"
+     "Fri, 06 Nov 2026 22:30:02 +0000"
     ],
     [
-     "All You Need to Know About Medpace (MEDP) Rating Upgrade to Buy",
-     "https://finance.yahoo.com/markets/stocks/articles/know-medpace-medp-rating-upgrade-150002452.html?.tsrc=rss",
+     "Better Dividend Stock: Chevron vs. Shell",
+     "https://www.tikr.com/blog/better-dividend-stock-chevron-vs-shell?ref=yahoofinancedividend&tlnk=yf-261108-xgj9f94m&.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Mon, 26 Oct 2026 15:00:02 +0000"
+     "Fri, 06 Nov 2026 21:53:25 +0000"
     ],
     [
-     "Medpace (MEDP) is a Great Momentum Stock: Should You Buy? - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYVRLUEI0VkZjVFQxbHVDVmlHMk9sd2dpWHdQMFlxbHVmejc0Uk9sXzFyTktPc0RUeDc0WEdQQzJXNnNGbkhzWUQ3ZUM5MjhfNGJ3WF9YQkhEZ2xNTC13STJiUnJ6YTFFb1VKMV9VYnp1UmJvMmxwbjEzeWpDZ2d5VFF0cjI1dldfSXZybEwyT3ZrWE0tRk5yaXd1dHQxT3M?oc=5",
+     "Are Oils-Energy Stocks Lagging Chevron (CVX) This Year? - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLUp5MmlGS0Q3cGQ1RXhvaU9zT1Iwc0ZBOS1FM3MyWmpQamZuT0libXN1dV94MVlfTXp6RVZGTzF4aThQQzVZOEhzQld1X1hXODhyeDVfa2ZJellwOGVwX2MwN2dPaHQyU2wzemp3QTVpTG0yZHgwdzJSX21lUVZMR1N0RWVkN05KUEZEcFhPY1UzNXliMkcya1dfSElDOHFO?oc=5",
      "Yahoo Finance",
-     "Fri, 30 Oct 2026 15:00:05 GMT"
+     "Wed, 04 Nov 2026 13:40:02 GMT"
     ],
     [
-     "Medpace (MEDP) Revenue Breakdown - Main Composition - Moomoo",
-     "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOb1dUb3c4Y3liUzhNSDhsQWkzM1R1alY4SDhwclpFSDZ4VzI2bEhxa0F1eDE0Y3ZTdkxiR0EzNUJ2MnNfRmhTV1pkd2gyM0dLbXcwZ21qWjl2TXN6SDBFR0xUQlN4VVZTaUFFNUEtWVpBc2FQTmVRaUxPdnQ3TzJYVW5oYkFLSGprQXZpWVVYRzFnRmxXZ0NYWXRmbjZpZUZZYkxCUnBGUzhqXzBGRjZMaWJSZmZ4bnc2RDJueENDVmU4cmE1dEtiMHBmUi1xdmhrb2U3TXpRN3JuUjJsYWQ1UVRqNDJSNzk1aUJqUi1yMmpoNV93S2tfMU5UYjV0WVZjZkVRTC0wczVqVXpnQWo1WlZqTk1kR2ZSSnVVMURDUmNkZGJOMXhuVzR5SDg2eUdsSzdXLXFEUEE5MW9wM0pvd3kzZml2NkpFazlfUmJQejR6blBCRUUxY1ZselppQVZzcVFIRGFyem9DNV9TNXUzOWZR?oc=5",
-     "Moomoo",
-     "Mon, 02 Nov 2026 14:41:41 GMT"
+     "Chevron Stock Price Forecast. Should You Buy CVX? - StockInvest.us",
+     "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB5SUFrM2IxU3FWemFtejdsbEROczZ0SlhlV002c2NRM2pYQjgwQWc4QWxzSmFkOTdRYUVrd3ZQd0p5Y3dfeHdn?oc=5",
+     "StockInvest.us",
+     "Fri, 06 Nov 2026 22:48:50 GMT"
     ],
     [
-     "MEDP Nov 2026 500.000 put (MEDP261120P00500000) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MRjRIbmhHdXFwOC1kU0FsNnllUUZzOHU4SFdKUHNUR3F2S0dJN2xCOXd5Z0xDRzhmcmZVd1lKQWtiTTIyQWFLcDVXdXBERFNFNkEtSk5YajhDVFZQcW5PeFRITnJkQQ?oc=5",
+     "How Much Upside Is Left In Chevron Stock? - Trefis",
+     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUmdfa1cxN1hEVTZCUjFBN1FpVW9PUjNSWWhCNk9sSFdTeXowSFhhdElqdmhxX2M2UkhvRWxHWUNUdk04MTZVWjZuVmFXZVZ6NnlrOTRBYzdJY0Rac0ZzWWhUcF9Hcms0eGdjNU84eFBsYlF4LVA2LWdWWmxzdmNUUWdmNG1veVJxOThoNFYxb1VSOG9HX3ctdE96cUhDZDA0UUE?oc=5",
+     "Trefis",
+     "Fri, 06 Nov 2026 10:34:59 GMT"
+    ],
+    [
+     "CVX Stock Rises Overnight: Chevron Says It Has Discovered Oil, Gas Condensate Offshore In Angola - Stocktwits",
+     "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRWZjWWVfRW5fc040VUVwTG5vZGlTTUNaVjQzWHNWZ2JYSThPbVUyNU84ZTZFbjhtWXFNV253eDRZMXh3N09aN1R1Mlc3R0tMaXBRSE41bXlvZXc0RDJ3ZEJhUzlyQ1R5U2FRLXhobEJWdjEwc0JuMVMwanJYRll0VzdadWFBTE92cVhGTU9lNjFzUXJYc3U0ZE91dzZYZ0d1aUlIUkF5cU92TWUzUHB4Y0loa21neC1XX0tyR3hUUXRhM1FkMERkU1pBN3J3VnBPX0s5UW45Y1J6VUY4UzFCYlJjal9aeUxpaUJsYnF2Zw?oc=5",
+     "Stocktwits",
+     "Sun, 08 Nov 2026 13:48:11 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "BBWI",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 21.360000610351562,
+   "buy": 20.871000480651855,
+   "tgt": 22.191937818215095,
+   "stop": 18.871000480651855,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": 8,
+   "name": "Bath & Body Works, Inc.",
+   "drop": -6.192357571654572,
+   "rvol": 1.0973925564790523,
+   "dd": {
+    "ind": "Specialty Retail",
+    "short": 0.0872,
+    "dtc": 2.38,
+    "ratings": [
+     4,
+     13,
+     1
+    ],
+    "moves": [
+     {
+      "firm": "Wells Fargo",
+      "action": "main",
+      "to": "Overweight",
+      "pt": 25.0,
+      "prior": 24.0,
+      "date": "2026-10-29"
+     }
+    ],
+    "iv": 0.9324551025390626,
+    "imove": 11.747830047864726
+   },
+   "news": [
+    [
+     "Bath & Body Works Declares Cash Dividend",
+     "https://finance.yahoo.com/markets/stocks/articles/bath-body-works-declares-cash-133000722.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 06 Nov 2026 13:30:00 +0000"
+    ],
+    [
+     "Fast-paced Momentum Stock Bath & Body Works (BBWI) Is Still Trading at a Bargain",
+     "https://finance.yahoo.com/markets/stocks/articles/fast-paced-momentum-stock-bath-125502073.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 06 Nov 2026 12:55:02 +0000"
+    ],
+    [
+     "Bath & Body Works to Report Third Quarter Results on November 19, 2026",
+     "https://finance.yahoo.com/markets/stocks/articles/bath-body-works-report-third-133000543.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 13:30:00 +0000"
+    ],
+    [
+     "Implied Volatility Surging for Bath & Body Works Stock Options",
+     "https://finance.yahoo.com/markets/options/articles/implied-volatility-surging-bath-body-125400310.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 12:54:00 +0000"
+    ],
+    [
+     "Bath & Body Works Gives A Thousand Wishes New Ways to Shine",
+     "https://finance.yahoo.com/media-advertising/articles/bath-body-works-gives-thousand-210300544.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 02 Nov 2026 21:03:00 +0000"
+    ],
+    [
+     "Why Bath & Body Works (BBWI) Could Beat Earnings Estimates Again",
+     "https://finance.yahoo.com/markets/stocks/articles/why-bath-body-works-bbwi-161003171.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 02 Nov 2026 16:10:03 +0000"
+    ],
+    [
+     "Bath & Body Works (BBWI) Stock Dropped, So What Is Driving Attention Now? - Simply Wall St",
+     "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYmZtRy11LXk5NGU5bEduZGJDQ2kwYUhoWExMTUxnc2lBTFQzcGhBTWUwdWdSd0NtMGZQenR1RG5BQUtuUkFrSy1GcWJiUzRkNWI5MGh0TFhmdGtOc2pabTZnVXRiRkZoY3F0LU9zWEJjaU5hT3ozQkhRdlJDekpCelR0Zks2eHNYd1BEVnJEMGR5UHB4WmtjYW0tWkRyRGpDWFY3Vi1DX3BpU0hYMUdBTjdqMTBVdnpkbTFHZFpucHpwOVNTYXY3U0ln0gHPAUFVX3lxTE1xamQ0RWhwWlpYSXNoTVVvc1dPZTFnWFNJV3lEd1djemlyT0FEVV9BS3NWWVB1bmVmbzluSmpUTWZMaldNbUk5b1hCNDFWRVFCbXVWYTZEbmlnejNNbVprLU55QkxZU0xzTkpJSXFWMGNIcDRGZW5OU1JPZmNqQUZLaGJ5Q2Q0Yy1aUGhubDFTeG1hQWJQNmVZVEduQks3QXZuSkcxMEhFNWdpZTJzZmxOQ3JIMGUzMXh6b0VVeW1qOUZ1R1Z6RnA2dXdzbXpZRQ?oc=5",
+     "Simply Wall St",
+     "Sun, 08 Nov 2026 13:32:23 GMT"
+    ],
+    [
+     "A 20-cent-per-share payment from Bath & Body Works is due Dec. 4. - Stock Titan",
+     "https://news.google.com/rss/articles/CBMijAFBVV95cUxPekY3bmNEblhDTFc3Z1o1UmFVTWV2ci1kVWZfcHl3MTJwbDZUNzQxMXZwVld3UzJYWkxBNWgxTzY2ZzFqUUZtYlFYVDRGV0RWbElRcEFlWHRKNTJ2NUx6V1VpUXM1TXNabkY1WS11WDljY2NlSTNySzJ5NmlPZ3hCQjZ1QXlzLWRVY3N5Nw?oc=5",
+     "Stock Titan",
+     "Fri, 06 Nov 2026 13:30:00 GMT"
+    ],
+    [
+     "EL's Fiscal 2030 Roadmap Targets Stronger Growth & Higher Margins - TradingView",
+     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUHRXenVCSkVZOXU5MzJBbjlLb0VBS3BJQ09XeTZXSVFRTjdaRE5LVkN4aVFBcWVtdWJ3aF9TaVZ4Q3JGNWU3YlBBSkwyX3ZWLV9nemJoWFpEWnJMVXhUU1p0RFo2dS1jdExnZ3g2Nm1FWEVqVVNqdDAwTElqenpfTUdoNGdjNEp6SDkwQkJtR1ExOHJETUtpNGc5VUFwbnpwX0RFM0s5Wmp4QjBYeEF1R2xFSElJNmdOZlFJ?oc=5",
+     "TradingView",
+     "Thu, 05 Nov 2026 14:50:00 GMT"
+    ],
+    [
+     "Five Below, Inc. (FIVE) stock price, news, quote and history - Yahoo Finance Australia",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLM3dfVHZ4M3JocGJRWW5Wc3BoV3hlZzRtMjltZ0xXUjZtN1BkS0dveVlfbnIzcnFWeUp2cGpWb0VyQTlvSVcyTjB2eFJOZ2VKbWc?oc=5",
+     "Yahoo Finance Australia",
+     "Fri, 06 Nov 2026 20:32:12 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "NSC",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 319.94000244140625,
+   "buy": 311.11199340820315,
+   "tgt": 331.9162547669382,
+   "stop": 294.8962646484375,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Norfolk Southern Corporation",
+   "drop": -6.625032464559744,
+   "rvol": 1.3705287609790562,
+   "dd": {
+    "ind": "Railroads",
+    "short": 0.0318,
+    "dtc": 8.55,
+    "ratings": [
+     5,
+     16,
+     0
+    ],
+    "moves": [],
+    "iv": 0.30893635406494135,
+    "imove": 3.89223220858492
+   },
+   "news": [
+    [
+     "Could Schneider Rail Deal Alter The Investment Case For Norfolk Southern Stock?",
+     "https://finance.yahoo.com/markets/stocks/articles/could-schneider-rail-deal-alter-021343451.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 07 Nov 2026 02:13:43 +0000"
+    ],
+    [
+     "Norfolk Southern (NSC) Dropped, So What Is Behind The Fresh Attention?",
+     "https://finance.yahoo.com/markets/stocks/articles/norfolk-southern-nsc-dropped-behind-221109747.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 06 Nov 2026 22:11:09 +0000"
+    ],
+    [
+     "UP CEO\u2019s rate threat adds wrinkle to Norfolk Southern merger process",
+     "https://www.supplychaindive.com/news/up-ceos-rate-threat-adds-wrinkle-to-norfolk-southern-merger-process/874006/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 06 Nov 2026 19:49:00 +0000"
+    ],
+    [
+     "Conrail tabs Wright as president and chief operating officer",
+     "https://finance.yahoo.com/small-business/articles/conrail-tabs-wright-president-chief-200130685.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 20:01:30 +0000"
+    ],
+    [
+     "STB orders Union Pacific to make alleged rate hike threat video public",
+     "https://finance.yahoo.com/economy/policy/articles/stb-orders-union-pacific-alleged-183509088.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 18:35:09 +0000"
+    ],
+    [
+     "Schneider & Norfolk Southern Unite for Domestic Intermodal Capacity",
+     "https://finance.yahoo.com/markets/stocks/articles/schneider-norfolk-southern-unite-domestic-163500178.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 16:35:00 +0000"
+    ],
+    [
+     "Norfolk Southern Corporation (NSC) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ILWRIaFgxLWtVa0dDNFQtRGlFblZrZ211bU5FOWdwak9QOFk1X3RGMkZ5ZzdtN18xODNUdVp4Q0xDOWYzTm5ZMGtTQkFkQnB4?oc=5",
      "Yahoo! Finance Canada",
-     "Sat, 31 Oct 2026 11:46:54 GMT"
+     "Sat, 07 Nov 2026 21:00:28 GMT"
     ],
     [
-     "MEDP,RS,R,AIR,TTMI,BNY,XBIT,ACN,HXL | Stock Prices | Quote Comparison - Yahoo Finance - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Xd1dtY2FJS20xZWpWbXdFYWJLRU02blhBd0MwamtObTVIRmFRWDd2RHp0VzQtWF9GV2hST1dWVFRFdUN4Vi1zZ1JDdmIzMWY3OWtiVnYzbVhTQ0RyRUlCcmJKalE4VHZiRHlnTVBhMHI2VGIxZzc4eFdtd0k?oc=5",
+     "Norfolk Southern (NYSE:NSC) - Stock Analysis - Simply Wall St",
+     "https://news.google.com/rss/articles/CBMifEFVX3lxTE1uVzVsaDR6TXF6ZEgtaFNtdi1pWU5jYjRzWXJJMzh4ZnRBN3ZuUnRVN0o3Ti1NRG1ReEpxQUVrM3pMNmlCY0hMYXBCTXIweU5iN0NGUk5qUHNfQUhId21KVzBtOWR4T0NLQVQzck5KSlBhcTJvOGZKRlFhYzY?oc=5",
+     "Simply Wall St",
+     "Fri, 06 Nov 2026 08:00:00 GMT"
+    ],
+    [
+     "Norfolk Southern Corp (NSC) Shares Fall 4.3% -- GF Value Says St - GuruFocus",
+     "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRTJMSnhVQkpHSFlFQXJmNTh6UWd1blc0ZjdmVWJxLUJXRnNHdTdnVXk1eVRfbUlrc1hfMEhzdVVBdkJEaFVRZnc1TFZNaEdITG1sTF9mNG41LTNlRm1PTHZKREVraHktblgtOHpqcS1Ral9DYzZlZ1B2VkNfV2RpTzJrdUMzdmc2QklZQzJhdG8xWjFSQlRDbFloMHE3eVZCNWo0NmQ1eFduREh6bmNr?oc=5",
+     "GuruFocus",
+     "Fri, 06 Nov 2026 01:48:34 GMT"
+    ],
+    [
+     "NSC tightens anti-infiltration measures - Taipei Times",
+     "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BeWVVWS0xLWtSTHFPQUhvQkFSODFuemdSOE1ZbWh4dHFuWHE5S1hhZ0lDZFA2XzZJVVlDVTRTVVlqM2ZFZ1BYWlFEVTM0RUtuWHVTbWc3S3RLUlg3R3c0XzhZZnJzdDQ4c0pGVXVUbWVEUktzTElEcg?oc=5",
+     "Taipei Times",
+     "Sun, 08 Nov 2026 16:00:00 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "MSM",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 113.2699966430664,
+   "buy": 107.65800247192384,
+   "tgt": 115.33347476727378,
+   "stop": 96.7737174987793,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": 42,
+   "name": "MSC Industrial Direct Company, ",
+   "drop": -6.4039003594237975,
+   "rvol": 0.9317955124294278,
+   "dd": {
+    "ind": "Industrial Distribution",
+    "short": 0.0523,
+    "dtc": 2.87,
+    "ratings": [
+     6,
+     4,
+     1
+    ],
+    "moves": [
+     {
+      "firm": "Barclays",
+      "action": "main",
+      "to": "Overweight",
+      "pt": 159.0,
+      "prior": 152.0,
+      "date": "2026-10-26"
+     }
+    ],
+    "iv": 0.4224300921630859,
+    "imove": 5.322118905588669
+   },
+   "news": [
+    [
+     "Are Industrial Products Stocks Lagging  MSC (MSM) This Year?",
+     "https://finance.yahoo.com/markets/stocks/articles/industrial-products-stocks-lagging-msc-134004243.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 06 Nov 2026 13:40:04 +0000"
+    ],
+    [
+     "MSC Industrial: 3 Key Takeaways for Long-Term Investors",
+     "https://www.fool.com/earnings/takeaways/2026/10/29/msc-industrial-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 30 Oct 2026 02:35:03 +0000"
+    ],
+    [
+     "1 small-cap stock to target this week and 2 that underwhelm",
+     "https://finance.yahoo.com/markets/stocks/articles/1-small-cap-stock-target-174247169.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 27 Oct 2026 17:42:47 +0000"
+    ],
+    [
+     "Best Income Stocks to Buy for October 26th",
+     "https://finance.yahoo.com/markets/stocks/articles/best-income-stocks-buy-october-081000532.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 26 Oct 2026 08:10:00 +0000"
+    ],
+    [
+     "Did Asset Impairment Just Shift MSC Industrial Direct's (MSM) Investment Narrative?",
+     "https://finance.yahoo.com/markets/stocks/articles/did-asset-impairment-just-shift-171218939.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 23 Oct 2026 17:12:18 +0000"
+    ],
+    [
+     "MSC Industrial Direct (MSM) Q4 Earnings Contrast A Profit Squeeze",
+     "https://finance.yahoo.com/markets/stocks/articles/msc-industrial-direct-msm-q4-151708552.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Fri, 23 Oct 2026 15:17:08 +0000"
+    ],
+    [
+     "MSC Industrial Direct Co., Inc. (MSM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBRFRFVWt2ZkNMMDlXeHc4TGo5N3BiQVJDbWlydmRDT3ZjX2w2Yk5fbzNkdl9zOWptalF5Qk9ZZFJXbmRmd1AxMi12MEljUHVi?oc=5",
      "Yahoo! Finance Canada",
-     "Mon, 02 Nov 2026 23:13:58 GMT"
+     "Sat, 07 Nov 2026 23:34:43 GMT"
+    ],
+    [
+     "Msc Industrial Direct Company Stock Price Forecast. Should You Buy MSM? - StockInvest.us",
+     "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5uRHdaTF81ZWI2SG91MjFPRVBuNVJMdHA0OVRiZ19jQTl2VUU2TS12OTY2dlV6RXRDWlJEZVRBNW9TZ1BLWUFV?oc=5",
+     "StockInvest.us",
+     "Fri, 06 Nov 2026 22:52:01 GMT"
+    ],
+    [
+     "Are Industrial Products Stocks Lagging MSC (MSM) This Year? - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMipgFBVV95cUxNazVGQmdBN1dDc2tHZzg0ellSdnpjMnUza09sNkpNOUptODNYX2FxNF9FZG8yRmlfN18xY0FhSlp4RW9fRUc1VmdVclJsT1plNkZzODdwd0huTDJLT0c5TmUyT3E4UkktbmVWQ2xqLUtNUWRET0QtYXlUQUpNYUFTRG9HRkJpRFEyZFdaZkpjZ1gwQjhNZER0b2FleTYxdGtrYUx2dnlR?oc=5",
+     "Yahoo Finance",
+     "Fri, 06 Nov 2026 13:40:04 GMT"
+    ],
+    [
+     "An executive receives 754 stock units plus 1,569 options at MSC Industrial (MSM). - Stock Titan",
+     "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS3hDNDVicUtSMER4VFZZMGVQZnlYREUwX0tmT29abzkxRDNLRUdaeUZyMzRpdzRTZzh0LTQzN29vdjdYeUtyYkViZ0pMN1F1SWVZY0pEa1g2N1lCSHFYb3pSd3VDcXNRRU5jYTF0T0VzUDVTT2NtSktpZk5OWGR4Nk5oWXkybTVtdUQ2dzNFdzFmT21Ed0Y4akpOMXJ4UnJ5X3FRRmZzYTkyTUFXSnhFeUhkRDFSUmZpOGhyRWFB?oc=5",
+     "Stock Titan",
+     "Fri, 06 Nov 2026 00:48:00 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "SWKS",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 82.19000244140625,
+   "buy": 76.65299835205079,
+   "tgt": 83.18934249606336,
+   "stop": 68.56442544119699,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Skyworks Solutions, Inc.",
+   "drop": -6.154372318975243,
+   "rvol": 0.7970051157634122,
+   "dd": {
+    "ind": "Semiconductors",
+    "short": 0.123900004,
+    "dtc": 2.75,
+    "ratings": [
+     2,
+     20,
+     3
+    ],
+    "moves": [
+     {
+      "firm": "Barclays",
+      "action": "down",
+      "to": "Equal-Weight",
+      "pt": 79.0,
+      "prior": 70.0,
+      "date": "2026-11-05"
+     },
+     {
+      "firm": "Citigroup",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 79.0,
+      "prior": 90.0,
+      "date": "2026-11-04"
+     },
+     {
+      "firm": "RBC Capital",
+      "action": "main",
+      "to": "Sector Perform",
+      "pt": 80.0,
+      "prior": 95.0,
+      "date": "2026-11-04"
+     },
+     {
+      "firm": "Susquehanna",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 75.0,
+      "prior": 90.0,
+      "date": "2026-11-04"
+     }
+    ],
+    "iv": 0.6736482830810547,
+    "imove": 8.48717061027672
+   },
+   "news": [
+    [
+     "Earnings Estimate Upgrade Could Be A Game Changer For Skyworks Solutions (SWKS)",
+     "https://finance.yahoo.com/markets/stocks/articles/earnings-estimate-upgrade-could-game-171255963.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Sat, 07 Nov 2026 17:12:55 +0000"
+    ],
+    [
+     "All You Need to Know About Skyworks (SWKS) Rating Upgrade to Strong Buy",
+     "https://finance.yahoo.com/markets/stocks/articles/know-skyworks-swks-rating-upgrade-160003911.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 16:00:03 +0000"
+    ],
+    [
+     "New Strong Buy Stocks for November 5th",
+     "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-november-5th-102700130.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 05 Nov 2026 10:27:00 +0000"
+    ],
+    [
+     "Skyworks Stocks Decline 5.2% as Qorvo Integration Starts With a Revenue Contraction",
+     "https://finance.yahoo.com/markets/stocks/articles/skyworks-stocks-decline-5-2-183129384.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 04 Nov 2026 18:31:29 +0000"
+    ],
+    [
+     "Skyworks Q4 Earnings Beat Estimates, Revenues Decline Y/Y",
+     "https://finance.yahoo.com/markets/stocks/articles/skyworks-q4-earnings-beat-estimates-171800153.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 04 Nov 2026 17:18:00 +0000"
+    ],
+    [
+     "Skyworks (SWKS) Q4 2026 Earnings Call Transcript",
+     "https://www.fool.com/earnings/call-transcripts/2026/11/04/skyworks-swks-q4-2026-earnings-call-transcript/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 04 Nov 2026 15:29:38 +0000"
+    ],
+    [
+     "Skyworks Solutions (SWKS) Stock Could Be 49% Undervalued After Merger Close - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0QxaVRCdUlvRXI2U1B0QnphLUhDLTVhR05xWnFHNXo4RzRaODN6SFBuT2FlWjRCN2J0bkZDNHBvN0JCQ1V2Sm1FRXlyek9xcTgySUpBS05JNGpEb0pzUVFmSENYLUVRWnNJM3ZPVkVsWHRzVFVkbWFiSk11OW9EN3J2UnRWcHpqQjhObWtjVExTMXU3RWFWSGw1eUgxcWJBS1E?oc=5",
+     "Yahoo Finance",
+     "Wed, 04 Nov 2026 12:12:32 GMT"
+    ],
+    [
+     "Skyworks Is Still Up 31% This Year: Is SWKS Stock Topping Out and Breaking Down? - 24/7 Wall St.",
+     "https://news.google.com/rss/articles/CBMivgFBVV95cUxNT0pzTEpyU24zeFdQZnBORGd0QTloZzRnOGdCX2xIVXZMcTlGblZlTkxrNHE3MkVCZnRWZE43MVhuRjZfRk9MN09vdU52a01lUFBMLUY4VGROenltNVNjSkN3OFlJQ3lpTGxkYzlnWTFCWlF4WTZ2dlB1V0I1VmFmemlSTThzQzFEcTFEcVRhbEtJLVZyaER2UGlmT1BrQ2ZGRGxTTDMwb0ozZzFveXloTXRvMFFzVHNic3RIOVVR?oc=5",
+     "24/7 Wall St.",
+     "Wed, 04 Nov 2026 19:55:00 GMT"
+    ],
+    [
+     "Skyworks Stock Sinks as Android Woes Delay the Qorvo\u2019s Merger Payoff - Barron's",
+     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaE9rWTkzamhhamp2N0VwRVlJTnFyanhtdWF4Wnh6SF9tTjhNS0txSHlfQ3FJdlpEZi1SVTJIV2R1Mlp0WG1yQXJta3RlYkJzVWpjSU83NURkdjZfSWN3ZDUxc1hyN29rYkQ2T3g1M05qb2UteVh6SXlXaDV4M1N6aDdnWl94V1JU?oc=5",
+     "Barron's",
+     "Wed, 04 Nov 2026 15:08:00 GMT"
+    ],
+    [
+     "Skyworks Stock: The Bottom Is In (NASDAQ:SWKS) - Seeking Alpha",
+     "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCMTV2ZHBhLUlSQW9fdzlLa1FwZDg3Y2daZTlzdVZ0dm94Z1ExU0xEb0dDZzhnV3RPNEZIMHJTUGI0OWJ5d08wdnVVOWFpM2JQX3R6SlNxeXcyQXdzSnV2QjloX2cxa2p4TDhnQnhVQkRlYnRr?oc=5",
+     "Seeking Alpha",
+     "Wed, 04 Nov 2026 14:15:07 GMT"
     ]
    ]
   }
@@ -1239,269 +1044,276 @@
  "macro": [
   [
    "S&P fut",
-   7357.5,
-   -0.34538805
+   7440.25,
+   0.51675224
   ],
   [
    "Nasdaq fut",
-   26830.0,
-   0.291567
+   27186.25,
+   0.3728967
   ],
   [
    "VIX",
-   28.18,
-   69.65683
+   25.64,
+   -9.013488
   ],
   [
    "US 10Y",
-   4.837,
-   -1.1646947
+   4.859,
+   0.45483384
   ],
   [
    "Brent",
-   99.5,
-   1.23105
+   98.06,
+   -0.2644448
   ],
   [
    "Gold",
-   4052.6,
-   -1.4804887
+   4132.6,
+   1.4159905
   ],
   [
    "Bitcoin",
-   75625.88,
-   -5.8133225
+   74474.07,
+   -1.6515824
   ],
   [
    "Dollar",
-   101.948,
-   0.39488423
+   102.111,
+   -0.18279582
   ]
  ],
  "sectors": [
   [
-   3.4815147246535227,
-   "Staples",
-   9.386240713164584
-  ],
-  [
-   3.0925770988354584,
+   4.894894209167444,
    "Comms",
-   -6.897477806712793
+   -5.0643200552512475
   ],
   [
-   2.8796976874660984,
+   1.9226357800768978,
    "Real estate",
-   8.445534618869232
+   5.743810032662822
   ],
   [
-   1.2392448186101523,
+   1.9067469492174416,
    "Discretionary",
-   5.308388106503914
+   4.191407550633053
   ],
   [
-   0.9834938299916551,
+   1.1502416301280016,
    "Financials",
-   6.029873659166962
+   4.439978668920874
   ],
   [
-   0.47272897615462384,
+   0.7380940232881716,
+   "Staples",
+   7.970755725223655
+  ],
+  [
+   -0.037860154312940875,
    "Health",
-   9.960751448160309
+   8.190390312701101
   ],
   [
-   0.37088514064862466,
+   -0.6907649895291246,
    "Utilities",
-   5.429753004155402
+   4.1535890534677655
   ],
   [
-   -0.3807290174943079,
+   -1.4979159848034107,
    "Materials",
-   6.210678597241293
+   5.098119446096394
   ],
   [
-   -4.502441334428731,
+   -2.825565053762169,
    "Industrials",
-   -3.5213734505396888
+   -3.887741111406018
   ],
   [
-   -8.298600521599875,
+   -5.187461515597613,
    "Software",
-   -9.654160557720658
+   -12.239283872934525
   ],
   [
-   -10.304174226015073,
-   "Energy",
-   -5.533410352330925
-  ],
-  [
-   -13.96630276738351,
+   -8.227948006042318,
    "Tech",
-   -17.898672320241694
+   -17.12445592875117
   ],
   [
-   -20.285928639710438,
+   -11.202128246139587,
    "Semis",
-   -26.271675434935904
+   -23.100131219562968
+  ],
+  [
+   -11.996569714222394,
+   "Energy",
+   -5.316537802429632
   ]
  ],
  "news": [
   [
-   "Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections",
-   "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html",
+   "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+   "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
    "CNBC",
-   "Fri, 06 Nov 2026 05:06:56 GMT"
+   "Sun, 08 Nov 2026 22:53:57 GMT"
   ],
   [
-   "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
-   "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+   "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
+   "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
    "CNBC",
-   "Fri, 06 Nov 2026 02:40:15 GMT"
+   "Mon, 09 Nov 2026 05:00:01 GMT"
   ],
   [
-   "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
-   "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
+   "Trump says renewed Iran strikes \u2018highly unlikely\u2019 if talks progress but warns he could still strike",
+   "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
    "CNBC",
-   "Fri, 06 Nov 2026 05:27:24 GMT"
+   "Sun, 08 Nov 2026 21:53:02 GMT"
   ],
   [
-   "Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge",
-   "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html",
+   "China wholesale inflation hits highest in more than four years as consumer measure slows",
+   "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
    "CNBC",
-   "Thu, 05 Nov 2026 23:39:32 GMT"
+   "Mon, 09 Nov 2026 02:50:22 GMT"
   ],
   [
-   "India as an AI hedge? The country's stocks could see robust inflows as markets globally tank",
-   "https://www.cnbc.com/2026/11/06/india-ai-tech-hedge-nifty50.html",
+   "Democrats amp up Trump investigation threats, Blanche counters he may probe lawmakers",
+   "https://www.cnbc.com/2026/11/08/democrats-trump-oversight-blanche-doj-investigations.html",
    "CNBC",
-   "Fri, 06 Nov 2026 06:02:36 GMT"
+   "Sun, 08 Nov 2026 18:57:56 GMT"
   ],
   [
-   "The October jobs report is out Friday. Here's everything to expect",
-   "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+   "How Democrats will try to end Trump's tariffs",
+   "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html",
    "CNBC",
-   "Thu, 05 Nov 2026 21:32:52 GMT"
+   "Sun, 08 Nov 2026 15:36:39 GMT"
   ],
   [
-   "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
-   "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+   "Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes",
+   "https://www.cnbc.com/2026/11/08/frequent-flyer-miles-points-thanksgiving.html",
    "CNBC",
-   "Fri, 06 Nov 2026 03:20:43 GMT"
+   "Sun, 08 Nov 2026 13:00:01 GMT"
   ],
   [
-   "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
-   "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+   "Cathie Wood 'always feels better when the market is worried' \u2014 here's why",
+   "https://www.cnbc.com/2026/11/08/cathie-wood-ai-selloff.html",
    "CNBC",
-   "Thu, 05 Nov 2026 20:17:16 GMT"
-  ],
-  [
-   "\u2018It seems bizarre\u2019: We\u2019re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
-   "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Fri, 06 Nov 2026 03:15:00 GMT"
+   "Sun, 08 Nov 2026 06:00:01 GMT"
   ],
   [
    "\u2018My life could be cut short\u2019: I\u2019m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?",
    "https://www.marketwatch.com/story/my-life-could-be-cut-short-im-55-married-with-4-3-million-and-have-a-brain-tumor-should-i-buy-a-210-000-custom-porsche-ed825ada?mod=mw_rss_topstories",
    "MarketWatch",
-   "Fri, 06 Nov 2026 03:00:00 GMT"
+   "Mon, 09 Nov 2026 01:21:00 GMT"
   ],
   [
-   "Here\u2019s what\u2019s driving Iren\u2019s stock higher after a brutal selloff",
-   "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories",
+   "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
+   "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
    "MarketWatch",
-   "Fri, 06 Nov 2026 01:07:00 GMT"
+   "Mon, 09 Nov 2026 00:40:00 GMT"
   ],
   [
-   "Cloudflare\u2019s stock mounts a big comeback after fastest sales surge in nearly 4 years",
-   "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d?mod=mw_rss_topstories",
+   "I\u2019m second-guessing my adviser: Is an annuity the right move in this market?",
+   "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
    "MarketWatch",
-   "Fri, 06 Nov 2026 01:06:00 GMT"
+   "Mon, 09 Nov 2026 00:30:00 GMT"
   ],
   [
-   "Here are the 2027 capital-gains tax rates for each income level",
-   "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
+   "\u2018It feels like he\u2019s quietly building a separate life\u2019: My husband inherited $500,000, but he refuses to spend it on our home",
+   "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
    "MarketWatch",
-   "Thu, 05 Nov 2026 23:48:00 GMT"
+   "Mon, 09 Nov 2026 00:02:00 GMT"
   ],
   [
-   "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
-   "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories",
+   "Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out",
+   "https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories",
    "MarketWatch",
-   "Thu, 05 Nov 2026 22:48:00 GMT"
+   "Mon, 09 Nov 2026 00:00:00 GMT"
   ],
   [
-   "Nasdaq Stock Market Correction: 3 Words From Warren Buffett To Remember RIght Now - Yahoo Finance",
-   "https://news.google.com/rss/articles/CBMingFBVV95cUxPZDNZX3M5QzdfMjFlUjRrcUFsTUcyRXVkbC1fUFRrWVNrMElyZ2Z1RzFvNXN4TGdTYjVQYmhnSG10eEVOakVicXJEcGpxR28yd011Mi1TWDQ1cmQxa3JmV3I2MEx0TU5ZYVdmV29XNmZpRFNLRUMzT2ZkSk9fR21PV3k5NGZPSGFCT0Nzck5YU0kzRFJ1MFBWVWQzS1dtQQ?oc=5",
+   "How much in Roth conversions can you do in 2027 with the new tax brackets?",
+   "https://www.marketwatch.com/story/how-much-roth-conversion-can-you-do-in-2027-with-the-new-tax-brackets-a2f940c8?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Sun, 08 Nov 2026 23:50:00 GMT"
+  ],
+  [
+   "Taiwan Activates Market-Stabilization Measures to Stem AI Bleeding - WSJ",
+   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQmRQc05FTEtYbm9hLUhzOHFESHo4UHlMX2Fwd2l3eTNscTdsTHp1SnF6RGNuMENybV93Z1BZeE03NTVobVF3OG9YUVlhNjI5SElLODdkSXBxNUwtOWlJczdNdmhtQ1N1cnhqcGpaNmlVdS1lNm12RXA3YXNUbDBETzk0UENTUExibVpUa3V5dWFNVGswNEJwaERZSkJodzI2c20wV3hTd2hELW1OOHFvU0JKaHRFYjFWMDEtOFg1WHI?oc=5",
+   "WSJ",
+   "Mon, 09 Nov 2026 02:17:57 GMT"
+  ],
+  [
+   "Asian Markets at Risk of Pressure on Nvidia Probe: Markets Wrap - Bloomberg.com",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR1JWME4tcFN3Vlh6UlhVeEN3c2FlRUFkUWRrczJ6OUZ1QWRkRndtMy1nZFhBaU5Lc0dzaXU2ZjJnNUtwN2RSa3dyLXlwUV9QanZmaC1Wb2xhbUVZekZhaXdXZkpSazFDVnJqZWIweWtvdGczQi0xTnB1aEhiSy00aVFsMWdYaE1sRkN3NlU2YmVJdzhv?oc=5",
+   "Bloomberg.com",
+   "Mon, 09 Nov 2026 04:10:00 GMT"
+  ],
+  [
+   "Dow Jones Futures Rise As Nvidia Probes CEO Jensen Huang Spying Case - Investor's Business Daily",
+   "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ0hGNFB0QTUyUUxKc2F4M2x6bVg4TERkVlF5ak9TbTAtTzN2U3IzaE1NNmFET1FJLUdsYnNvUWxaNm5iZHJtRmkyX0Fmb1dEanFlMGkyZzZSRDZhWHplTnRBVDRpOXlYZkRUNU51bVFWbEF6bnFwa1NOMEx6Nkt4UnhfYUtmQ1VFWlpyaVNCVm5peWhMYkRmeVhuaUc4QWZ2ckE0U1JUOXh4ZVl3dk1NTWlIT1dDZlhR?oc=5",
+   "Investor's Business Daily",
+   "Mon, 09 Nov 2026 03:24:00 GMT"
+  ],
+  [
+   "Dow, S&P 500, Nasdaq Futures Rebound After Sharp AI Selloff Last Week: NVDA, AMD, VIR, SNDK In Focus - Yahoo Finance",
+   "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZDJTY1ZadjNGdVRsV19LTFJtd1doSGxMSWxjdWtKX3VuUlViQ2tZNW41WmFjY292ZXlESk1FM3VIaFFXRUt1Qnd5SjZZUkJGSUNLLVRxdUMzSDNWRFk2b3c2eVpRWWl3bGpVLTlJUnVUaXFoQkIwYUlvdlhWTGZ1WG0wa05hZmM0RGtNUGlOaGJqUVE?oc=5",
    "Yahoo Finance",
-   "Fri, 06 Nov 2026 06:27:02 GMT"
+   "Mon, 09 Nov 2026 03:48:00 GMT"
   ],
   [
-   "Stocks plunge as election outcome and AI worries crush tech shares - NBC News",
-   "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOTNfLWhKbG1YQW94UmZzUGpiYlNJUlNhZWstcGdKNE9mVnRlWDhTcE1FSW9iZkpwTDI3S1R2QWNoTFhndEN4bFpwMXQwQ1paZDlNbXNxSlBRNVh5MlVKOVNKMHowZVNiN00xX2FfcHVyeFBIVzhaVF96azRNWE5VZ1VndXItWmdwelE?oc=5",
-   "NBC News",
-   "Fri, 06 Nov 2026 04:46:02 GMT"
+   "Asian stock markets climb after earlier tech rout - Al Jazeera",
+   "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOExPbUF0LU5VaFFCYVpvLVFpaFdIclBKUXJtYk9LQXM2ODZyUmMzU1QwNE10MHA3bU5uSTJSQ2VDQ1E0MEo2SmJxd0hJcjFseHRmYWdTbjhkMnU2OTVneHlpbExSbjgyR2F6MDJ4WTNxUWpjZW9OU1l4UWlOYmFrUk5wRTZVMlEwMG9zS1p4UGdPYjJZV09pSNIBngFBVV95cUxORlBpVTZtXzJuQXB2UlpsSlhNbEJlLXF1TjFxbVJlVl9KbUhpN0JCS0JvWTN0bkJsb2lVVGtiMjgzNkZQaW1sOFYxamN3NXFDZHFVQXgxdGZXdUhid2p0elBlcldGNko5ejluSU1DWFZpWEUxREozTUVsdS0xZGdkY3FpUVNIWWVXbkE2NkFqS01VSnFYQzhhM3ZtNzE3Zw?oc=5",
+   "Al Jazeera",
+   "Mon, 09 Nov 2026 04:08:21 GMT"
   ],
   [
-   "India bucks Asia tech rout as oil slide reverses market fortunes - Reuters",
-   "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWjNzeFpJV2tDZUlhN19jRzc4UDQ2NUJ2eWNvdnBjdW1Bam5YdE9HUGhfLUZ3Z3FMOVpQMFdId2Z4SlBlMll2Z2dYVXZqamZYdjRMazg3NnZfbzA0WHFNMVNLY0VqQ0dwMkI5RDB2S1ZrNFNGWWpnQmdjUXE2cjcwem9KVzVPYzJMWm5ycGVJaTFWTGRTX3g3T1JIbVAwb3pFUGFXVHBmMWIxdGhOWUtIQm1hWnZsbUhHMVE?oc=5",
-   "Reuters",
-   "Fri, 06 Nov 2026 02:27:00 GMT"
-  ],
-  [
-   "Global tech stocks plunge as US midterms add to AI slowdown fears - BBC",
-   "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XdkJGRE8yWFZFWXBDYzA4WXRyM1doblZVak9PRjFMNGszT1NCSEx0UEQ1QWduQjlvZ1Bnd21qcEc5MDU3cjRxRXFtTV8xd3BPdURJaENhUDdUMms?oc=5",
-   "BBC",
-   "Fri, 06 Nov 2026 02:57:24 GMT"
-  ],
-  [
-   "Trump says voters should blame themselves for stock market rout - Axios",
-   "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiWnJhcjAxNy13VVJxMFNoWGZGRkJYcEVvV2dGU3VCNEVzNk9xMk0zeFVMeHZaZ3hhOXFzaURDZ3RLS0xoX0hTODlMcTlkaS1fQmRMbXEwdnlwTTFZV3BJaUdlaVV0TW5CTEFxUA?oc=5",
-   "Axios",
-   "Fri, 06 Nov 2026 00:43:34 GMT"
-  ],
-  [
-   "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks - NPR",
-   "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZEdCMFRaekZrTFZVU3BYa25BTThUTTk2ZHJZWnFhLW03aUJlWGFxcG8tbFNaYlFrTlFzSXlqSDhtdGQ3c3VBUG42Mmg5TW9VWnI0X2FvMlBXcVZCMHJXT3hhMHduS0NiQXRhQ3dRTF9wemdLeXVuOVdfTEhnMFdQSFpZalJfQQ?oc=5",
-   "NPR",
-   "Fri, 06 Nov 2026 00:16:53 GMT"
+   "Asian markets bounce back after a recovery for AI stocks on Wall Street - News-Times",
+   "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdHdVM3IwQVdfcjUxbUF4X3hHU3FZUzdyWllRMzM0RTJaalFSNUN3WmJBMVROTlNmWlNrdTVneFl3UDAxZ3VFbnVubjM1RGpBeGliaTY4dDJXTHZzSjJHbXlLLW1uaDV4V3otakk3enRDcGs4dnBzMUw0RkpTUWtSd3F4a3ZvdFgxWG94QTV3TFR6OFdsaXVNUFpEVDRaaExHcEtPNWFndHc?oc=5",
+   "News-Times",
+   "Mon, 09 Nov 2026 04:32:35 GMT"
   ]
  ],
  "cal": [
   [
-   "2026-11-06 08:30:00-05:00",
-   "Average Hourly Earnings m/m",
-   "High",
-   "0.3%",
-   "0.1%"
-  ],
-  [
-   "2026-11-06 08:30:00-05:00",
-   "Non-Farm Employment Change",
-   "High",
-   "65K",
-   "29K"
-  ],
-  [
-   "2026-11-06 08:30:00-05:00",
-   "Unemployment Rate",
-   "High",
-   "4.2%",
-   "4.2%"
-  ],
-  [
-   "2026-11-06 10:00:00-05:00",
-   "Prelim UoM Consumer Sentiment",
-   "Medium",
-   "48.1",
-   "46.3"
-  ],
-  [
-   "2026-11-06 10:00:00-05:00",
-   "Prelim UoM Inflation Expectations",
+   "2026-11-10 04:00:00-05:00",
+   "FOMC Member Waller Speaks",
    "Medium",
    "",
-   "4.7%"
+   ""
+  ],
+  [
+   "2026-11-10 08:30:00-05:00",
+   "CPI m/m",
+   "High",
+   "0.3%",
+   "0.6%"
+  ],
+  [
+   "2026-11-10 08:30:00-05:00",
+   "Core CPI m/m",
+   "High",
+   "0.2%",
+   "0.3%"
+  ],
+  [
+   "2026-11-12 08:30:00-05:00",
+   "Unemployment Claims",
+   "Medium",
+   "194K",
+   "189K"
+  ],
+  [
+   "2026-11-13 08:30:00-05:00",
+   "Core PPI m/m",
+   "High",
+   "0.3%",
+   "0.7%"
+  ],
+  [
+   "2026-11-13 08:30:00-05:00",
+   "PPI m/m",
+   "High",
+   "0.4%",
+   "1.3%"
   ]
  ]
 }

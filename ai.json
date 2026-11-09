@@ -1,166 +1,231 @@
 {
- "asof": "2026-11-05",
+ "asof": "2026-11-06",
  "model": "Claude",
- "generated_utc": "2026-11-06T07:44:32Z",
+ "generated_utc": "2026-11-09T05:14:59Z",
  "note": {
-  "mood": "risk-off",
+  "mood": "mixed",
   "bullets": [
-   "Nasdaq/S&P had their worst day since 2020 Thu as a Democratic midterm sweep stoked AI-regulation and data-center-moratorium fears; Mag7 lost ~$1T.",
-   "VIX spiked ~70% to 28.2; Fri futures mixed, Nasdaq fut recovering slightly (+0.4%) while S&P/Dow futures stay soft.",
-   "Oil rebounding (Brent +~4%) on renewed US-Iran conflict risk after an 8% Wednesday drop; 10Y yield eased near 4.84% on safe-haven buying.",
-   "October jobs report due 8:30am ET (payrolls 65K est, unemployment 4.2%) is today's key swing factor for the risk-off mood."
+   "Nasdaq hit correction territory Thu Nov 5 on an AI-trade selloff; Dow Jones index plunged ~1,800 pts same day, then market bounced Fri-Mon.",
+   "Oil (Brent/WTI) fell through the week on cooling Mideast escalation risk and midterm-driven policy uncertainty, dragging energy names broadly.",
+   "10Y JGB and US Treasury yields eased as lower oil cooled inflation fears; futures flat-to-up Mon AM awaiting CPI and AI-sector earnings.",
+   "Nvidia fell ~3.4% after-hours Mon on a CEO security-probe headline, a reminder AI-megacap jitters remain the dominant macro swing factor."
   ]
  },
  "picks": {
-  "AVTR": {
-   "verdict": "CAUTION",
-   "cause": "company",
-   "why": "Q3 beat (EPS/revenue above estimates, organic-growth guidance raised) but FY adjusted EPS guidance merely matched consensus; investors read it as uninspiring, triggering a sell-the-news drop. No downgrade, no miss.",
-   "sentiment": -0.2,
-   "sent_conf": 0.5,
-   "bull": "Core Q3 beat with raised organic-growth guidance shows underlying demand improving, setting up a bounce from oversold levels.",
-   "bear": "Guidance merely matched consensus with flat margins, so the post-earnings de-rating could persist without a fresh catalyst.",
-   "catalysts": "none found",
-   "flags": ["earnings reaction", "guidance inline not cut", "mixed analyst ratings"],
-   "sources": [
-    {"title": "Avantor beats Q3 estimates but shares slip on guidance", "url": "https://www.investing.com/news/earnings/avantor-beats-q3-estimates-but-shares-slip-on-guidance-93CH-4978215"},
-    {"title": "Avantor (AVTR) Stock Drops As Q3 Earnings Rebound Meets Caution", "url": "https://finance.yahoo.com/markets/stocks/articles/avantor-avtr-stock-drops-q3-181246237.html?.tsrc=rss"}
-   ]
-  },
-  "GKOS": {
+  "ANF": {
    "verdict": "CAUTION",
    "cause": "unclear",
-   "why": "Four firms raised price targets to Buy/Overweight on 2026-10-29 after a strong quarter; drop looks like profit-taking plus notable insider selling ($16.5M/90 days) rather than company damage. No downgrade or bad news found.",
-   "sentiment": 0.1,
-   "sent_conf": 0.4,
-   "bull": "All four analysts raised price targets after a record quarter, implying Wall Street sees the pullback as pure profit-taking.",
-   "bear": "Heavy insider selling and reportedly bearish options flow suggest some holders expect pressure to persist near-term.",
-   "catalysts": "none found",
-   "flags": ["heavy insider selling", "no damage found", "profit-taking after pop"],
-   "sources": [
-    {"title": "Why is Glaukos stock sliding today?", "url": "https://www.investing.com/news/stock-market-news/why-is-glaukos-stock-sliding-today-93CH-4939474"},
-    {"title": "ETFs Bought $385.0 Million of Glaukos (GKOS) on Tuesday", "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-385-0-million-110035661.html?.tsrc=rss"}
-   ]
-  },
-  "PBF": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Energy sector fell ~10% broadly (oil volatility from US-Iran tension) matching PBF's drop. Only one Hold-level upgrade and one maintained Neutral found, both with raised price targets; no PBF-specific bad news.",
-   "sentiment": 0.1,
-   "sent_conf": 0.4,
-   "bull": "Energy sector-wide selloff, not PBF-specific news, drove the drop; refining cash-flow and growth narrative remain intact.",
-   "bear": "Refining margins are cyclical and oil-price swings from Iran tensions could keep pressuring crack spreads and the stock.",
-   "catalysts": "none found",
-   "flags": ["sector-wide energy selloff"],
-   "sources": [
-    {"title": "PBF Energy (PBF) Stock Price Trails Its Q3 Earnings Windfall", "url": "https://finance.yahoo.com/energy/articles/pbf-energy-pbf-stock-price-071201866.html?.tsrc=rss"},
-    {"title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy", "url": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html"}
-   ]
-  },
-  "PSX": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Drop tracks a broad energy-sector slide (~10% sector move) tied to oil volatility, not company news. Analysts (Citi, Morgan Stanley, Wells Fargo, Freedom Broker) all maintained/raised ratings and targets through early November.",
-   "sentiment": 0.2,
+   "why": "Q3 was reportedly upbeat yet shares sank on market-gain days (Nov 3, -5.1% Nov 6); articles cite overvaluation vs GF Value, not a miss, cut, or downgrade. No dd.moves on file.",
+   "sentiment": -0.2,
    "sent_conf": 0.5,
-   "bull": "Drop tracks a broad energy-sector slide; analysts kept raising price targets (Citi, Morgan Stanley, Wells Fargo) through early November.",
-   "bear": "A renewed Iran conflict could whipsaw oil and refining margins, adding volatility before the position can play out.",
-   "catalysts": "none found",
-   "flags": ["sector-wide energy selloff"],
+   "bull": "No guidance cut, miss, or analyst downgrade found; sell-off reads as valuation/profit-taking after a big run.",
+   "bear": "Repeated multi-day declines on up-market days suggest idiosyncratic selling pressure, not just rotation.",
+   "catalysts": "none found; next earnings Nov 24 is outside the 7-day window",
+   "flags": [
+    "no clear cause found",
+    "valuation pullback after rally"
+   ],
    "sources": [
-    {"title": "Phillips 66 (PSX) Just Flashed Golden Cross Signal: Do You Buy?", "url": "https://finance.yahoo.com/energy/articles/phillips-66-psx-secures-long-170952479.html?.tsrc=rss"},
-    {"title": "Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections", "url": "https://www.cnbc.com/2026/11/06/oil-price-today-brent-wti.html"}
+    {
+     "title": "Abercrombie & Fitch (ANF) Stock Sinks As Market Gains: What You Should Know",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-anf-stock-sinks-214501980.html"
+    },
+    {
+     "title": "Abercrombie & Fitch Co (ANF) Shares Fall 5.1% -- What GF Score of 81 Tells Investors",
+     "url": "https://www.gurufocus.com/news/9182799/abercrombie-fitch-co-anf-shares-fall-51-what-gf-score-of-81-tells-investors"
+    }
    ]
   },
-  "RVTY": {
-   "verdict": "CAUTION",
-   "cause": "company",
-   "why": "Q3 beat with raised 2026 guidance, yet shares round-tripped (fell then rallied ~11%) on valuation concerns (GF Value implies ~35% overvalued, P/E 74x vs 5yr median 36x). No miss, no downgrade, just a company-specific valuation debate.",
-   "sentiment": 0.0,
-   "sent_conf": 0.5,
-   "bull": "Q3 beat with raised 2026 guidance and multiple analyst PT hikes point to improving fundamentals beneath the valuation debate.",
-   "bear": "Stock is viewed as richly valued (GF Value implies ~35% downside), so good news may keep getting sold.",
-   "catalysts": "none found",
-   "flags": ["post-earnings volatility", "valuation concerns", "insider selling"],
-   "sources": [
-    {"title": "Revvity (RVTY) Reaffirms Its Dividend, Is The Stock Now Too Pricey?", "url": "https://finance.yahoo.com/markets/stocks/articles/revvity-rvty-reaffirms-dividend-stock-081156809.html?.tsrc=rss"},
-    {"title": "Revvity Inc (RVTY) Stock Down 5.3% but Still Overvalued -- GF Score: 70/100", "url": "https://www.gurufocus.com/news/9160384/revvity-inc-rvty-stock-down-53-but-still-overvalued-gf-score-70100"}
-   ]
-  },
-  "CVLT": {
+  "DOW": {
    "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Drop mirrors the broad software-sector rout (-8% to -10% sector-wide) tied to AI-regulation fears after the midterms, not Commvault news. Four firms maintained/upgraded with raised price targets on 2026-10-28; SaaS growth story intact.",
-   "sentiment": 0.3,
-   "sent_conf": 0.5,
-   "bull": "Drop mirrors a broad software-sector rout tied to AI-regulation fears, not any Commvault-specific news; SaaS growth story intact.",
-   "bear": "If AI-driven software de-rating continues market-wide, CVLT could keep falling with peers regardless of its own fundamentals.",
-   "catalysts": "none found",
-   "flags": ["sector-wide software selloff"],
+   "cause": "macro",
+   "why": "Drop coincides with Sherwin-Williams replacing DOW in the Dow Jones Industrial Average (passive-fund outflow) and the Nov 5 market-wide AI-selloff; Q3 showed margin recovery, no negative dd.moves, no downgrades.",
+   "sentiment": -0.1,
+   "sent_conf": 0.3,
+   "bull": "Index removal is mechanical/technical selling, not a fundamental problem; Q3 margins improved and ratings stayed buy/hold-heavy.",
+   "bear": "Losing DJIA membership removes a structural source of passive demand for shares going forward.",
+   "catalysts": "DJIA index rebalance (DOW out, SHW in) effective around Nov 9",
+   "flags": [
+    "index removal outflow",
+    "mixed with broad macro selloff"
+   ],
    "sources": [
-    {"title": "Is It Worth Investing in Commvault (CVLT) Based on Wall Street's Bullish Views?", "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-commvault-cvlt-based-133003356.html?.tsrc=rss"},
-    {"title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade", "url": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories"}
+    {
+     "title": "Dow plunges 1,800 points, wiping out gains from midterm results rally",
+     "url": "https://abcnews.com/Business/dow-plunges-1200-points-shedding-midterm-results-stock/story?id=137880888"
+    },
+    {
+     "title": "Is Dow Inc (DOW) a Bargain After 3.2% Drop? GF Value Says Undervalued",
+     "url": "https://www.gurufocus.com/news/9172069/is-dow-inc-dow-a-bargain-after-32-drop-gf-value-says-undervalued"
+    }
    ]
   },
-  "HPQ": {
-   "verdict": "CAUTION",
-   "cause": "sector",
-   "why": "Intel warned PC shipments will fall 12% in 2026/10% in 2027, hitting Dell (-11%), HPE, Supermicro and HP (-7-9%) together - sector-wide, not HP-specific. Adds uncertainty: new, untested CEO Emma Walmsley named 2026-11-04; no dd.moves found.",
-   "sentiment": -0.3,
-   "sent_conf": 0.55,
-   "bull": "HP's slide mostly reflects Intel's industry-wide PC-demand warning that hit Dell and HPE too, not an HP-only problem.",
-   "bear": "A new, untested CEO plus a structurally weakening PC market make the fundamental setup for a bounce weaker.",
-   "catalysts": "none found",
-   "flags": ["PC sector slump (Intel warning)", "new/untested CEO", "earnings in ~12 sessions (outside hold window)"],
-   "sources": [
-    {"title": "HPQ, DELL Stocks Plunge After Intel Flags Prolonged PC Market Weakness", "url": "https://www.tradingview.com/news/stocktwits:f2cd2b4bc094b:0-hpq-dell-stocks-plunge-after-intel-flags-prolonged-pc-market-weakness/"},
-    {"title": "HP Names Emma Walmsley as New CEO, Ending Monthlong Search", "url": "https://finance.yahoo.com/markets/stocks/articles/hp-names-emma-walmsley-ceo-124439611.html?.tsrc=rss"},
-    {"title": "Dell Sinks 11% as Intel's Warning on PC Slump and Memory Shortage Hits Hardware Stocks", "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOcS1XS0Nfa0Nub0NDaEwzQkEtQmRpQUR5Mi1PQkVwZUJGWXlfTkFvUFFob0NGX0dXOExoUHVKTWNGbDBqaXVUc05lTk9KTFFpb3ZZOVhzc0tIMjhFNzBjWDNWRXVqdjNqdDRCa0o3eWhVaWlZRThvWjFvczRqOWhVZ25SdlF0bGhFTmZyNEhhczM5R1lBUnUwTDg2UUVvUnZtMlpNVUFFOFZ5OU9kVTNycGF4MlVHWGtsRWRGUjYxVlZNT1ZJZXBfdUFnYVBiN0s1cFhhYXU4YzJnZkRwYktYWVF0ZUFsdmZ1Snk0bUViX2dWNV81cWRxaXJUY09qaGZtOUtjLVJHdXFrUGZBSUZpWm5UWTI3cnVaT2Rv?oc=5"}
-   ]
-  },
-  "BRKR": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Q3 2026 adjusted EPS beat ($0.56 vs $0.42 est), guidance maintained; GAAP headline loss was due to a one-time non-cash $175M goodwill impairment. Two firms (Citi, Leerink) raised price targets 2026-11-05; broader medical-device-sector selloff also hit peers.",
-   "sentiment": 0.3,
-   "sent_conf": 0.5,
-   "bull": "Adjusted EPS beat, maintained full-year guidance, and two analyst price-target hikes show the core business is healthy.",
-   "bear": "A $175M non-cash goodwill impairment and a broad medical-device-sector selloff add noise that could delay the bounce.",
-   "catalysts": "none found",
-   "flags": ["one-time non-cash goodwill impairment", "sector-wide medical device selloff"],
-   "sources": [
-    {"title": "Bruker (BRKR) Jumped, What Is Behind The Fresh Attention?", "url": "https://finance.yahoo.com/markets/stocks/articles/bruker-brkr-jumped-behind-fresh-081654540.html?.tsrc=rss"},
-    {"title": "Bruker (BRKR) Q3 2026 Earnings Results & Call Transcript", "url": "https://www.marketbeat.com/earnings/reports/2026-11-4-bruker-co-stock/"}
-   ]
-  },
-  "MEDP": {
+  "EXPD": {
    "verdict": "CAUTION",
    "cause": "unclear",
-   "why": "No fresh company-specific bad news found this week; 2026 analyst moves (Oct 23-26) were all maintains with raised price targets. A 2026 cancellation-rate fraud suit is from Feb/Apr, already priced in. Heavy recent insider/fund selling is a flag.",
-   "sentiment": -0.2,
-   "sent_conf": 0.4,
-   "bull": "No new company-specific bad news found this week; prior cancellation-rate fraud allegations are from early 2026 and already priced in.",
-   "bear": "Heavy insider selling ($213M/90 days) and fund trimming suggest some holders remain skeptical of a durable bounce.",
-   "catalysts": "none found",
-   "flags": ["heavy insider/fund selling", "prior cancellation-rate overhang (stale)"],
+   "why": "EXPD beat Q3 on airfreight/ocean strength (Nov 3) yet fell; analysts split right after -- UBS raised to Buy, JPM to Neutral, Barclays cut to Underweight on valuation/freight demand. Mixed, not a clean miss or fraud.",
+   "sentiment": 0.2,
+   "sent_conf": 0.5,
+   "bull": "Earnings beat estimates on airfreight/ocean strength and the firm just raised its dividend.",
+   "bear": "Barclays cut to Underweight on stretched valuation and freight-demand concerns right after the print.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": [
+    "mixed analyst split post-earnings",
+    "stock near all-time highs/overvalued per GF"
+   ],
    "sources": [
-    {"title": "Did Earnings Beat Just Shift Medpace Holdings (MEDP) Investment Narrative?", "url": "https://finance.yahoo.com/markets/stocks/articles/did-earnings-beat-just-shift-081522635.html?.tsrc=rss"},
-    {"title": "Medpace Holdings, Inc. $MEDP Shares Sold by Boston Trust Walden Corp", "url": "https://www.marketbeat.com/instant-alerts/filing-medpace-holdings-inc-medp-shares-sold-by-boston-trust-walden-corp-2026-11-05/"}
+    {
+     "title": "Expeditors International of Washington Inc (EXPD) Shares Fall 3.2% -- GF Value Says Still Overvalued",
+     "url": "https://www.gurufocus.com/news/9172060/expeditors-international-of-washington-inc-expd-shares-fall-32-gf-value-says-still-overvalued"
+    },
+    {
+     "title": "EXPD Q3 Earnings Beat Estimates on Airfreight and Ocean Strength",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/expd-q3-earnings-beat-estimates-170900899.html"
+    }
    ]
   },
-  "IEX": {
+  "SLB": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "Q3 beat with a guidance raise; four firms maintained/upgraded with higher price targets on 2026-10-29 (Citi, RBC, Oppenheimer, Stifel). Drop exceeds the broader industrials pullback (~-4.5% sector) but no IDEX-specific bad news found.",
-   "sentiment": 0.2,
-   "sent_conf": 0.4,
-   "bull": "IDEX beat Q3 estimates and raised guidance, with four analysts reiterating Buy/Outperform and higher price targets in late October.",
-   "bear": "Drop tracks a broader industrials pullback; continued macro risk-off into the weekend's jobs report could extend the slide.",
-   "catalysts": "none found",
-   "flags": ["sector-wide industrials pullback"],
+   "why": "Decline tracks falling oil prices and rate fears hitting oilfield-services broadly; dd.moves are all positive (UBS Buy, Barclays/Piper Overweight) issued days before the drop, with new Norway contract wins -- no fundamental damage found.",
+   "sentiment": 0.3,
+   "sent_conf": 0.6,
+   "bull": "Analysts stayed Buy/Overweight through the drop and SLB just won new Norway contract awards.",
+   "bear": "CEO sold $1.32M in stock and oilfield-services capex is directly exposed if crude keeps sliding.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": [
+    "oil-price sensitive",
+    "minor CEO insider sale"
+   ],
    "sources": [
-    {"title": "IEX Q3 deep dive: strong demand in advantaged markets and operational leverage drive guidance raise", "url": "https://finance.yahoo.com/markets/stocks/articles/iex-q3-deep-dive-strong-074136541.html?.tsrc=rss"},
-    {"title": "Learn Why The Bull Case For IDEX (IEX) Could Change Following Earnings Beat", "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-idex-092155940.html?.tsrc=rss"}
+    {
+     "title": "SLB stock falls as oil weakness, rate fears overshadow AI growth story",
+     "url": "https://seekingalpha.com/news/4606995-slb-stock-falls-as-oil-weakness-rate-fears-overshadow-ai-growth-story"
+    },
+    {
+     "title": "SLB OneSubsea Awarded Contract for Lyra Field Development Offshore Norway",
+     "url": "https://finance.yahoo.com/energy/articles/slb-onesubsea-awarded-contract-lyra-124900967.html"
+    }
+   ]
+  },
+  "CVX": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Multi-day decline matches a broad crude-oil price slide (post-midterm policy shift) that hit integrated energy names; Q3 beat on strong cash flow, and dd.moves are mostly bullish (UBS Buy, Morgan Stanley/Barclays raised PTs). Only DZ Bank cut Buy->Hold on valuation.",
+   "sentiment": 0.15,
+   "sent_conf": 0.5,
+   "bull": "Q3 cash flow and production were strong; most analysts raised price targets even as the stock fell.",
+   "bear": "Stock trades well above GF fair-value estimate and a $4B Hess-related charge looms in the January report.",
+   "catalysts": "none found in next 7 trading days (Hess $4B charge lands in January report, outside window)",
+   "flags": [
+    "oil-price sensitive",
+    "valuation stretched vs GF estimate"
+   ],
+   "sources": [
+    {
+     "title": "Chevron Corp Stock (CVX) Moved Down by 4.02% on Nov 4: What Signal Does It Send?",
+     "url": "https://www.tradingkey.com/news/market-movers/262274795-market-movers-cvx-20261104"
+    },
+    {
+     "title": "A Look at Chevron Corp (CVX) After 3.3% Decline -- GF Value $175.86 vs Price $227.77",
+     "url": "https://www.gurufocus.com/news/9163380/a-look-at-chevron-corp-cvx-after-33-decline-gf-value-17586-vs-price-22777"
+    }
+   ]
+  },
+  "NSC": {
+   "verdict": "VETO",
+   "cause": "company",
+   "why": "Drop tied to deal-specific regulatory risk: seven state AGs urged rejection of the revised UP-NSC merger application, and the STB forced release of UP's CEO 'rate threat' remarks, tainting the review. This is a company/deal-specific regulatory action, not sector-wide.",
+   "sentiment": -0.25,
+   "sent_conf": 0.6,
+   "bull": "Schneider intermodal tie-up shows standalone business momentum if the merger stalls or falls through.",
+   "bear": "State AG opposition and STB scrutiny of UP's rate-threat comments directly threaten merger consummation.",
+   "catalysts": "ongoing STB/state-AG review of the UP-NSC merger application",
+   "flags": [
+    "merger regulatory risk",
+    "deal-specific, not sector"
+   ],
+   "sources": [
+    {
+     "title": "Union Pacific, Norfolk Southern drop as state AGs raise concerns over combination",
+     "url": "https://seekingalpha.com/news/4638986-union-pacific-norfolk-southern-drop-as-state-ags-raises-concers-over-combination"
+    },
+    {
+     "title": "Norfolk Southern stock faces scrutiny after merger speech ruling",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/norfolk-southern-stock-faces-scrutiny-after-merger-speech-ruling/70469836"
+    }
+   ]
+  },
+  "MSM": {
+   "verdict": "VETO",
+   "cause": "company",
+   "why": "Shares sank ~14-15% after Q4 results: a $42M impairment from scrapping its Digital Core tech project plus the slowest revenue growth among MRO-distribution peers, despite an adjusted EPS beat. This is a company-specific earnings-reaction, not sector-wide.",
+   "sentiment": -0.2,
+   "sent_conf": 0.4,
+   "bull": "Adjusted EPS beat by 33% YoY with record sales and margin expansion once the one-time impairment is excluded.",
+   "bear": "Slowest revenue growth among peer distributors raises real competitive-positioning concerns beyond the one-time charge.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": [
+    "post-earnings reaction",
+    "competitive growth concern"
+   ],
+   "sources": [
+    {
+     "title": "MSC Industrial Sinks 14% Despite Record Sales as CEO Flags \"Inflationary Headwinds\"",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/msc-industrial-sinks-14-despite-175436722.html"
+    },
+    {
+     "title": "MSC Industrial (MSM) Stock Sinks As Q4 Results Uncover Earnings Strain",
+     "url": "https://www.webull.com/news/15794545712901120"
+    }
+   ]
+  },
+  "BBWI": {
+   "verdict": "CAUTION",
+   "cause": "unclear",
+   "why": "No bad company news found for the drop window; context is positive (dividend declared, Zacks Buy rank, WF raised to Overweight Oct 29). Options IV is surging ahead of the Nov 19 print, which falls just outside the 7-day hold window.",
+   "sentiment": 0.25,
+   "sent_conf": 0.5,
+   "bull": "Dividend just declared, Zacks Buy rank, and Wells Fargo recently raised to Overweight -- no damaging news found.",
+   "bear": "Implied volatility is surging into a Nov 19 report, signaling the options market expects a large move.",
+   "catalysts": "earnings Nov 19 (just outside the 7-trading-day window)",
+   "flags": [
+    "no clear cause found",
+    "IV surge ahead of earnings"
+   ],
+   "sources": [
+    {
+     "title": "Implied Volatility Surging for Bath & Body Works Stock Options",
+     "url": "https://finance.yahoo.com/markets/options/articles/implied-volatility-surging-bath-body-125400310.html"
+    },
+    {
+     "title": "Bath & Body Works (BBWI) Down 9.9% Since Last Earnings Report: Can It Rebound?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bath-body-works-bbwi-down-143004571.html"
+    }
+   ]
+  },
+  "SWKS": {
+   "verdict": "VETO",
+   "cause": "company",
+   "why": "Shares crashed on weak Dec-quarter guidance issued with Q4 results (Nov 3-4): revenue fell 4.8% YoY and Qorvo integration starts with a revenue contraction. Four firms (Barclays, Citi, RBC, Susquehanna) cut ratings/targets days later -- a guidance-driven, company-specific hit.",
+   "sentiment": -0.2,
+   "sent_conf": 0.6,
+   "bull": "A couple of contrarian upgrades to Strong Buy appeared post-dip, betting the Qorvo synergy story ($500M+ cost savings) is underpriced.",
+   "bear": "Weak guidance plus four analyst downgrades on Android/smartphone weakness is a clear fundamentals-driven hit.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": [
+    "guidance cut",
+    "multiple post-earnings downgrades"
+   ],
+   "sources": [
+    {
+     "title": "Skyworks Solutions crashes after offering up weak guidance following Qorvo deal",
+     "url": "https://seekingalpha.com/news/4663624-skyworks-solutions-crashes-after-offering-up-weak-guidance-following-qorvo-deal"
+    },
+    {
+     "title": "Skyworks' Qorvo deal complicates outlook, analysts flag android weakness",
+     "url": "https://seekingalpha.com/news/4665022-skyworks-qorvo-deal-complicates-outlook-analysts-flag-android-weakness"
+    }
    ]
   }
  }

@@ -286,5 +286,45 @@
   "stop": 135.84,
   "conf": 7.6,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-06",
+  "t": "ANF",
+  "tier": "solid",
+  "buy": 152.53,
+  "tgt": 158.11,
+  "stop": 137.92,
+  "conf": 7.6,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-06",
+  "t": "DOW",
+  "tier": "solid",
+  "buy": 31.51,
+  "tgt": 32.46,
+  "stop": 29.04,
+  "conf": 6.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-06",
+  "t": "EXPD",
+  "tier": "solid",
+  "buy": 186.67,
+  "tgt": 192.27,
+  "stop": 174.84,
+  "conf": 6.3,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-06",
+  "t": "SLB",
+  "tier": "solid",
+  "buy": 49.45,
+  "tgt": 50.93,
+  "stop": 45.72,
+  "conf": 6.3,
+  "verdict": null
  }
 ]
