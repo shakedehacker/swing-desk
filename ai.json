@@ -1,90 +1,90 @@
 {
- "asof": "2026-11-10",
+ "asof": "2026-11-11",
  "model": "Claude",
- "generated_utc": "2026-11-11T05:03:36Z",
+ "generated_utc": "2026-11-12T05:03:43Z",
  "note": {
   "mood": "mixed",
   "bullets": [
-   "Futures firm (S&P +0.2%, Nasdaq100 +0.4%) as CoreWeave's beat and raised guidance ease AI-slowdown fears after Monday's Nvidia-led selloff.",
-   "Hot October CPI lifted December Fed hike odds to ~88%; 10Y yield near 5% and a firm dollar remain the key macro headwind.",
-   "Asia mixed: Nikkei +0.85%, Kospi +1.2%, but Hang Seng -0.66%; Taiwan activated stabilization measures to stem AI-stock bleeding.",
-   "Energy (-6.7%) and Semis (-17.8%) are this week's worst sectors; PPI data due Thu Nov 13 is the next big risk event."
+   "Nasdaq 100 futures down ~0.8-0.9% as WSJ/NYT report Nvidia's board may oust CEO Jensen Huang; NVDA fell up to 10% after hours.",
+   "S&P rallied 1.3% Wednesday and VIX fell 10% to 17.5, showing broad risk appetite despite the Nvidia-specific shock.",
+   "Asia mixed into Thursday: Nikkei/Kospi/Taiwan up, Hong Kong down; Europe supported by an AI-driven risk recovery.",
+   "Core PPI due 8:30am ET (0.3% est. vs 0.7% prior); oil extending its slide, 10Y yield holding near 5%."
   ]
  },
  "picks": {
-  "ILMN": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "Stock fell 18.6% on Nov 1 after Q3 revenue missed estimates despite raised full-year guidance. Citigroup cut to Sell (Nov 2) and Wall Street Zen cut to Hold (Nov 7), both company-specific calls, not sector-wide.",
-   "sentiment": -0.3,
+  "DXCM": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Peer Insulet flagged a soft 2027 growth outlook on new competition, dragging Insulet/Tandem/DXCM together. DXCM itself beat Q3 and raised FY26 revenue guide to $5.20-5.25B; dd.moves shows upgrades (UBS, Canaccord, Barclays), no company-specific negative found.",
+   "sentiment": 0.2,
    "sent_conf": 0.6,
-   "bull": "Guidance raised, margins and free cash flow healthy; sell-off may be a valuation overreaction.",
-   "bear": "Revenue miss plus two separate sell-side downgrades point to real growth concerns, not noise.",
+   "bull": "Q3 beat, raised guidance and G7 Canada launch; the drop tracks peer Insulet's guidance cut, not DXCM's own results.",
+   "bear": "CGM group stays jittery on competitive/growth worries even though DXCM's own numbers were strong.",
    "catalysts": "none found",
-   "flags": ["revenue miss", "Sell rating (Citi)", "Hold cut (WS Zen)"],
+   "flags": ["sector read-through from Insulet", "CGM competitive worries"],
    "sources": [
-    {"title": "Illumina (ILMN) Stock Falls After Q3 Results Lift Guidance", "url": "https://finance.yahoo.com/markets/stocks/articles/illumina-ilmn-stock-falls-q3-181012376.html"},
-    {"title": "Illumina (NASDAQ:ILMN) Cut to \"Hold\" at Wall Street Zen", "url": "https://www.marketbeat.com/instant-alerts/analyst-illumina-nasdaq-ilmn-cut-to-hold-at-wall-street-zen-2026-11-07/"}
+    {"title": "What Is Behind The Move In DexCom Stock?", "url": "https://www.trefis.com/stock/dxcm/articles/623746/what-is-behind-the-move-in-dexcom-stock/2026-11-07"},
+    {"title": "DexCom, Inc. (DXCM) Down 5.1% — Is It Smart to Take Money Off the Table?", "url": "https://weissratings.com/en/instant-news-alerts/dexcom-inc-dxcm-down-5-1-is-it-smart-to-take-money-off-the-table"}
    ]
   },
-  "IFF": {
+  "EAT": {
+   "verdict": "CAUTION",
+   "cause": "company",
+   "why": "Brinker beat on EPS/revenue and raised FY27 guidance, but fell 6.2% on heavy insider selling (CEO sold 40k shares right after earnings) and persistent overvaluation calls; dd.moves is all upgrades, no fundamental miss or regulatory issue found.",
+   "sentiment": -0.2,
+   "sent_conf": 0.5,
+   "bull": "Results beat (EPS $2.77 vs $2.45) with raised guidance and multiple bank price-target hikes support the fundamentals.",
+   "bear": "Heavy insider selling right after earnings plus a Zacks cut to Hold signal limited near-term conviction.",
+   "catalysts": "none found",
+   "flags": ["CEO insider selling", "valuation overhang (GF Value)"],
+   "sources": [
+    {"title": "Brinker International (NYSE:EAT) Stock Falls 6.2% - What's Next?", "url": "https://www.marketbeat.com/instant-alerts/price-brinker-international-nyse-eat-stock-falls-62-whats-next-2026-11-10/"},
+    {"title": "Brinker International Inc (EAT) Shares Fall 4.1% -- GF Value Says Still Overvalued", "url": "https://www.gurufocus.com/news/9190218/brinker-international-inc-eat-shares-fall-41-gf-value-says-still-overvalued"}
+   ]
+  },
+  "DBX": {
    "verdict": "VETO",
    "cause": "company",
-   "why": "BofA cut IFF to Underperform from Buy on Nov 6, citing no near-term catalysts after the run-up and ~3% raw-material inflation squeezing H1'27 margins, despite a Q3 beat. A company-specific fundamental downgrade, not sector damage.",
+   "why": "Drop is company-specific: Dropbox announced/priced a $1.1B convertible note offering plus warrants (strike $57, ~75% premium), creating real dilution overhang. UBS cut to Sell on the back of it, even though Q3 revenue/EPS actually beat estimates.",
    "sentiment": -0.4,
-   "sent_conf": 0.65,
-   "bull": "Q3 beat, Taste & Scent strength intact, and three other firms still rate it Overweight/Buy post-earnings.",
-   "bear": "A fresh sell-side downgrade flags real H1'27 margin risk from input-cost inflation, not just sentiment.",
+   "sent_conf": 0.8,
+   "bull": "Q3 beat with an AI/Tigris growth narrative, and $175M of the proceeds fund buybacks that partly offset dilution.",
+   "bear": "New $1.1B convert plus warrants add real dilution risk and triggered a UBS Sell call right into the drop.",
    "catalysts": "none found",
-   "flags": ["BofA cut to Underperform", "margin inflation risk"],
+   "flags": ["convertible note dilution", "UBS cut to Sell"],
    "sources": [
-    {"title": "Here's Why BofA Cut International Flavors & Fragrances (IFF) to Underperform", "url": "https://finance.yahoo.com/markets/stocks/articles/why-bofa-cut-international-flavors-202614886.html"},
-    {"title": "Bank of America Downgrades IFF, Shares Fall 3.3% Amid Q4 Profitability Concerns", "url": "https://www.gurufocus.com/news/9182053/bank-of-america-downgrades-iff-shares-fall-33-amid-q4-profitability-concerns"}
+    {"title": "Dropbox stock falls after pricing $1.1B convertible notes", "url": "https://www.investing.com/news/stock-market-news/dropbox-stock-falls-after-pricing-11b-convertible-notes-5015878"},
+    {"title": "Dropbox (DBX) Prices $1.1 Billion Convertible Notes, Expands Offering Amid Modest Undervaluation", "url": "https://www.gurufocus.com/news/9187927/dropbox-dbx-prices-11-billion-convertible-notes-expands-offering-amid-modest-undervaluation"}
    ]
   },
-  "HPE": {
+  "TTEK": {
    "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "HPE fell with Dell and Super Micro in a broad AI-hardware selloff after the midterms reignited data-center spending/regulation worries; no HPE-specific miss, downgrade, or legal issue found (dd.moves is empty). Next earnings is Nov 23, just beyond the 7-day window.",
-   "sentiment": 0.05,
-   "sent_conf": 0.5,
-   "bull": "No company-specific bad news; still a Moderate Buy consensus; the sector panic looks overdone.",
-   "bear": "AI-capex doubts are market-wide and durable; Nov 23 earnings could reset sentiment either way.",
-   "catalysts": "Earnings call Nov 23 (slightly beyond 7 trading days); PPI data Nov 13.",
-   "flags": ["sector-wide AI selloff", "AI capex concerns"],
+   "cause": "macro",
+   "why": "Shares fell ~7.5% the session before earnings on investor caution/profit-taking (rvol 5.3), not an operational issue. Q4 then beat (EPS $0.49 vs $0.47), backlog +13% YoY, dividend raised 11%; dd.moves is empty and no company damage was found.",
+   "sentiment": 0.5,
+   "sent_conf": 0.7,
+   "bull": "Q4 EPS/revenue beat, record backlog, and an 11% dividend hike confirm momentum despite the pre-earnings dip.",
+   "bear": "Heavy volume ahead of results suggests someone was de-risking; revenue was only in-line, capping the beat's size.",
+   "catalysts": "none found",
+   "flags": ["pre-earnings profit-taking", "no company damage found"],
    "sources": [
-    {"title": "Dell Sinks 12%, Hewlett Packard Enterprise and Super Micro Tumble 10% as Post-Midterm Sell-Off Hits AI Hardware", "url": "https://247wallst.com/investing/2026/11/05/dell-sinks-12-hewlett-packard-enterprise-and-super-micro-tumble-10-as-post-midterm-sell-off-hits-ai-hardware/"},
-    {"title": "Super Micro Falls 4% as NVIDIA's Slide Drags AI Server Stocks; Dell Drops 6%, Hewlett Packard Enterprise Declines 2%", "url": "https://247wallst.com/investing/2026/11/10/super-micro-falls-4-as-nvidias-slide-drags-ai-server-stocks-dell-drops-6-hewlett-packard-enterprise-declines-2/"}
+    {"title": "Tetra Tech earnings beat by $48.53, revenue was in line with estimates", "url": "https://www.investing.com/news/earnings/tetra-tech-earnings-beat-by-4853-revenue-was-in-line-with-estimates-5019867"},
+    {"title": "Tetra Tech (NASDAQ:TTEK) Stock Falls 7.7% - Time to Sell?", "url": "https://www.marketbeat.com/instant-alerts/price-tetra-tech-nasdaq-ttek-stock-falls-77-time-to-sell-2026-11-11/"}
    ]
   },
-  "VLO": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "VLO fell with the broader Energy sector (-6.7% on the week) amid Cramer-style warnings that refining margins are normalizing off decade highs. No formal sell-side downgrade found; Morgan Stanley held Equal-Weight and raised its PT (Nov 2), and the dividend was reaffirmed Nov 10.",
+  "HRB": {
+   "verdict": "CAUTION",
+   "cause": "company",
+   "why": "6.2% drop followed HRB's own Q1 report: a seasonal loss in line with estimates but revenue +10% beat, alongside a reiterated (not new) Goldman Sell with a raised PT and a Nov 3 Zacks cut to Hold. No fraud, guidance cut, or earnings miss found, but the driver is company-specific.",
    "sentiment": -0.1,
    "sent_conf": 0.5,
-   "bull": "Dividend reaffirmed, margins still near decade highs, stock up 113% YTD; pullback looks sector-driven.",
-   "bear": "If the refining-margin supercycle is ending as Cramer warns, forward earnings fall industry-wide, not just here.",
-   "catalysts": "none found; PPI data Nov 13 could move the energy complex.",
-   "flags": ["sector-wide energy selloff", "margin-cycle concern"],
+   "bull": "Revenue beat and reaffirmed outlook, with Goldman actually raising its price target even while keeping Sell.",
+   "bear": "A longstanding Sell-rated name plus a fresh Zacks downgrade keep sentiment cautious into tax season.",
+   "catalysts": "none found",
+   "flags": ["Goldman Sell reiterated", "Zacks cut to Hold"],
    "sources": [
-    {"title": "Cramer Recommends Selling Valero Energy Stock", "url": "https://www.benzinga.com/opinion/26/11/63102185/cramer-recommends-selling-valero-energy-stock"},
-    {"title": "Valero Energy (VLO) Drops 8% in a Single Session, Erasing Roughly $8 Billion", "url": "https://247wallst.com/cards/valero-energy-vlo-price-swing-01m6kvm1x1v4zd1p6e7a5j6bt1"}
-   ]
-  },
-  "PR": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "PR's drop tracks the Energy/E&P sector-wide slide (-6.7%) as oil prices slumped. Wells Fargo trimmed its PT to $27 from $28 on Nov 6 but kept Overweight, not a downgrade. Q3 beat with record free cash flow and raised guidance; no company damage found.",
-   "sentiment": 0.3,
-   "sent_conf": 0.5,
-   "bull": "Record free cash flow, raised guidance, Wells Fargo still Overweight; the sell-off tracks oil price, not fundamentals.",
-   "bear": "If crude keeps sliding, E&P earnings estimates get cut across the group regardless of PR's own execution.",
-   "catalysts": "none found; oil-price direction and PPI data (Nov 13) are the key macro drivers.",
-   "flags": ["oil price slump", "sector-wide E&P weakness"],
-   "sources": [
-    {"title": "Wells Fargo & Company Issues Pessimistic Forecast for Permian Resources (NYSE:PR) Stock Price", "url": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-permian-resources-nyse-pr-stock-price-2026-11-06/"},
-    {"title": "Permian Resources Corp (PR) Stock Down 5.6% but Still Overvalued -- GF Score: 64/100", "url": "https://www.gurufocus.com/news/9163695/permian-resources-corp-pr-stock-down-56-but-still-overvalued-gf-score-64100"}
+    {"title": "H&R Block (NYSE:HRB) Stock Price Target Raised at The Goldman Sachs Group", "url": "https://www.marketbeat.com/instant-alerts/analyst-hr-block-nyse-hrb-stock-price-target-raised-at-the-goldman-sachs-group-2026-11-10/"},
+    {"title": "H&R Block (HRB) Reports Q1 Loss, Beats Revenue Estimates", "url": "https://finance.yahoo.com/markets/stocks/articles/h-r-block-hrb-reports-223505526.html"}
    ]
   }
  }
