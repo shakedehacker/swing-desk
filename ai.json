@@ -1,90 +1,90 @@
 {
- "asof": "2026-11-11",
+ "asof": "2026-11-12",
  "model": "Claude",
- "generated_utc": "2026-11-12T05:03:43Z",
+ "generated_utc": "2026-11-13T12:00:00Z",
  "note": {
   "mood": "mixed",
   "bullets": [
-   "Nasdaq 100 futures down ~0.8-0.9% as WSJ/NYT report Nvidia's board may oust CEO Jensen Huang; NVDA fell up to 10% after hours.",
-   "S&P rallied 1.3% Wednesday and VIX fell 10% to 17.5, showing broad risk appetite despite the Nvidia-specific shock.",
-   "Asia mixed into Thursday: Nikkei/Kospi/Taiwan up, Hong Kong down; Europe supported by an AI-driven risk recovery.",
-   "Core PPI due 8:30am ET (0.3% est. vs 0.7% prior); oil extending its slide, 10Y yield holding near 5%."
+   "Nvidia CEO Jensen Huang's abrupt exit amid a China-spy probe roiled AI/semis Nov 12; shares pared losses but sector volatility stays elevated.",
+   "Hot CPI/PPI prints lifted Fed December hike odds to 100% (13% chance of 50bp); 10Y near 5.1%, 2Y up 15bp pressuring risk assets.",
+   "Asia rebounded (Nikkei +1.6%, Kospi +1.3%) and Europe edged higher; US futures recovered modestly (S&P +0.3%, Nasdaq +0.4%) after Thursday's selloff.",
+   "Core PPI m/m due today (est. 0.3%) after Tuesday's hot CPI; a hotter print would reinforce hawkish Fed bets and extend yield-driven pressure."
   ]
  },
  "picks": {
-  "DXCM": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Peer Insulet flagged a soft 2027 growth outlook on new competition, dragging Insulet/Tandem/DXCM together. DXCM itself beat Q3 and raised FY26 revenue guide to $5.20-5.25B; dd.moves shows upgrades (UBS, Canaccord, Barclays), no company-specific negative found.",
-   "sentiment": 0.2,
-   "sent_conf": 0.6,
-   "bull": "Q3 beat, raised guidance and G7 Canada launch; the drop tracks peer Insulet's guidance cut, not DXCM's own results.",
-   "bear": "CGM group stays jittery on competitive/growth worries even though DXCM's own numbers were strong.",
+  "HRB": {
+   "verdict": "VETO",
+   "cause": "company",
+   "why": "Q1 adjusted loss widened to -$1.40 (vs -$1.20) and opex rose 11% on the earnings report; Goldman maintained a Sell rating right after. Company-specific damage explains the drop, not sector or macro conditions that day.",
+   "sentiment": -0.2,
+   "sent_conf": 0.5,
+   "bull": "Revenue still grew 10%, management reaffirmed outlook and capital returns; selloff may be overdone for a seasonal business.",
+   "bear": "Loss widened, expenses up 11%, and Goldman's Sell call targets HRB specifically, a fundamental not macro red flag.",
    "catalysts": "none found",
-   "flags": ["sector read-through from Insulet", "CGM competitive worries"],
+   "flags": ["earnings miss", "Sell rating (Goldman)", "company-specific"],
    "sources": [
-    {"title": "What Is Behind The Move In DexCom Stock?", "url": "https://www.trefis.com/stock/dxcm/articles/623746/what-is-behind-the-move-in-dexcom-stock/2026-11-07"},
-    {"title": "DexCom, Inc. (DXCM) Down 5.1% — Is It Smart to Take Money Off the Table?", "url": "https://weissratings.com/en/instant-news-alerts/dexcom-inc-dxcm-down-5-1-is-it-smart-to-take-money-off-the-table"}
+    {"title": "H&R Block (NYSE:HRB) Stock Price Target Raised at The Goldman Sachs Group", "url": "https://www.marketbeat.com/instant-alerts/analyst-hr-block-nyse-hrb-stock-price-target-raised-at-the-goldman-sachs-group-2026-11-10/"},
+    {"title": "Is H&R Block Inc (HRB) a Bargain After 4.2% Drop? GF Value Says Undervalued", "url": "https://www.gurufocus.com/news/9182784/is-hr-block-inc-hrb-a-bargain-after-42-drop-gf-value-says-undervalued"}
    ]
   },
   "EAT": {
    "verdict": "CAUTION",
-   "cause": "company",
-   "why": "Brinker beat on EPS/revenue and raised FY27 guidance, but fell 6.2% on heavy insider selling (CEO sold 40k shares right after earnings) and persistent overvaluation calls; dd.moves is all upgrades, no fundamental miss or regulatory issue found.",
-   "sentiment": -0.2,
-   "sent_conf": 0.5,
-   "bull": "Results beat (EPS $2.77 vs $2.45) with raised guidance and multiple bank price-target hikes support the fundamentals.",
-   "bear": "Heavy insider selling right after earnings plus a Zacks cut to Hold signal limited near-term conviction.",
+   "cause": "unclear",
+   "why": "Shares fell on unusually light volume (rvol 0.58) after a sharp rally faded; Wells Fargo trimmed its PT but kept Overweight. No guidance cut or miss found, and the Discretionary sector was actually higher that day.",
+   "sentiment": -0.1,
+   "sent_conf": 0.4,
+   "bull": "Ratings overwhelmingly buy (20/2/1), guidance raised last quarter, traffic-led momentum intact; looks like valuation-driven profit-taking.",
+   "bear": "No clear catalyst found; a low-volume drift with no sector tailwind leaves the bounce thesis unconfirmed.",
    "catalysts": "none found",
-   "flags": ["CEO insider selling", "valuation overhang (GF Value)"],
+   "flags": ["unclear cause", "low volume", "valuation concern"],
    "sources": [
     {"title": "Brinker International (NYSE:EAT) Stock Falls 6.2% - What's Next?", "url": "https://www.marketbeat.com/instant-alerts/price-brinker-international-nyse-eat-stock-falls-62-whats-next-2026-11-10/"},
-    {"title": "Brinker International Inc (EAT) Shares Fall 4.1% -- GF Value Says Still Overvalued", "url": "https://www.gurufocus.com/news/9190218/brinker-international-inc-eat-shares-fall-41-gf-value-says-still-overvalued"}
+    {"title": "Why Brinker International (EAT) shares are trading lower today", "url": "https://stockstory.org/us/stocks/nyse/eat/news/why-up-down/why-brinker-international-eat-shares-are-trading-lower-today"}
+   ]
+  },
+  "GDDY": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Drop aligns with a broad Software/Tech selloff (sector -7% to -8%) amid the Nvidia-CEO shock and rate-hike fears, not fresh GDDY news. The securities lawsuit stems from an October disclosure; recent analyst PT revisions (Citi, UBS, Evercore) were upward.",
+   "sentiment": 0.3,
+   "sent_conf": 0.4,
+   "bull": "Citigroup reiterated Buy, raising PT to $135; the lawsuit and bad news are already priced in from October.",
+   "bear": "An ongoing securities fraud class action over customer-acquisition disclosures remains an overhang if new facts surface.",
+   "catalysts": "none found",
+   "flags": ["sector-wide selloff", "pending securities lawsuit (old)", "low rvol"],
+   "sources": [
+    {"title": "Investor Alert: GoDaddy (GDDY) has been Sued for Securities Fraud", "url": "https://www.morningstar.com/news/pr-newswire/20261020ny74450/investor-alert-godaddy-gddy-has-been-sued-for-securities-fraud-over-alleged-misstatements-made-to-investors"},
+    {"title": "Are Wall Street Analysts Bullish on GoDaddy Stock?", "url": "https://www.barchart.com/story/news/8781310/are-wall-street-analysts-bullish-on-godaddy-stock"}
    ]
   },
   "DBX": {
    "verdict": "VETO",
    "cause": "company",
-   "why": "Drop is company-specific: Dropbox announced/priced a $1.1B convertible note offering plus warrants (strike $57, ~75% premium), creating real dilution overhang. UBS cut to Sell on the back of it, even though Q3 revenue/EPS actually beat estimates.",
-   "sentiment": -0.4,
-   "sent_conf": 0.8,
-   "bull": "Q3 beat with an AI/Tigris growth narrative, and $175M of the proceeds fund buybacks that partly offset dilution.",
-   "bear": "New $1.1B convert plus warrants add real dilution risk and triggered a UBS Sell call right into the drop.",
+   "why": "DBX priced/upsized a $1.1B convertible note offering Nov 9-10, a dilutive financing event, and UBS downgraded to Sell (PT $26) the same week. This is company-specific balance-sheet news, a classic share-offering red flag.",
+   "sentiment": -0.3,
+   "sent_conf": 0.5,
+   "bull": "Notes fund a $175M buyback and term-loan paydown; RBC stayed Outperform (PT $48) after an earnings beat.",
+   "bear": "Convertible dilution plus a fresh UBS Sell rating are company-specific negatives that fully explain the drop.",
    "catalysts": "none found",
-   "flags": ["convertible note dilution", "UBS cut to Sell"],
+   "flags": ["convertible note offering", "Sell downgrade (UBS)", "dilution risk"],
    "sources": [
     {"title": "Dropbox stock falls after pricing $1.1B convertible notes", "url": "https://www.investing.com/news/stock-market-news/dropbox-stock-falls-after-pricing-11b-convertible-notes-5015878"},
-    {"title": "Dropbox (DBX) Prices $1.1 Billion Convertible Notes, Expands Offering Amid Modest Undervaluation", "url": "https://www.gurufocus.com/news/9187927/dropbox-dbx-prices-11-billion-convertible-notes-expands-offering-amid-modest-undervaluation"}
+    {"title": "Dropbox (DBX) Plans $1 Billion Convertible Notes Offering Amid Strategic Financing", "url": "https://www.gurufocus.com/news/9184796/dropbox-dbx-plans-1-billion-convertible-notes-offering-amid-strategic-financing"}
    ]
   },
-  "TTEK": {
-   "verdict": "CONFIRM",
-   "cause": "macro",
-   "why": "Shares fell ~7.5% the session before earnings on investor caution/profit-taking (rvol 5.3), not an operational issue. Q4 then beat (EPS $0.49 vs $0.47), backlog +13% YoY, dividend raised 11%; dd.moves is empty and no company damage was found.",
-   "sentiment": 0.5,
-   "sent_conf": 0.7,
-   "bull": "Q4 EPS/revenue beat, record backlog, and an 11% dividend hike confirm momentum despite the pre-earnings dip.",
-   "bear": "Heavy volume ahead of results suggests someone was de-risking; revenue was only in-line, capping the beat's size.",
-   "catalysts": "none found",
-   "flags": ["pre-earnings profit-taking", "no company damage found"],
-   "sources": [
-    {"title": "Tetra Tech earnings beat by $48.53, revenue was in line with estimates", "url": "https://www.investing.com/news/earnings/tetra-tech-earnings-beat-by-4853-revenue-was-in-line-with-estimates-5019867"},
-    {"title": "Tetra Tech (NASDAQ:TTEK) Stock Falls 7.7% - Time to Sell?", "url": "https://www.marketbeat.com/instant-alerts/price-tetra-tech-nasdaq-ttek-stock-falls-77-time-to-sell-2026-11-11/"}
-   ]
-  },
-  "HRB": {
+  "ISRG": {
    "verdict": "CAUTION",
-   "cause": "company",
-   "why": "6.2% drop followed HRB's own Q1 report: a seasonal loss in line with estimates but revenue +10% beat, alongside a reiterated (not new) Goldman Sell with a raised PT and a Nov 3 Zacks cut to Hold. No fraud, guidance cut, or earnings miss found, but the driver is company-specific.",
-   "sentiment": -0.1,
+   "cause": "macro",
+   "why": "Stock drifted down post-Q3 despite 22% revenue growth, pressured by a disclosed $450M antitrust settlement charge and a >53x valuation amid broader rate-driven de-risking of growth stocks; the Health sector itself was up that day.",
+   "sentiment": 0.3,
    "sent_conf": 0.5,
-   "bull": "Revenue beat and reaffirmed outlook, with Goldman actually raising its price target even while keeping Sell.",
-   "bear": "A longstanding Sell-rated name plus a fresh Zacks downgrade keep sentiment cautious into tax season.",
+   "bull": "Fundamentals are strong: 22% revenue growth, rising da Vinci 5/Ion adoption, ratings 26 buy vs 2 sell.",
+   "bear": "A disclosed $450M antitrust charge and stretched valuation are company-specific risks layered on top of macro de-risking.",
    "catalysts": "none found",
-   "flags": ["Goldman Sell reiterated", "Zacks cut to Hold"],
+   "flags": ["antitrust settlement charge", "high valuation", "macro de-risking"],
    "sources": [
-    {"title": "H&R Block (NYSE:HRB) Stock Price Target Raised at The Goldman Sachs Group", "url": "https://www.marketbeat.com/instant-alerts/analyst-hr-block-nyse-hrb-stock-price-target-raised-at-the-goldman-sachs-group-2026-11-10/"},
-    {"title": "H&R Block (HRB) Reports Q1 Loss, Beats Revenue Estimates", "url": "https://finance.yahoo.com/markets/stocks/articles/h-r-block-hrb-reports-223505526.html"}
+    {"title": "Intuitive Surgical (ISRG) Just Grew Revenue 22%. Why Is the Stock Still Down This Year?", "url": "https://www.fool.com/investing/2026/11/09/intuitive-surgical-isrg-just-grew-revenue-22-why-i/"},
+    {"title": "What Has The Market Missed In Intuitive Surgical Stock's Drop?", "url": "https://www.trefis.com/stock/isrg/articles/624632/what-has-the-market-missed-in-intuitive-surgical-stocks-drop/2026-11-12"}
    ]
   }
  }

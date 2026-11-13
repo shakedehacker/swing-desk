@@ -1,187 +1,63 @@
 {
- "asof": "2026-11-11",
+ "asof": "2026-11-12",
  "momentum": [
   {
    "t": "MRNA",
-   "c": 248.69000244140625,
-   "gain": 305.93872535534814,
-   "buy": 253.6638024902344,
-   "stop": 126.23599025181363,
-   "exit": "2026-12-10"
+   "c": 231.35000610351562,
+   "gain": 281.33292463297994,
+   "buy": 235.97700622558594,
+   "stop": 111.02599443708148,
+   "exit": "2026-12-11"
   },
   {
    "t": "ACN",
-   "c": 253.66000366210938,
-   "gain": 48.05870406216839,
-   "buy": 258.7332037353516,
-   "stop": 187.3428519112723,
-   "exit": "2026-12-10"
-  },
-  {
-   "t": "RVTY",
-   "c": 158.25,
-   "gain": 35.68510014960107,
-   "buy": 161.415,
-   "stop": 108.93429565429688,
-   "exit": "2026-12-10"
+   "c": 249.9499969482422,
+   "gain": 49.9010710481276,
+   "buy": 254.94899688720704,
+   "stop": 187.71712384905135,
+   "exit": "2026-12-11"
   },
   {
    "t": "TYL",
-   "c": 425.5199890136719,
-   "gain": 28.651769722592956,
-   "buy": 434.0303887939453,
-   "stop": 327.03424072265625,
-   "exit": "2026-12-10"
+   "c": 423.5899963378906,
+   "gain": 30.95483688362648,
+   "buy": 432.0617962646484,
+   "stop": 324.77426583426336,
+   "exit": "2026-12-11"
   },
   {
-   "t": "EL",
-   "c": 112.33000183105469,
-   "gain": 28.309667094706104,
-   "buy": 114.57660186767578,
-   "stop": 84.83714076450893,
-   "exit": "2026-12-10"
+   "t": "PTC",
+   "c": 196.25,
+   "gain": 29.949920603349334,
+   "buy": 200.175,
+   "stop": 189.89000810895647,
+   "exit": "2026-12-11"
+  },
+  {
+   "t": "RVTY",
+   "c": 157.02000427246094,
+   "gain": 29.091070317109626,
+   "buy": 160.16040435791015,
+   "stop": 107.70429992675781,
+   "exit": "2026-12-11"
   }
  ],
  "picks": [
   {
-   "t": "DXCM",
-   "kind": "WATCH",
-   "rule": "watch",
-   "c": 80.3499984741211,
-   "buy": 76.0139991760254,
-   "tgt": 81.06035622973836,
-   "stop": 69.8282833644322,
-   "days": null,
-   "conf": null,
-   "s": null,
-   "ed": null,
-   "name": "DexCom, Inc.",
-   "drop": -9.188522348960115,
-   "rvol": 0.6368751311999038,
-   "dd": {
-    "ind": "Medical Devices",
-    "short": 0.0494,
-    "dtc": 3.52,
-    "ratings": [
-     26,
-     3,
-     0
-    ],
-    "moves": [
-     {
-      "firm": "UBS",
-      "action": "main",
-      "to": "Buy",
-      "pt": 107.0,
-      "prior": 102.0,
-      "date": "2026-10-31"
-     },
-     {
-      "firm": "Canaccord Genuity",
-      "action": "main",
-      "to": "Buy",
-      "pt": 97.0,
-      "prior": 90.0,
-      "date": "2026-10-31"
-     },
-     {
-      "firm": "JP Morgan",
-      "action": "main",
-      "to": "Neutral",
-      "pt": 85.0,
-      "prior": 82.0,
-      "date": "2026-10-31"
-     },
-     {
-      "firm": "Barclays",
-      "action": "main",
-      "to": "Overweight",
-      "pt": 120.0,
-      "prior": 115.0,
-      "date": "2026-10-30"
-     }
-    ],
-    "iv": 0.5282029602050782,
-    "imove": 6.654731783194206
-   },
-   "news": [
-    [
-     "Is DexCom Stock Cheaper Now That Its Multiple Has Fallen?",
-     "https://www.trefis.com/stock/dxcm/articles/624387/is-dexcom-stock-cheaper-now-that-its-multiple-has-fallen/2026-11-11?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 11 Nov 2026 21:17:59 +0000"
-    ],
-    [
-     "Dexcom Announces Upcoming Conference Presentation",
-     "https://finance.yahoo.com/healthcare/articles/dexcom-announces-upcoming-conference-presentation-140000451.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 10 Nov 2026 14:00:00 +0000"
-    ],
-    [
-     "Advancing type 1 diabetes care during pregnancy: a Canadian first",
-     "https://finance.yahoo.com/news/advancing-type-1-diabetes-care-140000164.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 09 Nov 2026 14:00:00 +0000"
-    ],
-    [
-     "What Is Behind The Move In DexCom Stock?",
-     "https://www.trefis.com/stock/dxcm/articles/623746/what-is-behind-the-move-in-dexcom-stock/2026-11-07?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Sat, 07 Nov 2026 12:49:51 +0000"
-    ],
-    [
-     "Guardant Health (GH) Could Be 17% Undervalued As Board Appointment Tests Valuation",
-     "https://finance.yahoo.com/markets/stocks/articles/guardant-health-gh-could-17-051903253.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 05 Nov 2026 05:19:03 +0000"
-    ],
-    [
-     "DexCom to Launch 15-Day G7 CGM System in Canada This November",
-     "https://finance.yahoo.com/healthcare/articles/dexcom-launch-15-day-g7-155900537.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 03 Nov 2026 15:59:00 +0000"
-    ],
-    [
-     "DexCom, Inc. (DXCM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MVnVTNWVmTUNwdXY4OWxCVC1ndWwydGttVW44NHF5cUJINkw3OWtxblB5cWt1bXNGMXlQcnp5WldYMXhadDRfaU5SaHRlYjU5Tmc?oc=5",
-     "Yahoo! Finance Canada",
-     "Wed, 11 Nov 2026 12:48:12 GMT"
-    ],
-    [
-     "What Is Behind The Move In DexCom Stock? - Trefis",
-     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcTdNTGJNUC1jWWRQWXduQlpqM05uZVc2NWF0elc2NlZlTWFRQ1pmT0Z3X3dyVThmVEZWTm5CUHR1UThjTmxwQ3RtYklsbWhycmdHQmR3dmJhc0tQQ2xrYVZjeDNLdGhsT0ZDdGZwd1BaQVVNZW1yQ2twVU5faUctUXBwaW9uVGhVcDh3TU9KZy03VG1vYXpZMmZsSDVyQXNPQUE?oc=5",
-     "Trefis",
-     "Sat, 07 Nov 2026 11:59:10 GMT"
-    ],
-    [
-     "DexCom, Inc. (DXCM) stock price, news, quote and history - Yahoo Finance Singapore",
-     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QRXRPXzY5X0pGdVZUdHZCaEhjME9DV0hmVURjcGI2RlljUHo2WTBxQzVVTU1keVp1aXVtRXdiT0p0N3dMaXNFQ0djcUNOVXpNVFE?oc=5",
-     "Yahoo Finance Singapore",
-     "Wed, 11 Nov 2026 03:26:23 GMT"
-    ],
-    [
-     "Is It Time To Consider Buying DexCom, Inc. (NASDAQ:DXCM)? - Moomoo",
-     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZjJ6SElLckMyWnlHa1V0QUY0blI1QzdTVlFXYmxmVWtEVUZ5SF95WUozek5RU1poQkNXekRDVFhTVnNkdHEtQW1GVHdpTThXbFVXQXRtV0FaeXpDNGpVdTRCN3hCNFIwN2xHNldFMVFOZi14Uk1sQVY2WEEwWWsyQXoxQ0J6YTVJVTQyZk5mTjg1MHN2Y2N5a0oxdkw?oc=5",
-     "Moomoo",
-     "Fri, 06 Nov 2026 17:45:13 GMT"
-    ]
-   ]
-  },
-  {
    "t": "EAT",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 200.72999572753906,
-   "buy": 191.39400329589844,
-   "tgt": 202.8715849075926,
-   "stop": 166.21685965401787,
+   "c": 197.61000061035156,
+   "buy": 185.9130065917969,
+   "tgt": 201.11772347517893,
+   "stop": 161.11871904645648,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Brinker International, Inc.",
-   "drop": -8.94121143874791,
-   "rvol": 0.95867597976809,
+   "drop": -7.0770256713013175,
+   "rvol": 0.5816579341445612,
    "dd": {
     "ind": "Restaurants",
     "short": 0.1685,
@@ -191,44 +67,17 @@
      2,
      1
     ],
-    "moves": [
-     {
-      "firm": "Citigroup",
-      "action": "main",
-      "to": "Buy",
-      "pt": 277.0,
-      "prior": 270.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Morgan Stanley",
-      "action": "main",
-      "to": "Overweight",
-      "pt": 262.0,
-      "prior": 260.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Wells Fargo",
-      "action": "main",
-      "to": "Overweight",
-      "pt": 285.0,
-      "prior": 270.0,
-      "date": "2026-10-29"
-     },
-     {
-      "firm": "Keybanc",
-      "action": "main",
-      "to": "Overweight",
-      "pt": 258.0,
-      "prior": 250.0,
-      "date": "2026-10-29"
-     }
-    ],
-    "iv": 0.5584455776977539,
-    "imove": 7.035752949295501
+    "moves": [],
+    "iv": 0.5330857238769532,
+    "imove": 6.716248823129835
    },
    "news": [
+    [
+     "3 Insider Selling Stories; 3 Different Signals for Investors",
+     "https://www.insidertrades.com/education/3-insider-selling-stories-3-different-signals-for-investors/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 11 Nov 2026 13:10:00 +0000"
+    ],
     [
      "Here's How Much a $1000 Investment in Brinker International Made 10 Years Ago Would Be Worth Today",
      "https://finance.yahoo.com/markets/stocks/articles/heres-much-1000-investment-brinker-123001652.html?.tsrc=rss",
@@ -260,10 +109,10 @@
      "Fri, 30 Oct 2026 10:16:32 +0000"
     ],
     [
-     "Brinker International (EAT) Has Fresh News, But What Is The Bigger Question?",
-     "https://finance.yahoo.com/markets/stocks/articles/brinker-international-eat-fresh-news-081755538.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 30 Oct 2026 08:17:55 +0000"
+     "Brinker International Stock Price Forecast. Should You Buy EAT? - StockInvest.us",
+     "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4zek1hdTR1TUhHaU5BVkdJUGg4WHRBWUxGOE9sd0hZWmRkV0swd1ZlX2JNU3otN1N0bkRkR0xvaXZoYk1LczZz?oc=5",
+     "StockInvest.us",
+     "Tue, 10 Nov 2026 08:00:00 GMT"
     ],
     [
      "Brinker International, Inc. (EAT) Stock Forecasts - Yahoo Finance",
@@ -272,111 +121,223 @@
      "Wed, 11 Nov 2026 01:37:24 GMT"
     ],
     [
-     "Amazon Teams Up With Uber Eats, Sending DoorDash Stock Tumbling - Investor's Business Daily",
-     "https://news.google.com/rss/articles/CBMiigFBVV95cUxQak45N05SOHFyOEIwLTkxcUV5NXg2OHFSTmttaUVEM3pfWk0wanp1SWxhRjNqVHQwcTFsS2hEaGtMeElOQjFyTmZEazhWVTY4eTRPRU1NRDdzdnFzVUtFUWp0aTc3elhFZTdmUDhQbzBhQkZ0cnNlYm5QV3ljVnVyMFVRa01ibUhyTVE?oc=5",
-     "Investor's Business Daily",
-     "Thu, 05 Nov 2026 16:13:00 GMT"
-    ],
-    [
      "Brinker International Inc (EAT) Shares Fall 4.1% -- GF Value Says Still Overvalued - GuruFocus",
      "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSks0MHJuMlpoQnpMOEVqZC1ZWGhUdUVXZUxFUFQxaDRSRDJBYlYtc0xIbTZsUE5zbV8yTGxrTnp3cHN0eWVEbEFZaUx1RjN0cXM5bWJmZXh1RWZWZkxtSnd0RHJKU0E5ams5UFVSOWdzUFpXaVBIanRidWJSbVRjZ0lfVFhfSFphM1BIYW55Y2dISktOWEFRZ1g1cmpjeHhBckpjREZlNFFieUdEQWFSQmpRcTY?oc=5",
      "GuruFocus",
      "Tue, 10 Nov 2026 23:39:59 GMT"
     ],
     [
-     "Apple: Record Revenue Ahead, But Memory Costs Could Eat The Growth - Seeking Alpha",
-     "https://news.google.com/rss/articles/CBMipwFBVV95cUxPN3JpaXBrc0w2MVBlQ3I5cnBjY0RJUENhYWNOWlEyMTBOdjZIN01DWFdWNXFMeVRveldMdC1KaFBETHZXdHdKbjNOVFpGV3dFUUpUZUFUNC0zQW5fR0ZlWHhYeTU0aEtvQ2xfa2NtMXRESHJzZEQyV3ZOa3p5MWh2dFNjR0NaT3lmaXdTdi1hVU52ZUxNSnFEMEZPNjVSLTdpT1RUcEV1OA?oc=5",
-     "Seeking Alpha",
-     "Fri, 06 Nov 2026 01:05:00 GMT"
+     "Jensen Huang Is Out at Nvidia. I\u2019m a CPA \u2014 If the Stock Burned You, Make the IRS Eat Part of the Loss - Money Talks News",
+     "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVTFzY1cyRzFQVzhaZVJkZUd1OS1tcktyRG9IcVpWVGM4ZElVLWJqZzRnbnQxZUJuZ0gyMWxBdk5PMU5jcjR0RzN0VHhGVGdFQlFNZnIyQWdSRURZYnR3M3pkS0x6RzN4WVBuZG5LT1I1M3FfWGJCMmVJWHI3RUxlQmptZTZ0Tm8xckk2V3J3Yk5RRWtlQU50Vks4SF8zUk1ObUxUclloVWZkdE1HcFl5QTdaUGpFYzhMcnR0RWdBRVpjdDNzLVNZ?oc=5",
+     "Money Talks News",
+     "Thu, 12 Nov 2026 18:06:49 GMT"
     ]
    ]
   },
   {
-   "t": "TTEK",
+   "t": "GDDY",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 37.61000061035156,
-   "buy": 36.504001235961915,
-   "tgt": 39.497320406263135,
-   "stop": 33.86114409310477,
+   "c": 112.33000183105469,
+   "buy": 102.94199752807617,
+   "tgt": 113.34328034447856,
+   "stop": 92.323424748012,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
-   "name": "Tetra Tech, Inc.",
-   "drop": -8.133849848702612,
-   "rvol": 5.265335352402152,
+   "name": "GoDaddy Inc.",
+   "drop": -6.485182099073006,
+   "rvol": 0.49194135790442334,
    "dd": {
-    "ind": "Engineering & Construction",
-    "short": 0.059699997,
-    "dtc": 6.84,
+    "ind": "Software - Infrastructure",
+    "short": 0.0725,
+    "dtc": 3.81,
     "ratings": [
-     5,
-     3,
-     0
+     7,
+     10,
+     1
     ],
-    "moves": []
+    "moves": [
+     {
+      "firm": "Citigroup",
+      "action": "main",
+      "to": "Buy",
+      "pt": 135.0,
+      "prior": 105.0,
+      "date": "2026-11-02"
+     },
+     {
+      "firm": "UBS",
+      "action": "main",
+      "to": "Neutral",
+      "pt": 112.0,
+      "prior": 100.0,
+      "date": "2026-10-31"
+     },
+     {
+      "firm": "Evercore ISI Group",
+      "action": "main",
+      "to": "In-Line",
+      "pt": 105.0,
+      "prior": 85.0,
+      "date": "2026-10-30"
+     }
+    ],
+    "iv": 0.505056782414363,
+    "imove": 6.363117353499356
    },
    "news": [
     [
-     "Tetra: Fiscal Q4 Earnings Snapshot",
-     "https://finance.yahoo.com/markets/stocks/articles/tetra-fiscal-q4-earnings-snapshot-212458521.html?.tsrc=rss",
+     "Are Wall Street Analysts Bullish on GoDaddy Stock?",
+     "https://www.barchart.com/story/news/8781310/are-wall-street-analysts-bullish-on-godaddy-stock?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 11 Nov 2026 21:24:58 +0000"
+     "Wed, 11 Nov 2026 11:21:18 +0000"
     ],
     [
-     "Tetra Tech (TTEK) Tops Q4 Earnings and Revenue Estimates",
-     "https://finance.yahoo.com/markets/stocks/articles/tetra-tech-ttek-tops-q4-212002032.html?.tsrc=rss",
+     "How Rare Is GoDaddy's Record Profit Margin?",
+     "https://www.trefis.com/stock/gddy/articles/622987/how-rare-is-godaddys-record-profit-margin/2026-11-05?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 11 Nov 2026 21:20:02 +0000"
+     "Thu, 05 Nov 2026 12:06:32 +0000"
     ],
     [
-     "Tetra Tech Reports Strong Fourth Quarter and Fiscal Year 2026 Results",
-     "https://finance.yahoo.com/markets/stocks/articles/tetra-tech-reports-strong-fourth-210000266.html?.tsrc=rss",
+     "GoDaddy: 3 Key Takeaways for Long-Term Investors",
+     "https://www.fool.com/earnings/takeaways/2026/10/31/godaddy-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 11 Nov 2026 21:00:00 +0000"
+     "Sat, 31 Oct 2026 21:35:01 +0000"
     ],
     [
-     "Tetra Tech (TTEK) Stock May Be 11% Undervalued On Cash Flow",
-     "https://finance.yahoo.com/markets/stocks/articles/tetra-tech-ttek-stock-may-042935441.html?.tsrc=rss",
+     "GDDY Q3 deep dive: Airo adoption, margin expansion, and AI-driven transformation",
+     "https://finance.yahoo.com/technology/ai/articles/gddy-q3-deep-dive-airo-180329638.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Tue, 10 Nov 2026 04:29:35 +0000"
+     "Sat, 31 Oct 2026 18:03:29 +0000"
     ],
     [
-     "Tetra Tech (TTEK) Stock Could Be Cheap Based On Cash Flow",
-     "https://finance.yahoo.com/markets/stocks/articles/tetra-tech-ttek-stock-could-120735524.html?.tsrc=rss",
+     "What Does GoDaddy (GDDY) Securities Lawsuit Mean For Its Growth Story?",
+     "https://finance.yahoo.com/markets/stocks/articles/does-godaddy-gddy-securities-lawsuit-131032620.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Fri, 23 Oct 2026 12:07:35 +0000"
+     "Sat, 31 Oct 2026 13:10:32 +0000"
     ],
     [
-     "Tetra Tech Announces Planned Dates for\u00a0Fourth Quarter and Fiscal 2026 Results and Conference Call",
-     "https://finance.yahoo.com/markets/stocks/articles/tetra-tech-announces-planned-dates-200000678.html?.tsrc=rss",
+     "Is GoDaddy (GDDY) Expensive After Its Q3 Earnings Beat?",
+     "https://finance.yahoo.com/markets/stocks/articles/godaddy-gddy-expensive-q3-earnings-051001154.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
-     "Wed, 21 Oct 2026 20:00:00 +0000"
+     "Sat, 31 Oct 2026 05:10:01 +0000"
     ],
     [
-     "Tetra Tech (TTEK) Stock May Be 11% Undervalued On Cash Flow - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMilAFBVV95cUxQelJVZzVPcEx4RnhrdUtLRUd5bGNjWHBickZSWXVPaVRvaU4tbFNrUG1YaGM5NjNFOGk1ODBWOHl1VnVQUWIxdG0wR3JTSmFYc3IzcXRLd2hYbjlyUkZzVmhqVGY2S2JJLVNCTXFKUXR2cHNyWVBvclpNaG9DR1gwVENfUGlZVHB1VktockVfdGxfczZw?oc=5",
-     "Yahoo Finance",
-     "Tue, 10 Nov 2026 04:29:00 GMT"
+     "GDDY News | GODADDY INC - CLASS A (NYSE:GDDY) - ChartMill",
+     "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5eGdsclN6NGcwWGhTQTA2czd5UnBOUUlBZV91NG53eUFOcWswNklabWY5ekd1V3FpTlBGelg2OEd4ejFmN3JFeUZYTDRxVUpRY3JickstVHRZVHM?oc=5",
+     "ChartMill",
+     "Sat, 07 Nov 2026 01:04:00 GMT"
     ],
     [
-     "Why Tetra Tech (TTEK) Stock Is Down Today - Quiver Quantitative",
-     "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZlVQZ2pZck5RWjNmSWVKMWs0dnNkZll6Ul9XUHFjU194NTJYU0llWDBVTHlTWG5zQnQxeHV3MTg0ZHAyLWFaR21idklqeEplenZGaEppMVZHM2w1bE0yUXRtUXZyZGd2T190MzVxeEF0bjZIczNualV5S0V1YVhqOG1zTlE?oc=5",
-     "Quiver Quantitative",
-     "Wed, 11 Nov 2026 18:33:00 GMT"
+     "GDDY Nov 2026 119.000 put (GDDY261106P00119000) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+     "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BLWtNR2RDZnl5QlVGZGdJOEU2YnZWblUyZTdScjNRTTRqRWgwS3QtczZSMVZYOVV6ZTVCWExmYXVpY0lMSVVTd0pHOWxzY240WF8yaTdWd3FFaEJPMjJSbDZiclR0Zw?oc=5",
+     "Yahoo! Finance Canada",
+     "Sun, 08 Nov 2026 07:58:09 GMT"
     ],
     [
-     "Tetra Tech (TTEK) Q3 earnings report preview: what to look for - TradingView",
-     "https://news.google.com/rss/articles/CBMivAFBVV95cUxPXzZPNHh3d0I0WU52ZFROaW1kVERkTHcxMHdTLTNYc3NDdU0wVWNBZkc0VEhleDFfU25SNEpaaXZHYkR1UGVDQVdRdF9VbUZUSkIyWVBieVZlTUQ5Rldab0RBTzY2YzE1bkpQZXVuSWp4S0VKSy1lN1YwNWoyeXdIa2lRaG8tRkFVRUJhZ0VFamZibHk0YXVPeW1hakpYeDhuYi1zRFdOWmRJOGwtMzRMOW0yUXg3U0hDc1daMA?oc=5",
-     "TradingView",
-     "Tue, 10 Nov 2026 03:01:30 GMT"
+     "GoDaddy Inc. $GDDY Stock: Brighton Jones LLC Raises Stake - MarketBeat",
+     "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMXhlS25GWkJIeWJSM1d0T3N1TjExemdQYkUtcTNBMFdzNi1QMm5HUkE4ajhuc1NtODZHSGFzcTJDLXYwU1NMWWFoaTh2ZThIZ0hlZlBZLXZyS1ZxV0RieWhmLUdsakFHVjN4MWRWV0Nkd1VoU3N1eXdOY3JjbEZHa1RxcTI2MmVxNVQ5MEt5VXV4anljbGhQSXVnRHNZakE0ZjlzQVdXUlJvNExXWERWdkpPUEFwQQ?oc=5",
+     "MarketBeat",
+     "Tue, 10 Nov 2026 09:14:34 GMT"
     ],
     [
-     "Rigetti Computing, Tetra Tech And 3 Stocks To Watch Heading Into Wednesday - Benzinga",
-     "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZ2NETG9tOThISHduNW9JRXdJWXVKSHBhUFhURkJza0VZVl9qbU5TNzNQd2ktOV91dXRpbGhDa3RKM3ZJX0NmREZlczM0RXBzaVh4TEtoclJ0Ry1CMGkxVTA3OEZvM2VGeXpXLXAtVG8xNXZWWlZ3ajhKZXpRc1R4eHJRVEp6LThUelR3UEo5N1JlSjhmT21SREcwRnZneEZKeHJMZ3RzTFNuekN5bU9lSUlLQ19laVZJWGVvNmNhdUZzdDl1eEFHMFNUeFZUbnA1RXE2cw?oc=5",
-     "Benzinga",
-     "Wed, 11 Nov 2026 04:44:51 GMT"
+     "After selling 645 shares at $116.67, GoDaddy (GDDY) director Leah Sweet holds 13,044 shares directly. - Stock Titan",
+     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQnZSOW9UbExTYk1oQ3VOZUxkd3VPR3ROREtfd0VvM1RQamN1bXNnbVc0SENqejVEa0ljWW5PX3RNS1B4c3ZKMjhLUjNJMGhBZXVoVWYtZXpPWHotZS1ndjFfYkc5V3lHS0ZjVE9UMy1uREtHRXRiMEVNSEU1TkZWa3pDOF9ObEpJMFZxQThUZlI4aXVaWWJfNmdPc1NWblRleFRrYnBONzEyZw?oc=5",
+     "Stock Titan",
+     "Tue, 10 Nov 2026 23:33:00 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "ISRG",
+   "kind": "WATCH",
+   "rule": "watch",
+   "c": 439.8900146484375,
+   "buy": 407.5199890136719,
+   "tgt": 448.9337717164996,
+   "stop": 376.22141810825894,
+   "days": null,
+   "conf": null,
+   "s": null,
+   "ed": null,
+   "name": "Intuitive Surgical, Inc.",
+   "drop": -6.110726337526429,
+   "rvol": 0.6406063864177444,
+   "dd": {
+    "ind": "Medical Instruments & Supplies",
+    "short": 0.020499999,
+    "dtc": 3.06,
+    "ratings": [
+     26,
+     6,
+     2
+    ],
+    "moves": [],
+    "iv": 0.47578815676602454,
+    "imove": 5.994367331203402
+   },
+   "news": [
+    [
+     "Brokers Suggest Investing in Intuitive Surgical (ISRG): Read This Before Placing a Bet",
+     "https://finance.yahoo.com/markets/stocks/articles/brokers-suggest-investing-intuitive-surgical-133002636.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 12 Nov 2026 13:30:02 +0000"
+    ],
+    [
+     "Is Intuitive Surgical (ISRG) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+     "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-solid-growth-164502240.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 11 Nov 2026 16:45:02 +0000"
+    ],
+    [
+     "Intuitive Surgical (ISRG) Dropped, So What Is Driving Attention Now?",
+     "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-dropped-driving-091523790.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 11 Nov 2026 09:15:23 +0000"
+    ],
+    [
+     "Intuitive Surgical (ISRG) Stock Fair Value Edges Higher After Mixed Q3 Analyst Revisions",
+     "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-stock-fair-002322712.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 11 Nov 2026 00:23:22 +0000"
+    ],
+    [
+     "The Zacks Analyst Blog Highlights ASML, Alibaba, Intuitive Surgical, Paul Mueller and Presurance",
+     "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-asml-062800412.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 10 Nov 2026 06:28:00 +0000"
+    ],
+    [
+     "Top Research Reports for ASML, Alibaba & Intuitive Surgical",
+     "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-asml-alibaba-203300260.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 09 Nov 2026 20:33:00 +0000"
+    ],
+    [
+     "Can Intuitive Surgical Stock Hit $700? - Trefis",
+     "https://news.google.com/rss/articles/CBMingFBVV95cUxNb0xHeHE2cUExVEN3V3U2V3RIOHUwNVY0OXZMX3ptYm9pUzV2dnpScmkwWFVhdzZGQWFXOTMwTUtac3BkV2FxYy1ZOENtSElINFQ3UWkxRkxzZGxEd0pCY2hPZ1lBUWVSc3JRQTljZmFGTkQ5NnhsY0ltQVlpQy1kRy1Wb1c3TzNrSm5yVkl1dEU2NkxWZXFYaHVvQWg3Zw?oc=5",
+     "Trefis",
+     "Fri, 06 Nov 2026 10:21:17 GMT"
+    ],
+    [
+     "Intuitive Surgical (ISRG) Just Grew Revenue 22%. Why Is the Stock Still Down This Year? - The Motley Fool",
+     "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM0VjZkZMUjNBQ0J4cUNTQ3hnREhVcWVOa3lqdzF5NUx3a1Q4ZTB2cU4teHI3Q044Q3JhOG1pTmRWLWdkcHVNQ0hYNWV4eFlVMUNZYXI1aGkxVXRxdHZTZ3pHVDBjTzhzbXZxNzVBZXBfbU02emVhaXNyczZBR1ItS21sdTZ2a05rMmFEOVBDU2thbVhScDNpbw?oc=5",
+     "The Motley Fool",
+     "Mon, 09 Nov 2026 14:55:00 GMT"
+    ],
+    [
+     "Intuitive Surgical Inc (ISRG) Stock Down 3.4% -- Now Undervalued? GF Score: 96/100 - GuruFocus",
+     "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3N6YzA5cFhiUjdPSnN6cjQtXzVUUF9vTkFZSGR5MmxJYmNVTmZzcEtIS0xOdnV6LXFVUWRSZ2huWlhPQ3FfVzJkOXlMQXRjaFZmQUhlSG1TY2Q2QnpkQk9sblFiU1VNSUIya0J0dTZfUzRSVzBYZm1iMHNabllidExxZ25ka0F3eHNPZURPV05QR3RMWlZSYVlHU0Rkc09rc2hhMkE1WVpuVHV5N2JNNQ?oc=5",
+     "GuruFocus",
+     "Fri, 06 Nov 2026 22:40:40 GMT"
+    ],
+    [
+     "Intuitive Surgical Inc Stock (ISRG) Moved Down by 3.35% on Nov 10: Drivers Behind the Movement - TradingKey",
+     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUXdvN1pkV0dSakVkc2ZWekJ3WUVjUXJEZGV3TkpyWWl1dEViMW5GZl9EN1NJY2l4TVU3aEJoa00tWUtoMXRrSzBYY1MxQ3ZhOV9ZOWJPN2l5WDd0QUIwRGRiNm0xd0Uyd1l5S0FuUjBLbzF5RWd3bDNkWEh3RnVjWFB5WW9ZUENxbVRV?oc=5",
+     "TradingKey",
+     "Tue, 10 Nov 2026 16:15:27 GMT"
     ]
    ]
   },
@@ -384,17 +345,17 @@
    "t": "HRB",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 50.97999954223633,
-   "buy": 49.508998489379884,
-   "tgt": 51.65122700483704,
-   "stop": 45.61042693001883,
+   "c": 50.72999954223633,
+   "buy": 47.42099876403809,
+   "tgt": 51.34415118397014,
+   "stop": 43.46242692129953,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "H&R Block, Inc.",
-   "drop": -8.094468324603154,
-   "rvol": 0.9457263390585415,
+   "drop": -7.780401581327634,
+   "rvol": 0.8726694450537399,
    "dd": {
     "ind": "Personal Services",
     "short": 0.18879999,
@@ -414,8 +375,8 @@
       "date": "2026-11-10"
      }
     ],
-    "iv": 0.4738822143554688,
-    "imove": 5.970354713910347
+    "iv": 0.5205126074218751,
+    "imove": 6.557842445295593
    },
    "news": [
     [
@@ -455,28 +416,28 @@
      "Tue, 10 Nov 2026 13:00:00 +0000"
     ],
     [
+     "H&R Block (NYSE:HRB) exceeds Q3 CY2026 expectations - TradingView",
+     "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMC1SUk0yY093VXhteHI5czlPVGZxNUNJa1p4STlQdURLN05EY0wyd0ZNLUVHZjhzLWhmOGgxVFc1Y0xaY1NqQUg1QksxRjlmUkxlelhZamJwQUp3Wk4wOW1KTlFfVnN1QVNfTW9lWnh0cjBoMDhGT3Z3ekFrLTd4bVU2X01lZHBydEQ4Q0FHLXJNY1NjTm1OcW0tSnFkbDYyYVFzLWw0RE9TNm9EbWRv?oc=5",
+     "TradingView",
+     "Mon, 09 Nov 2026 21:27:56 GMT"
+    ],
+    [
      "H&R Block Inc. stock underperforms Monday when compared to competitors - MarketWatch",
      "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUjNnbllNNVJySEpVQ0c4dVkxWmdFei1fWEdZeWVhenBNUy00eDBvVEd6RU55by1Ob3YtbjB5eWRXUzliakFsT01tVnRENTM2X055XzlsRTc2ZTdNUW9IWml4dHpCZ2FNdW5JNE4zYVlRQTg2QjJkQVJ3ZTZKakV1SlNXWDFHVWM2RVVPN1VjeS01RmhITlI2VW9XMTl3V3RSbFZEc2JXTU8xTWRUa2pnRWtEOGVVQ3R3WjBOWnBVTHBZV2t4OHJvQg?oc=5",
      "MarketWatch",
      "Mon, 09 Nov 2026 22:25:00 GMT"
     ],
     [
-     "Is H&R Block Inc (HRB) a Bargain After 4.2% Drop? GF Value Says Undervalued - GuruFocus",
-     "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNzBlMmNfQ1ZQbGdkNlBPancyT2RCVnZpUjk4MXBJQ2VMeFJyVTRnZmFxNWhpbHBYX2gtb2VtNDNlQ1l0YnFnM1gtRTVjNktTd2xObGtHbG16Rm5vZHMzaXRFMngyX0hRZmdLNnhkcm1mcG5zRTB4MlU5SkpiU04ybTNGdTFmaU15RG9VTkM4SVVxbkh4OVVDSjlMbUZJZjlkZmE5bGswMFR2bnFL?oc=5",
-     "GuruFocus",
-     "Sat, 07 Nov 2026 02:14:34 GMT"
-    ],
-    [
-     "H&R Block (HRB) Stock Price, Chart & Analysis - www.debelegger.nl",
-     "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UR1NuUFpnSXNpQmVMR3h2V1dYb3pyVURDQTVqelJWNXk4NTFqa1BHdDFtd3BKYnQ2TDhNSE5WS3RuWW5BU2s2ZEY5aTB6Y1FrWERB?oc=5",
-     "www.debelegger.nl",
-     "Sat, 07 Nov 2026 21:19:16 GMT"
-    ],
-    [
      "H&R Block (HRB) Stock Rises on Q1 2027 Earnings - Quiver Quantitative",
      "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYlZMcXc2SW1LcC1VSXpZcWZ1aGhPVVpiMnhHTkl1a1VYSWFEeTMxN1RxaERhY0oxXy1nZHY3TTNJS2kyVkRtUVR3eTRXTjhSTDRvMlYzR2ZVUE9KbTV3Vk90eGF5N3owd1hjMDlBakRIOWdYTVlKcUlzSEpybmY0NnU5azR2cW11bXk3cGM5Zw?oc=5",
      "Quiver Quantitative",
      "Mon, 09 Nov 2026 21:44:00 GMT"
+    ],
+    [
+     "H&R Block (HRB) Prepares for Tax Season 2027 with Client-Focused Innovations - GuruFocus",
+     "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGh4ZVRab2hVUDd1WE1rVS1iXzFSQkdkM1ZsZjdNeENCaE1IUmRSSktsdjltMkUyNl9ERmxvaGlLcDlRYTZDQlh0cVh4S21BYnNkdHJCZ2pxX0dlUGtQZy1KNUY1eGZneE1XSjhEVTRBQUM3czlqdDJDS1JodGZmYUQ4YUVrUEVnekNpa1NxRzJlZGRvMHZUd3ROTkJ6d3RZSzI1NUZNdVRHcTQtZERULQ?oc=5",
+     "GuruFocus",
+     "Tue, 10 Nov 2026 07:04:42 GMT"
     ]
    ]
   },
@@ -484,17 +445,17 @@
    "t": "DBX",
    "kind": "WATCH",
    "rule": "watch",
-   "c": 33.15999984741211,
-   "buy": 32.18399848937988,
-   "tgt": 33.587403651532085,
-   "stop": 29.729999106270924,
+   "c": 33.5099983215332,
+   "buy": 31.1939998626709,
+   "tgt": 33.561601874865794,
+   "stop": 28.68928625924247,
    "days": null,
    "conf": null,
    "s": null,
    "ed": null,
    "name": "Dropbox, Inc.",
-   "drop": -8.144040861432645,
-   "rvol": 1.3548877005347593,
+   "drop": -6.291946604049869,
+   "rvol": 0.9184654418682434,
    "dd": {
     "ind": "Software - Infrastructure",
     "short": 0.29209998,
@@ -538,8 +499,8 @@
       "date": "2026-11-03"
      }
     ],
-    "iv": 0.6235389208984375,
-    "imove": 7.85585198793734
+    "iv": 0.607621111328125,
+    "imove": 7.655306437747192
    },
    "news": [
     [
@@ -579,28 +540,28 @@
      "Fri, 06 Nov 2026 16:13:23 +0000"
     ],
     [
-     "DBX: Dropbox Inc Latest Stock Price, Analysis, News and Trading Ideas - Stocktwits",
-     "https://news.google.com/rss/articles/CBMiSEFVX3lxTE82bjUtZmdqX1B5Mjk1V1FrTHdfamwwdkdfNkhnSUxGTzJudVFLcU1reEhJMlhvTldwQ2FqcGxvYVd4LWNGQXp0RA?oc=5",
-     "Stocktwits",
-     "Sun, 08 Nov 2026 17:30:07 GMT"
+     "Dropbox, Inc. (DBX) stock price, news, quote and history - Yahoo Finance Singapore",
+     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE12SlJwRUR6X3U5REtuRUo3QUJWRzFKR3RmQkNjT3FfUUdLX2ZoR295U2RRdmJxd3pkbEh6MVEyTVd3SFN0ZlVoOFFnb0szV05S?oc=5",
+     "Yahoo Finance Singapore",
+     "Thu, 12 Nov 2026 10:12:13 GMT"
     ],
     [
-     "Dropbox in focus as it reports Q3 results (DBX:NASDAQ) - Seeking Alpha",
-     "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc3o2SWtyMHhyLWNSRU5hVUZjS2dSR1hIek5YXzN2UVB4aE9ZbzVQODJ1bk5DZnZoYjdSWlR6bHhvc09RandKTFdoNVduSmZiaWxCaUpXbGtGSGFsMmdTN2dmcGwySmkyU1U1dWhxUUQxaFRBbWdXX09KQ182N1F2THlDZUxVZw?oc=5",
+     "Dropbox stock falls after pricing $1.1B convertible notes - Investing.com",
+     "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb2pSc1hxN1NURlNZc2pfWnNQak5RS0M4LXlZTjRIMG1mTFFRQVk2bHpKNnFmeV9fM21NMDFRbG1QVTBhRHJyeHB5R25DSUxpZGp3UDF5SmFtSVM2OEdteU1rMmIwT1NDYmpqbVAyZE1IX0ZqdmM5SUpFeG5zeDl3MDdRbWFBeFFTVFNkMl85RHRuQVVzMHRxWW92dnRfbWt0RWgzUlZCRVhoazhKY0lkdkZB?oc=5",
+     "Investing.com",
+     "Tue, 10 Nov 2026 14:16:37 GMT"
+    ],
+    [
+     "Is Dropbox Inc (DBX) a Bargain After 3.1% Drop? GF Value Says Un - GuruFocus",
+     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN283RnVHNS10TnRqZFV3bVM1UVFYeUc4Y05Wel9yZ3Y3VWNxZUsxUjFnUm14RmNPQk5wcUZCRExYWjJncTVYam9rMlVkaWN4OVI1Tjlzb0VEX0pkU0pSMF8xamlySnM1SU9oYW5jRnlxeVZnQmp1SEJ5eUxWNVFnN1dsUWFNRHRNb3R3UkRIZmZ6dTVSeWtiblBiRmZXTlFYeW9QbTJhNzhwWHM?oc=5",
+     "GuruFocus",
+     "Sat, 07 Nov 2026 01:38:30 GMT"
+    ],
+    [
+     "Dropbox, Inc. 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:DBX) 2026-11-06 - Seeking Alpha",
+     "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMTdrUU96b29VR0NfbUxjSGxqZ01OWmtSV2ktWXJuUHlEa1FVeVFMVTF3MVFhYUhRYzNvRDZXTEhuMjNDQUhSUVhJY25xY1NWR0hDR3hFTkxnQjFSTlJwNTVPN3pIdHNvdFlvUXdKLUxPblMwYll6SDB4RFlIb2tQWnowazdDakdQOFZuWWZxTF9sYXVYRGItRWoybw?oc=5",
      "Seeking Alpha",
-     "Thu, 05 Nov 2026 21:10:22 GMT"
-    ],
-    [
-     "Dropbox (NASDAQ:DBX) exceeds Q3 2026 expectations - TradingView",
-     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaEo3Z1VxY2FHSmpaVTdYVUp3SWVtazREdlhUSjQ4SUphS1U5b2RCTFlfOEgtVGZCSEFDcVdSSGpsX1RUa011ckt1YlVzZzdQQ091WDZlYV9Jam0wa2FjbDRQR1NzZ1g4S1JZUFcwS3dQUllFNC15eWlyRmhhWTJidXVTc2h0YU9xcWxoTXo3S0xiQW02c3lZclVpYVRTMzZYWVNQajctT2xIcHV4?oc=5",
-     "TradingView",
-     "Thu, 05 Nov 2026 21:47:02 GMT"
-    ],
-    [
-     "Dropbox (DBX) Q3 Earnings and Revenues Top Estimates - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMingFBVV95cUxNNmJVVUtwWDFhTjZlSmtseXVuQkhFSzN3T1J1Ym1TX1MwVks1dE9XZ1ZsNFNKT2diZm5neEt5MkQwSW5QOF9wUVluY0JERGZBbktQdWg2Nl83QkQ4WEdla0pNdERmeVZ2RFItUFRpelVadGpoVXFaZlNlclJOWklDNXRibmdCWDJQdnBtWjQzWXFFTXJIblQzU1BLTG1fZw?oc=5",
-     "Yahoo Finance",
-     "Fri, 06 Nov 2026 00:00:00 GMT"
+     "Fri, 06 Nov 2026 08:03:12 GMT"
     ]
    ]
   }
@@ -608,242 +569,235 @@
  "macro": [
   [
    "S&P fut",
-   7614.0,
-   -0.34683594
+   7621.5,
+   0.08207216
   ],
   [
    "Nasdaq fut",
-   28215.0,
-   -0.90699166
+   28392.75,
+   0.029065158
   ],
   [
    "VIX",
-   17.49,
-   -10.123327
+   18.7,
+   6.918245
   ],
   [
    "US 10Y",
-   4.998,
-   0.30103037
+   5.1029997,
+   2.100831
   ],
   [
    "Brent",
-   91.26,
-   -1.6170763
+   95.56,
+   -0.27134433
   ],
   [
    "Gold",
-   3980.2,
-   -0.50743777
+   3913.7,
+   0.73095775
   ],
   [
    "Bitcoin",
-   73546.57,
-   -0.38128075
+   68464.09,
+   -6.8439193
   ],
   [
    "Dollar",
-   102.977,
-   0.06704977
+   103.164,
+   -0.008718421
   ]
  ],
  "sectors": [
   [
-   3.467987253619298,
-   "Comms",
-   -2.0032496181344173
-  ],
-  [
-   0.8910624613544194,
-   "Industrials",
-   2.3527347297233048
-  ],
-  [
-   0.5334448807210901,
+   12.060839942589642,
    "Semis",
-   -10.231256822332945
+   -10.21938535621587
   ],
   [
-   0.4815388248878172,
-   "Utilities",
-   5.0335532422731255
-  ],
-  [
-   -0.23614849621835798,
-   "Energy",
-   -6.29897751669346
-  ],
-  [
-   -0.37435764007054395,
-   "Health",
-   8.616917484391017
-  ],
-  [
-   -0.5329622364066644,
-   "Staples",
-   6.263071743615467
-  ],
-  [
-   -0.9628373099296539,
-   "Financials",
-   7.538519031260016
-  ],
-  [
-   -1.0954009214646954,
-   "Discretionary",
-   8.511208846430062
-  ],
-  [
-   -1.1746427124189163,
-   "Real estate",
-   7.471675942905498
-  ],
-  [
-   -1.2124642434268806,
+   7.0144100549008215,
    "Tech",
-   -8.438792566037556
+   -8.150535424682925
   ],
   [
-   -1.2842740759120397,
+   4.380984449367986,
+   "Energy",
+   -3.3503542808515974
+  ],
+  [
+   4.290023492543038,
+   "Industrials",
+   0.9232253602911022
+  ],
+  [
+   3.086066066434956,
+   "Comms",
+   -4.340096742131894
+  ],
+  [
+   2.4643922425680476,
    "Software",
-   -5.034833341495448
+   -7.43613288261431
   ],
   [
-   -1.632654996665861,
+   2.3971435816518394,
+   "Discretionary",
+   6.216378797912614
+  ],
+  [
+   1.5791455903495066,
+   "Health",
+   6.004853119840603
+  ],
+  [
+   1.2347810164741846,
+   "Financials",
+   5.319338886120839
+  ],
+  [
+   1.1778340536180876,
+   "Utilities",
+   5.1860738734187395
+  ],
+  [
+   0.13544328289925023,
+   "Real estate",
+   5.644198230885378
+  ],
+  [
+   0.019106289285986122,
    "Materials",
-   6.7445186477032015
+   3.5205671102635394
+  ],
+  [
+   -0.2082218535958913,
+   "Staples",
+   5.053065572216475
   ]
  ],
  "news": [
   [
-   "Nvidia board meeting to decide CEO Jensen Huang\u2019s fate stretches into evening",
-   "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+   "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
+   "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
    "CNBC",
-   "Thu, 12 Nov 2026 03:46:56 GMT"
+   "Thu, 12 Nov 2026 22:47:28 GMT"
   ],
   [
-   "What we know so far about Nvidia partner Megaspeed\u2019s Asia footprint",
-   "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html",
+   "As Nvidia reels from Huang's affairs, who stands to gain?",
+   "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
    "CNBC",
-   "Thu, 12 Nov 2026 03:02:03 GMT"
+   "Fri, 13 Nov 2026 03:59:40 GMT"
   ],
   [
-   "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
-   "https://www.cnbc.com/2026/11/12/elon-musk-jensen-huang-nvidia-tesla.html",
+   "Widespread Microsoft outage takes down Outlook and other 365 services",
+   "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
    "CNBC",
-   "Thu, 12 Nov 2026 03:25:05 GMT"
+   "Thu, 12 Nov 2026 22:24:12 GMT"
   ],
   [
-   "The world's super-rich are piling into alternative investments. Here's why",
-   "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
+   "IRS announces 2027 401(k) contribution limits, raises savings cap: What it means for your money",
+   "https://www.cnbc.com/2026/11/12/401k-contribution-limits-2027.html",
    "CNBC",
-   "Thu, 12 Nov 2026 03:36:44 GMT"
+   "Thu, 12 Nov 2026 17:23:14 GMT"
   ],
   [
-   "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
-   "https://www.cnbc.com/investingclub/2026/11/11/jim-cramer-jensen-huang-nvidia-stock-advice.html",
+   "Trump says \u2018we don\u2019t need a deal with Iran\u2019",
+   "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
    "CNBC",
-   "Thu, 12 Nov 2026 01:14:21 GMT"
+   "Thu, 12 Nov 2026 20:34:31 GMT"
   ],
   [
-   "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
-   "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+   "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+   "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
    "CNBC",
-   "Wed, 11 Nov 2026 22:46:29 GMT"
+   "Fri, 13 Nov 2026 02:43:26 GMT"
   ],
   [
-   "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
-   "https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html",
+   "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+   "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
    "CNBC",
-   "Wed, 11 Nov 2026 23:31:37 GMT"
+   "Fri, 13 Nov 2026 04:07:44 GMT"
   ],
   [
-   "Feds arrest top official of healthcare company, alleging illegal drug importation",
-   "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
+   "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
+   "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
    "CNBC",
-   "Wed, 11 Nov 2026 22:58:11 GMT"
-  ],
-  [
-   "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
-   "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Thu, 12 Nov 2026 04:41:00 GMT"
+   "Thu, 12 Nov 2026 19:42:41 GMT"
   ],
   [
    "\u2018The thought of living to 100 terrifies me\u2019: Is Social Security a giant Ponzi scheme?",
    "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
    "MarketWatch",
-   "Thu, 12 Nov 2026 03:15:00 GMT"
+   "Fri, 13 Nov 2026 04:46:00 GMT"
   ],
   [
-   "Here\u2019s how Bernie Sanders wants to keep Social Security solvent \u2018for generations\u2019",
-   "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+   "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
+   "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
    "MarketWatch",
-   "Thu, 12 Nov 2026 03:10:00 GMT"
+   "Thu, 12 Nov 2026 22:57:00 GMT"
   ],
   [
-   "Nvidia\u2019s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
-   "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
+   "Opening trading-card packs has become a $2 billion market",
+   "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
    "MarketWatch",
-   "Thu, 12 Nov 2026 02:52:00 GMT"
+   "Thu, 12 Nov 2026 22:38:00 GMT"
   ],
   [
-   "\u2018I\u2019m sick of flying\u2019: I paid for priority boarding, but the overhead bins were full. Was I duped?",
-   "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
+   "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
+   "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
    "MarketWatch",
-   "Thu, 12 Nov 2026 02:45:00 GMT"
+   "Thu, 12 Nov 2026 22:16:00 GMT"
   ],
   [
-   "I\u2019m 63 and spending $95,000 on a roof deck for my $500,000 home. Am I being extravagant?",
-   "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
+   "\u2018He calls my plans a fantasy\u2019: My husband says we can\u2019t afford our $200,000-a-year dream retirement. I think he\u2019s cheap.",
+   "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
    "MarketWatch",
-   "Thu, 12 Nov 2026 02:31:00 GMT"
+   "Thu, 12 Nov 2026 22:00:00 GMT"
   ],
   [
-   "After US market shake-out, signs suggest too soon to say worst is over - Reuters",
-   "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdDNPMm44clZfWEJ5a0o3NTNEYVl5Y0ZuOHJTbnUyc2dDRjVITnk0akVVQnJiWWFIZnVGek5WTTBWN0JLTEV6YmhNS2tmV0NrWkc3aFNKWDZCdjVyNjRxd3JKSjVZcGtXM29kWEJlMGVvS3JYeTV6aU5tLXk2RUNEUEhpOHkzRlBURUpvbWd2NXllQXllZzVDOHkydnpZU0E2UWNZRDhUYXVIbGFVNzR2cWo3eE5PaTZscnNB?oc=5",
-   "Reuters",
-   "Wed, 11 Nov 2026 17:04:12 GMT"
+   "Am I overpaying for health insurance? How to answer the key question this open-enrollment season.",
+   "https://www.marketwatch.com/story/am-i-overpaying-for-health-insurance-how-to-answer-the-key-question-this-open-enrollment-season-2d00ed55?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Thu, 12 Nov 2026 21:55:00 GMT"
   ],
   [
-   "Stock Market Today: Major Indexes Pare Earlier Gains But Finish Trading Day Solidly Higher - Investor's Business Daily",
-   "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc0NzMVRVZjloM3pod2ZMMzE2UnBBTjF3ZjZET0t1ektJb1VycmxDdFJqbjNISzU4bXc0ZmxJY21pcDdldzFTRkhBSFZCWlVZTDlGOWYxaUV3NTRYcXlJZEowdzAtb3U1c1QzRUNMNXdKa2tBYlltMkxSMng5VU9JWlpYWWpaUmhqZGl3SFVZNm9xbmRPVkh1Qi1CZGRmSEREVF9yVGxsZGZhU3l2YnNkRWZEanpUVzM3ZVBSWkpGcDU?oc=5",
-   "Investor's Business Daily",
-   "Wed, 11 Nov 2026 21:22:00 GMT"
+   "Your House vs. the Stock Market: Which Has Been a Better Investment? - WSJ",
+   "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUDhuREROVnFDbm1TeWMwbG8wT3V2SVNCcU5MZEFNZ3BKWTFZcUt4ei1kcXFSa0tUc3psNExPTzRISEFzXy00NlRWeUo1ZzNyYXF0V0JPSGk1cGhXY2wxMGhEaE5RQy1YZkQ5T29YSWhSZjVXUjZmZlF2bF9JaVFkamlibmQ?oc=5",
+   "WSJ",
+   "Fri, 13 Nov 2026 04:00:08 GMT"
   ],
   [
-   "Stock Market Today: Nvidia Stock Slides 8% After Hours as Board Weighs Jensen Huang\u2019s Future - Eurasia Business News",
-   "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTEdzSDBUcDRkbjFSR2RCYVNiR2c1NUUwRnNibUxEOGhNOVdPVkltT2VzcVhzeVFuZFAzZndUWE5RYzdQdXg5N1VCdXdDRDJBMWhJRlAtWXg3NTNteFB5YnpLa2ZuWDJ5ODRFR2h1SWI1UUlkVDZvVE4tSE9SYzVxVEZuZ2ZiaUV3b2VxQmpfVXptRWpKWktOV0hFMDBjc2lEMjVJbzMyQk8zT1AyR3lsVDVLTUhhcE1hRE1JMlZKYkNTZVZaeDJ4TXYyU3REdw?oc=5",
+   "Early signs of stock market instability may appear in how traders place orders - Phys.org",
+   "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiSTFHVEo0bmZ1cmhnR1JTOGNVSVVsdk55azJXVHZkWGhSLUFEckJRb20zUk5iTkFkTVphS09vRHZhZ19NdHFlYnFPbi1oMzE3aUd0YXgwNE9XUEMyYlh3ZFM5c3djMjd3NXlNWDRteHE2R0Ux?oc=5",
+   "Phys.org",
+   "Fri, 13 Nov 2026 01:00:01 GMT"
+  ],
+  [
+   "The Stock Market Is Surviving Nvidia\u2019s Drop. Now Comes the Hard Part. - Barron's",
+   "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR24xVXdIX1BsTUE0UGtwdkJwZS1WcmE0VUxyVWR3MXBDblFxcTk0TzRqcEFSVTRJbl9WVEh2bGRDN1NiT0dVc3otWUdNSWFKRXl0Mkg1dDZfVHZnMmctZ1ppM1h0VG1rQkJLVEs2WGVVdjF2Q3F2QlBtckxQNUUxV0wtemFnNWdUZ2dEZVExLUg2d0lobEE?oc=5",
+   "Barron's",
+   "Thu, 12 Nov 2026 22:53:00 GMT"
+  ],
+  [
+   "Stock Market Today, November 12, 2026: Dow, S&P 500 and Nasdaq Fall After Jensen Huang Resigns - Eurasia Business News",
+   "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOUZ4dk5ZRTJ4TGJBWUdaUHltUWNhWE9IdjYwMi1lQU5pU0w4c2F4aEhsVXI1M2RIUUNiT25hbkpYRk1YRnlqQTZ3OEJHQ0UweTZiaU5vcnBqWWZiajJXcV84Sl85U0k5NWpWbXpKTTVRRnF3NGJ0UGlSSGhNYUZ0T2JRR00ycWIzTmEyVEFnQjFMTmJkb0NoSDUzd2lIOTZIQjh2ek1JMU1UNi1mTTFmQktvdGw3QTRlSGQ2X2dIdWpNVVBBRk9QXzhmS2ZUQQ?oc=5",
    "Eurasia Business News",
-   "Thu, 12 Nov 2026 00:33:16 GMT"
+   "Thu, 12 Nov 2026 23:34:26 GMT"
   ],
   [
-   "Is today a federal holiday? What's open, closed on Veterans Day 2026? - Bergen Record",
-   "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRUpkNGxBNmR4UFpoaXNfWl9tcjhMQ05UT2pSQmFSWUxzbnE0THA0d2F3ODI0VHIyeW94YWNWZUd0MmduU2cycm5oTUVWTzZFalhCRFVLVklLNFVtZFpFMGpBUHFxajRUQU5peWpRMVRQY1o4b1QySWdpZU9Lc0lIa1I1TVZHcG8tOURYZWk4WFd4THYtWEdSVjhIenJtRjZ2TmkwTU5uU3F0N0Y5TzdfUnJNT1VIMWlMRkMyYmRoRE1GRzZIcFZYSw?oc=5",
-   "Bergen Record",
-   "Wed, 11 Nov 2026 21:45:00 GMT"
-  ],
-  [
-   "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate - Reuters",
-   "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1ODl5LXpyQ0RZanVjSnZGS1NjS1ljMjZvdW9xY3ZSSUxvNkY2Z3dCMThiSjdKNHI1TFRCZnBIRHdYY0UxTGh0QjRZX3Y2S25sY0k4M0dKN3VZdGNMSGk5N0tPUmVJa3ozWXRCcmluOWxVVjVfblRLdmttMA?oc=5",
+   "AI stocks pare losses as investors assess fallout of Nvidia CEO's exit - Reuters",
+   "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTDc4NU9Ycko1b01GTVdRT1lMVzJWaEhrLS1OSU92el9GTTRMSEhyTW5VbThOZEhoVGNCbHNBU19EZS1UUlNiTW0wVU41RUdBVkJpQlNRazBvaHJFQ2VnT2FJU183NE9ub1RKQU5wMFp6N1luX3lrMFZubFVIaHJ0TWhZRVkyUzhJVjBsaDRlMEpKNUFLeWtITVhLRVhqOERFMzh0azNJeVlqVzI0ZUowcnV4Z3VYMUdXcFY0?oc=5",
    "Reuters",
-   "Thu, 12 Nov 2026 01:53:00 GMT"
+   "Thu, 12 Nov 2026 20:57:12 GMT"
   ],
   [
-   "Tech Futures Fall; Nvidia Dives, Mulls Ousting CEO Huang - Investor's Business Daily",
-   "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcUpoYWFMS1RDQXdNTV9hZ1pqaEhfbURMRzJmTjFnTmh4NjVzbnlOWG1YbVEtZGV4Sld1TElyTXFxR0pjekk5MFUzLUNfc3JPNkY5TnlsVFFFQlN6RUw4dnNRTGw2YVN3MDIzdHRDLXNvaHFCVko5UDVWTE0teDV1SHRHOWhDU1Rlc3VITHB1S0dfWDVKQlJwaUc2TGhsSUJPTnNfdFhwOWlrMWdmNXpSMlVwUldULXRINEE?oc=5",
+   "Dow Futures Rise After Resilient Session; AMD, Arista Are Buys - Investor's Business Daily",
+   "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHdBUXNwWlkwRldKTGNVWW9NWkFaSzVQaEx4RTRQYUNiVnQ2bGVPMGc0cmM4OVRGTUlmdG4yTlRXWm1QRTh1TE9lRTdLYmVsSGxaanBjUzZLOG9uQ1RNaWRodms3Zk9DTHJTVDdXV2l2aTFicWxDeXhxYXVCcFktd2VQRThkVUFkejFJUzJGb2EwazRCSVVQMFh2c3d0ZTNxeVplUVlsUHBVMm9xTlU5bVFHblVWa2ttR0RHSUN3c2ZVX1RsVlN2SkMyQTZsVlItaGZsWQ?oc=5",
    "Investor's Business Daily",
-   "Thu, 12 Nov 2026 04:08:00 GMT"
+   "Fri, 13 Nov 2026 04:05:00 GMT"
   ]
  ],
  "cal": [
-  [
-   "2026-11-12 08:30:00-05:00",
-   "Unemployment Claims",
-   "Medium",
-   "194K",
-   "189K"
-  ],
   [
    "2026-11-13 08:30:00-05:00",
    "Core PPI m/m",
