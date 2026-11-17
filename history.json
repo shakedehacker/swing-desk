@@ -326,5 +326,55 @@
   "stop": 45.72,
   "conf": 6.3,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-16",
+  "t": "RVTY",
+  "tier": "solid",
+  "buy": 149.57,
+  "tgt": 154.06,
+  "stop": 132.08,
+  "conf": 7.6,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-16",
+  "t": "BIO",
+  "tier": "solid",
+  "buy": 359.25,
+  "tgt": 370.03,
+  "stop": 332.18,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-16",
+  "t": "FBIN",
+  "tier": "solid",
+  "buy": 46.75,
+  "tgt": 48.16,
+  "stop": 42.16,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-16",
+  "t": "GPN",
+  "tier": "solid",
+  "buy": 90.01,
+  "tgt": 92.71,
+  "stop": 79.26,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-16",
+  "t": "JHX",
+  "tier": "solid",
+  "buy": 27.02,
+  "tgt": 27.83,
+  "stop": 24.46,
+  "conf": 6.2,
+  "verdict": null
  }
 ]
