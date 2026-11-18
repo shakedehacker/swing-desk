@@ -376,5 +376,55 @@
   "stop": 24.46,
   "conf": 6.2,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-17",
+  "t": "ACN",
+  "tier": "solid",
+  "buy": 240.11,
+  "tgt": 247.31,
+  "stop": 221.05,
+  "conf": 7.6,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-17",
+  "t": "RVTY",
+  "tier": "solid",
+  "buy": 147.54,
+  "tgt": 151.97,
+  "stop": 130.42,
+  "conf": 7.6,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-17",
+  "t": "CCL",
+  "tier": "solid",
+  "buy": 28.23,
+  "tgt": 29.07,
+  "stop": 25.81,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-17",
+  "t": "DAL",
+  "tier": "solid",
+  "buy": 83.91,
+  "tgt": 86.42,
+  "stop": 77.41,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-17",
+  "t": "EL",
+  "tier": "solid",
+  "buy": 105.34,
+  "tgt": 108.5,
+  "stop": 95.49,
+  "conf": 6.2,
+  "verdict": null
  }
 ]

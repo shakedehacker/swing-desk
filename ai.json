@@ -1,175 +1,165 @@
 {
- "asof": "2026-11-16",
+ "asof": "2026-11-17",
  "model": "Claude",
- "generated_utc": "2026-11-17T05:30:00Z",
+ "generated_utc": "2026-11-18T05:36:01Z",
  "note": {
-  "mood": "risk-off",
+  "mood": "mixed",
   "bullets": [
-   "Nvidia reports after the close (first since Jensen Huang's CEO exit) and Anthropic IPO lands; new US chip-export curbs on China pressure AI/semis names.",
-   "Asia stocks fell a 4th straight day (Nikkei -1.3%, KOSPI -2%), Europe futures down; US futures only modestly higher overnight.",
-   "Oil slipped ~0.8-0.9% even as a third US carrier group arrives near Hormuz amid Iran tension; 10Y yield steady near 5.12%, VIX up to ~23.",
-   "Retail sales print at 8:30am ET and FOMC minutes Wed; sector split continues: Semis/Tech/Software deep red, Staples/Utilities/Health green."
+   "US futures and Asian shares rose Nov 18 after Nvidia's strong forecast eased AI-trade jitters; S&P futures +0.8%, Nasdaq futures +1.4%.",
+   "European stocks had their worst session since March on Nov 17: Stoxx 600 -1.8%, DAX -2.1%, FTSE -1.8%, signaling lingering risk-off.",
+   "WTI crude fell near $83.78 (-1%) on supply-surplus expectations, even with continued Middle East energy-infrastructure attacks.",
+   "10-year Treasury yield near 5.11% with hawkish Fed commentary (Musalem flagged possible further hikes), keeping rate pressure elevated."
   ]
  },
  "picks": {
-  "RVTY": {
+  "ACN": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "Q3 beat and guidance was raised; TD Cowen upgraded to Buy, JPM raised PT twice. Drop tracks an AI-fear-driven selloff across life-science-tools/diagnostics names that Barclays calls overdone, not company damage.",
-   "sentiment": 0.2,
-   "sent_conf": 0.5,
-   "bull": "Earnings beat, raised guidance, and rising price targets suggest the sector selloff is an overreaction.",
-   "bear": "Stock trades at ~66x P/E vs 36x historical median, and insiders have only sold, not bought.",
+   "why": "Drop tied to AI-driven pricing pressure hitting IT-services peers broadly (Deloitte, Capgemini, TCS also cited), not an ACN-only issue. No analyst downgrade in dd.moves, rvol normal.",
+   "sentiment": -0.35,
+   "sent_conf": 0.45,
+   "bull": "Revenue per person rose and 400+ clients started AI work this year despite pricing noise.",
+   "bear": "AI is structurally deflating consulting pricing and deal sizes across the sector, pressuring margins.",
    "catalysts": "none found",
-   "flags": ["valuation/profit-taking", "insider selling"],
+   "flags": ["ai_pricing_pressure", "sector_wide"],
    "sources": [
-    {"title": "Revvity (NYSE:RVTY) Price Target Raised to $165.00", "url": "https://www.marketbeat.com/instant-alerts/analyst-revvity-nyse-rvty-price-target-raised-to-16500-2026-11-16/"},
-    {"title": "What's behind Revvity's latest share pullback?", "url": "https://tradersunion.com/news/stocks/show/4269803-revvity-slides-3-36percent-today-to/"},
-    {"title": "Barclays says AI related selloff in life science tool stocks overdone", "url": "https://m.investing.com/news/stock-market-news/barclays-says-ai-related-selloff-in-life-science-tool-stocks-overdone-4547319?ampMode=1"}
+    {"title": "Accenture (ACN) Stock May Trade At A Discount On Fresh AI Outsourcing News", "url": "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-stock-may-trade-020729980.html"},
+    {"title": "Accenture PLC Stock (ACN) Closed Down by 3.40% on Nov 17: A Full Analysis", "url": "https://www.tradingkey.com/news/market-movers/262309745-market-movers-acn-20261117"}
+   ]
+  },
+  "RVTY": {
+   "verdict": "CAUTION",
+   "cause": "unclear",
+   "why": "Fell despite a Q3 beat and raised FY guidance (revenue $2.86B, EPS ~$5.43); drivers cited are valuation (66x P/E vs 36x 5yr median) and technical weakness, not business damage.",
+   "sentiment": -0.3,
+   "sent_conf": 0.6,
+   "bull": "Fundamentals beat and guidance was raised; pullback looks like valuation/technical, not business damage.",
+   "bear": "Stock broke below its 50-day moving average and trades at a rich premium to fair value.",
+   "catalysts": "none found",
+   "flags": ["valuation_reset", "no_company_damage_found"],
+   "sources": [
+    {"title": "Revvity (NYSE:RVTY) Share Price Breaks Below Fifty Day Moving Average", "url": "https://www.marketbeat.com/instant-alerts/price-revvity-nyse-rvty-share-price-breaks-below-fifty-day-moving-average-should-you-sell-2026-11-17/"},
+    {"title": "What's behind Revvity's latest share pullback?", "url": "https://tradersunion.com/news/stocks/show/4269803-revvity-slides-3-36percent-today-to/"}
+   ]
+  },
+  "CCL": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Decline tracks a broader cruise/travel pullback on fuel-cost and balance-sheet caution; peer Viking got a double upgrade this week ('worst could be over'), suggesting sector-wide, not CCL-specific, damage.",
+   "sentiment": -0.05,
+   "sent_conf": 0.4,
+   "bull": "Peer Viking's double upgrade suggests the cruise-sector selloff may be overdone and reversing.",
+   "bear": "Rising fuel costs and balance-sheet/financing caution remain live concerns across cruise names.",
+   "catalysts": "none found",
+   "flags": ["sector_pullback", "fuel_cost_concern"],
+   "sources": [
+    {"title": "Why Carnival Corporation (CCL) Stock Is Down Today", "url": "https://www.quiverquant.com/news/Why+Carnival+Corporation+(CCL)+Stock+Is+Down+Today&gsessionid=SxSArR6_2M5rgFVV_33xf2VNlKsE82FVGh1bMho_TkA9dsG1P4Mdrw"},
+    {"title": "Carnival (CCL) Stock Falls Amid Market Uptick: What Investors Need to Know", "url": "https://finance.yahoo.com/markets/stocks/articles/carnival-ccl-stock-falls-amid-214502499.html"}
+   ]
+  },
+  "DAL": {
+   "verdict": "CAUTION",
+   "cause": "sector",
+   "why": "Nov 13 FAA ground stop hit all major US airlines (~$345M industry pretax cost estimate), a regulatory/operational event, not DAL-specific damage. UBS raised DAL to Buy. Risk: Thanksgiving travel week falls inside the hold window.",
+   "sentiment": -0.14,
+   "sent_conf": 0.44,
+   "bull": "UBS upgraded DAL to Buy (PT $113) and Delta recovered faster than peers from the ground stop (5% cancellations vs 22-28%).",
+   "bear": "Thanksgiving travel-week disruption risk remains elevated right after a billion-dollar industry-wide ground stop.",
+   "catalysts": "Thanksgiving holiday travel week (within hold window) - upside demand but also disruption risk",
+   "flags": ["faa_ground_stop", "holiday_travel_week"],
+   "sources": [
+    {"title": "FAA ground stop exposes airlines to billion-dollar disruption risk", "url": "https://finance.yahoo.com/markets/stocks/articles/faa-ground-stop-exposes-airlines-153800431.html"},
+    {"title": "FAA ground stop to cost top four airlines $345 million, brokerage says", "url": "https://www.detroitnews.com/story/business/2026/11/16/top-four-airlines-face-estimated-345-million-hit-from-faa-ground-stop/92809247007/"}
+   ]
+  },
+  "EL": {
+   "verdict": "CAUTION",
+   "cause": "unclear",
+   "why": "Fell despite a Q1 FY27 beat and a raised outlook plus new FY2030 targets; drop attributed to valuation (P/E 210x vs 66x 5yr median), not business damage. A mid-level exec left to become Capri's CEO (minor talent loss).",
+   "sentiment": -0.16,
+   "sent_conf": 0.4,
+   "bull": "Fiscal Q1 beat, raised full-year outlook, and new FY2030 margin targets show the business is healthy.",
+   "bear": "Stock trades far above historical valuation norms, leaving it vulnerable to multiple compression.",
+   "catalysts": "holiday shopping season begins within hold window (demand read-through for beauty retail)",
+   "flags": ["valuation_reset", "exec_departure_minor"],
+   "sources": [
+    {"title": "The Estee Lauder Companies Inc (EL) Shares Fall 3.8%", "url": "https://www.gurufocus.com/news/9206118/the-estee-lauder-companies-inc-el-shares-fall-38-what-gf-score-of-74-tells-investors"},
+    {"title": "The Estee Lauder Companies Inc (EL) Stock Down 3.9% but Still Overvalued", "url": "https://www.gurufocus.com/news/9177460/the-estee-lauder-companies-inc-el-stock-down-39-but-still-overvalued-gf-score-75100"}
+   ]
+  },
+  "RGLD": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Nov 12 drop hit all 22 large-cap gold peers with no company-specific news or filing from RGLD that session - broad gold-sector selloff, not company damage. Company just raised its dividend for the 26th straight year.",
+   "sentiment": 0.31,
+   "sent_conf": 0.75,
+   "bull": "No company-specific bad news found; 26th consecutive annual dividend hike signals balance-sheet strength.",
+   "bear": "Royalty/streaming revenue still tracks gold-price swings, so further bullion weakness would hurt regardless of fundamentals.",
+   "catalysts": "Nov 24 Renmark investor roadshow (within hold window)",
+   "flags": ["gold_sector_selloff", "dividend_increase"],
+   "sources": [
+    {"title": "What Moved Royal Gold Stock?", "url": "https://www.trefis.com/stock/rgld/articles/624917/what-moved-royal-gold-stock/2026-11-13"},
+    {"title": "Is Royal Gold Inc (RGLD) a Bargain After 3.2% Drop? GF Value Says Undervalued", "url": "https://www.gurufocus.com/news/9203023/is-royal-gold-inc-rgld-a-bargain-after-32-drop-gf-value-says-undervalued"}
+   ]
+  },
+  "KD": {
+   "verdict": "VETO",
+   "cause": "company",
+   "why": "Q2 FY27 revenue fell 3.3% YoY (EPS beat but top line weak), and the stock underperformed peers on growth concerns; analyst consensus skews Hold/Reduce. This is company-specific fundamental weakness, not sector/macro.",
+   "sentiment": 0.2,
+   "sent_conf": 0.23,
+   "bull": "EPS beat estimates and management reaffirmed $1B+ free cash flow target despite the revenue dip.",
+   "bear": "Revenue is still shrinking YoY and analyst consensus is mostly Hold/Reduce on the growth outlook.",
+   "catalysts": "none found",
+   "flags": ["revenue_decline", "company_specific"],
+   "sources": [
+    {"title": "Kyndryl Holdings, Inc. (KD) Suffers a Larger Drop Than the General Market", "url": "https://finance.yahoo.com/markets/stocks/articles/kyndryl-holdings-inc-kd-suffers-210003788.html"},
+    {"title": "Kyndryl Holdings, Inc. (KD) - What Are Analysts Saying About This Stock?", "url": "https://www.marketbeat.com/instant-alerts/consensus-kyndryl-holdings-inc-kd-what-are-analysts-saying-about-this-stock-2026-11-05/"}
    ]
   },
   "BIO": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Q3 earnings beat with first revenue growth in a year; RBC raised PT. Drop matches the AI-fear-driven life-science-tools/diagnostics sector rotation also hitting RVTY/BRKR, though reaffirmed soft 2026 growth outlook (-3% to 0.5%) adds mild caution.",
-   "sentiment": -0.1,
-   "sent_conf": 0.3,
-   "bull": "Earnings beat and first growth quarter in a year argue the sector selloff overshot fundamentals.",
-   "bear": "Reaffirmed flat-to-negative 2026 revenue growth outlook keeps near-term momentum weak.",
-   "catalysts": "none found",
-   "flags": ["soft revenue growth outlook", "AI-driven sector rotation"],
-   "sources": [
-    {"title": "How Investors Are Reacting To Bio Rad (BIO) International Revenue Surprise", "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-bio-rad-bio-110813686.html"},
-    {"title": "Bio-Rad Laboratories, Inc. $BIO Stock Sold by Fisher Asset Management LLC", "url": "https://www.defenseworld.net/2026/11/15/bio-rad-laboratories-inc-bio-stock-sold-by-fisher-asset-management-llc.html"},
-    {"title": "Barclays says AI related selloff in life science tool stocks overdone", "url": "https://m.investing.com/news/stock-market-news/barclays-says-ai-related-selloff-in-life-science-tool-stocks-overdone-4547319?ampMode=1"}
-   ]
-  },
-  "FBIN": {
    "verdict": "VETO",
    "cause": "company",
-   "why": "FBIN missed Q3 estimates and cut full-year 2026 guidance (EPS to $3.20-$3.30) on weaker construction demand and channel-inventory cuts, announcing a multi-year turnaround. This is a company-specific guidance cut, not sector/macro fear.",
-   "sentiment": 0.0,
+   "why": "Q3 earnings beat but the company reaffirmed a weak FY2026 revenue outlook of -3% to +0.5% organic growth; investor concern is the growth trajectory, a company-specific issue with no evidence peers fell in sympathy.",
+   "sentiment": -0.13,
    "sent_conf": 0.2,
-   "bull": "Citi and Wells Fargo still raised price targets, implying the cut is already priced in.",
-   "bear": "Guidance cut plus Barclays downgrade to Equal-Weight confirm real demand deterioration, not just fear.",
+   "bull": "Earnings and profitability came in ahead of estimates, and Q3 constant-currency revenue growth turned positive for the first time this year.",
+   "bear": "Reaffirmed FY guidance still implies flat-to-negative revenue growth for 2026, disappointing investors looking for topline momentum.",
    "catalysts": "none found",
-   "flags": ["guidance cut", "earnings miss"],
+   "flags": ["weak_revenue_guidance", "company_specific"],
    "sources": [
-    {"title": "Fortune Brands Innovations (NYSE:FBIN) Cuts Guidance After Q3 Miss", "url": "https://www.chartmill.com/news/FBIN/Chartmill-57649-Fortune-Brands-Innovations-NYSEFBIN-Cuts-Guidance-After-Q3-Miss"},
-    {"title": "How Investors May Respond To Fortune Brands Innovations (FBIN) Leadership Reshuffle", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-fbin/fortune-brands-innovations/news/how-investors-may-respond-to-fortune-brands-innovations-fbin"},
-    {"title": "Fortune Brands Innovation: Business Is Still In \"Show-Me\" Phase", "url": "https://seekingalpha.com/article/4902916-fortune-brands-innovation-stock-business-still-in-show-me-phase"}
+    {"title": "Bio Rad Laboratories (BIO) Draws Focus As UBS Event Tests Whether It Is Fully Valued", "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-bio/bio-rad-laboratories/news/bio-rad-laboratories-bio-draws-focus-as-ubs-event-tests-whet"},
+    {"title": "Bio-Rad Laboratories, Inc. $BIO Stock Sold by Fisher Asset Management LLC", "url": "https://www.defenseworld.net/2026/11/15/bio-rad-laboratories-inc-bio-stock-sold-by-fisher-asset-management-llc.html"}
    ]
   },
-  "GPN": {
+  "FLS": {
    "verdict": "VETO",
    "cause": "company",
-   "why": "GPN fell ~12% on Nov 12 after CD&R and GTCR abandoned ~$40B take-private talks amid tight LBO financing conditions. The drop is idiosyncratic loss of a buyout premium, not sector/macro fear, so there's no mean-reversion edge.",
-   "sentiment": 0.1,
-   "sent_conf": 0.5,
-   "bull": "Shares may be reasonable even without a deal, and talks could resume or a new bidder could emerge.",
-   "bear": "Giving back a takeover premium reflects a re-rating of standalone value, not an overreaction to fear.",
-   "catalysts": "watch for M&A headline updates; no scheduled earnings in window",
-   "flags": ["lost buyout premium", "M&A uncertainty"],
+   "why": "On Nov 3/11 FLS cut full-year organic sales guidance to -2.5%/-1.5% citing Middle East-driven delays (~$100M aftermarket hit), a company-specific guidance cut even though it later raised the low end of EPS guidance and reaffirmed its 2030 margin goal (Nov 16) on a record backlog.",
+   "sentiment": 0.3,
+   "sent_conf": 0.65,
+   "bull": "Record backlog and a reaffirmed 2030 margin goal, plus a new $274M institutional (Wellington) position, suggest the cut is already being absorbed.",
+   "bear": "Full-year sales guidance was explicitly lowered due to Middle East-driven delays, a direct company-specific earnings-outlook cut.",
+   "catalysts": "none found",
+   "flags": ["guidance_cut_mideast", "backlog_reassurance"],
    "sources": [
-    {"title": "Global Payments (GPN) Shares Drop 10% as Takeover Talks Collapse", "url": "https://www.gurufocus.com/news/9195320/global-payments-gpn-shares-drop-10-as-takeover-talks-collapse"},
-    {"title": "GPN Stock On Track For Its Worst Day In About 19 Months As Private Equity Firms Reportedly Abandon Takeover Talks", "url": "https://www.tradingview.com/news/stocktwits:2679500b8094b:0-gpn-stock-on-track-for-its-worst-day-in-about-19-months-as-private-equity-firms-reportedly-abandon-takeover-talks/"},
-    {"title": "What Caused Global Payments (NYSE:GPN) to Drop 12.01% When Buyout Talks Reportedly Collapsed?", "url": "https://kalkine.ca/news/financial/what-caused-global-payments-nysegpn-to-drop-1201-when-buyout-talks-reportedly-collapsed"}
+    {"title": "Flowserve (FLS) Cuts 2026 Outlook, Is The Stock Now Fully Valued?", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-fls/flowserve/news/flowserve-fls-cuts-2026-outlook-is-the-stock-now-fully-value"},
+    {"title": "Flowserve at Baird 2026 Global Industrial Conference: margin plan builds", "url": "https://za.investing.com/news/stock-market-news/flowserve-at-baird-2026-global-industrial-conference-margin-plan-builds-93CH-4568882"}
    ]
   },
-  "JHX": {
+  "HALO": {
    "verdict": "VETO",
    "cause": "company",
-   "why": "JHX fell ~8% after guiding Q3 and FY2027 revenue well below consensus on weak new-home construction and higher freight costs; Truist and others cut price targets. This is a company-specific guidance cut, not a sector-wide move.",
-   "sentiment": -0.1,
-   "sent_conf": 0.3,
-   "bull": "Strong Q3 earnings and upcoming S&P MidCap 400 inclusion support index-driven buying despite weak guidance.",
-   "bear": "Guidance cut on housing weakness plus multiple price-target cuts point to a real demand slowdown.",
+   "why": "Morgan Stanley (Nov 11, to Equal-Weight) and Leerink (Nov 7, to Market Perform) both downgraded HALO specifically over royalty step-down risk on J&J's Darzalex SC starting 2029 - a company-specific analyst call per dd.moves, not a sector move.",
+   "sentiment": 0.01,
+   "sent_conf": 0.63,
+   "bull": "Citizens and Evercore reiterated bullish calls (PT $149/$125) on ENHANZE approval and new ADC pipeline (Hypercon) offsetting the step-down.",
+   "bear": "Two analysts downgraded specifically on durability of the royalty portfolio once Darzalex step-downs begin in 2029.",
    "catalysts": "none found",
-   "flags": ["guidance cut", "housing demand weak"],
+   "flags": ["analyst_downgrade_company_specific", "royalty_step_down_risk"],
    "sources": [
-    {"title": "James Hardie falls on disappointing fiscal 2027 outlook", "url": "https://www.investing.com/news/earnings/james-hardie-falls-on-disappointing-fiscal-2027-outlook-5006002"},
-    {"title": "James Hardie shares sink 8%. Would I buy them now?", "url": "https://www.fool.com.au/2026/11/06/james-hardie-shares-sink-8-would-i-buy-them-now/?_fcb=1794665461"},
-    {"title": "Stephens Has Lowered Expectations for James Hardie Industries (NYSE:JHX) Stock Price", "url": "https://www.defenseworld.net/2026/11/08/stephens-has-lowered-expectations-for-james-hardie-industries-nysejhx-stock-price.html"}
-   ]
-  },
-  "BRKR": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "BRKR's Q3 report included a ~$175M non-cash goodwill impairment tied to Spatial Biology and a JPMorgan downgrade to Neutral, despite an EPS beat. Some of the decline overlaps the broader life-science-tools selloff, but the impairment/downgrade is company-specific.",
-   "sentiment": 0.1,
-   "sent_conf": 0.3,
-   "bull": "EPS beat consensus and Leerink raised its price target to $85, calling bookings strong.",
-   "bear": "A $175M goodwill impairment and a fresh downgrade signal real trouble in the Spatial Biology unit.",
-   "catalysts": "none found",
-   "flags": ["goodwill impairment", "analyst downgrade"],
-   "sources": [
-    {"title": "Bruker Corp (BRKR) Shares Fall 6.5% -- What GF Score of 83 Tells Investors", "url": "https://www.gurufocus.com/news/9190201/bruker-corp-brkr-shares-fall-65-what-gf-score-of-83-tells-investors"},
-    {"title": "Bruker Drops 9.5% Amid Sector-Wide Selling", "url": "https://news.alphastreet.com/bruker-drops-9-5-amid-sector-wide-selling/"},
-    {"title": "Bruker Corporation (NASDAQ:BRKR) Short Squeeze 2026-11-04", "url": "https://news.squeezereport.com/featured-stocks/bruker-corporation-nasdaq-brkr-short-squeeze-2026-11-04/"}
-   ]
-  },
-  "UAL": {
-   "verdict": "CAUTION",
-   "cause": "sector",
-   "why": "Most of the drop traces to the Nov 13 FAA nationwide ground stop (aging ATC infrastructure) that hit AAL, DAL, LUV, JBLU and UAL alike, a $345M industry-wide hit per Bernstein. But UAL had its own separate outage Nov 16-17, adding company-specific operational risk.",
-   "sentiment": -0.2,
-   "sent_conf": 0.6,
-   "bull": "The FAA ground stop was an industry-wide infrastructure failure, not UAL-specific, so the bounce thesis holds.",
-   "bear": "A second, UAL-only tech outage right after the FAA event raises doubt about company-specific systems risk.",
-   "catalysts": "Thanksgiving travel surge begins ~Nov 20; risk of further ATC/tech disruptions in the hold window",
-   "flags": ["repeat tech outage", "FAA system risk"],
-   "sources": [
-    {"title": "United Airlines Resolves System Outage, Stock Drops (UAL)", "url": "https://www.gurufocus.com/news/9203052/united-airlines-resolves-system-outage-stock-drops-ual"},
-    {"title": "Top four US airlines face $345 million hit from FAA ground stop, Bernstein estimates", "url": "https://www.investing.com/news/stock-market-news/top-four-us-airlines-face-345-million-hit-from-faa-ground-stop-bernstein-estimates-5030123"},
-    {"title": "Airline Stocks Hit Turbulence After U.S. Grounds Flights: AAL, UAL, DAL", "url": "https://www.tipranks.com/news/airlines-stocks-hit-turbulence-after-u-s-grounds-flights-aal-ual-dal"}
-   ]
-  },
-  "CVNA": {
-   "verdict": "CAUTION",
-   "cause": "company",
-   "why": "Q3 showed record volume/revenue but profit-per-vehicle fell ~10% y/y and Zacks cut 2026 EPS estimates; guidance was maintained, not cut. Mixed: a real margin-quality concern specific to CVNA, not a sector-wide drop, but no formal guidance cut or miss.",
-   "sentiment": 0.0,
-   "sent_conf": 0.5,
-   "bull": "Record Q3 volume and maintained full-year EBITDA guidance suggest the margin worry is overblown.",
-   "bear": "Falling profit-per-car and cut EPS estimates on an already ~31x-earnings stock argue for further de-rating.",
-   "catalysts": "none found",
-   "flags": ["margin compression", "high valuation"],
-   "sources": [
-    {"title": "A Look at Carvana Co (CVNA) After 4.1% Decline -- GF Value $88.28 vs Price $70.84", "url": "https://www.gurufocus.com/news/9195961/a-look-at-carvana-co-cvna-after-41-decline-gf-value-8828-vs-price-7084"},
-    {"title": "Carvana stock: Zacks cuts 2026 EPS forecast as shares slip", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/carvana-stock-zacks-cuts-2026-eps-forecast-as-shares-slip/70509918"},
-    {"title": "Carvana Stock After Q3: Record Volume, Thinner Margins Per Car", "url": "https://www.top1markets.com/news/carvana-stock-cvna-q3-2026-earnings-margins"}
-   ]
-  },
-  "GM": {
-   "verdict": "CAUTION",
-   "cause": "sector",
-   "why": "GM beat Q3 earnings but narrowed its outlook on steel/copper/tariff cost headwinds (~$2B in 2026) and slowing EV demand post-incentive expiration; Ford slid on similar cost/affordability pressure, pointing to an industry-wide cost story rather than GM-unique damage.",
-   "sentiment": 0.1,
-   "sent_conf": 0.4,
-   "bull": "Earnings beat and analysts say buy the dip, with the selloff tied to shared industry commodity costs, not GM-specific failure.",
-   "bear": "Narrowed outlook and EV demand decline are real and could keep weighing on shares into year-end.",
-   "catalysts": "none found",
-   "flags": ["commodity/tariff costs", "EV demand slowing"],
-   "sources": [
-    {"title": "General Motors (GM) Stock Drops Amid Disappointing Forecast and Market Share Declines", "url": "https://www.gurufocus.com/news/9141300/general-motors-gm-stock-drops-amid-disappointing-forecast-and-market-share-declines"},
-    {"title": "GM Stock Falls 7% Despite Q3 Earnings Beat: Buy the Dip?", "url": "https://finance.yahoo.com/markets/stocks/articles/gm-stock-falls-7-despite-110400077.html"},
-    {"title": "Why General Motors (GM) Stock Is Nosediving", "url": "https://stockstory.org/us/stocks/nyse/gm/news/why-up-down/why-general-motors-gm-stock-is-nosediving"}
-   ]
-  },
-  "PHM": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "PHM missed Q3 2026 on both revenue ($3.97B vs $4.24B consensus) and EPS ($2.53 vs $2.63), dropping 7% on the report; Morgan Stanley downgraded to Equal-Weight on Nov 3. This is a company-specific earnings miss and fundamentals downgrade.",
-   "sentiment": -0.1,
-   "sent_conf": 0.2,
-   "bull": "Shares are up 13% over the past month even after the miss, suggesting bad news is priced in.",
-   "bear": "Revenue and EPS miss plus a downgrade reflect genuine housing-demand softness, not just sentiment.",
-   "catalysts": "none found",
-   "flags": ["earnings miss", "analyst downgrade"],
-   "sources": [
-    {"title": "PulteGroup (NYSE:PHM) Q3 2026 Revenue and EPS Miss Consensus, Shares Fall Premarket", "url": "https://www.chartmill.com/news/PHM/Chartmill-56618-PulteGroup-NYSEPHM-Q3-2026-Revenue-and-EPS-Miss-Consensus-Shares-Fall-Premarket"},
-    {"title": "PulteGroup (NYSE:PHM) misses Q3 2026 revenue estimates, stock drops", "url": "https://stockstory.org/us/stocks/nyse/phm/news/earnings/pultegroup-nysephm-misses-q3-2026-revenue-estimates-stock-drops"},
-    {"title": "Earnings call transcript: PulteGroup misses Q3 2026 estimates as housing slows", "url": "https://za.investing.com/news/stock-market-news/earnings-call-transcript-pultegroup-misses-q3-2026-estimates-as-housing-slows-93CH-4519919"}
+    {"title": "Halozyme Therapeutics (HALO) Shares Slip After Morgan Stanley Downgrade Amid Valuation Concerns", "url": "https://www.gurufocus.com/news/9193066/halozyme-therapeutics-halo-shares-slip-after-morgan-stanley-downgrade-amid-valuation-concerns"},
+    {"title": "Morgan Stanley downgrades Halozyme stock rating on valuation", "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-downgrades-halozyme-stock-rating-on-valuation-93CH-5017702"}
    ]
   }
  }
