@@ -426,5 +426,55 @@
   "stop": 95.49,
   "conf": 6.2,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-18",
+  "t": "THC",
+  "tier": "solid",
+  "buy": 273.22,
+  "tgt": 281.41,
+  "stop": 247.9,
+  "conf": 7.6,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-18",
+  "t": "DAL",
+  "tier": "solid",
+  "buy": 83.41,
+  "tgt": 85.91,
+  "stop": 76.93,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-18",
+  "t": "GDDY",
+  "tier": "solid",
+  "buy": 105.14,
+  "tgt": 108.36,
+  "stop": 94.86,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-18",
+  "t": "GM",
+  "tier": "solid",
+  "buy": 81.84,
+  "tgt": 84.3,
+  "stop": 75.9,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-18",
+  "t": "KD",
+  "tier": "solid",
+  "buy": 15.74,
+  "tgt": 16.21,
+  "stop": 13.55,
+  "conf": 6.2,
+  "verdict": null
  }
 ]
