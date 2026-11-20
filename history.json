@@ -476,5 +476,55 @@
   "stop": 13.55,
   "conf": 6.2,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-19",
+  "t": "ATI",
+  "tier": "solid",
+  "buy": 172.43,
+  "tgt": 177.6,
+  "stop": 148.4,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-19",
+  "t": "BEN",
+  "tier": "solid",
+  "buy": 33.34,
+  "tgt": 34.34,
+  "stop": 30.64,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-19",
+  "t": "EL",
+  "tier": "solid",
+  "buy": 102.2,
+  "tgt": 105.27,
+  "stop": 92.75,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-19",
+  "t": "ENTG",
+  "tier": "solid",
+  "buy": 137.58,
+  "tgt": 141.71,
+  "stop": 112.5,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-19",
+  "t": "FDS",
+  "tier": "solid",
+  "buy": 308.96,
+  "tgt": 318.22,
+  "stop": 284.69,
+  "conf": 6.2,
+  "verdict": null
  }
 ]
