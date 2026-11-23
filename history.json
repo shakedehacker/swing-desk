@@ -526,5 +526,55 @@
   "stop": 284.69,
   "conf": 6.2,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-20",
+  "t": "DOCU",
+  "tier": "solid",
+  "buy": 73.93,
+  "tgt": 76.15,
+  "stop": 67.84,
+  "conf": 7.6,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-20",
+  "t": "ABNB",
+  "tier": "solid",
+  "buy": 171.06,
+  "tgt": 176.2,
+  "stop": 153.92,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-20",
+  "t": "ALSN",
+  "tier": "solid",
+  "buy": 117.82,
+  "tgt": 121.35,
+  "stop": 107.32,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-20",
+  "t": "APPF",
+  "tier": "solid",
+  "buy": 203.4,
+  "tgt": 209.5,
+  "stop": 186.16,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-20",
+  "t": "BLK",
+  "tier": "solid",
+  "buy": 1114.95,
+  "tgt": 1148.4,
+  "stop": 1041.55,
+  "conf": 6.2,
+  "verdict": null
  }
 ]

@@ -1,165 +1,158 @@
 {
- "asof": "2026-11-19",
+ "asof": "2026-11-20",
  "model": "Claude",
- "generated_utc": "2026-11-20T05:05:17Z",
+ "generated_utc": "2026-11-23T05:04:30Z",
  "note": {
-  "mood": "risk-off",
+  "mood": "mixed",
   "bullets": [
-   "VIX spiked to 28.44 (+16%) as an AI-trade unwind drove a sixth straight Wall Street decline and sent Asia toward its worst week since 2020.",
-   "Nvidia subpoenaed by California AG over alleged China chip diversion; AMD hit by a short-seller China-exposure report, deepening the semis selloff.",
-   "Anthropic's bittersweet IPO debut rattled AI sentiment; SoftBank fell 16% in Asia, Nasdaq futures -0.8%, S&P futures -0.4% pre-open.",
-   "10Y yield 5.05% (safe-haven dip), Brent ~$90, gold -4.2%; UMich sentiment data and BJ's Wholesale earnings due today."
+   "US futures bounce ~2% Monday after S&P 500's 7th straight down day hit a correction; Nasdaq 100 had its worst week in 6+ years on AI-capex fears.",
+   "Europe posted its worst week since April 2025 (Stoxx 600 -5.8%) as the AI de-rating spread from Wall Street; Asia mixed, Kospi pared a 6% drop.",
+   "Oil steadied after pulling back from recent highs: Brent ~$92.57, WTI ~$83.04, after briefly nearing $80, pressuring E&P names sector-wide this month.",
+   "Treasury yields eased (2Y 4.61%, 10Y ~4.94%) on risk-off flows; Bitcoin fell below $60k, driving BlackRock's IBIT ETF to record outflows."
   ]
  },
  "picks": {
-  "ATI": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Fell in a broad metal-fabrication sector selloff (peers down 4.7-7.8%), deeper than most. No company-specific bad news; Citigroup and BTIG both raised price targets to Buy on Nov 13, just before the drop.",
-   "sentiment": 0.3,
-   "sent_conf": 0.6,
-   "bull": "Two fresh bullish PT raises (Citi $240, BTIG $260) right before the drop signal fundamentals are intact.",
-   "bear": "ATI fell harder than metal-fab peers, hinting lingering valuation concerns beyond the sector move.",
-   "catalysts": "none found",
-   "flags": ["sector-wide selloff", "no near-term earnings"],
-   "sources": [
-    {"title": "Ati Plunges 12.5% Amid Sector-Wide Selling", "url": "https://news.alphastreet.com/ati-plunges-12-5-amid-sector-wide-selling/"},
-    {"title": "ATI Inc (ATI) Shares Fall 5.4% -- GF Value Says Still Overvalued", "url": "https://www.gurufocus.com/news/9202977/ati-inc-ati-shares-fall-54-gf-value-says-still-overvalued"}
-   ]
-  },
-  "BEN": {
+  "DOCU": {
    "verdict": "CONFIRM",
    "cause": "macro",
-   "why": "Drop coincides with broad financials/asset-manager weakness and valuation resets; no fundamental damage found. Co-President sold shares Nov 11, but ratings stayed mixed (TD Cowen Buy, Barclays Equal-Weight) rather than a fundamentals-driven downgrade.",
-   "sentiment": 0.1,
-   "sent_conf": 0.4,
-   "bull": "TD Cowen reiterated with a raised $44 PT, well above the current $33 price.",
-   "bear": "Co-President sold a large stake and ratings are split (4 buy/8 hold/2 sell), leaving the read mixed.",
-   "catalysts": "none found",
-   "flags": ["mixed ratings", "insider sale"],
+   "why": "Drop tracks the broad software/AI-capex selloff (Nasdaq's worst week in years), not DOCU-specific news. BTIG raised to Buy (PT $75→$90) Nov 18. Ratings hold-heavy but no downgrade found. Earnings fall Dec 3, just outside the hold window.",
+   "sentiment": -0.1,
+   "sent_conf": 0.35,
+   "bull": "BTIG just raised PT to $90 on AI-contract pipeline; drop mirrors sector multiple compression, not DOCU fundamentals.",
+   "bear": "Stock trades above its 5-yr median P/E; broader software selloff could persist into December, capping the bounce.",
+   "catalysts": "Q3 FY27 earnings Dec 3, just after the 7-day window; none else found",
+   "flags": ["AI-capex software selloff", "richly valued vs history", "earnings just outside window"],
    "sources": [
-    {"title": "Franklin Templeton Inc (BEN) Stock Down 3.4% but Still Overvalued", "url": "https://www.gurufocus.com/news/9211168/franklin-templeton-inc-ben-stock-down-34-but-still-overvalued-gf-score-78100"},
-    {"title": "Co-President Matthew Nicholls Sold A Bunch Of Shares In Franklin Templeton", "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-ben/franklin-templeton/news/co-president-matthew-nicholls-sold-a-bunch-of-shares-in-fran/amp"}
+    {"title": "DocuSign (DOCU) Stock Looks Pricey Following Its New AI Contract Push", "url": "https://finance.yahoo.com/markets/stocks/articles/docusign-docu-stock-looks-pricey-081102679.html"},
+    {"title": "Docusign Inc (DOCU) Stock Down 4.9% -- Now Undervalued? GF Score: 77/100", "url": "https://www.gurufocus.com/news/9206235/docusign-inc-docu-stock-down-49-now-undervalued-gf-score-77100"},
+    {"title": "Tech stocks are suffering their biggest selloff since Covid", "url": "https://fortune.com/2026/11/05/tech-stocks-are-suffering-the-biggest-selloff-since-covid-as-investors-see-premature-end-to-ai-datacenter-boom/"}
    ]
   },
-  "EL": {
+  "ABNB": {
    "verdict": "CONFIRM",
    "cause": "macro",
-   "why": "Stock fell despite a strong Q3 beat and raised outlook on Nov 3; the slide reflects profit-taking/valuation reset in a broad market selloff, not company damage. Citigroup raised its PT to $132 on Nov 10.",
-   "sentiment": 0.2,
-   "sent_conf": 0.5,
-   "bull": "Beat-and-raise quarter plus a fresh Citigroup PT hike to $132 argue for mean reversion.",
-   "bear": "Stock is still seen as ~11% overvalued vs GF Value, risking further multiple compression.",
-   "catalysts": "Next earnings ~53 days out; no near-term event found",
-   "flags": ["valuation concern"],
+   "why": "Decline matches the market-wide AI selloff plus travel-demand-normalization chatter, not company damage. Bernstein/Jefferies raised PTs and Rothschild upgraded to Neutral this month; no downgrades found. Post-earnings implied-move pricing has largely played out.",
+   "sentiment": 0.14,
+   "sent_conf": 0.54,
+   "bull": "$12B buyback backed by a 35% FCF margin plus bullish analyst PT hikes support a bounce once macro stabilizes.",
+   "bear": "A survey flags 2027 travel-budget constraints, and some commentary still calls the valuation rich.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": ["travel demand normalization concerns"],
    "sources": [
-    {"title": "The Estee Lauder Companies Inc (EL) Shares Fall 3.8%", "url": "https://www.gurufocus.com/news/9206118/the-estee-lauder-companies-inc-el-shares-fall-38-what-gf-score-of-74-tells-investors"},
-    {"title": "The Estee Lauder Companies Inc. $EL Stock: Danske Bank A S Lowers Position", "url": "https://www.defenseworld.net/2026/11/19/the-estee-lauder-companies-inc-el-stock-danske-bank-a-s-lowers-position.html"}
+    {"title": "Airbnb's New $12 Billion Buyback Is Backed by a 35% Free Cash Flow Margin", "url": "https://www.fool.com/investing/2026/11/21/airbnb-new-usd12-billion-buyback-is-backed-by-a-35-free-cash-flow-margin-what-it-means-for-shareholders/"},
+    {"title": "Airbnb (ABNB) Pulls Back On A Richer Valuation Narrative", "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-abnb-pulls-back-richer-091205414.html"},
+    {"title": "Is Airbnb Inc (ABNB) a Bargain After 4.1% Drop? GF Value Says Undervalued", "url": "https://www.gurufocus.com/news/9211099/is-airbnb-inc-abnb-a-bargain-after-41-drop-gf-value-says-undervalued"}
    ]
   },
-  "ENTG": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Fell with broad semiconductor-equipment weakness tied to AI-trade unwind and China chip-export political scrutiny; no confirmed company-specific catalyst, and earnings estimates were being revised up into the drop.",
-   "sentiment": 0.1,
-   "sent_conf": 0.4,
-   "bull": "No company catalyst found; estimate revisions have been upward, with active buyback/M&A.",
-   "bear": "Semis sector is down ~14.5% on a weekly basis amid AI-trade unwind, which could keep pressuring the stock.",
-   "catalysts": "Ongoing Nvidia/AMD China chip-export headlines could keep sector volatile",
-   "flags": ["sector-wide selloff", "high implied move 8.9%"],
-   "sources": [
-    {"title": "Entegris Shares Retreat Over 4% Amid Broader Chip Volatility", "url": "https://news.jkn.co.kr/editions/english/post/1091950"},
-    {"title": "Entegris, Semtech, Lattice Semiconductor, Himax, and Teradyne shares plummet", "url": "https://stockstory.org/us/stocks/nasdaq/entg/news/why-up-down/entegris-semtech-lattice-semiconductor-himax-and-teradyne-shares-plummet-what-you-need-to-know"}
-   ]
-  },
-  "FDS": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Decline tracks a sector-wide 'AI will disrupt data/analytics' narrative plus rising-yield pressure, not fresh company-specific bad news. UBS, Morgan Stanley, Evercore and Stifel all raised price targets on Nov 11.",
-   "sentiment": 0.2,
-   "sent_conf": 0.4,
-   "bull": "All four firms that moved on Nov 11 raised targets (UBS to $375); reporting says no fresh company-specific bad news.",
-   "bear": "The 'AI will disintermediate FactSet' narrative is structural and could keep capping the bounce if yields stay high.",
-   "catalysts": "none found",
-   "flags": ["AI-disruption narrative", "yield-sensitive"],
-   "sources": [
-    {"title": "FactSet Stock Stumbles As AI Jitters Hit Outlook", "url": "https://www.tipranks.com/news/catalyst/factset-stock-stumbles-as-ai-jitters-hit-outlook"},
-    {"title": "FactSet Research Systems Inc (FDS) Stock Down 4.8% -- Now Undervalued?", "url": "https://www.gurufocus.com/news/9206249/factset-research-systems-inc-fds-stock-down-48-now-undervalued-gf-score-92100"}
-   ]
-  },
-  "XYZ": {
-   "verdict": "CONFIRM",
-   "cause": "macro",
-   "why": "Drop tracks a crypto/software-sector rotation (Bitcoin -2.8%, software -11.6%) rather than company news; Q3 beat-and-raise plus headcount cuts are working, and four firms raised price targets Nov 9-13.",
-   "sentiment": 0.3,
-   "sent_conf": 0.5,
-   "bull": "Multiple fresh PT raises (Bernstein $110, Freedom Broker $115) after a strong beat-and-raise quarter and cost cuts.",
-   "bear": "Cash App Borrow credit exposure and a regulatory-settlement overhang could worsen if loss trends continue.",
-   "catalysts": "none found",
-   "flags": ["crypto-correlated", "Cash App credit risk"],
-   "sources": [
-    {"title": "Block (XYZ), Why Is It Back In Focus?", "url": "https://finance.yahoo.com/markets/stocks/articles/block-xyz-why-back-focus-141448923.html"},
-    {"title": "Block Inc (XYZ) Shares Fall 4.4% -- GF Value Says Still Overvalued", "url": "https://www.gurufocus.com/news/9206106/block-inc-xyz-shares-fall-44-gf-value-says-still-overvalued"}
-   ]
-  },
-  "HALO": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "On Nov 19 a German court overturned Halozyme's injunction blocking Merck's rival Keytruda SC, undercutting its ENHANZE patent position; Halozyme says it will file a new infringement suit. This is company-specific legal damage, not sector/macro.",
-   "sentiment": -0.5,
-   "sent_conf": 0.7,
-   "bull": "Halozyme will file a new infringement suit and still holds Dutch-court wins blocking Keytruda SC in 8 other EU countries.",
-   "bear": "Losing the German injunction removes a key European moat for ENHANZE royalties, directly hurting the thesis.",
-   "catalysts": "Ongoing German/EU patent litigation could produce further rulings within the hold window",
-   "flags": ["patent/legal loss", "company-specific"],
-   "sources": [
-    {"title": "Halozyme down as German court tosses Merck injunction", "url": "https://seekingalpha.com/news/4674743-halozyme-down-german-court-tosses-merck-injunction"},
-    {"title": "Halozyme Loses German Keytruda SC Block and Plans New Lawsuit", "url": "https://www.securities.io/halozyme-loses-german-keytruda-sc-block-and-plans-new-lawsuit/"}
-   ]
-  },
-  "ROIV": {
+  "ALSN": {
    "verdict": "CAUTION",
    "cause": "unclear",
-   "why": "No confirmed cause found: Q2 beat revenue estimates and two firms raised price targets, yet the stock fell further on an unexplained Nov 18 premarket drop plus heavy insider selling (~$83M by two directors Nov 16-17).",
-   "sentiment": -0.1,
-   "sent_conf": 0.3,
-   "bull": "Guggenheim and HC Wainwright raised PTs to $48 after a revenue beat and LISRIA launch progress.",
-   "bear": "Two directors sold ~$83M combined just before an unexplained premarket drop, an unclear flag warranting caution.",
-   "catalysts": "none found",
-   "flags": ["unclear cause", "heavy insider selling"],
+   "why": "Drop happened on below-average volume (rvol 0.57), suggesting macro drift rather than a specific trigger, but no sector-selloff confirmation was found for trucking/industrials specifically. JPMorgan/Wells Fargo trimmed PTs post-Q3 while keeping Neutral/Equal-weight ratings.",
+   "sentiment": 0.0,
+   "sent_conf": 0.2,
+   "bull": "No sell-rated downgrade; new Army propulsion contract and dividend news show business momentum intact.",
+   "bear": "Two firms cut price targets after Q3, and low volume leaves the real cause of the drop unconfirmed.",
+   "catalysts": "Ex-dividend Nov 23; none else found in next 7 trading days",
+   "flags": ["cause not clearly sector or macro", "PT trims post-Q3"],
    "sources": [
-    {"title": "Roivant Sciences (NASDAQ:ROIV) Director Sells 602,021 Shares of Stock", "url": "https://www.marketbeat.com/instant-alerts/insider-roivant-sciences-nasdaq-roiv-director-sells-602021-shares-of-stock-2026-11-18/"},
-    {"title": "Roivant Sciences Insider Sold Shares Worth $53,536,738", "url": "https://www.marketscreener.com/news/roivant-sciences-insider-sold-shares-worth-53-536-738-according-to-a-recent-sec-filing-ce785eddd080f220"}
+    {"title": "Allison Transmission Holdings (ALSN) Stock Price, Chart & News", "url": "https://stockanalysis.com/stocks/alsn/"},
+    {"title": "ALSN Stock Price, News & Analysis", "url": "https://www.stocktitan.net/overview/ALSN/"}
    ]
   },
-  "CF": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "The Yazoo City plant outage now extends into H1 2027, driving a 15% volume drop and an earnings miss despite strong nitrogen pricing - company-specific operational damage confirmed by Nov 18 reporting, not sector/macro weather.",
-   "sentiment": -0.4,
-   "sent_conf": 0.7,
-   "bull": "Nitrogen prices remain strong and the outage is framed as temporary, with a cash yield near 12%.",
-   "bear": "The extended Yazoo City outage directly caused the earnings miss - a company-specific problem, not a sector move.",
-   "catalysts": "none found",
-   "flags": ["plant outage", "earnings miss"],
-   "sources": [
-    {"title": "CF Industries Holdings (CF) Yazoo City Outage Now Stretches Into First Half Of 2027", "url": "https://finance.yahoo.com/markets/stocks/articles/cf-industries-holdings-cf-yazoo-161129103.html"},
-    {"title": "CF Industries Holdings Inc (CF) Shares Fall 4.7%", "url": "https://gurufocus.com/news/9208725/cf-industries-holdings-inc-cf-shares-fall-47-what-gf-score-of-70-tells-investors"}
-   ]
-  },
-  "URI": {
+  "APPF": {
    "verdict": "CONFIRM",
    "cause": "macro",
-   "why": "Fell with broad industrials/market weakness in early November; no company-specific bad news found. BofA raised its PT to $1,325 (Buy) on Nov 13, and 2026 revenue guidance was raised by $450M.",
-   "sentiment": 0.3,
-   "sent_conf": 0.5,
-   "bull": "BofA raised its PT to $1,325 and reiterated Buy a week before the drop; FY26 revenue guide was raised $450M.",
-   "bear": "Still reported ~18% above a GF Value estimate, leaving room for further de-rating if the market stays risk-off.",
-   "catalysts": "none found",
-   "flags": ["valuation stretched"],
+   "why": "APPF beat Q3 and raised 2026 guidance Nov 5, yet shares fell with the broader software/AI-capex selloff. Only routine small insider sales found (CEO sold 2,058 shares); no downgrades or negative dd.moves located.",
+   "sentiment": 0.0,
+   "sent_conf": 0.2,
+   "bull": "Beat-and-raise quarter plus a reported 34.9% GF-Value undervaluation argue the drop is sector-driven, not fundamental.",
+   "bear": "Richly-valued growth software names stay most exposed if the AI-capex selloff extends further.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": ["minor routine insider selling", "software/AI selloff exposure"],
    "sources": [
-    {"title": "A Look at United Rentals Inc (URI) After 7.1% Decline", "url": "https://www.gurufocus.com/news/9177317/a-look-at-united-rentals-inc-uri-after-71-decline-gf-value-95406-vs-price-104378"},
-    {"title": "United Rentals (URI) Drops 5.2% in a Single Session", "url": "https://247wallst.com/cards/united-rentals-uri-price-swing-01m6pct25ese723zdryf6vm4t8"}
+    {"title": "Is AppFolio (APPF) Fairly Valued After Strong Earnings And Higher 2026 Guidance?", "url": "https://finance.yahoo.com/markets/stocks/articles/appfolio-appf-fairly-valued-strong-051906278.html"},
+    {"title": "AppFolio (NASDAQ:APPF) CEO Sells 2,058 Shares of Company Stock", "url": "https://www.marketbeat.com/instant-alerts/insider-appfolio-nasdaq-appf-ceo-sells-2058-shares-of-company-stock-2026-11-19/"},
+    {"title": "Is AppFolio Inc (APPF) a Bargain After 4.7% Drop? GF Value Says Undervalued", "url": "https://www.gurufocus.com/news/9206345/is-appfolio-inc-appf-a-bargain-after-47-drop-gf-value-says-undervalued"}
+   ]
+  },
+  "BLK": {
+   "verdict": "CONFIRM",
+   "cause": "macro",
+   "why": "Fall tracks the broad market risk-off/AI selloff plus a crypto slide (Bitcoin <$60k) driving record outflows from its IBIT ETF. Ratings remain overwhelmingly bullish (18 buy/1 hold) and Mizuho just initiated Outperform; no fundamental downgrade found.",
+   "sentiment": -0.33,
+   "sent_conf": 0.4,
+   "bull": "18-of-19 analysts rate Buy and Mizuho just initiated Outperform; the AUM-linked selloff should reverse once markets stabilize.",
+   "bear": "Record Bitcoin-ETF outflows plus falling markets directly hit AUM-based fees, a real near-term earnings headwind.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": ["IBIT bitcoin ETF outflows", "AUM-sensitive to market drawdown"],
+   "sources": [
+    {"title": "Bitcoin Breaks Below $60,000. BlackRock's ETF Suffers Record $541 Million Withdrawal.", "url": "https://www.ibtimes.com/bitcoin-below-60000-blackrock-etf-record-outflows-3810035"},
+    {"title": "BlackRock ETF approaching third anniversary just had its worst day", "url": "https://www.thestreet.com/crypto/markets/blackrock-etf-approaching-third-anniversary-just-had-its-worst-day"},
+    {"title": "BlackRock (NYSE:BLK) Stock Crosses Below 50 Day Moving Average", "url": "https://www.marketbeat.com/instant-alerts/price-blackrock-nyse-blk-stock-crosses-below-50-day-moving-average-heres-what-happened-2026-11-21/"}
+   ]
+  },
+  "CHRD": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Decline tracks oil's pullback from highs, hitting E&P peers sector-wide. Wells Fargo trimmed its PT to $173 from $174, but Morgan Stanley and UBS raised theirs post-Q3. No Sell downgrade found; divestiture and FCF news are neutral-to-positive.",
+   "sentiment": 0.26,
+   "sent_conf": 0.4,
+   "bull": "Morgan Stanley and UBS raised PTs post-earnings; oil still near $83-92 supports upstream cash flow despite the dip.",
+   "bear": "Energy names stay exposed if oil keeps sliding from highs; Wells Fargo trimmed its target this month.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": ["oil price pullback sector-wide"],
+   "sources": [
+    {"title": "Oil Price is Still High: Boon for Chord Energy's Upstream Business?", "url": "https://finance.yahoo.com/energy/articles/oil-price-still-high-boon-141200847.html"},
+    {"title": "Wells Fargo & Company Issues Pessimistic Forecast for Chord Energy", "url": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-chord-energy-nasdaq-chrd-stock-price-2026-11-06/"},
+    {"title": "Chord Energy Corp (CHRD) Shares Fall 4.0% -- What GF Score of 65 Tells Investors", "url": "https://www.gurufocus.com/news/9208849/chord-energy-corp-chrd-shares-fall-40-what-gf-score-of-65-tells-investors"}
+   ]
+  },
+  "PR": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Drop mirrors the E&P sector pullback as oil eased from recent highs despite PR's Q3 beat and record free cash flow (Nov 5/19). Wells Fargo and Seaport trimmed PTs slightly but kept Buy/Overweight; no Sell rating found.",
+   "sentiment": 0.46,
+   "sent_conf": 0.5,
+   "bull": "Record free cash flow even as oil slips, plus a Q3 beat, argue fundamentals are intact for a bounce.",
+   "bear": "Some PT trims and 'overvalued vs GF-Value' commentary suggest it may lag a sector-wide recovery.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": ["oil price pullback sector-wide"],
+   "sources": [
+    {"title": "Permian Resources Posts Record Free Cash Flow Even as Oil Prices Slip", "url": "https://finance.yahoo.com/energy/articles/permian-resources-posts-record-free-032820669.html"},
+    {"title": "Permian Resources Corp (PR) Shares Fall 3.7% -- What GF Score of 69 Tells Investors", "url": "https://www.gurufocus.com/news/9208722/permian-resources-corp-pr-shares-fall-37-what-gf-score-of-69-tells-investors"},
+    {"title": "Permian Resources (NYSE:PR) Stock Gets Price Target Reduction from Wells Fargo", "url": "https://www.defenseworld.net/2026/11/09/permian-resources-nysepr-stock-gets-price-target-reduction-from-wells-fargo-company.html"}
+   ]
+  },
+  "THC": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Fall lines up with a confirmed sector-wide hospital selloff (HCA, Encompass Health, UHS all down together same week). A headline referencing 'Tenet' revenue-guidance changes is about an unrelated Canadian fintech, not THC. Ratings remain 19 buy/4 hold; no downgrade found.",
+   "sentiment": -0.3,
+   "sent_conf": 0.5,
+   "bull": "Moderate-Buy consensus (19 buy/4 hold, $296.65 avg target) intact; drop matches a sector-wide hospital selloff, not THC news.",
+   "bear": "Shares fell below the 50-day average and insider selling continued, a near-term technical/sentiment headwind.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": ["sector-wide hospital selloff", "unrelated 'Tenet' guidance headline ruled out"],
+   "sources": [
+    {"title": "Tenet Healthcare Corp (THC) Shares Fall 3.2% -- What GF Score of 75 Tells Investors", "url": "https://www.gurufocus.com/news/9206200/tenet-healthcare-corp-thc-shares-fall-32-what-gf-score-of-75-tells-investors"},
+    {"title": "Tenet Healthcare (NYSE:THC) Shares Cross Below Fifty Day Moving Average", "url": "https://www.dailypolitical.com/2026/11/20/tenet-healthcare-nysethc-shares-cross-below-fifty-day-moving-average-time-to-sell.html"},
+    {"title": "Universal Health Services Drops 5.3% Amid Sector-Wide Selling", "url": "https://news.alphastreet.com/universal-health-services-drops-5-3-amid-sector-wide-selling/"}
+   ]
+  },
+  "UHS": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Confirmed sector-wide hospital selloff: UHS fell 5.2% and 5.3% in two sessions alongside HCA, Encompass Health and National HealthCare. Industry faces a 2027 Medicaid funding headwind, but it is sector-wide, not UHS-specific. RBC raised its PT to $207 despite a Sector Perform rating.",
+   "sentiment": -0.25,
+   "sent_conf": 0.55,
+   "bull": "Drop is explicitly tied to sector-wide hospital selling, not UHS news; RBC still raised its price target to $207.",
+   "bear": "2027 Medicaid funding pressure is a real industry headwind that could keep hospital stocks under pressure.",
+   "catalysts": "none found in next 7 trading days",
+   "flags": ["2027 Medicaid funding headwind (sector-wide)"],
+   "sources": [
+    {"title": "Universal Health Services Drops 5.3% Amid Sector-Wide Selling", "url": "https://news.alphastreet.com/universal-health-services-drops-5-3-amid-sector-wide-selling/"},
+    {"title": "Universal Health Services Bets on Hospital Recovery as Medicaid Payments Fall in 2027", "url": "https://www.marketbeat.com/instant-alerts/event-universal-health-services-bets-on-hospital-recovery-as-medicaid-payments-fall-in-2027-2026-11-15/"},
+    {"title": "Universal Health Services Inc (UHS) Shares Fall 3.1% -- What GF Score of 90 Tells Investors", "url": "https://www.gurufocus.com/news/9208764/universal-health-services-inc-uhs-shares-fall-31-what-gf-score-of-90-tells-investors"}
    ]
   }
  }
