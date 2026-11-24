@@ -576,5 +576,55 @@
   "stop": 1041.55,
   "conf": 6.2,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-23",
+  "t": "ASH",
+  "tier": "solid",
+  "buy": 70.61,
+  "tgt": 72.73,
+  "stop": 65.32,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-23",
+  "t": "BTSG",
+  "tier": "solid",
+  "buy": 63.69,
+  "tgt": 65.61,
+  "stop": 57.67,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-23",
+  "t": "CACI",
+  "tier": "solid",
+  "buy": 585.16,
+  "tgt": 602.71,
+  "stop": 533.81,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-23",
+  "t": "ELF",
+  "tier": "solid",
+  "buy": 105.73,
+  "tgt": 108.91,
+  "stop": 92.07,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-23",
+  "t": "PSX",
+  "tier": "solid",
+  "buy": 236.51,
+  "tgt": 243.61,
+  "stop": 215.98,
+  "conf": 6.2,
+  "verdict": null
  }
 ]
