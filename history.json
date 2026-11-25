@@ -626,5 +626,15 @@
   "stop": 215.98,
   "conf": 6.2,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-24",
+  "t": "RGLD",
+  "tier": "solid",
+  "buy": 228.27,
+  "tgt": 235.12,
+  "stop": 205.52,
+  "conf": 6.2,
+  "verdict": null
  }
 ]

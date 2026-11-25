@@ -1,173 +1,111 @@
 {
- "asof": "2026-11-23",
+ "asof": "2026-11-24",
  "model": "Claude",
- "generated_utc": "2026-11-24T05:05:08Z",
+ "generated_utc": "2026-11-25T05:04:06Z",
  "note": {
-  "mood": "mixed",
+  "mood": "risk-off",
   "bullets": [
-   "Asia/Europe rallied on Nvidia's 31.5% surge after Huang's CEO return (Nikkei +3%, Euro Stoxx futures +2.3%), but US futures are flat-to-lower, signaling consolidation.",
-   "Oil slid to ~$80/bbl, easing inflation worries and lifting Treasuries even as the 10Y yield ticked up toward ~4.95%.",
-   "VIX plunged ~26% from Monday's spike, showing fear fading fast after the AI-led rebound; risk appetite improved sharply.",
-   "Key data: CB Consumer Confidence today, then Core PCE and Prelim GDP tomorrow (Nov25) - both high-impact for the rate path."
+   "Asia/Europe extended the AI-led selloff overnight; SoftBank -15%, S&P and Nasdaq futures down ~0.7%/1.3% on AI-capex doubts.",
+   "Geopolitical risk rose after a Houthi attack injured 11 at Saudi PIF's tower; Brent still down ~1.5% on demand concerns.",
+   "VIX elevated near 26.4 even as it dips ~1% today; Staples/Discretionary outperform while Semis (-23.5%) and Tech (-17%) lead losses.",
+   "Core PCE and Prelim GDP data due today (high impact) could shift rate-cut bets; 10Y yield already at 4.90%."
   ]
  },
  "picks": {
-  "ASH": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "ASH fell on a Q4 earnings miss (Nov10) and activist sale pressure; Clariant/CD&R buyout talks (Nov22-23) now dominate near current price, creating binary M&A-outcome risk inside the hold window.",
-   "sentiment": 0.5,
-   "sent_conf": 0.8,
-   "bull": "Confirmed Clariant/CD&R buyout talks could lift shares toward a cash deal premium.",
-   "bear": "Q4 earnings miss drove the drop, and collapsed takeover talks would trigger a sharp reversal.",
-   "catalysts": "Possible Clariant/CD&R deal announcement or confirmation talks collapsed",
-   "flags": ["earnings miss", "pending M&A", "binary risk"],
-   "sources": [
-    {"title": "Clariant and CD&R Near Deal to Acquire Ashland Inc (ASH) in Cash Transaction", "url": "https://www.gurufocus.com/news/9214241/clariant-and-cdr-near-deal-to-acquire-ashland-inc-ash-in-cash-transaction"},
-    {"title": "ASH Q4 Earnings Miss Estimates Despite Strong Segment Growth", "url": "https://finance.yahoo.com/markets/stocks/articles/ash-q4-earnings-miss-estimates-181000732.html?.tsrc=rss"},
-    {"title": "Ashland edges higher after Clariant confirms takeover talks", "url": "https://seekingalpha.com/news/4675847-ashland-edges-higher-after-clariant-confirms-takeover-talks"}
-   ]
-  },
-  "BTSG": {
+  "RGLD": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "Drop tracked a broad healthcare-sector selloff (peers also fell on Medicaid/reimbursement fears); BTSG keeps all-buy ratings (18/0/0) and BMO reiterated Outperform, raising its PT to $84 on Nov18. No guidance cut or earnings miss found.",
-   "sentiment": -0.1,
-   "sent_conf": 0.6,
-   "bull": "Sector-wide healthcare selloff, not company news, drove the drop; all 18 analysts rate it buy.",
-   "bear": "Valuation looks stretched per Seeking Alpha, and a minor rating trim (Wall Street Zen) could add pressure.",
-   "catalysts": "none found",
-   "flags": ["sector-wide selloff", "valuation concern"],
-   "sources": [
-    {"title": "BrightSpring Health Services Drops 5.5% Amid Sector-Wide Selling", "url": "https://news.alphastreet.com/brightspring-health-services-drops-5-5-amid-sector-wide-selling/"},
-    {"title": "BrightSpring Health Services (NASDAQ:BTSG) Stock Rating Cut to Buy at Wall Street Zen", "url": "https://www.marketbeat.com/instant-alerts/analyst-brightspring-health-services-nasdaq-btsg-stock-rating-cut-to-buy-at-wall-street-zen-2026-11-21/"},
-    {"title": "BrightSpring Health Services: Growth Is Already Priced In", "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeVVqSWtfM2lIZFFDck5aTVU2Tk03SXFMa3kzY1pwdk1qckpMTG1RXzZvTklPSGxGMWJKOW5nZnAwTW9YWmhtem5DaTQ1ak9wUFpjQ2hyaXVQNU44X2NzNF82SEdiQjdIc1dDeW9wcGxGN1cwdDMyU2tTZXRkSmw1WmY5cEhPR2lYREw1Y0ZwN1h3bE51dGNiNG80V1o1QQ?oc=5"}
-   ]
-  },
-  "CACI": {
-   "verdict": "CONFIRM",
-   "cause": "macro",
-   "why": "No guidance cut, earnings miss, or recent company-specific downgrade found (dd.moves empty, ratings 14/2/1 mostly buy). Decline lines up with the broad tech/services pullback that reversed sharply on Nov23.",
-   "sentiment": 0.4,
+   "why": "All 22 large gold peers fell with RGLD as gold prices pulled back; no RGLD-specific bad news. Company raised its dividend 10.5% (26th straight year) and guided 2027 mine ramp-up growth.",
+   "sentiment": 0.2,
    "sent_conf": 0.5,
-   "bull": "No negative company news found; coverage calls defense-modernization demand a durable growth driver.",
-   "bear": "An older BNP Paribas downgrade (October) flagged valuation concerns that may still weigh on sentiment.",
+   "bull": "Sector-wide gold pullback hit all 22 large gold peers; RGLD raised its dividend 10.5% and guided 2027 growth.",
+   "bear": "Gold prices remain soft and RGLD trades at a discount to large-cap peers on acquisition-integration concerns.",
    "catalysts": "none found",
-   "flags": ["no company catalyst found"],
+   "flags": ["rvol <1, no news-driven spike"],
    "sources": [
-    {"title": "Durable Growth Profile and Defense Modernization Demands Strengthens CACI International (CACI)", "url": "https://finance.yahoo.com/markets/stocks/articles/durable-growth-profile-defense-modernization-163622725.html?.tsrc=rss"},
-    {"title": "CACI International (NYSE:CACI) Director Sells 210 Shares of Company Stock", "url": "https://www.marketbeat.com/instant-alerts/insider-caci-international-nyse-caci-director-sells-210-shares-of-company-stock-2026-11-04/"}
+    {"title": "Royal Gold Inc (RGLD) Shares Fall 4.1% -- What GF Score of 92 Tells Investors", "url": "https://www.gurufocus.com/news/9213648/royal-gold-inc-rgld-shares-fall-41-what-gf-score-of-92-tells-investors"},
+    {"title": "Royal Gold Inc (RGLD) Shares Fall 5.0% -- What GF Score of 96 Tells Investors", "url": "https://www.gurufocus.com/news/9196005/royal-gold-inc-rgld-shares-fall-50-what-gf-score-of-96-tells-investors"},
+    {"title": "Royal Gold Sees 2027 Growth From Mine Ramp-Ups, Holds Off on Guidance", "url": "https://finance.yahoo.com/markets/commodities/articles/royal-gold-sees-2027-growth-201214729.html"}
    ]
   },
-  "ELF": {
-   "verdict": "CAUTION",
-   "cause": "unclear",
-   "why": "Shares gave back part of a post-earnings-beat rally (soared ~52% in mid-Nov) with no fresh negative company news found; the slide looks like profit-taking/technical (broke the 50-day MA) rather than a clear sector or macro driver.",
-   "sentiment": 0.0,
+  "ELV": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Drop tracks a sector-wide selloff after CMS proposed ~$107B in Medicare Advantage bonus cuts, hitting UNH/HUM/CVS/ELV together. Elevance is actually a relative winner (4-star share rises 40%->53%) and Argus upgraded to Buy on 11/18.",
+   "sentiment": 0.1,
    "sent_conf": 0.4,
-   "bull": "Fundamentals remain strong post-earnings-beat; no negative company news found to explain the slide.",
-   "bear": "Pullback broke the 50-day MA with no sector tailwind, so momentum selling could continue.",
+   "bull": "Sector-wide MA selloff, but Elevance gains 4-star plan share (40%->53%) and was just upgraded to Buy.",
+   "bear": "CMS's $107B bonus-cut proposal creates multi-year earnings uncertainty across the entire MA industry.",
    "catalysts": "none found",
-   "flags": ["post-rally profit-taking", "unclear cause"],
+   "flags": ["CMS rule-making overhang unresolved"],
    "sources": [
-    {"title": "e.l.f. Beauty (NYSE:ELF) Stock Crosses Below Fifty Day Moving Average - Time to Sell?", "url": "https://www.marketbeat.com/instant-alerts/price-elf-beauty-nyse-elf-stock-crosses-below-fifty-day-moving-average-time-to-sell-2026-11-21/"},
-    {"title": "ELF Beauty Soars 52% Amid Earnings Beat; Nears Buy Point As Market Crumbles", "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5tcjBHYmxDUWZuSFp2R21MRlhFdl84Z3h6UVFsUUlobXdPRC1xSHdWdy1idHV2QjFrREM5NWdLMkRKR1lncG1kQktONWxPSEpCQXF1WV9vVXJldmc4eDBBNWdzZkxRU2ZpX3h4WVBlb2E3cHZKazdsNXVB?oc=5"},
-    {"title": "e.l.f. Beauty Inc (ELF) Shares Fall 4.1% -- What GF Score of 93 Tells Investors", "url": "https://www.gurufocus.com/news/9206356/elf-beauty-inc-elf-shares-fall-41-what-gf-score-of-93-tells-investors"}
+    {"title": "UnitedHealth, Humana and CVS Shares Fall as Medicare Advantage Rating Changes Threaten $107 Billion in Payments", "url": "https://investorshub.advfn.com/market-news/article/40536/unitedhealth-humana-and-cvs-shares-fall-as-medicare-advantage-rating-changes-threaten-107-billion-in-payments"},
+    {"title": "CMS proposes $100B cut to Medicare Advantage star ratings pay", "url": "https://www.healthcaredive.com/news/cms-proposes-100b-cut-to-medicare-advantage-star-ratings-pay/875441/"},
+    {"title": "Not Good: Medicare Proposes $107 Billion in Bonus Cuts. That's a Big Risk for UnitedHealth and Humana", "url": "https://www.tikr.com/blog/not-good-medicare-proposes-107-billion-in-bonus-cuts-thats-a-big-risk-for-unitedhealth-and-humana"}
+   ]
+  },
+  "HUM": {
+   "verdict": "CAUTION",
+   "cause": "sector",
+   "why": "Same sector-wide CMS Medicare Advantage bonus-cut proposal hit all MA insurers. But Humana is the most exposed within the group (4-star membership falls 25%->20%), even as sell-side raised PTs to as high as $602.",
+   "sentiment": -0.08,
+   "sent_conf": 0.53,
+   "bull": "Four firms raised price targets (up to $602) despite the sector-wide CMS star-ratings selloff.",
+   "bear": "Humana has the most at stake industry-wide, with 4-star membership falling from 25% to 20% next year.",
+   "catalysts": "none found",
+   "flags": ["most exposed to MA star-rating cut within the sector", "mixed recent sentiment"],
+   "sources": [
+    {"title": "Not Good: Medicare Proposes $107 Billion in Bonus Cuts. That's a Big Risk for UnitedHealth and Humana", "url": "https://www.tikr.com/blog/not-good-medicare-proposes-107-billion-in-bonus-cuts-thats-a-big-risk-for-unitedhealth-and-humana"},
+    {"title": "CMS proposes $100B cut to Medicare Advantage star ratings pay", "url": "https://www.healthcaredive.com/news/cms-proposes-100b-cut-to-medicare-advantage-star-ratings-pay/875441/"},
+    {"title": "Own Humana Stock? Its Profit Cushion Is The Thinnest", "url": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24"}
+   ]
+  },
+  "MOH": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Fell alongside UNH/HUM/CVS/ELV on the CMS Medicare Advantage bonus-cut proposal (MOH down ~7.8% in premarket on the news). No Molina-specific negative news or downgrades found; next earnings call isn't until Feb 2, 2027.",
+   "sentiment": 0.03,
+   "sent_conf": 0.47,
+   "bull": "Decline mirrors the sector-wide CMS selloff, not Molina-specific news; no analyst downgrades found.",
+   "bear": "Sell-side is already skeptical (4 buy/14 hold/1 sell) with no near-term catalyst before February earnings.",
+   "catalysts": "none found",
+   "flags": ["ratings skew hold-heavy (4B/14H/1S)"],
+   "sources": [
+    {"title": "Winners and losers from 2026 Medicare Advantage star ratings", "url": "https://finance.yahoo.com/news/winners-losers-2026-medicare-advantage-094316877.html"},
+    {"title": "CMS proposes $100B cut to Medicare Advantage star ratings pay", "url": "https://www.healthcaredive.com/news/cms-proposes-100b-cut-to-medicare-advantage-star-ratings-pay/875441/"},
+    {"title": "Molina Healthcare (MOH) Stock May Still Be A Bargain On Sales", "url": "https://finance.yahoo.com/healthcare/articles/molina-healthcare-moh-stock-may-002033094.html"}
    ]
   },
   "PSX": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "Drop tracks the Energy sector's broad decline on industry-wide weaker refining margins; no PSX-specific guidance cut, earnings miss, or downgrade found, and recent Q3 earnings were strong.",
-   "sentiment": -0.05,
-   "sent_conf": 0.45,
-   "bull": "Decline matches sector-wide refining-margin weakness, not a PSX-specific problem; midstream/chemicals cushion earnings.",
-   "bear": "Refining margins remain pressured industry-wide and could stay weak into next quarter.",
+   "why": "Marathon, Valero and Phillips 66 fell together for a 7th straight session on crack-spread/refining-margin fears; PSX actually fell less than peers (Valero -23% vs PSX -17% over the month). No PSX-specific bad news or downgrades.",
+   "sentiment": -0.06,
+   "sent_conf": 0.4,
+   "bull": "Marathon, Valero and Phillips 66 are falling together on crack-spread fears, with no PSX-specific bad news.",
+   "bear": "Seven straight losing sessions reflect a real deterioration in refining-margin sentiment that could persist.",
    "catalysts": "none found",
-   "flags": ["sector-wide refining weakness"],
+   "flags": [],
    "sources": [
-    {"title": "Can Phillips 66's Midstream Investments Cushion Refining Pressures?", "url": "https://finance.yahoo.com/energy/articles/phillips-66s-midstream-investments-cushion-143800536.html?.tsrc=rss"},
-    {"title": "Phillips 66 and Valero Are Turning Strong Refining Margins Into Bigger Dividends", "url": "https://finance.yahoo.com/energy/articles/phillips-66-valero-turning-strong-141746540.html"},
-    {"title": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?", "url": "https://247wallst.com/investing/2026/11/21/phillips-66-vs-valero-which-dividend-can-better-survive-falling-refining-margins/?.tsrc=rss"}
+    {"title": "Marathon, Phillips 66, Valero Head for 7th Straight Loss", "url": "https://www.benzinga.com/markets/equities/26/11/63600208/marathon-phillips-66-valero-seventh-straight-loss-hormuz-refiners-crack-spread"},
+    {"title": "Marathon Petroleum Sinks 7%, Valero Down 8%, Phillips 66 Down 7% as Refiners Slide Together", "url": "https://finance.yahoo.com/markets/stocks/articles/marathon-petroleum-sinks-7-valero-151340323.html"},
+    {"title": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?", "url": "https://247wallst.com/investing/2026/11/21/phillips-66-vs-valero-which-dividend-can-better-survive-falling-refining-margins/"}
    ]
   },
-  "APPF": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Earnings (Nov5) beat with raised 2026 guidance; the CEO's $443k sale (Nov17) looks small/routine. Drop aligns with the broad Software sector selloff, not company damage.",
-   "sentiment": 0.1,
-   "sent_conf": 0.3,
-   "bull": "Raised 2026 guidance post-earnings and no fundamental red flag found; decline mirrors the software-sector rout.",
-   "bear": "CEO insider sale and a break below prior support add some caution despite the sector read.",
-   "catalysts": "none found",
-   "flags": ["software sector selloff", "minor insider sale"],
-   "sources": [
-    {"title": "Is AppFolio (APPF) Fairly Valued After Strong Earnings And Higher 2026 Guidance?", "url": "https://finance.yahoo.com/markets/stocks/articles/appfolio-appf-fairly-valued-strong-051906278.html"},
-    {"title": "AppFolio (NASDAQ:APPF) CEO Sells 2,058 Shares of Company Stock", "url": "https://www.marketbeat.com/instant-alerts/insider-appfolio-nasdaq-appf-ceo-sells-2058-shares-of-company-stock-2026-11-19/"},
-    {"title": "Is AppFolio Inc (APPF) a Bargain After 4.7% Drop? GF Value Says Undervalued", "url": "https://www.gurufocus.com/news/9206345/is-appfolio-inc-appf-a-bargain-after-47-drop-gf-value-says-undervalued"}
-   ]
-  },
-  "UHS": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Decline matches a sector-wide hospital-stock selloff tied to 2027 Medicaid supplemental-payment/reimbursement concerns hitting all major peers, not UHS-specific news. Leerink trimmed its PT to $192 (Nov23) but kept Outperform.",
-   "sentiment": -0.2,
-   "sent_conf": 0.5,
-   "bull": "Sector-wide Medicaid-policy selloff hit all hospital peers; Leerink still rates UHS Outperform.",
-   "bear": "2027 Medicaid supplemental-payment cuts are a real, sector-wide earnings headwind, not just sentiment.",
-   "catalysts": "none found",
-   "flags": ["sector-wide Medicaid policy risk"],
-   "sources": [
-    {"title": "Universal Health Services Drops 5.3% Amid Sector-Wide Selling", "url": "https://news.alphastreet.com/universal-health-services-drops-5-3-amid-sector-wide-selling/"},
-    {"title": "Universal Health Services Fell 6% as Rival HCA Guides 2027 Earnings \"Generally Consistent\" With 2026", "url": "https://www.tikr.com/blog/universal-health-services-fell-6-as-rival-hca-guides-2027-earnings-generally-consistent-with-2026"},
-    {"title": "Universal Health Services Bets on Hospital Recovery as Medicaid Payments Fall in 2027", "url": "https://www.marketbeat.com/instant-alerts/event-universal-health-services-bets-on-hospital-recovery-as-medicaid-payments-fall-in-2027-2026-11-15/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss"}
-   ]
-  },
-  "HRB": {
+  "BJ": {
    "verdict": "CAUTION",
-   "cause": "unclear",
-   "why": "No fresh company-specific news in the last 10 days found; Goldman Sachs maintains a Sell rating (PT raised to $40, Nov10) and short interest is elevated (18.9%). The decline looks like a grind lower, not a single catalyst.",
-   "sentiment": -0.2,
-   "sent_conf": 0.4,
-   "bull": "No new negative news found; the stock already screens undervalued per GF Value estimates.",
-   "bear": "Goldman's persistent Sell call and high short interest (18.9% of float) signal real skepticism.",
-   "catalysts": "none found",
-   "flags": ["Goldman Sell rating", "high short interest"],
-   "sources": [
-    {"title": "H&R Block (NYSE:HRB) Share Price Breaks Below 50-Day Moving Average - Here's What Happened", "url": "https://www.marketbeat.com/instant-alerts/price-hr-block-nyse-hrb-share-price-breaks-below-50-day-moving-average-heres-what-happened-2026-11-20/"},
-    {"title": "H&R Block Inc (HRB) Stock Down 3.0% -- Now Undervalued? GF Score: 88/100", "url": "https://www.gurufocus.com/news/9206419/hr-block-inc-hrb-stock-down-30-now-undervalued-gf-score-88100"}
-   ]
-  },
-  "TOST": {
-   "verdict": "VETO",
    "cause": "company",
-   "why": "Bernstein downgraded TOST to Market Perform (Nov11, PT cut to $38), citing the AI-winner thesis having already played out and the CFO's departure - a company-specific fundamental call, even though Citizens initiated Outperform on Nov23.",
-   "sentiment": 0.2,
+   "why": "Q3 beat and FY26 guidance raise included a $240M one-time legal-settlement gain that masked a merchandise gross-margin decline; stock fell ~7% despite the beat. Not sector/macro. DA Davidson and TD Cowen still raised PTs to $122-123.",
+   "sentiment": 0.4,
    "sent_conf": 0.5,
-   "bull": "New Citizens Outperform initiation (Nov23) and Truist's raised PT suggest Street confidence remains.",
-   "bear": "Bernstein's downgrade cited the CFO's departure and a played-out AI thesis - real company-specific damage.",
+   "bull": "Q3 revenue/EPS beat and FY26 guidance was raised; DA Davidson and TD Cowen lifted price targets to $122-123.",
+   "bear": "The beat leaned on a $240M one-time legal settlement while core merchandise gross margin actually declined.",
    "catalysts": "none found",
-   "flags": ["CFO departure", "downgrade on fundamentals"],
+   "flags": ["earnings quality concern (one-time gain)"],
    "sources": [
-    {"title": "Bernstein downgrades Toast stock rating on AI thesis, CFO exit", "url": "https://ca.investing.com/news/stock-market-news/bernstein-downgrades-toast-stock-rating-on-ai-thesis-cfo-exit-93CH-4949410"},
-    {"title": "Bernstein SocGen Group Downgrades Toast Inc. (TOST) to Market Perform", "url": "https://www.streetinsider.com/Analyst+Comments/Bernstein+SocGen+Group+Downgrades+Toast+Inc.+(TOST)+to+Market+Perform/27325912.html"},
-    {"title": "Toast Stock Slips as Bernstein Says AI Case Has Played Out", "url": "https://www.gurufocus.com/news/9192101/toast-stock-slips-as-bernstein-says-ai-case-has-played-out"}
-   ]
-  },
-  "GWW": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Baird's downgrade (Nov20) explicitly cited valuation/sector rotation risk for industrial distributors broadly (it also cut Fastenal same day), not a GWW-specific problem; Morgan Stanley raised its PT to $1,590. Next earnings isn't due for ~50 days.",
-   "sentiment": -0.1,
-   "sent_conf": 0.4,
-   "bull": "Baird explicitly said its downgrade reflects sector valuation, not a company problem; Morgan Stanley raised its PT.",
-   "bear": "Barclays remains Underweight, and if the sector de-rating continues, GWW could keep lagging the group.",
-   "catalysts": "none found",
-   "flags": ["sector valuation de-rating"],
-   "sources": [
-    {"title": "Baird cuts Grainger and Fastenal to Neutral on valuation, not on a company problem", "url": "https://www.quantisnow.com/articles/baird-cuts-grainger-and-fastenal-to-neutral-on-valuation-not-a-company-problem"},
-    {"title": "Grainger downgraded to Neutral from Outperform at Baird", "url": "https://www.tipranks.com/news/the-fly/grainger-downgraded-to-neutral-from-outperform-at-baird-thefly-news"},
-    {"title": "Grainger H2 Earnings Call Highlights", "url": "https://www.marketbeat.com/instant-alerts/transcript-grainger-h2-earnings-call-highlights-2026-11-19/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss"}
+    {"title": "BJ's Wholesale Stock Falls Despite Q3 Earnings Beat, Raised Outlook As One-Time Gain Boosts Profit", "url": "https://www.benzinga.com/markets/earnings/26/11/63468510/bjs-wholesale-stock-falls-despite-q3-earnings-beat-raised-outlook-as-one-time-gain-boosts-profit"},
+    {"title": "BJ's Q3 performance gets boost from $240M legal settlement", "url": "https://www.supermarketnews.com/finance/bj-s-q3-performance-gets-boost-from-240m-legal-settlement"},
+    {"title": "BJ's Q3 Earnings Beat on Strong Comps, FY26 Outlook Raised", "url": "https://finance.yahoo.com/markets/stocks/articles/bjs-q3-earnings-beat-strong-135200401.html"}
    ]
   }
  }
