@@ -1,111 +1,101 @@
 {
- "asof": "2026-11-24",
+ "asof": "2026-11-25",
  "model": "Claude",
- "generated_utc": "2026-11-25T05:04:06Z",
+ "generated_utc": "2026-11-26T06:26:44Z",
  "note": {
-  "mood": "risk-off",
+  "mood": "mixed",
   "bullets": [
-   "Asia/Europe extended the AI-led selloff overnight; SoftBank -15%, S&P and Nasdaq futures down ~0.7%/1.3% on AI-capex doubts.",
-   "Geopolitical risk rose after a Houthi attack injured 11 at Saudi PIF's tower; Brent still down ~1.5% on demand concerns.",
-   "VIX elevated near 26.4 even as it dips ~1% today; Staples/Discretionary outperform while Semis (-23.5%) and Tech (-17%) lead losses.",
-   "Core PCE and Prelim GDP data due today (high impact) could shift rate-cut bets; 10Y yield already at 4.90%."
+   "US markets shut for Thanksgiving; S&P/Nasdaq futures up ~0.7-1.1% as Asia tech rebounds (Nikkei +1.6%, Hang Seng +2.1%) after this week's AI-led selloff.",
+   "VIX still near 28 after S&P flagged a possible Nvidia credit-rating cut on governance risk, keeping a risk-off undertone despite the overnight bounce.",
+   "US proposed new tariffs on 14 trading partners including China and the EU, adding fresh trade-policy uncertainty into year-end.",
+   "European indices closed lower Wednesday (FTSE -0.4%, DAX -1.3%, CAC -0.8%); Brent +0.6%, gold +1.6%, 10Y yield eased to 4.85%."
   ]
  },
  "picks": {
-  "RGLD": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "All 22 large gold peers fell with RGLD as gold prices pulled back; no RGLD-specific bad news. Company raised its dividend 10.5% (26th straight year) and guided 2027 mine ramp-up growth.",
-   "sentiment": 0.2,
-   "sent_conf": 0.5,
-   "bull": "Sector-wide gold pullback hit all 22 large gold peers; RGLD raised its dividend 10.5% and guided 2027 growth.",
-   "bear": "Gold prices remain soft and RGLD trades at a discount to large-cap peers on acquisition-integration concerns.",
+  "BJ": {
+   "verdict": "VETO",
+   "cause": "company",
+   "why": "BJ's beat Q3 and raised FY26 guidance, but results leaned on a $240M one-time legal settlement masking margin pressure; insider selling flagged and BofA cut to Neutral (company-specific), explaining the drop.",
+   "sentiment": -0.12,
+   "sent_conf": 0.85,
+   "bull": "Raised guidance and record membership base suggest the core business is still growing.",
+   "bear": "One-time settlement masks margin pressure; insider selling is a genuine earnings-quality red flag.",
    "catalysts": "none found",
-   "flags": ["rvol <1, no news-driven spike"],
+   "flags": ["insider selling", "earnings quality", "BofA downgrade"],
    "sources": [
-    {"title": "Royal Gold Inc (RGLD) Shares Fall 4.1% -- What GF Score of 92 Tells Investors", "url": "https://www.gurufocus.com/news/9213648/royal-gold-inc-rgld-shares-fall-41-what-gf-score-of-92-tells-investors"},
-    {"title": "Royal Gold Inc (RGLD) Shares Fall 5.0% -- What GF Score of 96 Tells Investors", "url": "https://www.gurufocus.com/news/9196005/royal-gold-inc-rgld-shares-fall-50-what-gf-score-of-96-tells-investors"},
-    {"title": "Royal Gold Sees 2027 Growth From Mine Ramp-Ups, Holds Off on Guidance", "url": "https://finance.yahoo.com/markets/commodities/articles/royal-gold-sees-2027-growth-201214729.html"}
+    {"title": "What Does BJ's Wholesale Club Holdings (BJ) Raised Guidance Mean After Q3?", "url": "https://finance.yahoo.com/markets/stocks/articles/does-bjs-wholesale-club-holdings-211837722.html?.tsrc=rss"}
    ]
   },
-  "ELV": {
+  "WST": {
    "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Drop tracks a sector-wide selloff after CMS proposed ~$107B in Medicare Advantage bonus cuts, hitting UNH/HUM/CVS/ELV together. Elevance is actually a relative winner (4-star share rises 40%->53%) and Argus upgraded to Buy on 11/18.",
-   "sentiment": 0.1,
-   "sent_conf": 0.4,
-   "bull": "Sector-wide MA selloff, but Elevance gains 4-star plan share (40%->53%) and was just upgraded to Buy.",
-   "bear": "CMS's $107B bonus-cut proposal creates multi-year earnings uncertainty across the entire MA industry.",
+   "cause": "macro",
+   "why": "WST beat Q3 (EPS +35.7%) and raised FY26 outlook to $9.38-9.48 EPS; no negative company news found. Decline looks like profit-taking on an overbought name amid the broader multi-day risk-off tape.",
+   "sentiment": 0.24,
+   "sent_conf": 0.68,
+   "bull": "Raised guidance, 35.7% EPS growth, and 15 buy vs 1 sell rating show momentum intact.",
+   "bear": "Stock was overbought into earnings; pullback could extend if broad risk-off persists.",
    "catalysts": "none found",
-   "flags": ["CMS rule-making overhang unresolved"],
+   "flags": ["overbought", "no damage found"],
    "sources": [
-    {"title": "UnitedHealth, Humana and CVS Shares Fall as Medicare Advantage Rating Changes Threaten $107 Billion in Payments", "url": "https://investorshub.advfn.com/market-news/article/40536/unitedhealth-humana-and-cvs-shares-fall-as-medicare-advantage-rating-changes-threaten-107-billion-in-payments"},
-    {"title": "CMS proposes $100B cut to Medicare Advantage star ratings pay", "url": "https://www.healthcaredive.com/news/cms-proposes-100b-cut-to-medicare-advantage-star-ratings-pay/875441/"},
-    {"title": "Not Good: Medicare Proposes $107 Billion in Bonus Cuts. That's a Big Risk for UnitedHealth and Humana", "url": "https://www.tikr.com/blog/not-good-medicare-proposes-107-billion-in-bonus-cuts-thats-a-big-risk-for-unitedhealth-and-humana"}
+    {"title": "West Pharmaceutical: 3 Key Takeaways for Long-Term Investors", "url": "https://www.fool.com/earnings/takeaways/2026/11/24/west-pharmaceutical-3-key-takeaways-for-long-term-investors/?.tsrc=rss"}
    ]
   },
-  "HUM": {
+  "TXN": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Weakness tracks a sector-wide semiconductor oversupply scare (UBS flagged rising chip inventories industry-wide), not a TXN problem; Cantor Fitzgerald upgraded TXN to Overweight and raised PT to 385 this week.",
+   "sentiment": 0.21,
+   "sent_conf": 0.83,
+   "bull": "Diversified industrial/auto/data-center mix and a fresh Overweight upgrade argue TXN is relatively insulated.",
+   "bear": "If chip oversupply shows up in numbers next quarter, the whole group re-rates lower.",
+   "catalysts": "none found",
+   "flags": ["sector oversupply risk"],
+   "sources": [
+    {"title": "Texas Instruments (TXN) Remains A Preferred Pick Despite Chip Oversupply Risk", "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-remains-preferred-222318529.html?.tsrc=rss"}
+   ]
+  },
+  "ASH": {
    "verdict": "CAUTION",
-   "cause": "sector",
-   "why": "Same sector-wide CMS Medicare Advantage bonus-cut proposal hit all MA insurers. But Humana is the most exposed within the group (4-star membership falls 25%->20%), even as sell-side raised PTs to as high as $602.",
-   "sentiment": -0.08,
-   "sent_conf": 0.53,
-   "bull": "Four firms raised price targets (up to $602) despite the sector-wide CMS star-ratings selloff.",
-   "bear": "Humana has the most at stake industry-wide, with 4-star membership falling from 25% to 20% next year.",
-   "catalysts": "none found",
-   "flags": ["most exposed to MA star-rating cut within the sector", "mixed recent sentiment"],
+   "cause": "unclear",
+   "why": "Ashland is in confirmed, unresolved takeover talks with Clariant/CD&R (all-cash, near current price); Bloomberg says a deal 'could come together in coming days' but could also fall through, a binary event risk inside the hold window.",
+   "sentiment": 0.1,
+   "sent_conf": 0.7,
+   "bull": "An all-cash buyout near the current price would cap downside and could close within days.",
+   "bear": "No certainty talks conclude; a collapsed deal would remove the takeover premium fast.",
+   "catalysts": "Possible Clariant/CD&R deal announcement or collapse",
+   "flags": ["pending M&A", "binary event"],
    "sources": [
-    {"title": "Not Good: Medicare Proposes $107 Billion in Bonus Cuts. That's a Big Risk for UnitedHealth and Humana", "url": "https://www.tikr.com/blog/not-good-medicare-proposes-107-billion-in-bonus-cuts-thats-a-big-risk-for-unitedhealth-and-humana"},
-    {"title": "CMS proposes $100B cut to Medicare Advantage star ratings pay", "url": "https://www.healthcaredive.com/news/cms-proposes-100b-cut-to-medicare-advantage-star-ratings-pay/875441/"},
-    {"title": "Own Humana Stock? Its Profit Cushion Is The Thinnest", "url": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24"}
+    {"title": "Clariant confirms talks regarding a potential acquisition of Ashland", "url": "https://finance.yahoo.com/markets/stocks/articles/clariant-confirms-talks-regarding-potential-210000088.html?.tsrc=rss"},
+    {"title": "Clariant confirms talks regarding a potential acquisition of Ashland", "url": "https://www.globenewswire.com/news-release/2026/11/23/3408861/0/en/clariant-confirms-talks-regarding-a-potential-acquisition-of-ashland.html"}
    ]
   },
-  "MOH": {
+  "J": {
    "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Fell alongside UNH/HUM/CVS/ELV on the CMS Medicare Advantage bonus-cut proposal (MOH down ~7.8% in premarket on the news). No Molina-specific negative news or downgrades found; next earnings call isn't until Feb 2, 2027.",
-   "sentiment": 0.03,
-   "sent_conf": 0.47,
-   "bull": "Decline mirrors the sector-wide CMS selloff, not Molina-specific news; no analyst downgrades found.",
-   "bear": "Sell-side is already skeptical (4 buy/14 hold/1 sell) with no near-term catalyst before February earnings.",
-   "catalysts": "none found",
-   "flags": ["ratings skew hold-heavy (4B/14H/1S)"],
-   "sources": [
-    {"title": "Winners and losers from 2026 Medicare Advantage star ratings", "url": "https://finance.yahoo.com/news/winners-losers-2026-medicare-advantage-094316877.html"},
-    {"title": "CMS proposes $100B cut to Medicare Advantage star ratings pay", "url": "https://www.healthcaredive.com/news/cms-proposes-100b-cut-to-medicare-advantage-star-ratings-pay/875441/"},
-    {"title": "Molina Healthcare (MOH) Stock May Still Be A Bargain On Sales", "url": "https://finance.yahoo.com/healthcare/articles/molina-healthcare-moh-stock-may-002033094.html"}
-   ]
-  },
-  "PSX": {
-   "verdict": "CONFIRM",
-   "cause": "sector",
-   "why": "Marathon, Valero and Phillips 66 fell together for a 7th straight session on crack-spread/refining-margin fears; PSX actually fell less than peers (Valero -23% vs PSX -17% over the month). No PSX-specific bad news or downgrades.",
-   "sentiment": -0.06,
-   "sent_conf": 0.4,
-   "bull": "Marathon, Valero and Phillips 66 are falling together on crack-spread fears, with no PSX-specific bad news.",
-   "bear": "Seven straight losing sessions reflect a real deterioration in refining-margin sentiment that could persist.",
+   "cause": "macro",
+   "why": "Reporting explicitly states 'no company news explained the drop'; Jacobs fell with engineering/construction peers (Quanta, Comfort Systems) in a broad AI-led Nasdaq selloff. Truist, UBS and RBC all raised price targets this week.",
+   "sentiment": 0.44,
+   "sent_conf": 0.58,
+   "bull": "Peers fell in lockstep and three analysts raised price targets this week; no company damage.",
+   "bear": "Still exposed to further broad risk-off if the AI-led selloff resumes.",
    "catalysts": "none found",
    "flags": [],
    "sources": [
-    {"title": "Marathon, Phillips 66, Valero Head for 7th Straight Loss", "url": "https://www.benzinga.com/markets/equities/26/11/63600208/marathon-phillips-66-valero-seventh-straight-loss-hormuz-refiners-crack-spread"},
-    {"title": "Marathon Petroleum Sinks 7%, Valero Down 8%, Phillips 66 Down 7% as Refiners Slide Together", "url": "https://finance.yahoo.com/markets/stocks/articles/marathon-petroleum-sinks-7-valero-151340323.html"},
-    {"title": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?", "url": "https://247wallst.com/investing/2026/11/21/phillips-66-vs-valero-which-dividend-can-better-survive-falling-refining-margins/"}
+    {"title": "Jacobs (J) Stock Is Down 5.7% Today: AI-Led Market Selloff", "url": "https://finance.yahoo.com/markets/stocks/articles/jacobs-j-stock-down-5-153018697.html?.tsrc=rss"}
    ]
   },
-  "BJ": {
-   "verdict": "CAUTION",
-   "cause": "company",
-   "why": "Q3 beat and FY26 guidance raise included a $240M one-time legal-settlement gain that masked a merchandise gross-margin decline; stock fell ~7% despite the beat. Not sector/macro. DA Davidson and TD Cowen still raised PTs to $122-123.",
-   "sentiment": 0.4,
+  "MPC": {
+   "verdict": "CONFIRM",
+   "cause": "sector",
+   "why": "Decline tracks a 7th-straight-day drop across refiners (Marathon, Valero, Phillips 66) as the 3-2-1 crack spread nearly halved from its October peak amid easing Middle East supply-risk premium; no company-specific news found.",
+   "sentiment": -0.14,
    "sent_conf": 0.5,
-   "bull": "Q3 revenue/EPS beat and FY26 guidance was raised; DA Davidson and TD Cowen lifted price targets to $122-123.",
-   "bear": "The beat leaned on a $240M one-time legal settlement while core merchandise gross margin actually declined.",
+   "bull": "US gasoline demand at record highs and restricted new refining capacity support margins longer-term.",
+   "bear": "Crack spreads could keep compressing further if geopolitical risk premium keeps unwinding.",
    "catalysts": "none found",
-   "flags": ["earnings quality concern (one-time gain)"],
+   "flags": ["sector margin compression"],
    "sources": [
-    {"title": "BJ's Wholesale Stock Falls Despite Q3 Earnings Beat, Raised Outlook As One-Time Gain Boosts Profit", "url": "https://www.benzinga.com/markets/earnings/26/11/63468510/bjs-wholesale-stock-falls-despite-q3-earnings-beat-raised-outlook-as-one-time-gain-boosts-profit"},
-    {"title": "BJ's Q3 performance gets boost from $240M legal settlement", "url": "https://www.supermarketnews.com/finance/bj-s-q3-performance-gets-boost-from-240m-legal-settlement"},
-    {"title": "BJ's Q3 Earnings Beat on Strong Comps, FY26 Outlook Raised", "url": "https://finance.yahoo.com/markets/stocks/articles/bjs-q3-earnings-beat-strong-135200401.html"}
+    {"title": "Marathon Petroleum Corp. (MPC) Drives Strong Quarterly Gains for Energy Basket", "url": "https://finance.yahoo.com/energy/articles/marathon-petroleum-corp-mpc-drives-175905526.html?.tsrc=rss"},
+    {"title": "Marathon, Phillips 66, Valero Head for 7th Straight Loss", "url": "https://www.benzinga.com/markets/equities/26/11/63600208/marathon-phillips-66-valero-seventh-straight-loss-hormuz-refiners-crack-spread"}
    ]
   }
  }

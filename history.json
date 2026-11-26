@@ -636,5 +636,25 @@
   "stop": 205.52,
   "conf": 6.2,
   "verdict": null
+ },
+ {
+  "asof": "2026-11-25",
+  "t": "BJ",
+  "tier": "solid",
+  "buy": 101.28,
+  "tgt": 104.32,
+  "stop": 94.98,
+  "conf": 6.2,
+  "verdict": null
+ },
+ {
+  "asof": "2026-11-25",
+  "t": "WST",
+  "tier": "solid",
+  "buy": 377.29,
+  "tgt": 388.61,
+  "stop": 353.68,
+  "conf": 6.2,
+  "verdict": null
  }
 ]
