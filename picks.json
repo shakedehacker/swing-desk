@@ -44,104 +44,6 @@
  ],
  "picks": [
   {
-   "t": "WST",
-   "kind": "SIGNAL",
-   "rule": "solid",
-   "tier": "solid",
-   "c": 372.94000244140625,
-   "buy": 377.29474905836764,
-   "tgt": 388.6135915301187,
-   "stop": 353.68332066132524,
-   "days": 3,
-   "conf": 6.238702659942646,
-   "s": {
-    "n": 3371,
-    "win": 66.71610797982794,
-    "avg": 0.4103699895863643,
-    "days": 3,
-    "lose": -4.564946450166723
-   },
-   "ed": null,
-   "name": "West Pharmaceutical Services, I",
-   "drop": -7.692685366419805,
-   "rvol": 1.4680584119100282,
-   "dd": {
-    "ind": "Medical Instruments & Supplies",
-    "short": 0.0296,
-    "dtc": 2.47,
-    "ratings": [
-     15,
-     0,
-     1
-    ],
-    "moves": [],
-    "iv": 0.34917337844848634,
-    "imove": 3.809793898580121
-   },
-   "news": [
-    [
-     "West Pharmaceutical: 3 Key Takeaways for Long-Term Investors",
-     "https://www.fool.com/earnings/takeaways/2026/11/24/west-pharmaceutical-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 24 Nov 2026 23:47:22 +0000"
-    ],
-    [
-     "Why Is Everybody Paying A Premium For West Pharmaceutical Stock?",
-     "https://www.trefis.com/stock/wst/articles/628310/why-is-everybody-paying-a-premium-for-west-pharmaceutical-stock/2026-11-24?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Tue, 24 Nov 2026 20:57:23 +0000"
-    ],
-    [
-     "Is West Pharmaceutical Stock Too Expensive At $390?",
-     "https://www.trefis.com/stock/wst/articles/627614/is-west-pharmaceutical-stock-too-expensive-at-390/2026-11-23?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 23 Nov 2026 14:03:13 +0000"
-    ],
-    [
-     "Reasons to Add West Pharmaceutical Stock to Your Portfolio Now",
-     "https://finance.yahoo.com/markets/stocks/articles/reasons-add-west-pharmaceutical-stock-132900527.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Thu, 19 Nov 2026 13:29:00 +0000"
-    ],
-    [
-     "Embecta (EMBC) Stock Is Down 9.8% Today After Earnings Surge, Market Selloff",
-     "https://finance.yahoo.com/markets/stocks/articles/embecta-embc-stock-down-9-150038364.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 25 Nov 2026 15:00:38 +0000"
-    ],
-    [
-     "GE HealthCare Expands CT Portfolio With New Systems and AI Innovations",
-     "https://finance.yahoo.com/healthcare/articles/ge-healthcare-expands-ct-portfolio-154000497.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 25 Nov 2026 15:40:00 +0000"
-    ],
-    [
-     "Why West Pharmaceutical Services (WST) Stock Is Down Today - Quiver Quantitative",
-     "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVExnRVg0N0RTWXZEY0FmUXhCVjM4U19Jb0F1WXowRG1hQUt2VTJrMnRYN3V5X2l2M1daR2IxZVFNWlFKWGtwaHhYajV2S3c0VVFvLXRNUlZyUTFKSmtLZzd2c3lORzVpYWE4ZnVlSm1Dc0hBNmVBcHcyZGJXak9SYTE5WlVJVy1ZczZtV3o3cWZzQklRWkNUZHRJRQ?oc=5",
-     "Quiver Quantitative",
-     "Wed, 25 Nov 2026 18:33:00 GMT"
-    ],
-    [
-     "West Pharmaceutical Services (NYSE:WST) Stock Actively Traded Today After Third Quarter 2026 Results and a Guidance Increase - kalkine.ca",
-     "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORXVja0hqaDlGUFh2Zi16cXZFY2hLZmdkelJDS2NSSmxvYXdhREc3RFZlUHJVNzFGSWdHSGI3aGdlTmpDY1N1a19wbks1dmNjQWs3MWotRzFUcnpRVWVMWmtWVEZ3cGxMbDBIUVZ5SEM0dC1yX3NvSEtPdE5JX19NR2tTeW1xZDdTWmNMZktGb1JYQ3FhakpvOUlhc3hKOWpLM3RyZ1hTb0dGNFB3cUdyTEU3T3N6MWhmQjBrdVJFZWpPSEpEaU1XSmlRUWgtSGdEYS1KWnFNcDhMaFFkb09mbHc0ek0xbXB5akkzTg?oc=5",
-     "kalkine.ca",
-     "Wed, 25 Nov 2026 20:36:00 GMT"
-    ],
-    [
-     "West Pharmaceutical Services, I (WST) Stock Forecasts - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNHNDUG85RFJHUHRHdWl4TGcybDR5OVlHYktUODd2ZXlHQUZtZTJTdW1sdDNvTjBlY1ppcFZyVGVqLURvWDdQT1BQZWZ2ZXhBVVVfVEpzZTJVbjByTk9oSXpvMkJkNDNZYUJuNU94ZWd3Y01waEFhNVBfVGN5dzNNZTZLWkp5SWRQc2kwd3VJd0JueE9P?oc=5",
-     "Yahoo! Finance Canada",
-     "Tue, 24 Nov 2026 00:58:18 GMT"
-    ],
-    [
-     "Understanding the Setup: (WST) and Scalable Risk - Stock Traders Daily",
-     "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT1l5bW9SZVR5Y0hRWk5NMU9ueW9GazM5WUpfdXFtQVpXNlotdVQyTG1jMmp3OU1VenhOcmk4SlJFeFBBVUFSSHRwajNsR1E1TGR5dk5VNGU2cFZ0TXhjZ204aHdwWDdHdWROdWN6eDJjTTdoTFlWaUdETnpLTzJpb2RZMlFQck9iRHBSdjlXQW83cUdBWTZSaWhLblBYa0ZHSlR1N21kQlowZHc0WXV3eDVsMVh0aHpfS3Vzank5NXVuNHM3?oc=5",
-     "Stock Traders Daily",
-     "Tue, 24 Nov 2026 08:08:01 GMT"
-    ]
-   ]
-  },
-  {
    "t": "BJ",
    "kind": "SIGNAL",
    "rule": "solid",
@@ -151,7 +53,7 @@
    "tgt": 104.31541010450576,
    "stop": 94.9813829467228,
    "days": 3,
-   "conf": 0.0,
+   "conf": 5.238702659942646,
    "s": {
     "n": 3371,
     "win": 66.71610797982794,
@@ -205,11 +107,15 @@
       "prior": 100.0,
       "date": "2026-11-23"
      }
-    ],
-    "iv": 0.4858449853515625,
-    "imove": 5.301003384257729
+    ]
    },
    "news": [
+    [
+     "BJ\u2019s joins Costco, Sam\u2019s Club in Thanksgiving Day store closings",
+     "https://www.thestreet.com/retail/bjs-wholesale-club-thanksgiving-2026-black-friday-hours?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 26 Nov 2026 16:29:00 +0000"
+    ],
     [
      "BJ's Q3 Earnings Beat on Strong Comps, FY26 Outlook Raised",
      "https://finance.yahoo.com/markets/stocks/articles/bjs-q3-earnings-beat-strong-135200401.html?.tsrc=rss",
@@ -241,34 +147,112 @@
      "Fri, 20 Nov 2026 21:04:49 +0000"
     ],
     [
-     "Why BJ\u2019s Wholesale Club and Lowe\u2019s invest windfalls in their customers",
-     "https://www.customerexperiencedive.com/news/bjs-wholesale-club-lowes-invest-windfalls-in-customers/875386/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 20 Nov 2026 20:05:17 +0000"
-    ],
-    [
-     "Bj's Wholesale Club Holdings Stock Price Forecast. Should You Buy BJ? - StockInvest.us",
-     "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9WcHVrLXRXV1lPYWNNcDBFbjJkQVFkOTQ4NnNFNk41TUlSdU5pZHJDVi1Wb2F2Mkloei1nWE9fSFIxVE10emc?oc=5",
-     "StockInvest.us",
-     "Fri, 20 Nov 2026 22:46:44 GMT"
-    ],
-    [
      "BJ\u2019s Wholesale Earnings Beat Has a $240 Million Wrinkle\u2014and the Stock Is Falling - Barron's",
      "https://news.google.com/rss/articles/CBMigAFBVV95cUxOakVuNVRMcVN5ZjlsUUdjUENBMWs1Q2gyTjRlUkdZaFRxWVFQU1FQbmdEZXpVZGNPWGU5RmNETkhvbnlhbjYzMmQyb3hPWC1uTnd4T2M5UEgwcUtVU1U3Q1NiLWd2LTJKZVByLXdJeThNNnY4cmhSeWZrVlBYdm9BRw?oc=5",
      "Barron's",
      "Fri, 20 Nov 2026 13:16:00 GMT"
     ],
     [
-     "BJ'S WHOLESALE CLUB HOLDINGS (NYSE:BJ) Nears Breakout With Top Technical Strength - ChartMill",
-     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVXJ0cmtzNnNsMkJ0QXhONVJnNnYwWVJ3dnRfamFBekdsLXF5SW8xTURyenRrWWYwdTBUbENrMHh2SmdyOVA2ZWxIRlVibkpEOFhwc0xiX0FWRjVYbVFPUENtNmFyQ0F2RHNsR2paOUwtOFNfSjRkM3pCSjNnSEJQbEhiNUU0UElKaGhFcERUM3hNQUlhRTJtTy1MbmtEOGhZQlFYdHZGZGoyV2E2b201TkxObG5kQlZ2b0tyQm1QOHlROVAwQVE?oc=5",
-     "ChartMill",
-     "Thu, 19 Nov 2026 10:01:50 GMT"
-    ],
-    [
      "BJ's Wholesale Stock Falls Despite Q3 Earnings Beat, Raised Outlook As One-Time Gain Boosts Profit - Benzinga",
      "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPc1g3RnpNdy1yR1F0OG5YbUNlbzBoaVVkLVhrbFJfdHFWVEpKV1Y3cER2U0NfYWJna0JNbGlRU2RHRjZyRnFNYnRQbDV1NmtTOHdqR3VJak5vVVY0bU9URmpPdldkWXZsMVVSTzNrNHJVLS1kSHgtRHpUdl9JSGpsV1FRbVdadXZiYmtPY2tHTHB6Q2YyNmZOaG9HSUN0TmZac040UzFGNjVUNVplOXp3XzBfLWVRR0dPeTNVR2lTdEhaLW9RTFNvaDNrajRZejV2OEJSTS1UbUxXN3RjU09XeWlXckF2bDFY?oc=5",
      "Benzinga",
      "Fri, 20 Nov 2026 13:08:41 GMT"
+    ],
+    [
+     "BJ's Wholesale Club's upside stalls as one-offs and promo costs offset upbeat outlook - TradingView",
+     "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYmtEcDZnc2ZmRFM0S25aTkJyM3ZRM0VFaHlhc1lsbjV0VGxTckRJYVBhbnU2azBUbVJYU3drVEVaVVJkNGJxbnZINHBrNEs4S2J4dndqSHBzT2VZXzlSQjhoeHc4dExMdUNRbGxCLXZCU25Fdy0xWnVPSDBXQUFEdXFwM1NpejZseUtFaE04YlY0YmJXdkFEOWxqNGF3MU1TRjlFNG53eXU2aTJtRzlfWUJoSWp0MUU4SEZ1SU9RaU5EeVIwelQxN3NHX19fTG1XS2QzSmdHbF9SVGpmbzM2cy1B?oc=5",
+     "TradingView",
+     "Fri, 20 Nov 2026 13:35:20 GMT"
+    ],
+    [
+     "BJ: BJ's Wholesale Club Holdings Inc. filed SEC Form 8-K: Results... - Quantisnow",
+     "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUlZ4c2lNenp4eWlQTE5Vd2FMc1lEUzFvY1FmTWdnZmlHNHJqRFc3UGdrcm5iTk96VGE1blJFNlNuZ3UzVEtZQUNiVjVrXzJtdDYtU0hRQjZNOENSczJpU3RpQV9UcGNKNzF5OXQwdFNkOXVEUTdFY2hxeGZoVWxkbGFBdVhydnZvY0xuQTh6X0FYTGQwR0JIWElRLUNOTTM4eDdj?oc=5",
+     "Quantisnow",
+     "Fri, 20 Nov 2026 12:10:07 GMT"
+    ]
+   ]
+  },
+  {
+   "t": "WST",
+   "kind": "SIGNAL",
+   "rule": "solid",
+   "tier": "solid",
+   "c": 372.94000244140625,
+   "buy": 377.29474905836764,
+   "tgt": 388.6135915301187,
+   "stop": 353.68332066132524,
+   "days": 3,
+   "conf": 5.238702659942646,
+   "s": {
+    "n": 3371,
+    "win": 66.71610797982794,
+    "avg": 0.4103699895863643,
+    "days": 3,
+    "lose": -4.564946450166723
+   },
+   "ed": null,
+   "name": "West Pharmaceutical Services, I",
+   "drop": -7.692685366419805,
+   "rvol": 1.4680584119100282,
+   "dd": {
+    "ind": "Medical Instruments & Supplies",
+    "short": 0.0296,
+    "dtc": 2.47,
+    "ratings": [
+     15,
+     0,
+     1
+    ],
+    "moves": []
+   },
+   "news": [
+    [
+     "West Pharmaceutical Services (WST) Posted Strong Results, Is The Stock Still Expensive?",
+     "https://finance.yahoo.com/markets/stocks/articles/west-pharmaceutical-services-wst-posted-151116034.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 26 Nov 2026 15:11:16 +0000"
+    ],
+    [
+     "West Pharmaceutical Services Stock Outlook: Is Wall Street Bullish or Bearish?",
+     "https://www.barchart.com/story/news/9018550/west-pharmaceutical-services-stock-outlook-is-wall-street-bullish-or-bearish?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 26 Nov 2026 13:02:25 +0000"
+    ],
+    [
+     "West Pharmaceutical: 3 Key Takeaways for Long-Term Investors",
+     "https://www.fool.com/earnings/takeaways/2026/11/24/west-pharmaceutical-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 24 Nov 2026 23:47:22 +0000"
+    ],
+    [
+     "Why Is Everybody Paying A Premium For West Pharmaceutical Stock?",
+     "https://www.trefis.com/stock/wst/articles/628310/why-is-everybody-paying-a-premium-for-west-pharmaceutical-stock/2026-11-24?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Tue, 24 Nov 2026 20:57:23 +0000"
+    ],
+    [
+     "Is West Pharmaceutical Stock Too Expensive At $390?",
+     "https://www.trefis.com/stock/wst/articles/627614/is-west-pharmaceutical-stock-too-expensive-at-390/2026-11-23?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Mon, 23 Nov 2026 14:03:13 +0000"
+    ],
+    [
+     "Embecta (EMBC) Stock Is Down 9.8% Today After Earnings Surge, Market Selloff",
+     "https://finance.yahoo.com/markets/stocks/articles/embecta-embc-stock-down-9-150038364.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Wed, 25 Nov 2026 15:00:38 +0000"
+    ],
+    [
+     "Why West Pharmaceutical Services (WST) Stock Is Down Today - Quiver Quantitative",
+     "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVExnRVg0N0RTWXZEY0FmUXhCVjM4U19Jb0F1WXowRG1hQUt2VTJrMnRYN3V5X2l2M1daR2IxZVFNWlFKWGtwaHhYajV2S3c0VVFvLXRNUlZyUTFKSmtLZzd2c3lORzVpYWE4ZnVlSm1Dc0hBNmVBcHcyZGJXak9SYTE5WlVJVy1ZczZtV3o3cWZzQklRWkNUZHRJRQ?oc=5",
+     "Quiver Quantitative",
+     "Wed, 25 Nov 2026 18:33:00 GMT"
+    ],
+    [
+     "West Pharmaceutical Services (NYSE:WST) Stock Actively Traded Today After Third Quarter 2026 Results and a Guidance Increase - kalkine.ca",
+     "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORXVja0hqaDlGUFh2Zi16cXZFY2hLZmdkelJDS2NSSmxvYXdhREc3RFZlUHJVNzFGSWdHSGI3aGdlTmpDY1N1a19wbks1dmNjQWs3MWotRzFUcnpRVWVMWmtWVEZ3cGxMbDBIUVZ5SEM0dC1yX3NvSEtPdE5JX19NR2tTeW1xZDdTWmNMZktGb1JYQ3FhakpvOUlhc3hKOWpLM3RyZ1hTb0dGNFB3cUdyTEU3T3N6MWhmQjBrdVJFZWpPSEpEaU1XSmlRUWgtSGdEYS1KWnFNcDhMaFFkb09mbHc0ek0xbXB5akkzTg?oc=5",
+     "kalkine.ca",
+     "Wed, 25 Nov 2026 20:36:00 GMT"
     ]
    ]
   },
@@ -292,8 +276,8 @@
     "short": 0.030299999,
     "dtc": 2.79,
     "ratings": [
-     21,
-     12,
+     22,
+     11,
      2
     ],
     "moves": [
@@ -306,8 +290,8 @@
       "date": "2026-11-23"
      }
     ],
-    "iv": 0.6549247623854418,
-    "imove": 8.251276422523564
+    "iv": 0.062509375,
+    "imove": 0.7875440993337056
    },
    "news": [
     [
@@ -345,30 +329,6 @@
      "https://www.trefis.com/stock/txn/articles/628309/what-is-the-true-hidden-price-of-texas-instruments-stock/2026-11-24?.tsrc=rss",
      "feeds.finance.yahoo.com",
      "Tue, 24 Nov 2026 21:03:53 +0000"
-    ],
-    [
-     "Texas Instruments (TXN) Could Be 50% Overvalued As AI Tools And Earnings Impress - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRENhSlZqVUlLQlZDMHFWQlNzcXM1WDRrRFp1RGhQNmlMSEVpZVc2eko4RGdlai1FZmp4d3FNem9JYXIzaVNrRTA2Z3ZuOW5lRFBZTVFIbXo4R2V5MExDMXF2RTVrRzNfbW1QVndqaHlscGFPTk1BSW1falc5MnJyRUgtMEhQc2ZqSnBzQ2gxOUZ4TENYck5kN0RkNA?oc=5",
-     "Yahoo Finance",
-     "Fri, 20 Nov 2026 21:12:49 GMT"
-    ],
-    [
-     "What Is The True Hidden Price Of Texas Instruments Stock? - Trefis",
-     "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ3ltMXNaVkFUZTFybC05dWNkM0RiVl9EakEwRHVhUHFvamRvTURmclZYTnNlU3RsbGVxMmpodzJuUHFsanhBbUlkMnk1U0N2VzdjY2NoeXBsX0pjVUtmTWxPVmZRVVQyYUtBaVM4bmgwOUI2WkFNR2hxcjc5LUt1WlRmSFJvUlF4S1VwWUZZV1NvM1dfTktNdEJ6WHZBMWRrWDNwVGFrMDRReE5tYW1sdU9yd0ZIc0k?oc=5",
-     "Trefis",
-     "Tue, 24 Nov 2026 21:03:27 GMT"
-    ],
-    [
-     "Texas Instruments (NASDAQ:TXN): Affordable Growth at a Reasonable Valuation - ChartMill",
-     "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWFlPOFdnemZtSTQ1SUhYUlVNcnUwZGhXYnV4TGJ4QW5RbWlxSDNGdHBRdXlKUngxNlBxdmpCRzh0UTZCNE55R1dXRU0zWGs1RDYtZGRmRFRRZV9lWU9FVEQtRkkteE9wS3FDQWpCb0l6NmtBYnhMcjR3ZmdKdEEwbUZCem10VVV4X3Q1cTRSbWI4djhsa1d6UEVsNng0eG5RMGRpSHNhaG05TlBFMlA5WXJDSEFpTG9iS3liVl9YYw?oc=5",
-     "ChartMill",
-     "Wed, 25 Nov 2026 11:01:10 GMT"
-    ],
-    [
-     "Texas Instruments (TXN) Stock Forecast and Price Target 2026 $TXN - MarketBeat",
-     "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54UFpCZFN1OWVQS2M2U204cGVRcDVFaWNmbTl5ZUxvcXpMeVdKY1JJWWM2TzFSaUFxbmNoRmhkYU4xYmVxbjJfTGtTUkdCcVM2TnliYXcydDJETUhRVldldFlDNno?oc=5",
-     "MarketBeat",
-     "Mon, 23 Nov 2026 08:00:00 GMT"
     ]
    ]
   },
@@ -396,9 +356,7 @@
      3,
      0
     ],
-    "moves": [],
-    "iv": 0.467778759765625,
-    "imove": 5.893458413990812
+    "moves": []
    },
    "news": [
     [
@@ -438,16 +396,10 @@
      "Tue, 10 Nov 2026 18:10:00 +0000"
     ],
     [
-     "symbol__ Stock Quote Price and Forecast - CNN",
-     "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94TkxyUWxEdjlxWWRyTHZ0UU4zWlNJVjZOeHdGRnZGRTdvVG1YeU56V2FuYTd1cWlnRTBhclc4OGpvZERIQWxfVlRwMkR1U0k?oc=5",
-     "CNN",
-     "Mon, 23 Nov 2026 19:31:16 GMT"
-    ],
-    [
      "Ashland Inc. (ASH) Stock Price, News, Quote & History - Yahoo! Finance Canada",
      "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xbWZLajlFRHc0VnB2UjZqbGhVd2U0SnRMakxPZXgxYXF2NlVMUk1nenYyY21LUFBaVDlHLUMyNzh6U29aRkdTbGxUUEhlNkpH?oc=5",
      "Yahoo! Finance Canada",
-     "Wed, 25 Nov 2026 00:44:20 GMT"
+     "Wed, 25 Nov 2026 16:41:41 GMT"
     ],
     [
      "Ashland (ASH) executive Lampkin acquired 2,160 shares at $46.53 - Quantisnow",
@@ -456,10 +408,16 @@
      "Tue, 24 Nov 2026 02:13:11 GMT"
     ],
     [
-     "(11/20/26) INCY: A Biotech Stock to Watch Around Next Month\u2019s ASH Meeting - www.moneyshow.com",
-     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ySEFvZHluUkR6V21vUzRkM1o5NGpUc1V6bDJmZ2xLNGpFODNkZGd2T1NqaHh6a0lkQkJWX3dnTWo4WlZUNVFfUm5yRFMzV1R2UlZ3RjBMaS1jeF84OUlwTg?oc=5",
-     "www.moneyshow.com",
-     "Fri, 20 Nov 2026 05:01:00 GMT"
+     "Climb Bio stock holds Buy rating at BTIG ahead of ASH data - Investing.com",
+     "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGx1bDdZLWpWVUF1S0VoakVjX1hUTUh5NDU3bWpCd1gyN3hSYTcwS3ZTRmFvOTRUN05QTVZfMXRwX254ck0za0NkZHpkTGQ5MTVsR2ZHcUZmd2M5R09mV3NXWVNvU3FFakIza2JzX0VrZEd6MlVlSk1rMDJ5YkJUOE1lMi05eElJYlNPVXR0WWM1aDVnMWRpamZPMGhFQ2djWnE4dHlLcTBSTWk5ZkVsLWRRWXc3TEcwQlE?oc=5",
+     "Investing.com",
+     "Tue, 24 Nov 2026 11:20:12 GMT"
+    ],
+    [
+     "Clariant, CD&R in talks to acquire chemicals firm Ashland - Bloomberg - Seeking Alpha",
+     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ0d5Umhab1VhMExWT0FfbFNmV0R6OTV3LXFwc3RYeDVHeWhsUHJfY0NDdHhmd19PWjNPT0FlZDdVMTBTcE82eHFNS3lhdktEVEFjazhMQmU3aGRGR1lFbEFjS2J4ZTktMWJyS1JBaG5qX3BZUDhYN0Q1TWUwOU9jWjh6N0ZsSDRpUTVOeEQzUUg5aWpVWnFZOGpiQ1dxS3N5TEFVWlNMUnNKbURC?oc=5",
+     "Seeking Alpha",
+     "Sun, 22 Nov 2026 23:53:16 GMT"
     ]
    ]
   },
@@ -520,9 +478,7 @@
       "prior": 174.0,
       "date": "2026-11-24"
      }
-    ],
-    "iv": 0.43659010681152344,
-    "imove": 5.50051832140199
+    ]
    },
    "news": [
     [
@@ -560,30 +516,6 @@
      "https://finance.yahoo.com/real-estate/articles/jacobs-support-next-phase-growth-114500656.html?.tsrc=rss",
      "feeds.finance.yahoo.com",
      "Tue, 24 Nov 2026 11:45:00 +0000"
-    ],
-    [
-     "Jacobs (J) Stock May Be A Bargain Despite Fresh Airport Upgrade Wins - Yahoo Finance",
-     "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3Vlay1FSHB2aVZSN3dOMVRzel9xVWJfV1hvZmwtMmhCQ0FaSkVRS1FydUNqeE83MzduLXgxMDg0QU9KQy16TDhabHpDNUdBc0EyTFR5TmdGS2hjSkNHVy1NbW9iR09OOW5ZMVNZMm5POVFnUjN2Ui12SzlVa3FpX3FjMUhiZTdvUS11WFFjNUhwNFhVcUE?oc=5",
-     "Yahoo Finance",
-     "Fri, 20 Nov 2026 21:17:34 GMT"
-    ],
-    [
-     "Arthur J. Gallagher & Co. stock underperforms Monday when compared to competitors - MarketWatch",
-     "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUkZLVjBMYzhFNEk4NzJLU1JFVXhUYVRVVmp4VlVGckttM1VUV3BSdTR5R1N1b1FvaWlhMXlSY3JuUWtkWTBiS01QRmZvR3VVb3RxQXo2X2l2MW85QURMTzNCQnhCeVJqVGVZcHRyNXdjSHVEZm5oX2Y0WldmaHhEWnY3andESUJHbEI5MjFSbzRMbmswZ1NCTFg4OG5CWXRMb2NBbkpKVEhWQlJsTmctYWRzaXhlN2hra2tyNER5ckVqV0lkcU5GY19lSU5sNVpUZXA1cXNnMDRjR0JCUjJZcU5TS1pkZDdjTU5n?oc=5",
-     "MarketWatch",
-     "Mon, 23 Nov 2026 21:44:00 GMT"
-    ],
-    [
-     "Sainsbury (j) Stock Price Forecast. Should You Buy SBRY.L? - StockInvest.us",
-     "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wOHpDZkd5NEw2Q0p2ZmFhcHl6a0JWNW42SUsxQTZfZ3hXdlJvY080WTRKSFNJcjFTTVJkNXY2WFhYeXh1bHpHYUZpSQ?oc=5",
-     "StockInvest.us",
-     "Fri, 20 Nov 2026 18:25:01 GMT"
-    ],
-    [
-     "symbol__ Stock Quote Price and Forecast - CNN",
-     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15TW1vMEpmdHN5VGpWLTlYQm81TlJRSm1sT1RnT0FFT3dBTkpWV1RLaFJhckRFME95RllWZUtnQ254NTBVVmJVVXBvWl9lazJO?oc=5",
-     "CNN",
-     "Mon, 23 Nov 2026 01:02:12 GMT"
     ]
    ]
   },
@@ -628,11 +560,27 @@
       "prior": 457.0,
       "date": "2026-11-13"
      }
-    ],
-    "iv": 0.5147601014709473,
-    "imove": 6.4853676826214315
+    ]
    },
    "news": [
+    [
+     "Marathon Petroleum (MPC) Dropped, So What Is Drawing Attention Now?",
+     "https://finance.yahoo.com/markets/stocks/articles/marathon-petroleum-mpc-dropped-drawing-111521309.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 26 Nov 2026 11:15:21 +0000"
+    ],
+    [
+     "iShares Russell Mid-Cap (IWR) Adds Marathon Petroleum and Phillips 66 on Tuesday",
+     "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-mid-cap-iwr-110535789.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 26 Nov 2026 11:05:35 +0000"
+    ],
+    [
+     "Marathon Petroleum (MPC) Stock Looks Reasonable Following Strong Q3 Results",
+     "https://finance.yahoo.com/markets/stocks/articles/marathon-petroleum-mpc-stock-looks-091440489.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 26 Nov 2026 09:14:40 +0000"
+    ],
     [
      "Marathon Petroleum Corp. (MPC) Drives Strong Quarterly Gains for Energy Basket",
      "https://finance.yahoo.com/energy/articles/marathon-petroleum-corp-mpc-drives-175905526.html?.tsrc=rss",
@@ -652,28 +600,10 @@
      "Mon, 23 Nov 2026 19:35:51 +0000"
     ],
     [
-     "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
-     "https://finance.yahoo.com/energy/articles/zacks-analyst-blog-highlights-valero-114500717.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Mon, 23 Nov 2026 11:45:00 +0000"
-    ],
-    [
-     "This Pipeline Partnership Raised Its Payout by 12.5% for the Third Straight Year. Here\u2019s How Much Longer It Can Keep That Up.",
-     "https://www.fool.com/investing/2026/11/22/this-pipeline-partnership-raised-its-payout-by-125-for-the-third-straight-year-heres-how-much-longer-it-can-keep-that-up/?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Sun, 22 Nov 2026 10:27:02 +0000"
-    ],
-    [
-     "Six ENERGY STAR(R) Certifications Add to Marathon Petroleum's Legacy of Energy Efficiency",
-     "https://finance.yahoo.com/energy/articles/six-energy-star-r-certifications-212000796.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Fri, 20 Nov 2026 21:20:00 +0000"
-    ],
-    [
-     "What Moved Marathon Petroleum Stock? - Trefis",
-     "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLWVGMldzZkRsekk2b2gyTzNQNGJIVm4xWDFsNlk4cUVBT1dtYWVhTW81aG9Pdy1sX1pQMUYzc0hJU09NX1o5V0ZHVjRqdUp1RVoyOWd3U2l1R2lEZVJDS1YtWHZLT1ZxUm5nVW1ySUtmNlotUTVsZ08tRFBxaUNFbERkcUZvRmFrUmZadFN0dmlxUFhPekU4NEtMWQ?oc=5",
+     "Marathon Petroleum Stock Extends An 8-Day Losing Streak To A 16% Loss - Trefis",
+     "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcGFUcVhDcXJXT1pWdFFkZUtYUDJMNnRoOUFtR0Fmb1B5SW5TQ1p3Z000czF0SmFyNWxpWVlLUE5TTXN1RDhiUndyZWswQ2NhdllXSGphRFM4Vm1XclZ0UVFVbnI3TVZIVGNocm1BZFpKbXhsQjBpbHlHLWN2YTBreS1ZYXNxbUNWQldpcEpKdnlTV3VhdHVIMElOOUV0U19xV21qQlpfUEtyQWMyYlREUmxPbzlsQlVNaHJfOThhbUN0eGxPMXNz?oc=5",
      "Trefis",
-     "Thu, 19 Nov 2026 12:22:07 GMT"
+     "Thu, 26 Nov 2026 13:12:48 GMT"
     ],
     [
      "Crack Spreads Made Marathon Petroleum A Cash Machine (NYSE:MPC) - Seeking Alpha",
@@ -688,10 +618,10 @@
      "Wed, 25 Nov 2026 20:45:16 GMT"
     ],
     [
-     "Marathon Petroleum (MPC) Stock May Be 49% Undervalued Despite Dividend Hike - Simply Wall St",
-     "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaFdJYVNKWEl0aXZ4WU43c0k0QjF2YWp4LUtZQ21WRlhzQXBDbXN4SWdwSjNKZ0lZanJUbnZHNURrZEIzZlEwRnRsbWZlZVlHVHJvQ1NERU1HSXdIUWh5RFA2c1pnMXl4clBPNVJoTk56c2VRZ05wMUNvbXFqM1ZBMVYwUU5WTWRZYzIzYkdFQ1ZfRWprRkp5bTRRZngyMzk0TUxEX0xGNWJFdUVSVWFEV0VyUTRiXzZodnl3N0Y5dDJDck9yR3ZoazBPSknSAdIBQVVfeXFMUG5zMUtBSHd3alhGdTN2MjRLXy14MkNFVDd1MS1iaEc5NzdpS21OWjN0dTVGOG9oM3JrNWtUV3FqQUFrcHFWdzNEcXFualBEM3FDN3pHc1FkS1ZhZG80ZVBlX19yZkxRT3hqTTNuanMwMWpEQ19MNDJ3V0JoaEtsMGg3UFFvT3NiYWFaQTdoTnJlXzdBTnJkNXJaYm5xR3I0bFU2TkJfTl9TdFR6RkxvZFM1ZGs2bktXRk5tWFlobThGTGl0RnZQSlMzZEViOGFqZzZR?oc=5",
-     "Simply Wall St",
-     "Fri, 20 Nov 2026 08:09:13 GMT"
+     "Marathon Petroleum Stock Slides 14% Over 6 Straight Down Days - Trefis",
+     "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQmc4cUNWWDBxc212YTg4VGFkamNKYlZnTkVIVF9xQWRLUFlmeDdOVjlYMEhiNXFaZGR0d29iN3F1SC01RUo2Q292MnNTcmg2bGNyU0otcG5hb1d1WTBMSTdtUWRwM0s4ai1scGIwYzNUeVJRNXZBdmNWUy15eTZ3QzMydnd0cGRqNXZQUDVKdmJrVmw4MEJXRHIzZm9JQ3lrZHhmRndLMWp1SmZjZjc4c0Q1M0ZUOGs1QnVnbA?oc=5",
+     "Trefis",
+     "Tue, 24 Nov 2026 06:56:14 GMT"
     ]
    ]
   },
@@ -706,7 +636,7 @@
    "days": null,
    "conf": null,
    "s": null,
-   "ed": 4,
+   "ed": 3,
    "name": "Five Below, Inc.",
    "drop": -7.404577986580973,
    "rvol": 1.2752798726546801,
@@ -736,11 +666,15 @@
       "prior": 0.0,
       "date": "2026-11-17"
      }
-    ],
-    "iv": 0.5944559597778322,
-    "imove": 7.489441118820758
+    ]
    },
    "news": [
+    [
+     "Gear Up for Five Below (FIVE) Q3 Earnings: Wall Street Estimates for Key Metrics",
+     "https://finance.yahoo.com/markets/stocks/articles/gear-five-below-five-q3-131503096.html?.tsrc=rss",
+     "feeds.finance.yahoo.com",
+     "Thu, 26 Nov 2026 13:15:03 +0000"
+    ],
     [
      "Is Five Below (FIVE) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
      "https://finance.yahoo.com/markets/stocks/articles/five-below-five-solid-growth-164502658.html?.tsrc=rss",
@@ -772,16 +706,10 @@
      "Wed, 25 Nov 2026 13:09:25 +0000"
     ],
     [
-     "Five Below (FIVE) Repeat Shopper Visits Hit A Three Year High",
-     "https://finance.yahoo.com/markets/stocks/articles/five-below-five-repeat-shopper-021233984.html?.tsrc=rss",
-     "feeds.finance.yahoo.com",
-     "Wed, 25 Nov 2026 02:12:33 +0000"
-    ],
-    [
-     "Five Below, Inc. (FIVE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1td3dreEprQjBpWllQbUVkQ3dPZTFPU1hLV2NfMkdjY0s2bnZaLWpWbHBYYklhT2dDa3E0eTV6YjZNMk9LM29yRGFoZHliWkk4anc?oc=5",
-     "Yahoo! Finance Canada",
-     "Wed, 25 Nov 2026 18:10:11 GMT"
+     "Don\u2019t Panic, Buy These Instead: Jim Cramer\u2019s Emergency 5-Stock Portfolio - Yahoo Finance",
+     "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYzdKNXoxY3JCdVNvQnZiUW9xd2IxSU5aWXZmcUQ4ZTlzWk5UTk1wcnFUOHJ0UUQzRkxpTUc0VWg1QXhfMlQ1cEc2UHJ3VlI4SFVhdHVsNFVfMVlPLWpYaUFGb2lQV2N4Y0RSU0VPVHpFNTJSNjItdFpmZkJtdmRBa1ZCenNIZU5jaEsxckl5ZXY0dw?oc=5",
+     "Yahoo Finance",
+     "Tue, 24 Nov 2026 14:22:22 GMT"
     ],
     [
      "The five best stocks to buy before year-end, according to Bank of America - CNBC",
@@ -796,10 +724,10 @@
      "Mon, 23 Nov 2026 16:35:34 GMT"
     ],
     [
-     "Five Below (FIVE) Stock Price, Chart & Analysis - www.debelegger.nl",
-     "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WXzdIRGd0eFpLeWFSTkU5TWdfLWRuWFBhcW5DUno3Z1JZUHg0RkJVSjFkMV9OeHNfdDZXdGMycXk1dllTMTliOUNXVGlRTFBiRUtoQg?oc=5",
-     "www.debelegger.nl",
-     "Sun, 22 Nov 2026 06:54:25 GMT"
+     "Five Below, Inc. (FIVE) stock price, news, quote and history - Yahoo Finance Australia",
+     "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLM3dfVHZ4M3JocGJRWW5Wc3BoV3hlZzRtMjltZ0xXUjZtN1BkS0dveVlfbnIzcnFWeUp2cGpWb0VyQTlvSVcyTjB2eFJOZ2VKbWc?oc=5",
+     "Yahoo Finance Australia",
+     "Tue, 24 Nov 2026 13:31:29 GMT"
     ]
    ]
   }
@@ -807,18 +735,18 @@
  "macro": [
   [
    "S&P fut",
-   7220.75,
-   0.3474273
+   7321.75,
+   1.7510335
   ],
   [
    "Nasdaq fut",
-   26219.0,
-   0.4549765
+   26850.0,
+   2.872578
   ],
   [
    "VIX",
-   28.29,
-   7.3217006
+   26.8,
+   -5.2668843
   ],
   [
    "US 10Y",
@@ -827,23 +755,23 @@
   ],
   [
    "Brent",
-   90.96,
-   0.3530447
+   92.56,
+   2.118268
   ],
   [
    "Gold",
-   3593.5,
-   0.8107474
+   3674.3,
+   3.0774827
   ],
   [
    "Bitcoin",
-   60503.27,
-   2.2876377
+   61661.66,
+   1.962384
   ],
   [
    "Dollar",
-   103.784,
-   0.11478977
+   103.699,
+   0.03279434
   ]
  ],
  "sectors": [
@@ -915,124 +843,124 @@
  ],
  "news": [
   [
-   "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
-   "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+   "Two Italians killed in Kuwait drone attack; Trump says Iran war ends \u2018whenever I want it\u2019",
+   "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html",
    "CNBC",
-   "Thu, 26 Nov 2026 03:19:44 GMT"
+   "Fri, 27 Nov 2026 03:30:23 GMT"
   ],
   [
-   "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
-   "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+   "SpaceX shares jump on alternative trading platform after Musk says he will expand share donations",
+   "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
    "CNBC",
-   "Wed, 25 Nov 2026 16:02:52 GMT"
+   "Fri, 27 Nov 2026 04:20:55 GMT"
   ],
   [
-   "How Trump\u2019s latest tariff moves hand India an edge over rival Asian exporters",
-   "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html",
+   "Trump demands probe into \u2018record setting error\u2019 after third-quarter GDP data gets massive revision higher",
+   "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
    "CNBC",
-   "Thu, 26 Nov 2026 04:12:18 GMT"
+   "Thu, 26 Nov 2026 21:13:17 GMT"
   ],
   [
-   "South Korea's Kospi leads gains as tech rebound lifts Asia markets",
-   "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+   "Sovereign wealth funds are acting more like private equity giants \u2014 and inheriting their risks",
+   "https://www.cnbc.com/2026/11/27/swf-private-equity-risks.html",
    "CNBC",
-   "Thu, 26 Nov 2026 04:49:03 GMT"
+   "Fri, 27 Nov 2026 00:22:29 GMT"
   ],
   [
-   "Vance says he was assured Jensen Huang was not under DOJ investigation",
-   "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
+   "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+   "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
    "CNBC",
-   "Wed, 25 Nov 2026 21:00:08 GMT"
+   "Thu, 26 Nov 2026 12:46:55 GMT"
   ],
   [
-   "Judge blocks FCC early-renewal process for Disney-owned ABC stations, for now",
-   "https://www.cnbc.com/2026/11/26/fcc-disney-abc-stations-judge-block.html",
+   "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
+   "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
    "CNBC",
-   "Thu, 26 Nov 2026 04:00:15 GMT"
+   "Thu, 26 Nov 2026 17:04:54 GMT"
   ],
   [
-   "K-beauty stocks rally as Korean brands top Amazon bestseller lists globally ahead of Black Friday",
-   "https://www.cnbc.com/2026/11/26/k-beauty-firms-amazon-sales-black-friday.html",
+   "China\u2019s factories are growing profits again, but the AI boom is picking the winners",
+   "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
    "CNBC",
-   "Thu, 26 Nov 2026 03:09:47 GMT"
+   "Fri, 27 Nov 2026 06:09:51 GMT"
   ],
   [
-   "Norse Atlantic flights suspended after warning finances 'critical'",
-   "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
+   "Fast cars, big money: Why sportswear races into Formula 1 as sponsorship spending soars 75%",
+   "https://www.cnbc.com/2026/11/27/nike-formula-1-sportswear-brands-sponsorship-adidas-puma.html",
    "CNBC",
-   "Thu, 26 Nov 2026 01:52:20 GMT"
+   "Fri, 27 Nov 2026 05:46:04 GMT"
   ],
   [
-   "We are living in perilous times if Nvidia\u2019s Jensen Huang dictates your 401(k) balance",
-   "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+   "Is the stock market open on Black Friday?",
+   "https://www.marketwatch.com/story/is-the-stock-market-open-on-black-friday-0a735c45?mod=mw_rss_topstories",
    "MarketWatch",
-   "Thu, 26 Nov 2026 01:15:00 GMT"
-  ],
-  [
-   "Why this stock-market selloff is probably going to get worse before it gets better",
-   "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Thu, 26 Nov 2026 00:33:00 GMT"
-  ],
-  [
-   "A 66-year-old nurse is facing down retirement with just $500 saved. Who\u2019s to blame?",
-   "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Wed, 25 Nov 2026 23:30:00 GMT"
-  ],
-  [
-   "I\u2019m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
-   "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Wed, 25 Nov 2026 23:30:00 GMT"
-  ],
-  [
-   "I\u2019ve been married for 58 years. It\u2019s \u2018our\u2019 money, not \u2018his\u2019 and \u2018hers.\u2019 Why do so many couples keep their finances separate?",
-   "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-   "MarketWatch",
-   "Wed, 25 Nov 2026 23:00:00 GMT"
+   "Fri, 27 Nov 2026 05:01:00 GMT"
   ],
   [
    "I hate that Jensen Huang is back at Nvidia, but I love what it\u2019s done for my 401(k). Am I a hypocrite?",
    "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
    "MarketWatch",
-   "Wed, 25 Nov 2026 22:45:00 GMT"
+   "Fri, 27 Nov 2026 01:15:00 GMT"
   ],
   [
-   "Explaining the stock market: Why is it still so hard? - CEPR",
-   "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRHZMblcwZnlTaFIyd0lYTlpQN2pCMVRhWGJJbkNrN253S2JpT0hMeUFqLW9sQWdESll4WnlpS2ZvRWVhN0JnYjNKOTI5QjZzczlvZDc5ZkhTMXNRbVFCN0JPSDhQQVlCQUJLOGJmcTRaa3NpczhHYk02QUF2T3laZw?oc=5",
-   "CEPR",
-   "Thu, 26 Nov 2026 00:11:47 GMT"
+   "I\u2019ve been married for 58 years. It\u2019s \u2018our\u2019 money, not \u2018his\u2019 and \u2018hers.\u2019 Why do so many couples keep their finances separate?",
+   "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Fri, 27 Nov 2026 01:00:00 GMT"
   ],
   [
-   "2027 economic and market outlook - Fidelity Investments",
-   "https://news.google.com/rss/articles/CBMikAFBVV95cUxNazk1SWlkR0kxVUJrdThCMmhUVi12eXJ4ZS1haHNtbmdMelRQN3RwQkd4RlRlaVhxOEhjcUtYMVdMZU5KeEFiMFlPVVVCaUtJdVlXS2N2NGVMSEFxSml5djNGbnlXQVMwVnBZV3lDMmRuZDcyVUxRQ1F2VkVHZGFGX18xNDI3clQ2N011ZjlaOEs?oc=5",
-   "Fidelity Investments",
-   "Wed, 25 Nov 2026 15:33:47 GMT"
+   "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+   "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Fri, 27 Nov 2026 00:31:00 GMT"
   ],
   [
-   "Trump Rejoiced in the Market\u2019s Nvidia Surge. It Didn\u2019t Last Long. - The New York Times",
-   "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVVJKQzVEUVhZQkxHM28yQ1paU3Y2ZVhGT25aMFpyYmN6akhuOEVxTVpVT1hpeVk3ZkV1MWNjNlA2NjdZZ3ZMLVlGZVFVbEdqNjlmQ0FodV9mb0lLanNiSVhyX2o2WUdZaXNGSEdWWWFnUnptRG03QXM4N253RkYxXzNKVQ?oc=5",
-   "The New York Times",
-   "Thu, 26 Nov 2026 01:53:20 GMT"
+   "\u2018I\u2019ve been a stay-at-home mom\u2019: I\u2019m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+   "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Thu, 26 Nov 2026 22:00:00 GMT"
   ],
   [
-   "How Hedge Funds Are Navigating Stock Market Volatility - Goldman Sachs",
-   "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0lYelJOWGtLVldWQ3VoUXQwVDRGaW5uWHhRSkp5VlhtYUNmMVF1eHRqVmZSWndkSFBfcUlxeHBuRzg4R0dQTkdFS1U0aEl0UkRPUUpnSHB5c0JfR09RQnMzWXNzeUVzd2E1aEItU2gyOFpXcHpPaWZGSlpOZHZzQm9YQk1zMFRyN3JETl9STUlOUVJtQlF6cHNPemtrOTloR2F2Nmw2NA?oc=5",
-   "Goldman Sachs",
-   "Wed, 25 Nov 2026 19:01:13 GMT"
+   "I\u2019m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+   "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+   "MarketWatch",
+   "Thu, 26 Nov 2026 21:45:00 GMT"
   ],
   [
-   "US stocks fall further as fears over AI intensify - BBC",
-   "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ENVVNamVYdzF3V0tzVDBVWlVHWEV3WE9Wem5kMVgxRkNOQjI3Y0Nla0YzOFczWk5QbmhnSjk0LU5xTXUzeGdOY05IOVQ2ZE9YY3ExdG9WdE1NME0?oc=5",
-   "BBC",
-   "Wed, 25 Nov 2026 21:43:18 GMT"
+   "Is the Stock Market Open Today? Here Are the Trading Hours for Black Friday. - Barron's",
+   "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdE1vOU1PTGJIaVYycVc3blFIMkdWbGY5VzZhcTkwWGl0QTJ0Y0xLVVc4dXBGVzVaclhhLXE3LWlDeGxLN2cwUVhRNEUwMS16cWxXcU9xSEF6THhnNEFJeHFwVUlVcEE1cjNJZk9nX2JfeWc2bXgtMlFOU2FyX3RHbF81c0xKeWxlek8xaF9udFlGdEdpTkpXaXNxSXZNX05rbWlkaTUxb0RMekhfRHc?oc=5",
+   "Barron's",
+   "Fri, 27 Nov 2026 05:01:00 GMT"
   ],
   [
-   "Trump blames midterm election results for stock market volatility - CBS News",
-   "https://news.google.com/rss/articles/CBMipAFBVV95cUxPXzVRQ1hnM3hvQy14d1N4eFpEWjJxMWtwWVREdG5POTAzdDY5NU5iMXh3T3VwTmk1ZTVqdUpvT090V0RIYUdrQ2ZHVVVUZG9WLWVIdk5Ka3lDNC1RWmxqMkg5LWFUMUUtUjhJVnRaYXlaTUxLZ2FZZUVvNGsyTF9kTWJJSGRxcTBxQTVTRVlzMFJLMlRmaDJTLWs2VkN3eDFIZm9PQg?oc=5",
-   "CBS News",
-   "Thu, 26 Nov 2026 01:37:00 GMT"
+   "Trump says Wednesday's market had him briefly 'concerned' before stocks recovered - Reuters",
+   "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWHRXZnN1TmZVRDJ6VUJtNjhuRm85eGlQVmdGNGQ0SC0yeHlPVUlKSksyLVNZa0VqRGdqUWVtaW1oNHhjQldDdHlKYnZ0TVgtbkpEcmJfVEcyTUxnNkNYeEdaYXlWUmQwcnhyLUtrUERoYnhIdnVxV3lFeUhza21Wc3U2WW9yd2loWmpxeXE4SG9OT2Rlai1reWtSemRkYnlBZndLaFVNOHJHeDF4ZkVmckpqSzZSbElNZHpfdUFLTTBsOW9C?oc=5",
+   "Reuters",
+   "Fri, 27 Nov 2026 00:25:00 GMT"
+  ],
+  [
+   "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday - Investor's Business Daily",
+   "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObC1aVl9wd1oxYktYZFRnZjVBMHFrS0ZPMVV3UzdacGU1SHh2clYzeTZXYTROc2ItcjhMVUFFZDlMUGkxUXg1TnNKcDRvdUZPVmo2OUduaTc4dHFqVE9BalVvRmJVWndMMWtvbHAtREJQQ294cDc3cFcxdF96OF9pY2dKWDBnLWN2M1AyeUtKLVhHUEp0Q20tSVJPM25ITXY4dFlfakdfMjE5RUJiMGRaZ3llUWZrRVlMZm5NVFcwWmhWdjFhX2YtckNpTTdsV0Nld3Vz?oc=5",
+   "Investor's Business Daily",
+   "Fri, 27 Nov 2026 04:30:00 GMT"
+  ],
+  [
+   "Is the stock market open on Black Friday? - MarketWatch",
+   "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUUNXVHNYR3o4eW9DcDZoTlhVd3ItejlnalBTaVR0UlBkWWM5VXJ5VUZ6NkItNWxnZFJrNFhBMnFqd2k1NHVyN3F3OXdhR1lQSkRGX3A0NmJzTU1xNy03NHRIMEdGR1dVdUxFeGx0bFpla1RVMnRFWEtvamRoMXZNaG9oeGVFMlNkaUFz?oc=5",
+   "MarketWatch",
+   "Fri, 27 Nov 2026 05:01:00 GMT"
+  ],
+  [
+   "Stocks, Nasdaq Futures Climb as AI Trade Rebounds: Markets Wrap - Bloomberg.com",
+   "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5",
+   "Bloomberg.com",
+   "Thu, 26 Nov 2026 18:07:43 GMT"
+  ],
+  [
+   "Is the stock market closed? Thanksgiving, Black Friday trading hours - Detroit Free Press",
+   "https://news.google.com/rss/articles/CBMipgFBVV95cUxQajlzdDRyNkZVZkZfQl9VSGdrZTdlOUR2a29GaWptZWs3dU5ZV202dzE5Y1pXRTc3TmtxMVRtZU5FdjljZjNtWXFpZE5vNmtYVElfZkhCRVBCSk5NM1Z5WVpXWjBwUzNKeWp3YjVMN0dYa2VtamNqaWZ0eGQzcGhPaWMzbGdORnFtU0U1NUJJQUJSb3ZvZUhZUzJhalFMc2lRakN6dzln?oc=5",
+   "Detroit Free Press",
+   "Thu, 26 Nov 2026 11:01:00 GMT"
   ]
  ],
  "cal": []

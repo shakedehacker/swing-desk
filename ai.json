@@ -1,101 +1,105 @@
 {
  "asof": "2026-11-25",
  "model": "Claude",
- "generated_utc": "2026-11-26T06:26:44Z",
+ "generated_utc": "2026-11-27T06:35:10Z",
  "note": {
-  "mood": "mixed",
+  "mood": "risk-on",
   "bullets": [
-   "US markets shut for Thanksgiving; S&P/Nasdaq futures up ~0.7-1.1% as Asia tech rebounds (Nikkei +1.6%, Hang Seng +2.1%) after this week's AI-led selloff.",
-   "VIX still near 28 after S&P flagged a possible Nvidia credit-rating cut on governance risk, keeping a risk-off undertone despite the overnight bounce.",
-   "US proposed new tariffs on 14 trading partners including China and the EU, adding fresh trade-policy uncertainty into year-end.",
-   "European indices closed lower Wednesday (FTSE -0.4%, DAX -1.3%, CAC -0.8%); Brent +0.6%, gold +1.6%, 10Y yield eased to 4.85%."
+   "US futures jump (S&P +0.7%, Nasdaq +0.6%) in a shortened Black Friday session as the AI trade rebounds and chip stocks recover.",
+   "Asia and Europe both rallied overnight (DAX +2.1%, FTSE +1.8%, MSCI Asia +0.6%), extending Thursday's global bounce in risk assets.",
+   "Brent crude rose above $96 after Houthi strikes hit a Saudi refinery, adding a geopolitical risk premium amid Iran-related tensions near Hormuz.",
+   "VIX fell 5.3% to 26.8 and the 10Y yield eased to 4.85%, easing stress after one of the market's worst weeks in years."
   ]
  },
  "picks": {
-  "BJ": {
-   "verdict": "VETO",
-   "cause": "company",
-   "why": "BJ's beat Q3 and raised FY26 guidance, but results leaned on a $240M one-time legal settlement masking margin pressure; insider selling flagged and BofA cut to Neutral (company-specific), explaining the drop.",
-   "sentiment": -0.12,
-   "sent_conf": 0.85,
-   "bull": "Raised guidance and record membership base suggest the core business is still growing.",
-   "bear": "One-time settlement masks margin pressure; insider selling is a genuine earnings-quality red flag.",
+  "WST": {
+   "verdict": "CAUTION",
+   "cause": "unclear",
+   "why": "Dropped 7.7% despite a Q3 beat and raised FY guidance; no analyst downgrades, rvol modest (1.47x). Looks like profit-taking/valuation reset after a big prior rally, not identifiable company damage.",
+   "sentiment": -0.1,
+   "sent_conf": 0.5,
+   "bull": "Q3 beat, raised FY guidance, strong GLP-1/biologics demand support fundamentals.",
+   "bear": "Valuation remains stretched after a big rally; drop may be further de-rating, not a bounce setup.",
    "catalysts": "none found",
-   "flags": ["insider selling", "earnings quality", "BofA downgrade"],
+   "flags": ["valuation re-rate", "post-rally profit-taking"],
    "sources": [
-    {"title": "What Does BJ's Wholesale Club Holdings (BJ) Raised Guidance Mean After Q3?", "url": "https://finance.yahoo.com/markets/stocks/articles/does-bjs-wholesale-club-holdings-211837722.html?.tsrc=rss"}
+    {"title": "West Pharmaceutical Services (WST) Posted Strong Results, Is The Stock Still Expensive?", "url": "https://finance.yahoo.com/markets/stocks/articles/west-pharmaceutical-services-wst-posted-151116034.html?.tsrc=rss"},
+    {"title": "West Pharmaceutical Services Inc (WST) Stock Down 4.1% but Still Overvalued", "url": "https://www.gurufocus.com/news/9220928/west-pharmaceutical-services-inc-wst-stock-down-41-but-still-overvalued-gf-score-94100"}
    ]
   },
-  "WST": {
-   "verdict": "CONFIRM",
-   "cause": "macro",
-   "why": "WST beat Q3 (EPS +35.7%) and raised FY26 outlook to $9.38-9.48 EPS; no negative company news found. Decline looks like profit-taking on an overbought name amid the broader multi-day risk-off tape.",
-   "sentiment": 0.24,
-   "sent_conf": 0.68,
-   "bull": "Raised guidance, 35.7% EPS growth, and 15 buy vs 1 sell rating show momentum intact.",
-   "bear": "Stock was overbought into earnings; pullback could extend if broad risk-off persists.",
+  "BJ": {
+   "verdict": "CAUTION",
+   "cause": "company",
+   "why": "Fell 8.3% even after beating Q3 estimates and raising guidance; a one-time $240M legal settlement funded promos that masked margin pressure. Analysts split: BofA/Morgan Stanley cut, DA Davidson/TD Cowen raised targets.",
+   "sentiment": -0.17,
+   "sent_conf": 0.7,
+   "bull": "Comps +13.5%, membership income +9.5%, FY guidance raised despite one-time items.",
+   "bear": "One-time legal settlement inflated profit and funded promos, masking underlying margin erosion.",
    "catalysts": "none found",
-   "flags": ["overbought", "no damage found"],
+   "flags": ["earnings quality/one-time gain", "mixed analyst moves", "margin pressure"],
    "sources": [
-    {"title": "West Pharmaceutical: 3 Key Takeaways for Long-Term Investors", "url": "https://www.fool.com/earnings/takeaways/2026/11/24/west-pharmaceutical-3-key-takeaways-for-long-term-investors/?.tsrc=rss"}
+    {"title": "BJ's Wholesale Q3 2026 slides: strong growth amid margin pressure", "url": "https://ng.investing.com/news/stock-market-news/bjs-wholesale-q3-2026-slides-strong-growth-amid-margin-pressure-93CH-2821408"},
+    {"title": "BJ's Q3 Earnings Beat on Strong Comps, FY26 Outlook Raised", "url": "https://finance.yahoo.com/markets/stocks/articles/bjs-q3-earnings-beat-strong-135200401.html?.tsrc=rss"}
    ]
   },
   "TXN": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "Weakness tracks a sector-wide semiconductor oversupply scare (UBS flagged rising chip inventories industry-wide), not a TXN problem; Cantor Fitzgerald upgraded TXN to Overweight and raised PT to 385 this week.",
-   "sentiment": 0.21,
-   "sent_conf": 0.83,
-   "bull": "Diversified industrial/auto/data-center mix and a fresh Overweight upgrade argue TXN is relatively insulated.",
-   "bear": "If chip oversupply shows up in numbers next quarter, the whole group re-rates lower.",
+   "why": "Down 7.6% in a broad semis selloff after rival Analog Devices' weak outlook hit the whole analog-chip group; no TXN-specific bad news. Cantor Fitzgerald raised its PT to $385 on Nov 23.",
+   "sentiment": 0.36,
+   "sent_conf": 0.68,
+   "bull": "Sector-wide selloff, not TXN-specific; Cantor upgraded PT to $385, shares already rebounding.",
+   "bear": "Chip-sector demand/pricing worries from Analog Devices' guidance could persist and cap the bounce.",
    "catalysts": "none found",
-   "flags": ["sector oversupply risk"],
+   "flags": ["sector-wide semis selloff", "Analog Devices weak outlook"],
    "sources": [
-    {"title": "Texas Instruments (TXN) Remains A Preferred Pick Despite Chip Oversupply Risk", "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-remains-preferred-222318529.html?.tsrc=rss"}
+    {"title": "Texas Instruments (TXN) Stock Is Down 8.1% Today: Chip Sector Sell-Off", "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-stock-down-153245668.html"},
+    {"title": "TXN Stock Rebounds 4.55% to $270 as Chip Stocks Recover From Tariff Shock", "url": "https://www.fxleaders.com/news/2026/11/27/texas-instruments-stock-forecast-txn-price-target/"}
    ]
   },
   "ASH": {
-   "verdict": "CAUTION",
-   "cause": "unclear",
-   "why": "Ashland is in confirmed, unresolved takeover talks with Clariant/CD&R (all-cash, near current price); Bloomberg says a deal 'could come together in coming days' but could also fall through, a binary event risk inside the hold window.",
-   "sentiment": 0.1,
-   "sent_conf": 0.7,
-   "bull": "An all-cash buyout near the current price would cap downside and could close within days.",
-   "bear": "No certainty talks conclude; a collapsed deal would remove the takeover premium fast.",
-   "catalysts": "Possible Clariant/CD&R deal announcement or collapse",
-   "flags": ["pending M&A", "binary event"],
+   "verdict": "CONFIRM",
+   "cause": "macro",
+   "why": "Fell 7.6% on below-average volume (rvol 0.99), mirroring the market-wide selloff rather than company news. Clariant/CD&R are in advanced buyout talks near the current price, offering downside support if finalized.",
+   "sentiment": 0.5,
+   "sent_conf": 0.8,
+   "bull": "Clariant/CD&R buyout talks offer price support and takeover-premium upside.",
+   "bear": "Deal reportedly values Ashland near current price, leaving little premium if talks collapse.",
+   "catalysts": "possible Clariant/CD&R buyout announcement or completion",
+   "flags": ["M&A pending", "deal could fall through"],
    "sources": [
-    {"title": "Clariant confirms talks regarding a potential acquisition of Ashland", "url": "https://finance.yahoo.com/markets/stocks/articles/clariant-confirms-talks-regarding-potential-210000088.html?.tsrc=rss"},
-    {"title": "Clariant confirms talks regarding a potential acquisition of Ashland", "url": "https://www.globenewswire.com/news-release/2026/11/23/3408861/0/en/clariant-confirms-talks-regarding-a-potential-acquisition-of-ashland.html"}
+    {"title": "Clariant confirms talks regarding a potential acquisition of Ashland", "url": "https://www.clariant.com/en/corporate/news/2026/11/clariant-confirms-talks-regarding-a-potential-acquisition-of-ashland"},
+    {"title": "Clariant and CD&R Are in Talks to Buy Chemicals Firm Ashland - Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-22/clariant-and-cd-r-are-in-talks-to-buy-chemicals-firm-ashland"}
    ]
   },
   "J": {
    "verdict": "CONFIRM",
-   "cause": "macro",
-   "why": "Reporting explicitly states 'no company news explained the drop'; Jacobs fell with engineering/construction peers (Quanta, Comfort Systems) in a broad AI-led Nasdaq selloff. Truist, UBS and RBC all raised price targets this week.",
-   "sentiment": 0.44,
-   "sent_conf": 0.58,
-   "bull": "Peers fell in lockstep and three analysts raised price targets this week; no company damage.",
-   "bear": "Still exposed to further broad risk-off if the AI-led selloff resumes.",
+   "cause": "sector",
+   "why": "Down 7.5% (rvol 2.1x) purely on an AI-theme market selloff on Nov 25; no company-specific negative news. Jacobs posted a Q4 beat with backlog growth and four analysts raised price targets this week.",
+   "sentiment": 0.23,
+   "sent_conf": 0.6,
+   "bull": "Drop tied to AI-theme selloff, not Jacobs; Q4 beat, backlog growth, four PT hikes.",
+   "bear": "Elevated rvol (2.07x) and reliance on AI-capex demand could still slow, pressuring the bounce.",
    "catalysts": "none found",
-   "flags": [],
+   "flags": ["AI-theme macro selloff", "elevated rvol"],
    "sources": [
-    {"title": "Jacobs (J) Stock Is Down 5.7% Today: AI-Led Market Selloff", "url": "https://finance.yahoo.com/markets/stocks/articles/jacobs-j-stock-down-5-153018697.html?.tsrc=rss"}
+    {"title": "Jacobs (J) Stock Is Down 5.7% Today: AI-Led Market Selloff", "url": "https://www.gurufocus.com/news/9220376/jacobs-j-stock-is-down-57-today-ailed-market-selloff"},
+    {"title": "Jacobs (J) Reports Strong Q4 Revenue, Backlog Growth Amid AI-Driven Demand", "url": "https://www.gurufocus.com/news/9215683/jacobs-j-reports-strong-q4-revenue-backlog-growth-amid-aidriven-demand"}
    ]
   },
   "MPC": {
    "verdict": "CONFIRM",
    "cause": "sector",
-   "why": "Decline tracks a 7th-straight-day drop across refiners (Marathon, Valero, Phillips 66) as the 3-2-1 crack spread nearly halved from its October peak amid easing Middle East supply-risk premium; no company-specific news found.",
-   "sentiment": -0.14,
-   "sent_conf": 0.5,
-   "bull": "US gasoline demand at record highs and restricted new refining capacity support margins longer-term.",
-   "bear": "Crack spreads could keep compressing further if geopolitical risk premium keeps unwinding.",
+   "why": "Fell 7.4% as Energy led sector declines (-11%); Citi and Mizuho cut PT citing industrywide refining crack-spread compression, not MPC-specific damage. Q3 crack spreads were still strong at $45.70/bbl.",
+   "sentiment": -0.07,
+   "sent_conf": 0.64,
+   "bull": "Oil/Energy sector-wide pullback, not MPC-specific; Q3 crack spreads strong at $45.70/bbl.",
+   "bear": "Citi slashed PT from $518 to $415 on crack-spread compression risk that could persist.",
    "catalysts": "none found",
-   "flags": ["sector margin compression"],
+   "flags": ["refining margin/crack spread compression", "sector-wide energy weakness"],
    "sources": [
-    {"title": "Marathon Petroleum Corp. (MPC) Drives Strong Quarterly Gains for Energy Basket", "url": "https://finance.yahoo.com/energy/articles/marathon-petroleum-corp-mpc-drives-175905526.html?.tsrc=rss"},
-    {"title": "Marathon, Phillips 66, Valero Head for 7th Straight Loss", "url": "https://www.benzinga.com/markets/equities/26/11/63600208/marathon-phillips-66-valero-seventh-straight-loss-hormuz-refiners-crack-spread"}
+    {"title": "Citigroup Issues Pessimistic Forecast for Marathon Petroleum (NYSE:MPC) Stock Price", "url": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-pessimistic-forecast-for-marathon-petroleum-nyse-mpc-stock-price-2026-11-23/"},
+    {"title": "Marathon Petroleum (NYSE:MPC) Shares Down 2.4% After Analyst Downgrade", "url": "https://www.defenseworld.net/2026/11/24/marathon-petroleum-nysempc-shares-down-2-4-after-analyst-downgrade.html"}
    ]
   }
  }
